@@ -1,0 +1,86 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 16px; 
+  padding: 0px 10px;
+  transition: margin-left .5s;
+}
+
+.subsidenav {
+  display: none;
+}
+
+.subsidenav a {
+  font-size: 14px;
+}
+
+@media (max-device-width: 450px) {
+  .sidenav {width: 0px; padding-top: 15px;}
+  .main {margin-left: 0px; font-size: 30px; }
+  .sidenav a {font-size: 30px;}
+}
+
+@media (min-device-width: 450px) {
+  .sidenav {width: 200px;}
+  .main {margin-left: 200px;}
+  .openbtn {display: none;}
+  #sidenav > a.closebtn {display: none;}
+}
+
+@media print {
+  .sidenav {display: none;}
+}

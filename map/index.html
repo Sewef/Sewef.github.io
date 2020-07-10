@@ -9,20 +9,31 @@
     <title>Localisations Pokebip</title>
   </head>
   <body>
-    <div id="map" class="map"></div>
+  
+    <div id="advert">
+    <center>
+        <h1>⚠</h1>
+        <p>(Message +18)</p>
+        
+        <div id="acceptbtn">
+            <button class="acceptbtn" onclick="window.location.href = './index.html';">› J'accepte</button>
+        </div>
+    </center>
+    </div>
+    <div id="map" class="map blur"></div>
 
-    <div id="popup" class="ol-popup">
+    <div id="popup" class="ol-popup blur">
       <div id="popup-content"></div>
     </div>
-	
-	<div id="info" class="info">
-		<div id="list" class="list">
-		</div>
-		<div id="togglebtn">
-			<button class="togglebtn" onclick="toggleInfo()">›</button>
-		</div>
+    
+    <div id="info" class="info blur">
+        <div id="list" class="list">
+        </div>
+        <div id="togglebtn">
+            <button class="togglebtn" onclick="toggleInfo()">›</button>
+        </div>
     </div>
-	
+    
     <script src="data.js"></script>
     <script src="mapDraw.js"></script>
   </body>

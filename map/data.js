@@ -10,7 +10,7 @@ var cities = {
 var people = [
 	{ name: "Dummy1", 		city: "Strasbourg"},
 	{ name: "Dummy2", 		  city: "Rouen"},
-	{ name: "Citron", 	city: "Rouen"},
+	{ name: "Dummy0", 	city: "Rouen"},
 	{ name: "Dummy3", 	city: "Paris"},
 	{ name: "Dummy4", 	  city: "Tokyo"},
 ];

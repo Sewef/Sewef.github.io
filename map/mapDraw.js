@@ -97,6 +97,28 @@ var map = new ol.Map({
 });
 
 //
+//  ADVERT
+//
+doAdvert();
+
+function doAdvert() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.get('advert') != null) {
+    // Show message
+    document.getElementById('advert').style.display = 'block';
+    // Blur page
+    for (var i=0, l=document.getElementsByClassName('blur').length; i<l; i++)
+      document.getElementsByClassName('blur')[i].style.filter = 'blur(5px)';
+    // Disable map
+    map.getInteractions().forEach(function(interaction) {
+        interaction.setActive(false);
+    }, this);
+  }
+  
+}
+
+//
 //  INTERACTION
 //
 

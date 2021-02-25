@@ -40,12 +40,18 @@ var markers=[];
 populateMarkers();
 function populateMarkers() {
   for(var key in cities) {
-    var mark = new ol.Feature({
-      title: key,
-      geometry: new ol.geom.Point(cities[key]),
+    var CityPeople = people.filter(function (item) {
+      return item.city == key;
     });
-    mark.setStyle(iconStyle['Default']);
-    markers.push(mark);
+    
+    if (CityPeople.length > 0) {
+      var mark = new ol.Feature({
+        title: key,
+        geometry: new ol.geom.Point(cities[key]),
+      });
+      mark.setStyle(iconStyle['Default']);
+      markers.push(mark);
+    }
   }
 }
 

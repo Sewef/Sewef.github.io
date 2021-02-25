@@ -4,7 +4,7 @@
 //  INITIALISATION
 //
 
-// City Markers
+// City Markers styles
 var iconStyle = {
   Default:
       new ol.style.Style({
@@ -107,14 +107,20 @@ function doAdvert() {
   if (urlParams.get('advert') != null) {
     // Show message
     document.getElementById('advert').style.display = 'block';
+	
     // Blur page
-    for (var i=0, l=document.getElementsByClassName('blur').length; i<l; i++)
-      document.getElementsByClassName('blur')[i].style.filter = 'blur(5px)';
+    Array.from(document.getElementsByClassName('blur')).forEach(
+		function(element, index, array) {
+			element.style.filter = 'blur(5px)';
+		}
+	);
+	
     // Disable map
     map.getInteractions().forEach(function(interaction) {
         interaction.setActive(false);
     }, this);
 	
+	// Disable btnlist
     document.getElementsByClassName('togglebtn')[0].disabled = true;
   }
   
@@ -193,9 +199,7 @@ function getPeopleOnCity(feature) {
 
 // Unselect everything
 function clearFeatures() {
-  for (var i = 0, l = vectorSource.getFeatures().length; i < l; i++) {
-    vectorSource.getFeatures()[i].setStyle(iconStyle['Default']);
-  }
+  vectorSource.getFeatures().forEach(element => element.setStyle(iconStyle['Default']));
   overlay.setPosition(undefined);
 }
 

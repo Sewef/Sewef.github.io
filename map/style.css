@@ -4,11 +4,20 @@ hr
 	margin-block-start:.1em;
 }
 
-html,body
+html,body,.acceptbtn
 {
 	font-family:"Arial", sans-serif;
-	font-size:calc(0.75em+1vmin);
+	font-size:100%;
 	margin:0;
+}
+
+@media only screen and (max-device-width: 768px)
+{
+  .html,body
+  {
+	font-size:1vw;
+	font-size-adjust: 0.5;
+  }
 }
 
 #advert
@@ -18,7 +27,7 @@ html,body
   position: fixed;
   top: 50%;
   left: 50%;
-  min-height:40%;
+  min-height:20%;
   min-width:40%;
   padding:0% 10px;
   background-color:#444;
@@ -27,6 +36,12 @@ html,body
   color:#BBB;
 }
 
+.acceptbtn
+{
+	/* position:relative; */
+	width: 80%;
+	height: auto;
+}
 
 .info
 {
@@ -69,18 +84,7 @@ html,body
 	z-index:2;
 }
 
-button
-{
-	cursor:pointer;
-}
 
-@media only screen and (max-width: 768px)
-{
-  .info .togglebtn
-  {
-    width: 10%;
-  }
-}
 .info .togglebtn:hover
 {
 	background-color:#444;
@@ -93,6 +97,27 @@ button
 	font-size:20px;
 	padding:6px 8px 6px 16px;
 	text-decoration:none;
+}
+
+
+@media only screen and (max-device-width: 768px)
+{
+  .info .togglebtn
+  {
+	width: 6vw;
+  }
+  
+  .info a
+  {
+	font-size: 2em;
+	font-size-adjust: 0.8;
+  }
+}
+
+
+button
+{
+	cursor:pointer;
 }
 
 .map

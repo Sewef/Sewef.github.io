@@ -114,6 +114,8 @@ function doAdvert() {
     map.getInteractions().forEach(function(interaction) {
         interaction.setActive(false);
     }, this);
+	
+    document.getElementsByClassName('togglebtn')[0].disabled = true;
   }
   
 }
@@ -154,7 +156,7 @@ map.on('pointermove', (e) => {
 
 // Open / Close sidebar
 function toggleInfo() {
-  if (document.getElementById('info').style.width == document.getElementById('togglebtn').style.width) {
+    if (document.getElementById('info').style.width == document.getElementById('togglebtn').style.width) {
       
     var mq = window.matchMedia( '(only screen and (max-width: 768px))' );
     if (mq.matches) {

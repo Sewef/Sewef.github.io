@@ -20,6 +20,7 @@ html,body
   left: 50%;
   min-height:40%;
   min-width:40%;
+  padding:0% 10px;
   background-color:#444;
   transform: translate(-50%, -50%);
   border-radius:10px;
@@ -57,7 +58,6 @@ html,body
 	background-color:#111;
 	border:none;
 	color:#FFF;
-	cursor:pointer;
 	display:inline-block;
 	float:left;
 	font-size:14px;
@@ -67,6 +67,11 @@ html,body
 	top:0;
 	width:2%;
 	z-index:2;
+}
+
+button
+{
+	cursor:pointer;
 }
 
 @media only screen and (max-width: 768px)
@@ -95,7 +100,6 @@ html,body
 	height:100%;
 	position:fixed;
 	width:100%;
-  /* filter: blur(1px); */
 }
 
 .ol-popup

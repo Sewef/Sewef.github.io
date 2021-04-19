@@ -1,4 +1,4 @@
-document.write("Look i'm working fine");
+document.write("+");
 console.log("Hello");
 
 
@@ -6,13 +6,10 @@ console.log("Hello");
 var rotation = 0;
 var helicoFlag = false;
 document.addEventListener("wheel", function (e) {
-	// console.log("wheel");
 	rotation += e.deltaY*10;
 	document.getElementById("myText").style.transform = "rotate("+rotation+"deg)";
 	
-	// if (rotation > 3600 && !helicoFlag) {
 	if (rotation > 360 && !helicoFlag) {
-		console.log("vrrr");
 		helicoFlag = true;
 		helico();
 	}
@@ -43,7 +40,7 @@ if("ontouchstart" in window){
 
 var yPosStart;
 function touchStartHandler(e) {
-	yPosStart=e.touches[0].clientY;
+	yPosStart = e.touches[0].clientY;
 }
 
 function touchMoveHandler(e) {

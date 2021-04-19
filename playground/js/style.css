@@ -37,7 +37,7 @@ body, html {
 }
 
 .helico {
-  position:absolute;
+  position: absolute;
 	max-height: 20%;
 	max-width: 100%;
   transform: scaleX(-1);

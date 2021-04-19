@@ -17,6 +17,7 @@ document.addEventListener("wheel", function (e) {
 }, true);
 
 function helico() {
+	console.log("vrrr");
 	document.getElementsByClassName("animation")[0].style.display = "block";
 }
 

@@ -37,12 +37,14 @@ body, html {
 }
 
 .helico {
+  position:absolute;
 	max-height: 20%;
 	max-width: 100%;
-	animation: travelingLeftToRightMirror 8s linear 0s forwards;
+  transform: scaleX(-1);
+	animation: travelingLeftToRight 4s linear 0s forwards;
 }
 
-@keyframes travelingLeftToRightMirror {
-	from {transform: translate(-1000%, 0) scaleX(-1);}
-	to {transform: translate(1000%, 0) scaleX(-1);};
+@keyframes travelingLeftToRight {
+	from { left: -50%;}
+	to { left: 150%;};
 }

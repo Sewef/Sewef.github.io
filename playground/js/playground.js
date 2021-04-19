@@ -11,7 +11,7 @@ document.addEventListener("wheel", function (e) {
 	document.getElementById("myText").style.transform = "rotate("+rotation+"deg)";
 	
 	// if (rotation > 3600 && !helicoFlag) {
-	if (rotation > 30 && !helicoFlag) {
+	if (rotation > 360 && !helicoFlag) {
 		console.log("vrrr");
 		helicoFlag = true;
 		helico();

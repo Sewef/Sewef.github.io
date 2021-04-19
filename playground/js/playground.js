@@ -1,7 +1,39 @@
 document.write("Look i'm working fine");
 console.log("Hello");
 
-document.getElementById("myText").style.WebkitTransitionDuration='0.4s';
+
+// General
+var rotation = 0;
+var helicoFlag = false;
+document.addEventListener("wheel", function (e) {
+	// console.log("wheel");
+	rotation += e.deltaY*10;
+	document.getElementById("myText").style.transform = "rotate("+rotation+"deg)";
+	
+	// if (rotation > 3600 && !helicoFlag) {
+	if (rotation > 30 && !helicoFlag) {
+		console.log("vrrr");
+		helicoFlag = true;
+		helico();
+	}
+	return false;
+}, true);
+
+function helico() {
+	document.getElementsByClassName("animation")[0].style.display = "block";
+}
+
+
+
+
+
+
+
+
+
+/******************************************
+	Touchscreen support
+******************************************/
 
 if("ontouchstart" in window){
    document.addEventListener('touchstart', touchStartHandler, false);
@@ -9,20 +41,6 @@ if("ontouchstart" in window){
    // document.addEventListener('touchend', touchEndHandler);
 }
 
-// General
-var rotation = 0;
-document.addEventListener("wheel", function (e) {
-	// console.log("wheel");
-	rotation += e.deltaY*10;
-	document.getElementById("myText").style.transform = "rotate("+rotation+"deg)";
-	  
-	return false;
-}, true);
-
-
-
-
-// Touchscreen support
 var yPosStart;
 function touchStartHandler(e) {
 	yPosStart=e.touches[0].clientY;

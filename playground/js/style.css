@@ -1,3 +1,7 @@
+body, html {
+	overflow: hidden;
+}
+
 .outer {
   display: table;
   position: absolute;
@@ -13,10 +17,29 @@
 }
 
 .inner {
-  border: green 3;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
   text-align: center;
   border: solid;
+  -webkit-transition-duration: 0.4s;
+}
+
+.animation {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+	overflow: hidden;
+}
+
+.helico {
+	max-height: 20%;
+	max-width: 100%;
+	animation: travelingLeftToRightMirror 5s linear 0s forwards;
+}
+
+@keyframes travelingLeftToRightMirror {
+  from {transform: translate(-1000%, 0) scaleX(-1);}
+  to {transform: translate(1000%, 0) scaleX(-1);};
 }

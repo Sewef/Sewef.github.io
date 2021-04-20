@@ -26,7 +26,6 @@ body, html {
 	border-left: 30px solid;
 	border-right: 30px solid;
 	-webkit-transition-duration: 0.4s;
-  transform: rotateZ(15deg);
 }
 
 .animation {

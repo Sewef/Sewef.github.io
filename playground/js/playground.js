@@ -3,13 +3,14 @@ console.log("Hello");
 
 
 // General
-var rotation = 0;
+var rotationY = 0;
 var helicoFlag = false;
 document.addEventListener("wheel", function (e) {
-	rotation += e.deltaY*10;
-	document.getElementById("myText").style.transform = "rotate("+rotation+"deg)";
+	rotationY += e.deltaY*8;
+	// console.log(((rotationY%360)-180)/18);
+	document.getElementById("myText").style.transform = "rotateY("+rotationY+"deg) rotateZ("+((rotationY%360)-180)/15+"deg)";
 	
-	if (abs(rotation) > 4*360 && !helicoFlag) {
+	if (abs(rotationY) > 4*360 && !helicoFlag) {
 		helicoFlag = true;
 		helico();
 	}

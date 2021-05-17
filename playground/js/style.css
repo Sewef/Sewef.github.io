@@ -1,8 +1,9 @@
 body, html {
+  margin: 0 auto;
 	overflow: hidden;
 }
 
-.outer {
+#outer {
 	display: table;
 	position: absolute;
 	top: 0;
@@ -11,9 +12,37 @@ body, html {
 	width: 100%;
 }
 
-.middle {
+#sky {
+  position: absolute;
+  margin: 0 auto;
+	top: 0;
+  height: 20%;
+  width: 100%;
+  
+}
+
+#sky > .cloud {
+  border-radius: 50%;
+  background: white;
+  display: inline-block;
+  position: absolute;
+}
+
+#footer {
+  position: absolute;
+  margin: 0 auto;
+	bottom: 0;
+  height: 15%;
+  width: 100%;
+  
+  background: linear-gradient(to top, rgba(8,62,3,1) 0%, rgba(13,121,9,1) 35%, rgba(23,159,39,1) 100%);
+}
+
+#middle {
 	display: table-cell;
 	vertical-align: middle;
+  
+  background: linear-gradient(to bottom, #1488cc, #2b32b2);
 }
 
 .inner {
@@ -28,7 +57,7 @@ body, html {
 	-webkit-transition-duration: 0.4s;
 }
 
-.animation {
+#animation {
 	position: absolute;
 	height: 100%;
 	width: 100%;

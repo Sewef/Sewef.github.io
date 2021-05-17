@@ -17,6 +17,14 @@ document.addEventListener("wheel", function (e) {
 		helicoFlag = true;
 		helico();
 	}
+	
+	for (let i = 0; i < document.getElementsByClassName("cloud").length; i++) {
+		console.log(document.getElementsByClassName("cloud")[i].style.marginLeft.replace("px", ""));
+		document.getElementsByClassName("cloud")[i].style.marginLeft = (document.getElementsByClassName("cloud")[i].style.marginLeft.replace("px", "") - e.deltaY) + "px";
+	}
+	
+	
+	
 	return false;
 }, true);
 
@@ -49,16 +57,6 @@ for (let i = 0; i < 9; i++) {
 	
 	document.getElementById("sky").appendChild(myCloud);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -26,6 +26,7 @@ body, html {
   background: white;
   display: inline-block;
   position: absolute;
+	-webkit-transition-duration: 0.4s;
 }
 
 #footer {

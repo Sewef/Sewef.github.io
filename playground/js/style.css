@@ -29,7 +29,7 @@ body, html {
 	-webkit-transition-duration: 0.4s;
 }
 
-#footer {
+#ground {
   position: absolute;
   margin: 0 auto;
 	bottom: 0;

@@ -1,19 +1,20 @@
 console.log("Hello");
 
+const screenX = 0;
+const screenWidth = document.getElementById("sky").offsetWidth;
+
 const minCloudHeight = document.getElementById("sky").offsetHeight * .10;
 const maxCloudHeight = document.getElementById("sky").offsetHeight * .40;
 
-const minCloudWidth = document.getElementById("sky").offsetWidth * .10;
-const maxCloudWidth = document.getElementById("sky").offsetWidth * .30;
+const minCloudWidth = screenWidth * .10;
+const maxCloudWidth = screenWidth * .30;
 
 const minCloudY = document.getElementById("sky").offsetHeight * .30;
 const maxCloudY = document.getElementById("sky").offsetHeight * .90;
 
 const minCloudX = 0;
-const maxCloudX = document.getElementById("sky").offsetWidth;
+const maxCloudX = screenWidth;
 
-const screenX = 0;
-const screenWidth = document.getElementById("sky").offsetWidth;
 
 /******************************************
 	Scrolling functions
@@ -34,27 +35,24 @@ document.addEventListener("wheel", function (e) {
 		helicoFlag = true;
 		helico();
 	}
+	
 	// Scroll clouds
 	let clouds = document.getElementsByClassName("cloud");
-	let cloudsToRemove = [];
 	for (let i = 0; i < clouds.length; i++) {
-		// console.log(document.getElementsByClassName("cloud")[i].style.marginLeft.replace("px", ""));
 		clouds[i].style.marginLeft = (clouds[i].style.marginLeft.replace("px", "") - e.deltaY) + "px";
 		
 		let cloudX = clouds[i].style.marginLeft.replace("px", "");
 		let cloudWidth = clouds[i].style.width.replace("px", "");
 		
-		if (-screenWidth*2 > cloudX || cloudX > screenWidth*2) {
-			console.log(clouds[i]);
-			cloudsToRemove.push(clouds[i]);
-		}
+		if (-screenWidth*2 > cloudX || cloudX > screenWidth*2)
+			clouds[i].setAttribute("dirty", "");
 	}
 	
-	cloudsToRemove.forEach(function(item, index, array) {
+	document.querySelectorAll("[dirty]").forEach(function(item, index, array) {
 		item.parentNode.removeChild(item);
 	});
 	
-	if (getRandomPercent() < 33) {
+	if (getRandomPercent() < 50) {
 		if (e.deltaY > 0) 
 			generateCloud(screenWidth*1.5, minCloudY, maxCloudY);
 		else

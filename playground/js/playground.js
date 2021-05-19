@@ -44,15 +44,18 @@ document.addEventListener("wheel", function (e) {
 		let cloudX = clouds[i].style.marginLeft.replace("px", "");
 		let cloudWidth = clouds[i].style.width.replace("px", "");
 		
+		// If too out of screen, mark to remove
 		if (-screenWidth*2 > cloudX || cloudX > screenWidth*2)
 			clouds[i].setAttribute("dirty", "");
 	}
 	
+	// Remove all "dirty" elements
 	document.querySelectorAll("[dirty]").forEach(function(item, index, array) {
 		item.parentNode.removeChild(item);
 	});
 	
-	if (getRandomPercent() < 50) {
+	// Spawn a new cloud sometimes
+	if (getRandomPercent() < 40) {
 		if (e.deltaY > 0) 
 			generateCloud(screenWidth*1.5, minCloudY, maxCloudY);
 		else
@@ -60,10 +63,10 @@ document.addEventListener("wheel", function (e) {
 		
 	}
 	
-	
 	return false;
 }, true);
 
+// Display vrrr after a time
 function helico() {
 	console.log("vrrr");
 	document.getElementById("animation").style.display = "block";
@@ -74,10 +77,12 @@ function helico() {
 	Populate Sky
 ******************************************/
 
+// Startup clouds
 for (let i = 0; i < 20; i++) {
 	generateCloudRandomX(-screenWidth*0.5, screenWidth*1.5, minCloudY, maxCloudY)
 }
 
+// Random X value
 function generateCloudRandomX(minX, maxX, minY, maxY) {
 	let myCloud = document.createElement("div");
 	myCloud.classList.add("cloud");
@@ -90,7 +95,7 @@ function generateCloudRandomX(minX, maxX, minY, maxY) {
 	document.getElementById("sky").appendChild(myCloud);
 }
 
-
+// Fixed X value
 function generateCloud(X, minY, maxY) {
 	let myCloud = document.createElement("div");
 	myCloud.classList.add("cloud");

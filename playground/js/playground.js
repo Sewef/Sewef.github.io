@@ -6,11 +6,11 @@ const screenWidth = document.getElementById("sky").offsetWidth;
 const minCloudHeight = 10;
 const maxCloudHeight = 40;
 
-const minCloudWidth = 15;
-const maxCloudWidth = 30;
+const minCloudWidth = 10;
+const maxCloudWidth = 35;
 
 const minCloudY = 10;
-const maxCloudY = 70;
+const maxCloudY = 75;
 
 const minCloudX = -50;
 const maxCloudX = 150;
@@ -39,7 +39,7 @@ document.addEventListener("wheel", function (e) {
 	// Scroll clouds
 	let clouds = document.getElementsByClassName("cloud");
 	for (let i = 0; i < clouds.length; i++) {
-		clouds[i].style.left = (clouds[i].style.left.replace("%", "") - e.deltaY/5) + "%";
+		clouds[i].style.left = (clouds[i].style.left.replace("%", "") - e.deltaY/4) + "%";
 		
 		let cloudX = clouds[i].style.left.replace("%", "");
 		let cloudWidth = clouds[i].style.width.replace("%", "");
@@ -91,15 +91,16 @@ function generateCloudRandomX(minX, maxX, minY, maxY) {
 
 // Fixed X value
 function generateCloud(X, minY, maxY) {
+	const minRatio = .6;
+	
 	let myCloud = document.createElement("div");
 	myCloud.classList.add("cloud");
 	
 	let height = getRandomArbitrary(minCloudHeight, maxCloudHeight);
 	let width = getRandomArbitrary(minCloudWidth, maxCloudWidth)
 	
-	if (width/height <= .4) {
-		width = height * .4;
-		console.log("resized");
+	if (width/height <= minRatio) {
+		width = height * minRatio;
 	}
 	
 	myCloud.style.height = height + "%";

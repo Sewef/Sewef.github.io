@@ -1,4 +1,5 @@
 body, html {
+  height: 100%;
   margin: 0 auto;
 	overflow: hidden;
 }
@@ -29,7 +30,7 @@ body, html {
 
 /* Sky */
 #sky {
-  position: absolute;
+  position: relative;
   margin: 0 auto;
 	top: 0;
   height: 20%;
@@ -38,7 +39,7 @@ body, html {
 
 #sky > .cloud {
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   position: absolute;
 	-webkit-transition-duration: 0.4s;
 }

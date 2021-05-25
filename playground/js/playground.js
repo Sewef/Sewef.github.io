@@ -3,17 +3,17 @@ console.log("Hello");
 const screenX = 0;
 const screenWidth = document.getElementById("sky").offsetWidth;
 
-const minCloudHeight = document.getElementById("sky").offsetHeight * .10;
-const maxCloudHeight = document.getElementById("sky").offsetHeight * .40;
+const minCloudHeight = 10;
+const maxCloudHeight = 40;
 
-const minCloudWidth = screenWidth * .10;
-const maxCloudWidth = screenWidth * .30;
+const minCloudWidth = 15;
+const maxCloudWidth = 30;
 
-const minCloudY = document.getElementById("sky").offsetHeight * .30;
-const maxCloudY = document.getElementById("sky").offsetHeight * .90;
+const minCloudY = 10;
+const maxCloudY = 70;
 
-const minCloudX = 0;
-const maxCloudX = screenWidth;
+const minCloudX = -50;
+const maxCloudX = 150;
 
 
 /******************************************
@@ -24,10 +24,10 @@ var rotationY = 0;
 var helicoFlag = false;
 
 document.addEventListener("wheel", function (e) {
+	// console.log(e.deltaY);
 	
 	// Rotate blade
 	rotationY += e.deltaY*8;
-	// console.log(rotationY);
 	document.getElementById("blade").style.transform = "rotateY("+rotationY+"deg) rotateZ("+((rotationY%360)-180)/15+"deg)";
 	
 	// Vrrrr animation
@@ -39,13 +39,13 @@ document.addEventListener("wheel", function (e) {
 	// Scroll clouds
 	let clouds = document.getElementsByClassName("cloud");
 	for (let i = 0; i < clouds.length; i++) {
-		clouds[i].style.marginLeft = (clouds[i].style.marginLeft.replace("px", "") - e.deltaY) + "px";
+		clouds[i].style.left = (clouds[i].style.left.replace("%", "") - e.deltaY/5) + "%";
 		
-		let cloudX = clouds[i].style.marginLeft.replace("px", "");
-		let cloudWidth = clouds[i].style.width.replace("px", "");
+		let cloudX = clouds[i].style.left.replace("%", "");
+		let cloudWidth = clouds[i].style.width.replace("%", "");
 		
 		// If too out of screen, mark to remove
-		if (-screenWidth*2 > cloudX || cloudX > screenWidth*2)
+		if (cloudX < -200 || cloudX > 200)
 			clouds[i].setAttribute("dirty", "");
 	}
 	
@@ -55,11 +55,11 @@ document.addEventListener("wheel", function (e) {
 	});
 	
 	// Spawn a new cloud sometimes
-	if (getRandomPercent() < 40) {
+	if (getRandomPercent() < 50) {
 		if (e.deltaY > 0) 
-			generateCloud(screenWidth*1.5, minCloudY, maxCloudY);
+			generateCloud(maxCloudX, minCloudY, maxCloudY);
 		else
-			generateCloud(-screenWidth*0.5, minCloudY, maxCloudY);
+			generateCloud(minCloudX, minCloudY, maxCloudY);
 		
 	}
 	
@@ -78,9 +78,10 @@ function helico() {
 ******************************************/
 
 // Startup clouds
+// generateCloudRandomX(-50, 150, minCloudY, maxCloudY)
 for (let i = 0; i < screenWidth/32; i++) {
 	if (getRandomPercent() < 40)
-		generateCloudRandomX(-screenWidth*0.5, screenWidth*1.5, minCloudY, maxCloudY)
+		generateCloudRandomX(minCloudX, maxCloudX, minCloudY, maxCloudY)
 }
 
 // Random X value
@@ -92,11 +93,20 @@ function generateCloudRandomX(minX, maxX, minY, maxY) {
 function generateCloud(X, minY, maxY) {
 	let myCloud = document.createElement("div");
 	myCloud.classList.add("cloud");
-	myCloud.style.height = getRandomArbitrary(minCloudHeight, maxCloudHeight) + "px";
-	myCloud.style.width = getRandomArbitrary(minCloudWidth, maxCloudWidth) + "px";
 	
-	myCloud.style.marginLeft = X + "px";
-	myCloud.style.marginTop = getRandomArbitrary(minY, maxY) + "px";
+	let height = getRandomArbitrary(minCloudHeight, maxCloudHeight);
+	let width = getRandomArbitrary(minCloudWidth, maxCloudWidth)
+	
+	if (width/height <= .4) {
+		width = height * .4;
+		console.log("resized");
+	}
+	
+	myCloud.style.height = height + "%";
+	myCloud.style.width = width + "%";
+	
+	myCloud.style.left = X + "%";
+	myCloud.style.top = getRandomArbitrary(minY, maxY) + "%";
 	
 	let grayScale = min(255,getRandomArbitrary(200, 300));
 	myCloud.style.background = "rgb("+grayScale+","+grayScale+","+grayScale+")";

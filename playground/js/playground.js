@@ -78,21 +78,14 @@ function helico() {
 ******************************************/
 
 // Startup clouds
-for (let i = 0; i < 20; i++) {
-	generateCloudRandomX(-screenWidth*0.5, screenWidth*1.5, minCloudY, maxCloudY)
+for (let i = 0; i < screenWidth/32; i++) {
+	if (getRandomPercent() < 40)
+		generateCloudRandomX(-screenWidth*0.5, screenWidth*1.5, minCloudY, maxCloudY)
 }
 
 // Random X value
 function generateCloudRandomX(minX, maxX, minY, maxY) {
-	let myCloud = document.createElement("div");
-	myCloud.classList.add("cloud");
-	myCloud.style.height = getRandomArbitrary(minCloudHeight, maxCloudHeight) + "px";
-	myCloud.style.width = getRandomArbitrary(minCloudWidth, maxCloudWidth) + "px";
-	
-	myCloud.style.marginLeft = getRandomArbitrary(minX, maxX) + "px";
-	myCloud.style.marginTop = getRandomArbitrary(minY, maxY) + "px";
-	
-	document.getElementById("sky").appendChild(myCloud);
+	generateCloud(getRandomArbitrary(minX, maxX), minY, maxY);
 }
 
 // Fixed X value
@@ -104,6 +97,9 @@ function generateCloud(X, minY, maxY) {
 	
 	myCloud.style.marginLeft = X + "px";
 	myCloud.style.marginTop = getRandomArbitrary(minY, maxY) + "px";
+	
+	let grayScale = min(255,getRandomArbitrary(200, 300));
+	myCloud.style.background = "rgb("+grayScale+","+grayScale+","+grayScale+")";
 	
 	document.getElementById("sky").appendChild(myCloud);
 }
@@ -147,4 +143,12 @@ function getRandom() {
 
 function getRandomPercent() {
   return Math.random()*100;
+}
+
+function min(n1, n2) {
+	return (n1 < n2 ? n1 : n2);
+}
+
+function max(n1, n2) {
+	return (n1 > n2 ? n1 : n2);
 }

@@ -3,6 +3,9 @@ console.log("Hello");
 const minObjectGen = -50;
 const maxObjectGen = 150;
 
+const despawnLeft = -150;
+const despawnRight = 250;
+
 
 /******************************************
 	Scrolling functions
@@ -33,7 +36,7 @@ document.addEventListener("wheel", function (e) {
 		let cloudWidth = clouds[i].style.width.replace("%", "");
 		
 		// If too out of screen, mark to remove
-		if (cloudX < -200 || cloudX > 200)
+		if (cloudX < despawnLeft || cloudX > despawnRight)
 			clouds[i].setAttribute("dirty", "");
 	}
 	
@@ -46,7 +49,7 @@ document.addEventListener("wheel", function (e) {
 		let treeWidth = trees[i].style.width.replace("%", "");
 		
 		// If too out of screen, mark to remove
-		if (treeX < -200 || treeX > 200)
+		if (treeX < despawnLeft || treeX > despawnRight)
 			trees[i].setAttribute("dirty", "");
 	}
 	
@@ -63,12 +66,17 @@ document.addEventListener("wheel", function (e) {
 			generateCloud(minObjectGen, minCloudY, maxCloudY);
 	}
 	
-	// Spawn a new cloud sometimes
-	if (getRandomPercent() < 80) {
+	// Spawn a new tree sometimes
+	if (getRandomPercent() < 90) {
 		if (e.deltaY > 0) 
 			generateTree(maxObjectGen, minTreeY, maxTreeY);
 		else
 			generateTree(minObjectGen, minTreeY, maxTreeY);
+	}
+	
+	if (getRandomPercent() < 2) {
+		generateForest(e.deltaY < 0);
+		console.log("forest");
 	}
 	
 	return false;
@@ -178,6 +186,15 @@ function generateTree(X, minY, maxY) {
 	myTree.style.backgroundColor = "rgba(0,0,0," + getRandomArbitrary(20,60)/100 + ")";
 	
 	document.getElementById("ground").appendChild(myTree);
+}
+
+function generateForest(leftSide) {
+	const xMin = leftSide ? despawnLeft : 150;
+	const xMax = leftSide ? -50 : despawnRight;
+	for (let i = 0; i<50; i++) {
+		if (getRandomPercent() < 70)
+			generateTreeRandomX(xMin, xMax, minTreeY, maxTreeY);
+	}
 }
 
 /******************************************

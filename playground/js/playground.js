@@ -215,7 +215,7 @@ function touchStartHandler(e) {
 
 function touchMoveHandler(e) {
 	// console.log(e.touches[0].clientY - yPosStart);
-	document.dispatchEvent(new WheelEvent('wheel', { 'deltaY': (e.touches[0].clientY - yPosStart) / 10 }));
+	document.dispatchEvent(new WheelEvent('wheel', { 'deltaY': -((e.touches[0].clientY - yPosStart) / 10) }));
 	yPosStart = e.touches[0].clientY;
 }
 

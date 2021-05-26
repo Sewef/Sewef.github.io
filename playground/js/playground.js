@@ -58,8 +58,10 @@ document.addEventListener("wheel", function (e) {
 		item.parentNode.removeChild(item);
 	});
 	
+	let randomPercent = getRandomPercent();
+	
 	// Spawn a new cloud sometimes
-	if (getRandomPercent() < 50) {
+	if (randomPercent < 50) {
 		if (e.deltaY > 0) 
 			generateCloud(maxObjectGen, minCloudY, maxCloudY);
 		else
@@ -67,16 +69,15 @@ document.addEventListener("wheel", function (e) {
 	}
 	
 	// Spawn a new tree sometimes
-	if (getRandomPercent() < 90) {
+	if (randomPercent < 90) {
 		if (e.deltaY > 0) 
 			generateTree(maxObjectGen, minTreeY, maxTreeY);
 		else
 			generateTree(minObjectGen, minTreeY, maxTreeY);
 	}
 	
-	if (getRandomPercent() < 2) {
+	if (randomPercent < 2) {
 		generateForest(e.deltaY < 0);
-		console.log("forest");
 	}
 	
 	return false;

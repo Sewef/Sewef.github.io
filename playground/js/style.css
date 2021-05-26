@@ -94,6 +94,11 @@ body, html {
 #ground > .tree {
   display: absolute;
   
+  min-height: 50px;
+  /* max-height: 80px; */
+  
+  min-width: 30px;
+  max-width: 80px;
   width: 12%;
   height: 100%;
   z-index: 0;
@@ -131,6 +136,7 @@ body, html {
 	margin-right: auto;
 	width: 400px;
 	text-align: center;
+  color: white;
   
 	border-top: 5px white solid;
 	border-bottom: 5px white solid;

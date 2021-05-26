@@ -91,6 +91,33 @@ body, html {
   background: linear-gradient(to top, rgba(8,62,3,1) 0%, rgba(13,121,9,1) 35%, rgba(23,159,39,1) 100%);
 }
 
+#ground > .tree {
+  display: absolute;
+  
+  width: 12%;
+  height: 100%;
+  z-index: 0;
+  bottom: 0;
+  
+  background-color: green;
+  background-image: linear-gradient(0deg, rgba(18,80,18,1) 0%, rgba(34,139,34,1) 85%);
+  background-blend-mode: multiply;
+  
+  /* The points are: centered top, left bottom, right bottom */
+  clip-path: polygon(50% 0, 0 100%, 100% 100%);
+  
+  display: inline-block;
+  position: absolute;
+	-webkit-transition-duration: 0.4s;
+  
+  animation: treeWaving 1s alternate linear 0s forwards infinite;
+}
+
+@keyframes treeWaving {
+	from    { clip-path: polygon(40% 10%, 0 100%, 100% 100%);}
+	to  { clip-path: polygon(60% 10%, 0 100%, 100% 100%);};
+}
+
 /* Middle of screen */ 
 #middle {
 	display: table-cell;

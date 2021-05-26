@@ -1,19 +1,7 @@
 console.log("Hello");
 
-const screenX = 0;
-const screenWidth = document.getElementById("sky").offsetWidth;
-
-const minCloudHeight = 10;
-const maxCloudHeight = 40;
-
-const minCloudWidth = 10;
-const maxCloudWidth = 35;
-
-const minCloudY = 10;
-const maxCloudY = 75;
-
-const minCloudX = -50;
-const maxCloudX = 150;
+const minObjectGen = -50;
+const maxObjectGen = 150;
 
 
 /******************************************
@@ -57,9 +45,9 @@ document.addEventListener("wheel", function (e) {
 	// Spawn a new cloud sometimes
 	if (getRandomPercent() < 50) {
 		if (e.deltaY > 0) 
-			generateCloud(maxCloudX, minCloudY, maxCloudY);
+			generateCloud(maxObjectGen, minCloudY, maxCloudY);
 		else
-			generateCloud(minCloudX, minCloudY, maxCloudY);
+			generateCloud(minObjectGen, minCloudY, maxCloudY);
 		
 	}
 	
@@ -77,11 +65,19 @@ function helico() {
 	Populate Sky
 ******************************************/
 
+const minCloudHeight = 10;
+const maxCloudHeight = 40;
+
+const minCloudWidth = 10;
+const maxCloudWidth = 35;
+
+const minCloudY = 10;
+const maxCloudY = 75;
+
 // Startup clouds
-// generateCloudRandomX(-50, 150, minCloudY, maxCloudY)
-for (let i = 0; i < screenWidth/32; i++) {
+for (let i = 0; i < 40; i++) {
 	if (getRandomPercent() < 40)
-		generateCloudRandomX(minCloudX, maxCloudX, minCloudY, maxCloudY)
+		generateCloudRandomX(minObjectGen, maxObjectGen, minCloudY, maxCloudY)
 }
 
 // Random X value
@@ -113,6 +109,55 @@ function generateCloud(X, minY, maxY) {
 	myCloud.style.background = "rgb("+grayScale+","+grayScale+","+grayScale+")";
 	
 	document.getElementById("sky").appendChild(myCloud);
+}
+
+
+
+/******************************************
+	Populate Ground
+******************************************/
+const minTreeHeight = 25;
+const maxTreeHeight = 80;
+
+const minTreeWidth = 10;
+const maxTreeWidth = 35;
+
+const minTreeY = 5;
+const maxTreeY = 95;
+
+for (let i = 0; i < 100; i++) {
+	if (getRandomPercent() < 70)
+		generateTreeRandomX(minObjectGen, maxObjectGen, minTreeY, maxTreeY)
+}
+
+// Random X value
+function generateTreeRandomX(minX, maxX, minY, maxY) {
+	generateTree(getRandomArbitrary(minX, maxX), minY, maxY);
+}
+
+// Fixed X value
+function generateTree(X, minY, maxY) {
+	const ratio = .10;
+	
+	let myTree = document.createElement("div");
+	myTree.classList.add("tree");
+	
+	let height = getRandomArbitrary(minTreeHeight, maxTreeHeight);
+	let width = height * ratio;
+	
+	myTree.style.height = height + "%";
+	myTree.style.width = width + "%";
+	
+	myTree.style.left = X + "%";
+	
+	let zAxis = getRandomArbitrary(minY, maxY);
+	
+	myTree.style.bottom = zAxis + "%";
+	myTree.style.zIndex = 100-parseInt(zAxis);
+	
+	myTree.style.backgroundColor = "rgba(0,0,0," + getRandomArbitrary(20,60)/100 + ")";
+	
+	document.getElementById("ground").appendChild(myTree);
 }
 
 /******************************************

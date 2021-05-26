@@ -37,6 +37,19 @@ document.addEventListener("wheel", function (e) {
 			clouds[i].setAttribute("dirty", "");
 	}
 	
+	// Scroll trees
+	let trees = document.getElementsByClassName("tree");
+	for (let i = 0; i < trees.length; i++) {
+		trees[i].style.left = (trees[i].style.left.replace("%", "") - e.deltaY/4) + "%";
+		
+		let treeX = trees[i].style.left.replace("%", "");
+		let treeWidth = trees[i].style.width.replace("%", "");
+		
+		// If too out of screen, mark to remove
+		if (treeX < -200 || treeX > 200)
+			trees[i].setAttribute("dirty", "");
+	}
+	
 	// Remove all "dirty" elements
 	document.querySelectorAll("[dirty]").forEach(function(item, index, array) {
 		item.parentNode.removeChild(item);
@@ -48,7 +61,14 @@ document.addEventListener("wheel", function (e) {
 			generateCloud(maxObjectGen, minCloudY, maxCloudY);
 		else
 			generateCloud(minObjectGen, minCloudY, maxCloudY);
-		
+	}
+	
+	// Spawn a new cloud sometimes
+	if (getRandomPercent() < 80) {
+		if (e.deltaY > 0) 
+			generateTree(maxObjectGen, minTreeY, maxTreeY);
+		else
+			generateTree(minObjectGen, minTreeY, maxTreeY);
 	}
 	
 	return false;

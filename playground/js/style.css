@@ -18,6 +18,11 @@ body, html {
 	to { left: 150%;};
 }
 
+@keyframes travelingRightToLeft {
+	from { }
+	to { left: -50%;};
+}
+
 /* Global elements */
 #outer {
 	display: table;
@@ -42,6 +47,15 @@ body, html {
   display: block;
   position: absolute;
 	-webkit-transition-duration: 0.4s;
+	animation: travelingRightToLeft 2s linear 0s infinite forwards;
+  
+  background-color: white;
+  background-image: linear-gradient(0deg, rgba(235,235,235,.95) 0%, rgba(255,255,255,.95) 85%);
+  background-blend-mode: multiply;
+}
+
+#sky > .cloud.oneTime {
+	animation-iteration-count: 1;
 }
 
 .helico {
@@ -90,7 +104,9 @@ body, html {
   width: 100%;
   overflow-x: clip;
   
-  background: linear-gradient(to top, rgba(8,62,3,1) 0%, rgba(13,121,9,1) 35%, rgba(23,159,39,1) 100%);
+  /*background-color: rgba(255,255,255,0.5);*/
+  background-image: linear-gradient(0deg, rgba(18,80,18,1) 0%, rgba(24,120,24,1) 85%);
+  background-blend-mode: multiply;
 }
 
 #ground > .tree {
@@ -121,8 +137,8 @@ body, html {
 }
 
 @keyframes treeWaving {
-	from    { clip-path: polygon(40% 10%, 0 100%, 100% 100%);}
-	to  { clip-path: polygon(60% 10%, 0 100%, 100% 100%);};
+	from    { transform: rotate(-1deg);}
+	to  { transform: rotate(1deg);};
 }
 
 /* Middle of screen */ 

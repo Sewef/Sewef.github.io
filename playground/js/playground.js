@@ -11,9 +11,28 @@ const despawnRight = 250;
 	Scrolling functions
 ******************************************/
 
+setInterval(onUpdate, 500);
+
+function onUpdate(){
+	let clouds = document.getElementsByClassName("cloud");
+	for (let i = 0; i < clouds.length; i++) {
+		if (clouds[i].getAnimation()) {
+			console.log(oneDirty);
+			clouds[i].setAttribute("dirty", "");
+			generateOneTimeCloud(100, maxObjectGen, minCloudY, maxCloudY)
+		}
+	}
+	
+	// Remove all "dirty" elements
+	document.querySelectorAll("[dirty]").forEach(function(item, index, array) {
+		item.parentNode.removeChild(item);
+	});
+}
+
+
 var rotationY = 0;
 var helicoFlag = false;
-
+/*
 document.addEventListener("wheel", function (e) {
 	// console.log(e.deltaY);
 	
@@ -82,12 +101,15 @@ document.addEventListener("wheel", function (e) {
 	
 	return false;
 }, true);
+*/
 
 // Display vrrr after a time
 function helico() {
 	console.log("vrrr");
 	document.getElementById("animation").style.display = "block";
 }
+
+
 
 
 /******************************************
@@ -106,16 +128,16 @@ const maxCloudY = 75;
 // Startup clouds
 for (let i = 0; i < 40; i++) {
 	if (getRandomPercent() < 40)
-		generateCloudRandomX(minObjectGen, maxObjectGen, minCloudY, maxCloudY)
+		generateOneTimeCloud(minObjectGen, maxObjectGen, minCloudY, maxCloudY)
 }
 
 // Random X value
-function generateCloudRandomX(minX, maxX, minY, maxY) {
-	generateCloud(getRandomArbitrary(minX, maxX), minY, maxY);
+function generateOneTimeCloud(minX, maxX, minY, maxY) {
+	generateCloud(getRandomArbitrary(minX, maxX), minY, maxY, true);
 }
 
 // Fixed X value
-function generateCloud(X, minY, maxY) {
+function generateCloud(X, minY, maxY, oneTime) {
 	const minRatio = .6;
 	
 	let myCloud = document.createElement("div");
@@ -135,12 +157,16 @@ function generateCloud(X, minY, maxY) {
 	myCloud.style.top = getRandomArbitrary(minY, maxY) + "%";
 	
 	let grayScale = min(255,getRandomArbitrary(200, 300));
-	myCloud.style.background = "rgb("+grayScale+","+grayScale+","+grayScale+")";
+	myCloud.style.backgroundColor = "rgba(0,0,0," + getRandomArbitrary(0,5)/100 + ")";
+	
+	if (oneTime == true){
+		myCloud.classList.add("oneTime");
+	}
+	
+	
 	
 	document.getElementById("sky").appendChild(myCloud);
 }
-
-
 
 /******************************************
 	Populate Ground
@@ -166,13 +192,13 @@ function generateTreeRandomX(minX, maxX, minY, maxY) {
 
 // Fixed X value
 function generateTree(X, minY, maxY) {
-	const ratio = .10;
+	const ratio = 4;
 	
 	let myTree = document.createElement("div");
 	myTree.classList.add("tree");
 	
-	let height = getRandomArbitrary(minTreeHeight, maxTreeHeight);
-	let width = height * ratio;
+	let width = getRandomArbitrary(minTreeWidth, maxTreeWidth);
+	let height = width * ratio;
 	
 	myTree.style.height = height + "%";
 	myTree.style.width = width + "%";
@@ -201,7 +227,7 @@ function generateForest(leftSide) {
 /******************************************
 	Touchscreen support
 ******************************************/
-
+/*
 if("ontouchstart" in window){
    document.addEventListener('touchstart', touchStartHandler, false);
    document.addEventListener('touchmove', touchMoveHandler, false);
@@ -219,7 +245,7 @@ function touchMoveHandler(e) {
 	yPosStart = e.touches[0].clientY;
 }
 
-
+*/
 /******************************************
 	Utils
 ******************************************/

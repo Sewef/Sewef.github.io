@@ -2,20 +2,18 @@
 <html>
     
 	<head>
+		<meta charset="utf-8"/>
         <title>Sewef - Accueil</title>
 		<link rel="icon" href="/favicon.ico"/>
-		<style>
-		@import url("/styles/default.css");
-        </style>
+		<link rel="stylesheet" href="styles/default.css">
         
 	</head>
 	<body>
-        <script src="/sidenav.js"></script>
+		 <div include-html="/includes/sideBar.html"></div>
 		
-		<div id="main" class="main">
-            <button class="openbtn" onclick="openNav()">&#9776; Toggle Sidebar</button>
-			<h2><img src="https://github.com/Sewef.png" style="max-width:128px;border-radius:50%;" align="middle"> Sewef</h2>
-			<p>Binary hacking sucks.</p>
-		</div>
+		<script src="scripts/includeHTML.js">
+		includeHTML();
+		</script>
+		
 	</body>
 </html>

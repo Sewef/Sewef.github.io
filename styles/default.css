@@ -51,12 +51,19 @@ body > .main
   min-height: 200px;
   flex-shrink: 2;
   flex-grow: 10;
-  background: rgb(30,30,30);
+  background-color: rgb(30,30,30);
+  background-size: cover;
+}
+
+.main > .blocks > a:hover
+{
+  filter: brightness(120%);
 }
 
 .main > .blocks > a > div
 {
   text-align: center;
+  background-color: rgba(30,30,30,.8);
 }
 
 /*

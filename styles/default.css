@@ -53,10 +53,12 @@ body > .main
   flex-grow: 10;
   background-color: rgb(30,30,30);
   background-size: cover;
+  transition: 0.2s ease-in;
 }
 
 .main > .blocks > a:hover
 {
+  transition: 0.2s ease-in;
   filter: brightness(120%);
 }
 

@@ -47,10 +47,11 @@ body > .main
 
 .main > .blocks > a
 {
-  min-width: 200px;
-  min-height: 200px;
+  /* padding-left: 22.22%; */
+  width: 200px;
+  height: 200px;
   flex-shrink: 2;
-  flex-grow: 10;
+  flex-grow: 1;
   background-color: rgb(30,30,30);
   background-size: cover;
   transition: 0.2s ease-in;

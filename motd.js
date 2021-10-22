@@ -1,5 +1,5 @@
 const motd = [
-"1",
+"Tout ça donne Sewaf.",
 "2",
 "3",
 "4",
@@ -20,7 +20,7 @@ const motd = [
 "19",
 "20",
 "21",
-"22",
+"Le beurre, l'argent du beurre, et un peu de crème pour le goût.",
 "23",
 "24",
 "25",

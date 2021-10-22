@@ -23,6 +23,11 @@ a:hover
   text-stroke: .1em;
 }
 
+*[lang]
+{
+  display: none;
+}
+
 /* Actual content */
 
 body > .main
@@ -105,6 +110,13 @@ body > .main
 .sideBar > img
 {
   border: solid 5px transparent;
+}
+
+.sideBar > .bottom
+{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 /* General style*/

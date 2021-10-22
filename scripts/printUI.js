@@ -10,9 +10,3 @@ posts.forEach(function(item)
 		</a>`;
   }
 );
-
-// for (let i=0; i<50; i++)
-// {
-	// document.getElementsByClassName("blocks")[0].innerHTML += "<div>AzerTy</div>";
-	// console.log("draw "+i);
-// }

@@ -1,6 +1,6 @@
 const motd = [
 "Tout ça donne Sewaf.",
-"2",
+"haha html go &lt;br&gt;",
 "3",
 "4",
 "5",
@@ -28,7 +28,7 @@ const motd = [
 "I'll tell you what I want, what I really really want.",
 "La logique et le bon sens n'ont pas de place dans cette maison.",
 "29",
-"30",
+"dummy dummy dummy a man after midnight.",
 "31",
 ];
 

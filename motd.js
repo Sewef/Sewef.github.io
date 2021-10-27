@@ -26,7 +26,7 @@ const motd = [
 "25",
 "26",
 "I'll tell you what I want, what I really really want.",
-"28",
+"La logique et le bon sens n'ont pas de place dans cette maison.",
 "29",
 "30",
 "31",

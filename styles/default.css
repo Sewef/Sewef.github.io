@@ -23,6 +23,7 @@ a:hover
   text-stroke: .1em;
 }
 
+/* No display for translated elements ; dispaly: initial in setLanguage.js */
 *[lang]
 {
   display: none;
@@ -116,7 +117,7 @@ body > .main
 {
   position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 5px;
 }
 
 /* General style*/

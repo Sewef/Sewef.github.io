@@ -22,7 +22,7 @@ document.addEventListener("click",
 	function(event)
 	{
 		let target = event.target;
-		if (target.tagName == "A")
+		if ((target.tagName == "A") && (target.host == window.location.host)) // <a> div and not external link
 		{
 			let url = new URL(target.href);
 			url.searchParams.set("lang", lang);

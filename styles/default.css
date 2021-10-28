@@ -54,8 +54,8 @@ body > .main
 .main > .blocks > a
 {
   /* padding-left: 22.22%; */
-  width: 200px;
-  height: 200px;
+  width: min-content;
+  height: 350px;
   flex-shrink: 2;
   flex-grow: 1;
   background-color: rgb(30,30,30);

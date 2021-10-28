@@ -1,4 +1,4 @@
-#main > .viewer
+#main > #viewer
 {
   display: flex;
   flex-direction: row;
@@ -6,9 +6,10 @@
   justify-content: space-between;
   gap: 0px;
   align-items: flex-start;
+  border-radius: 5px;
 }
 
-#main > .viewer > .display
+#main > #viewer > #display
 {
 	width: 60vw;
 	height: 60vw;
@@ -16,17 +17,23 @@
   /* padding-top: 100%; */
   position: relative;
   
-  border-radius: 5px;
-  background-color: black;
+  background-color: rgb(30,30,30);
 }
 
-#main > .viewer > .list
+#main > #viewer > #list
 {
 	width: 20vw;
 	max-width: 20vw;
 	height: 60vw;
   max-height: 50vh;
-  background-color: black;
+  background-color: rgb(30,30,30);
   /* padding-top: 100%; */
   position: relative;
+}
+
+#main > #viewer > #list > a
+{
+  border-style: solid;
+  width: 100%;
+  display:block;
 }

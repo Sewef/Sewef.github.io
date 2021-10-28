@@ -19,22 +19,30 @@
 		<div id="sideBar" include-html="/includes/sideBar.html"></div>
 		
 		<div id="main">
-			<div class="viewer">
-				<div class="display" id="stl_cont"></div>
-				<div class="list"></div>
+			<div id="viewer">
+				<div id="display">
+					<!-- <div id="generalDisplay"></div> -->
+					<!-- <div id="STLDisplay"></div> -->
+				</div>
+				<div id="list"></div>
 			</div> 
 		</div>
 		
 		<!-- JS -->
 		<script>
-		var stl_viewer=new StlViewer(document.getElementById("stl_cont"), {
-		camerax: 120,
-		cameray: 60,
-		auto_rotate: false,
-		models: [ 
-		{id:0, filename:`${window.location.pathname}01.stl`},
-		] });
+			const files = [
+				"tumbnail.jpg",
+				"01.stl",
+				"02.stl",
+				"03.stl",
+				"04.stl",
+				"05.stl",
+				"06.stl",
+				"07.stl",
+				"08.stl",
+			];
 		</script>
+		<script type="application/x-javascript" src="/STL/scripts/viewerHelper.js"></script>
 		
 		<!-- Common -->
 		<script>includeHTML();</script>

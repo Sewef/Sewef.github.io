@@ -6,20 +6,35 @@
 		<meta charset="utf-8"/>
         <title>Sewef - Accueil</title>
 		<link rel="icon" href="/favicon.ico"/>
-		<link title="default" rel="stylesheet" href="/styles/default.css">
+		<link title="default" rel="stylesheet" href="/styles/default.css"/>
+		<link rel="stylesheet" href="/styles/stl.css"/>
         
 		<script type="application/x-javascript" src="/scripts/setLanguage.js"></script>
 		<script type="application/x-javascript" src="/scripts/includeHTML.js"></script>
 		
 		<!-- Misc -->
+		<script type="application/x-javascript" src="/STL/scripts/stl_viewer.min.js"></script> 
 	</head>
 	<body>
-		<div class="sideBar" include-html="/includes/sideBar.html"></div>
+		<div id="sideBar" include-html="/includes/sideBar.html"></div>
 		
-		<div class="main">
-			
+		<div id="main">
+			<div class="viewer">
+				<div class="display" id="stl_cont"></div>
+				<div class="list"></div>
+			</div> 
 		</div>
 		
+		<!-- JS -->
+		<script>
+		var stl_viewer=new StlViewer(document.getElementById("stl_cont"), {
+		camerax: 120,
+		cameray: 60,
+		auto_rotate: false,
+		models: [ 
+		{id:0, filename:`${window.location.pathname}01.stl`},
+		] });
+		</script>
 		
 		<!-- Common -->
 		<script>includeHTML();</script>

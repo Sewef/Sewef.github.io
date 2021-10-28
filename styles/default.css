@@ -94,7 +94,7 @@ body > #main
 
 /* Side Bar */
 
-.sideBar
+#sideBar
 {
   top: 0;
   left: 0;
@@ -108,12 +108,12 @@ body > #main
   color: rgb(210,210,210);
 }
 
-.sideBar > img
+#sideBar > img
 {
   border: solid 5px transparent;
 }
 
-.sideBar > .bottom
+#sideBar > .bottom
 {
   position: absolute;
   width: 100%;

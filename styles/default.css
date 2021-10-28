@@ -31,7 +31,7 @@ a:hover
 
 /* Actual content */
 
-body > .main
+body > #main
 {
   margin-left: max(10vw, 100px); /* Same as the width of the sidenav */
   margin-right: 5px;
@@ -40,7 +40,7 @@ body > .main
   transition: margin-left .5s;
 }
 
-.main > .blocks
+#main > .blocks
 {
   /* width: 85vw; */
   display: flex;
@@ -51,7 +51,7 @@ body > .main
   align-items: flex-start;
 }
 
-.main > .blocks > a
+#main > .blocks > a
 {
   /* padding-left: 22.22%; */
   width: min-content;
@@ -63,13 +63,13 @@ body > .main
   transition: 0.2s ease-in;
 }
 
-.main > .blocks > a:hover
+#main > .blocks > a:hover
 {
   transition: 0.2s ease-in;
   filter: brightness(120%);
 }
 
-.main > .blocks > a > div
+#main > .blocks > a > div
 {
   text-align: center;
   background-color: rgba(30,30,30,.8);

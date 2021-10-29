@@ -9,15 +9,19 @@
   border-radius: 5px;
 }
 
-#main > #viewer > #display
+#main > #viewer > div
 {
 	width: 60vw;
 	height: 60vw;
   max-height: 50vh;
-  /* padding-top: 100%; */
   position: relative;
   
-  background-color: rgb(30,30,30);
+  background-color: darkgrey;
+}
+
+#main > #viewer > #display
+{
+  background-size: cover;
 }
 
 #main > #viewer > #list
@@ -26,7 +30,9 @@
 	max-width: 20vw;
 	height: 60vw;
   max-height: 50vh;
-  background-color: rgb(30,30,30);
+  right: 0;
+  margin-right: max(1vw, 10px);
+  background-color: black;
   /* padding-top: 100%; */
   position: relative;
 }

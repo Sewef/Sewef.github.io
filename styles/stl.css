@@ -21,7 +21,9 @@
 
 #main > #viewer > #display
 {
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #main > #viewer > #list

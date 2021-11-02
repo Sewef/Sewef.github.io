@@ -3,20 +3,19 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: normal;
   gap: 0px;
   align-items: flex-start;
-  border-radius: 5px;
 }
 
 #main > #viewer > div
 {
-	width: 60vw;
-	height: 60vw;
+	width: 65vw;
+	height: 65vw;
   max-height: 50vh;
   position: relative;
   
-  background-color: darkgrey;
+  background-color: grey;
 }
 
 #main > #viewer > #display
@@ -24,6 +23,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 #main > #viewer > #list
@@ -32,16 +34,23 @@
 	max-width: 20vw;
 	height: 60vw;
   max-height: 50vh;
-  right: 0;
-  margin-right: max(1vw, 10px);
-  background-color: black;
-  /* padding-top: 100%; */
   position: relative;
+  overflow: auto;
+  
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  scrollbar-width: thin;
 }
 
 #main > #viewer > #list > a
 {
-  border-style: solid;
+  /* border-style: solid; */
   width: 100%;
   display:block;
+}
+
+
+#main > #viewer > #list > a[selected]
+{
+  background-color: #ffffff1a;
 }

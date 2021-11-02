@@ -7,7 +7,8 @@ files.forEach(
 	function(item)
 	{
 		// console.log(item);
-		list.innerHTML += `<a href="#" onclick="setView(this)">${item}</a>`;
+		list.innerHTML += `<a href="javascript:void(0)" onclick="setView(this)">
+		${(/(?:\.([^.]+))?$/).exec(item)[1] == "stl" ? "📦" : "🖼️" }	${item}</a>`;
 	}
 );
 list.firstChild.click();
@@ -16,7 +17,11 @@ list.firstChild.click();
 
 function setView(item)
 {
-	if ((/(?:\.([^.]+))?$/).exec(item.innerText)[1] == "stl")
+	if (document.querySelector('[selected]') != null) document.querySelector('[selected]').removeAttribute('selected');
+	
+	item.setAttribute('selected', '');
+	text = (/^.*\s(.*)/).exec(item.innerText)[1]; //Trim the icon
+	if ((/(?:\.([^.]+))?$/).exec(text)[1] == "stl") //Get extension
 	{
 		if (stl_viewer == null)
 		{
@@ -30,15 +35,15 @@ function setView(item)
 		}
 		
 		document.getElementById("display").style.backgroundImage = "";
-		if (stl_viewer.models_count == 0 || stl_viewer.get_model_info(0).name != `${window.location.pathname}${item.innerText}`)
+		if (stl_viewer.models_count == 0 || stl_viewer.get_model_info(0).name != `${window.location.pathname}${text}`)
 		{
 			stl_viewer.clean();
-			stl_viewer.add_model({id:0, filename:`${window.location.pathname}${item.innerText}`, color:"#008FFF", rotationx: -Math.PI/2});
+			stl_viewer.add_model({id:0, filename:`${window.location.pathname}${text}`, color:"#008FFF", rotationx: -Math.PI/2});
 		}
 	}
 	else
 	{
 		if (stl_viewer != null) stl_viewer.clean();
-		document.getElementById("display").style.backgroundImage = `url(${window.location.pathname}${item.innerText})`;
+		document.getElementById("display").style.backgroundImage = `url(${window.location.pathname}${text})`;
 	}
 }

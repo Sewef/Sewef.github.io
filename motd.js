@@ -1,7 +1,7 @@
 const motd = [
 "Tout ça donne Sewaf.",
 "haha html go &lt;br&gt;",
-"3",
+"L'hypothèque. C'est comme une bibliothèque sauf qu'on y emprunte des hippopotames.",
 "4",
 "5",
 "6",

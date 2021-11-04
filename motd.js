@@ -2,7 +2,7 @@ const motd = [
 "Tout ça donne Sewaf.",
 "haha html go &lt;br&gt;",
 "L'hypothèque. C'est comme une bibliothèque sauf qu'on y emprunte des hippopotames.",
-"4",
+"You have failed at life. Please reset.",
 "5",
 "6",
 "7",

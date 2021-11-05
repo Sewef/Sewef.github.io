@@ -54,11 +54,13 @@ body > #main
 {
   /* padding-left: 22.22%; */
   width: min-content;
+  min-width: 200px;
   height: 350px;
   flex-shrink: 2;
   flex-grow: 1;
   background-color: rgb(30,30,30);
   background-size: cover;
+  background-position: center;
   transition: 0.2s ease-in;
 }
 

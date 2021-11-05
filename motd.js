@@ -3,7 +3,7 @@ const motd = [
 "haha html go &lt;br&gt;",
 "L'hypothèque. C'est comme une bibliothèque sauf qu'on y emprunte des hippopotames.",
 "You have failed at life. Please reset.",
-"5",
+"What was the error message you closed without reading?",
 "6",
 "7",
 "8",

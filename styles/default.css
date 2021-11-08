@@ -22,6 +22,11 @@ a:hover
   text-stroke: .1em;
 }
 
+.postDate
+{
+  font-style: italic;
+}
+
 /* No display for translated elements ; 'display: initial' in setLanguage.js */
 *[lang]
 {

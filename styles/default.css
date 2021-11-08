@@ -32,7 +32,7 @@ a:hover
 
 body > #main
 {
-  margin-left: max(10vw, 100px); /* Same as the width of the sidenav */
+  margin-left: max(5vw, 100px); /* Same as the width of the sidenav */
   margin-right: 5px;
   font-size: 16px; 
   padding: 0px 10px;
@@ -98,7 +98,7 @@ body > #main
   top: 0;
   left: 0;
   min-width: 100px;
-  width: 10vw;
+  width: 5vw;
   height: 100vh;
   position: fixed;
   

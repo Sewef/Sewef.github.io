@@ -6,7 +6,7 @@ const motd = [
 "What was the error message you closed without reading?",
 "6",
 "7",
-"8",
+"keyboard.insert(\"coffee\");",
 "9",
 "10",
 "11",

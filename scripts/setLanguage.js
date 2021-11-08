@@ -42,7 +42,7 @@ function changeLanguage(lang)
 
 function addDate()
 {
-	let date = new Date(new URL(document.location).pathname.match(/(\d{8})\.\d{3}/)[1].replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3'));
+	let date = new Date(new URL(document.location).pathname.match(/(\d{8})/)[1].replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3'));
 	document.write(date.toLocaleDateString(`${(lang == "fr") ? "fr-fr" : "en-us"}`, { year:"numeric", month:"short", day:"numeric"}));
 }
 

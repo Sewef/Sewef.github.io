@@ -53,6 +53,7 @@ body > #main
 {
   width: min-content;
   min-width: 200px;
+  max-width: 33.33vw;
   height: 350px;
   flex-shrink: 2;
   flex-grow: 1;

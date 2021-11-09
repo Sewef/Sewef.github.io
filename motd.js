@@ -7,7 +7,7 @@ const motd = [
 "6",
 "7",
 "keyboard.insert(\"coffee\");",
-"9",
+"Y2K compliant",
 "10",
 "11",
 "12",

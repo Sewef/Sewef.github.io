@@ -8,7 +8,7 @@ const motd = [
 "7",
 "keyboard.insert(\"coffee\");",
 "Y2K compliant",
-"10",
+"Not enough ink to scan.",
 "11",
 "12",
 "13",

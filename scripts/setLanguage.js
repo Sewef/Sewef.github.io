@@ -2,6 +2,9 @@
 
 let params = (new URL(document.location)).searchParams;
 
+// Hide URL params from url
+history.replaceState(null, document.querySelector("title").innerText, window.location.pathname);
+
 if (params.get("lang") == null)
 {
 	let userLang = navigator.language || navigator.userLanguage; 

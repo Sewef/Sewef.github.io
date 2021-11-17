@@ -20,7 +20,7 @@ function setView(item)
 	if (document.querySelector('[selected]') != null) document.querySelector('[selected]').removeAttribute('selected');
 	
 	item.setAttribute('selected', '');
-	text = (/^.*\s(.*)/).exec(item.innerText)[1]; //Trim the icon
+	var text = (/^.*\s(.*)/).exec(item.innerText)[1]; //Trim the icon
 	if ((/(?:\.([^.]+))?$/).exec(text)[1] == "stl") //Get extension
 	{
 		if (stl_viewer == null)
@@ -46,4 +46,15 @@ function setView(item)
 		if (stl_viewer != null) stl_viewer.clean();
 		document.getElementById("display").style.backgroundImage = `url(${window.location.pathname}${text})`;
 	}
+}
+
+// Export PNG
+
+function exportPng()
+{
+	var text = (/^.*\s(.*)/).exec(document.querySelector('[selected]').innerText)[1]; //Trim the icon
+	if ((/(?:\.([^.]+))?$/).exec(text)[1] == "stl") //Get extension
+		window.open(document.getElementsByTagName("canvas")[0].toDataURL("image/png")); // Export stl view
+	else
+		window.open(`${window.location.pathname}${text}`); // Show BG image
 }

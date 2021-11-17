@@ -8,6 +8,18 @@
   align-items: flex-start;
 }
 
+#main > #viewer > #display > #export
+{
+  position: absolute;
+  border-radius: 5px;
+  border: black;
+  height: 24px;
+  width: 24px;
+  background-color: rgba(240,240,240,.3);
+  text-align: center;
+  margin: 5px;
+}
+
 #main > #viewer > div
 {
 	width: 65vw;

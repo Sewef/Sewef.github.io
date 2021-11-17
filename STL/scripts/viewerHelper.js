@@ -99,9 +99,18 @@ function loadFile(path) {
 
 function displayContents() {
     if(reader.readyState==4) {
-		document.getElementById("text").innerText = reader.responseText;
+		document.getElementById("text").innerHTML = formatText(reader.responseText);
         console.log(reader.responseText);
     }
+}
+
+function formatText(text)
+{
+	text = text	.replaceAll("\n", "<br>")
+				.replaceAll(new RegExp(/\*\*(.*)\*\*/, 'g'), "<big>$1</big>")
+				.replaceAll(new RegExp(/\*(.*)\*/, 'g'), "<strong>$1</strong>");
+				
+	return text;
 }
 
 // Misc

@@ -10,10 +10,15 @@
 
 #main > #viewer > #display > #text
 {
-  width: 80%;
-  top: 5px;
-  right: 5%;
+  width: 92.5%;
+  right: 0%;
   position: absolute;
+  overflow: auto;
+  scrollbar-width: thin;
+  height: 100%;
+  font-size: large;
+
+  color: rgb(210, 210, 210);
 }
 
 #main > #viewer > #display > #icons

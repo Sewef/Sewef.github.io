@@ -8,10 +8,17 @@
   align-items: flex-start;
 }
 
+#main > #viewer > #display > #text
+{
+  width: 80%;
+  top: 5px;
+  right: 5%;
+  position: absolute;
+}
 
 #main > #viewer > #display > #icons
 {
-  display: flex;
+  display: inline-grid;
   position: absolute;
 }
 

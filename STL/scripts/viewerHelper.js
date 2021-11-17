@@ -1,5 +1,6 @@
-// Setup STL viewer
+// Global objets
 var stl_viewer;
+var reader = new XMLHttpRequest() || new ActiveXObject('MSXML2.XMLHTTP');
 
 const icons = {
 	"stl": "📦",
@@ -24,7 +25,12 @@ list.firstChild.click();
 function setView(item)
 {
 	if (document.querySelector('[selected]') != null)
+	{
+		if (document.querySelector('[selected]') == item)
+			return;
+		
 		document.querySelector('[selected]').removeAttribute('selected');
+	}
 	
 	item.setAttribute('selected', '');
 	
@@ -64,6 +70,13 @@ function setView(item)
 			stl_viewer.clean();
 		document.getElementById("display").style.backgroundImage = `url(${window.location.pathname}${text})`;
 	}
+	else if (extension == "txt")
+	{
+		document.getElementById("display").style.backgroundImage = "";
+		if (stl_viewer != null)
+			stl_viewer.clean();
+		loadFile(text);
+	}
 }
 
 // Export PNG
@@ -75,6 +88,20 @@ function exportImage()
 		window.open(document.getElementsByTagName("canvas")[0].toDataURL("image/png")); // Export stl view
 	else
 		window.open(`${window.location.pathname}${text}`);
+}
+
+// Show txt
+function loadFile(path) {
+    reader.open('get', path, true); 
+    reader.onreadystatechange = displayContents;
+    reader.send(null);
+}
+
+function displayContents() {
+    if(reader.readyState==4) {
+		document.getElementById("text").innerText = reader.responseText;
+        console.log(reader.responseText);
+    }
 }
 
 // Misc

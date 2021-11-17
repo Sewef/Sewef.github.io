@@ -60,7 +60,7 @@ function setView(item)
 		}
 		
 		if (stl_viewer.models_count == 0 ||
-		stl_viewer.get_model_info(0).name != `${window.location.pathname}${text}`)
+			stl_viewer.get_model_info(0).name != `${window.location.pathname}${text}`)
 		{
 			stl_viewer.add_model({
 				id:0,
@@ -69,6 +69,9 @@ function setView(item)
 				rotationx: -Math.PI/2
 				});
 		}
+		stl_viewer.set_camera_state({
+			position: { x: 120, y: 60, z: 151.45 }
+		});
 	}
 	else if (extension == "jpg" || extension == "png")
 	{

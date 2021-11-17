@@ -24,17 +24,26 @@ list.firstChild.click();
 // Actions on clicking file
 function setView(item)
 {
+	// Manage "selected" attribute
 	if (document.querySelector('[selected]') != null)
 	{
+		// Do nothing if this item is the one displayed
 		if (document.querySelector('[selected]') == item)
 			return;
 		
+		// Remove old "selected"
 		document.querySelector('[selected]').removeAttribute('selected');
 	}
-	
 	item.setAttribute('selected', '');
 	
-	let text = item.innerText.replace(/[\W_]+/, ''); //Trim the icon
+	// Clean display
+	document.getElementById("text").style.visibility = "hidden";
+	document.getElementById("display").style.backgroundImage = "";
+	if (stl_viewer != null)
+		stl_viewer.clean();
+	
+	// Get item real name (without icon) and extension
+	let text = item.innerText.replace(/[\W_]+/, '');
 	let extension = getExtension(text)
 	
 	if (extension == "stl") //Get extension
@@ -48,14 +57,11 @@ function setView(item)
 				allow_drag_and_drop: false,
 				zoom: -1,
 			});
-			
 		}
 		
-		document.getElementById("display").style.backgroundImage = "";
 		if (stl_viewer.models_count == 0 ||
 		stl_viewer.get_model_info(0).name != `${window.location.pathname}${text}`)
 		{
-			stl_viewer.clean();
 			stl_viewer.add_model({
 				id:0,
 				filename:`${window.location.pathname}${text}`,
@@ -66,15 +72,11 @@ function setView(item)
 	}
 	else if (extension == "jpg" || extension == "png")
 	{
-		if (stl_viewer != null)
-			stl_viewer.clean();
 		document.getElementById("display").style.backgroundImage = `url(${window.location.pathname}${text})`;
 	}
 	else if (extension == "txt")
 	{
-		document.getElementById("display").style.backgroundImage = "";
-		if (stl_viewer != null)
-			stl_viewer.clean();
+		document.getElementById("text").style.visibility = "visible";
 		loadFile(text);
 	}
 }
@@ -107,8 +109,9 @@ function displayContents() {
 function formatText(text)
 {
 	text = text	.replaceAll("\n", "<br>")
-				.replaceAll(new RegExp(/\*\*(.*)\*\*/, 'g'), "<big>$1</big>")
-				.replaceAll(new RegExp(/\*(.*)\*/, 'g'), "<strong>$1</strong>");
+				.replaceAll(new RegExp(/\*\*(.*)\*\*/, 'g'), '<big>$1</big>') // **big**
+				.replaceAll(new RegExp(/\*(.*)\*/, 'g'), '<strong>$1</strong>') // *bold*
+				.replaceAll(new RegExp(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/, 'g'), '<a href=\"$1\">$1</a>'); // url
 				
 	return text;
 }

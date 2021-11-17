@@ -62,7 +62,7 @@ function setView(item)
 // Export PNG
 function exportImage()
 {
-	let text = item.innerText.replace(/[\W_]+/, ''); //Trim the icon
+	let text = document.querySelector('[selected]').innerText.replace(/[\W_]+/, ''); //Trim the icon
 	let extension = getExtension(text)
 	if (extension == "stl") //Get extension
 		window.open(document.getElementsByTagName("canvas")[0].toDataURL("image/png")); // Export stl view

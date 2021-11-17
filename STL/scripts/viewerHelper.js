@@ -100,19 +100,18 @@ function loadFile(path) {
 }
 
 function displayContents() {
-    if(reader.readyState==4) {
+    if(reader.readyState==4)
 		document.getElementById("text").innerHTML = formatText(reader.responseText);
-        console.log(reader.responseText);
-    }
 }
 
 function formatText(text)
 {
-	text = text	.replaceAll("\n", "<br>")
-				.replaceAll(new RegExp(/#(.*)/, 'g'), '<big>$1</big>') // # big
-				.replaceAll(new RegExp(/\*{1}(.*)\*{1}/, 'g'), '<strong>$1</strong>') // *bold*
-				.replaceAll(new RegExp(/`(.*)`/, 'g'), '<code>$1</code>') // *bold*
-				.replaceAll(new RegExp(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/, 'g'), '<a href=\"$1\">$1</a>'); // url
+	// return text;
+	text = text	.replaceAll(/#(.*)$/gm, '<big>$1</big>') // # big
+				.replaceAll(/\*{1}(.*)\*{1}/gm, '<strong>$1</strong>') // *bold*
+				.replaceAll(/`(.*)`/gm, '<code>$1</code>') // `code`
+				.replaceAll(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/g, '<a href=\"$1\">$1</a>') // url
+				.replaceAll(/(?:\r\n|\r|\n)/g, '<br>'); // <br>
 				
 	return text;
 }

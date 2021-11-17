@@ -109,8 +109,9 @@ function displayContents() {
 function formatText(text)
 {
 	text = text	.replaceAll("\n", "<br>")
-				.replaceAll(new RegExp(/\*\*(.*)\*\*/, 'g'), '<big>$1</big>') // **big**
-				.replaceAll(new RegExp(/\*(.*)\*/, 'g'), '<strong>$1</strong>') // *bold*
+				.replaceAll(new RegExp(/#(.*)/, 'g'), '<big>$1</big>') // # big
+				.replaceAll(new RegExp(/\*{1}(.*)\*{1}/, 'g'), '<strong>$1</strong>') // *bold*
+				.replaceAll(new RegExp(/`(.*)`/, 'g'), '<code>$1</code>') // *bold*
 				.replaceAll(new RegExp(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/, 'g'), '<a href=\"$1\">$1</a>'); // url
 				
 	return text;

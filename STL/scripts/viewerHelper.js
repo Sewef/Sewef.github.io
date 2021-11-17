@@ -1,6 +1,13 @@
 // Setup STL viewer
 var stl_viewer;
 
+const icons = {
+	"stl": "📦",
+	"jpg": "🖼️",
+	"png": "🖼️",
+	"txt": "📝",
+};
+
 // Populate list
 let list = document.getElementById("list");
 files.forEach(
@@ -8,7 +15,7 @@ files.forEach(
 	{
 		// console.log(item);
 		list.innerHTML += `<a href="javascript:void(0)" onclick="setView(this)">
-		${getExtension(item) == "stl" ? "📦" : "🖼️" }	${item}</a>`;
+		${icons[getExtension(item)]}	${item}</a>`;
 	}
 );
 list.firstChild.click();

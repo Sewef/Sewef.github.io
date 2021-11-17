@@ -1,3 +1,3 @@
 const posts = [
-	{ path: "20211028_Clock", 	title: "Clock"},
+	{ path: "clock", 	title: "Clock"},
 ];

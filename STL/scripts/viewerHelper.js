@@ -29,6 +29,7 @@ function setView(item)
 				camerax: 120,
 				cameray: 60,
 				auto_rotate: false,
+				allow_drag_and_drop: false,
 				zoom: -1,
 			});
 			

@@ -8,9 +8,15 @@
   align-items: flex-start;
 }
 
-#main > #viewer > #display > #export
+
+#main > #viewer > #display > #icons
 {
+  display: flex;
   position: absolute;
+}
+
+#main > #viewer > #display > #icons > a
+{
   border-radius: 5px;
   border: black;
   height: 24px;

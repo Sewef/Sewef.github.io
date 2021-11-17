@@ -8,12 +8,16 @@ history.replaceState(null, document.querySelector("title").innerText, window.loc
 if (params.get("lang") == null)
 {
 	let userLang = navigator.language || navigator.userLanguage; 
-	let url = (new URL(document.location));
 	if (userLang == "fr")
-		url.searchParams.set("lang", "fr");
+	{
+		params.set('lang', 'fr');
+	}
 	else
-		url.searchParams.set("lang", "en");
-	document.location = url;
+	{
+		params.set('lang', 'en');
+	}
+	
+	window.location.search = params.toString();
 }
 
 let stylesheet = getStyleSheet("default");

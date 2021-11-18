@@ -17,7 +17,7 @@ const motd = [
 "help me I'm in the cell E4",
 "Suddently, pineapples.",
 "Gotta catch'em all.",
-"19",
+"THUS Bond theme.",
 "20",
 "21",
 "Le beurre, l'argent du beurre, et un peu de crème pour le goût.",

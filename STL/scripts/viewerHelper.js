@@ -51,11 +51,12 @@ function setView(item)
 		if (stl_viewer == null)
 		{
 			stl_viewer = new StlViewer(document.getElementById("display"), {
-				camerax: 120,
+				camerax: 80,
 				cameray: 60,
 				auto_rotate: false,
 				allow_drag_and_drop: false,
 				zoom: -1,
+				all_loaded_callback: setCamera,
 			});
 		}
 		
@@ -69,9 +70,6 @@ function setView(item)
 				rotationx: -Math.PI/2
 				});
 		}
-		stl_viewer.set_camera_state({
-			position: { x: 120, y: 60, z: 151.45 }
-		});
 	}
 	else if (extension == "jpg" || extension == "png")
 	{
@@ -123,4 +121,13 @@ function formatText(text)
 function getExtension(path)
 {
 	return (/(?:\.([^.]+))?$/).exec(path)[1];
+}
+
+function setCamera()
+{
+	stl_viewer.set_zoom(150, true);
+		
+	stl_viewer.set_camera_state({
+		position: { x: 80, y: 60, z: 120 }
+	});
 }

@@ -10,11 +10,11 @@ if (params.get("lang") == null)
 	let userLang = navigator.language || navigator.userLanguage; 
 	if (userLang == "fr")
 	{
-		params.set('lang', 'fr');
+		params.set("lang", "fr");
 	}
 	else
 	{
-		params.set('lang', 'en');
+		params.set("lang", "en");
 	}
 	
 	window.location.search = params.toString();
@@ -49,7 +49,7 @@ function changeLanguage(lang)
 
 function addDate()
 {
-	let date = new Date(new URL(document.location).pathname.match(/(\d{8})/)[1].replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3'));
+	let date = new Date(new URL(document.location).pathname.match(/(\d{8})/)[1].replace(/(\d{4})(\d{2})(\d{2})/, "$1-$2-$3"));
 	document.write(date.toLocaleDateString(`${(lang == "fr") ? "fr-fr" : "en-us"}`, { year:"numeric", month:"short", day:"numeric"}));
 }
 

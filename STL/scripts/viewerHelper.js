@@ -94,7 +94,7 @@ function exportImage()
 
 // Show txt
 function loadFile(path) {
-    reader.open("get", path, true); 
+    reader.open("GET", path, true); 
     reader.onreadystatechange = displayContents;
     reader.send(null);
 }

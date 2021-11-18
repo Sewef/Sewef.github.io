@@ -16,7 +16,7 @@ files.forEach(
 	{
 		// console.log(item);
 		list.innerHTML += `<a href="javascript:void(0)" onclick="setView(this)">
-		${icons[getExtension(item)]}	${item}</a>`;
+		${icons[getExtension(item)]}\t${item}</a>`;
 	}
 );
 list.firstChild.click();
@@ -25,16 +25,16 @@ list.firstChild.click();
 function setView(item)
 {
 	// Manage "selected" attribute
-	if (document.querySelector('[selected]') != null)
+	if (document.querySelector("[selected]") != null)
 	{
 		// Do nothing if this item is the one displayed
-		if (document.querySelector('[selected]') == item)
+		if (document.querySelector("[selected]") == item)
 			return;
 		
 		// Remove old "selected"
-		document.querySelector('[selected]').removeAttribute('selected');
+		document.querySelector("[selected]").removeAttribute('selected');
 	}
-	item.setAttribute('selected', '');
+	item.setAttribute("selected", '');
 	
 	// Clean display
 	document.getElementById("text").style.visibility = "hidden";
@@ -43,7 +43,7 @@ function setView(item)
 		stl_viewer.clean();
 	
 	// Get item real name (without icon) and extension
-	let text = item.innerText.replace(/[\W_]+/, '');
+	let text = item.innerText.replace(/[\W_]+/, "");
 	let extension = getExtension(text)
 	
 	if (extension == "stl") //Get extension
@@ -60,14 +60,13 @@ function setView(item)
 			});
 		}
 		
-		if (stl_viewer.models_count == 0 ||
-			stl_viewer.get_model_info(0).name != `${window.location.pathname}${text}`)
+		if (stl_viewer.models_count == 0)
 		{
 			stl_viewer.add_model({
-				id:0,
-				filename:`${window.location.pathname}${text}`,
-				color:"#008FFF",
-				rotationx: -Math.PI/2
+				id: 0,
+				filename: `${window.location.pathname}${text}`,
+				color: "#008FFF",
+				rotationx: -Math.PI/2,
 				});
 		}
 	}
@@ -85,7 +84,7 @@ function setView(item)
 // Export PNG
 function exportImage()
 {
-	let text = document.querySelector('[selected]').innerText.replace(/[\W_]+/, ''); //Trim the icon
+	let text = document.querySelector("[selected]").innerText.replace(/[\W_]+/, ""); //Trim the icon
 	let extension = getExtension(text)
 	if (extension == "stl") //Get extension
 		window.open(document.getElementsByTagName("canvas")[0].toDataURL("image/png")); // Export stl view
@@ -95,7 +94,7 @@ function exportImage()
 
 // Show txt
 function loadFile(path) {
-    reader.open('get', path, true); 
+    reader.open("get", path, true); 
     reader.onreadystatechange = displayContents;
     reader.send(null);
 }
@@ -108,11 +107,11 @@ function displayContents() {
 function formatText(text)
 {
 	// return text;
-	text = text	.replaceAll(/#(.*)$/gm, '<big>$1</big>') // # big
-				.replaceAll(/\*{1}(.*)\*{1}/gm, '<strong>$1</strong>') // *bold*
-				.replaceAll(/`(.*)`/gm, '<code>$1</code>') // `code`
-				.replaceAll(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/g, '<a href=\"$1\">$1</a>') // url
-				.replaceAll(/(?:\r\n|\r|\n)/g, '<br>'); // <br>
+	text = text	.replaceAll(/#(.*)$/gm, "<big>$1</big>") // # big
+				.replaceAll(/\*{1}(.*)\*{1}/gm, "<strong>$1</strong>") // *bold*
+				.replaceAll(/`(.*)`/gm, "<code>$1</code>") // `code`
+				.replaceAll(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/g, "<a href=\"$1\">$1</a>") // url
+				.replaceAll(/(?:\r\n|\r|\n)/g, "<br>"); // <br>
 				
 	return text;
 }

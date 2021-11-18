@@ -125,9 +125,9 @@ function getExtension(path)
 
 function setCamera()
 {
-	stl_viewer.set_zoom(150, true);
+	stl_viewer.set_zoom(-1, true);
 		
 	stl_viewer.set_camera_state({
-		position: { x: 80, y: 60, z: 120 }
+		position: { x: 120, y: 80, z: 120 }
 	});
 }

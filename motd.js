@@ -16,7 +16,7 @@ const motd = [
 "15",
 "help me I'm in the cell E4",
 "Suddently, pineapples.",
-"18",
+"Gotta catch'em all.",
 "19",
 "20",
 "21",

@@ -22,7 +22,7 @@ const motd = [
 "21",
 "Le beurre, l'argent du beurre, et un peu de crème pour le goût.",
 "23",
-"24",
+"#define true random()&lt;8",
 "25",
 "26",
 "I'll tell you what I want, what I really really want.",

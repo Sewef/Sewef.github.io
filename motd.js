@@ -23,7 +23,8 @@ const motd = [
 "Le beurre, l'argent du beurre, et un peu de crème pour le goût.",
 "23",
 "#define true random()&lt;8",
-"25",
+`${(11-((new Date()).getMonth()) == 0) ? "*keeps trying to draw a christmas tree in C*" : 
+11-((new Date()).getMonth()) + " month" + (11-((new Date()).getMonth()) > 1 ? "s" : "") + " until Christmas"}`,
 "26",
 "I'll tell you what I want, what I really really want.",
 "La logique et le bon sens n'ont pas de place dans cette maison.",

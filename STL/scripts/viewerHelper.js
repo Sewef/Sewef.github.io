@@ -46,7 +46,7 @@ function setView(item)
 	let text = item.innerText.replace(/[\W_]+/, "");
 	let extension = getExtension(text)
 	
-	if (extension == "stl") //Get extension
+	if (extension == "stl")
 	{
 		if (stl_viewer == null)
 		{
@@ -56,7 +56,12 @@ function setView(item)
 				auto_rotate: false,
 				allow_drag_and_drop: false,
 				zoom: -1,
-				all_loaded_callback: setCamera,
+				all_loaded_callback: function() {
+					stl_viewer.set_zoom(-1, true);
+					stl_viewer.set_camera_state({
+						position: { x: 120, y: 80, z: 120 }
+					});
+				},
 			});
 		}
 		
@@ -120,13 +125,4 @@ function formatText(text)
 function getExtension(path)
 {
 	return (/(?:\.([^.]+))?$/).exec(path)[1];
-}
-
-function setCamera()
-{
-	stl_viewer.set_zoom(-1, true);
-		
-	stl_viewer.set_camera_state({
-		position: { x: 120, y: 80, z: 120 }
-	});
 }

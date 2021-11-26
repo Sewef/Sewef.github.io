@@ -25,7 +25,7 @@ const motd = [
 "#define true random()&lt;8",
 `${(11-((new Date()).getMonth()) == 0) ? "*keeps trying to draw a christmas tree in C*" : 
 11-((new Date()).getMonth()) + " month" + (11-((new Date()).getMonth()) > 1 ? "s" : "") + " until Christmas"}`,
-"26",
+"Treat warnings as errors.",
 "I'll tell you what I want, what I really really want.",
 "La logique et le bon sens n'ont pas de place dans cette maison.",
 "29",

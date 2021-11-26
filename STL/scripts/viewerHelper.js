@@ -65,15 +65,12 @@ function setView(item)
 			});
 		}
 		
-		if (stl_viewer.models_count == 0)
-		{
-			stl_viewer.add_model({
-				id: 0,
-				filename: `${window.location.pathname}${text}`,
-				color: "#008FFF",
-				rotationx: -Math.PI/2,
-				});
-		}
+		stl_viewer.add_model({
+			id: 0,
+			filename: `${window.location.pathname}${text}`,
+			color: "#008FFF",
+			rotationx: -Math.PI/2,
+			});
 	}
 	else if (extension == "jpg" || extension == "png")
 	{
@@ -100,13 +97,14 @@ function exportImage()
 // Show txt
 function loadFile(path) {
     reader.open("GET", path, true); 
-    reader.onreadystatechange = displayContents;
+    reader.onreadystatechange = function() {
+		if(reader.readyState==4)
+		{
+			document.getElementById("text").innerHTML = formatText(reader.responseText);
+			document.getElementById("text").scrollTop = 0;
+		}
+	};
     reader.send(null);
-}
-
-function displayContents() {
-    if(reader.readyState==4)
-		document.getElementById("text").innerHTML = formatText(reader.responseText);
 }
 
 function formatText(text)
@@ -116,7 +114,7 @@ function formatText(text)
 				.replaceAll(/\*{1}(.*)\*{1}/gm, "<strong>$1</strong>") // *bold*
 				.replaceAll(/`(.*)`/gm, "<code>$1</code>") // `code`
 				.replaceAll(/((http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-]))/g, "<a href=\"$1\">$1</a>") // url
-				.replaceAll(/(?:\r\n|\r|\n)/g, "<br>"); // <br>
+				.replaceAll(/(?:\r\n|\r|\n)/g, "<br>"); // <br> ; must be the last replacement for regex reasons
 				
 	return text;
 }

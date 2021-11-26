@@ -1,3 +1,11 @@
+// This file's functions
+if (typeof String.prototype.getExtension !== "function")
+{
+	String.prototype.getExtension = function() {
+		return (/(?:\.([^.]+))?$/).exec(this)[1];
+	};
+}
+
 // Global objets
 var stl_viewer;
 var reader = new XMLHttpRequest() || new ActiveXObject('MSXML2.XMLHTTP');
@@ -9,6 +17,7 @@ const icons = {
 	"txt": "📝",
 };
 
+
 // Populate list
 let list = document.getElementById("list");
 files.forEach(
@@ -16,7 +25,7 @@ files.forEach(
 	{
 		// console.log(item);
 		list.innerHTML += `<a href="javascript:void(0)" onclick="setView(this)">
-		${icons[getExtension(item)]}\t${item}</a>`;
+		${icons[item.getExtension()]}\t${item}</a>`;
 	}
 );
 list.firstChild.click();
@@ -44,7 +53,7 @@ function setView(item)
 	
 	// Get item real name (without icon) and extension
 	let text = item.innerText.replace(/[\W_]+/, "");
-	let extension = getExtension(text)
+	let extension = text.getExtension();
 	
 	if (extension == "stl")
 	{
@@ -87,7 +96,7 @@ function setView(item)
 function exportImage()
 {
 	let text = document.querySelector("[selected]").innerText.replace(/[\W_]+/, ""); //Trim the icon
-	let extension = getExtension(text)
+	let extension = text.getExtension();
 	if (extension == "stl") //Get extension
 		window.open(document.getElementsByTagName("canvas")[0].toDataURL("image/png")); // Export stl view
 	else
@@ -117,10 +126,4 @@ function formatText(text)
 				.replaceAll(/(?:\r\n|\r|\n)/g, "<br>"); // <br> ; must be the last replacement for regex reasons
 				
 	return text;
-}
-
-// Misc
-function getExtension(path)
-{
-	return (/(?:\.([^.]+))?$/).exec(path)[1];
 }

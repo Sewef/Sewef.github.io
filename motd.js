@@ -28,7 +28,7 @@ const motd = [
 "Treat warnings as errors.",
 "I'll tell you what I want, what I really really want.",
 "La logique et le bon sens n'ont pas de place dans cette maison.",
-"29",
+"object.move(along);",
 "dummy dummy dummy a man after midnight.",
 "31",
 ];

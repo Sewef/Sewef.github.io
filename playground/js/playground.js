@@ -149,7 +149,7 @@ const minTreeHeight = 25;
 const maxTreeHeight = 80;
 
 const minTreeWidth = 10;
-const maxTreeWidth = 35;
+const maxTreeWidth = 12;
 
 const minTreeY = 5;
 const maxTreeY = 95;
@@ -166,7 +166,7 @@ function generateTreeRandomX(minX, maxX, minY, maxY) {
 
 // Fixed X value
 function generateTree(X, minY, maxY) {
-	const ratio = .10;
+	const ratio = .06;
 	
 	let myTree = document.createElement("div");
 	myTree.classList.add("tree");

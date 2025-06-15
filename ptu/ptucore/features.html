@@ -9,27 +9,29 @@
   <script src="/ptu/js/popper.min.js"></script>
   <script src="/ptu/js/bootstrap.min.js"></script>
   <script src="/ptu/js/json_utils.js"></script>
+  <script src="/ptu/js/json_features.js"></script>
   <script src="/ptu/js/helpers.js"></script>
 
-  <title>PTU Data - Home</title>
+  <title>PTU Data - Features</title>
 </head>
 
 <body>
   <div w3-include-html="header.html"></div>
   <div class="container py-4">
-    <div class="row g-3" id="home">
-      <h1>Welcome to the PTU Data Site</h1>
-      <p>This site is dedicated to visualizing data for the Pokémon Tabletop United (PTU) role-playing game.</p>
-      <p>You can explore the different sections to discover moves, abilities, and other useful information.</p>
-      <p>Use the menu at the top to navigate between the different pages.</p>
+    <div class="row g-3">
+        <div class="container">
+          <h1 class="mb-4">JSON Rendered Cards</h1>
+          <div id="cards-container" class="container"></div>
+        </div>
 
+        <!-- Your JS File -->
+        <script src="/ptu/js/json_features.js"></script>
     </div>
-  </div>
 
-  <script>
-    includeHTML();
-    setActive("Home");
-  </script>
+    <script>
+      includeHTML();
+      setActive("Features");
+    </script>
 </body>
 
 </html>

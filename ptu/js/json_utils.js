@@ -7,11 +7,14 @@ function loadJsonAsCard(file, container) {
             return;
         }
 
-        // Convert object into array of {name, ...fields}
-        allItems = Object.entries(data).map(([name, fields]) => ({
-            Name: name,
-            ...fields
-        }));
+        // Convert object into array of {Name, ...fields} or {Name, Description}
+        allItems = Object.entries(data).map(([name, value]) => {
+            if (typeof value === "string") {
+                return { Name: name, Description: value };
+            } else {
+                return { Name: name, ...value };
+            }
+        });
 
         renderFilteredCards(allItems, container);
 
@@ -62,7 +65,8 @@ function renderItemAsCard(item, depth = 0) {
         } else if (key === "Name") {
             str += `<h3>${value ?? ""}</h3>`;
         } else {
-            str += `<strong>${key}</strong>: ${value ?? ""}<br>`;
+            const safeValue = (value ?? "").toString().replace(/\n/g, "<br>");
+            str += `<strong>${key}</strong>: ${safeValue}<br>`;
         }
     });
 

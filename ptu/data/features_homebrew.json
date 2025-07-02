@@ -66,18 +66,18 @@
         "Ravager Orders": {
             "Prerequisites": "Expert Command or Intimidate",
             "Frequency": "Static",
-            "Effect": "You gain the Reckless Advance and Strike Again! Orders.",
+            "Effect": "You gain the Reckless Advance and Strike There! Orders.",
             "Reckless Advance": {
                 "Tags": "[Orders] [Stratagem]",
                 "Frequency": "Bind 2 AP – Standard Action",
                 "Target": "Your Pokémon",
                 "Effect": "While this Feature is Bound, increase the damage rolls of the target’s damaging melee attacks by +8, and these attacks Trip targets on Accuracy Rolls of 18+. When the target of Reckless Advance hits with a damaging melee attack, they become Vulnerable for one full round."
             },
-            "Strike Again!": {
+            "Strike There!": {
                 "Tags": "[Orders]",
                 "Frequency": "Scene – Standard Action",
                 "Target": "Your Pokémon",
-                "Effect": "The target may immediately take an additional Standard Action to use an At-Will attack."
+                "Effect": "The target's next damaging attack leaves all Legal Targets Vulnerable for one Round, and deals damage as if it were one step less Resisted, to a maximum of Neutral damage. If the attack deals Super-Effective Damage to all Legal Targets, one Legal Target of the attack is Flinched."
             }
         },
         "Marksman Orders": {
@@ -197,8 +197,8 @@
         "Walk It Off": {
             "Tags": "[+HP]",
             "Prerequisites": "Adept Athletics, Novice Focus",
-            "Frequency": "Daily — Extended Action",
-            "Effect": "Remove one Injury from yourself and regain 1/4th of your maximum Hit Points. This Injury removal doesn't count against the natural healing limit on Injuries each day."
+            "Frequency": "Daily – Standard Action",
+            "Effect": "You may remove one Injury from yourself, and regain 1/4th of your maximum Hit Points. This Injury removal doesn't count against the natural healing limit on Injuries each day. Use of Walk It Off counts as Taking A Breather for any Features, Abilities, and Moves(but not Status Afflictions or other conditions)."
         },
         "First Aid Expertise": {
             "Prerequisites": "Medic Training, Expert Medicine Education",
@@ -260,6 +260,43 @@
             "Frequency": "Drain 2 AP — Free Action",
             "Trigger": "You take an Extended Rest",
             "Effect": "During this Extended Rest, Pokémon and Trainers in your care gain the benefits listed below. The AP Drain cost from triggering this Feature is applied after the Extended Rest is completed and AP Drain has otherwise been restored.\n» They heal 1/8th of their Max Hit Points per half hour of rest instead of 1/16th (does not stack with Bandages).\n» If the Extended Rest lasts at least 6 hours, they may remove 1 Injury."
+        },
+        "Combat Medic": {
+            "Tags": "[+Defense or Special Defense] [Hobbyist]",
+            "Prerequisites": "Adept Medicine Education, Novice Combat",
+            "Frequency": "1 AP - Free Action",
+            "Trigger": "You apply a Restorative Item",
+            "Effect": "You may make a Struggle Attack against an adjacent foe as a Free Action. This Struggle Attack counts as an Attack of Opportunity for any Features or Edges you may have, but does not count against the number of Attacks of Opportunity you may make per round."
+        },
+        "Mixed Power": {
+            "Tags": "[+Attack or Special Attack] [Hobbyist]",
+            "Prerequisites": "Level 5, at least 10 Attack and Special Attack",
+            "Frequency": "Static",
+            "Effect": "You gain the Twisted Power Ability."
+        },
+        "Speed Demon": {
+            "Tags": "[+Speed]",
+            "Prerequisites": "Speed's My Game, Expert Acrobatics or Athletics; 20 Speed",
+            "Frequency": "Scene - Swift Action",
+            "Effect": "You gain 3 Speed Tokens. If not spent, these tokens disappear at the end of the Scene. You can spend a Speed Token as a Free Action whenever:\n» You are hit by an attack, to gain DR against that attack equal to your Speed Evasion;\n» You make an Accuracy Check, to add half your Speed Evasion to the result;\n» You hit with a damaging melee attack, to gain a bonus to damage equal to 2 + your Speed Evasion"
+        },
+        "Ow The Edge [Hobbyist]": {
+            "Tags": "[+Any]",
+            "Prerequisites": "None",
+            "Frequency": "Static",
+            "Effect": "You gain two Edges for which you qualify."
+        },
+        "Natural Selection": {
+            "Tags": "[+HP]",
+            "Prerequisites": "Expert Survival; Traveler or Survival Drive",
+            "Frequency": "Static",
+            "Effect": "You learn the Moves Secret Power and Nature Power. When you take this Feature, choose Physical or Special. Whenever you use these moves, they are treated as the chosen Damage Class, adding the appropriate Attack Stat."
+        },
+        "All-Seeing Eyes": {
+            "Tags": "[+Special Defense] [Hobbyist]",
+            "Prerequisites": "Adept Perception",
+            "Frequency": "Static",
+            "Effect": "You gain the Perception Ability."
         }
     },
     "Ace Trainer": {
@@ -409,25 +446,19 @@
             "Tags": "[Class]",
             "Prerequisites": "Novice Command",
             "Frequency": "Static",
-            "Effect": "Choose one of Ravager Orders, Marksman Orders, Trickster Orders, Guardian Orders, or Precision Orders. You gain the chosen Feature, even if you do not meet its prerequisites."
+            "Effect": "You may use [Orders] that have targets to target any Ally, even if normally those [Orders] would only let you apply the effect to your own Pokemon. Any other conditions still apply."
         },
         "Mobilize": {
             "Tags": "[Orders]",
             "Prerequisites": "Commander",
             "Frequency": "At-Will — Free Action",
-            "Target": "Any Ally",
-            "Effect": "The target cannot provoke Attacks of Opportunity on their next turn. Mobilize may target an Ally only once per encounter."
+            "Target": "Any Number of Allies",
+            "Effect": "Use of Mobilize must be declared at the beginning of the Round. The targets cannot provoke Attacks of Opportunity this Round. Mobilize may target the same Ally only once per encounter."
         },
-        "Leadership": {
-            "Prerequisites": "Commander",
+        "Scheme Twist": {
+            "Prerequisites": "Mobilize, Adept Command",
             "Frequency": "Static",
-            "Effect": "You may use [Orders] that have targets to target any Ally, even if normally those [Orders] would only let you apply the effect to your own Pokemon. Any other conditions still apply."
-        },
-        "Battle Conductor": {
-            "Prerequisites": "Leadership",
-            "Frequency": "At-Will — Swift Action",
-            "Trigger": "You give [Orders] with a Frequency of At-Will that have targets",
-            "Effect": "You may target up to two additional Allies with the [Orders]."
+            "Effect": "You gain the Rally Ability. When you give [Orders], you may pay 1 AP to activate Rally, ignoring Frequency, targeting only the targets of the [Orders]. A target may only be affected by Rally in this way once per Scene."
         },
         "Complex Orders": {
             "Prerequisites": "Commander, at least two Features with the [Orders] Tag that have targets",
@@ -435,62 +466,77 @@
             "Trigger": "You give [Orders] that have targets.",
             "Effect": "You may choose a different Order to give to each Target. You must pay all AP costs and follow Frequency restrictions for all Orders used in this way."
         },
-        "Tip the Scales": {
+        "Leadership": {
+            "Tags": "[Gift]",
+            "Prerequisites": "Complex Orders, Expert Command",
+            "Frequency": "Static",
+            "Effect": "Choose one of Ravager Orders, Marksman Orders, Trickster Orders, Guardian Orders, or Precision Orders. You gain the chosen Feature and the Leader Edge, even if you do not meet their prerequisites."
+        },
+        "Battle Conductor": {
             "Prerequisites": "Commander, Expert Command",
+            "Frequency": "Special – Free Action",
+            "Trigger": "You give [Orders] with a Frequency of At-Will that have targets",
+            "Effect": "You may target up to two additional Allies with the [Orders]. If you have 5 or more Commander Features, you may use this Feature with any [Orders]. This Feature may be used At-Will for Orders with an At-Will Frequency, but only once per Scene for Orders with any other Frequency.",
+            "Note": "This may be used with [Orders] that have AP costs, but the AP Cost must be paid separately for each target if so."
+        },
+        "Tip the Scales": {
+            "Prerequisites": "Commander, Master Command",
             "Frequency": "2 AP — Swift Action",
             "Trigger": "You give [Orders] that have targets.",
-            "Effect": "Your [Orders] with an At-Will Frequency instead target all allies within 10 Meters."
-        },
-        "Scheme Twist": {
-            "Prerequisites": "Commander, Master Command",
-            "Frequency": "Scene x2 — Swift Action",
-            "Trigger": "You give [Orders] with a Daily or Scene Frequency that have Targets.",
-            "Effect": "You may target up to two additional Allies with the [Orders]."
+            "Effect": "All targets of the [Orders] gain +1 Combat Stage in their choice of Attack, Special Attack, or Speed, and +1 Combat Stage in Defense or Special Defense. Different targets may choose different stats."
         }
     },
     "Coordinator": {
         "Coordinator": {
-            "Tags": "[Class]",
+            "Tags": "[Class] [+Any]",
             "Prerequisites": "Grace, Novice Charm, Command, Guile, Intimidate, or Intuition",
-            "Frequency": "At-Will — Free Action",
-            "Effect": "Your Pokémon may reroll a single Appeal Roll or Damage Roll. This Feature may be used only once per Contest, and once per Pokémon per Scene."
+            "Frequency": "X AP — Free Action",
+            "Effect": "Your Pokémon may re-roll a single Appeal Roll or Damage Roll, and must use the new result. The first time per day you use this Feature, it costs 0 AP. Each time thereafter, the cost increases by 1 AP. The cost of this Feature resets when you take an Extended Rest."
         },
         "Decisive Director": {
-            "Tags": "[Orders]",
+            "Tags": "[Orders] [+Any]",
             "Prerequisites": "Coordinator",
             "Frequency": "At-Will — Standard Action",
             "Target": "A Pokémon",
-            "Effect": "Add or subtract X from the target's Initiative until the end of your next turn. X is equal to your Charm Rank doubled."
-        },
-        "Adaptable Performance": {
-            "Prerequisites": "Coordinator",
-            "Frequency": "Scene — Free Action",
-            "Trigger": "Your Pokémon's Turn to use a Move in a Contest",
-            "Effect": "Choose two of your Pokémon's Moves. Your Pokémon may perform your Contest Move as if had the Contest Typing of one of your chosen Moves, and had the effects of the other. You may not use either move on the next round of the contest. This effect may be used once per Contest."
-        },
-        "Flexible Preparations": {
-            "Prerequisites": "Adaptable Performance, Adept Charm, Command, Guile, Intimidate, or Intuition",
-            "Frequency": "Daily — Extended Action",
-            "Target": "A Pokémon that has Contest Stats from Poffins",
-            "Effect": "The target may reallocate up to 2d6 of Poffin-Derived Contest Stats from one Contest Stat to another. This effect lasts until the end of the day."
+            "Effect": "Add or subtract X from the target's Initiative until the end of your next turn. X is equal to your highest Coordinator Skill Rank doubled."
         },
         "Innovation": {
-            "Prerequisites": "Adaptable Performance",
+            "Tags": "[+Any]",
+            "Prerequisites": "Coordinator",
             "Frequency": "Daily — Extended Action",
             "Target": "A Pokémon with at least 1 Tutor Point.",
-            "Effect": "The target loses 1 Tutor Point, and then learns a Move created with Innovation. See the next section for details on creating Moves for this Feature. A Pokémon may only have one Move created by Innovation at a time."
+            "Effect": "The target loses 1 Tutor Point, and then learns a Move created with Innovation. See the next section for details on creating Moves for this Feature. A Pokémon may only have one Move created by Innovation at a time. If you target your own Pokémon, the Move does not take up a Move Slot."
         },
         "Nuanced Performance": {
-            "Prerequisites": "Coordinator, Expert Charm, Command, Guile, Intimidate, or Intuition",
+            "Tags": "[+Any]",
+            "Prerequisites": "Coordinator, one Coordinator Skill at Adept",
             "Frequency": "1 AP — Free Action",
-            "Trigger": "Your Pokémon miss all targets with a Move",
-            "Effect": "That Move's Frequency is not expended. This does not work with Moves that may fail to activate, such as moves with the Execute keyword."
+            "Trigger": "Your Pokémon misses all targets with a Move",
+            "Effect": "That Move's Frequency is not expended. This does not work with Moves that may fail to activate, such as moves with the Execute keyword.",
+            "Note": "You may activate Nuanced Performance even if your Pokemon’s Move missed due to a Move with the Shield Keyword or an effect such as Dodge or Parry."
+        },
+        "Flexible Preparations": {
+            "Tags": "[+Any]",
+            "Prerequisites": "Adaptable Performance, one Coordinator Skill at Adept",
+            "Frequency": "Daily — Extended Action",
+            "Target": "You spend at least half an hour training your Pokémon",
+            "Effect": "All Pokemon you Train during this time may reallocate up to 2d6 of Poffin Derived Contest Stats from one Contest Stat to another. They may also reallocate up to 10 Stat Points between their Stats and trade one Naturally Learned Move in their movepool for any other move on their Level-Up list that they could learn at their current level or lower. The Pokemon must still adhere to Base Stat Relation. These effects last until the end of the day."
+        },
+        "Adaptable Performance": {
+            "Tags": " [+Any]",
+            "Prerequisites": "Flexible Preparations, one Coordinator Skill at Expert",
+            "Frequency": "Scene — Free Action",
+            "Trigger": "Your Pokémon's Turn to use a Move in a Contest, or your Pokémon gains Initiative",
+            "Contest Effect": "Choose two of your Pokémon's Moves. Your Pokémon may perform their Contest Move as if had the Contest Typing of one of the chosen Moves, and had the effects of the other. The Pokémon may not use either Move on the next round of the contest. This effect may be used once per Contest.",
+            "Battle Effect": "Choose two of your Pokémon's Moves with a Damage Base. This turn, your Pokémon may perform their attack as if it had the Damage Base and Range of one of the chosen Moves, and had the Accuracy and Effects of the other. If the chosen Moves are of different Types or Classes, the resulting attack may be either Type or Class. This consumes the Frequency of both of the chosen Moves.",
+            "Note": "Adaptable Performance may not be used with the Moves Explosion or Self-Destruct."
         },
         "Reliable Performance": {
-            "Prerequisites": "Nuanced Performance, Master Charm, Command, Guile, Intimidate, or Intuition",
-            "Frequency": "2 AP — Free Action",
-            "Trigger": "Your Pokémon makes an Appeal Roll, Accuracy Check, or Skill Check",
-            "Effect": "For appeal rolls, instead of making the Appeal Roll, you gain 1 Appeal Point for each Dice you would have rolled. For Accuracy Checks, act as if you had rolled a 10. For Skill Checks, multiply 3.5 by your Pokémon's Skill Rank, and use the resulting number as the result of your roll, rounded down. For all rolls, add or subtract any modifiers as normal."
+            "Tags": " [+Any]",
+            "Prerequisites": "Nuanced Performance, one Coordinator Skill at Expert",
+            "Frequency": "Scene x2 – Swift Action Interrupt",
+            "Trigger": "You or your Pokemon make an Appeal Roll, Accuracy Check, or Skill Check",
+            "Effect": "For appeal rolls, instead of making the Appeal Roll, you gain 1 Appeal Point for each Die you would have rolled. For Accuracy Checks, act as if you had rolled an 11. For Skill Checks, multiply 3.5 by the Skill Rank in question, and use the resulting number as the result of the roll, rounded down. For all rolls, add or subtract any modifiers as normal."
         },
         "Innovation Moves": {
             "Description": "The Coordinator’s “Innovation” Feature lets the Coordinator create new Moves for their Pokémon. These Moves can serve to fill voids in Move Lists for both Battles and Contests and provide utility.\nTo create a Move, first choose a Contest Type. This affects the Move’s effects and of course its role in Contests.\nNext choose a Contest Effect. Look at the “Contest Effects” section (page 266) under “Contests” for the full list. Pick one. That’s right, any of them. This determines what the Move does during a Contest, of course.\nThird, choose one of the four templates below. This determines the Move’s effects in Battle. These are modified by the Contest Type of the Move. Remember, Cool is associated with Attack, Tough with Defense, Beauty with Special Attack, Smart with Special Defense, and Cute with Speed.\nAnd finally, name your Move! This is the best part!",
@@ -499,7 +545,7 @@
                 "Frequency": "Scene",
                 "AC": "None",
                 "Class": "Status",
-                "Range": "Self",
+                "Range": "Self, Swift Action",
                 "Effect": "The user generates 3 Contest Boons. These may be used as a Swift Action on their turn to gain one of the effects below, based on this Move’s Contest Type.\n» Beauty: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Effect Range for that attack.\n» Cool: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Critical Hit Range for that attack.\n» Cute: Use during your turn to gain +3 Evasion for one full round.\n» Smart: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Accuracy for that attack.\n» Tough: Use at the start of a turn to avoid all loss of Hit Points from Status Afflictions, Weather, and Recoil for that turn."
             },
             "Template #2": {
@@ -508,7 +554,7 @@
                 "AC": "None",
                 "Class": "Status",
                 "Range": "6, 1 Target",
-                "Effect": "The target has the Stat associated with this Move’s Contest Type lowered by -2 Combat Stages. This Move cannot miss."
+                "Effect": "The target loses a Tick of Hit Points and has the Stat associated with this Move's Contest Type lowered by -2 Combat Stages. This Move cannot miss."
             },
             "Template #3": {
                 "Type": "Varies",
@@ -516,7 +562,8 @@
                 "AC": "Varies",
                 "Class": "Varies",
                 "Range": "Varies, Spirit Surge",
-                "Effect": "Make a Struggle Attack, increasing the damage roll by +5. Follow all other normal rules for making Struggle attacks, including any modifications from capabilities, features, or special effects. On 18+, the user’s Stat associated with the Contest Type of this Move is raised by +1 Combat Stage. This Move’s Effect Range is extended by +1 for every two Contest Dice the user has that matches this Move’s Contest Type."
+                "Effect": "Make a Versatile Struggle Attack, increasing the damage roll by +5. Follow all other normal rules for making Struggle attacks, including any modifications from capabilities, weapons, features, or special effects. On 18+, the user's Stat associated with the Contest Type of this Move is raised by +1 Combat Stage. This Move's Effect Range is extended by +1 for every two Contest Dice the user has that matches this Move's Contest Type.",
+                "Note": "Versatile means that the attack can be the user’s choice of Physical or Special."
             },
             "Template #4": {
                 "Type": "Normal",
@@ -524,7 +571,7 @@
                 "AC": "None",
                 "Class": "Status",
                 "Range": "Burst 2",
-                "Effect": "All allies in the Burst besides the user gain +1 Combat Stage in the Stat associated with the Contest Type of this Move."
+                "Effect": "The user and all allies in the Burst gain a Tick of Temporary Hit Points and +1 Combat Stage in the Stat associated with the Contest Type of this Move."
             }
         }
     },
@@ -542,7 +589,8 @@
             "Rank 3 Prerequisites": "Hobbyist",
             "Rank 4 Prerequisites": "Hobbyist",
             "Frequency": "Static",
-            "Effect": "Each Rank of Dilettante, you gain both an Edge and a General Feature from the lists below. You may gain the chosen Edge and Feature even if you do not meet the Skill prerequisites. You must meet any other Prerequisites. Whenever you gain a Feature or Edge this way, change any Skill Rank applications or Skill Checks mandated directly by the Edge or Feature into your choice of General Education or Perception Skill Checks or Rank applications instead.\n» Edges: Acrobat, Apricorn Balls, Basic Balls, Basic Cooking, Basic Martial Arts, Beast Master, Breeder, Dynamism, Gem Lore, Grace, Green Thumb, Groomer, Instinctive Aptitude, Instruction, Intimidating Presence, Iron Mind, Medic Training, Mounted Prowess, Repel Crafter, Slippery, Swimmer, Train the Reserves.\n» Features: Command Versatility, Commander’s Voice, Defender, Dive, First Aid Expertise, Let Me Help You With That, Poké Ball Crafter, PokéManiac, Press, Quick Switch, Skill Monkey, Species Savant, any [Training] Feature, Tutoring, Walk It Off.\nWhenever you gain a Feature or Edge this way, change any Skill Rank applications or Skill Checks mandated directly by the Edge or Feature into your choice of General Education or Perception Skill Checks or Rank applications instead."
+            "Effect": "Each Rank of Dilettante, you gain both an Edge and a General Feature from the lists below. You may gain the chosen Edge and Feature even if you do not meet the Skill prerequisites. You must meet any other Prerequisites. Whenever you gain a Feature or Edge this way, change any Skill Rank applications or Skill Checks mandated directly by the Edge or Feature into your choice of General Education or Perception Skill Checks or Rank applications instead.\n» Edges: Acrobat, Apricorn Balls, Basic Balls, Basic Cooking, Basic Martial Arts, Beast Master, Breeder, Dynamism, Gem Lore, Grace, Green Thumb, Groomer, Instinctive Aptitude, Instruction, Intimidating Presence, Iron Mind, Medic Training, Mounted Prowess, Repel Crafter, Slippery, Swimmer, Train the Reserves.\n» Features: Command Versatility, Commander’s Voice, Defender, Dive, First Aid Expertise, Let Me Help You With That, Poké Ball Crafter, PokéManiac, Press, Quick Switch, Skill Monkey, Species Savant, any [Training] Feature, Tutoring, Walk It Off.\nWhenever you gain a Feature or Edge this way, change any Skill Rank applications or Skill Checks mandated directly by the Edge or Feature into your choice of General Education or Perception Skill Checks or Rank applications instead.",
+            "Homebrew":"Add those Edges and Features to the list:\n» Edges: Bare Necessities, Hawkeye, Opportunist, You Can Do Better, Through The Pain\n» Features: Combat Medic, Mixed Power, Ow The Edge, All-Seeing Eyes"
         },
         "Dabbler": {
             "Prerequisites": "Hobbyist, Expert General Education or Perception",
@@ -639,77 +687,32 @@
         "Cheers": {
             "Prerequisites": "Cheerleader",
             "Frequency": "X AP — Swift Action",
-            "Trigger": "You use [Orders]",
-            "Effect": "The target or targets of the triggering [Orders] are Cheered for 1 full round. While Cheered, the target's Combat Stages cannot be lowered by foe's attacks, features, or abilities. This Feature costs 0 AP if the triggering effect affects only one ally, and costs 1 AP if it affects two or more."
+            "Target": "Up to three allied Pokémon or Trainers",
+            "Effect": "The targets are Cheered for 1 full round. While Cheered, the target's Combat Stages cannot be lowered by Foes' attacks, Abilities, or Features. This Feature costs 0 AP if the triggering effect affects only one ally, and costs 1 AP if it affects two or more. You may use Cheers as a Free Action when you use [Orders], but if you do, Cheers affects only the targets of the [Orders]."
         },
         "Inspirational Support": {
             "Prerequisites": "Cheers, Adept Charm",
-            "Frequency": "Static",
-            "Effect": "Whenever your Pokémon with Friend Guard targets an Ally with an Ability or Status Move, the targeted Ally becomes Cheered."
+            "Frequency": "At-Will – Extended Action",
+            "Target": "Your Pokémon with at least 2 Tutor Points remaining",
+            "Effect": "Your Pokémon loses 2 Tutor Points and gains the Helper Ability. Whenever you or your Pokémon with Friend Guard or Helper target allied Pokemon or Trainers with an Ability or Status Move, the targeted allies become Cheered for 1 full round.",
+            "Bonus": "You gain the Helper Ability, and learn the Move Helping Hand."
         },
         "Bring it On!": {
             "Prerequisites": "Cheers, Adept Charm",
-            "Frequency": "1 AP — Free Action",
-            "Effect": "You may trigger Bring It On! whenever...\n» A Cheered Ally takes Damage, to grant them 5 Damage Reduction agains the triggering Damage.\n» A Cheered Ally makes a Save Check, to grant them a +2 Bonus on that check.\n» A Cheered Ally Takes a Breather, to grant them Temporary Hit Points equal to your Charm Rank. A target may benefit from each \"Bring It On!\" effect only once per Scene."
+            "Frequency": "Scene x3 – Free Action",
+            "Effect": "All Cheered Allies become Excited. Targets cannot have more than one instance of the Excited condition at a time. As a Free Action, an Excited Ally may give up the Excited condition when...\n» Taking Damage, to gain 5 Damage Reduction against the triggering Damage.\n» Making a Save Check, to gain a +4 Bonus on that check.\n» Taking a Breather or gaining an Injury, to gain Temporary HP equal to your Charm Rank doubled."
         },
         "Go, Fight, Win!": {
             "Tags": "[Orders]",
             "Prerequisites": "Moment of Action, Expert Charm",
             "Frequency": "Scene x3 — Standard Action",
-            "Effect": "Choose and perform one of the cheers below. You may perform each Cheer only once per Scene.\n» Show Your Best!: Choose Defense or Special Defense. All allies on the field gain +1 Combat Stage in the Chosen Stat.\n» Don't Stop Now!: All allies on the field gain Temporary Hit Points equal to your Charm Rank.\n» I Believe In You!: All allies on the field gain a +2 bonus to Evasion for one full Round."
+            "Effect": "Choose and perform one of the cheers below. You may perform each Cheer only once per Scene.\n» Show Your Best!: All allies on the Field gain +1 CS in Defense and Special Defense.\n» Don’t Stop Now!: All allies on the Field are cured of one Volatile Status Condition and gain Temporary Hit Points equal to your Charm Rank.\n» I Believe In You!: All allies on the Field gain a +2 Bonus to Critical Hit Range, Accuracy, and Evasion for 1 full round."
         },
         "Keep Fighting!": {
             "Prerequisites": "5 Cheerleader Features, Master Charm",
             "Frequency": "Daily x2 — Free Action",
             "Trigger": "Your Pokémon or an Ally Trainer with over 1 Hit Point is reduced to 0 Hit Points or lower",
-            "Effect": "That Ally's Hit Point count is reduced to 1 instead, and then gains Temporary Hit Points equal to your Charm Rank doubled."
-        }
-    },
-    "Cheerleader_old": {
-        "Cheerleader": {
-            "Tags": "[Class]",
-            "Prerequisites": "Inspired Training, Novice Charm",
-            "Frequency": "X AP — Free Action",
-            "Trigger": "You use Orders",
-            "Effect": "Choose Cheered, Excited, or Motivated. All allies affected by the triggering effect gain the chosen condition. This Feature costs 0 AP if the triggering effect affects only one ally, and costs 1 AP if it affects two or more."
-        },
-        "Cheer Brigade": {
-            "Prerequisites": "Cheerleader",
-            "Frequency": "At-Will — Extended Action",
-            "Trigger": "Your Pokémon with at least 2 Tutor Points remaining",
-            "Effect": "Your Pokémon loses 2 Tutor Points and gains the Friend Guard Ability."
-        },
-        "Gleeful Interference": {
-            "Prerequisites": "Cheer Brigade, Adept Charm",
-            "Frequency": "1 AP — Free Action",
-            "Trigger": "Your Pokémon with the Friend Guard Ability hits a foe with a damaging attack",
-            "Effect": "The triggering foe gains a -2 penalty to Accuracy for one full Round."
-        },
-        "Inspirational Support": {
-            "Prerequisites": "Cheer Brigade, Adept Charm",
-            "Frequency": "Static",
-            "Effect": "You may trigger Cheerleader as a Free Action when your Pokémon with Friend Guard activate an Ability or Status Move that affects only allies.",
-            "Note": "When considering effects that could trigger Cheerleader this way, aside from the obvious Moves like Helping Hand and Abilities like Plus and Minus, think about Blessings, Coats, etc too!"
-        },
-        "Moment of Action": {
-            "Tags": "[Orders]",
-            "Prerequisites": "Cheerleader",
-            "Frequency": "At-Will — Standard Action",
-            "Target": "Up to two Allied Trainers",
-            "Effect": "Each target gains 1 Temporary Action Point. These Action Points disappear after one full Round."
-        },
-        "Go, Fight, Win!": {
-            "Tags": "[Orders]",
-            "Prerequisites": "Moment of Action, Expert Charm",
-            "Frequency": "At-Will — Standard Action + Swift Action",
-            "Effect": "Choose and perform one of the cheers below. You may perform each Cheer only once per Scene.\n» Show Your Best!: Choose Defense or Special Defense. All allies on the field gain +1 Combat Stage in the Chosen Stat and become Motivated.\n» Don't Stop Now!: All allies on the field gain Temporary Hit Points equal to your Charm Rank and become Excited.\n I Believe In You!: All allies on the field gain a +2 bonus to Evasion for one full Round, and become Cheered."
-        },
-        "Keep Fighting!": {
-            "Tags": "[Orders]",
-            "Prerequisites": "5 Cheerleader Features, Master Charm",
-            "Frequency": "Daily x2 — Free Action",
-            "Trigger": "Your Pokémon or an Ally Trainer with over 1 Hit Point is reduced to 0 Hit Points or lower",
-            "Effect": "That Ally's Hit Point count is reduced to 1 instead, and then gains Temporary Hit Points equal to your Charm Rank doubled."
+            "Effect": "That Ally's Hit Point count is reduced to 1 instead, and they then gain Temporary Hit Points equal to your Charm Rank doubled. Keep Fighting! may only be used once per target per Scene."
         }
     },
     "Duelist": {
@@ -760,40 +763,49 @@
     },
     "Enduring Soul": {
         "Enduring Soul": {
-            "Tags": "[Class]",
+            "Tags": "[Class][+HP]",
             "Prerequisites": "Novice Athletics and Focus",
             "Frequency": "Static",
-            "Effect": "You may add to your Pokémon's HP stat when they level up, ignoring Base Relation, and you do not need to \"correct\" Stats due to this inflated HP."
+            "Effect": "Your Pokemon have their HP Base Stat increased by +1, and by +1 more for every 10 Levels they have. You and your Pokemon begin each Scene with Temporary HP equal to the higher of your Athletics or Focus Ranks."
         },
         "Staying Power": {
+            "Tags": "[+HP]",
             "Prerequisites": "Enduring Soul",
             "Frequency": "Scene — Free Action",
             "Trigger": "Your Pokémon Takes a Breather",
-            "Effect": "Your Pokémon may \"Take a Breather\" even if it is Confused or Enraged, and it does not Trip or have to Shift away from enemies as part of the action. You may choose whether or not your Pokémon resets their Combat Stages to default."
+            "Effect": "Your Pokémon may \"Take a Breather\" even if they are Confused or Enraged, and they do not Trip or have to Shift away from enemies as part of the action. You may choose whether or not your Pokémon resets their Combat Stages to default.",
+            "Bonus": "Whenever you or your Pokemon Take a Breather, they gain +5 Damage Reduction for 1 full round."
         },
         "Shrug Off": {
-            "Prerequisites": "Staying Power",
-            "Frequency": "Static",
-            "Effect": "Once per day, each of your Pokémon may spend a Shift Action to remove 1 Injury from themselves; this may also be activated as a Free Action whenever your Pokémon Take a Breather."
+            "Tags": "[+HP][Gift]",
+            "Prerequisites": "Enduring Soul, Adept Athletics or Focus",
+            "Frequency": "At-Will - Extended Action",
+            "Target": "Your Pokémon with at least 2 Tutor Points remaining",
+            "Effect": "The target loses 2 Tutor Points, and gains the Walk It Off Feature, treated in all ways as an Ability for the target.",
+            "Bonus": "You gain the Walk It Off Feature, even if you do not meet the prerequisites."
         },
         "Awareness": {
-            "Prerequisites": "Enduring Soul, 3 Pokémon with a Defensive Ability",
+            "Tags": "[+HP]",
+            "Prerequisites": "Enduring Soul",
             "Frequency": "Static",
-            "Effect": "Your Pokémon add +2 to all Save Checks."
+            "Effect": "Your Pokémon add +2 to all Save Checks. Whenever your Pokémon would lose a Tick of Hit Points, reduce the amount of Hit Points lost by the higher of your Athletics or Focus Ranks, to a minimum of 1."
         },
         "Resilience": {
+            "Tags": "[+HP]",
             "Prerequisites": "Awareness, Expert Athletics or Focus",
-            "Frequency": "2 AP — Free Action",
+            "Frequency": "Scene x2 – Free Action",
             "Trigger": "Your Pokémon is hit by a Critical Hit or gains a Status Affliction (or both)",
-            "Effect": "Your Pokémon does not gain a Status Affliction, and the triggering attack does damage as if it was not a Critical Hit. Resilience may only be used once per target per Scene."
+            "Effect": "Your Pokémon does not gain a Status Affliction, and the triggering attack does damage as if it was not a Critical Hit. Resilience may only be triggered once per Pokémon per Scene."
         },
         "Not Yet!": {
+            "Tags": "[+HP]",
             "Prerequisites": "Enduring Soul, Expert Athletics or Focus",
             "Frequency": "Scene — Free Action",
             "Trigger": "Your Pokémon is Fainted, but is not at less than -100% Hit Points.",
-            "Effect": "Before fainting, the targeted Pokémon gains an Injury, and may then use a Move as an Interrupt. When the Move is resolved, the Pokémon then immediately faints. This consumes a Pokémon turn as normal. This cannot be used with the Moves Explosion, Pain Split, or Self-Destruct."
+            "Effect": "Before fainting, Your Pokémon gains an Injury, and may then take their turn as an Interrupt. When the Move is resolved, the Pokémon immediately faints if it would still be Fainted. This cannot be used with the Moves Explosion, Pain Split, or Self-Destruct."
         },
         "Vim and Vigor": {
+            "Tags": "[+HP]",
             "Prerequisites": "Shrug Off, Master Athletics or Focus",
             "Frequency": "At-Will — Extended Action",
             "Trigger": "Your Pokémon with at least 2 Tutor Points",
@@ -802,10 +814,10 @@
     },
     "Juggler": {
         "Juggler": {
-            "Tags": "[Class][+Speed]",
-            "Prerequisites": "Quick Switch, Novice Acrobatics, Novice Guile",
+            "Tags": "[Class][+Speed][Gift]",
+            "Prerequisites": "Novice Acrobatics, Novice Guile",
             "Frequency": "Static",
-            "Effect": "Using Quick Switch costs only 1 AP. Whenever you send a Pokémon into an encounter from a Poké Ball, they receive a +10 bonus to their Initiative during that round."
+            "Effect": "You gain the Quick Switch Feature, and using it costs only 1 AP."
         },
         "Bounce Shot": {
             "Tags": "[+Speed]",
@@ -814,11 +826,12 @@
             "Trigger": "You throw a Poké Ball",
             "Effect": "After hitting its mark or landing, your Poké Ball bounces 3 meters in any direction. You may have your Poké Ball trigger captures or releases before or after the bounce."
         },
-        "Juggling Show": {
+        "You Deserve A Rest": {
             "Tags": "[+Speed]",
             "Prerequisites": "Juggler",
-            "Frequency": "Static",
-            "Effect": "You may roll an additional Xd6 during the Introduction Stage of a Contest, where X is half of your Acrobatics Rank. You may choose any Contest Stat to attempt to gain Dice for with this roll."
+            "Frequency": "Scene x2 — Free Action",
+            "Trigger": "You recall a Pokémon",
+            "Effect": "Choose one: The recalled Pokémon is cured of one Persistent Status Affliction; or the recalled Pokémon gains Hit Points equal to 1/3rd its Maximum Hit Points. You Deserve A Rest may only be used once per Pokémon per Scene."
         },
         "Round Trip": {
             "Tags": "[+Speed]",
@@ -838,7 +851,8 @@
             "Tags": "[+Speed]",
             "Prerequisites": "Juggler, Expert Acrobatics or Guile",
             "Frequency": "2 AP — Shift Action, Interrupt",
-            "Effect": "You may Release a Pokémon as an Interrupt."
+            "Effect": "You may Release a Pokémon as an Interrupt.",
+            "Bonus": "Whenever you send a Pokémon into an encounter from a Poké Ball, they receive a +10 bonus to their Initiative during that round."
         },
         "First Blood": {
             "Tags": "[+Speed]",
@@ -860,34 +874,35 @@
             "Prerequisites": "Rider",
             "Frequency": "At-Will — Extended Action",
             "Target": "Your Pokémon with at least 2 Tutor Points",
-            "Effect": "The target loses 2 Tutor Points and gains the Run Up Ability."
+            "Effect": "The target loses 2 Tutor Points and gains the Rock Head Ability. For your Pokémon, Rock Head applies to any Move with a Range of Pass, or the Dash keyword, in addition to Physical attacks."
         },
         "Conqueror's March": {
             "Tags": "[Orders][+Speed]",
             "Prerequisites": "Ramming Speed, Adept Acrobatics or Athletics",
             "Frequency": "At-Will — Standard Action",
-            "Target": "Your Pokémon with Run Up",
-            "Effect": "This round, if being used as a Mount, the target may use Dash, Burst, Blast, Cone, or Line range Moves with a range of Pass instead of their usual range."
+            "Target": "Your Pokémon with Rock Head",
+            "Effect": "This round, if being used as a Mount, the target may use Dash, Burst, Blast, Cone, or Line range Moves with a range of Pass instead of their usual range, and they may change direction during the 4 meters of Pass."
         },
         "Ride as One": {
             "Tags": "[+Speed]",
             "Prerequisites": "Rider",
             "Frequency": "Static",
-            "Effect": "While you are Mounted, you and your Mount each use the highest of each other's Speed Evasion. If both you and your Mount have the same Speed Evasion, you instead each receive a +1 bonus to Speed Evasion. Whenever one of you receives Initiative, either of you may take your turn. When the next person would receive initiative, the person that did not take their turn then takes it."
+            "Effect": "While you are Mounted, you and your Mount each use the highest of each other's Speed Evasion. If both you and your Mount have the same Speed Evasion, you instead each receive a +1 bonus to Speed Evasion and Movement Capabilities. Whenever one of you receives Initiative, either of you may take your turn. When the next person would receive initiative, the person that did not take their turn then takes it."
         },
         "Lean In": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ride as One",
             "Frequency": "Scene x2 — Free Action",
             "Trigger": "You and your Mount both take Damage from a Burst, Blast, Cone, or Line",
-            "Effect": "Both you and your Mount Resist the attack one step further."
+            "Effect": "Both you and your Mount Resist the attack one step further.",
+            "Bonus": "You and your Mount may Intercept for each other as a Shift Action Interrupt."
         },
         "Cavalier's Reprisal": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ride as One, Expert Acrobatics or Athletics",
             "Frequency": "1 AP — Free Action",
             "Trigger": "An adjacent foe hits your Mount with an attack",
-            "Effect": "You may make a Struggle Attack against the triggering foe."
+            "Effect": "You or your Mount (whichever was not hit by the triggering attack) may make a Struggle Attack against the triggering foe as a Free Action."
         },
         "Overrun": {
             "Tags": "[+Speed]",
@@ -1255,16 +1270,16 @@
         "Beauty": {
             "Style Expert": {
                 "Tags": "Class, Branch",
-                "Prerequisites": "3 Pokémon with 3d6 in their Beauty Stat from Poffins OR Coordinator, 1 Pokémon with 3d6 in their Beauty Stat from Poffins",
+                "Prerequisites": "3 Pokémon with 3d6 in their Beauty Stat from Poffins OR Fashionista or Coordinator, 1 Pokémon with 3d6 in their Beauty Stat from Poffins",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain +2d6 to their Beauty Stat. These dice are counted as if coming from Poffins."
+                "Effect": "Your Pokémon gain +2d6 to their Beauty Stat. These dice are counted as if coming from Poffins. Your Pokémon gain a +5 bonus to damage with attacks that match Beauty Stat. When your Pokémon uses a non-damaging attack that matches your Beauty Stat, it gains a +1 bonus to its Evasion for one full round."
             },
             "Style Flourish": {
                 "Tags": "Branch",
                 "Prerequisites": "3 Style Expert (Beauty) Features",
                 "Frequency": "1 AP — Free Action",
                 "Trigger": "Your Pokémon uses a Beauty Move",
-                "Contest Effect": "Re-Roll all dice that result in 1s. This effect may only be used once per Contest.",
+                "Contests Effect": "Re-Roll all dice that result in 1s. This effect may only be used once per Contest.",
                 "Battle Effect": "The target gains +1 CS to their Special Attack, after the Move and all effects have been resolved. This may only affect a target once per Scene."
             },
             "Style Entrainment": {
@@ -1287,22 +1302,22 @@
                 "Prerequisites": "Beautiful Ballet Rank 1",
                 "Frequency": "At-Will — Free Action",
                 "Trigger": "Your Pokémon uses a Beauty-Type Move",
-                "Contest Effect": "Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
+                "Contest Effect": "In Contests: Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
                 "Battle Effect": "The move gains the keyword Burst 1 if Melee, or Blast 2 if ranged. If the move is already a Burst, Blast, or Cone, increase the size of the Move's Range by 1. This does not cause a target to be hit multiple times. You may activate Fabulous Max only once per Pokémon per Scene."
             },
             "Enticing Beauty": {
                 "Prerequisites": "Beautiful Ballet Rank 1",
                 "Frequency": "Scene — Free Action",
-                "Trigger": "Your Pokémon",
-                "Effect": "The target acts as a Bait item as if it had the Alluring Capability. Add its number of Beauty Dice from Poffins as a Bonus to all d20 lure rolls."
+                "Trigger": "Your Pokémon hits with a Beauty Type attack",
+                "Effect": "All targets hit by the attack become Infatuated with Your Pokémon, regardless of gender."
             }
         },
         "Cool": {
             "Style Expert": {
                 "Tags": "Class, Branch",
-                "Prerequisites": "3 Pokémon with 3d6 in their Cool Stat from Poffins OR Coordinator, 1 Pokémon with 3d6 in their Cool Stat from Poffins",
+                "Prerequisites": "3 Pokémon with 3d6 in their Cool Stat from Poffins OR Fashionista or Coordinator, 1 Pokémon with 3d6 in their Cool Stat from Poffins",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain +2d6 to their Cool Stat. These dice are counted as if coming from Poffins."
+                "Effect": "Your Pokémon gain +2d6 to their Cool Stat. These dice are counted as if coming from Poffins. Your Pokémon gain a +5 bonus to damage with attacks that match Cool Stat. When your Pokémon uses a non-damaging attack that matches your Cool Stat, it gains a +1 bonus to its Evasion for one full round."
             },
             "Style Flourish": {
                 "Tags": "Branch",
@@ -1333,21 +1348,22 @@
                 "Frequency": "At-Will — Free Action",
                 "Trigger": "Your Pokémon uses a Cool-Type Move",
                 "Contest Effect": "Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
-                "Battle Effect": "The triggering Move's Crit Range is increased by 3, and the Moves with the Interrupt Keyword may not be activated in reaction to this Move. You may activate Rule of Cool only once per Pokémon per Scene."
+                "Battle Effect": "The triggering Move's Crit Range is increased by 3, and Moves with the Interrupt or Shield Keywords may not be activated in reaction to this Move. The triggering Move may not be Intercepted. You may activate Rule of Cool only once per Pokémon per Scene."
             },
             "Action Hero Stunt": {
                 "Prerequisites": "Cool Conduct Rank 1",
                 "Frequency": "Daily x2 — Free Action",
                 "Trigger": "Your Pokémon makes a Skill Check for a dramatic, high risk action",
-                "Effect": "Instead of using a Skill for this Check, your Pokémon rolls their Cool Dice from Poffins and adds their number of Cool Dice from Stats as a modifier. For example, a Pokémon with 5d6 Cool from Poffins and 2d6 from Attack rolls 5d6+2. Skill Checks invoked by Intercepting attacks, Combat Maneuvers, Moves, and Abilities don't trigger this Feature."
+                "Effect": "Instead of using a Skill for this Check, you roll your Cool Dice from Poffins and add your number of Cool Dice from Stats and your Spirit Attribute as modifiers. For example, a Pokémon with 5d6 Cool from Poffins and 2d6 from Attack rolls 5d6+2. Even Skill Checks invoked by Intercepting attacks, Combat Maneuvers, Moves, and Abilities may trigger this Feature.",
+                "Example Trigger": "Charging into a burning building for a heroic rescue, Intercepting a powerful attack"
             }
         },
         "Cute": {
             "Style Expert": {
                 "Tags": "Class, Branch",
-                "Prerequisites": "3 Pokémon with 3d6 in their Cute Stat from Poffins OR Coordinator, 1 Pokémon with 3d6 in their Cute Stat from Poffins",
+                "Prerequisites": "3 Pokémon with 3d6 in their Cute Stat from Poffins OR Fashionista or Coordinator, 1 Pokémon with 3d6 in their Cute Stat from Poffins",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain +2d6 to their Cute Stat. These dice are counted as if coming from Poffins."
+                "Effect": "Your Pokémon gain +2d6 to their Cute Stat. These dice are counted as if coming from Poffins. Your Pokémon gain a +5 bonus to damage with attacks that match Cute Stat. When your Pokémon uses a non-damaging attack that matches your Cute Stat, it gains a +1 bonus to its Evasion for one full round."
             },
             "Style Flourish": {
                 "Tags": "Branch",
@@ -1378,21 +1394,21 @@
                 "Frequency": "At-Will — Free Action",
                 "Trigger": "Your Pokémon uses a Cute-Type Move",
                 "Contest Effect": "Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
-                "Battle Effect": "The triggering Pokémon may immediately shift up to half their Movement speed in meters in any direction after their attack is resolved. You may activate Gleeful Steps only once per Pokémon per Scene."
+                "Battle Effect": "Your Pokémon may immediately Disengage up to half their Movement speed in meters in any direction after the attack is resolved. You may activate Gleeful Steps only once per Pokémon per Scene."
             },
             "Let's Be Friends!": {
                 "Prerequisites": "Cute Cuddle Rank 1",
                 "Frequency": "Scene — Free Action",
-                "Target": "Your Pokémon",
-                "Effect": "The target may attempt to improve the disposition of a Wild Pokémon as if making a Charm Check. They roll their Cute Dice from Poffins and add their number of Cute Dice from Stats as a modifier. For example, a Pokémon with 4d6 Cute from Poffins and 3d6 Cute from Speed rolls 4d6+3 in place of a Charm Check."
+                "Target": "Your Pokémon and a number of foes up to half your Charm Rank",
+                "Effect": "For one Full Round, your targeted Pokemon is treated in all ways as the targeted foes’ Ally for both parties’ Moves, Abilities, and Features. The targeted foes may not include your targeted Pokemon as a target of a Damaging Move on their next turn, unless that Move has the Friendly keyword."
             }
         },
         "Smart": {
             "Style Expert": {
                 "Tags": "Class, Branch",
-                "Prerequisites": "3 Pokémon with 3d6 in their Smart Stat from Poffins OR Coordinator, 1 Pokémon with 3d6 in their Smart Stat from Poffins",
+                "Prerequisites": "3 Pokémon with 3d6 in their Smart Stat from Poffins OR Fashionista or Coordinator, 1 Pokémon with 3d6 in their Smart Stat from Poffins",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain +2d6 to their Smart Stat. These dice are counted as if coming from Poffins."
+                "Effect": "Your Pokémon gain +2d6 to their Smart Stat. These dice are counted as if coming from Poffins. Your Pokémon gain a +5 bonus to damage with attacks that match Smart Stat. When your Pokémon uses a non-damaging attack that matches your Smart Stat, it gains a +1 bonus to its Evasion for one full round."
             },
             "Style Flourish": {
                 "Tags": "Branch",
@@ -1423,7 +1439,7 @@
                 "Frequency": "At-Will — Free Action",
                 "Trigger": "Your Pokémon uses a Smart-Type Move",
                 "Contest Effect": "Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
-                "Battle Effect": "Choose one: The triggering Pokémon gains a +1 bonus on its Accuracy Roll for each ally that hit a target of its Move this round, or all allies get a +1 bonus to their Accuracy Rolls against targets of the triggering Pokémon's Move until the end of your Pokémon's next turn. You may activate Calculated Assault only once per Pokémon per Scene."
+                "Battle Effect": "Choose one: The triggering move gains a +1 bonus on its Accuracy Roll for each ally that attacked a target of the Move this round, or all allies get a +1 bonus to their Accuracy and Evasion against targets of the triggering Move until the end of your next turn."
             },
             "Learn From Your Mistakes": {
                 "Prerequisites": "Smart Scheme Rank 1",
@@ -1435,9 +1451,9 @@
         "Tough": {
             "Style Expert": {
                 "Tags": "Class, Branch",
-                "Prerequisites": "3 Pokémon with 3d6 in their Tough Stat from Poffins OR Coordinator, 1 Pokémon with 3d6 in their Tough Stat from Poffins",
+                "Prerequisites": "3 Pokémon with 3d6 in their Tough Stat from Poffins OR Fashionista or Coordinator, 1 Pokémon with 3d6 in their Tough Stat from Poffins",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain +2d6 to their Tough Stat. These dice are counted as if coming from Poffins."
+                "Effect": "Your Pokémon gain +2d6 to their Tough Stat. These dice are counted as if coming from Poffins. Your Pokémon gain a +5 bonus to damage with attacks that match Tough Stat. When your Pokémon uses a non-damaging attack that matches your Tough Stat, it gains a +1 bonus to its Evasion for one full round."
             },
             "Style Flourish": {
                 "Tags": "Branch",
@@ -1468,13 +1484,13 @@
                 "Frequency": "At-Will — Free Action",
                 "Trigger": "Your Pokémon uses a Tough-Type Move",
                 "Contest Effect": "Treat the Move as if it were one step more aligned with the Contest Type. If the Move would be opposing the Contest Type, it is instead neutral. If it is neutral, it is instead matching. You may activate this effect only once per Contest.",
-                "Battle Effect": "All targets hit by the Move are pushed away from the triggering Pokémon by 3 meters. You may activate Macho Charge only once per Pokémon per Scene."
+                "Battle Effect": "All targets hit by the Move lose a Tick of Hit Points and are pushed 3 meters away from the triggering Pokémon. You may activate Macho Charge only once per Scene per Pokemon."
             },
             "Endurance": {
                 "Prerequisites": "Tough Tumble Rank 1",
                 "Frequency": "Scene — Free Action",
-                "Trigger": "Your Pokémon takes falling damage, begins to suffocate, or is Heavily Injured.",
-                "Effect": "Your Pokémon can ignore up to X meters of falling when calculating falling damage, act without beginning to suffocate for X additional rounds, or ignore the Hit Point loss effects from acting while Heavily Injured for X rounds. X is equal to half its number of Tough Dice from Poffins."
+                "Trigger": "Your Pokémon takes falling damage, begins to suffocate, would gain an Injury, or is Heavily Injured.",
+                "Effect": "Your Pokémon can ignore up to X meters of falling when calculating falling damage, act without beginning to suffocate for X additional rounds, ignore the Hit Point loss effects from acting while Heavily Injured for X rounds, or not gain the Injury. X is equal to half your number of Tough Dice from Poffins. Endurance may only prevent an Injury once per Pokemon per Scene."
             }
         }
     },
@@ -1599,27 +1615,27 @@
             "Tyrant's Roar": {
                 "Prerequisites": "Type Ace (Dragon)",
                 "Frequency": "Scene x2 — Free Action",
-                "Trigger": "Your Pokémon hits with a Dragon-Type Move",
-                "Effect": "Your Pokémon creates a Burst 2, Slowing all Foes in the area and causing those foes to lose 1 Combat Stage in any Stat in which they have positive Combat Stages"
+                "Trigger": "Your Pokémon uses a Dragon-Type Move",
+                "Effect": "Your Pokémon creates a Burst 2, Slowing all Foes in the area for 1 Full Round and causing those foes to lose 1 Combat Stage in all Stats in which they have positive Combat Stages."
             },
             "Highlander": {
                 "Prerequisites": "Tyrant's Roar, Adept Command or Intimidate",
                 "Tags": "Orders, Stratagem",
                 "Frequency": "Bind 2 AP — Standard Action",
                 "Target": "Your Dragon-Type Pokémon",
-                "Effect": "While this Feature is Bound, the target gains X Damage Reduction against Dragon-Type attacks, and gain a +X Bonus to Damage Rolls with Dragon-Typed attacks against other Dragon-Typed targets. X is equal to your Type-Linked Skill Rank."
+                "Effect": "While this Feature is Bound, the target gains X Damage Reduction against Dragon, Steel, Flying, and Rock-Type attacks, and gains a +X Bonus to Damage Rolls with Dragon-Typed attacks against targets of these Types. X is equal to your Type-Linked Skill Rank. These bonuses are only applied once, even if a target has two or more of these Types."
             },
             "Unconquerable": {
                 "Prerequisites": "Tyrant's Roar, Expert Command or Intimidate",
                 "Frequency": "Daily x3 — Free Action",
-                "Trigger": "Your Pokémon uses a Dragon-Type Move while they have 3 or more Status Afflictions",
-                "Effect": "Your Pokémon is cured of up to three Status Afflictions."
+                "Trigger": "Your Pokémon uses a Dragon-Type Move while it has 1 or more Status Afflictions",
+                "Effect": "Your Pokémon is cured of up to three Status Afflictions. Your Pokemon may activate Unconquerable as a Standard Action on their turn without using an attack. Unconquerable may be used once per Scene per Pokemon."
             },
             "This Will Not Stand": {
                 "Prerequisites": "Tyrant's Roar, Master Command or Intimidate",
-                "Frequency": "At-Will — Free Action",
-                "Trigger": "Your Dragon-Type Pokémon takes a Critical Hit or Massive Damage",
-                "Effect": "Your Pokémon gains +1 Combat Stage in each of Attack, Special Attack, and Speed. This Will Not Stand may trigger only once per Scene per Pokémon."
+                "Frequency": "Scene x2 – Free Action",
+                "Trigger": "Your Dragon-Type Pokémon takes a Critical Hit or Massive Damage and is not Fainted",
+                "Effect": "Your Pokémon may immediately Shift up to your Type-Linked Skill Rank in meters and may then make a Dragon-Typed attack against the triggering foe as an Interrupt. If this attack Faints the triggering foe, your Pokémon may heal one Injury and gain two Ticks of Temporary Hit Points. This Will Not Stand may be used once per Pokemon per Scene."
             }
         },
         "Electric": {
@@ -1694,26 +1710,27 @@
             "Fairy Lights": {
                 "Prerequisites": "Type Ace (Fairy)",
                 "Frequency": "At-Will — Special",
-                "Effect": "Your Fairy-Type Pokemon may activate Fairy Lights as a Standard Action to create 3 Fairy Lights that hover around themselves. Whenever the target is attacked by a foe within 6 meters, they may expend a Fairy Light to either immediately gain a Tick of Temporary Hit Points, or to use the Move Fairy Wind as a Free Action.\nSpecial: Fairy Lights also provide mild lighting, comparable to a candle. As an extended action your Pokemon can control the lights individually, but they must stay within 6 meters of the Pokemon that created them."
+                "Effect": "Your Fairy-Type Pokemon may activate Fairy Lights as a Standard Action to create 3 Fairy Lights that hover around themselves. Whenever the target is attacked by a foe within 6 meters, they may expend a Fairy Light to either immediately gain Temporary Hit Points equal to their Tick Value + your Type-Linked Skill Rank, or to use the Move Fairy Wind as a Free Action.",
+                "Special": "Fairy Lights also provide mild lighting, comparable to a candle. As a Shift Action, your Pokemon can control the lights individually, but they must stay within 6 meters of the Pokemon that created them."
             },
             "Arcane Favor": {
                 "Prerequisites": "Fairy Lights, Adept Charm or Guile",
                 "Frequency": "Scene x2 — Free Action",
                 "Trigger": "Your Pokémon uses a Fairy-Type Move",
-                "Effect": "Your Pokémon and all allies on the Field gain a +1 Bonus to all rolls for one full round."
+                "Effect": "Your Pokémon and a number of allies up to your Type-Linked Skill Rank gain a +2 Bonus to all rolls for one full round."
             },
             "Fey Trance": {
                 "Prerequisites": "Fairy Lights, Expert Charm or Guile",
                 "Tags": "Orders, Stratagem",
                 "Frequency": "Bind 2 AP — Standard Action",
                 "Target": "Your Pokémon",
-                "Effect": "While this Feature is bound, whenever the target uses a 1-Target Move with the Social Keyword or a Fairy-Type Status Move, the foe hit by the triggering Move becomes Infatuated with your Pokemon, and immediately Shifts towards your Pokemon, forfeiting their next Shift Action. This may affect a specific foe only once per Scene."
+                "Effect": "While this Feature is bound, whenever the target uses a Move with the Social Keyword or a Fairy-Type Status Move, one foe hit by the triggering Move becomes Infatuated with your Pokemon, and immediately Shifts towards your Pokemon, forfeiting their next Shift Action. This may aﬀect a specific foe only once per Scene."
             },
             "Fairy Rite": {
                 "Prerequisites": "Fairy Lights, Master Charm or Guile",
                 "Frequency": "Daily x3 — Special",
                 "Trigger": "Your Pokémon creates Fairy Lights as a Standard Action",
-                "Effect": "Your Fairy-Type Pokémon may activate Fairy Rite as a Standard Action to lose any number of Hit Points, up to a maximum equal to your Pokémon's Level, and heal an adjacent Ally by that many Hit Points. Then, if your Fairy-Type Pokémon has any Fairy Lights, they may immediately expend any Fairy Lights to gain a Tick of Hit Points, or cause an ally within 6 meters to gain a Tick of Hit Points."
+                "Effect": "Your Fairy-Type Pokémon may lose any number of Hit Points as a Free Action, up to a maximum equal to your Pokémon's Level, and heal an Ally within X meters by an amount equal to the lost Hit Points + X. Then, if your Fairy-Type Pokémon has any Fairy Lights, they may immediately expend any number of Fairy Lights. For each Fairy Light expended this way, they may cause themselves or an ally within X meters to gain Hit Points equal to that target's Tick Value + X. X is your Type-Linked Skill Rank. Your Pokemon may choose to activate Fairy Rite as a Standard Action on its turn without creating Fairy Lights."
             }
         },
         "Fighting": {
@@ -1743,24 +1760,26 @@
                 "Tags": "Orders, Stratagem",
                 "Frequency": "Bind 2 AP — Standard Action",
                 "Target": "Your Pokémon",
-                "Effect": "While this Feature is Bound, the target's Fighting-Type Moves cause foes to become Marked by the target for 1 full round. If the target is a Fighting-Type Pokémon, they may also Mark the Foe for one full round when hitting with a Grapple, Trip, or Push Maneuver. Marked Foes provoke an attack of Opportunity from the Pokémon that marked them if they Shift out of an adjacent square into a square that is not adjacent, even if they use a Disengage Maneuver. Targets cannot be Marked by more than one Pokémon at a time."
+                "Effect": "While this Feature is Bound, your Pokémon's Fighting-Type Moves cause foes to become Marked for 1 full round. Your Fighting-Type Pokémon may also Mark Foes for one full round when hitting with a Grapple, Trip, or Push Maneuver.\nMarked foes take a -X penalty to Accuracy Rolls and a -10 penalty to Damage Rolls on attacks that do not target the Pokemon that Marked them. X is equal to half your Type-Linked Skill Rank. Additionally, Marked Foes provoke an attack of Opportunity from the Pokémon that marked them if they Shift out of an adjacent square into a square that is not adjacent, even if they use a Disengage Maneuver. Targets cannot be Marked by more than one Pokémon at a time."
             },
             "Brawler": {
                 "Prerequisites": "Close Quarters Mastery, Adept Combat or Intuition",
                 "Frequency": "Scene x2 — Free Action",
                 "Trigger": "Your Pokémon makes a Struggle Attack",
-                "Effect": "This Struggle Attack has a range of Burst 1, Friendly instead of the usual range, and deals Fighting-Type Damage."
+                "Effect": "This Struggle Attack has a range of Burst 1, Friendly instead of the usual range, and may deal Fighting Type Damage if you wish",
+                "Bonus": "Your Pokemon's Fighting-Type attacks gain a +1 Accuracy bonus against adjacent foes."
             },
             "Face Me, Whelp": {
                 "Prerequisites": "Close Quarters Mastery, Expert Combat or Intuition",
                 "Frequency": "Static",
-                "Effect": "While your Pokémon is adjacent to a foe they Marked, that foe gains a -X penalty to Accuracy Rolls and a -10 penalty to Damage Rolls on attacks that do not target the Pokémon that Marked them. X is equal to half your Type-Linked Skill Rank."
+                "Effect": "Whenever your Pokemon hits an adjacent foe with a Struggle Attack or a single-target DB8 or lower Fighting-Type attack, that foe becomes Slowed for one full Round."
             },
             "Smashing Punishment": {
                 "Prerequisites": "Close Quarters Mastery, Master Combat or Intuition",
                 "Frequency": "Daily x3 — Free Action",
-                "Trigger": "A Marked Foe provokes an Attack of Opportunity from your Fighting-Type Pokémon",
-                "Effect": "The Attack of Opportunity automatically hits, deals Fighting-Type Damage, and is a Critical Hit."
+                "Trigger": "A Marked Foe provokes an Attack of Opportunity from your Pokémon",
+                "Effect": "The Attack of Opportunity automatically hits, may deal Fighting-Type Damage if you wish, and is a Critical Hit.",
+                "Bonus": "Whenever your Fighting-Type Pokémon hits a Marked foe with a Struggle Attack(including an Attack of Opportunity), that foe becomes Vulnerable until the next time they are hit with an attack."
             }
         },
         "Fire": {
@@ -2167,14 +2186,14 @@
             "Psionic Sponge": {
                 "Prerequisites": "Type Ace (Psychic)",
                 "Frequency": "At-Will — Special",
-                "Effect": "Your Psychic-Type Pokémon may activate Psychic Sponge as a Shift Action to add a Psychic Type Move known by an ally within X meters to their Move List until the end of their turn. This does not allow them to have duplicate Moves in their Move List. This Feature may only be used once per Pokémon per Scene, and X is equal to your Type-Linked Skill Rank."
+                "Effect": "Your Psychic-Type Pokémon may activate Psychic Sponge as a Shift Action to add a Psychic Type Move known by an ally within X meters to their Move List until the end of their turn. This does not allow them to have duplicate Moves in their Move List. This Feature may only be used once per Pokémon per Scene. X is equal to your Type-Linked Skill Rank."
             },
             "Mindbreak": {
                 "Prerequisites": "Psionic Sponge, Adept Focus or Occult Education",
                 "Tags": "Orders, Stratagem",
                 "Frequency": "Bind 2 AP — Standard Action",
-                "Target": "Your Psychic-Type Pokémon",
-                "Effect": "While this Feature is Bound, the target's damaging Psychic-Type Moves gain a +1 Bonus to Effect Range and a +3 Bonus to Damage Rolls for each of the following conditions that the target is suffering: Bad Sleep, Confusion, Curse, Disabled, Flinch, Infatuation, Rage, or Suppression."
+                "Target": "Your Pokémon",
+                "Effect": "While this Feature is Bound, the target's damaging Psychic-Type Moves gains a bonus to Accuracy and Effect Range equal to the number of Status Moves known by the triggering Pokémon. If the triggering Pokémon is Psychic-Type, the attack also gains a +3 bonus to damage for each Status Affliction, Other Affliction, and Negative Combat Stage the target has, to a maximum of 3 times your Type-Linked Skill Rank."
             },
             "Psychic Resonance": {
                 "Prerequisites": "Psionic Sponge, Expert Focus or Occult Education",
@@ -2432,7 +2451,8 @@
             "Prerequisites": "Novice Perception",
             "Frequency": "1 AP — Swift Action, Interrupt",
             "Target": "A Pokémon, Trainer, Move, or Location.",
-            "Effect": "You make Record of the target. Records can be placed in an Archive as an Extended Action. When you take Chronicler, you gain one Archive."
+            "Effect": "You make a Record of the target. Records can be placed in an Archive as an Extended Action. When you take Chronicler, you gain one Archive.",
+            "Archives": "» Profile Archive: You may place Records of specific Pokémon and Trainers in your Profile Archive. You and your Pokemon gain a +1 bonus to Accuracy and a +2 bonus on all Opposed Checks against Pokémon and Trainers in your Profile Archive.\n» Technique Archive: You may place Records of Moves in your Technique Archive. You and your Pokémon gain +2 Evasion against Moves in your Technique Archive.\n» Travel Archive: You may place Records of Locations in your Travel Archive. While you are in a Location in your Travel Archive, you gain the Keen Eye Ability and a +2 bonus to Perception Checks to notice the environment."
         },
         "Archival Training": {
             "Tags": "[Ranked 2]",
@@ -2450,68 +2470,79 @@
         "Targeted Profiling": {
             "Tags": "[Orders]",
             "Prerequisites": "Profile Archive, Expert Perception",
-            "Frequency": "2 AP — Standard Action",
+            "Frequency": "1 AP — Standard Action",
             "Target": "Your Pokémon",
-            "Effect": "On the target's next turn, they act as if they had the Mold Breaker Ability against all Pokémon and Trainers in your Profile Archive and gains a +2 bonus to Accuracy Rolls against these targets."
+            "Effect": "On the target's next turn, it acts as if it had the Mold Breaker Ability against all Pokémon and Trainers in your Profile Archive and gains a +1 bonus to Accuracy Rolls, Critical Hit Range, and Effect Range against these targets."
         },
         "Observation Party": {
-            "Tags": "[Orders]",
             "Prerequisites": "Travel Archive, Adept Perception",
             "Frequency": "Static",
-            "Effect": "While they are in a Location in your Travel Archive, your Pokémon have the Ability you chose when gaining Travel Archive and gain a +2 bonus to Perception Checks to notice the environment."
+            "Effect": "While they are in a Location in your Travel Archive, your Pokémon gain the Keen Eye Ability and gain a +2 bonus to Perception Checks to notice the environment.",
+            "Bonus": "While in a Location in your Travel Archive, you and your Pokémon are immune to being Flanked."
         },
         "Cinematic Analysis": {
-            "Tags": "[Orders]",
             "Prerequisites": "4 Chronicler Features, Master Perception",
             "Frequency": "Daily x3 — Free Action",
-            "Effect": "You analyze a Record in one of your Archives. Cinematic Analysis's effect depends on the Archive the Record is in. Each of these effects may only be used once per Scene.",
-            "Character Study — Profile Archive": "You may trigger Character Study when you or an ally makes a Charm, Command, Guile, Intimidate, or Intuition Check targeting the subject of your Record. Make a Perception Check and substitute the triggering Skill Check with the result.",
+            "Effect": "You analyze a Record in one of your Archives. Cinematic Analysis's eﬀect depends on the Archive the Record is in. Each of these effects may only be used once per Scene.",
+            "Character Study — Profile Archive": "You may trigger Character Study when you or an ally makes an Opposed Check against the subject of your Record. Make a Perception Check and substitute the triggering Skill Check with the result. This Perception Check is still an Opposed Check.",
             "Recreation — Technique Archive": "Recreation may be triggered as your Pokémon gains Initiative. Select a Record of a Move in your Technique Archive that your Pokémon can learn by Level Up, TM, or Move Tutor. Your Pokémon may perform that Move as if it was on its Move List. You may select a specific Move only once per day.",
             "Situational Awareness — Travel Archive": "You may only use Situational Awareness if you analyze a Record of your current Location. When used this way, you may activate it as an Interrupt. Choose an ally; that ally may take their next action as Priority (Advanced)."
         }
     },
     "Fashionista": {
         "Fashionista": {
-            "Tags": "[Class]",
+            "Tags": "[Class][+Any]",
             "Prerequisites": "Two of Charm, Command, Guile, Intimidate, or Intuition at Novice",
             "Frequency": "At-Will — Extended Action",
-            "Effect": "You may craft any Fashionista Recipe for which you qualify."
+            "Effect": "You may craft any Fashionista Recipe for which you qualify.",
+            "Special": "When you take Fashionista, choose two of Charm, Command, Guile, Intimidate, or Intuition to become your Fashionista Skills. The Skills you choose must be at Novice Rank or higher."
         },
         "Dashing Makeover": {
+            "Tags": "[+Any]",
             "Prerequisites": "Fashionista",
             "Frequency": "Bind 2 AP — Extended Action",
             "Target": "A Trainer or Pokémon",
             "Effect": "When you activate Dashing Makeover, choose one Equipment or Held Item you can create. While this Feature is Bound, the target gains the effects of the chosen item, as long as they would normally be able to equip it (ex: Trainers cannot equip Incense Items).They do not need to take up an Equipment or Held Item slot to gain this benefit. A target may only be affected by one instance of Dashing Makeover at a time."
         },
         "Style is Eternal": {
+            "Tags": "[+Any]",
             "Prerequisites": "Fashionista",
-            "Frequency": "1 AP — Free Action",
+            "Frequency": "Scene — Free Action",
             "Trigger": "Your Pokémon is Disarmed or would have their Held Item removed by another effect such as Thief or Covet",
-            "Effect": "Your Pokémon instead retains their Held Item. Style is Eternal may only be used once per Scene per Pokémon."
+            "Effect": "The Held Item is instead retained."
         },
         "Accessorize": {
+            "Tags": "[+Any]",
             "Prerequisites": "Dashing Makeover, one Fashionista Skill at Adept",
             "Frequency": "Static",
             "Effect": "You may wear and benefit from two Accessory Slot Items at once. The two items must be of different types and must not share an effect. For example, a Fire Brace cannot be paired with another Fire Brace or a Fire Plate, but it could be paired with an Ice Brace, a Fire Booster, or a Stat Booster."
         },
         "Parfumier": {
+            "Tags": "[+Any]",
             "Prerequisites": "Fashionista, one Fashionista Skill at Expert",
             "Frequency": "Static",
-            "Effect": "Whenever you create an Incense Held Item, choose Sweet Scent or Aromatic Mist. While your Pokémon is holding that Incense Item in an active Held Item slot, they add the chosen Move to their Move List."
+            "Effect": "Whenever you create an Incense Held Item, choose Sweet Scent or Aromatic Mist. While holding that Incense Item in an active Held Item slot, the user adds the chosen Move to their Move List."
         },
         "Versatile Wardrobe": {
+            "Tags": "[+Any]",
             "Prerequisites": "Fashionista, two Fashionista Skills at Adept",
             "Frequency": "At-Will — Extended Action",
             "Target": "Your Pokémon with at least 2 Tutor Points remaining",
-            "Effect": "The target loses 2 Tutor Points and then becomes chic. Chic Pokémon gain two extra Held Item slots with which they can carry Held Items. However, the items in these slots have no effect and are not treated as equipped. As a Swift Action on their turn, Chic Pokémon may swap a currently active Held Item with an item stored in these slots. Chic Pokémon may not carry multiple items of the same type or with repeated effects.",
-            "Note": "A Chic Pokémon does not become Suppressed until they switch a Choice Item into their active Held Item slot, but even if they then switch the Choice Item out, they remain Suppressed for the remainder of combat. A Mega-Evolved Chic Pokémon remains Mega-Evolved even if they switch their active Held Item."
+            "Effect": "The target loses 2 Tutor Points and then becomes Chic. Chic Pokémon gain two extra Slots with which they can carry Accessories or Off-Hand items. However, the items in these slots have no effect and are not treated as equipped. As a Swift Action on their turn, Chic Pokémon may swap a currently active Accessory or Off-Hand item with an item stored in these slots. Chic Pokémon may not carry multiple items of the same type or with repeated effects.",
+            "Note": "A Chic Pokémon does not become Suppressed until they switch a Choice Item into their active Held Item slot, but even if they then switch the Choice Item out, they remain Suppressed for the remainder of combat."
         },
         "Dress to Impress": {
             "Tags": "[Orders]",
             "Prerequisites": "Versatile Wardrobe, two Fashionista Skills at Expert",
             "Frequency": "Scene x2 — Standard Action",
             "Target": "Your Chic Pokémon",
-            "Effect": "Your Pokémon gains the effect of all items in extra slots granted by Versatile Wardrobe for one full round. Dress to Impress may only target a Pokémon once per Scene."
+            "Effect": "Your Pokémon gains the effects of all items in extra slots granted by Versatile Wardrobe for one full round."
+        },
+        "Design Time": {
+            "Tags": "[+Any]",
+            "Prerequisites": "4 Fashionista Features, Two Fashionista Skills at Master",
+            "Frequency": "Static",
+            "Effect": "You gain the Designer Ability. You may create the clothes out of suitable material you like, and you may design the outfit for any Trainer or Pokémon instead of yourself. Using the Designer Ability costs $2000 each time, and you may only have one outfit active at a time; if another is created, any previous outfit loses its potency."
         },
         "Fashionista Recipes": {
             "Contest Trends": {
@@ -2521,26 +2552,26 @@
             "Basic Fashion": {
                 "Prerequisites": "Fashionista",
                 "Cost": "$500",
-                "Effect": "You create one of the Basic Fashion Items below for which you have the chosen Fashionista Skill. These are Accessory Slot Items and may be used as Held Items by Pokémon.",
+                "Effect": "ou create one of the Basic Fashion Items below for which you have the chosen Fashionista Skill. These are Accessory Slot Items.",
                 "Adorable Fashion": {
                     "Fashionista Skill": "Charm",
-                    "Effect": "The holder may activate this item once a Scene as a Free Action to gain +2 Evasion for one full round."
+                    "Effect": "The holder may activate this item once a Scene as a Free Action to gain +3 Evasion for one full round."
                 },
                 "Elegant Fashion": {
                     "Fashionista Skill": "Intuition",
-                    "Effect": "The holder may activate this item once a Scene as a Free Action when losing Combat Stages from a foe’s effect to instead not lose those Combat Stages."
+                    "Effect": "The holder may activate this item once a Scene as a Free Action when losing Combat Stages from a foe's effect to instead gain a Combat Stage in the Stat that would have been lowered."
                 },
                 "Rad Fashion": {
                     "Fashionista Skill": "Command",
-                    "Effect": "The holder may activate this item once a Scene as a Free Action to gain a +4 bonus to a single Save Check."
+                    "Effect": "The holder gains a +1 bonus to Save Checks against Volatile Status Conditions. The holder may activate this item once a Scene as a Free Action to gain a +4 bonus to a single Save Check."
                 },
                 "Rough Fashion": {
                     "Fashionista Skill": "Intimidate",
-                    "Effect": "The holder may activate this item once a Scene as a Free Action to cause a foe within 5 meters to take a -2 penalty to all rolls for one full round."
+                    "Effect": "The holder may activate this item once a Scene as a Free Action to cause all foes within 5 meters to take a -2 penalty to all rolls for one full round."
                 },
                 "Slick Fashion": {
                     "Fashionista Skill": "Guile",
-                    "Effect": "The holder may activate this item once a Scene as a Free Action when provoking an Attack of Opportunity to instead not provoke one."
+                    "Effect": "The holder gains +1 Evasion against Attacks of Opportunity. The holder may activate this item once a Scene as a Free Action to not provoke Attacks of Opportunities for one full round."
                 }
             },
             "Practical Fashion": {
@@ -2711,21 +2742,21 @@
                 "Effect": "You may use any Crystal Artificer Recipe for which you qualify."
             },
             "Crystal Resonance": {
-                "Prerequisites": "Crystal Artificer, Skill Stunt (Dowsing)",
+                "Prerequisites": "Crystal Artificer, Adept Occult Education",
                 "Frequency": "Static",
-                "Effect": "You roll an additional 3d6 when determining how many Shards you find when Dowsing."
+                "Effect": "You roll an additional 3d6 when determining how many Shards you find when Dowsing. Additionally, while you have a Shard in your Main Hand and/or Off-Hand, you gain one of the following benefits, depending on the color of the Shard(s):\n» Red: You gain a +5 damage bonus with Special Attacks\n» Orange: You gain a +5 damage bonus with Physical Attacks.\n » Yellow: You gain 5 DR against Physical Attacks.\n » Green: Your Initiative is increased by +5.\n » Blue: You gain 5 DR against Special Attacks.\n» Violet: You gain +2 Evasion against Status-Class Attacks."
             },
             "Rainbow Light": {
                 "Prerequisites": "Crystal Artificer, Expert Occult Education",
-                "Frequency": "2 AP — Standard Action",
-                "Trigger": "You are wearing a Rainbow Gem",
+                "Frequency": "2 AP — Swift Action",
+                "Condition": "You are wearing a Rainbow Gem",
                 "Effect": "You create a Rainbow lasting one full round. While this Rainbow persists, the Effect Range of all Allies is increased by +3."
             },
             "Fistful of Force": {
                 "Prerequisites": "Crystal Artificer, Master Occult Education",
                 "Frequency": "Scene — Standard Action",
-                "Trigger": "You must have a Shard in your Main Hand or Off-Hand to use Fistful of Force.",
-                "Effect": "You may destroy the Shard to use the Move Judgment. Judgment's Type must be one of the Types associated with the used Shard. Instead of adding your Special Attack when using this attack, you may choose to add your Occult Education Rank tripled."
+                "Condition": "You must have a Shard in your Main Hand or Off-Hand to use Fistful of Force.",
+                "Effect": "You may destroy the Shard to use the Move Judgment. Judgment's Type must be one of the Types associated with the used Shard. You may choose to add your Occult Education Rank tripled in place of your Special Attack Stat to Judgment's Damage."
             },
             "Artificer Recipes": {
                 "Type Booster": {
@@ -2751,7 +2782,7 @@
                 "Rainbow Gem": {
                     "Prerequisites": "Rainbow Light, Expert Occult Education",
                     "Ingredients": "Two Shards of each Color.",
-                    "Effect": "You create a Rainbow Gem that may crafted to be worn as your choice of an Accessory Item, Head Slot Item, or Hand or Off-Hand Item. This item has the same effect as a Focus, except that as an Extended Action, any Trainer with Expert Occult Education Rank or higher may change which Stat the Rainbow Amulet is attuned to."
+                    "Effect": "You create a Rainbow Gem that may crafted to be worn as your choice of an Accessory Item, Head Slot Item, or Hand or Off-Hand Item. This item has the same effect as a Focus, except that as a Standard Action, any Trainer with Expert Occult Education Rank or higher may change which Stat the Rainbow Amulet is attuned to."
                 },
                 "Plate Crafter": {
                     "Prerequisites": "Rainbow Light, Expert Occult Education",
@@ -2853,25 +2884,31 @@
         },
         "Occultism": {
             "Witch Hunter": {
+                "Tags": "[+Special Defense] [Gift]",
                 "Prerequisites": "Occultism Research Field, Novice Occult Education",
                 "Frequency": "Static",
-                "Effect": "You gain the Psionic Sight Feature, even if you do not meet the prerequisites. If you already had the Psionic Sight Feature, you instead gain another Feature for which you qualify."
+                "Effect": "You gain the Psionic Sight Feature, even if you do not meet the prerequisites. Additionally, you gain the Mindlock Capability, and you and your Pokémon's attacks gain a +2 bonus to Accuracy against Psychic-, Ghost-, and Dark-Types."
             },
             "Psionic Analysis": {
+                "Tags": "[+Special Defense] [Gift]",
                 "Prerequisites": "Witch Hunter, Master Occult Education",
                 "Frequency": "Scene — Extended Action",
-                "Effect": "You are able to analyze Psychic Residue and can determine the following information about the Trainer or Pokémon that left the residue:\n» Whether they are a Human or a Pokémon\n» Which Psychic-Type Moves they know\n» If they're Human, which of the following Class Features they have: Telepath, Telekinetic, Warper"
+                "Effect": "You are able to analyze Psychic Residue and can determine the following information about the Trainer or Pokémon that left the residue:\n» Whether they are a Human or a Pokémon\n» Which Psychic-Type Moves they know\n» If they’re Human, which of the following Class Features they have: Telepath, Telekinetic, Warper",
+                "Bonus": "You gain the Forewarn Ability."
             },
             "Mental Resistance": {
+                "Tags": "[+Special Defense]",
                 "Prerequisites": "Witch Hunter",
                 "Frequency": "Static",
-                "Effect": "You gain the Mindlock Capability and 10 Damage Reduction against Special Psychic, Ghost, and Dark-Type damage."
+                "Effect": "You gain 10 Damage Reduction against Special Psychic, Ghost, and Dark-Type damage; and a +3 bonus on checks made to cure Volatile Status Conditions."
             },
             "Immutable Mind": {
+                "Tags": "[+Special Defense]",
                 "Prerequisites": "Mental Resistance, Expert Occult Education",
                 "Frequency": "Scene — Free Action",
                 "Trigger": "You're hit by a Psychic, Ghost, or Dark-Type Move",
-                "Effect": "If the triggering Move was a Status-Class Move, the Move fails. If the Triggering Move was a Damaging Move with a Secondary Effect that triggers on a certain roll, you are immune to the secondary effect."
+                "Effect": "If the triggering Move was a Status-Class Move, the Move fails. If the triggering Move was a Damaging Move, you resist the Damage one step further.",
+                "Bonus": "You are immune to any secondary effects that trigger on accuracy rolls from Psychic, Ghost, and Dark-Type Moves."
             }
         },
         "Paleontology": {
@@ -2879,7 +2916,7 @@
                 "Prerequisites": "Paleontology Research Field, Paleontologist, Novice Pokémon Education",
                 "Frequency": "At-Will — Extended Action",
                 "Target": "A Fossil you are reviving",
-                "Effect": "You may revive a Fossil into a Fossil Pokémon. The resulting Pokémon is born with 2 Tutor Points, and gains its first Basic Ability. If it has only one Basic Ability, it gains one of its Advanced Abilities, chosen by the GM. This Feature does not affect how the Pokémon continues to gain Abilities."
+                "Effect": "The resulting Pokémon is born with 2 fewer Tutor Points, and gains its second Basic Ability. If it has only has one Basic Ability, it gains one of its Advanced Abilities, chosen by the GM. This Feature does not affect how the Pokémon continues to gain Abilities."
             },
             "Ancient Heritage": {
                 "Prerequisites": "Fossil Restoration",
@@ -2887,30 +2924,33 @@
                 "Target": "Your Fossil Pokémon with at least 2 Tutor Points remaining",
                 "Effect": "The target loses 2 Tutor Points and learns Ancient Power. If the target has Ancient Power in its Level-Up List, Ancient Heritage costs no Tutor Points. As a static effect, whenever your Pokémon use Ancient Power, its activated effect occurs on 18+ and you may always choose whether it deals Physical or Special Damage, using the appropriate attack Stat."
             },
-            "Genetic Memory": {
+            "Primordial Power": {
                 "Prerequisites": "Ancient Heritage, Expert Pokémon Education",
-                "Frequency": "Daily x2 — Extended Action",
+                "Frequency": "At-Will – Extended Action",
                 "Target": "Your Fossil Pokémon with at least 2 Tutor Points remaining",
-                "Effect": "The target loses 2 Tutor Points and learns any Move from its Egg Move or Tutor Move List. Genetic Memory may target a Pokémon only twice: once with a Tutor Move and once with an Egg Move. Egg Moves tutored this way do not count against the limit of 3 for TM and Tutor Moves."
+                "Effect": "The target loses 2 Tutor Points and gains your choice of the Solid Rock or Mountain Peak Ability. You may only target a Pokemon once with Primordial Power."
             },
             "Prehistoric Bond": {
                 "Prerequisites": "Fossil Restoration, Expert Pokémon Education",
                 "Frequency": "At-Will — Extended Action",
                 "Target": "The remains of a Fossil you revived",
-                "Effect": "You also produce a Held Item from the remnants of the Fossil. The effect of this Held Item is based on the highest Base Stat of the individual Pokémon being Revived, counting the effects of Nature but no other effects that alter Base Stats. If there is a tie, the GM decides which Base Stat is used. This Held Item may only be used by Pokémon revived from Fossils."
+                "Effect": "You also produce a Held Item from the remnants of the Fossil. The effect of this Held Item is based on the highest Base Stat of the individual Pokémon being Revived, counting the effects of Nature but no other effects that alter Base Stats. If there is a tie, the GM decides which Base Stat is used. If the user is a Fossil Pokemon, they may hold a single Item made with Prehistoric Bond without taking up their Held Item slot. (They may still not hold two Items with the same effect, and holding a second one of these Items will take up their Item Slot as normal)\n» HP – Relic Crown: The holder gains a +2 Bonus to all Save Checks.\n» Attack – Primal Frame: The holder's damaging attacks have their Critical Hit Range extended by +1.\n» Defense – Prehistoric Razors: When a foe hits the holder with a damaging Melee Attack, the holder may cause them to lose a Tick of Hit Points as a Reaction.\n» Special Attack – Primal Cloak: The holder's damaging attacks have their Effect Range extended by +1.\n» Special Defense – Prehistoric Aegis: The holder gains 5 Damage Reduction against Ranged Attacks.\n» Speed – Relic Sash: The holder gains +2 Evasion against Status Moves."
             }
         },
         "Pokémon Caretaking": {
             "Pusher": {
                 "Prerequisites": "Pokémon Caretaking Research Field, Novice Pokémon Education",
                 "Frequency": "Static",
-                "Effect": "Your Pokémon gain the Basic Ranged Attacks, Aura Pulse, Enticing Bait, Extended Invisibility, Far Reading, Precise Threadings, Seismometer, TK Mastery, and Trail Sniffer Poke Edges automatically if they qualify for them, without having to invest any Tutor Points."
+                "Effect": "Your Pokémon gain the Basic Ranged Attacks, Aura Pulse, Enticing Bait, Extended Invisibility, Far Reading, Precise Threadings, Seismometer, TK Mastery, and Trail Sniffer Poke Edges automatically if they qualify for them, without having to invest any Tutor Points.",
+                "Bonus": "If you own a Pokemon above Level 25, your Pokémon under level 25 gain +25% Experience."
             },
             "This One's Special, I Know It": {
                 "Prerequisites": "Pusher",
                 "Frequency": "Special — Free Action",
                 "Target": "A hatching egg.",
-                "Effect": "The Pokémon is born with special qualities, determined by the GM. This Feature may be activated one time per Pokémon Education Rank above Untrained."
+                "Effect": "Choose two of the traits from the list below. The Pokémon is born with these special qualities. This Feature may be activated one time per Pokémon Education Rank above Untrained.",
+                "Traits": "» Altered Type: Replace one of the Pokémon's Types with a Type of your choice that one of its parents possesses. Ask the GM to help you adjust the Pokemon's Move List and Abilities to properly fit the new Type.\n» Altered Ability: The Pokémon's starting Ability is one not normally native to its Species; ask the GM to help you with this.\n» Unique Move: The Pokémon knows a Move that matches one of its Types, but that is not normally available to its Species; ask the GM for help determining this Move.\n» Exceptionally Powerful: Increase two of the Pokémon's Base Stats by +2 each, and the Pokemon hatches at a Level equal to 5 + your Pokemon Education Rank doubled.\n» Savant: The Pokemon gains a Skill Template. You are not limited to the examples in the book, but must follow the same rules as them. Ask your GM for help assigning the Skills. Additionally, the Pokemon may use any Manipulate Maneuver for which it has Ranks in the necessary Skill, and may attempt to improve a wild Pokemon's Disposition if it possesses Ranks in Charm.",
+                "Note": "If the Skill Templates optional rule is already in effect, Savant's effect is as follows: The Pokemon is born with +1d6 in two Skills it has access to, or with Novice Ranks and a +2 bonus in two Skills it would not normally have access to. When the Pokemon reaches Levels 25 and 40, it may increase one of these Skills by 1d6 or by +2, and the other Skill by the other value. Additionally, the Pokemon may use any Manipulate Maneuver for which it has Ranks in the necessary Skill, and may attempt to improve a wild Pokemon's Disposition if it possesses Ranks in Charm."
             },
             "Skill Trainer": {
                 "Prerequisites": "Pusher",
@@ -2920,9 +2960,9 @@
             },
             "Re-Balancing": {
                 "Prerequisites": "Pusher, Master Pokémon Education",
-                "Frequency": "At-Will — Extended Action",
-                "Target": "A Pokémon with 2 Tutor Points",
-                "Effect": "The target loses 2 Tutor Points, and gains one of the following: +1 to all Base Stats, +2 to two different Base Stats, or +3 to a single Base Stat. The target then redistributes their Stat Points. A Pokémon may be targeted by Re-Balancing only once."
+                "Frequency": "Daily x2 – Extended Action",
+                "Target": "A Pokémon",
+                "Effect": "The target gains one of the following: +1 to all Base Stats, +2 to two different Base Stats, or +3 to a single Base Stat. The target then redistributes their Stat Points. A Pokémon may be targeted by Re-Balancing only once."
             }
         },
         "Gadgeteer": {
@@ -3080,26 +3120,25 @@
             "Tags": "[Class][+HP]",
             "Prerequisites": "Novice Survival",
             "Frequency": "One Time Use — Extended Action",
-            "Effect": "Choose a Terrain in which you have spent at least three nights. You gain Naturewalk for that terrain and a +2 bonus to Athletics, Acrobatics, Stealth, Perception, and Survival Checks in that terrain. When you have 2 Survivalist Features, you may choose a second Terrain. When you have 4 Survivalist Features, you may choose a third terrain. When you have 6 Survivalist Features, you may choose a fourth terrain."
+            "Effect": "Choose a Terrain in which you have spent at least three nights. You gain Naturewalk for that terrain and a +2 bonus to Athletics, Acrobatics, Stealth, Perception, and Survival Checks in that terrain. When you have 2 Survivalist Features, you may choose a second Terrain. When you have 4 Survivalist Features, you may choose a third terrain. When you have 6 Survivalist Features, you may choose a fourth terrain. The terrains are: Grassland, Forest, Wetlands, Ocean, Tundra, Mountain, Cave, Urban, and Desert."
         },
         "Natural Fighter": {
             "Tags": "[+HP]",
             "Prerequisites": "Survivalist",
             "Frequency": "1 AP — Special",
-            "Effect": "You and your Pokémon become adept at using the environment to your advantage in battle. You or your Pokémon may activate Natural Fighter as a Standard Action to use the Move below corresponding to the current terrain. You and your Pokémon must still follow all Frequency limitations for the Move.\nGrassland: Cotton Spore; Forest: Grass Whistle; Wetlands: Mud Slap; Ocean: Aqua Ring; Tundra: Haze; Mountain: Smack Down; Cave: Astonish; Urban: Fling; Desert: Sand Attack",
-            "Note": "GMs! Don’t be super duper strict about the terrains here. Obviously a beach is analogous enough to a desert to use Sand Attack, and a lake can count as ocean terrain. In urban terrain, there’ll probably at least be trash around to Fling with the standard 6 DB option. On the other hand, most standard arenas for League matches won’t qualify for any of the terrains. However, some arenas may be specifically designed to emulate a terrain type, such as a rocky stadium or a set of floating platforms in a pool."
+            "Effect": "You and your Pokémon become adept at using the environment to your advantage in battle. You or your Pokémon may activate Natural Fighter as a Standard Action to use one of the Moves below corresponding to the current terrain. Whenever you or your Pokémon use a damaging Move this way, it may be either Physical or Special, adding the appropriate Attack stat. You and your Pokémon must still follow all Frequency limitations for the Move.\n» Grassland: Grass Whistle or Cotton Spore\n» Forest: Aromatherapy or Grass Knot\n» Wetlands: Mud Slap or Mud Sport\n» Ocean: Aqua Ring or Water Sport\n» Tundra: Haze or Icy Wind\n» Mountain: Smack Down or Stealth Rock\n» Cave:  Astonish or Covet\n» Urban:  Spikes or Pay Day\n» Desert: Sand Attack or Sand Tomb"
         },
         "Trapper": {
             "Tags": "[+HP]",
             "Prerequisites": "Survivalist, Adept Survival",
             "Frequency": "Daily x2 — Extended Action",
-            "Effect": "You create a consumable item that creates 8 meters of Hazard within 6 meters. All 8 meters must be adjacent with at least one other space of the Hazard. These Hazards cause foes that run into them to become Slowed until the end of their next turn and have an additional effect based on the terrain in which the item was made. When foes run into these Hazards, they are destroyed after their effects resolve. Pokémon and Trainers with Naturewalk for the terrains associated with a Hazard are immune to its effects. These items must be used the same day they are created or they lose all effect.\n» Dust Trap — Grassland or Desert: A foe that runs into this Hazard is Blinded until the end of their next turn.\n» Tangle Trap — Forest or Wetlands: A foe that runs into this Hazard is must immediately stop Shifting, and they are Stuck instead of Slowed until the end of their next turn.\n» Slick Trap — Ocean or Tundra: A foe that runs into this Hazard becomes Vulnerable until the end of their next Turn.\n» Abrasion Trap — Mountain, Cave, or Urban: A foe that runs into this Hazard lowers their Defense and Special Defense by 1 Combat Stage."
+            "Effect": "You create a consumable item that creates 8 meters of Hazard within 6 meters. All 8 meters must be adjacent with at least one other space of the Hazard. These Hazards cause foes that run into them to become Slowed until the end of their next turn and have an additional effect based on the terrain in which the item was made. When foes run into these Hazards, they are destroyed after their effects resolve. You may create and hold a number of these items equal to half your Survival Rank. If you create any more, one of the older items loses all effect. \n» Dust Trap – Grassland or Desert: A foe that runs into this Hazard is Blinded until the end of their next turn.\n» Tangle Trap – Forest or Wetlands: A foe that runs into this Hazard must immediately stop Shifting, and they are Stuck instead of Slowed until the end of their next turn.\n» Slick Trap – Ocean or Tundra: A foe that runs into this Hazard becomes Vulnerable until the end of their next Turn.\n» Abrasion Trap – Mountain, Cave, or Urban: A foe that runs into this Hazard lowers their Defense and Special Defense by 1 Combat Stage."
         },
         "Wilderness Guide": {
             "Tags": "[+HP][Orders]",
             "Prerequisites": "Survivalist, Expert Survival",
-            "Frequency": "Scene x3 — Standard Action",
-            "Effect": "Wilderness Guide's effect depends on your current terrain.\n» Grassland or Forest: All allies gain the Stealth Capability and a +2 bonus to their Overland Speed for one full round.\n» Ocean or Wetlands: All allies gain 5 Damage Reduction and a +2 bonus to their Swim Speed for one full round.\n» Desert or Tundra: All allies do not lose Hit Points from Weather and ignore the effects of foes' Sand Veil and Snow Cloak Abilities for one full round.\n» Mountain or Cave: All allies do not trigger Hazards and are not Blinded in Low-Light conditions for one full round.\n» Urban: All allies gain +1 Evasion and a +2 bonus on Accuracy Rolls and Skill Checks to perform the Dirty Trick and Manipulate Combat Maneuvers for one full round."
+            "Frequency": "Scene x2 – Shift Action",
+            "Effect": "Wilderness Guide's effect depends on your current terrain.\n» Grassland or Forest: All allies gain the Stealth Capability and a +2 bonus to their Overland Speed for one full round.\n» Ocean or Wetlands: All allies gain 5 Damage Reduction and a +2 bonus to their Swim Speed for one full round.\n» Desert or Tundra: All allies do not lose Hit Points from Weather and ignore any Evasion increases from foes' Abilities for one full round.\n» Mountain or Cave: All allies do not trigger Hazards or Attacks of Opportunity and cannot be Blinded for one full round.\n» Urban: All allies gain +1 Evasion and a +2 bonus on Accuracy Rolls and Skill Checks to perform the Dirty Trick and Manipulate Combat Maneuvers for one full round."
         },
         "Terrain Talent": {
             "Tags": "[+HP]",
@@ -3113,8 +3152,8 @@
             "Tags": "[+HP]",
             "Prerequisites": "4 Survivalist Features, Master Survival",
             "Frequency": "Scene x2 — Free Action",
-            "Trigger": "You or your Pokémon gain Initiative",
-            "Effect": "The triggering target takes their turn as if they were in a terrain adjacent to the terrain they are in on the following graphic. For example, if you are standing in Wetlands terrain, you may act as if you are standing in Forest or Ocean Terrain. This affects Survivalist Features, Naturewalk Capabilities Moves with the Environ Keyword, etc.\n<img src=\"/ptu/data/feature_survivalist_adaptive_geography.png\">"
+            "Trigger": "You or an ally gains Initiative",
+            "Effect": "The triggering target takes their turn as if they were in a terrain adjacent to the terrain they are in on the following graphic. For example, if you are standing in Wetlands terrain, you may act as if you are standing in Forest or Ocean Terrain. This affects Survivalist Features, Naturewalk Capabilities, Moves with the Environ Keyword, etc.\n<img src=\"/ptu/data/feature_survivalist_adaptive_geography.png\">"
         },
         "Terrain Talents": {
             "Plains Runner – Grassland Terrain": {
@@ -3143,7 +3182,7 @@
             },
             "Cave Dweller – Cave Terrain": {
                 "Frequency": "Static",
-                "Effect": "Your eyes are used to very low levels of light. You do not suffer Blindness for being in Low-Light conditions. If you would be Totally Blinded by complete darkness, you instead suffer the penalties of Blindness, and may make Survival Checks instead of Acrobatics to avoid becoming Tripped. You are immune to Stealth Rock Hazards."
+                "Effect": "Your eyes are used to very low levels of light. You are immune to the Blinded condition. If you would be Totally Blinded by complete darkness, you instead suffer the penalties of Blindness, and may make Survival Checks instead of Acrobatics to avoid becoming Tripped. You are immune to Stealth Rock Hazards."
             },
             "Traceur – Urban Terrain": {
                 "Frequency": "Static",
@@ -3158,7 +3197,7 @@
     "Athlete": {
         "Athlete": {
             "Tags": "[Class][+HP]",
-            "Prerequisites": "Novice Athletics, One of Athletic Prowess, Mounted Prowess, Power Boost, Stamina, or Swimmer",
+            "Prerequisites": "Adept Athletics OR Novice Athletics, One of Athletic Prowess, Mounted Prowess, Power Boost, Stamina, or Swimmer",
             "Frequency": "At-Will — Extended Action",
             "Effect": "After an hour of exercise, an Athlete may choose two different Stats besides HP; both of those stats become Trained Stats. The default State of Trained Stats is +1 Combat Stages instead of 0. An Athlete may have two Trained Stats at a time."
         },
@@ -3166,21 +3205,21 @@
             "Tags": "[+HP]",
             "Prerequisites": "Athlete",
             "Frequency": "Static",
-            "Effect": "You gain additional static bonuses based on your Trained Stats.\n» Attack: You gain a +2 Bonus on Accuracy Checks to hit with Combat Maneuvers.\n» Defense: You gain 5 Damage Reduction when Intercepting attacks.\n» Special Attack: You may add half your Special Attack Stat to Damaging Athlete Moves. This does not stack with Twisted Power.\n» Special Defense: You gain a +2 Bonus to Opposed Checks to resist Combat Maneuvers.\n» Speed: When you Sprint, you double your Movement Capability instead of increasing by 50%."
+            "Effect": "You gain additional static bonuses based on your Trained Stats.\n» Attack: You gain a +2 Bonus on Accuracy Checks to hit with Combat Maneuvers.\n» Defense: You gain 5 Damage Reduction when Intercepting attacks.\n» Special Attack: Your Damaging Athlete Moves may be your choice of Physical or Special, adding the appropriate Attack stat.\n» Special Defense: You gain +1 Evasion against Combat Maneuvers and a +2 Bonus to Opposed Checks to resist them.\n» Speed: When you Sprint, you double your Movement Capability instead of increasing it by 50%."
         },
         "Coaching": {
             "Tags": "[+HP]",
             "Prerequisites": "Training Regime",
             "Frequency": "1 AP — Free Action",
             "Trigger": "Your Pokémon makes a Combat Maneuver",
-            "Effect": "Your Pokémon gains a bonus based on the type of Combat maneuver they are making. This Feature may be triggered once per Scene per Pokémon.\n» Your Pokémon gains a +1d6 bonus to Opposed Acrobatics, Athletics, Combat, or Stealth Skill Checks. » If your Pokémon was Sprinting, they double their Movement Capabilities instead of increasing by 50%.\n» If your Pokémon was making an Attack of Opportunity, they automatically hit.\n» You may also activate this Feature to let them Intercept for any Ally regardless of Loyalty, and they automatically succeed on the Skill Check to do so."
+            "Effect": "Your Pokémon gains a bonus based on the type of Combat maneuver they are making. This Feature may be triggered once per Scene per Pokémon.\n» Your Pokémon gains a +1 bonus to its Accuracy Roll, and a +1d6 bonus to any Opposed Acrobatics, Athletics, Combat, or Stealth Skill Checks.\n» If your Pokémon was Sprinting, they double their Movement Capabilities instead of increasing by 50%, and they may make a Struggle Attack any time during their Sprint as a Free Action. They may continue their movement afterwards if they wish.\n» If your Pokémon was making an Attack of Opportunity, they automatically hit.\n» You may also activate this Feature to let your Pokemon Intercept for any Ally regardless of Loyalty, and they automatically succeed on the Skill Check to do so. They gain 5 DR for this Intercept."
         },
         "Adrenaline Rush": {
             "Tags": "[+HP]",
             "Prerequisites": "Athlete, Expert Athletics",
             "Frequency": "Daily x3 — Free Action",
             "Trigger": "You are lowered to half or your Maximum Hit Points or less",
-            "Effect": "You gain +1 Combat Stage in each of your Trained Stats, are cured of up to two Status Afflictions, and gain a Tick of Temporary Hit Points. Adrenaline Rush may be used only once per Scene"
+            "Effect": "You gain +1 Combat Stage in each of your Trained Stats, are cured of up to two Status Afflictions, and gain a Tick of Temporary Hit Points. Adrenaline Rush may be used only once per Scene."
         },
         "Athletic Moves": {
             "Tags": "[Ranked 3][+HP]",
@@ -3188,7 +3227,7 @@
             "Rank 2 Prerequisites": "Athlete, Expert Athletics",
             "Rank 3 Prerequisites": "Athlete, Master Athletics",
             "Frequency": "Static",
-            "Effect": "You learn two Athlete Moves marked with the Rank of this Feature you are taking or lower.\n<div class=\"table-responsive\"><table class=\"table table-bordered\"><thead class=\"thead-dark\"><tr><th>Rank 1</th><th>Rank 2</th><th>Rank 3</th></tr></thead><tbody><tr><td>Bind</td><td>Body Slam</td><td>Mega Kick</td></tr><tr><td>Block</td><td>Take Down</td><td>Facade</td></tr><tr><td>Slam</td><td>Extreme Speed</td><td>Retaliate</td></tr><tr><td>Strength</td><td></td><td></td></tr></tbody></table></div>"
+            "Effect": "You learn two Athlete Moves marked with the Rank of this Feature you are taking or lower.\n<div class=\"table-responsive\"><table class=\"table table-bordered\"><thead class=\"thead-dark\"><tr><th>Rank 1</th><th>Rank 2</th><th>Rank 3</th></tr></thead><tbody><tr><td>Bind</td><td>Body Slam</td><td>Mega Kick</td></tr><tr><td>Block</td><td>Take Down</td><td>Facade</td></tr><tr><td>Slam</td><td>Extreme Speed</td><td>Retaliate</td></tr><tr><td>Strength</td><td>Hold Back</td><td>Bide</td></tr></tbody></table></div>"
         }
     },
     "Dancer": {
@@ -3706,24 +3745,24 @@
     "Roughneck": {
         "Roughneck": {
             "Tags": "[Class][+Defense]",
-            "Prerequisites": "Novice Athletics, Intimidating Presence",
-            "Frequency": "1 AP — Swift Action",
-            "Trigger": "You hit a foe with an Attack",
-            "Effect": "The foe loses a Combat Stage in the Stat of your choice."
+            "Prerequisites": "Intimidating Presence",
+            "Frequency": "1 AP — Free Action",
+            "Trigger": "You hit with an Attack on your turn",
+            "Effect": "One target of the attack loses a Combat Stage in the Stat of your choice. Roughneck may only be used once per Round."
         },
         "Menace": {
             "Tags": "[+Defense]",
             "Prerequisites": "Roughneck",
             "Frequency": "At-Will — Swift Action",
-            "Trigger": "You hit a foe with the Terrorize Manipulation",
-            "Effect": "Until their next turn, the target has their Initiative lowered to 0. For one full round, attacks against them cause them to Flinch on 17+ or have their existing Flinch Range increased by +4."
+            "Trigger": "You hit a foe with the Terrorize Manipulation, or you activate Roughneck",
+            "Effect": "Until their next turn, the target has their Initiative lowered to 0. For one full round, attacks against them cause them to lose a Tick of Hit Points and become Vulnerable for one full round on 16+. Menace may only affect each foe once per Scene."
         },
         "Mettle": {
             "Tags": "[+Defense]",
             "Prerequisites": "Roughneck",
             "Frequency": "Scene x2 — Free Action",
             "Target": "You take Massive Damage or Intercept a Damaging Attack.",
-            "Effect": "Resolve Damage as if the triggering attack was resisted one step. The triggering foe then loses 2 Combat Stages in the Attack Stat used by the triggering Attack."
+            "Effect": "Resolve Damage as if the triggering attack was resisted one step further. The triggering foe then loses 2 Combat Stages in the Attack Stat used by the triggering Attack."
         },
         "Malice": {
             "Tags": "[+Defense]",
@@ -3736,7 +3775,7 @@
             "Prerequisites": "Malice",
             "Frequency": "2 AP — Swift Action",
             "Trigger": "You use Leer or a Roughneck Move",
-            "Effect": "The Move gains additional effects.\n» Leer: Attacks against affected foes gain a +2 Bonus to their Critical Range for one full round.\n» Chip Away: The target is considered Vulnerable against this attack.\n» Headbutt: The target has their Initiative set to 0 until the end of their next turn.\n» Glare: The target loses 2 Speed Combat Stages. This occurs whether Glare hits or misses.\n» Mean Look: The target is Suppressed.\n» Endure: You gain two Ticks of Temporary Hit Points.\n» Slack Off: You are cured of one Status Affliction."
+            "Effect": "The Move gains additional effects. You may only use each of these effects once per Scene.\n» Leer: Affected foes immediately Shift away from you using their highest available Movement capability. This movement provokes Attacks of Opportunity as normal.\n» Chip Away: The target is considered Vulnerable against this attack, and may not activate Interrupts or Moves with the Shield Keyword in response to it.\n» Headbutt: The target is automatically Flinched, and you may initiate a Push Maneuver against the target, using your Intimidate or Athletics skill. This Maneuver automatically hits, but you must still roll an opposed check.\n» Glare: The target loses 2 Speed Combat Stages, and is Slowed for one full round. This occurs whether Glare hits or misses.\n» Mean Look: The target is Suppressed for one full round, and has a random Move Disabled.\n» Endure: You gain two Ticks of Temporary Hit Points, and gain 5 Damage Reduction for one full round.\n» Slack Off: You are cured of one Status Affliction. You may activate Fearsome Display to use Slack Off even if you would be denied your turn by a Status Affliction."
         },
         "Cruel Gaze": {
             "Tags": "[+Defense]",
@@ -3922,42 +3961,43 @@
     },
     "Ninja": {
         "Ninja": {
-            "Tags": "[Class][+Speed]",
-            "Prerequisites": "Novice Stealth, Novice Combat",
+            "Tags": "[Class][+Speed][Gift]",
+            "Prerequisites": "Novice Stealth",
             "Frequency": "Static",
-            "Effect": "You learn the Moves Double Team and Poison Powder."
+            "Effect": "You learn the Moves Double Team and Poison Powder.",
+            "Bonus": "You gain the Sneak's Tricks Edge, even if you do not meet the prerequisites."
         },
         "Ninja's Arsenal": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ninja",
             "Frequency": "At-Will — Extended Action",
-            "Effect": "You may craft an Antidote, Smoke Ball, Caltrops, or Toxic Caltrops for $100."
+            "Effect": "You may craft an Antidote, Smoke Ball, Caltrops, or Toxic Caltrops for $100. You are treated as if you know the Moves Smokescreen, Spikes, and Toxic Spikes for any Features or Prerequisites."
         },
         "Poison Weapons": {
             "Tags": "[+Speed][Weapon]",
             "Prerequisites": "Ninja, Adept Stealth",
-            "Frequency": "1 AP — Free Action",
-            "Trigger": "You make a Weapon Attack.",
-            "Effect": "The attack or Move Poisons its targets on 16+, and you may have it deal Poison-Type Damage if you wish."
+            "Frequency": "Static",
+            "Effect": "You learn the Moves Cross Poison and Poison Fang. You may use these Moves as Weapon Attacks when wielding Melee or Short Range Weapons."
         },
         "Genjutsu": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ninja, Adept Stealth",
             "Frequency": "At-Will — Standard Action",
-            "Effect": "You form an Illusion around yourself. This Illusion may be used to hide yourself in a shroud of darkness if in darkness, or to make yourself look like a mundane object (such as a crate, potted plant, or similar). The Illusion can even fool Aura, concealing you from Aura Sight for its duration. However, the Illusion requires complete concentration, and is broken if you take any actions at all. Anyone that interacts with the Illusion directly may make an Occult Education or Intuition Check with a DC equal to 10 plus your Stealth Rank; if they succeed, the Illusion is broken."
+            "Effect": "You form an Illusion around yourself. This Illusion may be used to hide yourself in a shroud of darkness if in darkness, or to make yourself look like a mundane object (such as a crate, potted plant, or similar). The Illusion can even fool Aura, concealing you from Aura Sight for its duration. However, the Illusion requires complete concentration, and is broken if you take any actions at all. Anyone that interacts with the Illusion directly may make an Occult Education or Intuition Check with a DC equal to 10 plus your Stealth Rank; if they succeed, the Illusion is broken.",
+            "Bonus": "You gain the Blender Capability."
         },
         "Utility Drop": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ninja’s Arsenal, Expert Stealth",
             "Frequency": "At-Will — Swift Action",
             "Trigger": "You Shift",
-            "Effect": "You may use a Smoke Ball, Caltrops, or Toxic Caltrops as a Free action during your Shift. Instead of the Move's usual area of effect, you leave one square of Smokescreen, Spikes, or Toxic Spikes on each square you leave as you Shift. Once you place 8 meters of Smoke, Spikes, or Toxic Spikes you may not place any more."
+            "Effect": "You may use a Smoke Ball, Caltrops, or Toxic Caltrops as a Free Action during your Shift. Instead of the Move's usual area of effect, you leave one square of Smokescreen, Spikes, or Toxic Spikes on each square you leave as you Shift. Once you have placed 8 meters of Smoke, Spikes, or Toxic Spikes, you may not place any more."
         },
         "Weightless Step": {
             "Tags": "[+Speed]",
             "Prerequisites": "Ninja, Expert Stealth",
             "Frequency": "Static",
-            "Effect": "You gain the Infiltrator Ability."
+            "Effect": "Choose Infiltrator or Quick Feet. You gain the chosen Ability."
         },
         "Kinjutsu": {
             "Tags": "[+Speed]",
@@ -3971,7 +4011,7 @@
             "Tags": "[Class][+Special Defense]",
             "Prerequisites": "Mystic Senses, Novice Perception",
             "Frequency": "Static",
-            "Effect": "You gain the Pickup Ability."
+            "Effect": "You gain the Forewarn Ability."
         },
         "Divination": {
             "Tags": "[+Special Defense]",
@@ -3991,7 +4031,7 @@
             "Tags": "[+Special Defense]",
             "Prerequisites": "Oracle",
             "Frequency": "Static",
-            "Effect": "You can see through Illusions. This means you can spot Illusions from the Illusionist capability, Illusion Ability, and Genjutsu Feature as being fake. You are immune to Moves with the Illusion keyword, Double Team cannot be activated against you, and you bypass Substitutes. As a Standard Action, you can create a Burst 4, dispelling all Illusion effects within."
+            "Effect": "You gain the Darkvision capability, and you may see through Invisibility and Illusions. You are Immune to and ignore the effects of foes' Moves with the Illusion keyword, and these Moves may not be activated against you. You may target characters removed from the field due to Ghost Step, Phasing, or any Ghost-Type Move as if they were in the square from which they disappeared, and you ignore the effects of the Blender and Stealth Capabilities. Additionally, when you spend AP to increase an Accuracy roll, you gain a +2 bonus instead of +1(this bonus stacks with Instinctive Aptitude)."
         },
         "Small Prophecies": {
             "Tags": "[+Special Defense]",
@@ -4007,10 +4047,11 @@
             "Effect": "You mark the target with a mystical power which allows you to close your eyes and focus to perceive the world with their senses from their perspective. You may Bind this Ability multiple times, each time on a different target, but you may only concentrate on one Mark of Vision at a time, and you may only have a number of Marks at one time equal to half your Perception Rank. A target may choose to end this effect at any time, or to deny you access to their senses temporarily without ending the effect entirely. You have a rough sense of how far away and in what direction marked targets are."
         },
         "Two-Second Preview": {
-            "Tags": "[+Special Defense]",
-            "Prerequisites": "3 Oracle Features, Expert Perception",
+            "Tags": "[+Special Defense] [Gift]",
+            "Rank 1 Prerequisites": "2 Oracle Features, Adept Perception",
+            "Rank 2 Prerequisites": "Prescience",
             "Frequency": "Static",
-            "Effect": "You gain the Instinct Ability."
+            "Effect": "Each Rank, you gain one of Dive or All-Seeing Eyes, and one of Hawkeye or Saw That Coming, even if you do not meet the prerequisites."
         },
         "Prescience": {
             "Tags": "[+Special Defense]",
@@ -4024,9 +4065,10 @@
         "Sage": {
             "Tags": "[Class][+HP]",
             "Prerequisites": "Novice Occult Education",
-            "Frequency": "At-Will — Standard Action",
+            "Frequency": "X AP — Standard Action",
             "Target": "An ally within 5 meters",
-            "Effect": "The target gains Damage Reduction equal to your Occult Education Rank doubled or their Tick Value, whichever is higher, for one full round. Multiple uses of Sage from different Trainers do not stack on one target."
+            "Effect": "The target gains Damage Reduction equal to your Occult Education Rank doubled or their Tick Value, whichever is higher, for one full round. If used as a Standard Action on your turn to target one Ally, Sage costs 0 AP. However, you may pay 1 AP to use Sage as an Interrupt, or you may pay 1 AP to use Sage on two different Allies. You may spend 2 AP for both of these effects.",
+            "Note": "Multiple uses of Sage from different Trainers do not stack on the same target."
         },
         "Sacred Shield": {
             "Tags": "[+HP]",
@@ -4045,20 +4087,20 @@
             "Prerequisites": "Sacred Shield or Mystic Defense, Adept Occult Education",
             "Frequency": "1 AP — Free Action",
             "Target": "An ally activates one of your Moves with the Blessing Keyword.",
-            "Effect": "The triggering ally gains an additional benefit as follows, depending on the Move used. The benefit takes effect after the Blessing and the attack that triggered it are resolved.\n» Reflect: +1 Defense Combat Stage\n» Light Screen: +1 Sp. Defense Combat Stage\n» Safeguard: +1 Evasion\n» Lucky Chant: +1 Accuracy"
+            "Effect": "The triggering ally gains an additional benefit as follows, depending on the Move used. The benefit takes effect before the Blessing and the attack that triggered it are resolved.\n» Reflect: +1 Defense Combat Stage\n» Light Screen: +1 Sp. Defense Combat Stage\n» Safeguard: +1 Evasion\n» Lucky Chant: +1 Accuracy"
         },
-        "Lay on Hands": {
+        "Mountain Of Faith": {
             "Tags": "[+HP]",
             "Prerequisites": "Sage, Expert Occult Education",
             "Frequency": "Static",
-            "Effect": "Choose Blessed Touch or Healer. You gain the Chosen Ability."
+            "Effect": "Choose Wishmaster or Soothing Tone. You gain the Chosen Ability and learn its Connected Move."
         },
         "Highly Responsive to Prayers": {
             "Tags": "[+HP]",
-            "Prerequisites": "Lay on Hands",
+            "Prerequisites": "Mountain of Faith",
             "Frequency": "Scene x3 — Free Action",
-            "Trigger": "You use the Blessed Touch or Healer Ability on an ally, or an ally receives an Injury",
-            "Effect": "You may use the Sage Feature as a Free Action targeting the triggering ally. Multiple instances of Sage's effect that you use may stack when used this way."
+            "Trigger": "You use Wish or Heal Bell, or an ally receives an Injury",
+            "Effect": "You may use the Sage Feature as a Free Action targeting one of the triggering allies. Multiple instances of Sage's effect that you use may stack when used this way."
         },
         "Divine Wind": {
             "Tags": "[Class][+HP]",
@@ -4249,66 +4291,68 @@
     "Rune Master": {
         "Rune Master": {
             "Tags": "[Class][+Attack or Special Attack]",
-            "Prerequisites": "Own 2 Unown, Novice Occult Education",
+            "Prerequisites": "Basic Runes",
             "Frequency": "Static",
-            "Effect": "You gain the Gather Unown capability, and your Unown gain the Letter Press Capability. When using Gather Unown, you are treated as a level 20 Pokémon."
-        },
-        "Hidden Power": {
-            "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Rune Master",
-            "Frequency": "Static",
-            "Effect": "You learn the Move Hidden Power. Whenever you use Hidden Power, it may be either Physical or Special, adding the appropriate Attack Stat."
+            "Effect": "You learn the Move Hidden Power. You gain an additional instance of Hidden Power when you have 3 Rune Master Features, and another when you have 5, to a total of 3 instances. Whenever you use Hidden Power, it may be either Physical or Special, adding the appropriate Attack Stat."
         },
         "Rewrite": {
             "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Hidden Power",
+            "Prerequisites": "Rune Master",
             "Frequency": "Daily — Extended Action",
             "Target": "Self or a willing Pokémon with Hidden Power.",
-            "Effect": "Reroll the Type for an instance of Hidden Power the target knows If you target an Unown, you may transform the target into a different letter."
+            "Effect": "Reroll the Type for an instance of Hidden Power that the target knows. If you target an Unown, you may transform it into a different letter."
         },
         "Glyph": {
             "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Rune Master",
-            "Frequency": "At-Will — Extended Action",
-            "Target": "Your Unown that is not part of a Prime Unown",
-            "Effect": "You may set the target Unown against any flat surface, and turn the Unown into a glyph. Glyphs have HP equal to your Level, and no other stats. Glyphs last until they are destroyed or intentionally de-activated, at which time the Unown returns to Unown Space, disappearing forever. You may have a number of active Glyphs equal to your Occult Education Rank. When setting a Glyph, you may have the Glyphs be either visible or invisible, as you prefer. At any time, as a Standard Action, you may Channel any Glyph youhave set down. This causes the Glyph's eye to open and become visible if it was not. While you are channeling a Glyph, you are able to see through the Glyph, listen through it, and project your voice through it."
+            "Prerequisites": "Rune Master, Tag Scribe",
+            "Frequency": "At-Will — Special",
+            "Effect": "As an Extended Action, you may set a Cleanse Tag against any ﬂat surface, turning it into a Glyph. Glyphs have HP equal to your Level, and no other stats. Glyphs last until they are destroyed or intentionally deactivated. You may have a number of active Glyphs equal to your Occult Education Rank. When setting a Glyph, you may have the Glyphs be either visible or invisible, as you prefer. At any time, as a Standard Action, you may Channel any Glyph you have set down. This causes the Glyph to become visible if it was not. While you are channeling a Glyph, you are able to see through the Glyph, listen through it, and project your voice through it. Alternatively, you may pay 1 AP to set a Glyph as a Swift Action.",
+            "Bonus": "Your Unown gain the Letter Press Capability."
         },
         "Words of Power": {
             "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Adept Occult Education, Hidden Power",
-            "Frequency": "Static",
+            "Prerequisites": "Rune Master, Adept Occult Education",
+            "Frequency": "At-Will - Free Action",
             "Trigger": "You or your Pokémon use Hidden Power",
-            "Effect": "Instead of a Burst, you may choose to have Hidden Power be a 1 Target Melee, 1 Target 6m, or Cone 2. Additionally, you and your Prime Unown always have STAB on Hidden Power as if you or they were of the same Type."
+            "Effect": "Instead of a Burst, you may choose to have Hidden Power be a 1 Target Melee, 1 Target 6m, Line 3, or Cone 2.",
+            "Bonus": "You and your Prime Unown always have STAB on Hidden Power as if you were of the same Type."
         },
         "Alarm Runes": {
             "Tags": "[+Attack or Special Attack]",
             "Prerequisites": "Glyph",
             "Frequency": "Bind 1 AP — Standard Action",
             "Target": "A Glyph you have put down, regardless of distance",
-            "Effect": "You give the Glyph a Trigger, which may be as vague or as precise as you like (i.e.: \"If anyone enters the room\", \"if James peeks in my diary\", \"If a Torkoal uses Surf while I scream the word 'Gelato'\"). If the trigger is met within the Rune's 30 meters, the Rune will become visible, and will begin screeching loudly, alerting anyone nearby. You are capable of hearing this screeching noise in your head, regardless of your current distance. Glyphs will remember their Triggers as long as the AP spent on the Feature is Bound. If you have the Explosive Runes or Sentry Runes Features, you may instruct this Glyph to automatically use the chosen Feature as a Free Action when it is triggered if you have the AP to spend. You may have only one Glyph use Explosive Runes per round, even if multiple Runes are triggered at the same time."
+            "Effect": "You give the Glyph a Trigger, which may be as vague or as precise as you like. If the trigger is met within 30 meters of the Rune, the Rune will become visible and begin screeching loudly, alerting anyone nearby. You are capable of hearing this screeching noise in your head, regardless of your current distance, and you may deactivate it as a Free Action. Glyphs will remember their Triggers as long as the AP spent on the Feature is Bound. If you have the Explosive Runes Feature, you may instruct this Glyph to automatically use Hidden Power as a Free Action when it is triggered for 1 AP. You may have only one Glyph use Explosive Runes per round, even if multiple Runes are triggered at the same time. Each Alarm Rune may only be triggered once per Scene."
         },
         "Explosive Runes": {
             "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Adept Occult Education, Glyph, Hidden Power",
-            "Frequency": "1 AP — Standard Action",
+            "Prerequisites": "Glyph, Adept Occult Education",
+            "Frequency": "2 AP – Shift Action",
             "Target": "A Glyph you have put down, regardless of distance",
-            "Effect": "You may use Hidden Power, originating the attack from the location of the targeted Glyph. Use your own Stats and Hidden Power values to calculate damage. Using this Feature causes the Glyph to become visible and glow for a minute afterwards."
+            "Effect": "You may use Hidden Power, originating from the location of the targeted Glyph. Use your own Stats and Hidden Power values to calculate damage. Using this Feature causes the Glyph to become visible and glow for a minute afterwards. Additionally, whenever you use Hidden Power, you may have it originate from any Glyph within X meters of you. X is your Occult Education Rank."
         },
-        "Sentry Runes": {
+        "Unlocked Potential": {
             "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Expert Occult Education, Explosive Runes, Hidden Power",
-            "Frequency": "1 AP — Standard Action",
-            "Target": "A Glyph you have put down, regardless of distance",
-            "Effect": "The target Glyph becomes an Unown of your Trainer Level, its Stats allocated as you wish. This Unown knows a single instance of Hidden Power, identical to your own. The Glyph can fight on its own without needing you to command it. At the end of the encounter, or after 5 minutes, the Unown returns to Unown Space forever, destroying the Glyph. You may only have one Glyph active in this way at a time; if various Alarm Glyphs are triggered to become Sentries at the same time, only one does so; the others will do so once the previous one has been destroyed if the Trigger condition is still being met."
+            "Prerequisites": "Words of Power, Expert Occult Education",
+            "Frequency": "Scene x2 - Swift Action",
+            "Trigger": "You or your Pokémon use Hidden Power",
+            "Effect": "For this use, Hidden Power gains a bonus to damage equal to your Occult Education Rank, and its Range(including any Area of Effect Ranges) is increased by +1. If you used it as a 1 Target 6m Move, it becomes a Ranged Blast 2. If this Feature is used in combination with Ley Lines, the range is not increased, but all Legal Targets are Vulnerable against the attack and for one Full Round afterward if the attack hits. Unlocked Potential may be used only once per target per Scene."
+        },
+        "Ley Lines": {
+            "Tags": "[+Attack or Special Attack]",
+            "Prerequisites": "4 Rune Master Features including Glyph, Master Occult Education",
+            "Frequency": "Scene x2 - Standard Action",
+            "Trigger": "2 or more squares that contain Glyphs within X meters of you",
+            "Effect": "Create a closed polygon by drawing straight lines connecting yourself and the targeted squares, then use the Move Hidden Power. For this use, Hidden Power gains the Friendly Keyword, and affects all Legal Targets within the area of the created polygon. X is equal to your Occult Education Rank doubled."
         }
     },
     "Arcanist": {
         "Arcanist": {
             "Tags": "[Class, +Special Attack][Weapon]",
-            "Prerequisites": "Arcane Training",
+            "Prerequisites": "Adept Occult Education",
             "Frequency": "At-Will — Extended Action",
             "Target": "An Arcane Weapon",
-            "Effect": "You create a Soul Bond with the target Weapon. You may make a Soul Bond with only one weapon at a time. If you create a new Soul Bond, previously Soul Bound weapons lose the Bond. Soul Bound Weapons gain the following benefits:\n» Increase the Damage Base and Effect Range of Struggle Attacks and Arcane Weapon Moves made with your Soul Bonded Weapon by +1 for each Occult Education Rank you have above Novice, up to a maximum of +3 at Master Rank.\n» As a Shift Action, you may beckon your Soul Bonded Weapon to your hands if it is within 10 meters. If it is being held by someone else who does not want to let go of the weapon, make an Occult vs Athletics Opposed Check. If you win, they their lose grip on your Weapon and it flies to your hand as normal"
+            "Effect": "You create a Soul Bond with the target Weapon. You may make a Soul Bond with only one weapon at a time. If you create a new Soul Bond, previously Soul Bound weapons lose the Bond. Soul Bound Weapons gain the following benefits:\n» Increase the Effect Range of Struggle Attacks and Arcane Weapon Moves made with your Soul Bonded Weapon by +1 for each Occult Education Rank you have above Novice, up to a maximum of +3 at Master Rank. Additionally, you gain a bonus to Damage with these Moves equal to half your Occult Education Rank.\n» As a Shift Action, you may beckon your Soul Bonded Weapon to your hands if it is within 10 meters. If it is being held by someone else who does not want to let go of the weapon, make an Occult vs Athletics Opposed Check. If you win, they their lose grip on your Weapon and it flies to your hand as normal."
         },
         "Metamagic": {
             "Tags": "[+Special Attack]",
@@ -4329,8 +4373,7 @@
             "Rank 1 Prerequisites": "Metamagic",
             "Rank 2 Prerequisites": "Authentic Thaumaturgy",
             "Frequency": "Static",
-            "Rank 1 Effect": "Select a Rank 1 Power Manipulation. This Manipulation maybe used twice per Scene without spending AP to activate.",
-            "Rank 2 Effect": "Select a Rank 1 Power Manipulation. This Manipulation maybe used twice per Scene without spending AP to activate. OR Select a Rank 2 power Manipulation. This Manipulation may be used once per Scene without activating Authentic Thaumaturgy's Frequency."
+            "Effect": "Each Rank, select a Power Manipulation of the same Signature Manipulation Rank you are taking or lower.\n» For Rank 1 Manipulations, this Manipulation may be used twice per Scene without spending AP to activate.\n» For Rank 2 Manipulations, this Manipulation may be used once per Scene without activating Authentic Thaumaturgy’s Frequency."
         },
         "Recoup Energy": {
             "Tags": "[+Special Attack]",
@@ -4344,7 +4387,7 @@
             "Prerequisites": "Arcanist, Master Occult Education",
             "Frequency": "Bind 2 AP — Extended Action",
             "Target": "Your Soul Bonded Weapon",
-            "Effect": "Choose one Novice and one Expert Arcane Weapon Move. Your Soul Bonded Weapon adds those Moves to your Move List as long as this Feature is Bound. You may only Bind one instance of this Feature at a time, and you may not have multiple instances of the same Move in your Move List."
+            "Effect": "Choose one Adept and one Master Arcane Weapon Move. Your Soul Bonded Weapon adds those Moves to your Move List as long as this Feature is Bound. You may only Bind one instance of this Feature at a time, and you may not have multiple instances of the same Move in your Move List."
         },
         "Power Manipulations": {
             "Rank 1 Power Manipulations": {
@@ -4443,7 +4486,7 @@
             "Tags": "[+Attack][Weapon]",
             "Prerequisites": "Marksman, Adept Combat",
             "Frequency": "1 AP — Standard Action",
-            "Effect": "You may make two Struggle Attacks with a -2 penalty to Accuracy, each targeting the same foe. If the first attack gains the benefit of Aiming Down the Sights or Clear Shot, the second attack also gains the same benefits for free."
+            "Effect": "You may make two Struggle Attacks, each targeting the same foe. If the first attack gains the benefit of Aiming Down the Sights or Clear Shot, the second attack also gains the same benefits for free."
         },
         "Overwatch": {
             "Tags": "[+Attack][Weapon]",
@@ -4461,8 +4504,8 @@
         "Crippling Shot": {
             "Tags": "[+Attack][Weapon]",
             "Prerequisites": "Marksman, Expert Perception or Combat",
-            "Frequency": "2 AP — Full Action",
-            "Effect": "Make a Ranged Struggle Attack attack with a -2 penalty to Accuracy. If you hit, the attack deals Damage as if it was resisted one step, but the target becomes Slowed, loses 1 Speed Combat Stage, and you initiate a Trip Maneuver against the target. You may use your Perception Skill to resolve the Opposed Check if you wish."
+            "Frequency": "2 AP — Standard Action",
+            "Effect": "Make a Ranged Weapon Attack with a Damage Base of 8 or lower. If you hit, the target is Slowed for 1 Full Round, loses 1 Speed Combat Stage, and you initiate a Trip Maneuver against the target. You must still hit with the Trip Maneuver, and you may use your Perception Skill to resolve the Opposed Check if you wish."
         },
         "Dead-Eye Shot": {
             "Tags": "[+Attack][Weapon]",
@@ -4602,13 +4645,19 @@
             "Tags": "[+Attack or Special Attack]",
             "Prerequisites": "Shade Caller",
             "Frequency": "Static",
-            "Effect": "You gain the Twisted Power Ability."
+            "Effect": "You gain the Conqueror Ability."
         },
         "Living Shadow": {
             "Tags": "[+Attack or Special Attack]",
             "Prerequisites": "Shade Caller",
             "Frequency": "Static",
             "Effect": "Your own Shadow can attack others; you may have your Dark Type Moves originate from any Square adjacent to you. If you are fighting among complete darkness, you may have your Dark Type Moves originate from any square within X meters that is completely dark, where X is the higher of your Guile or Stealth Rank. Attacks originating from Living Shadow do not trigger effects that rely on being hit with a melee attack."
+        },
+        "World of Darkness": {
+            "Tags": "[+Attack or Special Attack]",
+            "Prerequisites": "Shade Caller, Adept Guile or Stealth",
+            "Frequency": "2 AP — Standard Action",
+            "Effect": "You create a zone of Shifting Darkness in a Burst 2 around you, which persists until the end of the encounter. All targets without Darkvision attacking from or into the Shifting Darkness receive a -3 penalty to Accuracy. You may count Shifting Darkness as complete darkness for the purposes of activating your Living Shadow. As a Static effect, you also gain the Darkvision Capability."
         },
         "Sharpen Shadows": {
             "Tags": "[+Attack or Special Attack]",
@@ -4621,12 +4670,6 @@
             "Prerequisites": "Sharpen Shadows, Master Guile or Stealth",
             "Frequency": "Static",
             "Effect": "You learn Night Daze and Punishment"
-        },
-        "World of Darkness": {
-            "Tags": "[+Attack or Special Attack]",
-            "Prerequisites": "Shade Caller, Adept Guile or Stealth",
-            "Frequency": "2 AP — Standard Action",
-            "Effect": "You create a zone of Shifting Darkness in a Burst 2 around you, which persists until the end of the encounter. All targets without Darkvision attacking from or into the Shifting Darkness receive a -3 penalty to Accuracy. You may count Shifting Darkness as complete darkness for the purposes of activating your Living Shadow. As a Static effect, you also gain the Darkvision Capability."
         },
         "Dark Soul": {
             "Tags": "[+Attack or Special Attack]",
@@ -4851,13 +4894,14 @@
             "Tags": "[+Attack]",
             "Prerequisites": "Apparition",
             "Frequency": "Static",
-            "Effect": "Choose Pressure or Frighten. You gain the chosen Ability."
+            "Effect": "Choose Pressure, Omen, or Frighten. You gain the chosen Ability"
         },
         "Silent Assassin": {
             "Tags": "[+Attack][Weapon]",
             "Prerequisites": "Apparition, Adept Intimidate or Occult Education",
             "Frequency": "Bind 2 AP — Standard Action",
-            "Effect": "While this Feature is Bound, your Struggle Attacks and Weapon Attacks deal Ghost-Type Damage, and you gain the Dead Silent Capability."
+            "Effect": "While this Feature is Bound, your Struggle Attacks and Weapon Attacks Flinch targets on 18+, and may deal Ghost-Type Damage if you wish.",
+            "Bonus": "You gain the Dead Silent Capability, and a bonus to Stealth checks equal to half your Intimidate or Occult Education Rank."
         },
         "Shadow Form": {
             "Tags": "[+Attack]",
@@ -4876,7 +4920,7 @@
             "Prerequisites": "Shadow Arms, Master Intimidate or Occult Education",
             "Frequency": "Scene x2 — Free Action",
             "Trigger": "You hit with an Apparition Move or Ghost-Typed Weapon Attack",
-            "Effect": "After one full round, repeat the triggering attack against one target as a Free Action, regardless of range. If this attack hits, it deals damage as if it were resisted one step further. Haunted Wounds may only affect a target once per Scene."
+            "Effect": "After one full round, repeat the triggering attack against one target as a Free Action, regardless of range. If this attack hits, it deals damage as if it were resisted one step further. Haunted Wounds may only aﬀect a target once per Scene."
         }
     },
     "Druid": {
@@ -4991,39 +5035,45 @@
             "Tags": "[Class][+Defense]",
             "Prerequisites": "Elemental Connection (Ground), Novice Intuition, Novice Focus",
             "Frequency": "Static",
-            "Effect": "Pick two of Bulldoze, Mud Shot, or Sand-Attack. You learn the chosen Moves."
+            "Effect": "Choose two of Bulldoze, Mud Shot, Mud-Slap, or Sand-Attack. You learn the chosen Moves."
         },
         "Earthen Bond": {
             "Tags": "[+Defense]",
             "Prerequisites": "Earth Shaker",
             "Frequency": "Static",
-            "Effect": "You gain the Tremorsense Capability, and you gain Naturewalk for Cave, Mountain and Desert."
+            "Effect": "You gain the Tremorsense and Groundshaper Capabilities, and you gain Naturewalk for Cave, Mountain and Desert."
         },
         "Earth Mother's Blessing": {
             "Tags": "[Ranked 2][+Defense]",
             "Rank 1 Prerequisites": "Earth Shaker, Adept Focus or Intuition",
             "Rank 2 Prerequisites": "Ground Out, Master Focus or Intuition",
             "Frequency": "Static",
-            "Effect": "Each Rank, choose Arena Trap or Lightning Rod. You gain the chosen Ability."
+            "Effect": "Each Rank, choose Mud Dweller, Arena Trap, or Lightning Rod. You gain the chosen Ability."
+        },
+        "Wall Of Earth": {
+            "Tags": "[+Defense]",
+            "Prerequisites": "Earth Shaker",
+            "Frequency": "X AP - Special",
+            "Effect": "You create up to 4 meters of wall within 8 Meters. All 4 meters must be adjacent with at least one other space of the wall. You may have up to 8 Meters of wall active at any time. You may use this Feature on your own turn as a Standard Action for no AP cost, or, once per Scene, you may activate this Feature as a Standard Action Interrupt for 2 AP. You may only use this Feature in areas with sufficient sources of soil or mud nearby."
+        },
+        "Ground Out": {
+            "Tags": "[+Defense]",
+            "Prerequisites": "Earth Shaker, Expert Focus or Intuition",
+            "Frequency": "Static",
+            "Effect": "Choose two of Drill Run, Spikes, Magnitude, or Mud Bomb. You learn the chosen Moves."
         },
         "Earthshifter": {
             "Tags": "[+Defense]",
             "Prerequisites": "Ground Out",
-            "Frequency": "2 AP — Swift Action",
+            "Frequency": "Scene x2 – Swift Action",
             "Trigger": "You hit with a damaging Ground Type Move",
-            "Effect": "You initiate a Trip Maneuver against 1 target of the Move. The Maneuver automatically hits, and you may use your Focus or Intuition for the opposed check"
-        },
-        "Ground Out": {
-            "Tags": "[+Defense]",
-            "Prerequisites": "Earth Shaker, Expert Intuition, Expert Focus",
-            "Frequency": "Static",
-            "Effect": "Pick two of Drill Run, Magnitude, or Mud Bomb. You learn the chosen Moves."
+            "Effect": "You initiate a Trip Maneuver against all targets of the Move. The Maneuver automatically hits, and you may use your Focus or Intuition for the opposed check."
         },
         "Tectonic Shift": {
             "Tags": "[+Defense]",
-            "Prerequisites": "Ground Out, Master Intuition, Master Focus",
+            "Prerequisites": "Ground Out, Master Intuition or Master Focus",
             "Frequency": "Static",
-            "Effect": "Pick two of Earthquake, Earth Power, or Sand Tomb. You learn the chosen Moves."
+            "Effect": "Pick two of Earthquake, Shore Up, Earth Power, or Sand Tomb. You learn the chosen Moves."
         }
     },
     "Frost Touched": {
@@ -5160,24 +5210,24 @@
             "Tags": "[Class][+Defense]",
             "Prerequisites": "Elemental Connection (Rock), Novice Combat, Novice Survival",
             "Frequency": "Static",
-            "Effect": "You learn the Moves Rock Tomb and Wide Guard."
+            "Effect": "Choose two of Accelerock, Rock Tomb, and Wide Guard. You gain the chosen Moves."
         },
         "Stone Stance": {
             "Tags": "[+Defense]",
             "Prerequisites": "Stone Warrior",
             "Frequency": "Bind 2 AP — Standard Action",
-            "Effect": "You adopt one of the stances below, gaining the effects of the stance while this Feature remains bound. You may switch your active Stance as a Standard Action without rebinding your AP. The benefits from this Feature do not apply if you are not standing on a solid surface, such as deep mud or snow, or if you are outright swimming or even flying.\n» Falling Boulder Stance: You gain a +5 bonus to all Damage Rolls, but lose 5 HP from Recoil whenever you hit with an attack.\n» Moon Mountain Stance: Your initiative is lowered by -5, but you gain 5 Damage Reduction and are immune to Push or Pull effects.\n» Roiling Earth Stance: After a successful Intercept action, you may make a Struggle Attack against a foe within range."
+            "Effect": "You adopt one of the stances below, gaining the effects of the stance while this Feature remains bound. You may switch your active Stance as a Standard Action without rebinding your AP. The benefits from this Feature do not apply if you are not standing on a solid surface, such as deep mud or snow, or if you are outright swimming or even ﬂying.\n» Falling Boulder Stance: You gain a +1 bonus to Accuracy with Rock-type attacks and a +5 bonus to all Damage Rolls, but lose 5 HP from Recoil whenever you hit with an attack.\n» Moon Mountain Stance: Your initiative is lowered by -5, but you gain 5 Damage Reduction and are immune to Push or Pull effects.\n» Roiling Earth Stance: After a successful Intercept action, you may make a Struggle Attack or use Accelerock against a foe within range as a Free Action. You must know Accelerock in order to use it."
         },
         "Rock Power": {
             "Tags": "[Ranked 2][+Defense]",
-            "Rank 1 Prerequisites": "Stone Warrior, Adept Combat or Survival",
+            "Rank 1 Prerequisites": "Adept Combat or Survival",
             "Rank 2 Prerequisites": "Expert Combat or Survival",
             "Frequency": "Static",
-            "Effect": "Each Rank, choose one of Sturdy, Rock Head, Run Up, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a \"solid surface\" for the purposes of Stone Stance."
+            "Effect": "Each Rank, choose one of Cave Crasher, Sturdy, Rock Head, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a \"solid surface\" for the purposes of Stone Stance."
         },
         "Shards of Stone": {
             "Tags": "[+Defense]",
-            "Prerequisites": "Stone Warrior, Expert Combat or Survival",
+            "Prerequisites": "Expert Combat or Survival",
             "Frequency": "Static",
             "Effect": "You learn the Moves Rock Slide and Stealth Rock"
         },
@@ -5293,7 +5343,7 @@
             "Tags": "[+Speed]",
             "Prerequisites": "Backpacker, Expert Survival",
             "Frequency": "2 AP — Swift Action",
-            "Effect": "Use or Equip an Item or piece of Equipment which would normally require a Standard Action to use or equip. You may not make an Attack with a Weapon this way  - using other Items or Equipment that requires \"Attacks\" (such as Cap Cannons or Poké Balls) is acceptable."
+            "Effect": "Use or Equip an Item or piece of Equipment which would normally require a Standard Action to use or equip. You may not make an Attack with a Weapon this way - using other Items or Equipment that requires \"Attacks\" (such as Cap Cannons or Poké Balls) is acceptable."
         },
         "Hero's Journey": {
             "Tags": "[Ranked 3][+Speed]",

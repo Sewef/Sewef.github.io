@@ -252,52 +252,67 @@ function isLeaf(obj) {
  * Retourne un tableau plat contenant :
  *   – la Feature courante si elle porte au moins un des LEAF_KEYS ;
  *   – toutes les sous-features profondes trouvées dans ses propriétés
- *     objet ou dans son éventuel tableau `children`.
+ *     objet ou dans son éventuel tableau `recipes`, `annexe`, etc.
  *
- * @param {Object} featObj    L’objet Feature à explorer
+ * @param {Object} featObj        L’objet Feature à explorer
  * @param {string} [nameOverride] Nom forcé pour la carte (clé-propriété par ex.)
- * @returns {Object[]}        Tableau de Features prêtes pour `createCard`
+ * @param {boolean} [embedOnly]  Si true, ne pousse rien dans le tableau principal
+ * @param {boolean} [insideChild] Si true, on est dans une sous-feature
+ * @returns {Object[]}            Tableau de Features à afficher
  */
-function collectLeafFeatures(featObj, nameOverride) {
+function collectLeafFeatures(featObj, nameOverride = null, embedOnly = false) {
   const list = [];
   const name = nameOverride || featObj.name || "(unnamed)";
+  const isSimpleTextMap = obj =>
+    obj && typeof obj === "object" &&
+    !Array.isArray(obj) &&
+    Object.values(obj).every(v => typeof v === "string");
 
-  // 1) Si l’objet possède des champs « leaf », on pousse la carte-mère.
-  if (isLeaf(featObj)) {
-    list.push({ ...featObj, name });
+  const hasAnyContent = obj =>
+    Object.entries(obj).some(([k, v]) =>
+      typeof v === "string" || isSimpleTextMap(v)
+    );
+
+  const cleaned = { ...featObj, name };
+  const subCards = [];
+
+  // Recherche de tableaux de sous-features
+  for (const [key, val] of Object.entries(featObj)) {
+    if (
+      Array.isArray(val) &&
+      val.every(v => typeof v === "object" && (v.name || v.Effect))
+    ) {
+      val.forEach(sub => {
+        const child = { ...sub, name: sub.name || `(${key})` };
+        subCards.push(...collectLeafFeatures(child, child.name, true));
+      });
+    }
   }
 
-  // 2) Exploration des propriétés qui sont elles-mêmes des objets Feature.
-  Object.entries(featObj).forEach(([k, v]) => {
-    if (
-      v && typeof v === "object" && !Array.isArray(v) &&
-      // on ignore les simples métadonnées
-      !["Source", "source"].includes(k)
-    ) {
-      list.push(...collectLeafFeatures(v, k));   // nom = clé-propriété
+  // Si l’objet principal contient du contenu, on le garde
+  if (hasAnyContent(cleaned)) {
+    if (subCards.length > 0) {
+      cleaned.__children = subCards;
     }
-  });
-
-  // 3) Exploration d’un éventuel tableau children[].
-  if (Array.isArray(featObj.children)) {
-    featObj.children.forEach(ch => list.push(...collectLeafFeatures(ch)));
+    if (!embedOnly) list.push(cleaned);
+    else return [cleaned];
+  } else if (embedOnly && subCards.length > 0) {
+    return subCards;
   }
 
   return list;
 }
 
 
-
 /* ------------------------------------------------------------------ *
  * 1. createCard() – rend une carte et, récursivement, ses sous-cartes
  * ------------------------------------------------------------------ */
 function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
-
-  /* ----- conteneur colonne (pas de colonne Bootstrap quand imbriqué) */
+  // ----- conteneur colonne (pas de colonne Bootstrap quand imbriqué)
   const col = document.createElement("div");
   if (!nested) col.className = "col-md-12";
 
-  /* ----- carte ------------------------------------------------------ */
+  // ----- carte principale
   const card = document.createElement("div");
   card.className = `card ${nested ? "mb-2" : "h-100"} bg-white border shadow-sm`;
   card.dataset.title = feat.name || "(unnamed)";
@@ -305,15 +320,12 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
   const body = document.createElement("div");
   body.className = "card-body bg-light";
 
-  /* ---------- badges ------------------------------------------------ */
-  // Règle d’affichage :
-  //   • Dans « General » : TOUS les badges, même imbriqués.
-  //   • Ailleurs        : badges UNIQUEMENT sur la 1ʳᵉ carte racine (firstInBranch).
+  // ----- badges
   const showBadges = isGeneral ? true : (!nested && firstInBranch);
 
   const catBadge = isGeneral
-    ? (feat.Category || null)        // badge individuel
-    : (showBadges ? clsMeta.category : null);   // badge de la classe
+    ? (feat.Category || null)
+    : (showBadges ? clsMeta.category : null);
 
   const srcBadge = (isGeneral || showBadges)
     ? (feat.Source || feat.source || clsMeta.source)
@@ -325,16 +337,15 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
 
   body.insertAdjacentHTML("afterbegin", `<h5 class="card-title">${titleHTML}</h5>`);
 
-  /* ---------- champs simples --------------------------------------- */
+  // ----- champs simples
   Object.entries(feat).forEach(([k, v]) => {
-    if (["name", "children", "Source", "source", "Category"].includes(k)) return;
+    if (["name", "children", "Source", "source", "Category", "__children"].includes(k)) return;
     if (v == null || typeof v === "object") return;
 
-    // ────────── si c’est l’Effect et qu’il contient du HTML ──────────
     if (k === "Effect" && /<\s*table/i.test(v)) {
       body.insertAdjacentHTML(
         "beforeend",
-        `<div class="mb-2"><strong>Effect:</strong><br>${v}</div>` // v directement en HTML
+        `<div class="mb-2"><strong>Effect:</strong><br>${v}</div>`
       );
     } else {
       body.insertAdjacentHTML(
@@ -344,26 +355,44 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
     }
   });
 
-
-  /* ---------- sous-features imbriquées ----------------------------- */
-  addSubFeatures(feat, clsMeta, body, isGeneral);
+  // ----- enfants imbriqués uniquement ici
+  if (feat.__children && Array.isArray(feat.__children)) {
+    feat.__children.forEach(child => {
+      body.appendChild(createCard(child, clsMeta, false, isGeneral, true));
+    });
+  }
 
   card.appendChild(body);
   col.appendChild(card);
   return col;
 }
 
+
 /* ------------------------------------------------------------------ *
  * 2. addSubFeatures() – collecte et rend toutes les feuilles enfants
  * ------------------------------------------------------------------ */
 function addSubFeatures(obj, clsMeta, container, isGeneral) {
   Object.entries(obj).forEach(([key, val]) => {
+    if (key === "__children") return; // on ignore les enfants internes  
     if (!val || typeof val !== "object") return;
 
     // a) si c’est déjà une feuille -> carte enfant
     if (isLeaf(val)) {
       container.appendChild(
         createCard({ ...val, name: key }, clsMeta, false, isGeneral, true)
+      );
+      return;
+    }
+
+    // 🔥 Cas spécial : si val est un objet simple { k: string, … }
+    const entries = Object.entries(val);
+    if (entries.every(([_, v]) => typeof v === "string")) {
+      const subBody = {
+        name: key,
+        Effect: entries.map(([k, v]) => `<b>${k}</b> : ${v}`).join("<br>")
+      };
+      container.appendChild(
+        createCard(subBody, clsMeta, false, isGeneral, true)
       );
       return;
     }
@@ -378,3 +407,4 @@ function addSubFeatures(obj, clsMeta, container, isGeneral) {
     addSubFeatures(val, clsMeta, container, isGeneral);
   });
 }
+

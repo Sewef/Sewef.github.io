@@ -31,7 +31,7 @@ function loadClasses(path) {
       classesData = json;
       buildSidebar();
       const firstCls = classesData.General ? "General" : Object.keys(classesData)[0];
-      const firstBr = classesData[firstCls].branches[0].name;
+      const firstBr = classesData[firstCls].branches[0].Name;
       renderSection(firstCls, firstBr);
       const l = document.querySelector(`[data-section="${firstCls}"][data-branch="${firstBr}"]`);
       if (l) setActiveLink(l);
@@ -72,7 +72,22 @@ function buildSidebar() {
   });
   fWrap.querySelectorAll("input").forEach(cb =>
     cb.addEventListener("change", () => {
+      // Store the state of the collapsible elements
+      const expandedCategories = new Set();
+      document.querySelectorAll('.collapse.show').forEach(el => {
+        expandedCategories.add(el.id);
+      });
+
       renderSidebar();                                   // ← sidebar mise à jour
+
+      // Restore the state of the collapsible elements
+      expandedCategories.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+          new bootstrap.Collapse(el, { toggle: true }); // Manually show the collapsed element
+        }
+      });
+
       if (currentLink && currentLink.dataset.section === "General") {
         // on recharge la section General pour appliquer le nouveau filtre
         renderSection("General", "Default");
@@ -91,8 +106,23 @@ function branchSource(branch, fallback) {
   const featWithSrc = branch.features.find(f => f.Source || f.source);
   return featWithSrc ? (featWithSrc.Source || featWithSrc.source) : fallback || "Unknown";
 }
+// ------------- Icones Catégories ------------------------------------------
+const categoryIcons = {
+  "Introductory": "🌱",
+  "Battling": "⚔️",
+  "Specialist Team": "🛡️",
+  "Professional": "💼",
+  "Fighter": "👊",
+  "Supernatural": "👻",
+  "Uncategorized": "❓",
+  "Game of Throhs": "👑",
+  "Do Porygon Dream of Mareep": "🐑",
+};
 
 // ------------- Rendu Sidebar ----------------------------------------------
+function getCategoryIcon(category) {
+  return categoryIcons[category] || "📁";
+}
 function renderSidebar() {
   const box = document.getElementById("sidebar-links");
   box.innerHTML = "";
@@ -122,23 +152,26 @@ function renderSidebar() {
     (cats[cls.category || "Other"] ??= []).push([clsName, cls, visibleBranches]);
   });
 
-  Object.keys(cats).sort().forEach(cat => {
+  const orderedCats = Object.keys(cats);
+
+  orderedCats.forEach(cat => {
     const catId = `collapse-cat-${cat.replace(/\s+/g, "-")}`;
     box.insertAdjacentHTML("beforeend", `
-      <button class="btn btn-sm btn-light w-100 text-start collapse-toggle mb-1" data-bs-toggle="collapse" data-bs-target="#${catId}">📁 ${cat}</button>`);
+      <button class="btn btn-sm btn-light w-100 text-start collapse-toggle mb-1" data-bs-toggle="collapse" data-bs-target="#${catId}">${getCategoryIcon(cat)} ${cat}</button>`);
+
     const catCol = document.createElement("div");
     catCol.className = "collapse mb-2";
     catCol.id = catId;
     box.appendChild(catCol);
 
     cats[cat].sort(([a], [b]) => a.localeCompare(b)).forEach(([clsName, cls, branches]) => {
-      const singleDefault = branches.length === 1 && branches[0].name === "Default";
+      const singleDefault = branches.length === 1 && branches[0].Name === "Default";
       if (singleDefault) {
         catCol.appendChild(makeLink(clsName, branchSource(branches[0], cls.source), { section: clsName, branch: "Default" }, 4));
       } else {
         const clsId = `collapse-cls-${clsName.replace(/\s+/g, "-")}`;
         catCol.insertAdjacentHTML("beforeend", `
-          <a href="#" class="list-group-item list-group-item-action ps-3 d-flex justify-content-between align-items-center collapse-toggle" data-bs-toggle="collapse" data-bs-target="#${clsId}">
+          <a href="#" class="list-group-item list-group-item-action ps-4 d-flex justify-content-between align-items-center collapse-toggle" data-bs-toggle="collapse" data-bs-target="#${clsId}">
             <span>${clsName}</span>
             <span class="badge bg-light text-muted ms-auto text-truncate" style="max-width:10rem" title="${cls.source}">${cls.source}</span>
             <span class="triangle-toggle ms-2"></span>
@@ -147,11 +180,12 @@ function renderSidebar() {
         brWrap.className = "collapse";
         brWrap.id = clsId;
         catCol.appendChild(brWrap);
-        branches.forEach(br => brWrap.appendChild(makeLink(br.name, branchSource(br, cls.source), { section: clsName, branch: br.name }, 5)));
+        branches.forEach(br => brWrap.appendChild(makeLink(br.Name, branchSource(br, cls.source), { section: clsName, branch: br.Name }, 5)));
       }
     });
   });
 }
+
 
 // ------------- Helper : Création de lien ----------------------------------
 function makeLink(label, src, data = {}, pad = 3) {
@@ -187,7 +221,7 @@ function renderSection(clsName, branchName = "Default") {
   const cls = classesData[clsName];
   if (!cls) return;
 
-  const branches = cls.branches.filter(b => b.name === branchName);
+  const branches = cls.branches.filter(b => b.Name === branchName);
   const title = (cls.branches.length === 1 && branchName === "Default")
     ? clsName
     : `${clsName} – ${branchName}`;
@@ -239,8 +273,7 @@ function renderSection(clsName, branchName = "Default") {
 
 // --------- Collecte récursive des Features (carte-mère + feuilles) --------
 const LEAF_KEYS = ["Effect", "Frequency", "Tags", "Trigger", "Target",
-  "Prerequisites",            // ← utile pour vos données
-  "effect", "frequency", "tags", "trigger", "target"];
+  "Prerequisites"];
 
 function isLeaf(obj) {
   return LEAF_KEYS.some(k => k in obj);
@@ -260,29 +293,29 @@ function isLeaf(obj) {
  */
 function collectLeafFeatures(featObj, nameOverride = null, embedOnly = false) {
   const list = [];
-  const name = nameOverride || featObj.name || "(unnamed)";
+  const name = nameOverride || featObj.Name || "(unnamed)";
   const isSimpleTextMap = obj =>
     obj && typeof obj === "object" &&
     !Array.isArray(obj) &&
     Object.values(obj).every(v => typeof v === "string");
 
   const hasAnyContent = obj =>
-    Object.entries(obj).some(([k, v]) =>
+    Object.entries(obj).some(([, v]) =>
       typeof v === "string" || isSimpleTextMap(v)
     );
 
-  const cleaned = { ...featObj, name };
+  const cleaned = { ...featObj, Name: featObj.Name || nameOverride || "(unnamed)" };
   const subCards = [];
 
   // Recherche de tableaux de sous-features
   for (const [key, val] of Object.entries(featObj)) {
     if (
       Array.isArray(val) &&
-      val.every(v => typeof v === "object" && (v.name || v.Effect))
+      val.every(v => typeof v === "object" && (v.Name || v.Effect))
     ) {
       val.forEach(sub => {
-        const child = { ...sub, name: sub.name || `(${key})` };
-        subCards.push(...collectLeafFeatures(child, child.name, true));
+        const child = { ...sub, Name: sub.Name || `(${key})` };
+        subCards.push(...collectLeafFeatures(child, child.Name, true));
       });
     }
   }
@@ -313,7 +346,7 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
   // ----- carte principale
   const card = document.createElement("div");
   card.className = `card ${nested ? "mb-2" : "h-100"} bg-white border shadow-sm`;
-  card.dataset.title = feat.name || "(unnamed)";
+  card.dataset.title = feat.Name || "(unnamed)";
 
   const body = document.createElement("div");
   body.className = "card-body bg-light";
@@ -329,7 +362,7 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
     ? (feat.Source || feat.source || clsMeta.source)
     : null;
 
-  let titleHTML = feat.name || "(unnamed)";
+  let titleHTML = feat.Name || "(unnamed)";
   if (catBadge) titleHTML += ` <span class="badge bg-secondary">${catBadge}</span>`;
   if (srcBadge) titleHTML += ` <span class="badge bg-info">${srcBadge}</span>`;
 
@@ -337,7 +370,7 @@ function createCard(feat, clsMeta, firstInBranch, isGeneral, nested = false) {
 
   // ----- champs simples
   Object.entries(feat).forEach(([k, v]) => {
-    if (["name", "children", "Source", "source", "Category", "__children"].includes(k)) return;
+    if (["Name", "children", "Source", "source", "Category", "__children"].includes(k)) return;
     if (v == null || typeof v === "object") return;
 
     if (k === "Effect" && /<\s*table/i.test(v)) {
@@ -377,7 +410,7 @@ function addSubFeatures(obj, clsMeta, container, isGeneral) {
     // a) si c’est déjà une feuille -> carte enfant
     if (isLeaf(val)) {
       container.appendChild(
-        createCard({ ...val, name: key }, clsMeta, false, isGeneral, true)
+        createCard({ ...val, Name: key }, clsMeta, false, isGeneral, true)
       );
       return;
     }
@@ -386,7 +419,7 @@ function addSubFeatures(obj, clsMeta, container, isGeneral) {
     const entries = Object.entries(val);
     if (entries.every(([_, v]) => typeof v === "string")) {
       const subBody = {
-        name: key,
+        Name: key,
         Effect: entries.map(([k, v]) => `<b>${k}</b> : ${v}`).join("<br>")
       };
       container.appendChild(

@@ -2,8 +2,10 @@
   const CFG = {
     // Primary JSON location (mirror your moves.html convention)
     jsonUrls: [
-      '/ptu/data/pokedex/pokedex_core.json', // expected in your project
-      './pokedex_core.json',                 // fallback next to page
+      '/ptu/data/pokedex/pokedex_core.json',
+      '/ptu/data/pokedex/pokedex_7g.json',
+      '/ptu/data/pokedex/pokedex_8g.json',
+      '/ptu/data/pokedex/pokedex_8g_hisui.json',
     ],
     // Try a few sprite/icon path patterns. Override easily.
     iconPatterns: [
@@ -24,15 +26,58 @@
 
   // Load JSON with graceful fallbacks
   async function loadPokedex() {
-    for (const url of CFG.jsonUrls) {
-      try {
-        const res = await fetch(url, { cache: 'no-store' });
-        if (res.ok) { return res.json(); }
-      } catch (e) { /* continue */ }
-    }
-    throw new Error('Unable to load pokedex_core.json from configured locations');
-  }
+    // 1) Tenter de charger toutes les URLs en parallèle
+    const results = await Promise.allSettled(
+      CFG.jsonUrls.map(u =>
+        fetch(u, { cache: 'no-store' }).then(r => {
+          if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
+          return r.json();
+        })
+      )
+    );
 
+    // 2) Récupérer toutes les arrays trouvées, garder les erreurs pour debug
+    const arrays = [];
+    const errors = [];
+    results.forEach((res, i) => {
+      if (res.status === 'fulfilled') {
+        const data = res.value;
+        if (Array.isArray(data)) {
+          arrays.push(data);
+        } else if (data && Array.isArray(data.Pokedex)) {
+          // au cas où la structure serait { Pokedex: [...] }
+          arrays.push(data.Pokedex);
+        } else {
+          console.warn(`JSON pas au format array pour ${CFG.jsonUrls[i]}`, data);
+        }
+      } else {
+        errors.push(`${CFG.jsonUrls[i]} → ${res.reason}`);
+      }
+    });
+
+    // 3) Fusion + dédoublonnage (par Number + Species insensible à la casse)
+    const merged = arrays.flat();
+    const byKey = new Map();
+    for (const p of merged) {
+      const key = `${p.Number ?? ''}::${String(p.Species ?? '').toLowerCase()}`;
+      if (!byKey.has(key)) {
+        byKey.set(key, p);
+      } else {
+        // merge superficiel : les champs du dernier JSON écrasent les précédents
+        byKey.set(key, { ...byKey.get(key), ...p });
+      }
+    }
+
+    const out = Array.from(byKey.values());
+    if (out.length === 0) {
+      throw new Error(
+        'Impossible de charger le Pokédex depuis les URLs configurées.\n' +
+        (errors.length ? `Détails:\n- ${errors.join('\n- ')}` : '')
+      );
+    }
+
+    return out;
+  }
   // Derive flat list of distinct types present + robust form handling
   function extractTypes(p) {
     const t = p?.['Basic Information']?.Type;
@@ -42,6 +87,25 @@
       return Array.from(new Set(vals));
     }
     return [];
+  }
+
+  function wrapTypes(t) {
+    if (!t) return '';
+    if (typeof t === 'string') return t;    // déjà formaté → renvoyer tel quel
+    if (!Array.isArray(t)) t = [t];         // sécurise si jamais
+    return t.map(x => `<span class="type-pill card-type-${x}">${x}</span>`).join('');
+  }
+
+  function renderFormType(val) {
+    if (!val) return '';
+    if (typeof val === 'string') return val;   // déjà formaté
+    if (Array.isArray(val)) return wrapTypes(val);
+    if (typeof val === 'object') {
+      return Object.entries(val).map(([form, types]) =>
+        `<div class="mb-1"><span class="fw-semibold">${form}</span> : ${wrapTypes(types)}</div>`
+      ).join('');
+    }
+    return String(val ?? '');
   }
 
   function collectTypes(rows) {
@@ -95,52 +159,52 @@
   }
 
   // Build the grid of small badges
-function renderGrid(rows) {
-  const grid = document.getElementById('dex-grid');
-  grid.innerHTML = '';
-  const frag = document.createDocumentFragment();
+  function renderGrid(rows) {
+    const grid = document.getElementById('dex-grid');
+    grid.innerHTML = '';
+    const frag = document.createDocumentFragment();
 
-  rows.forEach(p => {
-    const name = p.Species || 'Unknown';
-    const num = pad3(p.Number ?? '0');
-    const types = extractTypes(p);
+    rows.forEach(p => {
+      const name = p.Species || 'Unknown';
+      const num = pad3(p.Number ?? '0');
+      const types = extractTypes(p);
 
-    const li = document.createElement('div');
-    li.className = 'dex-badge';
-    li.dataset.types = types.join(','); // ← on garde les types pour plus tard
+      const li = document.createElement('div');
+      li.className = 'dex-badge';
+      li.dataset.types = types.join(','); // ← on garde les types pour plus tard
 
-    // icône
-    const iconWrap = document.createElement('div');
-    iconWrap.className = 'icon';
-    const img = document.createElement('img');
-    setupIcon(img, p.Icon||p.Number, name);
-    iconWrap.appendChild(img);
-    li.appendChild(iconWrap);
+      // icône
+      const iconWrap = document.createElement('div');
+      iconWrap.className = 'icon';
+      const img = document.createElement('img');
+      setupIcon(img, p.Icon || p.Number, name);
+      iconWrap.appendChild(img);
+      li.appendChild(iconWrap);
 
-    const numBadge = document.createElement('div');
-    numBadge.className = 'dex-num-badge';
-    numBadge.textContent = `#${num}`;
-    li.appendChild(numBadge);
+      const numBadge = document.createElement('div');
+      numBadge.className = 'dex-num-badge';
+      numBadge.textContent = `#${num}`;
+      li.appendChild(numBadge);
 
-    const label = document.createElement('div');
-    label.className = 'dex-label';
-    label.textContent = name;
-    li.appendChild(label);
+      const label = document.createElement('div');
+      label.className = 'dex-label';
+      label.textContent = name;
+      li.appendChild(label);
 
-    li.addEventListener('click', () => openDetail(p));
-    frag.appendChild(li);
-  });
-
-  grid.appendChild(frag);
-
-  // Laisse le browser attacher/calculer, puis applique les styles
-  requestAnimationFrame(() => {
-    grid.querySelectorAll('.dex-badge').forEach(el => {
-      const types = el.dataset.types ? el.dataset.types.split(',') : [];
-      applyBadgeBackground(el, types);
+      li.addEventListener('click', () => openDetail(p));
+      frag.appendChild(li);
     });
-  });
-}
+
+    grid.appendChild(frag);
+
+    // Laisse le browser attacher/calculer, puis applique les styles
+    requestAnimationFrame(() => {
+      grid.querySelectorAll('.dex-badge').forEach(el => {
+        const types = el.dataset.types ? el.dataset.types.split(',') : [];
+        applyBadgeBackground(el, types);
+      });
+    });
+  }
 
 
   // Background mono or bi-color based on types
@@ -166,8 +230,6 @@ function renderGrid(rows) {
       const c2 = getComputedStyle(el).getPropertyValue('--type-color')?.trim() || '#444';
       el.classList.remove(`card-type-${types[1]}`);
 
-
-      console.log({ c1, c2 });
       // Deux moitiés nettes, pas de mélange
       el.style.background = `linear-gradient(90deg, ${c1} 50%, ${c2} 50%)`;
       el.style.borderColor = 'rgba(255,255,255,.15)';
@@ -177,59 +239,164 @@ function renderGrid(rows) {
 
   // Try multiple icon patterns, fall back to generated SVG initials
   function setupIcon(img, num, name) {
-    const tryUrls = CFG.iconPatterns.map(fn => {
-      try { return fn(num, name); } catch { return null; }
-    }).filter(Boolean);
+  const tryUrls = CFG.iconPatterns.map(fn => { try { return fn(num, name); } catch { return null; } }).filter(Boolean);
+  let idx = 0;
 
-    let idx = 0;
-    const fallback = () => {
-      const initials = name.replace(/[^A-Z0-9]/gi, ' ').trim().split(/\s+/).slice(0, 2).map(s => s[0]).join('').toUpperCase() || '?';
-      const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'>\n  <rect width='100%' height='100%' fill='#0b0d12'/>\n  <text x='50%' y='56%' text-anchor='middle' font-family='Inter,Arial,Helvetica,sans-serif' font-size='34' fill='#eaeef5' opacity='0.8'>${initials}</text>\n</svg>`);
-      img.src = `data:image/svg+xml;charset=UTF-8,${svg}`;
-    };
+  const fallback = () => {
+    const initials = name.replace(/[^A-Z0-9]/gi, ' ').trim().split(/\s+/).slice(0,2).map(s => s[0]).join('').toUpperCase() || '?';
+    const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'>\n  <rect width='100%' height='100%' fill='#0b0d12'/>\n  <text x='50%' y='56%' text-anchor='middle' font-family='Inter,Arial,Helvetica,sans-serif' font-size='34' fill='#eaeef5' opacity='0.8'>${initials}</text>\n</svg>`);
+    img.src = `data:image/svg+xml;charset=UTF-8,${svg}`;
+  };
 
-    img.addEventListener('error', () => {
-      if (idx < tryUrls.length) { img.src = tryUrls[idx++]; } else fallback();
-    }, { once: false });
+  img.addEventListener('error', () => { if (idx < tryUrls.length) img.src = tryUrls[idx++]; else fallback(); });
 
-    // kick off
-    if (tryUrls.length) { img.src = tryUrls[idx++]; } else { fallback(); }
-  }
+  img.addEventListener('load', () => {
+    const n = Math.max(img.naturalWidth || 0, img.naturalHeight || 0);
+    if (n > 64) img.classList.add('is-oversize'); // seulement les 96x96 (ou +) seront réduites
+  });
+
+  if (tryUrls.length) img.src = tryUrls[idx++]; else fallback();
+}
+
 
   // Detail renderer (generic recursive pretty-printer + a nicer header)
   function openDetail(p) {
     const body = document.getElementById('dexModalBody');
     const title = document.getElementById('dexModalLabel');
     const num = pad3(p.Number ?? '0');
-    title.textContent = `#${num} — ${p.Species || 'Unknown'}`;
 
+    // header types (reste identique)
     const header = (() => {
-      const types = extractTypes(p);
-      const wraps = types.map(t => `<span class=\"type-pill card-type-${t}\">${t}</span>`).join('');
-      return `<div class=\"mb-3\"><strong>Types:</strong> ${wraps || '<em>—</em>'}</div>`;
+      const types = wrapTypes(extractTypes(p));
+      return `<div class="mb-3">${types || '<em>—</em>'}</div>`;
     })();
+    title.innerHTML = `#${num} — ${p.Species || 'Unknown'}` + header;
 
-    body.innerHTML = header + renderObject(p);
+    // ⬇️ clone profond pour éviter toute mutation du dataset
+    const safe = (typeof structuredClone === 'function')
+      ? structuredClone(p)
+      : JSON.parse(JSON.stringify(p));
+
+    body.innerHTML = renderObject(safe); // ← on rend le clone
     const modal = new bootstrap.Modal(document.getElementById('dexModal'));
     modal.show();
   }
 
   function renderObject(obj, depth = 0) {
+    // null/undefined → nothing
     if (obj == null) return '';
+
+    // Arrays
     if (Array.isArray(obj)) {
-      return `<ul>${obj.map(v => `<li>${(typeof v === 'object') ? renderObject(v, depth + 1) : escapeHtml(String(v))}</li>`).join('')}</ul>`;
+      if (obj.length === 0) return ''; // skip empty array
+      // Render each item; keep only non-empty items
+      const items = obj.map(v => {
+        if (typeof v === 'object') {
+          const inner = renderObject(v, depth + 1);
+          return inner.trim() ? `<li>${inner}</li>` : '';
+        }
+        return `<li>${escapeHtml(String(v))}</li>`;
+      }).filter(Boolean);
+      if (items.length === 0) return ''; // all items were empty
+      return `<ul>${items.join('')}</ul>`;
     }
-    let html = '';
-    for (const [k, v] of Object.entries(obj)) {
-      if (typeof v === 'object' && v !== null) {
-        const h = Math.min(4 + depth, 6);
-        html += `<div class=\"mt-3\"><h${h} class=\"text-muted\">${escapeHtml(k)}</h${h}><div class=\"card accent\" style=\"--accent-color: rgba(255,255,255,.08);\"><div class=\"card-body\">${renderObject(v, depth + 1)}</div></div></div>`;
-      } else {
-        const safe = escapeHtml(String(v ?? ''));
-        html += `<div><strong>${escapeHtml(k)}</strong>: ${safe}</div>`;
+
+    // Objects
+    if (typeof obj === 'object') {
+      // ROOT: build two columns
+      if (depth === 0) {
+        let col1 = '';
+        let col2 = '';
+        for (const [k, v] of Object.entries(obj)) {
+          if (["Species", "Number", "Icon"].includes(k)) continue; // already shown elsewhere
+
+          // --- special cases / skips you control ---
+          if (k === 'Basic Information' && v?.Type && Array.isArray(v.Type)) { // Generic case
+            v.Type = wrapTypes(v.Type);
+          }
+          else if (k === 'Basic Information' && v?.Type) { // Rotom forms
+            v.Type = renderFormType(v.Type);
+          }
+          // Add more hand-written exclusions here as needed
+          // ----------------------------------------
+
+          //console.log({ k, v });
+          // Build block
+          let block = '';
+          if (typeof v === 'object' && v !== null) {
+            const inner = renderObject(v, depth + 1);
+            if (!inner.trim()) continue; // child had nothing → skip whole section
+            const h = Math.min(4 + depth, 6);
+            block = `
+            <div class="mt-3">
+              <h${h} class="text-muted">${k}</h${h}>
+              <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
+                <div class="card-body">
+                  ${inner}
+                </div>
+              </div>
+            </div>`;
+          } else {
+            // scalar
+            block = `
+            <div class="row border-bottom py-1">
+              <div class="col-4 fw-bold">${k}</div>
+              <div class="col-8">${v}</div>
+            </div>`;
+          }
+
+          // Dispatch: left column for “main” sections
+          const leftSections = new Set([
+            "Base Stats", "Basic Information", "Evolution",
+            "Size Information", "Breeding Information", "Diet", "Habitat"
+          ]);
+          (leftSections.has(k) ? (col1 += block) : (col2 += block));
+        }
+
+        // If both columns empty, return empty (lets parent skip the wrapper)
+        const hasAny = (col1.trim() || col2.trim());
+        if (!hasAny) return '';
+
+        return `
+        <div class="row">
+          <div class="col-md-6">${col1}</div>
+          <div class="col-md-6">${col2}</div>
+        </div>`;
       }
+
+      // NESTED (depth > 0): render as a single column, skipping empties
+      let html = '';
+      for (const [k, v] of Object.entries(obj)) {
+        // generic skip of empty arrays/objects
+        if (Array.isArray(v) && v.length === 0) continue;
+        if (v && typeof v === 'object' && !Array.isArray(v) && Object.keys(v).length === 0) continue;
+
+        if (typeof v === 'object' && v !== null) {
+          const inner = renderObject(v, depth + 1);
+          if (!inner.trim()) continue; // child had nothing
+          const h = Math.min(4 + depth, 6);
+          html += `
+          <div class="mt-3">
+            <h${h} class="text-muted">${k}</h${h}>
+            <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
+              <div class="card-body">
+                ${inner}
+              </div>
+            </div>
+          </div>`;
+        } else {
+          html += `
+          <div class="row border-bottom py-1">
+            <div class="col-4 fw-bold">${k}</div>
+            <div class="col-8">${v}</div>
+          </div>`;
+        }
+      }
+      return html;
     }
-    return html;
+
+    // Fallback for primitives (shouldn’t really hit here)
+    return escapeHtml(String(obj));
   }
 
   function escapeHtml(s) {

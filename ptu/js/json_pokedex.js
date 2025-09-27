@@ -6,14 +6,12 @@
       '/ptu/data/pokedex/pokedex_7g.json',
       '/ptu/data/pokedex/pokedex_8g.json',
       '/ptu/data/pokedex/pokedex_8g_hisui.json',
+      '/ptu/data/pokedex/pokedex_9g.json',
     ],
     // Try a few sprite/icon path patterns. Override easily.
     iconPatterns: [
-      num => `/ptu/img/pokemon/icons/${num}.png`,              // e.g. 001.png
-      num => `/ptu/img/pokemon/icons/${num}.webp`,
-      (num, name) => `/ptu/img/pokemon/icons/${slugify(name)}.png`,
-      (num, name) => `/ptu/img/pokemon/icons/${slugify(name)}.webp`,
-    ],
+      (base, num) => `${base}/${num}.png`
+    ]
   };
 
   // Utilities
@@ -81,13 +79,23 @@
   // Derive flat list of distinct types present + robust form handling
   function extractTypes(p) {
     const t = p?.['Basic Information']?.Type;
-    if (Array.isArray(t)) return t;
+    if (Array.isArray(t)) {
+      // cas 1: ["Electric", "Fire"]
+      if (t.length && typeof t[0] === 'string') return t;
+      // cas 2: [ { "Heat Rotom": ["Electric","Fire"], ... } ]
+      if (t.length && typeof t[0] === 'object') {
+        const vals = Object.values(t[0]).flatMap(v => Array.isArray(v) ? v : []);
+        return Array.from(new Set(vals));
+      }
+      return [];
+    }
     if (t && typeof t === 'object') {
       const vals = Object.values(t).flatMap(v => Array.isArray(v) ? v : []);
       return Array.from(new Set(vals));
     }
     return [];
   }
+
 
   function wrapTypes(t) {
     if (!t) return '';
@@ -175,9 +183,9 @@
 
       // icône
       const iconWrap = document.createElement('div');
-      iconWrap.className = 'icon';
+      iconWrap.className = 'icon dark-background';
       const img = document.createElement('img');
-      setupIcon(img, p.Icon || p.Number, name);
+      setupIcon(img, p.Icon || p.Number, name, "icon");
       iconWrap.appendChild(img);
       li.appendChild(iconWrap);
 
@@ -205,7 +213,6 @@
       });
     });
   }
-
 
   // Background mono or bi-color based on types
   function applyBadgeBackground(el, types) {
@@ -236,53 +243,246 @@
     }
   }
 
-
   // Try multiple icon patterns, fall back to generated SVG initials
-  function setupIcon(img, num, name) {
-  const tryUrls = CFG.iconPatterns.map(fn => { try { return fn(num, name); } catch { return null; } }).filter(Boolean);
-  let idx = 0;
+  function setupIcon(img, num, name, mode = "icon") {
+    // mode = "icon" ou "full"
+    const slug = slugify(name || '');
+    const base = mode === "full" ? "/ptu/img/pokemon/full" : "/ptu/img/pokemon/icons";
 
-  const fallback = () => {
-    const initials = name.replace(/[^A-Z0-9]/gi, ' ').trim().split(/\s+/).slice(0,2).map(s => s[0]).join('').toUpperCase() || '?';
-    const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80'>\n  <rect width='100%' height='100%' fill='#0b0d12'/>\n  <text x='50%' y='56%' text-anchor='middle' font-family='Inter,Arial,Helvetica,sans-serif' font-size='34' fill='#eaeef5' opacity='0.8'>${initials}</text>\n</svg>`);
-    img.src = `data:image/svg+xml;charset=UTF-8,${svg}`;
-  };
-
-  img.addEventListener('error', () => { if (idx < tryUrls.length) img.src = tryUrls[idx++]; else fallback(); });
-
-  img.addEventListener('load', () => {
-    const n = Math.max(img.naturalWidth || 0, img.naturalHeight || 0);
-    if (n > 64) img.classList.add('is-oversize'); // seulement les 96x96 (ou +) seront réduites
-  });
-
-  if (tryUrls.length) img.src = tryUrls[idx++]; else fallback();
-}
+    img.src = CFG.iconPatterns.map(fn => fn(base, num, slug));
+  }
 
 
-  // Detail renderer (generic recursive pretty-printer + a nicer header)
+
   function openDetail(p) {
     const body = document.getElementById('dexModalBody');
     const title = document.getElementById('dexModalLabel');
     const num = pad3(p.Number ?? '0');
+    const species = p.Species || 'Unknown';
 
-    // header types (reste identique)
-    const header = (() => {
-      const types = wrapTypes(extractTypes(p));
-      return `<div class="mb-3">${types || '<em>—</em>'}</div>`;
-    })();
-    title.innerHTML = `#${num} — ${p.Species || 'Unknown'}` + header;
+    // Contenu du titre : image + nom/# (ligne 1) + types (ligne 2)
+    const typesHTML = wrapTypes(extractTypes(p)) || '';
 
-    // ⬇️ clone profond pour éviter toute mutation du dataset
+    title.innerHTML = `
+    <div class="d-flex align-items-start gap-3 w-100">
+      <img id="dexModalIcon" class="dex-title-icon rounded dark-background p-1" width="64" height="64" alt="${species}">
+      <div class="flex-grow-1">
+        <div class="d-flex flex-wrap align-items-baseline gap-2">
+          <span class="h5 mb-0">#${num} — ${species}</span>
+        </div>
+        <div class="dex-title-types mt-1">${typesHTML}</div>
+      </div>
+    </div>
+  `;
+
+    // Corps : uniquement le détail (plus de header doublon)
     const safe = (typeof structuredClone === 'function')
       ? structuredClone(p)
       : JSON.parse(JSON.stringify(p));
+    body.innerHTML = renderObject(safe);
 
-    body.innerHTML = renderObject(safe); // ← on rend le clone
+    // Sprite dans le titre
+    const img = document.getElementById('dexModalIcon');
+    if (img) setupIcon(img, p.Icon || p.Number, species, "full");
+
+    // Affiche le modal
     const modal = new bootstrap.Modal(document.getElementById('dexModal'));
     modal.show();
   }
 
+
+
+  // --- helpers ---
+  function renderLevelUpMoves(moves) {
+    if (!Array.isArray(moves) || !moves.length) return '';
+    return `
+    <ul class="list-unstyled mb-0">
+      ${moves.map(m => `
+        <li class="d-flex align-items-center mb-1">
+          <span class="text-muted" style="width:50px;">Lv.${m.Level}</span>
+          <span class="fw-semibold flex-grow-1">${m.Move}</span>
+          ${wrapTypes([m.Type])}
+        </li>
+      `).join('')}
+    </ul>`;
+  }
+  function renderStringList(title, arr) {
+    if (!Array.isArray(arr) || !arr.length) return '';
+    return `
+    <div class="mt-3">
+      <h5 class="text-muted">${title}</h5>
+      <ul class="list-unstyled mb-0">
+        ${arr.join(', ')}
+      </ul>
+    </div>`;
+  }
+
+  function renderCapabilities(raw, depth = 0) {
+    // Normalise toute source vers { rated:[{key,value}], simple:[string] }
+    const parsed = parseCapabilities(raw);
+    if (!parsed.rated.length && !parsed.simple.length) return '';
+
+    const h = Math.min(4 + depth, 6);
+
+    // Cartes "numériques"
+    const rated = parsed.rated.map(({ key, value }) => {
+      return `
+      <div class="cap-item">
+        <div class="cap-head">
+          <span class="cap-key">${key}</span>
+        </div>
+        <div class="cap-val">${value}</div>
+      </div>
+    `;
+    }).join('');
+
+    // Chips "simples"
+    const simple = parsed.simple.map(k => {
+      return `<span class="cap-chip"><span>${k}</span></span>`;
+    }).join('');
+
+    return `
+    <div class="mt-3">
+      <h${h} class="text-muted">Capabilities</h${h}>
+      <div class="card accent">
+        <div class="card-body">
+          ${parsed.rated.length ? `<div class="cap-grid">${rated}</div>` : ''}
+          ${parsed.simple.length ? `<div class="cap-chips">${simple}</div>` : ''}
+        </div>
+      </div>
+    </div>
+  `;
+  }
+
+  // Supporte Array<string> | Object | mix de "Overland 5" et "Darkvision"
+  function parseCapabilities(raw) {
+    const rated = [];
+    const simple = [];
+
+    const pushPair = (k, v) => {
+      const key = String(k).trim();
+      const val = Number(v);
+      if (key && Number.isFinite(val)) rated.push({ key: key, value: val });
+      else if (key) simple.push(key);
+    };
+
+    const fromString = (s) => {
+      const str = String(s).trim();
+      if (!str) return;
+      // "Overland 5" / "Sky 2" / "Long Jump 2" / "Swim 3" …
+      const m = str.match(/^(.+?)\s+(-?\d+(?:\.\d+)?)\s*$/);
+      if (m) pushPair(m[1], m[2]);
+      else simple.push(str);
+    };
+
+    if (Array.isArray(raw)) {
+      raw.forEach(item => {
+        if (item == null) return;
+        if (typeof item === 'string') fromString(item);
+        else if (typeof item === 'object') {
+          Object.entries(item).forEach(([k, v]) => pushPair(k, v));
+        } else fromString(item);
+      });
+    } else if (typeof raw === 'object' && raw) {
+      Object.entries(raw).forEach(([k, v]) => {
+        if (Array.isArray(v)) v.forEach(x => (typeof x === 'string' ? fromString(`${k} ${x}`) : pushPair(k, x)));
+        else if (typeof v === 'string') fromString(`${k} ${v}`);
+        else pushPair(k, v);
+      });
+    } else if (raw != null) {
+      fromString(raw);
+    }
+
+    // Regrouper les doublons (somme si mêmes clés numériques)
+    const acc = new Map();
+    rated.forEach(({ key, value }) => acc.set(key, (acc.get(key) ?? 0) + value));
+    const ratedMerged = [...acc.entries()].map(([key, value]) => ({ key, value }));
+
+    // Nettoyage chips
+    const simpleClean = [...new Set(simple.filter(Boolean))];
+
+    return { rated: ratedMerged, simple: simpleClean };
+  }
+
+  function renderBaseStats(stats, depth = 0) {
+    const order = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
+    const total = order.reduce((s, k) => s + (stats?.[k] ?? 0), 0);
+
+    // Ordre voulu en grille 2 colonnes : 1|4, 2|5, 3|6
+    const seq = [order[0], order[3], order[1], order[4], order[2], order[5]];
+
+    const items = seq.map(k => `
+    <div class="bs-item d-flex align-items-center justify-content-between">
+      <span class="bs-key">${k}</span>
+      <span class="bs-val">${stats?.[k] ?? 0}</span>
+    </div>
+  `).join("");
+
+    const h = Math.min(4 + depth, 6);
+    return `
+    <div class="mt-3">
+      <h${h} class="text-muted">Base Stats</h${h}>
+      <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
+        <div class="card-body">
+          <div class="bs-grid">
+            ${items}
+            <div class="bs-item d-flex align-items-center justify-content-between bs-total">
+              <span class="bs-key">Total</span>
+              <span class="bs-val">${total}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+  }
+
+  function renderBattleOnlyForms(forms, base) {
+    if (!forms || typeof forms !== "object") return "";
+    const pNum = base?.Number ?? "", pName = base?.Species ?? "Unknown";
+
+    return Object.entries(forms).map(([label, f]) => {
+      const src = (() => {
+        const t = document.createElement("img");
+        setupIcon(t, f?.Icon ?? pNum, `${pName} — ${label}`, "full");
+        return t.src;
+      })();
+
+      const types = wrapTypes(f?.Type || []);
+      const line = k => f?.[k] ? `<div class="small text-muted">${k}: <span class="text-body">${Array.isArray(f[k]) ? f[k].join(", ")
+          : (typeof f[k] === "object" ? Object.keys(f[k]).join(", ") : String(f[k]))
+        }</span></div>` : "";
+
+      const stats = f?.Stats ? Object.entries(f.Stats)
+        .map(([k, v]) => `<div class="d-flex justify-content-between small border-bottom">
+        <span class="text-muted">${k}</span><span class="fw-semibold">${v}</span>
+      </div>`).join("") : "";
+
+      return `
+      <div class="card accent w-100 mb-2"><div class="card-body">
+        <div class="d-flex align-items-start gap-3">
+          <div class="rounded dark-background p-1">
+            <img class="dex-title-icon" alt="${pName} — ${label}" src="${src}">
+          </div>
+          <div class="flex-grow-1">
+            <div class="d-flex flex-wrap align-items-baseline gap-2">
+              <span class="fw-semibold">${label}</span><span class="ms-1">${types}</span>
+            </div>
+            ${line("Ability")}${line("Adv Ability 1")}${line("Adv Ability 2")}${line("Capabilities")}
+            ${stats ? `<div class="mt-2">${stats}</div>` : ""}
+          </div>
+        </div>
+      </div></div>`;
+    }).join("");
+  }
+
+
   function renderObject(obj, depth = 0) {
+    // Dispatch: left column for “main” sections
+    const leftSections = new Set([
+      "Base Stats", "Basic Information", "Evolution", "Other Information", "Battle-Only Forms"
+    ]);
+
     // null/undefined → nothing
     if (obj == null) return '';
 
@@ -311,11 +511,82 @@
           if (["Species", "Number", "Icon"].includes(k)) continue; // already shown elsewhere
 
           // --- special cases / skips you control ---
-          if (k === 'Basic Information' && v?.Type && Array.isArray(v.Type)) { // Generic case
-            v.Type = wrapTypes(v.Type);
+          // Render Type
+          if (k === 'Basic Information' && v?.Type) {
+            const t = v.Type;
+            if (Array.isArray(t)) {
+              if (t.length && typeof t[0] === 'string') {
+                v.Type = wrapTypes(t); // ex: ["Electric","Fire"]
+              } else if (t.length && typeof t[0] === 'object') {
+                v.Type = renderFormType(t[0]); // ex: [ { Form: [types], ... } ]
+              } else {
+                v.Type = '';
+              }
+            } else {
+              v.Type = renderFormType(t); // compat: objet simple { Form: [...] }
+            }
           }
-          else if (k === 'Basic Information' && v?.Type) { // Rotom forms
-            v.Type = renderFormType(v.Type);
+
+          // --- Base Stats en grille 2x3 ---
+          if (k === "Base Stats" && v && typeof v === "object") {
+            const block = renderBaseStats(v, depth);
+            (leftSections.has(k) ? (col1 += block) : (col2 += block));
+            continue;
+          }
+
+          // --- Capabilities (layout spécial) ---
+          if (k === "Capabilities" && v) {
+            const block = renderCapabilities(v, depth);
+            if (block.trim()) {
+              (leftSections.has(k) ? (col1 += block) : (col2 += block));
+            }
+            continue;
+          }
+
+          // Render Level Up Move List
+          if (k === "Moves" && v) {
+            let blocks = '';
+            blocks += v["Level Up Move List"] ? `
+            <div class="mt-3">
+              <h5 class="text-muted">Level-Up Moves</h5>
+              ${renderLevelUpMoves(v["Level Up Move List"])}
+            </div>` : '';
+            blocks += renderStringList('TM/HM Moves', v["TM/HM Move List"]);
+            blocks += renderStringList('Egg Moves', v["Egg Move List"]);
+            blocks += renderStringList('Tutor Moves', v["Tutor Move List"]);
+            blocks += renderStringList('TM/Tutor Moves', v["TM/Tutor Moves List"]);
+
+            if (blocks.trim()) {
+              const h = Math.min(4 + depth, 6);
+              const card = `
+              <div class="mt-3">
+                <h${h} class="text-muted">Moves</h${h}>
+                <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
+                  <div class="card-body">${blocks}</div>
+                </div>
+              </div>`;
+              (leftSections.has(k) ? (col1 += card) : (col2 += card));
+            }
+            continue;
+          }
+
+          // --- Battle-Only Forms : micro-fiches pleine largeur ---
+          if (k === "Battle-Only Forms" && v && typeof v === "object") {
+            const html = renderBattleOnlyForms(v, obj);
+            if (html.trim()) {
+              const h = Math.min(4 + depth, 6);
+              const card = `
+              <div class="mt-3">
+                <h${h} class="text-muted">Battle-Only Forms</h${h}>
+                <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
+                  <div class="card-body">
+                    ${html}
+                  </div>
+                </div>
+              </div>`;
+              (leftSections.has(k) ? (col1 += card) : (col2 += card));
+            }
+            continue;
           }
           // Add more hand-written exclusions here as needed
           // ----------------------------------------
@@ -340,16 +611,11 @@
             // scalar
             block = `
             <div class="row border-bottom py-1">
-              <div class="col-4 fw-bold">${k}</div>
+              <div class="col-4 fw-semibold">${k}</div>
               <div class="col-8">${v}</div>
             </div>`;
           }
 
-          // Dispatch: left column for “main” sections
-          const leftSections = new Set([
-            "Base Stats", "Basic Information", "Evolution",
-            "Size Information", "Breeding Information", "Diet", "Habitat"
-          ]);
           (leftSections.has(k) ? (col1 += block) : (col2 += block));
         }
 
@@ -387,7 +653,7 @@
         } else {
           html += `
           <div class="row border-bottom py-1">
-            <div class="col-4 fw-bold">${k}</div>
+            <div class="col-4 fw-semibold">${k}</div>
             <div class="col-8">${v}</div>
           </div>`;
         }

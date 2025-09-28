@@ -243,7 +243,6 @@
     }
   }
 
-  // Try multiple icon patterns, fall back to generated SVG initials
   function setupIcon(img, num, name, mode = "icon") {
     // mode = "icon" ou "full"
     const slug = slugify(name || '');
@@ -404,38 +403,58 @@
     return { rated: ratedMerged, simple: simpleClean };
   }
 
-  function renderBaseStats(stats, depth = 0) {
-    const order = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
-    const total = order.reduce((s, k) => s + (stats?.[k] ?? 0), 0);
+function renderBaseStats(stats, depth = 0) {
+  const order = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
+  const total = order.reduce((s, k) => s + (stats?.[k] ?? 0), 0);
 
-    // Ordre voulu en grille 2 colonnes : 1|4, 2|5, 3|6
-    const seq = [order[0], order[3], order[1], order[4], order[2], order[5]];
-
-    const items = seq.map(k => `
-    <div class="bs-item d-flex align-items-center justify-content-between">
+  const rows = order.map(k => `
+    <li class="list-group-item d-flex justify-content-between align-items-center">
       <span class="bs-key">${k}</span>
       <span class="bs-val">${stats?.[k] ?? 0}</span>
-    </div>
+    </li>
   `).join("");
 
-    const h = Math.min(4 + depth, 6);
-    return `
+  const h = Math.min(4 + depth, 6);
+  return `
     <div class="mt-3">
       <h${h} class="text-muted">Base Stats</h${h}>
-      <div class="card accent" style="--accent-color: rgba(255,255,255,.08);">
-        <div class="card-body">
-          <div class="bs-grid">
-            ${items}
-            <div class="bs-item d-flex align-items-center justify-content-between bs-total">
-              <span class="bs-key">Total</span>
-              <span class="bs-val">${total}</span>
-            </div>
-          </div>
-        </div>
+      <div class="card accent skills-card bs-card">
+        <ul class="list-group list-group-flush skills-list">
+          ${rows}
+          <li class="list-group-item d-flex justify-content-between align-items-center bs-total">
+            <span class="bs-key">Total</span>
+            <span class="bs-val fw-semibold">${total}</span>
+          </li>
+        </ul>
       </div>
     </div>
   `;
-  }
+}
+
+function renderSkills(skills, depth = 0) {
+  // skills est supposé être un objet { "Acrobatics": 2, "Combat": 3, ... }
+
+  const entries = Object.entries(skills || {});
+  const rows = entries.map(([k, v]) => `
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span class="skill-key">${k}</span>
+      <span class="skill-val">${v}</span>
+    </li>
+  `).join("");
+
+  const h = Math.min(4 + depth, 6);
+  return `
+    <div class="mt-3">
+      <h${h} class="text-muted">Skills</h${h}>
+      <div class="card accent skills-card">
+        <ul class="list-group list-group-flush skills-list">
+          ${rows}
+        </ul>
+      </div>
+    </div>
+  `;
+}
+
 
   function renderBattleOnlyForms(forms, base) {
     if (!forms || typeof forms !== "object") return "";
@@ -444,9 +463,11 @@
     return Object.entries(forms).map(([label, f]) => {
       const src = (() => {
         const t = document.createElement("img");
+        console.log(f);
         setupIcon(t, f?.Icon ?? pNum, `${pName} — ${label}`, "full");
         return t.src;
       })();
+
 
       const types = wrapTypes(f?.Type || []);
       const line = k => f?.[k] ? `<div class="small text-muted">${k}: <span class="text-body">${Array.isArray(f[k]) ? f[k].join(", ")
@@ -462,7 +483,7 @@
       <div class="card accent w-100 mb-2"><div class="card-body">
         <div class="d-flex align-items-start gap-3">
           <div class="rounded dark-background p-1">
-            <img class="dex-title-icon" alt="${pName} — ${label}" src="${src}">
+            <img class="dex-title-icon" src="${src}">
           </div>
           <div class="flex-grow-1">
             <div class="d-flex flex-wrap align-items-baseline gap-2">
@@ -542,6 +563,14 @@
             }
             continue;
           }
+
+          // --- Skills ---
+          if (k === "Skills" && v && typeof v === "object") {
+            const block = renderSkills(v, depth);
+            (leftSections.has(k) ? (col1 += block) : (col2 += block));
+            continue;
+          }
+
 
           // Render Level Up Move List
           if (k === "Moves" && v) {

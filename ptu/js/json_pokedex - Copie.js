@@ -1,43 +1,18 @@
 (function () {
   const CFG = {
-    // NEW — libellés → URL (tu peux en ajouter/retirer)
-    sources: {
-      "Core (Gen 1-6)":      "/ptu/data/pokedex/pokedex_core.json",
-      "AlolaDex (Gen 7)":  "/ptu/data/pokedex/pokedex_7g.json",
-      "GalarDex (Gen 8)":  "/ptu/data/pokedex/pokedex_8g.json",
-      "HisuiDex (Gen 8.5)":  "/ptu/data/pokedex/pokedex_8g_hisui.json",
-      "PaldeaDex (Gen 9)": "/ptu/data/pokedex/pokedex_9g.json",
-    },
-    // NEW — patterns d’icônes inchangés
+    // Primary JSON location (mirror your moves.html convention)
+    jsonUrls: [
+      '/ptu/data/pokedex/pokedex_core.json',
+      '/ptu/data/pokedex/pokedex_7g.json',
+      '/ptu/data/pokedex/pokedex_8g.json',
+      '/ptu/data/pokedex/pokedex_8g_hisui.json',
+      '/ptu/data/pokedex/pokedex_9g.json',
+    ],
+    // Try a few sprite/icon path patterns. Override easily.
     iconPatterns: [
       (base, num) => `${base}/${num}.png`
     ]
   };
-
-    // NEW — état UI/cache
-  const selectedSources = new Set(Object.keys(CFG.sources));   // par défaut: tout coché
-  const _jsonCache = new Map(); // url -> Promise(data[])
-
-  let dexModalInstance = null;
-
-  function getDexModalInstance() {
-    const el = document.getElementById('dexModal');
-    if (!el) return null;
-    // Réutilise l’instance existante si présente
-    dexModalInstance = bootstrap.Modal.getOrCreateInstance(el, {
-      backdrop: true,
-      focus: true,
-      keyboard: true
-    });
-    return dexModalInstance;
-  }
-
-
-  function isDexModalShown() {
-    const el = document.getElementById('dexModal');
-    return !!el && el.classList.contains('show');
-  }
-
 
   // Utilities
   const pad3 = n => String(n).padStart(3, '0');
@@ -46,106 +21,61 @@
 
   // ===== Types helpers (handle array OR per-form object) =====
   function debounce(fn, delay = 150) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); } }
-  const jsStr = s => JSON.stringify(String(s ?? ''));
-
-    // NEW — charge 1 source avec cache
-  async function fetchSource(url) {
-    if (_jsonCache.has(url)) return _jsonCache.get(url);
-    const prom = fetch(url, { cache: "no-store" })
-      .then(r => { if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`); return r.json(); })
-      .then(data => Array.isArray(data) ? data : (Array.isArray(data?.Pokedex) ? data.Pokedex : []))
-      .catch(e => { console.warn("Load error", url, e); return []; });
-    _jsonCache.set(url, prom);
-    return prom;
-  }
-
 
   // Load JSON with graceful fallbacks
   async function loadPokedex() {
-    const urls = [...selectedSources].map(lbl => CFG.sources[lbl]).filter(Boolean);
-    const arrays = await Promise.all(urls.map(fetchSource));
+    // 1) Tenter de charger toutes les URLs en parallèle
+    const results = await Promise.allSettled(
+      CFG.jsonUrls.map(u =>
+        fetch(u, { cache: 'no-store' }).then(r => {
+          if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`);
+          return r.json();
+        })
+      )
+    );
 
+    // 2) Récupérer toutes les arrays trouvées, garder les erreurs pour debug
+    const arrays = [];
+    const errors = [];
+    results.forEach((res, i) => {
+      if (res.status === 'fulfilled') {
+        const data = res.value;
+        if (Array.isArray(data)) {
+          arrays.push(data);
+        } else if (data && Array.isArray(data.Pokedex)) {
+          // au cas où la structure serait { Pokedex: [...] }
+          arrays.push(data.Pokedex);
+        } else {
+          console.warn(`JSON pas au format array pour ${CFG.jsonUrls[i]}`, data);
+        }
+      } else {
+        errors.push(`${CFG.jsonUrls[i]} → ${res.reason}`);
+      }
+    });
+
+    // 3) Fusion + dédoublonnage (par Number + Species insensible à la casse)
     const merged = arrays.flat();
     const byKey = new Map();
     for (const p of merged) {
       const key = `${p.Number ?? ''}::${String(p.Species ?? '').toLowerCase()}`;
-      byKey.set(key, { ...(byKey.get(key) || {}), ...p });
+      if (!byKey.has(key)) {
+        byKey.set(key, p);
+      } else {
+        // merge superficiel : les champs du dernier JSON écrasent les précédents
+        byKey.set(key, { ...byKey.get(key), ...p });
+      }
     }
+
     const out = Array.from(byKey.values());
-    if (!out.length) throw new Error("Aucune entrée trouvée pour les sources sélectionnées.");
+    if (out.length === 0) {
+      throw new Error(
+        'Impossible de charger le Pokédex depuis les URLs configurées.\n' +
+        (errors.length ? `Détails:\n- ${errors.join('\n- ')}` : '')
+      );
+    }
+
     return out;
   }
-
-  
-  // NEW — bloc “Sources” au-dessus des filtres (même esprit que Edges)
-  function buildSourceMenu(onChange) {
-    const sb = document.getElementById('sidebar');
-    if (!sb) return;
-    // Conteneur dédié (on le régénère, puis on laissera buildTypeSidebar ajouter ses filtres en dessous)
-    const wrap = document.createElement('div');
-    wrap.className = 'mb-3';
-    wrap.innerHTML = `<label class="form-label">Sources :</label>`;
-    Object.keys(CFG.sources).forEach(label => {
-      const id = `src-${label}`;
-      const checked = selectedSources.has(label) ? 'checked' : '';
-      wrap.insertAdjacentHTML('beforeend', `
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="${id}" ${checked}>
-          <label class="form-check-label" for="${id}">${label}</label>
-        </div>`);
-    });
-
-    // Si un bloc “sources” existe déjà, remplace-le ; sinon, insère en haut
-    const existing = sb.querySelector('[data-role="source-menu"]');
-    if (existing) existing.remove();
-    wrap.setAttribute('data-role', 'source-menu');
-    sb.prepend(wrap);
-
-    wrap.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-      cb.addEventListener('change', async () => {
-        // maj état
-        selectedSources.clear();
-        wrap.querySelectorAll('input:checked').forEach(x => {
-          const lbl = x.nextElementSibling?.innerText?.trim();
-          if (lbl) selectedSources.add(lbl);
-        });
-
-        // recharge les données puis reconstruit filtres + grid
-        try {
-          const data = await loadPokedex();
-          window.__POKEDEX = data;
-          // reconstruit les filtres de types en dessous (en gardant layout)
-          buildTypeSidebar(data, () => renderGrid(filterRows(data)));
-          renderGrid(filterRows(data));
-        } catch (e) {
-          console.error(e);
-          document.getElementById('dex-grid').innerHTML =
-            `<div class="alert alert-warning">Aucune donnée pour les sources sélectionnées.</div>`;
-        }
-        if (typeof onChange === 'function') onChange();
-      });
-    });
-  }
-
-  // Cherche un Pokémon par son nom complet et ouvre la modale
-  async function openModalBySpecies(speciesName) {
-    // Charger le Pokédex si ce n’est pas déjà fait
-    const data = await loadPokedex();
-
-    // Trouver l’objet correspondant
-    const found = data.find(p =>
-      (p.Species || '').toLowerCase() === speciesName.toLowerCase()
-    );
-
-    if (found) {
-      openDetail(found);
-    } else {
-      alert(`Aucun Pokémon trouvé avec le nom "${speciesName}"`);
-    }
-  }
-
-
-
   // Derive flat list of distinct types present + robust form handling
   function extractTypes(p) {
     const t = p?.['Basic Information']?.Type;
@@ -193,22 +123,12 @@
   }
 
   // Sidebar builder (mirrors your moves sidebar UX)
-  // Seule petite adaptation: buildTypeSidebar ne doit plus effacer tout le #sidebar
-  // mais compléter sous le bloc “Sources”. On remplace son début :
   function buildTypeSidebar(all, onChange) {
     const sidebar = document.getElementById('sidebar');
     if (!sidebar) return;
-
-    // NEW — supprime juste l’ancien bloc types s’il existe
-    const oldTypes = sidebar.querySelector('[data-role="type-filters"]');
-    if (oldTypes) oldTypes.remove();
-
-    const typesBox = document.createElement('div');
-    typesBox.setAttribute('data-role', 'type-filters');
     const types = collectTypes(all);
-    typesBox.innerHTML = `
-      <label class="form-label mt-2">Types :</label>
-      <div class="mb-2">
+    sidebar.innerHTML = `
+      <div class="mb-3">
         <input id="sidebar-search" class="form-control form-control-sm mb-2" placeholder="Filter types..."/>
         <button id="toggle-all-types" class="btn btn-sm btn-primary w-100 mb-2">Select/Deselect all</button>
       </div>
@@ -221,27 +141,21 @@
         `).join('')}
       </div>`;
 
-    // NEW — insère sous le menu des sources
-    const srcMenu = sidebar.querySelector('[data-role="source-menu"]');
-    if (srcMenu) srcMenu.insertAdjacentElement('afterend', typesBox);
-    else sidebar.prepend(typesBox);
-
-    // (le reste de la fonction inchangé)
-    typesBox.querySelectorAll("#type-filters input[type='checkbox']").forEach(input => {
+    sidebar.querySelectorAll("#type-filters input[type='checkbox']").forEach(input => {
       input.addEventListener('change', onChange);
     });
 
     const sb = document.getElementById('sidebar-search');
     if (sb) sb.addEventListener('input', debounce(() => {
       const q = sb.value.toLowerCase();
-      typesBox.querySelectorAll('#type-filters label').forEach(label => {
+      sidebar.querySelectorAll('#type-filters label').forEach(label => {
         label.style.display = label.textContent.toLowerCase().includes(q) ? '' : 'none';
       });
     }, 150));
 
     const toggle = document.getElementById('toggle-all-types');
     if (toggle) toggle.addEventListener('click', () => {
-      const boxes = typesBox.querySelectorAll("#type-filters input[type='checkbox']");
+      const boxes = sidebar.querySelectorAll("#type-filters input[type='checkbox']");
       const allChecked = Array.from(boxes).every(cb => cb.checked);
       boxes.forEach(cb => cb.checked = !allChecked);
       onChange();
@@ -342,9 +256,10 @@
   function openDetail(p) {
     const body = document.getElementById('dexModalBody');
     const title = document.getElementById('dexModalLabel');
-    const num = String(p.Number ?? '0').padStart(3, '0');
+    const num = pad3(p.Number ?? '0');
     const species = p.Species || 'Unknown';
 
+    // Contenu du titre : image + nom/# (ligne 1) + types (ligne 2)
     const typesHTML = wrapTypes(extractTypes(p)) || '';
 
     title.innerHTML = `
@@ -359,23 +274,20 @@
     </div>
   `;
 
+    // Corps : uniquement le détail (plus de header doublon)
     const safe = (typeof structuredClone === 'function')
       ? structuredClone(p)
       : JSON.parse(JSON.stringify(p));
     body.innerHTML = renderObject(safe);
 
+    // Sprite dans le titre
     const img = document.getElementById('dexModalIcon');
     if (img) setupIcon(img, p.Icon || p.Number, species, "full");
 
-    // 👉 Réutiliser l’instance, et ne montrer que si fermée
-    const inst = getDexModalInstance();
-    if (inst && !isDexModalShown()) {
-      inst.show();
-    } else if (inst) {
-      inst.handleUpdate(); // ajuste le scroll/position, sans recréer de backdrop
-    }
+    // Affiche le modal
+    const modal = new bootstrap.Modal(document.getElementById('dexModal'));
+    modal.show();
   }
-
 
 
 
@@ -441,6 +353,7 @@
   `;
   }
 
+  // Supporte Array<string> | Object | mix de "Overland 5" et "Darkvision"
   function parseCapabilities(raw) {
     const rated = [];
     const simple = [];
@@ -489,89 +402,48 @@
 
     return { rated: ratedMerged, simple: simpleClean };
   }
-  function renderBaseStats(stats, depth = 0) {
-    const order = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
 
-    // Cas simple
-    if (!("Small" in stats)) {
-      const total = order.reduce((s, k) => s + (stats?.[k] ?? 0), 0);
-      const rows = order.map(k => `
-      <tr>
-        <td class="text-start">${k}</td>
-        <td class="text-end">${stats?.[k] ?? 0}</td>
-      </tr>
-    `).join("");
-      return `
-      <div class="mt-3">
-        <h${Math.min(4 + depth, 6)} class="text-muted">Base Stats</h${Math.min(4 + depth, 6)}>
-        <table class="table table-sm align-middle">
-          <tbody>
-            ${rows}
-            <tr class="fw-semibold">
-              <td class="text-start">Total</td>
-              <td class="text-end">${total}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    `;
-    }
+function renderBaseStats(stats, depth = 0) {
+  const order = ["HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed"];
+  const total = order.reduce((s, k) => s + (stats?.[k] ?? 0), 0);
 
-    // Cas multi-tailles
-    const forms = {
-      "Small": "S",
-      "Average": "M",
-      "Large": "L",
-      "Super Size": "XL"
-    };
-    const totals = {};
-    Object.keys(forms).forEach(f => {
-      totals[f] = order.reduce((s, k) => s + (stats[f]?.[k] ?? 0), 0);
-    });
-
-    const rows = order.map(k => `
-    <tr>
-      <td class="text-start">${k}</td>
-      ${Object.keys(forms).map(f => `<td class="text-center">${stats[f]?.[k] ?? 0}</td>`).join("")}
-    </tr>
+  const rows = order.map(k => `
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <span class="bs-key">${k}</span>
+      <span class="bs-val">${stats?.[k] ?? 0}</span>
+    </li>
   `).join("");
 
-    return `
+  const h = Math.min(4 + depth, 6);
+  return `
     <div class="mt-3">
-      <h${Math.min(4 + depth, 6)} class="text-muted">Base Stats</h${Math.min(4 + depth, 6)}>
-      <table class="table table-sm align-middle">
-        <thead>
-          <tr>
-            <th class="text-start"></th>
-            ${Object.values(forms).map(lbl => `<th class="text-center">${lbl}</th>`).join("")}
-          </tr>
-        </thead>
-        <tbody>
+      <h${h} class="text-muted">Base Stats</h${h}>
+      <div class="card accent skills-card bs-card">
+        <ul class="list-group list-group-flush skills-list">
           ${rows}
-          <tr class="fw-semibold">
-            <td class="text-start">Total</td>
-            ${Object.keys(forms).map(f => `<td class="text-center">${totals[f]}</td>`).join("")}
-          </tr>
-        </tbody>
-      </table>
+          <li class="list-group-item d-flex justify-content-between align-items-center bs-total">
+            <span class="bs-key">Total</span>
+            <span class="bs-val fw-semibold">${total}</span>
+          </li>
+        </ul>
+      </div>
     </div>
   `;
-  }
+}
 
+function renderSkills(skills, depth = 0) {
+  // skills est supposé être un objet { "Acrobatics": 2, "Combat": 3, ... }
 
-  function renderSkills(skills, depth = 0) {
-    // skills est supposé être un objet { "Acrobatics": 2, "Combat": 3, ... }
-
-    const entries = Object.entries(skills || {});
-    const rows = entries.map(([k, v]) => `
+  const entries = Object.entries(skills || {});
+  const rows = entries.map(([k, v]) => `
     <li class="list-group-item d-flex justify-content-between align-items-center">
       <span class="skill-key">${k}</span>
       <span class="skill-val">${v}</span>
     </li>
   `).join("");
 
-    const h = Math.min(4 + depth, 6);
-    return `
+  const h = Math.min(4 + depth, 6);
+  return `
     <div class="mt-3">
       <h${h} class="text-muted">Skills</h${h}>
       <div class="card accent skills-card">
@@ -581,33 +453,7 @@
       </div>
     </div>
   `;
-  }
-  function renderEvolutionList(evos, depth = 0) {
-    // evos attendu: [{ Stade, Species, Condition }]
-    if (!Array.isArray(evos) || evos.length === 0) return '';
-
-    const items = evos.map(e => {
-      const stade = e?.Stade ?? '';
-      const species = e?.Species ?? '';
-      const cond = (e?.Condition ?? '').trim();
-      const label = `${stade} - <a href="#" onclick='openModalBySpecies(${jsStr(species)}); return false;'>${escapeHtml(species)}</a>${cond ? ` (${escapeHtml(cond)})` : ''}`;
-      return `
-      <li class="list-group-item d-flex align-items-center">
-        <span class="flex-grow-1">${label}</span>
-      </li>`;
-    }).join('');
-
-    const h = Math.min(4 + depth, 6);
-    return `
-    <div class="mt-3">
-      <h${h} class="text-muted">Evolution</h${h}>
-      <div class="card accent skills-card">
-        <ul class="list-group list-group-flush skills-list">
-          ${items}
-        </ul>
-      </div>
-    </div>`;
-  }
+}
 
 
   function renderBattleOnlyForms(forms, base) {
@@ -625,7 +471,7 @@
 
       const types = wrapTypes(f?.Type || []);
       const line = k => f?.[k] ? `<div class="small text-muted">${k}: <span class="text-body">${Array.isArray(f[k]) ? f[k].join(", ")
-        : (typeof f[k] === "object" ? Object.keys(f[k]).join(", ") : String(f[k]))
+          : (typeof f[k] === "object" ? Object.keys(f[k]).join(", ") : String(f[k]))
         }</span></div>` : "";
 
       const stats = f?.Stats ? Object.entries(f.Stats)
@@ -705,13 +551,6 @@
           // --- Base Stats en grille 2x3 ---
           if (k === "Base Stats" && v && typeof v === "object") {
             const block = renderBaseStats(v, depth);
-            (leftSections.has(k) ? (col1 += block) : (col2 += block));
-            continue;
-          }
-
-          // --- Evolution -> liste cliquable ---
-          if (k === "Evolution" && Array.isArray(v)) {
-            const block = renderEvolutionList(v, depth);
             (leftSections.has(k) ? (col1 += block) : (col2 += block));
             continue;
           }
@@ -886,55 +725,18 @@
   }
 
   // Boot
+  document.addEventListener('DOMContentLoaded', async () => {
+    try {
+      const data = await loadPokedex(); // Expecting an array of objects
+      if (!Array.isArray(data) || !data.length) throw new Error('pokedex_core.json is empty or not an array.');
 
-    document.addEventListener("DOMContentLoaded", async () => {
-    // NEW — construit le menu des sources *avant* de charger
-    buildSourceMenu();
-
-    const data = await loadPokedex();
-    window.__POKEDEX = data;
-
-    window.openModalBySpecies = (speciesName) => {
-      const found = (window.__POKEDEX || []).find(
-        p => String(p.Species || '').toLowerCase() === String(speciesName || '').toLowerCase()
-      );
-      if (found) { openDetail(found); }
-    };
-
-    const params = new URLSearchParams(window.location.search);
-    const s = params.get("species");
-    if (s) openModalBySpecies(s);
-
-    buildTypeSidebar(data, () => renderGrid(filterRows(data)));
-    wireSearch(data);
-    renderGrid(filterRows(data));
-  });
-  document.addEventListener('DOMContentLoaded', () => {
-    const modalEl = document.getElementById('dexModal');
-    if (modalEl) {
-      modalEl.addEventListener('hidden.bs.modal', () => {
-        // Si jamais Bootstrap ne l’a pas retiré (plugins, CSS custom, etc.)
-        document.querySelectorAll('.modal-backdrop').forEach(b => b.remove());
-        document.body.classList.remove('modal-open');
-        document.body.style.removeProperty('paddingRight');
-      });
+      buildTypeSidebar(data, () => renderGrid(filterRows(data)));
+      wireSearch(data);
+      renderGrid(filterRows(data));
+    } catch (err) {
+      console.error(err);
+      const grid = document.getElementById('dex-grid');
+      grid.innerHTML = `<div class=\"alert alert-danger\">${escapeHtml(err.message)}</div>`;
     }
-  });
-
-  document.addEventListener('click', (e) => {
-    const a = e.target.closest('a[data-dex-number], a[data-dex-species]');
-    if (!a) return;
-
-    e.preventDefault();
-    const number = a.getAttribute('data-dex-number');
-    const species = a.getAttribute('data-dex-species');
-
-    // Récupère ton Pokémon dans tes données (à adapter selon où tu stockes 'data')
-    // Exemple si tu as gardé 'data' dans une variable globale/module :
-    const target = window.__pokedexData?.find(p =>
-      (number && String(p.Number) === String(number)) ||
-      (species && String(p.Species).toLowerCase() === String(species).toLowerCase())
-    );
-    if (target) openDetail(target); // ← met à jour la modale sans réempiler de backdrop
   });
 })();

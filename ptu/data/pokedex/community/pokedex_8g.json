@@ -29,12 +29,14 @@
       {
         "Stade": 2,
         "Species": "Thwackey",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Rillaboom",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -176,12 +178,14 @@
       {
         "Stade": 2,
         "Species": "Thwackey",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Rillaboom",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -312,12 +316,14 @@
       {
         "Stade": 2,
         "Species": "Thwackey",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Rillaboom",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -462,12 +468,14 @@
       {
         "Stade": 2,
         "Species": "Raboot",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Cinderace",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -608,12 +616,14 @@
       {
         "Stade": 2,
         "Species": "Raboot",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Cinderace",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -739,12 +749,14 @@
       {
         "Stade": 2,
         "Species": "Raboot",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Cinderace",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -885,12 +897,14 @@
       {
         "Stade": 2,
         "Species": "Drizzile",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Inteleon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1031,12 +1045,14 @@
       {
         "Stade": 2,
         "Species": "Drizzile",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Inteleon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1161,12 +1177,14 @@
       {
         "Stade": 2,
         "Species": "Drizzile",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Inteleon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1305,7 +1323,8 @@
       {
         "Stade": 2,
         "Species": "Greedent",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -1453,7 +1472,8 @@
       {
         "Stade": 2,
         "Species": "Greedent",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -1593,12 +1613,14 @@
       {
         "Stade": 2,
         "Species": "Corvisquire",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Corviknight",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1736,12 +1758,14 @@
       {
         "Stade": 2,
         "Species": "Corvisquire",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Corviknight",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1858,12 +1882,14 @@
       {
         "Stade": 2,
         "Species": "Corvisquire",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Corviknight",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1994,12 +2020,14 @@
       {
         "Stade": 2,
         "Species": "Dottler",
-        "Condition": "Lv 10 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 10 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Orbeetle",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -2078,12 +2106,14 @@
       {
         "Stade": 2,
         "Species": "Dottler",
-        "Condition": "Lv 10 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 10 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Orbeetle",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -2181,12 +2211,14 @@
       {
         "Stade": 2,
         "Species": "Dottler",
-        "Condition": "Lv 10 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 10 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Orbeetle",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -2334,7 +2366,8 @@
       {
         "Stade": 2,
         "Species": "Thievul",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       }
     ],
     "Other Information": {
@@ -2468,7 +2501,8 @@
       {
         "Stade": 2,
         "Species": "Thievul",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       }
     ],
     "Other Information": {
@@ -2598,7 +2632,8 @@
       {
         "Stade": 2,
         "Species": "Eldegoss",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -2736,7 +2771,8 @@
       {
         "Stade": 2,
         "Species": "Eldegoss",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -2868,7 +2904,8 @@
       {
         "Stade": 2,
         "Species": "Dubwool",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3001,7 +3038,8 @@
       {
         "Stade": 2,
         "Species": "Dubwool",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3131,7 +3169,8 @@
       {
         "Stade": 2,
         "Species": "Drednaw",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -3255,7 +3294,8 @@
       {
         "Stade": 2,
         "Species": "Drednaw",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -3386,7 +3426,8 @@
       {
         "Stade": 2,
         "Species": "Boltund",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3520,7 +3561,8 @@
       {
         "Stade": 2,
         "Species": "Boltund",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3645,12 +3687,14 @@
       {
         "Stade": 2,
         "Species": "Carkol",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Coalossal",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -3781,12 +3825,14 @@
       {
         "Stade": 2,
         "Species": "Carkol",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Coalossal",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -3919,12 +3965,14 @@
       {
         "Stade": 2,
         "Species": "Carkol",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Coalossal",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -4062,12 +4110,14 @@
       {
         "Stade": 2,
         "Species": "Flapple",
-        "Condition": "Lv 20 Minimum; Tart Apple Keepsake"
+        "Condition": "Tart Apple Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Appletun",
-        "Condition": "Lv 20 Minimum; Sweet Apple Keepsake"
+        "Condition": "Sweet Apple Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -4156,7 +4206,8 @@
       {
         "Stade": 2,
         "Species": "Flapple",
-        "Condition": "Lv 20 Minimum; Tart Apple Keepsake"
+        "Condition": "Tart Apple Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -4301,7 +4352,8 @@
       {
         "Stade": 2,
         "Species": "Appletun",
-        "Condition": "Lv 20 Minimum; Sweet Apple Keepsake"
+        "Condition": "Sweet Apple Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -4446,7 +4498,8 @@
       {
         "Stade": 2,
         "Species": "Sandaconda",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -4586,7 +4639,8 @@
       {
         "Stade": 2,
         "Species": "Sandaconda",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -4855,7 +4909,8 @@
       {
         "Stade": 2,
         "Species": "Barraskewda",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4989,7 +5044,8 @@
       {
         "Stade": 2,
         "Species": "Barraskewda",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -5108,7 +5164,8 @@
       {
         "Stade": 2,
         "Species": "Toxtricity",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -5207,7 +5264,8 @@
       {
         "Stade": 2,
         "Species": "Toxtricity",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -5377,7 +5435,8 @@
       {
         "Stade": 2,
         "Species": "Centiskorch",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -5526,7 +5585,8 @@
       {
         "Stade": 2,
         "Species": "Centiskorch",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -5660,7 +5720,8 @@
       {
         "Stade": 2,
         "Species": "Grapploct",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -5800,7 +5861,8 @@
       {
         "Stade": 2,
         "Species": "Grapploct",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -5936,7 +5998,8 @@
       {
         "Stade": 2,
         "Species": "Polteageist",
-        "Condition": "Lv 25 Minimum; Cracked Pot Keepsake"
+        "Condition": "Cracked Pot Keepsake",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -6076,7 +6139,8 @@
       {
         "Stade": 2,
         "Species": "Polteageist",
-        "Condition": "Lv 25 Minimum; Cracked Pot Keepsake"
+        "Condition": "Cracked Pot Keepsake",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -6216,12 +6280,14 @@
       {
         "Stade": 2,
         "Species": "Hattrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Hatterene",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -6355,12 +6421,14 @@
       {
         "Stade": 2,
         "Species": "Hattrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Hatterene",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -6486,12 +6554,14 @@
       {
         "Stade": 2,
         "Species": "Hattrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Hatterene",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -6625,12 +6695,14 @@
       {
         "Stade": 2,
         "Species": "Morgrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Grimmsnarl",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -6776,12 +6848,14 @@
       {
         "Stade": 2,
         "Species": "Morgrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Grimmsnarl",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -6923,12 +6997,14 @@
       {
         "Stade": 2,
         "Species": "Morgrem",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Grimmsnarl",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -7083,7 +7159,8 @@
       {
         "Stade": 2,
         "Species": "Alcremie",
-        "Condition": "Lv 20 Minimum; Sweet Item Keepsake"
+        "Condition": "Sweet Item Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -7220,7 +7297,8 @@
       {
         "Stade": 2,
         "Species": "Alcremie",
-        "Condition": "Lv 20 Minimum; Sweet Item Keepsake"
+        "Condition": "Sweet Item Keepsake",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -7638,7 +7716,8 @@
       {
         "Stade": 2,
         "Species": "Frosmoth",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -7727,7 +7806,8 @@
       {
         "Stade": 2,
         "Species": "Frosmoth",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -8139,7 +8219,7 @@
   {
     "Species": "Eiscue Noice Face",
     "Number": 875,
-    "Icon": "10185",
+    "Icon": 10185,
     "Base Stats": {
       "HP": 8,
       "Attack": 8,
@@ -8749,7 +8829,8 @@
       {
         "Stade": 2,
         "Species": "Copperajah",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -8906,7 +8987,8 @@
       {
         "Stade": 2,
         "Species": "Copperajah",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -9772,12 +9854,14 @@
       {
         "Stade": 2,
         "Species": "Drakloak",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Dragapult",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -9881,12 +9965,14 @@
       {
         "Stade": 2,
         "Species": "Drakloak",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Dragapult",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -10036,12 +10122,14 @@
       {
         "Stade": 2,
         "Species": "Drakloak",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Dragapult",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       }
     ],
     "Other Information": {
@@ -10165,7 +10253,7 @@
   {
     "Species": "Meowth Galar",
     "Number": 52,
-    "Icon": "10161",
+    "Icon": 10161,
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -10193,7 +10281,8 @@
       {
         "Stade": 2,
         "Species": "Perrserker",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -10350,7 +10439,8 @@
       {
         "Stade": 2,
         "Species": "Perrserker",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -10469,7 +10559,7 @@
   {
     "Species": "Ponyta Galar",
     "Number": 77,
-    "Icon": "10162",
+    "Icon": 10162,
     "Base Stats": {
       "HP": 5,
       "Attack": 9,
@@ -10497,7 +10587,8 @@
       {
         "Stade": 2,
         "Species": "Rapidash Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -10621,7 +10712,7 @@
   {
     "Species": "Rapidash Galar",
     "Number": 78,
-    "Icon": "10163",
+    "Icon": 10163,
     "Base Stats": {
       "HP": 7,
       "Attack": 10,
@@ -10650,7 +10741,8 @@
       {
         "Stade": 2,
         "Species": "Rapidash Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -10767,7 +10859,7 @@
   {
     "Species": "Farfetch’D Galar",
     "Number": 83,
-    "Icon": "10166",
+    "Icon": 10166,
     "Base Stats": {
       "HP": 5,
       "Attack": 10,
@@ -10795,7 +10887,8 @@
       {
         "Stade": 2,
         "Species": "Sirfetch’D",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -10961,7 +11054,8 @@
       {
         "Stade": 2,
         "Species": "Sirfetch’D",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -11090,7 +11184,7 @@
   {
     "Species": "Weezing Galar",
     "Number": 110,
-    "Icon": "10167",
+    "Icon": 10167,
     "Base Stats": {
       "HP": 7,
       "Attack": 9,
@@ -11119,7 +11213,8 @@
       {
         "Stade": 2,
         "Species": "Weezing Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -11243,7 +11338,7 @@
   {
     "Species": "Mr. Mime Galar",
     "Number": 122,
-    "Icon": "10168",
+    "Icon": 10168,
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -11272,12 +11367,14 @@
       {
         "Stade": 2,
         "Species": "Mr. Mime Galar",
-"Condition":"Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Mr. Rime",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -11445,12 +11542,14 @@
       {
         "Stade": 2,
         "Species": "Mr. Mime Galar",
-"Condition":"Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Mr. Rime",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -11589,7 +11688,7 @@
   {
     "Species": "Corsola Galar",
     "Number": 222,
-    "Icon": "10173",
+    "Icon": 10173,
     "Base Stats": {
       "HP": 6,
       "Attack": 6,
@@ -11617,7 +11716,8 @@
       {
         "Stade": 2,
         "Species": "Cursola",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -11777,7 +11877,8 @@
       {
         "Stade": 2,
         "Species": "Cursola",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -11894,7 +11995,7 @@
   {
     "Species": "Zigzagoon Galar",
     "Number": 263,
-    "Icon": "10174",
+    "Icon": 10174,
     "Base Stats": {
       "HP": 4,
       "Attack": 3,
@@ -11923,12 +12024,14 @@
       {
         "Stade": 2,
         "Species": "Linoone Galar",
-"Condition":"Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Obstagoon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12056,7 +12159,7 @@
   {
     "Species": "Linoone Galar",
     "Number": 264,
-    "Icon": "10175",
+    "Icon": 10175,
     "Base Stats": {
       "HP": 8,
       "Attack": 7,
@@ -12085,12 +12188,14 @@
       {
         "Stade": 2,
         "Species": "Linoone Galar",
-"Condition":"Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Obstagoon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12244,12 +12349,14 @@
       {
         "Stade": 2,
         "Species": "Linoone Galar",
-"Condition":"Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Obstagoon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12382,7 +12489,7 @@
   {
     "Species": "Darumaka Galar",
     "Number": 554,
-    "Icon": "10176",
+    "Icon": 10176,
     "Base Stats": {
       "HP": 7,
       "Attack": 9,
@@ -12410,7 +12517,8 @@
       {
         "Stade": 2,
         "Species": "Darmanitan Galar",
-"Condition":"Lv 30 Minimum, Ice Stone"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12543,7 +12651,7 @@
   {
     "Species": "Darmanitan Galar",
     "Number": 555,
-    "Icon": "10177",
+    "Icon": 10177,
     "Base Stats": {
       "HP": 11,
       "Attack": 14,
@@ -12571,7 +12679,8 @@
       {
         "Stade": 2,
         "Species": "Darmanitan Galar",
-"Condition":"Lv 30 Minimum , Ice Stone"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12694,7 +12803,7 @@
   {
     "Species": "Darmanitan Galar, Zen Mode",
     "Number": 555,
-    "Icon": "10178",
+    "Icon": 10178,
     "Base Stats": {
       "HP": 11,
       "Attack": 16,
@@ -12723,7 +12832,8 @@
       {
         "Stade": 2,
         "Species": "Darmanitan Galar",
-"Condition":"Lv 30 Minimum, Ice Stone"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -12847,7 +12957,7 @@
   {
     "Species": "Yamask Galar",
     "Number": 562,
-    "Icon": "10179",
+    "Icon": 10179,
     "Base Stats": {
       "HP": 4,
       "Attack": 6,
@@ -12876,7 +12986,8 @@
       {
         "Stade": 2,
         "Species": "Runerigus",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -13039,7 +13150,8 @@
       {
         "Stade": 2,
         "Species": "Runerigus",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -13170,7 +13282,7 @@
   {
     "Species": "Stunfisk Galar",
     "Number": 618,
-    "Icon": "10180",
+    "Icon": 10180,
     "Base Stats": {
       "HP": 11,
       "Attack": 8,
@@ -13331,7 +13443,7 @@
   {
     "Species": "Slowpoke Galar",
     "Number": 79,
-    "Icon": "10164",
+    "Icon": 10164,
     "Base Stats": {
       "HP": 9,
       "Attack": 7,
@@ -13359,12 +13471,14 @@
       {
         "Stade": 2,
         "Species": "Slowbro Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Slowking Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -13528,7 +13642,7 @@
   {
     "Species": "Slowbro Galar",
     "Number": 80,
-    "Icon": "10165",
+    "Icon": 10165,
     "Base Stats": {
       "HP": 10,
       "Attack": 10,
@@ -13557,7 +13671,8 @@
       {
         "Stade": 2,
         "Species": "Slowbro Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -13713,7 +13828,7 @@
   {
     "Species": "Slowking Galar",
     "Number": 199,
-    "Icon": "10172",
+    "Icon": 10172,
     "Base Stats": {
       "HP": 10,
       "Attack": 7,
@@ -13742,7 +13857,8 @@
       {
         "Stade": 2,
         "Species": "Slowking Galar",
-"Condition":"Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14020,7 +14136,7 @@
   {
     "Species": "Zacian Crowned Sword Forme",
     "Number": 888,
-    "Icon": "10188",
+    "Icon": 10188,
     "Base Stats": {
       "HP": 9,
       "Attack": 17,
@@ -14266,7 +14382,7 @@
   {
     "Species": "Zamazenta Crowned Shield Forme",
     "Number": 889,
-    "Icon": "10189",
+    "Icon": 10189,
     "Base Stats": {
       "HP": 9,
       "Attack": 13,
@@ -14549,7 +14665,8 @@
       {
         "Stade": 2,
         "Species": "Melmetal",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14661,7 +14778,8 @@
       {
         "Stade": 2,
         "Species": "Melmetal",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14806,12 +14924,14 @@
       {
         "Stade": 2,
         "Species": "Urshifu Single Strike Form",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Urshifu Rapid Strike Form",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14971,7 +15091,8 @@
       {
         "Stade": 2,
         "Species": "Urshifu Single Strike Form",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -15134,7 +15255,8 @@
       {
         "Stade": 2,
         "Species": "Urshifu Rapid Strike Form",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -15441,7 +15563,7 @@
   {
     "Species": "Articuno Galar",
     "Number": 144,
-    "Icon": "10169",
+    "Icon": 10169,
     "Base Stats": {
       "HP": 9,
       "Attack": 9,
@@ -15595,7 +15717,7 @@
   {
     "Species": "Zapdos Galar",
     "Number": 145,
-    "Icon": "10170",
+    "Icon": 10170,
     "Base Stats": {
       "HP": 9,
       "Attack": 13,
@@ -15752,7 +15874,7 @@
   {
     "Species": "Moltres Galar",
     "Number": 146,
-    "Icon": "10171",
+    "Icon": 10171,
     "Base Stats": {
       "HP": 9,
       "Attack": 9,
@@ -16619,7 +16741,7 @@
   {
     "Species": "Calyrex Ice Rider",
     "Number": 898,
-    "Icon": "10193",
+    "Icon": 10193,
     "Base Stats": {
       "HP": 10,
       "Attack": 17,
@@ -16765,7 +16887,7 @@
   {
     "Species": "Calyrex Shadow Rider",
     "Number": 898,
-    "Icon": "10194",
+    "Icon": 10194,
     "Base Stats": {
       "HP": 10,
       "Attack": 9,

@@ -30,12 +30,14 @@
       {
         "Stade": 2,
         "Species": "Dartrix",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Decidueye",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -229,12 +231,14 @@
       {
         "Stade": 2,
         "Species": "Dartrix",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Decidueye",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -411,12 +415,14 @@
       {
         "Stade": 2,
         "Species": "Dartrix",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Decidueye",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -611,12 +617,14 @@
       {
         "Stade": 2,
         "Species": "Torracat",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Incineroar",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -807,12 +815,14 @@
       {
         "Stade": 2,
         "Species": "Torracat",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Incineroar",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -987,12 +997,14 @@
       {
         "Stade": 2,
         "Species": "Torracat",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Incineroar",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1195,12 +1207,14 @@
       {
         "Stade": 2,
         "Species": "Brionne",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Primarina",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1389,12 +1403,14 @@
       {
         "Stade": 2,
         "Species": "Brionne",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Primarina",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1567,12 +1583,14 @@
       {
         "Stade": 2,
         "Species": "Brionne",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Primarina",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1756,12 +1774,14 @@
       {
         "Stade": 2,
         "Species": "Trumbeak",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Toucannon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -1936,12 +1956,14 @@
       {
         "Stade": 2,
         "Species": "Trumbeak",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Toucannon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -2106,12 +2128,14 @@
       {
         "Stade": 2,
         "Species": "Trumbeak",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Toucannon",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -2282,7 +2306,8 @@
       {
         "Stade": 2,
         "Species": "Gumshoos",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -2466,7 +2491,8 @@
       {
         "Stade": 2,
         "Species": "Gumshoos",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -2650,7 +2676,8 @@
       {
         "Stade": 2,
         "Species": "Charjabug",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
@@ -2812,7 +2839,8 @@
       {
         "Stade": 2,
         "Species": "Charjabug",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
@@ -2980,7 +3008,8 @@
       {
         "Stade": 2,
         "Species": "Charjabug",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       },
       {
         "Stade": 3,
@@ -3156,7 +3185,8 @@
       {
         "Stade": 2,
         "Species": "Crabominable",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3335,7 +3365,8 @@
       {
         "Stade": 2,
         "Species": "Crabominable",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3709,7 +3740,8 @@
       {
         "Stade": 2,
         "Species": "Ribombee",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -3889,7 +3921,8 @@
       {
         "Stade": 2,
         "Species": "Ribombee",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4060,17 +4093,20 @@
       {
         "Stade": 2,
         "Species": "Lycanroc Midday",
-        "Condition": "Sun Stone Lv 25 Minimum"
+        "Condition": "Sun Stone",
+        "Minimum Level": "Lv 25 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Lycanroc Midnight",
-        "Condition": "Moon Stone Lv 25 Minimum"
+        "Condition": "Moon Stone",
+        "Minimum Level": "Lv 25 Minimum"
       },
       {
         "Stade": 2,
         "Species": "Lycanroc Dusk",
-        "Condition": "Dusk Stone Lv 25 Minimum"
+        "Condition": "Dusk Stone",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4254,7 +4290,8 @@
       {
         "Stade": 2,
         "Species": "Lycanroc Midday",
-        "Condition": "Sun Stone Lv 25 Minimum"
+        "Condition": "Sun Stone",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4405,7 +4442,7 @@
   {
     "Species": "Lycanroc Midnight",
     "Number": 745,
-    "Icon": "10126",
+    "Icon": 10126,
     "Base Stats": {
       "HP": 9,
       "Attack": 12,
@@ -4433,7 +4470,8 @@
       {
         "Stade": 2,
         "Species": "Lycanroc Midnight",
-        "Condition": "Moon Stone Lv 25 Minimum"
+        "Condition": "Moon Stone",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4593,7 +4631,7 @@
   {
     "Species": "Lycanroc Dusk",
     "Number": 745,
-    "Icon": "10152",
+    "Icon": 10152,
     "Base Stats": {
       "HP": 8,
       "Attack": 12,
@@ -4621,7 +4659,8 @@
       {
         "Stade": 2,
         "Species": "Lycanroc Dusk",
-        "Condition": "Dusk Stone Lv 25 Minimum"
+        "Condition": "Dusk Stone",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -4950,7 +4989,7 @@
   {
     "Species": "Wishiwashi Schooling",
     "Number": 746,
-    "Icon": "10127",
+    "Icon": 10127,
     "Base Stats": {
       "HP": 5,
       "Attack": 14,
@@ -5157,7 +5196,8 @@
       {
         "Stade": 2,
         "Species": "Toxapex",
-        "Condition": "Lv 35 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -5338,7 +5378,8 @@
       {
         "Stade": 2,
         "Species": "Toxapex",
-        "Condition": "Lv 35 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -5515,7 +5556,8 @@
       {
         "Stade": 2,
         "Species": "Mudsdale",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -5690,7 +5732,8 @@
       {
         "Stade": 2,
         "Species": "Mudsdale",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -6025,7 +6068,8 @@
       {
         "Stade": 2,
         "Species": "Araquanid",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -6193,7 +6237,8 @@
       {
         "Stade": 2,
         "Species": "Lurantis",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -6358,7 +6403,8 @@
       {
         "Stade": 2,
         "Species": "Lurantis",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -6526,7 +6572,8 @@
       {
         "Stade": 2,
         "Species": "Shiinotic",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -6709,7 +6756,8 @@
       {
         "Stade": 2,
         "Species": "Shiinotic",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -6883,7 +6931,8 @@
       {
         "Stade": 2,
         "Species": "Salazzle",
-        "Condition": "Lv 30 Minimum Female"
+        "Condition": "Female",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -7069,7 +7118,8 @@
       {
         "Stade": 2,
         "Species": "Salazzle",
-        "Condition": "Lv 30 Minimum Female"
+        "Condition": "Female",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -7251,7 +7301,8 @@
       {
         "Stade": 2,
         "Species": "Bewear",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -7431,7 +7482,8 @@
       {
         "Stade": 2,
         "Species": "Bewear",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -7603,7 +7655,8 @@
       {
         "Stade": 2,
         "Species": "Steenee",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
@@ -7762,7 +7815,8 @@
       {
         "Stade": 2,
         "Species": "Steenee",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
@@ -7933,7 +7987,8 @@
       {
         "Stade": 2,
         "Species": "Steenee",
-        "Condition": "Lv 15 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
@@ -8735,7 +8790,8 @@
       {
         "Stade": 2,
         "Species": "Golisopod",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -8841,7 +8897,8 @@
       {
         "Stade": 2,
         "Species": "Golisopod",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -9028,7 +9085,8 @@
       {
         "Stade": 2,
         "Species": "Palossand",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -9218,7 +9276,8 @@
       {
         "Stade": 2,
         "Species": "Palossand",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -9566,7 +9625,8 @@
       {
         "Stade": 2,
         "Species": "Silvally",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -9765,7 +9825,8 @@
       {
         "Stade": 2,
         "Species": "Silvally",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -10140,7 +10201,7 @@
   {
     "Species": "Minior Core",
     "Number": 774,
-    "Icon": "10141",
+    "Icon": 10141,
     "Base Stats": {
       "HP": 6,
       "Attack": 10,
@@ -11703,12 +11764,14 @@
       {
         "Stade": 2,
         "Species": "Hakamo-O",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Kommo-O",
-        "Condition": "Lv 50 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -11896,12 +11959,14 @@
       {
         "Stade": 2,
         "Species": "Hakamo-O",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Kommo-O",
-        "Condition": "Lv 50 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -12092,12 +12157,14 @@
       {
         "Stade": 2,
         "Species": "Hakamo-O",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Kommo-O",
-        "Condition": "Lv 50 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -12274,7 +12341,7 @@
   {
     "Species": "Rattata Alola",
     "Number": 19,
-    "Icon": "10091",
+    "Icon": 10091,
     "Base Stats": {
       "HP": 3,
       "Attack": 6,
@@ -12303,7 +12370,8 @@
       {
         "Stade": 2,
         "Species": "Raticate Alola",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -12465,7 +12533,7 @@
   {
     "Species": "Raticate Alola",
     "Number": 20,
-    "Icon": "10092",
+    "Icon": 10092,
     "Base Stats": {
       "HP": 6,
       "Attack": 8,
@@ -12494,7 +12562,8 @@
       {
         "Stade": 2,
         "Species": "Raticate Alola",
-        "Condition": "Lv 20 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -12649,7 +12718,7 @@
   {
     "Species": "Raichu Alola",
     "Number": 26,
-    "Icon": "10100",
+    "Icon": 10100,
     "Base Stats": {
       "HP": 6,
       "Attack": 9,
@@ -12678,12 +12747,14 @@
       {
         "Stade": 2,
         "Species": "Pikachu",
-        "Condition": "Lv 10 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 10 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Raichu Alola",
-        "Condition": "Thunderstone"
+        "Condition": "Thunderstone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -12864,7 +12935,7 @@
   {
     "Species": "Sandshrew Alola",
     "Number": 27,
-    "Icon": "10101",
+    "Icon": 10101,
     "Base Stats": {
       "HP": 5,
       "Attack": 8,
@@ -12893,7 +12964,8 @@
       {
         "Stade": 2,
         "Species": "Sandslash Alola",
-        "Condition": "Ice Stone Lv 20 Minimum"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -13084,7 +13156,7 @@
   {
     "Species": "Sandslash Alola",
     "Number": 28,
-    "Icon": "10102",
+    "Icon": 10102,
     "Base Stats": {
       "HP": 8,
       "Attack": 10,
@@ -13113,7 +13185,8 @@
       {
         "Stade": 2,
         "Species": "Sandslash Alola",
-        "Condition": "Ice Stone Lv 20 Minimum"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -13282,7 +13355,7 @@
   {
     "Species": "Vulpix Alola",
     "Number": 37,
-    "Icon": "10103",
+    "Icon": 10103,
     "Base Stats": {
       "HP": 4,
       "Attack": 4,
@@ -13310,7 +13383,8 @@
       {
         "Stade": 2,
         "Species": "Ninetales Alola",
-        "Condition": "Ice Stone Lv 20 Minimum"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -13503,7 +13577,7 @@
   {
     "Species": "Ninetales Alola",
     "Number": 38,
-    "Icon": "10104",
+    "Icon": 10104,
     "Base Stats": {
       "HP": 7,
       "Attack": 7,
@@ -13532,7 +13606,8 @@
       {
         "Stade": 2,
         "Species": "Ninetales Alola",
-        "Condition": "Ice Stone Lv 20 Minimum"
+        "Condition": "Ice Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -13721,7 +13796,7 @@
   {
     "Species": "Diglett Alola",
     "Number": 50,
-    "Icon": "10105",
+    "Icon": 10105,
     "Base Stats": {
       "HP": 1,
       "Attack": 6,
@@ -13750,7 +13825,8 @@
       {
         "Stade": 2,
         "Species": "Dugtrio Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -13907,7 +13983,7 @@
   {
     "Species": "Dugtrio Alola",
     "Number": 51,
-    "Icon": "10106",
+    "Icon": 10106,
     "Base Stats": {
       "HP": 4,
       "Attack": 10,
@@ -13936,7 +14012,8 @@
       {
         "Stade": 2,
         "Species": "Dugtrio Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -14083,7 +14160,7 @@
   {
     "Species": "Meowth Alola",
     "Number": 52,
-    "Icon": "10107",
+    "Icon": 10107,
     "Base Stats": {
       "HP": 4,
       "Defense": 4,
@@ -14110,7 +14187,8 @@
       {
         "Stade": 2,
         "Species": "Persian Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -14297,7 +14375,7 @@
   {
     "Species": "Persian Alola",
     "Number": 53,
-    "Icon": "10108",
+    "Icon": 10108,
     "Base Stats": {
       "HP": 7,
       "Attack": 6,
@@ -14324,7 +14402,8 @@
       {
         "Stade": 2,
         "Species": "Persian Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -14497,7 +14576,7 @@
   {
     "Species": "Geodude Alola",
     "Number": 74,
-    "Icon": "10109",
+    "Icon": 10109,
     "Base Stats": {
       "HP": 4,
       "Attack": 8,
@@ -14526,12 +14605,14 @@
       {
         "Stade": 2,
         "Species": "Graveler Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Golem Alola",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14711,7 +14792,7 @@
   {
     "Species": "Graveler Alola",
     "Number": 75,
-    "Icon": "10110",
+    "Icon": 10110,
     "Base Stats": {
       "HP": 6,
       "Attack": 10,
@@ -14740,12 +14821,14 @@
       {
         "Stade": 2,
         "Species": "Graveler Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Golem Alola",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -14907,7 +14990,7 @@
   {
     "Species": "Golem Alola",
     "Number": 76,
-    "Icon": "10111",
+    "Icon": 10111,
     "Base Stats": {
       "HP": 8,
       "Attack": 12,
@@ -14936,12 +15019,14 @@
       {
         "Stade": 2,
         "Species": "Graveler Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Golem Alola",
-        "Condition": "Lv 30 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -15114,7 +15199,7 @@
   {
     "Species": "Grimer Alola",
     "Number": 88,
-    "Icon": "10112",
+    "Icon": 10112,
     "Base Stats": {
       "HP": 8,
       "Attack": 8,
@@ -15143,7 +15228,8 @@
       {
         "Stade": 2,
         "Species": "Muk Alola",
-        "Condition": "Lv 35 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -15331,7 +15417,7 @@
   {
     "Species": "Muk Alola",
     "Number": 89,
-    "Icon": "10113",
+    "Icon": 10113,
     "Base Stats": {
       "HP": 11,
       "Attack": 11,
@@ -15360,7 +15446,8 @@
       {
         "Stade": 2,
         "Species": "Muk Alola",
-        "Condition": "Lv 35 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -15531,7 +15618,7 @@
   {
     "Species": "Exeggutor Alola",
     "Number": 103,
-    "Icon": "10114",
+    "Icon": 10114,
     "Base Stats": {
       "HP": 10,
       "Attack": 11,
@@ -15560,7 +15647,8 @@
       {
         "Stade": 2,
         "Species": "Exeggutor Alola",
-        "Condition": "Leaf Stone"
+        "Condition": "Leaf Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -15758,7 +15846,7 @@
   {
     "Species": "Marowak Alola",
     "Number": 105,
-    "Icon": "10115",
+    "Icon": 10115,
     "Base Stats": {
       "HP": 6,
       "Attack": 8,
@@ -15787,7 +15875,8 @@
       {
         "Stade": 2,
         "Species": "Marowak Alola",
-        "Condition": "Lv 25 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -16748,17 +16837,20 @@
       {
         "Stade": 2,
         "Species": "Cosmoem",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Solgaleo",
-        "Condition": "Sun Stone Lv 50 Minimum"
+        "Condition": "Sun Stone",
+        "Minimum Level": "Lv 50 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Lunala",
-        "Condition": "Moon Stone Lv 50 Minimum"
+        "Condition": "Moon Stone",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -16834,17 +16926,20 @@
       {
         "Stade": 2,
         "Species": "Cosmoem",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Solgaleo",
-        "Condition": "Sun Stone Lv 50 Minimum"
+        "Condition": "Sun Stone",
+        "Minimum Level": "Lv 50 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Lunala",
-        "Condition": "Moon Stone Lv 50 Minimum"
+        "Condition": "Moon Stone",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -16921,12 +17016,14 @@
       {
         "Stade": 2,
         "Species": "Cosmoem",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Solgaleo",
-        "Condition": "Sun Stone Lv 50 Minimum"
+        "Condition": "Sun Stone",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -17123,12 +17220,14 @@
       {
         "Stade": 2,
         "Species": "Cosmoem",
-        "Condition": "Lv 40 Minimum"
+        "Condition": "",
+        "Minimum Level": "Lv 40 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Lunala",
-        "Condition": "Moon Stone Lv 50 Minimum"
+        "Condition": "Moon Stone",
+        "Minimum Level": "Lv 50 Minimum"
       }
     ],
     "Other Information": {
@@ -17505,7 +17604,7 @@
   {
     "Species": "Necrozma Dusk Mane",
     "Number": 800,
-    "Icon": "10155",
+    "Icon": 10155,
     "Base Stats": {
       "HP": 10,
       "Attack": 16,
@@ -17727,7 +17826,7 @@
   {
     "Species": "Necrozma Dawn Wings",
     "Number": 800,
-    "Icon": "10156",
+    "Icon": 10156,
     "Base Stats": {
       "HP": 10,
       "Attack": 11,
@@ -17951,7 +18050,7 @@
   {
     "Species": "Zygarde 10% Forme",
     "Number": 718,
-    "Icon": "10118",
+    "Icon": 10118,
     "Base Stats": {
       "HP": 5,
       "Attack": 10,
@@ -18151,7 +18250,7 @@
   {
     "Species": "Zygarde 50% Forme",
     "Number": 718,
-    "Icon": "10119",
+    "Icon": 10119,
     "Base Stats": {
       "HP": 11,
       "Attack": 10,
@@ -18347,7 +18446,7 @@
   {
     "Species": "Zygarde Complete Forme",
     "Number": 718,
-    "Icon": "10120",
+    "Icon": 10120,
     "Base Stats": {
       "HP": 22,
       "Attack": 10,
@@ -19627,7 +19726,7 @@
       ],
       "Basic Ability 1": "Beast Boost",
       "Adv Ability 1": "Levitate",
-      "Adv Ability 2": "Technician",
+      "Adv Ability 2": "Sharpness",
       "Adv Ability 3": "Sniper",
       "High Ability": "Flutter"
     },
@@ -20023,7 +20122,8 @@
       {
         "Stade": 1,
         "Species": "Naganadel",
-        "Condition": "Learn Dragon Pulse Lv 30 Minimum"
+        "Condition": "Learn Dragon Pulse",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -20179,7 +20279,8 @@
       {
         "Stade": 1,
         "Species": "Naganadel",
-        "Condition": "Learn Dragon Pulse Lv 30 Minimum"
+        "Condition": "Learn Dragon Pulse",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {

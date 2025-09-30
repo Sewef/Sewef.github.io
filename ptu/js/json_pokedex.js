@@ -1,21 +1,69 @@
 (function () {
   const CFG = {
-    // NEW — libellés → URL (tu peux en ajouter/retirer)
-    sources: {
-      "Core (Gen 1-6)":      "/ptu/data/pokedex/pokedex_core.json",
-      "AlolaDex (Gen 7)":  "/ptu/data/pokedex/pokedex_7g.json",
-      "GalarDex (Gen 8)":  "/ptu/data/pokedex/pokedex_8g.json",
-      "HisuiDex (Gen 8.5)":  "/ptu/data/pokedex/pokedex_8g_hisui.json",
-      "PaldeaDex (Gen 9)": "/ptu/data/pokedex/pokedex_9g.json",
-    },
     // NEW — patterns d’icônes inchangés
     iconPatterns: [
       (base, num) => `${base}/${num}.png`
     ]
   };
 
-    // NEW — état UI/cache
-  const selectedSources = new Set(Object.keys(CFG.sources));   // par défaut: tout coché
+  // Où se trouvent les dossiers core/community/homebrew (relatif au HTML)
+  const DATASET_BASE = "/ptu/data/pokedex"; // ex: "./data" si tes dossiers sont dans /data
+
+  // Dossiers par preset
+  const PRESET_DIRS = {
+    Core: "core",
+    Community: "community",
+    Homebrew: "homebrew",
+  };
+
+  // Fichiers à charger par label (les libellés sont pour affichage / debug)
+  const FILES_BY_LABEL = {
+    "Core": "pokedex_core.json",
+    "AlolaDex": "pokedex_7g.json",
+    "GalarDex": "pokedex_8g.json",
+    "HisuiDex": "pokedex_8g_hisui.json",
+
+    "Core (Updated)": "pokedex_core.json",
+    "AlolaDex (Updated)": "pokedex_7g.json",
+    "GalarDex (Updated)": "pokedex_8g.json",
+    "HisuiDex (Updated)": "pokedex_8g_hisui.json",
+
+    "Core (Community Homebrew)": "pokedex_core.json",
+    "AlolaDex (Community Homebrew)": "pokedex_7g.json",
+    "GalarDex (Community Homebrew)": "pokedex_8g.json",
+    "HisuiDex (Community Homebrew)": "pokedex_8g_hisui.json",
+    "PaldeaDex (Community Homebrew)": "pokedex_9g.json",
+  };
+
+  // Composition par preset (exclusif)
+  const PRESETS = {
+    Core: [
+      "Core",
+      "AlolaDex",
+      "GalarDex",
+      "HisuiDex",
+    ],
+    Community: [
+      "Core (Community Homebrew)",
+      "AlolaDex (Community Homebrew)",
+      "GalarDex (Community Homebrew)",
+      "HisuiDex (Community Homebrew)",
+      "PaldeaDex (Community Homebrew)",
+    ],
+    Homebrew: [
+      "Core (Updated)",
+      "AlolaDex (Updated)",
+      "GalarDex (Updated)",
+      "HisuiDex (Updated)",
+      "PaldeaDex (Community Homebrew)",
+    ],
+  };
+
+  let selectedPreset = window.selectedPreset || "Core";
+
+  // Per-preset file selection (labels from PRESETS)
+  let selectedLabels = new Set(PRESETS[selectedPreset] || []);
+
   const _jsonCache = new Map(); // url -> Promise(data[])
 
   let dexModalInstance = null;
@@ -48,7 +96,7 @@
   function debounce(fn, delay = 150) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); } }
   const jsStr = s => JSON.stringify(String(s ?? ''));
 
-    // NEW — charge 1 source avec cache
+  // NEW — charge 1 source avec cache
   async function fetchSource(url) {
     if (_jsonCache.has(url)) return _jsonCache.get(url);
     const prom = fetch(url, { cache: "no-store" })
@@ -60,72 +108,244 @@
   }
 
 
-  // Load JSON with graceful fallbacks
-  async function loadPokedex() {
-    const urls = [...selectedSources].map(lbl => CFG.sources[lbl]).filter(Boolean);
-    const arrays = await Promise.all(urls.map(fetchSource));
-
-    const merged = arrays.flat();
-    const byKey = new Map();
-    for (const p of merged) {
-      const key = `${p.Number ?? ''}::${String(p.Species ?? '').toLowerCase()}`;
-      byKey.set(key, { ...(byKey.get(key) || {}), ...p });
-    }
-    const out = Array.from(byKey.values());
-    if (!out.length) throw new Error("Aucune entrée trouvée pour les sources sélectionnées.");
-    return out;
+  function urlsForPreset(presetName, onlyLabels) {
+    const dir = PRESET_DIRS[presetName];
+    const labels = (onlyLabels && onlyLabels.length ? onlyLabels : (PRESETS[presetName] || []));
+    return labels.map(lbl => ({
+      label: lbl,
+      url: `${DATASET_BASE}${DATASET_BASE.endsWith("/") ? "" : "/"}${dir}/${FILES_BY_LABEL[lbl]}`
+    }));
   }
 
-  
-  // NEW — bloc “Sources” au-dessus des filtres (même esprit que Edges)
+  const _fetchCache = new Map();
+  async function fetchJsonCached(url) {
+    if (_fetchCache.has(url)) return _fetchCache.get(url);
+    const p = fetch(url, { cache: "no-store" }).then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status} for ${url}`);
+      return r.json();
+    });
+    _fetchCache.set(url, p);
+    return p;
+  }
+
+  // Remplace ton loadPokedex existant par celui-ci si besoin
+  async function loadPokedex() {
+    const sources = urlsForPreset(selectedPreset, Array.from(selectedLabels || []));
+    if (!sources.length) throw new Error(`No sources for preset ${selectedPreset}`);
+
+    // charge tout en parallèle; ignore les 404 pour les fichiers absents (ex. 9g en Core)
+    const results = await Promise.all(
+      sources.map(async s => {
+        try {
+          const data = await fetchJsonCached(s.url);
+          return Array.isArray(data) ? data : Object.values(data); // support liste ou dict {Species: obj}
+        } catch (e) {
+          console.warn(`[loadPokedex] skip ${s.url}: ${e.message}`);
+          return [];
+        }
+      })
+    );
+
+    // fusion simple: concat + dédoublonnage par (Number, Species) si besoin
+    const merged = [];
+    const seen = new Set();
+    for (const arr of results) {
+      for (const row of arr) {
+        const num = row.Number ?? row.number ?? "";
+        const sp = row.Species ?? row.species ?? "";
+        const key = `${num}::${sp}`; // si tu préfères seulement Species, remplace la clé
+        if (!seen.has(key)) {
+          seen.add(key);
+          merged.push(row);
+        } else {
+          // si tu veux une fusion plus intelligente, c’est ici (merge deep)
+        }
+      }
+    }
+    return merged;
+  }
+
+
+
+  function buildReadmeModalIfMissing() {
+    if (document.getElementById("readmeModal")) return;
+    const el = document.createElement("div");
+    el.className = "modal fade";
+    el.id = "readmeModal";
+    el.tabIndex = -1;
+    el.setAttribute("aria-hidden", "true");
+    el.innerHTML = `
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Datasets — Readme</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Core</strong> — What are in the officials Dexes. Very small changes for a reliable base, see changelog.</p>
+          <p><strong>Community</strong> — Based on Core dataset, some abilities pools are updated according to the Gen 9 Dex.</p>
+          <p><strong>Homebrew</strong>  — Based on Community dataset, updated all mons stats and movepools from Gen 1 to 8.5.</p>
+          <hr/>
+
+          <h5>Changelog</h5>
+          <h6>Core</h6>
+          <ul>
+            <li>Following Pokémons have now a minimum evolution level of 20: Shellder, Exeggcute, Eevee.<br>
+            Other Gen-1 Pokémons with Stone Evolution have this condition. Probable oversight.</li>
+            <li>Rotom have now one entry per form.</li>
+            <li>According to the Gen 8 References document, Koffing and Weezing have their new Abilities set.</li>
+            <li>Additional Note: The dex formatting follows the Gen 9 Community Homebrew Dex guidelines, but (hopefully) no data has been scrapped.</li>
+          </ul>
+
+          <h6>Community</h6>
+          <p>According to the document, some Pokémon have their Abilities set updated: Gastly, Haunter, Gengar, Lapras, Spinarak, Ariados, Phanpy, Donphan, Spheal, Shiftry, Piplup, Prinplup, Gallade, Gible, Gabite, Whirlipede, Pawniard, Bisharp, Cobalion, Terrakion, Virizion, Keldeo, Skiddo, Gogoat, Honedge, Doublade, Aegislash, Kartana, Samurott Hisuian, Kleavor</p>
+
+          <h6>Homebrew</h6>
+          <p>
+            All Pokémons from Gen 1 to 8.5 has been updated using the newest game generation available and following PTU standard, using Gen 9 Community Homebrew guidelines. Here is the process:<br>
+            <ul>
+            <li>Extract Base Stats, Moves, Evolutionary Stage from PokeAPI</li>
+            <li>Transform stats for PTU format: base_stat / 10, rounded up from .5.</li>
+            <li>Split moves into categories:
+              <ul>
+                <li>"Level Up Move List": sorted by level (with "Evo" first).</li>
+                <li>"TM/Tutor Move List": names only, sorted alphabetically.</li>
+                <li>If stage > 0: all level:1 moves → moved into TM/Tutor (with (N) suffix).</li>
+              </ul>
+            <li>Special stone-evolution logic:
+              <ul>
+                <li>If evolved by stone and has <10 level-up moves → inherit level-up moves from previous stage.</li>
+                <li>Moves below minimum evolution level → shifted to TM/Tutor list with (N).</li>
+              </ul>
+            <li>Deduplication rules:
+              <ul>
+                <li>No duplicates in TM/Tutor list; if both normal and (N) exist, keep only (N).</li>
+                <li>If a move also exists in Level-Up, remove it from TM/Tutor.</li>
+              </ul>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>`;
+    document.body.appendChild(el);
+  }
+
   function buildSourceMenu(onChange) {
     const sb = document.getElementById('sidebar');
     if (!sb) return;
-    // Conteneur dédié (on le régénère, puis on laissera buildTypeSidebar ajouter ses filtres en dessous)
-    const wrap = document.createElement('div');
-    wrap.className = 'mb-3';
-    wrap.innerHTML = `<label class="form-label">Sources :</label>`;
-    Object.keys(CFG.sources).forEach(label => {
-      const id = `src-${label}`;
-      const checked = selectedSources.has(label) ? 'checked' : '';
-      wrap.insertAdjacentHTML('beforeend', `
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="${id}" ${checked}>
-          <label class="form-check-label" for="${id}">${label}</label>
-        </div>`);
-    });
+    buildReadmeModalIfMissing();
 
-    // Si un bloc “sources” existe déjà, remplace-le ; sinon, insère en haut
+    const wrap = document.createElement('div');
+    wrap.className = 'mb-3 d-flex flex-column gap-2';
+    wrap.setAttribute('data-role', 'source-menu');
+    wrap.innerHTML = `
+    <div class="d-flex align-items-center justify-content-between">
+      <label class="form-label mb-0">Dataset</label>
+      <button type="button"
+              class="btn btn-primary"
+              style="font-size:.75rem; padding:.1rem .25rem; min-width:unset; width:auto;"
+              id="btn-readme">Readme</button>
+    </div>
+
+    <div class="d-flex flex-wrap gap-1 w-100 mb-2" role="group" aria-label="Dataset presets">
+      <input type="radio" class="btn-check" name="preset" id="preset-core" ${selectedPreset === 'Core' ? 'checked' : ''}>
+      <label class="btn btn-outline-primary d-flex justify-content-center align-items-center flex-grow-1"
+            style="flex-basis:0; min-width:90px;"
+            for="preset-core">Core</label>
+
+      <input type="radio" class="btn-check" name="preset" id="preset-community" ${selectedPreset === 'Community' ? 'checked' : ''}>
+      <label class="btn btn-outline-primary d-flex justify-content-center align-items-center flex-grow-1"
+            style="flex-basis:0; min-width:90px;"
+            for="preset-community">Community</label>
+
+      <input type="radio" class="btn-check" name="preset" id="preset-homebrew" ${selectedPreset === 'Homebrew' ? 'checked' : ''}>
+      <label class="btn btn-outline-primary d-flex justify-content-center align-items-center flex-grow-1"
+            style="flex-basis:0; min-width:90px;"
+            for="preset-homebrew">Homebrew</label>
+    </div>
+
+    <div id="preset-files-box" class="border rounded p-2 small">
+      <div class="fw-semibold mb-1">Included Pokédex</div>
+      <div id="preset-files-list"></div>
+    </div>
+  `;
+
     const existing = sb.querySelector('[data-role="source-menu"]');
     if (existing) existing.remove();
-    wrap.setAttribute('data-role', 'source-menu');
     sb.prepend(wrap);
-
-    wrap.querySelectorAll('input[type="checkbox"]').forEach(cb => {
-      cb.addEventListener('change', async () => {
-        // maj état
-        selectedSources.clear();
-        wrap.querySelectorAll('input:checked').forEach(x => {
-          const lbl = x.nextElementSibling?.innerText?.trim();
-          if (lbl) selectedSources.add(lbl);
+    // Render file checkboxes for current preset
+    function renderPresetFiles() {
+      const box = wrap.querySelector('#preset-files-list');
+      const lbls = PRESETS[selectedPreset] || [];
+      const html = lbls.map(lbl => {
+        const fn = FILES_BY_LABEL[lbl];
+        const id = `pdx-file-${lbl.replace(/[^a-z0-9]+/gi, '-')}`;
+        const checked = (selectedLabels.size === 0 || selectedLabels.has(lbl)) ? 'checked' : '';
+        return `<div class="form-check">
+          <input class="form-check-input" type="checkbox" id="${id}" data-label="${lbl}" ${checked}>
+          <label class="form-check-label" for="${id}">${lbl}</label>
+        </div>`;
+        // return `<div class="form-check">
+        //   <input class="form-check-input" type="checkbox" id="${id}" data-label="${lbl}" ${checked}>
+        //   <label class="form-check-label" for="${id}">${lbl} <span class="text-muted">(${fn||'?'})</span></label>
+        // </div>`;
+      }).join('');
+      box.innerHTML = html;
+      box.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.addEventListener('change', () => {
+          selectedLabels.clear();
+          box.querySelectorAll('input[type="checkbox"]:checked').forEach(c => selectedLabels.add(c.getAttribute('data-label')));
+          reload();
         });
-
-        // recharge les données puis reconstruit filtres + grid
-        try {
-          const data = await loadPokedex();
-          window.__POKEDEX = data;
-          // reconstruit les filtres de types en dessous (en gardant layout)
-          buildTypeSidebar(data, () => renderGrid(filterRows(data)));
-          renderGrid(filterRows(data));
-        } catch (e) {
-          console.error(e);
-          document.getElementById('dex-grid').innerHTML =
-            `<div class="alert alert-warning">Aucune donnée pour les sources sélectionnées.</div>`;
-        }
-        if (typeof onChange === 'function') onChange();
       });
+    }
+    renderPresetFiles();
+
+
+    wrap.querySelector('#btn-readme')?.addEventListener('click', () => {
+      bootstrap.Modal.getOrCreateInstance(document.getElementById('readmeModal')).show();
+    });
+
+    const reload = async () => {
+      try {
+        const data = await loadPokedex();
+        window.__POKEDEX = data;
+        // reconstruit les filtres/affichage selon ta logique existante :
+        buildTypeSidebar(data, () => renderGrid(filterRows(data)));
+        renderGrid(filterRows(data));
+      } catch (e) {
+        console.error(e);
+        document.getElementById('dex-grid').innerHTML =
+          `<div class="alert alert-warning">Aucune donnée pour le preset « ${selectedPreset} ».</div>`;
+      }
+      onChange?.();
+    };
+
+    wrap.querySelector('#preset-core')?.addEventListener('change', (ev) => {
+      if (!ev.target.checked) return;
+      selectedPreset = 'Core';
+      selectedLabels = new Set(PRESETS[selectedPreset] || []);
+      renderPresetFiles();
+      reload();
+    });
+    wrap.querySelector('#preset-community')?.addEventListener('change', (ev) => {
+      if (!ev.target.checked) return;
+      selectedPreset = 'Community';
+      selectedLabels = new Set(PRESETS[selectedPreset] || []);
+      renderPresetFiles();
+      reload();
+    });
+    wrap.querySelector('#preset-homebrew')?.addEventListener('change', (ev) => {
+      if (!ev.target.checked) return;
+      selectedPreset = 'Homebrew';
+      selectedLabels = new Set(PRESETS[selectedPreset] || []);
+      renderPresetFiles();
+      reload();
     });
   }
+
 
   // Cherche un Pokémon par son nom complet et ouvre la modale
   async function openModalBySpecies(speciesName) {
@@ -589,13 +809,20 @@
     const items = evos.map(e => {
       const stade = e?.Stade ?? '';
       const species = e?.Species ?? '';
+      const level = (e?.["Minimum Level"] ?? '').trim();
       const cond = (e?.Condition ?? '').trim();
-      const label = `${stade} - <a href="#" onclick='openModalBySpecies(${jsStr(species)}); return false;'>${escapeHtml(species)}</a>${cond ? ` (${escapeHtml(cond)})` : ''}`;
+
+      const label = `${stade} - <a href="#" onclick='openModalBySpecies(${jsStr(species)}); return false;'>${escapeHtml(species)}</a>` +
+        `${level ? ` [${escapeHtml(level)}]` : ''}` +
+        `${cond ? ` (${escapeHtml(cond)})` : ''}`;
+
       return `
       <li class="list-group-item d-flex align-items-center">
         <span class="flex-grow-1">${label}</span>
       </li>`;
     }).join('');
+
+
 
     const h = Math.min(4 + depth, 6);
     return `
@@ -887,7 +1114,8 @@
 
   // Boot
 
-    document.addEventListener("DOMContentLoaded", async () => {
+  document.addEventListener("DOMContentLoaded", async () => {
+    selectedLabels = new Set(PRESETS[selectedPreset] || []);
     // NEW — construit le menu des sources *avant* de charger
     buildSourceMenu();
 

@@ -1,9 +1,11 @@
 (function () {
   const CFG = {
-    // NEW — patterns d’icônes inchangés
+    // NEW — patterns d'icônes inchangés
     iconPatterns: [
       (base, num) => `${base}/${num}.png`
-    ]
+    ],
+
+    showMethodLabel: false
   };
 
   // Où se trouvent les dossiers core/community/homebrew (relatif au HTML)
@@ -71,7 +73,7 @@
   function getDexModalInstance() {
     const el = document.getElementById('dexModal');
     if (!el) return null;
-    // Réutilise l’instance existante si présente
+    // Réutilise l'instance existante si présente
     dexModalInstance = bootstrap.Modal.getOrCreateInstance(el, {
       backdrop: true,
       focus: true,
@@ -158,7 +160,7 @@
           seen.add(key);
           merged.push(row);
         } else {
-          // si tu veux une fusion plus intelligente, c’est ici (merge deep)
+          // si tu veux une fusion plus intelligente, c'est ici (merge deep)
         }
       }
     }
@@ -187,6 +189,11 @@
           <p><strong>Homebrew</strong>  — Based on Community dataset, updated all mons stats and movepools from Gen 1 to 8.5.</p>
           <hr/>
 
+          <h5>Q&A</h5>
+          <h6>Homebrew: what are "Deleted" moves?</h6>
+          <p>Those are moves that have been removed in Gen 8. When updating, those have been reinjected from the Core Dex. Feel free to keep them or not.</p>
+
+          <hr/>
           <h5>Changelog</h5>
           <h6>Core</h6>
           <ul>
@@ -349,10 +356,10 @@
 
   // Cherche un Pokémon par son nom complet et ouvre la modale
   async function openModalBySpecies(speciesName) {
-    // Charger le Pokédex si ce n’est pas déjà fait
+    // Charger le Pokédex si ce n'est pas déjà fait
     const data = await loadPokedex();
 
-    // Trouver l’objet correspondant
+    // Trouver l'objet correspondant
     const found = data.find(p =>
       (p.Species || '').toLowerCase() === speciesName.toLowerCase()
     );
@@ -419,7 +426,7 @@
     const sidebar = document.getElementById('sidebar');
     if (!sidebar) return;
 
-    // NEW — supprime juste l’ancien bloc types s’il existe
+    // NEW — supprime juste l'ancien bloc types s'il existe
     const oldTypes = sidebar.querySelector('[data-role="type-filters"]');
     if (oldTypes) oldTypes.remove();
 
@@ -587,7 +594,7 @@
     const img = document.getElementById('dexModalIcon');
     if (img) setupIcon(img, p.Icon || p.Number, species, "full");
 
-    // 👉 Réutiliser l’instance, et ne montrer que si fermée
+    // 👉 Réutiliser l'instance, et ne montrer que si fermée
     const inst = getDexModalInstance();
     if (inst && !isDexModalShown()) {
       inst.show();
@@ -600,19 +607,26 @@
 
 
   // --- helpers ---
-  function renderLevelUpMoves(moves) {
-    if (!Array.isArray(moves) || !moves.length) return '';
-    return `
+function renderLevelUpMoves(moves) {
+  if (!Array.isArray(moves) || !moves.length) return '';
+  return `
     <ul class="list-unstyled mb-0">
-      ${moves.map(m => `
+      ${moves.map(m => {
+        // Tags en exposant (si présents)
+        const tagsSup = Array.isArray(m.Tags) && m.Tags.length
+          ? `<sup class="smaller text-uppercase text-muted ms-1">${escapeHtml(m.Tags.join(' '))}</sup>`
+          : '';
+        return `
         <li class="d-flex align-items-center mb-1">
           <span class="text-muted" style="width:50px;">Lv.${m.Level}</span>
-          <span class="fw-semibold flex-grow-1">${m.Move}</span>
+          <span class="fw-semibold flex-grow-1">${escapeHtml(m.Move)}${tagsSup}</span>
           ${wrapTypes([m.Type])}
-        </li>
-      `).join('')}
+        </li>`;
+      }).join('')}
     </ul>`;
-  }
+}
+
+  
   function renderStringList(title, arr) {
     if (!Array.isArray(arr) || !arr.length) return '';
     return `
@@ -844,7 +858,6 @@
     return Object.entries(forms).map(([label, f]) => {
       const src = (() => {
         const t = document.createElement("img");
-        console.log(f);
         setupIcon(t, f?.Icon ?? pNum, `${pName} — ${label}`, "full");
         return t.src;
       })();
@@ -877,6 +890,74 @@
       </div></div>`;
     }).join("");
   }
+
+  function renderTmTutorMoves(arr) {
+    if (!Array.isArray(arr) || !arr.length) return '';
+
+    const items = arr.map(it => {
+      // Compatibilité : anciens dex pouvaient avoir des strings
+      if (typeof it === 'string') {
+        return `
+        <li class="d-flex align-items-center mb-1">
+          <span class="fw-semibold flex-grow-1">${escapeHtml(it)}</span>
+        </li>`;
+      }
+
+      const move = escapeHtml(it?.Move ?? '');
+      const type = it?.Type ? wrapTypes([it.Type]) : '';
+      const tags = Array.isArray(it?.Tags) && it.Tags.length
+        ? `<sup class="text-uppercase text-muted small ms-1">${escapeHtml(it.Tags.join(' '))}</sup>`
+        : '';
+
+      return `
+      <li class="d-flex align-items-center mb-1">
+        <span class="fw-semibold flex-grow-1">${move}${tags}</span>
+        ${type}
+      </li>`;
+    }).join('');
+
+    return `
+    <div class="mt-3">
+      <h5 class="text-muted">TM/Tutor Moves</h5>
+      <ul class="list-unstyled mb-0">
+        ${items}
+      </ul>
+    </div>`;
+  }
+
+  function renderTmTutorMovesComma(arr, title = 'TM/Tutor Moves') {
+    if (!Array.isArray(arr) || arr.length === 0) return '';
+
+    const parts = arr.map(it => {
+      if (typeof it === 'string') {
+        return `<span class="small text-muted">${escapeHtml(it)}</span>`;
+      }
+
+      const move = escapeHtml(it?.Move ?? '');
+
+      // Tags (toujours en exposant, petit + uppercase)
+      const tagsSup = Array.isArray(it?.Tags) && it.Tags.length
+        ? `<sup class="smaller text-uppercase text-muted">${escapeHtml(it.Tags.join(' '))}</sup>`
+        : '';
+
+      // Method (pas affichée si Level-Up, traduit Machine → TM)
+      let method = it?.Method || '';
+      if (method === 'Machine') method = 'TM';
+      const methodSup = method && method !== 'Level-Up'
+        ? `<sup class="smaller text-uppercase text-muted">${escapeHtml(method)}</sup>`
+        : '';
+
+      return `<span class="">${move}${tagsSup}${CFG.showMethodLabel ? methodSup : ""}</span>`;
+    });
+
+    return `
+    <div class="mt-3">
+      <h6 class="text-muted">${title}</h6>
+      <p class="mb-0">${parts.join(', ')}</p>
+    </div>
+  `;
+  }
+
 
 
   function renderObject(obj, depth = 0) {
@@ -968,10 +1049,10 @@
               <h5 class="text-muted">Level-Up Moves</h5>
               ${renderLevelUpMoves(v["Level Up Move List"])}
             </div>` : '';
-            blocks += renderStringList('TM/HM Moves', v["TM/HM Move List"]);
-            blocks += renderStringList('Egg Moves', v["Egg Move List"]);
-            blocks += renderStringList('Tutor Moves', v["Tutor Move List"]);
-            blocks += renderStringList('TM/Tutor Moves', v["TM/Tutor Moves List"]);
+            blocks += renderTmTutorMovesComma(v["TM/HM Move List"], 'TM/HM Moves');
+            blocks += renderTmTutorMovesComma(v["Egg Move List"], 'Egg Moves');
+            blocks += renderTmTutorMovesComma(v["Tutor Move List"], 'Tutor Moves');
+            blocks += renderTmTutorMovesComma(v["TM/Tutor Moves List"]);
 
             if (blocks.trim()) {
               const h = Math.min(4 + depth, 6);
@@ -1078,7 +1159,7 @@
       return html;
     }
 
-    // Fallback for primitives (shouldn’t really hit here)
+    // Fallback for primitives (shouldn't really hit here)
     return escapeHtml(String(obj));
   }
 
@@ -1141,7 +1222,7 @@
     const modalEl = document.getElementById('dexModal');
     if (modalEl) {
       modalEl.addEventListener('hidden.bs.modal', () => {
-        // Si jamais Bootstrap ne l’a pas retiré (plugins, CSS custom, etc.)
+        // Si jamais Bootstrap ne l'a pas retiré (plugins, CSS custom, etc.)
         document.querySelectorAll('.modal-backdrop').forEach(b => b.remove());
         document.body.classList.remove('modal-open');
         document.body.style.removeProperty('paddingRight');

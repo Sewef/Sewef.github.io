@@ -2130,14 +2130,14 @@
         "Contest Type": "Cool",
         "Contest Effect": "Inversed Appeal"
     },
-    "Façade": {
+    "Facade": {
         "Type": "Normal",
         "Frequency": "EOT",
         "AC": "2",
         "Damage Base": "Damage Base 7: 2d6+10 / 17",
         "Class": "Physical",
         "Range": "Melee, 1 Target",
-        "Effect": "If the user is afflicted with a Persistent Status Affliction, Façade's Damage Base is doubled to DB 14 (4d10+15 / 40).",
+        "Effect": "If the user is afflicted with a Persistent Status Affliction, Facade's Damage Base is doubled to DB 14 (4d10+15 / 40).",
         "Contest Type": "Cute",
         "Contest Effect": "Double Time"
     },
@@ -4194,6 +4194,17 @@
         "Effect": "All Legal Targets have their Special Defense lowered 2 Combat Stages.",
         "Contest Type": "Smart",
         "Contest Effect": "Unsettling"
+    },
+    "Meteor Assault": {
+        "Type": "Fighting",
+        "Frequency": "Daily x2",
+        "AC": "2",
+        "Damage Base": "Damage Base 15: 4d10+20 / 45",
+        "Class": "Physical",
+        "Range": "Burst 1, Smite, Exhaust",
+        "Contest Type": "Tough",
+        "Contest Effect": "Exhausting Act",
+        "Effect": "None."
     },
     "Meteor Beam": {
         "Type": "Rock",
@@ -7649,13 +7660,13 @@
         "Contest Type": "Smart",
         "Contest Effect": "Saving Grace"
     },
-    "Vename Drench": {
+    "Venom Drench": {
         "Type": "Poison",
         "Frequency": "EOT",
         "AC": "None",
         "Class": "Status",
         "Range": "Cone 2",
-        "Effect": "All Poisoned targets have their Attack, Special Attack, and Speed lowered by 1 Combat Stage. Vename Drench cannot miss.",
+        "Effect": "All Poisoned targets have their Attack, Special Attack, and Speed lowered by 1 Combat Stage. Venom Drench cannot miss.",
         "Contest Type": "Smart",
         "Contest Effect": "Sabotage"
     },

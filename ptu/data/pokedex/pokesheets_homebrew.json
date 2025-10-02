@@ -42832,56 +42832,84 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
+          "moveName": "Glint*",
+          "learnedLevel": 1
+        },
+        {
           "moveName": "Leer",
           "learnedLevel": 1
         },
         {
-          "moveName": "Metal Claw",
-          "learnedLevel": 1
-        },
-        {
-          "moveName": "Rock Smash",
+          "moveName": "Vacuum Wave",
           "learnedLevel": 6
         },
         {
           "moveName": "Hone Claws",
-          "learnedLevel": 12
-        },
-        {
-          "moveName": "Metal Sound",
-          "learnedLevel": 18
-        },
-        {
-          "moveName": "Breaking Swipe",
-          "learnedLevel": 24
+          "learnedLevel": 9
         },
         {
           "moveName": "Dragon Tail",
-          "learnedLevel": 30
+          "learnedLevel": 12
         },
         {
-          "moveName": "Iron Defense",
-          "learnedLevel": 36
+          "moveName": "Metal Claw",
+          "learnedLevel": 14
         },
         {
           "moveName": "Focus Energy",
-          "learnedLevel": 42
+          "learnedLevel": 17
         },
         {
-          "moveName": "Dragon Claw",
-          "learnedLevel": 48
+          "moveName": "Slash",
+          "learnedLevel": 20
+        },
+        {
+          "moveName": "Breaking Swipe",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Body Press",
+          "learnedLevel": 25
         },
         {
           "moveName": "Flash Cannon",
-          "learnedLevel": 54
+          "learnedLevel": 28
         },
         {
-          "moveName": "Metal Burst",
-          "learnedLevel": 60
+          "moveName": "Dragon Pulse",
+          "learnedLevel": 30
+        },
+        {
+          "moveName": "Hard Press",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Thunderbolt",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 38
         },
         {
           "moveName": "Hyper Beam",
-          "learnedLevel": 66
+          "learnedLevel": 41
+        },
+        {
+          "moveName": "Dragon Dance",
+          "learnedLevel": 44
+        },
+        {
+          "moveName": "Steel Beam",
+          "learnedLevel": 46
+        },
+        {
+          "moveName": "Mirror Coat",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Outrage",
+          "learnedLevel": 51
         }
       ],
       "machineMoves": [
@@ -84005,8 +84033,88 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
-          "moveName": "—",
+          "moveName": "Kowtow Cleave",
           "learnedLevel": 1
+        },
+        {
+          "moveName": "Scratch",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Leer",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Metal Claw",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Fury Cutter",
+          "learnedLevel": 4
+        },
+        {
+          "moveName": "Beat Up",
+          "learnedLevel": 7
+        },
+        {
+          "moveName": "Scary Face",
+          "learnedLevel": 10
+        },
+        {
+          "moveName": "Feint Attack",
+          "learnedLevel": 13
+        },
+        {
+          "moveName": "Aerial Ace",
+          "learnedLevel": 16
+        },
+        {
+          "moveName": "Slash",
+          "learnedLevel": 19
+        },
+        {
+          "moveName": "Metal Sound",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Iron Head",
+          "learnedLevel": 25
+        },
+        {
+          "moveName": "Torment",
+          "learnedLevel": 29
+        },
+        {
+          "moveName": "X-Scissor",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Night Slash",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Iron Defense",
+          "learnedLevel": 40
+        },
+        {
+          "moveName": "Retaliate",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Swords Dance",
+          "learnedLevel": 46
+        },
+        {
+          "moveName": "Assurance",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 52
+        },
+        {
+          "moveName": "Zantetsuken*",
+          "learnedLevel": 55
         }
       ],
       "machineMoves": [],
@@ -95155,8 +95263,88 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
-          "moveName": "—",
+          "moveName": "Electro Shot",
           "learnedLevel": 1
+        },
+        {
+          "moveName": "Glint*",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Leer",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Vacuum Wave",
+          "learnedLevel": 6
+        },
+        {
+          "moveName": "Hone Claws",
+          "learnedLevel": 9
+        },
+        {
+          "moveName": "Dragon Tail",
+          "learnedLevel": 12
+        },
+        {
+          "moveName": "Metal Claw",
+          "learnedLevel": 14
+        },
+        {
+          "moveName": "Focus Energy",
+          "learnedLevel": 17
+        },
+        {
+          "moveName": "Slash",
+          "learnedLevel": 20
+        },
+        {
+          "moveName": "Breaking Swipe",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Body Press",
+          "learnedLevel": 25
+        },
+        {
+          "moveName": "Flash Cannon",
+          "learnedLevel": 28
+        },
+        {
+          "moveName": "Dragon Pulse",
+          "learnedLevel": 30
+        },
+        {
+          "moveName": "Hard Press",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Thunderbolt",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 38
+        },
+        {
+          "moveName": "Hyper Beam",
+          "learnedLevel": 41
+        },
+        {
+          "moveName": "Dragon Dance",
+          "learnedLevel": 44
+        },
+        {
+          "moveName": "Steel Beam",
+          "learnedLevel": 46
+        },
+        {
+          "moveName": "Mirror Coat",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Outrage",
+          "learnedLevel": 51
         }
       ],
       "machineMoves": [],
@@ -250681,6 +250869,10 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
+          "moveName": "Kowtow Cleave",
+          "learnedLevel": 1
+        },
+        {
           "moveName": "Scratch",
           "learnedLevel": 1
         },
@@ -250689,64 +250881,76 @@
           "learnedLevel": 1
         },
         {
-          "moveName": "Fury Cutter",
-          "learnedLevel": 5
-        },
-        {
           "moveName": "Metal Claw",
-          "learnedLevel": 10
+          "learnedLevel": 1
         },
         {
-          "moveName": "Torment",
-          "learnedLevel": 15
+          "moveName": "Fury Cutter",
+          "learnedLevel": 4
         },
         {
-          "moveName": "Feint Attack",
-          "learnedLevel": 17
+          "moveName": "Beat Up",
+          "learnedLevel": 7
         },
         {
           "moveName": "Scary Face",
-          "learnedLevel": 20
+          "learnedLevel": 10
         },
         {
-          "moveName": "Assurance",
-          "learnedLevel": 25
+          "moveName": "Feint Attack",
+          "learnedLevel": 13
         },
         {
-          "moveName": "Metal Sound",
-          "learnedLevel": 30
+          "moveName": "Aerial Ace",
+          "learnedLevel": 16
         },
         {
           "moveName": "Slash",
-          "learnedLevel": 35
+          "learnedLevel": 19
         },
         {
-          "moveName": "Night Slash",
-          "learnedLevel": 40
-        },
-        {
-          "moveName": "Embargo",
-          "learnedLevel": 41
-        },
-        {
-          "moveName": "Iron Defense",
-          "learnedLevel": 45
-        },
-        {
-          "moveName": "Retaliate",
-          "learnedLevel": 50
+          "moveName": "Metal Sound",
+          "learnedLevel": 22
         },
         {
           "moveName": "Iron Head",
-          "learnedLevel": 55
+          "learnedLevel": 25
+        },
+        {
+          "moveName": "Torment",
+          "learnedLevel": 29
+        },
+        {
+          "moveName": "X-Scissor",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Night Slash",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Iron Defense",
+          "learnedLevel": 40
+        },
+        {
+          "moveName": "Retaliate",
+          "learnedLevel": 43
         },
         {
           "moveName": "Swords Dance",
-          "learnedLevel": 60
+          "learnedLevel": 46
         },
         {
-          "moveName": "Guillotine",
-          "learnedLevel": 65
+          "moveName": "Assurance",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 52
+        },
+        {
+          "moveName": "Zantetsuken*",
+          "learnedLevel": 55
         }
       ],
       "machineMoves": [
@@ -250935,107 +251139,158 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
-          "moveName": "Torment",
-          "learnedLevel": 15
+          "moveName": "Kowtow Cleave",
+          "learnedLevel": 1
         },
         {
-          "moveName": "Feint Attack",
-          "learnedLevel": 17
+          "moveName": "Scratch",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Leer",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Metal Claw",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Fury Cutter",
+          "learnedLevel": 4
+        },
+        {
+          "moveName": "Beat Up",
+          "learnedLevel": 7
         },
         {
           "moveName": "Scary Face",
-          "learnedLevel": 20
+          "learnedLevel": 10
         },
         {
-          "moveName": "Assurance",
-          "learnedLevel": 25
+          "moveName": "Feint Attack",
+          "learnedLevel": 13
         },
         {
-          "moveName": "Metal Sound",
-          "learnedLevel": 30
+          "moveName": "Aerial Ace",
+          "learnedLevel": 16
         },
         {
           "moveName": "Slash",
-          "learnedLevel": 35
+          "learnedLevel": 19
         },
         {
-          "moveName": "Night Slash",
-          "learnedLevel": 40
-        },
-        {
-          "moveName": "Embargo",
-          "learnedLevel": 41
-        },
-        {
-          "moveName": "Iron Defense",
-          "learnedLevel": 45
-        },
-        {
-          "moveName": "Retaliate",
-          "learnedLevel": 50
+          "moveName": "Metal Sound",
+          "learnedLevel": 22
         },
         {
           "moveName": "Iron Head",
-          "learnedLevel": 57
+          "learnedLevel": 25
+        },
+        {
+          "moveName": "Torment",
+          "learnedLevel": 29
+        },
+        {
+          "moveName": "X-Scissor",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Night Slash",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Iron Defense",
+          "learnedLevel": 40
+        },
+        {
+          "moveName": "Retaliate",
+          "learnedLevel": 43
         },
         {
           "moveName": "Swords Dance",
-          "learnedLevel": 64
+          "learnedLevel": 46
         },
         {
-          "moveName": "Guillotine",
-          "learnedLevel": 71
+          "moveName": "Assurance",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 52
+        },
+        {
+          "moveName": "Zantetsuken*",
+          "learnedLevel": 55
         }
       ],
-      "machineMoves": [
-        "Aerial Ace",
+      "machineMoves": [],
+      "eggMoves": [],
+      "tutorMoves": [
         "Air Slash",
+        "Aqua Cutter",
+        "Attract",
         "Brick Break",
+        "Brutal Swing,",
+        "Ceaseless Edge",
+        "Confide",
         "Dark Pulse",
         "Dig",
+        "Double Team,",
+        "Dual Chop",
         "Endure",
         "Facade",
         "False Swipe",
-        "Flash Cannon",
+        "Flash Cannon,",
         "Fling",
         "Focus Blast",
         "Foul Play",
-        "Giga Impact",
+        "Frustration",
+        "Giga Impact,",
         "Grass Knot",
+        "Guillotine",
+        "Headbutt",
+        "Hidden Power,",
         "Hyper Beam",
+        "Knock Off",
         "Lash Out",
         "Low Kick",
-        "Low Sweep",
-        "Metal Claw",
+        "Low Sweep,",
+        "Magnet Rise",
+        "Mean Look",
+        "Metal Burst",
+        "Metal Sound,",
         "Poison Jab",
         "Protect",
+        "Psycho Cut",
+        "Quick Guard,",
         "Rain Dance",
         "Rest",
+        "Return",
         "Reversal",
         "Rock Tomb",
+        "Role Play,",
+        "Round",
         "Sandstorm",
         "Shadow Claw",
         "Sleep Talk",
         "Snarl",
+        "Snatch,",
+        "Snore",
         "Spite",
         "Stealth Rock",
         "Steel Beam",
-        "Stone Edge",
+        "Stone Edge,",
         "Substitute",
+        "Sucker Punch",
+        "Swagger",
         "Take Down",
-        "Taunt",
+        "Taunt,",
         "Tera Blast",
         "Thief",
         "Throat Chop",
         "Thunder Wave",
-        "X-Scissor"
-      ],
-      "eggMoves": [],
-      "tutorMoves": [
-        "Fury Cutter",
-        "Leer",
-        "Metal Burst",
-        "Scratch"
+        "Toxic,",
+        "Zen Headbutt"
       ]
     },
     "abilityLearnset": {

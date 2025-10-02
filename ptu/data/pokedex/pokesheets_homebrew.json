@@ -26,8 +26,8 @@
     "size": "Small",
     "weight": "3.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying"
     ],
@@ -275,8 +275,8 @@
     "size": "Small",
     "weight": "35.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying"
     ],
@@ -515,8 +515,8 @@
     "size": "Medium",
     "weight": "80.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying"
     ],
@@ -788,8 +788,8 @@
     "size": "Small",
     "weight": "9.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -1026,8 +1026,8 @@
     "size": "Small",
     "weight": "55.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -1254,8 +1254,8 @@
     "size": "Medium",
     "weight": "183",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -1515,8 +1515,8 @@
     "size": "Small",
     "weight": "16.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -1756,8 +1756,8 @@
     "size": "Small",
     "weight": "38.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -1988,8 +1988,8 @@
     "size": null,
     "weight": null,
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -4528,8 +4528,8 @@
     "size": "Small",
     "weight": "7.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Flying"
     ],
@@ -5734,7 +5734,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "G rassland",
+      "Grassland",
       "Mountain"
     ],
     "diets": [
@@ -8927,8 +8927,8 @@
     "size": "Small",
     "weight": "10.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Dragon",
       "Monster"
@@ -9175,8 +9175,8 @@
     "size": "Medium",
     "weight": "48.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Dragon",
       "Monster"
@@ -9891,8 +9891,8 @@
     "size": "Small",
     "weight": "1.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -10096,8 +10096,8 @@
     "size": "Small",
     "weight": "18.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -10303,8 +10303,8 @@
     "size": "Medium",
     "weight": "47.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -10524,8 +10524,8 @@
     "size": "Small",
     "weight": "0.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Plant"
     ],
@@ -17111,8 +17111,8 @@
     "size": "Small",
     "weight": "21.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -17368,8 +17368,8 @@
     "size": "Medium",
     "weight": "43.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -22937,7 +22937,7 @@
     "malePercent": 50.0,
     "femalePercent": 50.0,
     "eggGroups": [
-      "N one"
+      "None"
     ],
     "hatchRate": null,
     "habitats": [
@@ -27361,8 +27361,8 @@
     "size": "Small",
     "weight": "11",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -27590,8 +27590,8 @@
     "size": "Small",
     "weight": "30.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -27814,8 +27814,8 @@
     "size": "Large",
     "weight": "198.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -28061,8 +28061,8 @@
     "size": "Small",
     "weight": "9.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -28286,8 +28286,8 @@
     "size": "Small",
     "weight": "19.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -28504,8 +28504,8 @@
     "size": "Medium",
     "weight": "72.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -28746,8 +28746,8 @@
     "size": "Small",
     "weight": "8.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -28964,8 +28964,8 @@
     "size": "Small",
     "weight": "25.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -29173,8 +29173,8 @@
     "size": "Medium",
     "weight": "99.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -37361,8 +37361,8 @@
     "size": "Small",
     "weight": "7.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -37585,8 +37585,8 @@
     "size": "Small",
     "weight": "10.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -37798,8 +37798,8 @@
     "size": "Large",
     "weight": "11.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -38026,8 +38026,8 @@
     "size": "Small",
     "weight": "12.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Fairy",
       "Humanshape"
@@ -38255,8 +38255,8 @@
     "size": "Small",
     "weight": "27.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Fairy",
       "Humanshape"
@@ -38477,8 +38477,8 @@
     "size": "Medium",
     "weight": "134.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Fairy",
       "Humanshape"
@@ -38717,8 +38717,8 @@
     "size": "Small",
     "weight": "0.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy",
       "Indeterminate"
@@ -38922,8 +38922,8 @@
     "size": "Small",
     "weight": "1.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy",
       "Indeterminate"
@@ -42961,7 +42961,7 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Light Metal or Heavy Metal",
+          "name": "Light Metalor Heavy Metal",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -43026,7 +43026,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Light Metal or Heavy Metal"
+      "Light Metalor Heavy Metal"
     ],
     "advancedAbilities": [
       "Confidence",
@@ -45945,8 +45945,8 @@
     "size": "Small",
     "weight": "1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -46198,8 +46198,8 @@
     "size": "Medium",
     "weight": "0.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -51030,8 +51030,8 @@
     "size": "Small",
     "weight": "26.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "None"
     ],
@@ -51250,8 +51250,8 @@
     "size": "Large",
     "weight": "231.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "None"
     ],
@@ -51486,8 +51486,8 @@
     "size": "Large",
     "weight": "231.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "None"
     ],
@@ -54461,8 +54461,8 @@
     "size": "Medium",
     "weight": "81.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying"
     ],
@@ -54709,8 +54709,8 @@
     "size": "Medium",
     "weight": "153.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -54958,8 +54958,8 @@
     "size": "Medium",
     "weight": "128.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -55206,8 +55206,8 @@
     "size": "Small",
     "weight": "50.0",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Field"
     ],
@@ -55451,8 +55451,8 @@
     "size": "Large",
     "weight": "370.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Field"
     ],
@@ -57170,8 +57170,8 @@
     "size": "Medium",
     "weight": "42.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -57385,8 +57385,8 @@
     "size": "Small",
     "weight": "27.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -57629,8 +57629,8 @@
     "size": "Medium",
     "weight": "178.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -57876,8 +57876,8 @@
     "size": "Medium",
     "weight": "95.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Flying"
     ],
@@ -60049,7 +60049,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non -Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -60288,7 +60288,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non -Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -60521,8 +60521,8 @@
     "size": "Medium",
     "weight": "105.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "None"
     ],
@@ -60760,8 +60760,8 @@
     "size": "Medium",
     "weight": "105.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "None"
     ],
@@ -61113,7 +61113,7 @@
         "Leaf Storm",
         "Leech Seed",
         "Magical Leaf",
-        "Mud- Slap",
+        "Mud-Slap",
         "Nasty Plot",
         "Petal Blizzard",
         "Pounce",
@@ -61398,7 +61398,7 @@
         "Sucker Punch",
         "Swagger",
         "Swift",
-        "Ta ke Down",
+        "Take Down",
         "Taunt",
         "Tera Blast",
         "Thunder Punch",
@@ -61426,11 +61426,11 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Sleight of Hand",
-          "effect": "The triggering Move instead has an AC of 2, but one legal target is Flinched on a successful hit. A target can only be flinched once per Scene by this effect. This effect must be declared before making the attack.",
-          "trigger": "The user attacks with a damaging Move that cannot miss.",
+          "name": "Sleightof Hand",
+          "effect": null,
+          "trigger": null,
           "target": null,
-          "frequency": "At-Will – Free Action"
+          "frequency": null
         },
         {
           "name": "Protean",
@@ -61486,7 +61486,7 @@
       "Pickpocket"
     ],
     "advancedAbilities": [
-      "Sleight of Hand",
+      "Sleightof Hand",
       "Protean"
     ],
     "highAbilities": [
@@ -61719,11 +61719,11 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Sleight of Hand",
-          "effect": "The triggering Move instead has an AC of 2, but one legal target is Flinched on a successful hit. A target can only be flinched once per Scene by this effect. This effect must be declared before making the attack.",
-          "trigger": "The user attacks with a damaging Move that cannot miss.",
+          "name": "Sleightof Hand",
+          "effect": null,
+          "trigger": null,
           "target": null,
-          "frequency": "At-Will – Free Action"
+          "frequency": null
         },
         {
           "name": "Protean",
@@ -61779,7 +61779,7 @@
       "Magician"
     ],
     "advancedAbilities": [
-      "Sleight of Hand",
+      "Sleightof Hand",
       "Protean"
     ],
     "highAbilities": [
@@ -62548,7 +62548,7 @@
         "Seed Bomb",
         "Shadow Claw",
         "Sing",
-        "Sla ck Off",
+        "Slack Off",
         "Sleep Talk",
         "Sludge Wave",
         "Snore",
@@ -64715,13 +64715,13 @@
         "Scary Face",
         "Seed Bomb",
         "Shadow Claw",
-        "Slee p Talk",
+        "Sleep Talk",
         "Smack Down",
         "Spikes",
         "Stone Edge",
         "Substitute",
         "Sucker Punch",
-        "S unny Day",
+        "Sunny Day",
         "Swagger",
         "Take Down",
         "Taunt",
@@ -66407,7 +66407,7 @@
         "Toxic",
         "Trailblaze",
         "U-Turn",
-        "Wate r Pulse"
+        "Water Pulse"
       ]
     },
     "abilityLearnset": {
@@ -66928,7 +66928,7 @@
         "Snarl",
         "Stomping Tantrum",
         "Substitute",
-        "Sugar Rush",
+        "Sugar Rush*",
         "Sunny Day",
         "Swagger",
         "Sweet Scent",
@@ -67188,7 +67188,7 @@
         "Misty Explosion",
         "Misty Terrain",
         "Mud Shot",
-        "Mud- Slap",
+        "Mud-Slap",
         "Protect",
         "Psychic Fangs",
         "Rain Dance",
@@ -67200,7 +67200,7 @@
         "Snarl",
         "Stomping Tantrum",
         "Substitute",
-        "Sugar Rush",
+        "Sugar Rush*",
         "Sunny Day",
         "Swagger",
         "Sweet Scent",
@@ -67451,7 +67451,7 @@
         "Giga Drain",
         "Grass Knot",
         "Grassy Glide",
-        "``Gunk Shot",
+        "Gunk Shot",
         "Hidden Power",
         "Leaf Storm",
         "Magical Leaf",
@@ -71802,7 +71802,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Gunk shot",
+          "moveName": "Gunkshot",
           "learnedLevel": 44
         },
         {
@@ -71822,7 +71822,7 @@
         "Cut",
         "Dig",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Encore",
         "Endeavor",
         "Endure",
@@ -72087,7 +72087,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Gunk shot",
+          "moveName": "Gunkshot",
           "learnedLevel": 44
         },
         {
@@ -72107,7 +72107,7 @@
         "Cut",
         "Dig",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Encore",
         "Endeavor",
         "Endure",
@@ -73001,7 +73001,7 @@
         "Swift",
         "Taunt",
         "Tera Blast",
-        "T ickle",
+        "Tickle",
         "Toxic",
         "Toxic Spikes",
         "Trailblaze",
@@ -73573,7 +73573,7 @@
         "Smack Down",
         "Stealth Rock",
         "Stomping Tantrum",
-        "Su bstitute",
+        "Substitute",
         "Sucker Punch",
         "Sunny Day",
         "Swagger",
@@ -75213,7 +75213,7 @@
         "Roost",
         "Round",
         "Sandstorm",
-        "Seed Bom b",
+        "Seed Bomb",
         "Shadow Ball",
         "Skill Swap",
         "Sleep Talk",
@@ -75399,7 +75399,7 @@
           "learnedLevel": 14
         },
         {
-          "moveName": "Crush* [Dizzy Punch w/ Infatuate]",
+          "moveName": "Crush* [Dizzy Punchw/ Infatuate]",
           "learnedLevel": 17
         },
         {
@@ -75663,7 +75663,7 @@
           "learnedLevel": 14
         },
         {
-          "moveName": "Crush* [Dizzy Punch w/ Infatuate]",
+          "moveName": "Crush* [Dizzy Punchw/ Infatuate]",
           "learnedLevel": 17
         },
         {
@@ -75935,7 +75935,7 @@
           "learnedLevel": 14
         },
         {
-          "moveName": "Crush* [Dizzy Punch w/ Infatuate]",
+          "moveName": "Crush* [Dizzy Punchw/ Infatuate]",
           "learnedLevel": 17
         },
         {
@@ -76577,7 +76577,7 @@
         "Memento",
         "Mud Bomb",
         "Mud Shot",
-        "Mud- Slap",
+        "Mud-Slap",
         "Muddy Water",
         "Outrage",
         "Pain Split",
@@ -76592,7 +76592,7 @@
         "Sandstorm",
         "Screech",
         "Sleep Talk",
-        "Sto mping Tantrum",
+        "Stomping Tantrum",
         "Stone Edge",
         "Substitute",
         "Surf",
@@ -77442,11 +77442,11 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Zero to Hero",
-          "effect": "The user is removed from the field. When they gain Initiative the next time, choose an ally or the triggering foe. The user reappears on a square adjacent to the chosen target in Hero forme. The user returns to Zero forme when combat ends. Innate.",
-          "trigger": "An ally is Fainted by a foe",
+          "name": "Zeroto Hero",
+          "effect": null,
+          "trigger": null,
           "target": null,
-          "frequency": "Scene – Shift Action"
+          "frequency": null
         }
       ],
       "advancedAbilities": [
@@ -77507,7 +77507,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Zero to Hero"
+      "Zeroto Hero"
     ],
     "advancedAbilities": [
       "Run Away",
@@ -77728,11 +77728,11 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Zero to Hero",
-          "effect": "The user is removed from the field. When they gain Initiative the next time, choose an ally or the triggering foe. The user reappears on a square adjacent to the chosen target in Hero forme. The user returns to Zero forme when combat ends. Innate.",
-          "trigger": "An ally is Fainted by a foe",
+          "name": "Zeroto Hero",
+          "effect": null,
+          "trigger": null,
           "target": null,
-          "frequency": "Scene – Shift Action"
+          "frequency": null
         }
       ],
       "advancedAbilities": [
@@ -77793,7 +77793,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Zero to Hero"
+      "Zeroto Hero"
     ],
     "advancedAbilities": [
       "Justified",
@@ -77944,7 +77944,7 @@
         "Confide",
         "Curse",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Flash Cannon",
@@ -78217,7 +78217,7 @@
         "Confide",
         "Curse",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -78243,7 +78243,7 @@
         "Round",
         "Sandstorm",
         "Scary Face",
-        "Self- Destruct",
+        "Self-Destruct",
         "Sleep Talk",
         "Sludge",
         "Sludge Bomb",
@@ -79719,9 +79719,9 @@
       "Power": 1,
       "Sky": 0,
       "Levitate": 0,
-      "Darkvision, Dead Silent, Tracker, Glow, Phasing, Shrinkable, Pack mon, Underdog": -1
+      "Darkvision, Dead Silent, Tracker, Glow, Phasing, Shrinkable, Packmon, Underdog": -1
     },
-    "otherCapabilities": "Darkvision, Dead Silent, Tracker, Glow, Phasing, Shrinkable, Pack mon, Underdog"
+    "otherCapabilities": "Darkvision, Dead Silent, Tracker, Glow, Phasing, Shrinkable, Packmon, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -79897,7 +79897,7 @@
         "Sunny Day",
         "Swagger",
         "Take Down",
-        "Ter a Blast",
+        "Tera Blast",
         "Thief",
         "Thunder Fang",
         "Toxic",
@@ -80001,9 +80001,9 @@
       "Power": 2,
       "Sky": 0,
       "Levitate": 0,
-      "Darkvision, Dead Silent, Tracker, Phasing, Shrinkable, Pack mon": -1
+      "Darkvision, Dead Silent, Tracker, Phasing, Shrinkable, Packmon": -1
     },
-    "otherCapabilities": "Darkvision, Dead Silent, Tracker, Phasing, Shrinkable, Pack mon"
+    "otherCapabilities": "Darkvision, Dead Silent, Tracker, Phasing, Shrinkable, Packmon"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -80972,7 +80972,7 @@
         "Hidden Power",
         "Hydro Pump",
         "Hyper Beam",
-        "I ce Beam",
+        "Ice Beam",
         "Ice Fang",
         "Icy Wind",
         "Iron Head",
@@ -80992,7 +80992,7 @@
         "Sleep Talk",
         "Snowscape",
         "Steel Wing",
-        "Stored Pow er",
+        "Stored Power",
         "Substitute",
         "Surf",
         "Swagger",
@@ -81232,7 +81232,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Aqua Tai l",
+          "moveName": "Aqua Tail",
           "learnedLevel": 40
         },
         {
@@ -82617,7 +82617,7 @@
         "Curse",
         "Dig",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Drain Punch",
         "Dual Chop",
         "Dynamic Punch",
@@ -82945,7 +82945,7 @@
         "Stockpile",
         "Stone Edge",
         "Substitute",
-        "S urf",
+        "Surf",
         "Swagger",
         "Swallow",
         "Take Down",
@@ -83200,7 +83200,8 @@
         "Heavy Slam",
         "Helping Hand",
         "Hidden Power",
-        "High Horsepower Hydro Pump",
+        "High Horsepower",
+        "Hydro Pump",
         "Hyper Beam",
         "Iron Head",
         "Liquidation",
@@ -83515,7 +83516,7 @@
         "Magic Coat",
         "Mean Look",
         "Mirror Coat",
-        "Mud- Slap",
+        "Mud-Slap",
         "Night Shade",
         "Protect",
         "Psych Up",
@@ -83531,7 +83532,7 @@
         "Retaliate",
         "Return",
         "Roar",
-        "Rock Sma sh",
+        "Rock Smash",
         "Role Play",
         "Round",
         "Secret Power",
@@ -84571,7 +84572,7 @@
           "learnedLevel": 20
         },
         {
-          "moveName": "Crush* [Dizzy Punch w/ Infatuate]",
+          "moveName": "Crush* [Dizzy Punchw/ Infatuate]",
           "learnedLevel": 24
         },
         {
@@ -85464,8 +85465,8 @@
         "Toxic",
         "Trailblaze",
         "U-Turn",
-        "Wil d Charge",
-        "Will-O- Wisp",
+        "Wild Charge",
+        "Will-O-Wisp",
         "Zen Headbutt"
       ]
     },
@@ -88156,7 +88157,7 @@
         "Stomping Tantrum",
         "Substitute",
         "Swagger",
-        "S words Dance",
+        "Swords Dance",
         "Tera Blast",
         "Thunder Fang",
         "Toxic",
@@ -88615,7 +88616,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Make it Rain",
+          "moveName": "Makeit Rain",
           "learnedLevel": 48
         },
         {
@@ -88671,11 +88672,11 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Good As Gold",
-          "effect": "For one full round, if the triggering foe uses an Attack that doesn't target the user, that foe becomes Slowed for one full round. If the foe then is adjacent to the user, they instead become Stuck. The user is immune to Status Moves used by foes. Defensive.",
-          "trigger": "The user attacks a foe",
+          "name": "Goodas Gold",
+          "effect": null,
+          "trigger": null,
           "target": null,
-          "frequency": "At-Will – Swift Action"
+          "frequency": null
         }
       ],
       "advancedAbilities": [
@@ -88736,7 +88737,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Good as Gold"
+      "Goodas Gold"
     ],
     "advancedAbilities": [
       "Clear Body",
@@ -88986,11 +88987,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Tablets of Ruin",
-          "effect": "Blessing – Any user affected by Tablets of Ruin may activate it when receiving Physical Damage to resist the damage one step. Tablets of Ruin may be activated 2 times, then disappears.",
+          "name": "Tabletsof Ruin",
+          "effect": null,
           "trigger": null,
           "target": null,
-          "frequency": "Scene – Swift Action"
+          "frequency": null
         }
       ]
     },
@@ -89034,7 +89035,7 @@
       "Forest Lord"
     ],
     "highAbilities": [
-      "Tablets of Ruin"
+      "Tabletsof Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89279,11 +89280,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Sword of Ruin",
-          "effect": "Blessing – Any user affected by Sword of Ruin may activate it when dealing Physical Damage to deal damage one step more effectively against one target of their attack. Sword of Ruin may be activated 2 times, then disappears.",
+          "name": "Swordof Ruin",
+          "effect": null,
           "trigger": null,
           "target": null,
-          "frequency": "Scene – Swift Action"
+          "frequency": null
         }
       ]
     },
@@ -89327,7 +89328,7 @@
       "Super Luck"
     ],
     "highAbilities": [
-      "Sword of Ruin"
+      "Swordof Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89570,11 +89571,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Vessel of Ruin",
-          "effect": "Blessing – Any user affected by Vessel of Ruin may activate it when receiving Special Damage to resist the damage one step. Vessel of Ruin may be activated 2 times, then disappears.",
+          "name": "Vesselof Ruin",
+          "effect": null,
           "trigger": null,
           "target": null,
-          "frequency": "Scene – Swift Action"
+          "frequency": null
         }
       ]
     },
@@ -89618,7 +89619,7 @@
       "Solid Rock"
     ],
     "highAbilities": [
-      "Vessel of Ruin"
+      "Vesselof Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89856,11 +89857,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Beads of Ruin",
-          "effect": "Blessing – Any user affected by Beads of Ruin may activate it when dealing Special Damage to deal damage one step more effectively against one target of their attack. Beads of Ruin may be activated 2 times, then disappears.",
+          "name": "Beadsof Ruin",
+          "effect": null,
           "trigger": null,
           "target": null,
-          "frequency": "Scene – Swift Action"
+          "frequency": null
         }
       ]
     },
@@ -89904,7 +89905,7 @@
       "Heat Mirage"
     ],
     "highAbilities": [
-      "Beads of Ruin"
+      "Beadsof Ruin"
     ],
     "capabilities": {
       "Overland": 7,
@@ -90685,7 +90686,7 @@
         "U-Turn",
         "Uproar",
         "Wild Charge",
-        "Zen Head butt"
+        "Zen Headbutt"
       ]
     },
     "abilityLearnset": {
@@ -91531,7 +91532,7 @@
         "Thunder Fang",
         "Toxic",
         "Weather Ball",
-        "Wither"
+        "Wither*"
       ]
     },
     "abilityLearnset": {
@@ -91797,7 +91798,7 @@
         "Supercell Slam",
         "Swagger",
         "Take Down",
-        "T aunt",
+        "Taunt",
         "Tera Blast",
         "Thunder Fang",
         "Thunder Wave",
@@ -92077,7 +92078,7 @@
         "Swift",
         "Take Down",
         "Taunt",
-        "Ter a Blast",
+        "Tera Blast",
         "Throat Chop",
         "Toxic",
         "Wild Charge",
@@ -92307,7 +92308,7 @@
         "Bulldoze",
         "Confide",
         "Double Team",
-        "Double- Edge",
+        "Double-Edge",
         "Earthquake",
         "Electric Terrain",
         "Endure",
@@ -92866,7 +92867,7 @@
         "Solar Beam",
         "Substitute",
         "Sucker Punch",
-        "Sugar Rush",
+        "Sugar Rush*",
         "Sunny Day",
         "Swagger",
         "Take Down",
@@ -93157,7 +93158,7 @@
         "Solar Beam",
         "Substitute",
         "Sucker Punch",
-        "Sugar Rush",
+        "Sugar Rush*",
         "Sunny Day",
         "Swagger",
         "Take Down",
@@ -93712,7 +93713,7 @@
         "Tera Blast",
         "Toxic",
         "Trick Room",
-        "U proar"
+        "Uproar"
       ]
     },
     "abilityLearnset": {
@@ -93986,7 +93987,7 @@
         "Snarl",
         "Spite",
         "Stomping Tantrum",
-        "Subs titute",
+        "Substitute",
         "Swagger",
         "Take Down",
         "Tera Blast",
@@ -94817,7 +94818,7 @@
         "Stomping Tantrum",
         "Substitute",
         "Sunny Day",
-        "S wagger",
+        "Swagger",
         "Swords Dance",
         "Take Down",
         "Taunt",
@@ -95070,7 +95071,7 @@
         "Counter",
         "Crunch",
         "Dig",
-        "Double- Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -95393,7 +95394,7 @@
         "Solar Beam",
         "Stealth Rock",
         "Steel Roller",
-        "Stompi ng Tantrum",
+        "Stomping Tantrum",
         "Stone Edge",
         "Substitute",
         "Swagger",
@@ -96038,8 +96039,8 @@
     "size": "Small",
     "weight": "15.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -96281,8 +96282,8 @@
     "size": "Medium",
     "weight": "28.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -96514,8 +96515,8 @@
     "size": "Large",
     "weight": "220.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -96760,8 +96761,8 @@
     "size": "Small",
     "weight": "18.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -97010,8 +97011,8 @@
     "size": "Medium",
     "weight": "41.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -97247,8 +97248,8 @@
     "size": "Medium",
     "weight": "199.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -97505,8 +97506,8 @@
     "size": "Small",
     "weight": "19.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -97753,8 +97754,8 @@
     "size": "Medium",
     "weight": "49.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -97990,8 +97991,8 @@
     "size": "Medium",
     "weight": "188.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -98508,9 +98509,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Na -turewalk (Grassland, Forest), Threaded, Underdog": -1
+      "Naturewalk (Grassland, Forest), Threaded, Underdog": -1
     },
-    "otherCapabilities": "Na -turewalk (Grassland, Forest), Threaded, Underdog"
+    "otherCapabilities": "Naturewalk (Grassland, Forest), Threaded, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -99033,9 +99034,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Na -turewalk (Grassland, Forest), Threaded, Underdog": -1
+      "Naturewalk (Grassland, Forest), Threaded, Underdog": -1
     },
-    "otherCapabilities": "Na -turewalk (Grassland, Forest), Threaded, Underdog"
+    "otherCapabilities": "Naturewalk (Grassland, Forest), Threaded, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -102421,8 +102422,8 @@
     "size": "Small",
     "weight": "15.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -102657,8 +102658,8 @@
     "size": "Small",
     "weight": "44.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -102876,8 +102877,8 @@
     "size": "Medium",
     "weight": "132.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -103142,8 +103143,8 @@
     "size": "Small",
     "weight": "19.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -103381,8 +103382,8 @@
     "size": "Small",
     "weight": "43",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -103600,8 +103601,8 @@
     "size": "Medium",
     "weight": "136.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Monster",
       "Field"
@@ -103866,8 +103867,8 @@
     "size": "Small",
     "weight": "16.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -104156,8 +104157,8 @@
     "size": "Medium",
     "weight": "88.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -104449,8 +104450,8 @@
     "size": "Small",
     "weight": "21.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -104700,8 +104701,8 @@
     "size": "Medium",
     "weight": "43.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -104956,8 +104957,8 @@
     "size": "Small",
     "weight": "12.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -105238,8 +105239,8 @@
     "size": "Medium",
     "weight": "26.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -109724,8 +109725,8 @@
     "size": "Small",
     "weight": "41.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Field"
     ],
@@ -109976,8 +109977,8 @@
     "size": "Large",
     "weight": "341.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Field"
     ],
@@ -110976,8 +110977,8 @@
     "size": "Small",
     "weight": "43",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -111178,8 +111179,8 @@
     "size": "Medium",
     "weight": "124.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -111424,8 +111425,8 @@
     "size": "Medium",
     "weight": "105.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -111672,8 +111673,8 @@
     "size": "Small",
     "weight": "43",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -111937,8 +111938,8 @@
     "size": "Medium",
     "weight": "155.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -112185,8 +112186,8 @@
     "size": "Medium",
     "weight": "286.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -121602,8 +121603,8 @@
     "size": "Medium",
     "weight": "109.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -121865,8 +121866,8 @@
     "size": "Medium",
     "weight": "110.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -123376,8 +123377,8 @@
     "size": "Medium",
     "weight": "76.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -123912,8 +123913,8 @@
     "size": "Medium",
     "weight": "176.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Monster"
     ],
@@ -126098,8 +126099,8 @@
     "size": "Medium",
     "weight": "89.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -126361,8 +126362,8 @@
     "size": "Medium",
     "weight": "66.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -126600,8 +126601,8 @@
     "size": "Medium",
     "weight": "98.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -127093,8 +127094,8 @@
     "size": "Medium",
     "weight": "194.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Field"
     ],
@@ -128169,8 +128170,8 @@
     "size": "Small",
     "weight": "14.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -128412,8 +128413,8 @@
     "size": "Medium",
     "weight": "63.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -128652,8 +128653,8 @@
     "size": "Medium",
     "weight": "54",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -128893,8 +128894,8 @@
     "size": "Medium",
     "weight": "55.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -129374,8 +129375,8 @@
     "size": "Small",
     "weight": "16.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -129623,8 +129624,8 @@
     "size": "Medium",
     "weight": "77.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -129857,8 +129858,8 @@
     "size": "Small",
     "weight": "25.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -130104,8 +130105,8 @@
     "size": "Medium",
     "weight": "89.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -130350,8 +130351,8 @@
     "size": "Huge",
     "weight": "130.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying"
     ],
@@ -130603,8 +130604,8 @@
     "size": "Large",
     "weight": "1014.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -133057,8 +133058,8 @@
     "size": "Small",
     "weight": "14.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -133298,8 +133299,8 @@
     "size": "Medium",
     "weight": "34.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -133530,8 +133531,8 @@
     "size": "Large",
     "weight": "221.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -133778,8 +133779,8 @@
     "size": "Small",
     "weight": "17.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -134020,8 +134021,8 @@
     "size": "Small",
     "weight": "41.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -134256,8 +134257,8 @@
     "size": "Medium",
     "weight": "175.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -134510,8 +134511,8 @@
     "size": "Small",
     "weight": "20.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -134772,8 +134773,8 @@
     "size": "Medium",
     "weight": "55.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -135028,8 +135029,8 @@
     "size": "Large",
     "weight": "195.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -138216,8 +138217,8 @@
     "size": "Small",
     "weight": "6.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -138444,8 +138445,8 @@
     "size": "Small",
     "weight": "2.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -138670,8 +138671,8 @@
     "size": "Small",
     "weight": "3.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Fairy"
     ],
@@ -138928,8 +138929,8 @@
     "size": "Small",
     "weight": "7.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying",
       "Fairy"
@@ -139406,9 +139407,9 @@
       "Power": 1,
       "Levitate": 0,
       "Burrow": 0,
-      "Un -derdog": -1
+      "Underdog": -1
     },
-    "otherCapabilities": "Un -derdog"
+    "otherCapabilities": "Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -143793,8 +143794,8 @@
     "size": "Medium",
     "weight": "58.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -144043,8 +144044,8 @@
     "size": "Medium",
     "weight": "59.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -147042,8 +147043,8 @@
     "size": "Small",
     "weight": "17.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field",
       "Fairy"
@@ -147318,8 +147319,8 @@
     "size": "Medium",
     "weight": "107.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field",
       "Fairy"
@@ -150391,8 +150392,8 @@
     "size": "Small",
     "weight": "11",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -153701,8 +153702,8 @@
     "size": "Small",
     "weight": "46.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -153895,8 +153896,8 @@
     "size": "Medium",
     "weight": "105.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -154133,8 +154134,8 @@
     "size": "Small",
     "weight": "13.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -154387,8 +154388,8 @@
     "size": "Small",
     "weight": "51.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -154629,8 +154630,8 @@
     "size": "Small",
     "weight": "47.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -154873,8 +154874,8 @@
     "size": "Medium",
     "weight": "166.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Field"
     ],
@@ -155139,8 +155140,8 @@
     "size": "Medium",
     "weight": "103.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -157690,8 +157691,8 @@
     "size": "Small",
     "weight": "11",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -157945,8 +157946,8 @@
     "size": "Medium",
     "weight": "47.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -158196,8 +158197,8 @@
     "size": "Medium",
     "weight": "115.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Dragon"
@@ -158465,8 +158466,8 @@
     "size": "Small",
     "weight": "5.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -158715,8 +158716,8 @@
     "size": "Small",
     "weight": "43",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -158972,8 +158973,8 @@
     "size": "Medium",
     "weight": "114.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -159241,8 +159242,8 @@
     "size": "Small",
     "weight": "16.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -159497,8 +159498,8 @@
     "size": "Small",
     "weight": "61.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -159754,8 +159755,8 @@
     "size": "Medium",
     "weight": "180.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Water 1"
@@ -163380,9 +163381,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Darkvi -sion, Naturewalk (Grassland, Forest)": -1
+      "Darkvision, Naturewalk (Grassland, Forest)": -1
     },
-    "otherCapabilities": "Darkvi -sion, Naturewalk (Grassland, Forest)"
+    "otherCapabilities": "Darkvision, Naturewalk (Grassland, Forest)"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -163602,9 +163603,9 @@
       "Power": 1,
       "Levitate": 0,
       "Burrow": 0,
-      "Un -derdog": -1
+      "Underdog": -1
     },
-    "otherCapabilities": "Un -derdog"
+    "otherCapabilities": "Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -168067,8 +168068,8 @@
     "size": "Medium",
     "weight": "190.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -168330,8 +168331,8 @@
     "size": "Medium",
     "weight": "559.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -168587,8 +168588,8 @@
     "size": "Small",
     "weight": "4.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Water 1",
       "Fairy"
@@ -169047,8 +169048,8 @@
     "size": "Small",
     "weight": "24.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field",
       "Fairy"
@@ -169326,8 +169327,8 @@
     "size": "Medium",
     "weight": "71.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field",
       "Fairy"
@@ -172403,8 +172404,8 @@
     "size": "Small",
     "weight": "39",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Bug",
       "Humanshape"
@@ -172664,8 +172665,8 @@
     "size": "Small",
     "weight": "39",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Bug",
       "Humanshape"
@@ -180520,8 +180521,8 @@
     "size": "Medium",
     "weight": "52.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 3"
     ],
@@ -180758,8 +180759,8 @@
     "size": "Medium",
     "weight": "133.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 3"
     ],
@@ -180984,8 +180985,8 @@
     "size": "Small",
     "weight": "27.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 3"
     ],
@@ -181218,8 +181219,8 @@
     "size": "Medium",
     "weight": "150.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 3"
     ],
@@ -186097,8 +186098,8 @@
     "size": "Medium",
     "weight": "51.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 2"
@@ -186337,8 +186338,8 @@
     "size": "Small",
     "weight": "19.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Water 2"
     ],
@@ -188594,8 +188595,8 @@
     "size": "Large",
     "weight": "88.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "None"
     ],
@@ -188872,8 +188873,8 @@
     "size": "Large",
     "weight": "132.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -191183,8 +191184,8 @@
     "size": "Small",
     "weight": "22.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -191426,8 +191427,8 @@
     "size": "Medium",
     "weight": "213.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -191662,8 +191663,8 @@
     "size": "Large",
     "weight": "683.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster",
       "Plant"
@@ -191920,8 +191921,8 @@
     "size": "Small",
     "weight": "13.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -192175,8 +192176,8 @@
     "size": "Small",
     "weight": "48.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -192434,8 +192435,8 @@
     "size": "Medium",
     "weight": "121.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -192710,8 +192711,8 @@
     "size": "Small",
     "weight": "11.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -192962,8 +192963,8 @@
     "size": "Small",
     "weight": "50.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -193211,8 +193212,8 @@
     "size": "Medium",
     "weight": "186.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Field"
@@ -193889,9 +193890,9 @@
       "Power": 3,
       "Levitate": 0,
       "Burrow": 0,
-      "Un -derdog": -1
+      "Underdog": -1
     },
-    "otherCapabilities": "Un -derdog"
+    "otherCapabilities": "Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -196150,8 +196151,8 @@
     "size": "Medium",
     "weight": "69.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -196400,8 +196401,8 @@
     "size": "Medium",
     "weight": "226",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -196660,8 +196661,8 @@
     "size": "Small",
     "weight": "125.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -196899,8 +196900,8 @@
     "size": "Medium",
     "weight": "329.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -197299,8 +197300,8 @@
     "size": "Small",
     "weight": "14.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Bug"
     ],
@@ -197528,8 +197529,8 @@
     "size": "Small",
     "weight": "14.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Bug"
     ],
@@ -197759,8 +197760,8 @@
     "size": "Small",
     "weight": "14.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Bug"
     ],
@@ -197993,8 +197994,8 @@
     "size": "Medium",
     "weight": "51.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Bug"
     ],
@@ -198228,8 +198229,8 @@
     "size": "Small",
     "weight": "12.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Bug"
     ],
@@ -198387,8 +198388,8 @@
     "size": "Medium",
     "weight": "84.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Bug"
     ],
@@ -200793,9 +200794,9 @@
       "Power": 1,
       "Levitate": 0,
       "Burrow": 0,
-      "Dark -vision, Dead Silent, Inflatable, Shrinkable, Underdog": -1
+      "Darkvision, Dead Silent, Inflatable, Shrinkable, Underdog": -1
     },
-    "otherCapabilities": "Dark -vision, Dead Silent, Inflatable, Shrinkable, Underdog"
+    "otherCapabilities": "Darkvision, Dead Silent, Inflatable, Shrinkable, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -202114,8 +202115,8 @@
     "size": "Small",
     "weight": "8.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -202364,8 +202365,8 @@
     "size": "Medium",
     "weight": "96.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -204329,8 +204330,8 @@
     "size": "Small",
     "weight": "53.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -205723,8 +205724,8 @@
     "size": "Medium",
     "weight": "231.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -206001,8 +206002,8 @@
     "size": "Small",
     "weight": "44.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -206261,8 +206262,8 @@
     "size": "Medium",
     "weight": "119",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Humanshape"
@@ -210730,8 +210731,8 @@
     "size": "Large",
     "weight": "305.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -210978,8 +210979,8 @@
     "size": "Large",
     "weight": "149.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -211235,8 +211236,8 @@
     "size": "Medium",
     "weight": "83.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying",
       "Fairy"
@@ -211731,8 +211732,8 @@
     "size": "Medium",
     "weight": "56.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -211978,8 +211979,8 @@
     "size": "Medium",
     "weight": "57.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -212965,8 +212966,8 @@
     "size": "Medium",
     "weight": "114.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Indeterminate"
     ],
@@ -213749,8 +213750,8 @@
     "size": "Medium",
     "weight": "58.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy",
       "Mineral"
@@ -217568,8 +217569,8 @@
     "size": "Large",
     "weight": "188.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "None"
     ],
@@ -219550,8 +219551,8 @@
     "size": "Small",
     "weight": "17.9.",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -219793,8 +219794,8 @@
     "size": "Small",
     "weight": "35.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -220026,8 +220027,8 @@
     "size": "Large",
     "weight": "138.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field",
       "Plant"
@@ -220269,8 +220270,8 @@
     "size": "Small",
     "weight": "21.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -220517,8 +220518,8 @@
     "size": "Medium",
     "weight": "122.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -220777,8 +220778,8 @@
     "size": "Medium",
     "weight": "330.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -221043,8 +221044,8 @@
     "size": "Small",
     "weight": "13",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -221291,8 +221292,8 @@
     "size": "Medium",
     "weight": "54",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -221530,8 +221531,8 @@
     "size": "Large",
     "weight": "208.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -223485,8 +223486,8 @@
     "size": "Small",
     "weight": "23.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -223746,8 +223747,8 @@
     "size": "Medium",
     "weight": "67.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -223998,8 +223999,8 @@
     "size": "Small",
     "weight": "24.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -224260,8 +224261,8 @@
     "size": "Medium",
     "weight": "61.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -224515,8 +224516,8 @@
     "size": "Small",
     "weight": "29.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -224778,8 +224779,8 @@
     "size": "Medium",
     "weight": "63.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -228522,8 +228523,8 @@
     "size": "Small",
     "weight": "27.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -228773,8 +228774,8 @@
     "size": "Medium",
     "weight": "88.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -229014,8 +229015,8 @@
     "size": "Medium",
     "weight": "191.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 75.0,
+    "femalePercent": 25.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -229943,8 +229944,8 @@
     "size": "Medium",
     "weight": "122.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -230184,8 +230185,8 @@
     "size": "Medium",
     "weight": "112.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -232235,8 +232236,8 @@
     "size": "Small",
     "weight": "14.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -232464,8 +232465,8 @@
     "size": "Medium",
     "weight": "35.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Plant"
     ],
@@ -233916,9 +233917,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Heater, Na -turewalk (Desert, Mountain), Firestarter, Underdog": -1
+      "Heater, Naturewalk (Desert, Mountain), Firestarter, Underdog": -1
     },
-    "otherCapabilities": "Heater, Na -turewalk (Desert, Mountain), Firestarter, Underdog"
+    "otherCapabilities": "Heater, Naturewalk (Desert, Mountain), Firestarter, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -236467,8 +236468,8 @@
     "size": "Small",
     "weight": "36.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -236722,8 +236723,8 @@
     "size": "Medium",
     "weight": "180.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1",
       "Water 3"
@@ -236965,8 +236966,8 @@
     "size": "Small",
     "weight": "20.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying",
       "Water 3"
@@ -237214,8 +237215,8 @@
     "size": "Medium",
     "weight": "70.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Flying",
       "Water 3"
@@ -237940,8 +237941,8 @@
     "size": "Small",
     "weight": "27.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -238193,8 +238194,8 @@
     "size": "Medium",
     "weight": "178.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -238440,8 +238441,8 @@
     "size": "Small",
     "weight": "12.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -238693,8 +238694,8 @@
     "size": "Small",
     "weight": "16.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Field"
     ],
@@ -238952,8 +238953,8 @@
     "size": "Small",
     "weight": "12.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -239215,8 +239216,8 @@
     "size": "Small",
     "weight": "39.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -239459,8 +239460,8 @@
     "size": "Medium",
     "weight": "97",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 25.0,
+    "femalePercent": 75.0,
     "eggGroups": [
       "Humanshape"
     ],
@@ -251668,8 +251669,8 @@
     "size": "Small",
     "weight": "23.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Flying"
     ],
@@ -251907,8 +251908,8 @@
     "size": "Large",
     "weight": "90.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "Flying"
     ],
@@ -252137,8 +252138,8 @@
     "size": "Small",
     "weight": "19.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Flying"
     ],
@@ -252391,8 +252392,8 @@
     "size": "Medium",
     "weight": "87.1",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Flying"
     ],
@@ -255032,8 +255033,8 @@
     "size": "Large",
     "weight": "138.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -255276,8 +255277,8 @@
     "size": "Large",
     "weight": "138.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -255521,8 +255522,8 @@
     "size": "Large",
     "weight": "134.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -255777,8 +255778,8 @@
     "size": "Large",
     "weight": "134.5",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -256541,8 +256542,8 @@
     "size": "Large",
     "weight": "149.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -256787,8 +256788,8 @@
     "size": "Large",
     "weight": "149.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 100.0,
+    "femalePercent": 0.0,
     "eggGroups": [
       "None"
     ],
@@ -258771,8 +258772,8 @@
     "size": "Small",
     "weight": "19.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -259019,8 +259020,8 @@
     "size": "Small",
     "weight": "63.9",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -259272,8 +259273,8 @@
     "size": "Large",
     "weight": "198.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -259549,8 +259550,8 @@
     "size": "Small",
     "weight": "20.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -259792,8 +259793,8 @@
     "size": "Medium",
     "weight": "32",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -260035,8 +260036,8 @@
     "size": "Medium",
     "weight": "86",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],
@@ -260298,8 +260299,8 @@
     "size": "Small",
     "weight": "15.4",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1"
     ],
@@ -260541,8 +260542,8 @@
     "size": "Small",
     "weight": "24",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1"
     ],
@@ -260781,8 +260782,8 @@
     "size": "Medium",
     "weight": "88.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Water 1"
     ],
@@ -262753,8 +262754,8 @@
     "size": "Small",
     "weight": "29.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 12.5,
+    "femalePercent": 87.5,
     "eggGroups": [
       "Field"
     ],
@@ -262993,8 +262994,8 @@
     "size": "Medium",
     "weight": "179.7",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 12.5,
+    "femalePercent": 87.5,
     "eggGroups": [
       "Field"
     ],
@@ -263223,8 +263224,8 @@
     "size": "Small",
     "weight": "0.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -263452,8 +263453,8 @@
     "size": "Small",
     "weight": "2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -263673,8 +263674,8 @@
     "size": "Medium",
     "weight": "22",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 0.0,
+    "femalePercent": 100.0,
     "eggGroups": [
       "Fairy"
     ],
@@ -269835,8 +269836,8 @@
     "size": "Small",
     "weight": "57.3",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster and Dragon"
     ],
@@ -270090,8 +270091,8 @@
     "size": "Huge",
     "weight": "592.2",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster and Dragon"
     ],
@@ -270340,8 +270341,8 @@
     "size": "Medium",
     "weight": "55.6",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -270592,8 +270593,8 @@
     "size": "Huge",
     "weight": "496",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Monster"
     ],
@@ -270829,8 +270830,8 @@
     "size": "Medium",
     "weight": "51.8",
     "genderless": false,
-    "malePercent": 50.0,
-    "femalePercent": 50.0,
+    "malePercent": 87.5,
+    "femalePercent": 12.5,
     "eggGroups": [
       "Field"
     ],

@@ -1,0 +1,5830 @@
+[
+  {
+    "Species": "Sprigatito",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 5
+    },
+    "Evolution": [
+      "3 - Meowscarada Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore, Phototroph",
+    "Habitat": "Forest, Grasslands",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 1",
+      "Alluring",
+      "Naturewalk (Forest, Grasslands)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6+3",
+      "Combat": "2d6",
+      "Stealth": "3d6+2",
+      "Percep": "3d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Scratch - Normal 1 - Tail Whip - Normal 1 - Leafage - Grass 7 - Bite - Dark 10 - Hone Claws - Dark 13 - Razor Leaf - Grass 15 - Quick Attack - Normal 18 - Feint Attack - Dark 22 - Seed Bomb - Grass 25 - Skitter Smack - Bug 28 - Worry Seed - Grass 33 - Slash - Normal 36 - Night Slash - Dark 39 - Play Rough - Fairy 42 - Leaf Blade - Grass 45 - Grassy Terrain - Grass 48 - False Surrender - Dark 51 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Floragato",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 6
+    },
+    "Evolution": [
+      "3 - Meowscarada Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore, Phototroph",
+    "Habitat": "Forest, Grasslands",
+    "Skills": {
+      "Athl": "2d6+1",
+      "Acro": "4d6+2",
+      "Combat": "3d6",
+      "Stealth": "4d6+1",
+      "Percep": "4d6",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Knock Off - Dark 1 - Scratch - Normal 1 - Tail Whip - Normal 1 - Leafage - Grass 7 - Bite - Dark 10 - Hone Claws - Dark 13 - Razor Leaf - Grass 15 - Quick Attack - Normal 18 - Feint Attack - Dark 22 - Seed Bomb - Grass 25 - Skitter Smack - Bug 28 - Worry Seed - Grass 33 - Slash - Normal 36 - Night Slash - Dark 39 - Play Rough - Fairy 42 - Leaf Blade - Grass 45 - Grassy Terrain - Grass 48 - False Surrender - Dark 51 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Meowscarada",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 7
+    },
+    "Evolution": [
+      "3 - Meowscarada Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore, Phototroph",
+    "Habitat": "Forest, Grasslands",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 3/3",
+      "Power 3",
+      "Alluring",
+      "Naturewalk (Forest, Grasslands)",
+      "Reach",
+      "Stealth",
+      "Darkvision",
+      "Mindlock"
+    ],
+    "Skills": {
+      "Athl": "2d6+2",
+      "Acro": "5d6+1",
+      "Combat": "3d6+1",
+      "Stealth": "5d6",
+      "Percep": "5d6",
+      "Focus": "5d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Flower Trick - Grass 1 - Scratch - Normal 1 - Tail Whip - Normal 1 - Leafage - Grass 7 - Bite - Dark 10 - Hone Claws - Dark 13 - Razor Leaf - Grass 15 - Quick Attack - Normal 18 - Feint Attack - Dark 22 - Seed Bomb - Grass 25 - Skitter Smack - Bug 28 - Worry Seed - Grass 33 - Slash - Normal 36 - Night Slash - Dark 39 - Play Rough - Fairy 42 - Leaf Blade - Grass 45 - Grassy Terrain - Grass 48 - False Surrender - Dark 51 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Fuecoco",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Fuecoco 2 - Crocalor Lv 15 Minimum 3 - Skeledirge Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Marsh, Cave",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 2",
+      "Firestarter",
+      "Heater",
+      "Glow",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "2d6+1",
+      "Focus": "1d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Echoed Voice - Normal 1 - Leer - Normal 1 - Ember - Fire 7 - Spook* - Ghost [Ember, -1SpD] 10 - Round - Normal 12 - Scary Face - Normal 15 - Snarl - Dark 18 - Incinerate - Fire 22 - Ominous Wind - Ghost 25 - Dragon Breath - Dragon 28 - Roar - Normal 32 - Shadow Ball - Ghost 35 - Scorching Sands - Ground 38 - Flamethrower - Fire 42 - Hyper Voice - Normal 45 - Will-O-Wisp - Fire 45 - Hex - Ghost 48 - Fire Blast - Fire 51 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Crocalor",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Fuecoco 2 - Crocalor Lv 15 Minimum 3 - Skeledirge Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Marsh, Cave",
+    "Skills": {
+      "Athl": "4d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "2d6+1",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Yawn - Normal 1 - Tackle - Normal 1 - Echoed Voice - Normal 1 - Leer - Normal 1 - Ember - Fire 7 - Spook* - Ghost [Ember, -1SpD] 10 - Round - Normal 12 - Scary Face - Normal 15 - Snarl - Dark 18 - Incinerate - Fire 22 - Ominous Wind - Ghost 25 - Dragon Breath - Dragon 28 - Roar - Normal 32 - Shadow Ball - Ghost 35 - Scorching Sands - Ground 38 - Flamethrower - Fire 42 - Hyper Voice - Normal 45 - Will-O-Wisp - Fire 45 - Hex - Ghost 48 - Fire Blast - Fire 51 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Skeledirge",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Fuecoco 2 - Crocalor Lv 15 Minimum 3 - Skeledirge Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Marsh, Cave",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 2/2",
+      "Power 9",
+      "Heater",
+      "Firestarter",
+      "Glow",
+      "Egg Warmer",
+      "Dead Silent"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "3d6+1",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Torch Song - Fire 1 - Tackle - Normal 1 - Echoed Voice - Normal 1 - Leer - Normal 1 - Ember - Fire 7 - Spook* - Ghost [Ember, -1SpD] 10 - Round - Normal 12 - Scary Face - Normal 15 - Snarl - Dark 18 - Incinerate - Fire 22 - Ominous Wind - Ghost 25 - Dragon Breath - Dragon 28 - Roar - Normal 32 - Shadow Ball - Ghost 35 - Scorching Sands - Ground 38 - Flamethrower - Fire 42 - Hyper Voice - Normal 45 - Will-O-Wisp - Fire 45 - Hex - Ghost 48 - Fire Blast - Fire 51 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Quaxly",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Quaxly 2 - Quaxwell Lv 15 Minimum 3 - Quaquaval Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Beach, Freshwater",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 3",
+      "Jump 2/1",
+      "Power 2",
+      "Fountain",
+      "Naturewalk (Beach, Ocean)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6+2",
+      "Acro": "3d6+1",
+      "Combat": "2d6",
+      "Stealth": "2d6",
+      "Percep": "2d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Double Hit - Normal 1 - Pound - Normal 1 - Growl - Normal 1 - Aqua Jet - Water 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Flip Turn - Water 16 - Feather Dance - Flying 19 - Low Sweep - Fighting 22 - Aqua Cutter - Water 25 - Focus Energy - Normal 28 - Drill Peck - Flying 32 - Triple Kick - Fighting 35 - Mega Kick - Normal 38 - Acrobatics - Flying 42 - Liquidation - Water 45 - Laser Focus - Normal 48 - Close Combat - Fighting 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Quaxwell",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Quaxly 2 - Quaxwell Lv 15 Minimum 3 - Quaquaval Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Beach, Freshwater",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 5",
+      "Jump 2/2",
+      "Power 4",
+      "Fountain",
+      "Naturewalk (Beach, Ocean)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "4d6+1",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Agility - Psychic 1 - Double Hit - Normal 1 - Pound - Normal 1 - Growl - Normal 1 - Aqua Jet - Water 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Flip Turn - Water 16 - Feather Dance - Flying 19 - Low Sweep - Fighting 22 - Aqua Cutter - Water 25 - Focus Energy - Normal 28 - Drill Peck - Flying 32 - Triple Kick - Fighting 35 - Mega Kick - Normal 38 - Acrobatics - Flying 42 - Liquidation - Water 45 - Laser Focus - Normal 48 - Close Combat - Fighting 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Quaquaval",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Quaxly 2 - Quaxwell Lv 15 Minimum 3 - Quaquaval Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Beach, Freshwater",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 7",
+      "Jump 3/2",
+      "Power 6",
+      "Fountain",
+      "Naturewalk (Beach, Ocean)"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "5d6+2",
+      "Combat": "4d6",
+      "Stealth": "1d6",
+      "Percep": "4d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Aqua Step - Water 1 - Double Hit - Normal 1 - Pound - Normal 1 - Growl - Normal 1 - Aqua Jet - Water 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Flip Turn - Water 16 - Feather Dance - Flying 19 - Low Sweep - Fighting 22 - Aqua Cutter - Water 25 - Focus Energy - Normal 28 - Drill Peck - Flying 32 - Triple Kick - Fighting 35 - Mega Kick - Normal 38 - Acrobatics - Flying 42 - Liquidation - Water 45 - Laser Focus - Normal 48 - Close Combat - Fighting 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Lechonk",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Lechonk 2 - Oinkologne Lv 15 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Forest",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 3",
+      "Underdog",
+      "Alluring",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "1d6",
+      "Combat": "2d6",
+      "Stealth": "3d6",
+      "Percep": "3d6+2",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Tail Whip - Normal 3 - Disarming Voice - Fairy 6 - Echoed Voice - Normal 9 - Mud Shot - Ground 12 - Covet - Normal 15 - Dig - Ground 18 - Headbutt - Normal 22 - Sludge - Poison 25 - Take Down - Normal 28 - Yawn - Normal 30 - Work Up - Normal 33 - Uproar - Normal 36 - Play Rough - Fairy 39 - Double-Edge - Normal 45 - Earth Power - Ground 48 - Seed Bomb - Grass 51 - Belch",
+          "Type": "Poison"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Oinkologne Male",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Lechonk 2 - Oinkologne Lv 15 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Forest",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Field"
+      ]
+    },
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 4/6",
+      "Power 5",
+      "Alluring",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "2d6+3",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "5d6+2",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Sweet Scent - Normal Evo - Aromatherapy - Grass 1 - Tackle - Normal 1 - Tail Whip - Normal 3 - Disarming Voice - Fairy 6 - Echoed Voice - Normal 9 - Mud Shot - Ground 12 - Covet - Normal 15 - Dig - Ground 18 - Headbutt - Normal 22 - Sludge - Poison 25 - Take Down - Normal 28 - Yawn - Normal 30 - Work Up - Normal 33 - Uproar - Normal 36 - Play Rough - Fairy 39 - Double-Edge - Normal 45 - Earth Power - Ground 48 - Seed Bomb - Grass 51 - Belch",
+          "Type": "Poison"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Oinkologne Female",
+    "Base Stats": {
+      "HP": 12,
+      "Attack": 12,
+      "Special Attack": 12,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Lechonk 2 - Oinkologne Lv 15 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Forest",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Field"
+      ]
+    },
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 4/6",
+      "Power 5",
+      "Alluring",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "2d6+3",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "5d6+2",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Sweet Scent - Normal Evo - Aromatherapy - Grass 1 - Tackle - Normal 1 - Tail Whip - Normal 3 - Disarming Voice - Fairy 6 - Echoed Voice - Normal 9 - Mud Shot - Ground 12 - Covet - Normal 15 - Dig - Ground 18 - Headbutt - Normal 22 - Sludge - Poison 25 - Take Down - Normal 28 - Yawn - Normal 30 - Work Up - Normal 33 - Uproar - Normal 36 - Play Rough - Fairy 39 - Double-Edge - Normal 45 - Earth Power - Ground 48 - Seed Bomb - Grass 51 - Belch",
+          "Type": "Poison"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tarountula",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 5
+    },
+    "Evolution": [
+      "2 - Spidops Lv 15 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Forest",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 1",
+      "Naturewalk (Forest, Grassland)",
+      "Threaded",
+      "Underdog",
+      "Wallclimber"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "3d6",
+      "Combat": "2d6",
+      "Stealth": "3d6+1",
+      "Percep": "3d6+1",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - String-Shot - Bug 3 - Struggle Bug - Bug 6 - Feint Attack - Dark 8 - Bug Bite - Bug 11 - Feint - Normal 14 - Pounce - Bug 17 - Spider Web - Bug 20 - Low Sweep - Fighting 22 - Skitter Smack - Bug 25 - Counter - Fighting 27 - Throat Chop",
+          "Type": "Dark"
+        },
+        {
+          "Level": 30,
+          "Move": "Sticky Web - Bug 33 - Lunge",
+          "Type": "Bug"
+        },
+        {
+          "Level": 36,
+          "Move": "Headbutt - Normal 39 - Gastro Acid - Poison 41 - Leech Life - Bug 45 - Foul Play - Dark 48 - Circle Throw - Fighting 52 - Assurance",
+          "Type": "Dark"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Spidops",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 9
+    },
+    "Evolution": [
+      "2 - Spidops Lv 15 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Forest",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 2/2",
+      "Power 3",
+      "Naturewalk (Forest, Grassland)",
+      "Stealth",
+      "Threaded",
+      "Underdog",
+      "Wallclimber"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "4d6",
+      "Combat": "3d6+1",
+      "Stealth": "5d6+2",
+      "Percep": "4d6+2",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Silk Trap - Bug 1 - Tackle - Normal 1 - String-Shot - Bug 3 - Struggle Bug - Bug 6 - Feint Attack - Dark 8 - Bug Bite - Bug 11 - Feint - Normal 14 - Pounce - Bug 17 - Spider Web - Bug 20 - Low Sweep - Fighting 22 - Skitter Smack - Bug 25 - Counter - Fighting 27 - Throat Chop",
+          "Type": "Dark"
+        },
+        {
+          "Level": 30,
+          "Move": "Sticky Web - Bug 33 - Lunge",
+          "Type": "Bug"
+        },
+        {
+          "Level": 36,
+          "Move": "Headbutt - Normal 39 - Gastro Acid - Poison 41 - Leech Life - Bug 45 - Foul Play - Dark 48 - Circle Throw - Fighting 52 - Assurance",
+          "Type": "Dark"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Nymble",
+    "Base Stats": {
+      "HP": 3,
+      "Attack": 3,
+      "Special Attack": 3,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 4
+    },
+    "Evolution": [
+      "2 - Lokix Lv 20 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Grassland, Forest",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 3/3",
+      "Power 1",
+      "Naturewalk (Grasslands, Forest)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "4d6+1",
+      "Combat": "2d6",
+      "Stealth": "3d6",
+      "Percep": "3d6+1",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Leer - Normal 1 - Pounce - Bug 4 - Astonish - Ghost 6 - Pursuit - Dark 9 - Screech - Normal 11 - Double Kick",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 14,
+          "Move": "Bug Bite - Bug 18 - Agility - Psychic 20 - Skitter Smack - Bug 22 - Sucker Punch - Dark 25 - Triple Kick - Fighting 28 - Psycho Cut - Psychic 30 - Feint - Normal 32 - Throat Chop - Dark 34 - Mega Kick - Normal 36 - Jump Kick - Fighting 38 - First Impression - Bug 40 - Endure - Normal 44 - Axe Kick - Fighting 47 - Bounce - Flying 50 - Detect - Fighting 53 - Assurance",
+          "Type": "Dark"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Lokix",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 8
+    },
+    "Evolution": [
+      "2 - Lokix Lv 20 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Bug"
+      ]
+    },
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "5d6+3",
+      "Combat": "4d6+3",
+      "Stealth": "4d6",
+      "Percep": "4d6+2",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Lunge - Bug 1 - Tackle - Normal 1 - Leer - Normal 1 - Pounce - Bug 4 - Astonish - Ghost 6 - Pursuit - Dark 9 - Screech - Normal 11 - Double Kick",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 14,
+          "Move": "Bug Bite - Bug 18 - Agility - Psychic 20 - Skitter Smack - Bug 22 - Sucker Punch - Dark 25 - Triple Kick - Fighting 28 - Psycho Cut - Psychic 30 - Feint - Normal 32 - Throat Chop - Dark 34 - Mega Kick - Normal 36 - Jump Kick - Fighting 38 - First Impression - Bug 40 - Endure - Normal 44 - Axe Kick - Fighting 47 - Bounce - Flying 50 - Detect - Fighting 53 - Assurance",
+          "Type": "Dark"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Pawmi",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 2
+    },
+    "Evolution": [
+      "1 - Pawmi 2 - Pawmo Lv 15 Minimum 3 - Pawmot Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland, Mountain",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 1",
+      "Jump 1/2",
+      "Power 1",
+      "Naturewalk (Forest, Urban)",
+      "Underdog",
+      "Zapper",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "3d6+2",
+      "Percep": "3d6",
+      "Focus": "1d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Mach Punch - Fighting 1 - Scratch - Normal 1 - Growl - Normal 3 - Surge* - Electric [Quick Attack] 6 - Quick Attack - Normal 8 - Charge - Electric 12 - Nuzzle - Electric 15 - Dig - Ground 18 - Bite - Dark 20 - Force Palm - Fighting 23 - Spark - Electric 26 - Agility - Psychic 29 - Thunder Wave - Electric 31 - Slam - Normal 34 - Sky Uppercut - Fighting 36 - Thunder Punch - Electric 38 - Entrainment - Normal 42 - Discharge - Electric 45 - Close Combat - Fighting 48 - High Horsepower - Ground 50 - Wild Charge - Electric 52 - Double Shock",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Pawmo",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Pawmi 2 - Pawmo Lv 15 Minimum 3 - Pawmot Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland, Mountain",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 2/2",
+      "Power 3",
+      "Naturewalk (Forest, Urban)",
+      "Underdog",
+      "Zapper",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6+1",
+      "Combat": "3d6",
+      "Stealth": "3d6+1",
+      "Percep": "3d6+1",
+      "Focus": "2d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Arm Thrust - Fighting 1 - Mach Punch - Fighting 1 - Scratch - Normal 1 - Growl - Normal 3 - Surge* - Electric [Quick Attack] 6 - Quick Attack - Normal 8 - Charge - Electric 12 - Nuzzle - Electric 15 - Dig - Ground 18 - Bite - Dark 20 - Force Palm - Fighting 23 - Spark - Electric 26 - Agility - Psychic 29 - Thunder Wave - Electric 31 - Slam - Normal 34 - Sky Uppercut - Fighting 36 - Thunder Punch - Electric 38 - Entrainment - Normal 42 - Discharge - Electric 45 - Close Combat - Fighting 48 - High Horsepower - Ground 50 - Wild Charge - Electric 52 - Double Shock",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Pawmot",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Pawmi 2 - Pawmo Lv 15 Minimum 3 - Pawmot Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland, Mountain",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Revival Blessing - Normal 1 - Mach Punch - Fighting 1 - Scratch - Normal 1 - Growl - Normal 3 - Surge* - Electric [Quick Attack] 6 - Quick Attack - Normal 8 - Charge - Electric 12 - Nuzzle - Electric 15 - Dig - Ground 18 - Bite - Dark 20 - Force Palm - Fighting 23 - Spark - Electric 26 - Agility - Psychic 29 - Thunder Wave - Electric 31 - Slam - Normal 34 - Sky Uppercut - Fighting 36 - Thunder Punch - Electric 38 - Entrainment - Normal 42 - Discharge - Electric 45 - Close Combat - Fighting 48 - High Horsepower - Ground 50 - Wild Charge - Electric 52 - Double Shock",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tandemaus",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Tandemaus 2 - Maushold Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Forest, Grassland, Urban",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 2",
+      "Mindlock",
+      "Naturewalk (Grassland, Urban)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "4d6",
+      "Percep": "4d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Pound - Normal 1 - Baby-doll Eyes - Fairy 3 - Sugar Rush* - Fairy [Trailblaze] 5 - Echoed Voice - Normal 8 - Charm - Fairy 11 - Cut - Normal 14 - Feint Attack - Dark 16 - Bullet Seed",
+          "Type": "Grass"
+        },
+        {
+          "Level": 19,
+          "Move": "Double Hit - Normal 22 - Beat Up",
+          "Type": "Dark"
+        },
+        {
+          "Level": 25,
+          "Move": "Hyper Fang - Normal 27 - Super Fang",
+          "Type": "Normal"
+        },
+        {
+          "Level": 29,
+          "Move": "Encore - Normal 30 - Play Rough",
+          "Type": "Fairy"
+        },
+        {
+          "Level": 32,
+          "Move": "Population Bomb",
+          "Type": "Normal"
+        },
+        {
+          "Level": 34,
+          "Move": "Helping Hand - Normal 37 - Crunch - Dark 40 - Seed Bomb - Grass 43 - Copycat - Normal 46 - Thrash",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Maushold",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Tandemaus 2 - Maushold Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Forest, Grassland, Urban",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 3",
+      "Mindlock",
+      "Naturewalk (Grassland, Urban)"
+    ],
+    "Skills": {
+      "Athl": "2d6+2",
+      "Acro": "3d6+2",
+      "Combat": "3d6+2",
+      "Stealth": "4d6",
+      "Percep": "4d6+2",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Pound - Normal 1 - Baby-doll Eyes - Fairy 3 - Sugar Rush* - Fairy [Trailblaze] 5 - Echoed Voice - Normal 8 - Charm - Fairy 11 - Cut - Normal 14 - Feint Attack - Dark 16 - Bullet Seed",
+          "Type": "Grass"
+        },
+        {
+          "Level": 19,
+          "Move": "Double Hit - Normal 22 - Beat Up",
+          "Type": "Dark"
+        },
+        {
+          "Level": 25,
+          "Move": "Hyper Fang - Normal 27 - Super Fang",
+          "Type": "Normal"
+        },
+        {
+          "Level": 29,
+          "Move": "Encore - Normal 30 - Play Rough - Fairy 32 - Population Bomb",
+          "Type": "Normal"
+        },
+        {
+          "Level": 34,
+          "Move": "Helping Hand - Normal 37 - Crunch - Dark 40 - Seed Bomb - Grass 43 - Copycat - Normal 46 - Thrash",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Fidough",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Fidough 2 - Dachsbun Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Urban, Forest, Grassland",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 2",
+      "Naturewalk (Urban)",
+      "Alluring",
+      "Tracker",
+      "Pack Mon",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6+1",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Growl - Normal 3 - Lick - Ghost 6 - Tail Whip - Normal 8 - Covet - Normal 10 - Sugar Rush* - Fairy [Trailblaze] 12 - Bite - Dark 15 - Baby-Doll Eyes - Fairy 19 - Dig - Ground 22 - Work Up - Normal 24 - Take Down - Normal 28 - Baton Pass - Normal 31 - Play Rough - Fairy 34 - Crunch - Dark 37 - Roar - Normal 40 - Charm - Fairy 40 - Double-Edge - Normal 44 - Fey Wild* - Fairy [Superpower] 47 - Flare Blitz - Fire 50 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Dachsbun",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Fidough 2 - Dachsbun Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Urban, Forest, Grassland",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 5",
+      "Jump 3/3",
+      "Power 4",
+      "Naturewalk (Urban)",
+      "Alluring",
+      "Pack Mon",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "4d6+1",
+      "Acro": "4d6",
+      "Combat": "2d6",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Fire Fang - Fire 1 - Tackle - Normal 1 - Growl - Normal 3 - Lick - Ghost 6 - Tail Whip - Normal 8 - Covet - Normal 10 - Sugar Rush* - Fairy [Trailblaze] 12 - Bite - Dark 15 - Baby-Doll Eyes - Fairy 19 - Dig - Ground 22 - Work Up - Normal 24 - Take Down - Normal 28 - Baton Pass - Normal 31 - Play Rough - Fairy 34 - Crunch - Dark 37 - Roar - Normal 40 - Charm - Fairy 40 - Double-Edge - Normal 44 - Fey Wild* - Fairy [Superpower] 47 - Flare Blitz - Fire 50 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Smoliv",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 5
+    },
+    "Evolution": [
+      "3 - Arboliva Lv 30 Minimum"
+    ],
+    "Diet": "Phototroph",
+    "Habitat": "Forest, Grassland",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 1",
+      "Jump 1/1",
+      "Power 1",
+      "Alluring",
+      "Naturewalk (Forest, Grassland)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6+1",
+      "Acro": "1d6+1",
+      "Combat": "2d6",
+      "Stealth": "1d6+1",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Sweet Scent - Normal 1 - Safeguard - Normal 1 - Tackle - Normal 4 - Absorb - Grass 6 - Growth - Normal 8 - Stored Power - Psychic 10 - Water Gun - Water 13 - Clear Smog - Poison 16 - Flail - Normal 20 - Mega Drain - Grass 23 - Grassy Terrain - Grass 25 - Swift - Normal 27 - Artillerolives* - Grass [New] 30 - Water Pulse - Water 32 - Dazzling Gleam - Fairy 35 - Pollen Puff - Bug 37 - Leech Seed - Grass 40 - Energy Ball - Grass 46 - Earth Power - Ground 49 - Hydro Pump - Water 52 - Petal Dance",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Dolliv",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 6
+    },
+    "Evolution": [
+      "3 - Arboliva Lv 30 Minimum"
+    ],
+    "Diet": "Phototroph",
+    "Habitat": "Forest, Grassland",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 1",
+      "Alluring",
+      "Naturewalk (Forest, Grassland)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "4d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Helping Hand - Normal 1 - Sweet Scent - Normal 1 - Safeguard - Normal 1 - Tackle - Normal 4 - Absorb - Grass 6 - Growth - Normal 8 - Stored Power - Psychic 10 - Water Gun - Water 13 - Clear Smog - Poison 16 - Flail - Normal 20 - Mega Drain - Grass 23 - Grassy Terrain - Grass 25 - Swift - Normal 27 - Artillerolives* - Grass [New] 30 - Water Pulse - Water 32 - Dazzling Gleam - Fairy 35 - Pollen Puff - Bug 37 - Leech Seed - Grass 40 - Energy Ball - Grass 46 - Earth Power - Ground 49 - Hydro Pump - Water 52 - Petal Dance",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Arboliva",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 9
+    },
+    "Evolution": [
+      "3 - Arboliva Lv 30 Minimum"
+    ],
+    "Diet": "Phototroph",
+    "Habitat": "Forest, Grassland",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 2",
+      "Alluring",
+      "Herb Growth",
+      "Naturewalk (Forest, Grassland)"
+    ],
+    "Skills": {
+      "Athl": "2d6+1",
+      "Acro": "2d6+1",
+      "Combat": "3d6+1",
+      "Stealth": "3d6",
+      "Percep": "5d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Terrain Pulse - Normal 1 - Sweet Scent - Normal 1 - Safeguard - Normal 1 - Tackle - Normal 4 - Absorb - Grass 6 - Growth - Normal 8 - Stored Power - Psychic 10 - Water Gun - Water 13 - Clear Smog - Poison 16 - Flail - Normal 20 - Mega Drain - Grass 23 - Grassy Terrain - Grass 25 - Swift - Normal 27 - Artillerolives* - Grass [New] 30 - Water Pulse - Water 32 - Dazzling Gleam - Fairy 35 - Pollen Puff - Bug 37 - Leech Seed - Grass 40 - Energy Ball - Grass 46 - Earth Power - Ground 49 - Hydro Pump - Water 52 - Petal Dance",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Squawkabilly",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Squawkabilly"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Forest, Rainforest, Urban",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 1",
+      "Sky 5",
+      "Jump 2/2",
+      "Power 2",
+      "Pack Mon",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "4d6+1",
+      "Acro": "4d6",
+      "Combat": "3d6+1",
+      "Stealth": "2d6",
+      "Percep": "4d6+2",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Growl - Normal 1 - Peck - Flying 1 - Mimic - Normal 6 - Quick Attack - Normal 9 - Disarming Voice - Fairy 11 - Torment - Flying 13 - Aerial Ace - Flying 15 - Beat Up - Dark 16 - Fury Attack - Normal 18 - Double Kick - Fighting 19 - Taunt - Dark 22 - Snarl - Dark 24 - Uproar - Normal 24 - Take Down - Normal 27 - Copycat - Normal 30 - Fly - Flying 32 - Submission - Fighting 35 - Facade - Normal 38 - Swagger - Normal 40 - Hyper Voice - Normal 42 - Brave Bird - Flying 45 - Close Combat - Fighting 47 - Roost - Flying 49 - Double-Edge - Normal 52 - Reversal",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Nacli",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Nacli",
+      "3 - Garganacl Lv 30 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Cave, Desert, Mountain",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 1",
+      "Burrow 4",
+      "Jump 0/0",
+      "Power 1",
+      "Alluring",
+      "Darkvision",
+      "Materializer",
+      "Naturewalk (Cave, Mountain)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "1d6",
+      "Combat": "1d6",
+      "Stealth": "3d6+1",
+      "Percep": "2d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Harden - Normal 5 - Rock Throw - Rock 7 - Mud Shot - Ground 10 - Smack Down - Rock 12 - Rock Polish",
+          "Type": "Rock"
+        },
+        {
+          "Level": 15,
+          "Move": "Bulldoze - Ground 17 - Headbutt - Normal 21 - Iron Defense - Steel 24 - Rock Blast",
+          "Type": "Rock"
+        },
+        {
+          "Level": 27,
+          "Move": "Iron Head - Steel 30 - Recover - Normal 33 - Stealth Rock - Rock 36 - Stone Edge - Rock 39 - Heavy Slam - Steel 43 - Rock Slide - Rock 46 - Earthquake - Ground 50 - Explosion",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Naclstack",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Nacli",
+      "3 - Garganacl Lv 30 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Cave, Desert, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Burrow 3",
+      "Jump 0/1",
+      "Power 5",
+      "Alluring",
+      "Darkvision",
+      "Materializer",
+      "Naturewalk (Cave, Mountain)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "3d6",
+      "Percep": "2d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Salt Cure - Rock 1 - Tackle - Normal 1 - Harden - Normal 5 - Rock Throw - Rock 7 - Mud Shot - Ground 10 - Smack Down - Rock 12 - Rock Polish",
+          "Type": "Rock"
+        },
+        {
+          "Level": 15,
+          "Move": "Bulldoze - Ground 17 - Headbutt - Normal 21 - Iron Defense - Steel 24 - Rock Blast",
+          "Type": "Rock"
+        },
+        {
+          "Level": 27,
+          "Move": "Iron Head - Steel 30 - Recover - Normal 33 - Stealth Rock - Rock 36 - Stone Edge - Rock 39 - Heavy Slam - Steel 43 - Rock Slide - Rock 46 - Earthquake - Ground 50 - Explosion",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Garganacl",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 13
+    },
+    "Evolution": [
+      "1 - Nacli",
+      "3 - Garganacl Lv 30 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Cave, Desert, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Burrow 3",
+      "Jump 0/1",
+      "Power 11",
+      "Alluring",
+      "Darkvision",
+      "Materializer",
+      "Naturewalk (Cave, Mountain)"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "3d6",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "2d6",
+      "Focus": "5d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Hammer Arm - Fighting 1 - Salt Cure - Rock 1 - Tackle - Normal 1 - Harden - Normal 5 - Rock Throw - Rock 7 - Mud Shot - Ground 10 - Smack Down - Rock 12 - Rock Polish",
+          "Type": "Rock"
+        },
+        {
+          "Level": 15,
+          "Move": "Bulldoze - Ground 17 - Headbutt - Normal 21 - Iron Defense - Steel 24 - Rock Blast",
+          "Type": "Rock"
+        },
+        {
+          "Level": 27,
+          "Move": "Iron Head - Steel 30 - Recover - Normal 33 - Stealth Rock - Rock 36 - Stone Edge - Rock 39 - Heavy Slam - Steel 43 - Rock Slide - Rock 46 - Earthquake - Ground 50 - Explosion",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Charcadet",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 4
+    },
+    "Evolution": [
+      "2 - Armarouge Lv 25 Minimum 2 - Cerueledge Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Desert, Mountain",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 3",
+      "Darkvision",
+      "Heater",
+      "Split Evolution",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "3d6+1",
+      "Combat": "3d6+2",
+      "Stealth": "3d6",
+      "Percep": "2d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leer - Normal 1 - Ember - Fire 1 - Flame Charge - Fire 4 - Astonish - Ghost 6 - Confusion - Psychic 9 - Clear Smog - Poison 12 - Fire Spin - Fire 14 - Flame Wheel - Fire 16 - Flash Step* - Psychic [New] 18 - Ominous Wind - Ghost 21 - Incinerate - Fire 24 - Will-O-Wisp - Fire 27 - Fire Punch - Fire 27 - Flamethrower - Fire 30 - Shadow Ball - Ghost 30 - Psycho Cut - Psychic 32 - Iron Head - Steel 32 - Flash Cannon - Steel 35 - Lava Plume - Fire 41 - Ally Switch - Psychic 46 - Flare Blitz",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Armarouge",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 10
+    },
+    "Evolution": [
+      "2 - Armarouge Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Desert, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 3",
+      "Darkvision",
+      "Dead Silent",
+      "Firestarter",
+      "Glow",
+      "Heater"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "3d6",
+      "Combat": "4d6+3",
+      "Stealth": "2d6",
+      "Percep": "4d6+2",
+      "Focus": "6d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Psyshock - Psychic 1 - Leer - Normal 1 - Ember - Fire 1 - Flame Charge - Fire 4 - Astonish - Ghost 6 - Confusion - Psychic 9 - Clear Smog - Poison 12 - Fire Spin - Fire 14 - Flame Wheel - Fire 16 - Flash Step* - Psychic [New] 18 - Ominous Wind - Ghost 21 - Incinerate - Fire 24 - Will-O-Wisp - Fire 27 - Fire Punch - Fire 27 - Flamethrower - Fire 30 - Dark Pulse - Dark 30 - Psycho Cut - Psychic 32 - Iron Head - Steel 32 - Flash Cannon - Steel 35 - Lava Plume - Fire 38 - Calm Mind - Psychic 41 - Ally Switch - Psychic 44 - Armor Cannon - Fire 48 - Expanding Force",
+          "Type": "Psychic"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Ceruledge",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Charcadet 2 - Cerueledge Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Desert, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 3",
+      "Darkvision",
+      "Dead Silent",
+      "Firestarter",
+      "Glow",
+      "Heater"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "4d6",
+      "Combat": "6d6+3",
+      "Stealth": "2d6",
+      "Percep": "4d6+2",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Shadow Claw - Ghost 1 - Leer - Normal 1 - Ember - Fire 1 - Flame Charge - Fire 4 - Astonish - Ghost 6 - Confusion - Psychic 9 - Clear Smog - Poison 12 - Fire Spin - Fire 14 - Flame Wheel - Fire 16 - Flash Step* - Psychic [New] 18 - Ominous Wind - Ghost 21 - Incinerate - Fire 24 - Will-O-Wisp - Fire 27 - Fire Punch - Fire 27 - Flamethrower - Fire 30 - Shadow Ball - Ghost 30 - Psycho Cut - Psychic 32 - Iron Head - Steel 32 - Flash Cannon - Steel 35 - Bitter Blade - Fire 38 - Swords Dance - Normal 41 - Ally Switch - Psychic 44 - Flare Blitz",
+          "Type": "Fire"
+        },
+        {
+          "Level": 48,
+          "Move": "Poltergeist",
+          "Type": "Ghost"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tadbulb",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 3,
+      "Special Defense": 3,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Tadbulb 2 - Bellibolt Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Freshwater, Marsh",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 3",
+      "Jump 1/1",
+      "Levitate 4 Power 1",
+      "Glow",
+      "Zapper",
+      "Naturewalk (Wetlands)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "1d6",
+      "Stealth": "2d6",
+      "Percep": "2d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Flash - Normal 1 - Thunder Shock",
+          "Type": "Electric"
+        },
+        {
+          "Level": 4,
+          "Move": "Mud-Slap - Ground 7 - Water Gun - Water 9 - Spark",
+          "Type": "Electric"
+        },
+        {
+          "Level": 11,
+          "Move": "Charge Beam - Electric 14 - Charge - Electric 17 - Shock Wave - Electric 20 - Mud Shot - Ground 23 - Bubble Beam - Water 26 - Discharge",
+          "Type": "Electric"
+        },
+        {
+          "Level": 29,
+          "Move": "Mud Bomb - Ground 32 - Weather Ball",
+          "Type": "Normal"
+        },
+        {
+          "Level": 34,
+          "Move": "Signal Beam - Bug 37 - Thunderbolt",
+          "Type": "Electric"
+        },
+        {
+          "Level": 40,
+          "Move": "Muddy Water",
+          "Type": "Water"
+        },
+        {
+          "Level": 43,
+          "Move": "Spotlight",
+          "Type": "Normal"
+        },
+        {
+          "Level": 46,
+          "Move": "Electric Terrain - Electric 50 - Zap Cannon",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Bellibolt",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Tadbulb 2 - Bellibolt Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Freshwater, Marsh",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 3",
+      "Zapper",
+      "Naturewalk (Wetlands)"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "4d6",
+      "Combat": "3d6",
+      "Stealth": "1d6",
+      "Percep": "4d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Flash - Normal 1 - Thunder Shock",
+          "Type": "Electric"
+        },
+        {
+          "Level": 4,
+          "Move": "Mud-Slap - Ground 7 - Water Gun - Water 9 - Spark",
+          "Type": "Electric"
+        },
+        {
+          "Level": 11,
+          "Move": "Charge Beam - Electric 14 - Charge - Electric 17 - Shock Wave - Electric 20 - Mud Shot - Ground 23 - Bubble Beam - Water 26 - Discharge",
+          "Type": "Electric"
+        },
+        {
+          "Level": 29,
+          "Move": "Mud Bomb - Ground 32 - Weather Ball",
+          "Type": "Normal"
+        },
+        {
+          "Level": 34,
+          "Move": "Signal Beam - Bug 37 - Thunderbolt",
+          "Type": "Electric"
+        },
+        {
+          "Level": 40,
+          "Move": "Muddy Water",
+          "Type": "Water"
+        },
+        {
+          "Level": 43,
+          "Move": "Spotlight",
+          "Type": "Normal"
+        },
+        {
+          "Level": 46,
+          "Move": "Electric Terrain - Electric 50 - Zap Cannon",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Wattrel",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Wattrel 2 - Kilowattrel Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Ocean, Beach",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 2",
+      "Sky 6",
+      "Jump 3/3",
+      "Power 1",
+      "Underdog",
+      "Zapper"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "4d6",
+      "Combat": "2d6",
+      "Stealth": "2d6",
+      "Percep": "4d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Peck - Flying 1 - Gust - Flying 1 - Growl - Normal 1 - Quick Attack - Normal 4 - Charge Beam - Electric 7 - Agility - Psychic 11 - Spark - Electric 15 - Air Cutter - Flying 19 - Signal Beam - Bug 23 - Volt Switch - Electric 25 - Air Slash - Flying 28 - Uproar - Normal 30 - Roost - Flying 34 - Shock Wave - Electric 37 - Discharge - Electric 40 - Heat Wave - Fire 43 - Hurricane - Flying 48 - Thunder",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Kilowattrel",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Wattrel 2 - Kilowattrel Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Ocean, Beach",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Sky 7",
+      "Jump 3/3",
+      "Power 1",
+      "Zapper"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "2d6+1",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Electro Ball - Electric 1 - Peck - Flying 1 - Gust - Flying 1 - Growl - Normal 1 - Quick Attack - Normal 4 - Charge Beam - Electric 7 - Agility - Psychic 11 - Spark - Electric 15 - Air Cutter - Flying 19 - Signal Beam - Bug 23 - Volt Switch - Electric 25 - Air Slash - Flying 28 - Uproar - Normal 30 - Roost - Flying 34 - Shock Wave - Electric 37 - Discharge - Electric 40 - Heat Wave - Fire 43 - Hurricane - Flying 48 - Thunder",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Maschiff",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Maschiff 2 - Mabosstiff Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Urban, Mountain, Desert, Forest, Grassland",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Leer - Normal 1 - Scary Face - Normal 4 - Lick - Ghost 7 - Pursuit - Dark 10 - Hone Claws - Dark 12 - Double Kick - Fighting 15 - Bite - Dark 18 - Roar - Normal 22 - Headbutt - Normal 26 - Payback - Dark 29 - Reversal - Fighting 32 - Crunch - Dark 35 - Swagger - Normal 39 - Jaw Lock - Dark 43 - Protect - Normal 46 - Superpower - Fighting 49 - Double Edge - Normal 52 - Outrage",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Mabosstiff",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Maschiff 2 - Mabosstiff Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Urban, Mountain, Desert, Forest, Grassland",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Comeuppance - Dark 1 - Tackle - Normal 1 - Leer - Normal 1 - Scary Face - Normal 4 - Lick - Ghost 7 - Pursuit - Dark 10 - Hone Claws - Dark 12 - Double Kick - Fighting 15 - Bite - Dark 18 - Roar - Normal 22 - Headbutt - Normal 26 - Payback - Dark 29 - Reversal - Fighting 32 - Crunch - Dark 35 - Swagger - Normal 39 - Jaw Lock - Dark 43 - Protect - Normal 46 - Superpower - Fighting 49 - Double Edge - Normal 52 - Outrage",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Shroodle",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Shroodle 2 - Grafaiai Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Rainforest",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Scratch - Normal 1 - Leer - Normal 5 - Acid Spray - Poison 8 - Bite - Dark 8 - Fury Swipes - Normal 10 - Switcheroo - Dark 12 - Poison Fang - Poison 14 - Fake Out - Normal 16 - Knock Off - Dark 18 - Flatter - Dark 21 - Slash - Normal 24 - U-Turn - Bug 26 - Bullet Seed - Grass 29 - Poison Jab - Poison 32 - Taunt - Dark 34 - Night Slash - Dark 36 - First Impression - Bug 38 - Substitute - Normal 41 - Seed Bomb - Grass 44 - Gunk shot - Poison 48 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Grafaiai",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Shroodle 2 - Grafaiai Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Rainforest",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 3/4",
+      "Power 3",
+      "Naturewalk (Forest)",
+      "Intoxicator",
+      "Stealth",
+      "Wallclimber"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "5d6",
+      "Combat": "3d6+1",
+      "Stealth": "5d6+2",
+      "Percep": "5d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 14,
+          "Move": "Fake Out - Normal 16 - Knock Off - Dark 18 - Flatter - Dark 21 - Slash - Normal 24 - U-Turn - Bug 26 - Bullet Seed - Grass 29 - Poison Jab - Poison 32 - Taunt - Dark 34 - Night Slash - Dark 36 - First Impression - Bug 38 - Substitute - Normal 41 - Seed Bomb - Grass 44 - Gunk shot - Poison 48 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Bramblin",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 3
+    },
+    "Evolution": [
+      "1 - Bramblin 2 - Brambleghast Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Desert",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 2",
+      "Levitate 4",
+      "Jump 0/1",
+      "Power 1",
+      "Naturewalk (Desert)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "3d6+2",
+      "Percep": "3d6",
+      "Focus": "2d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Defense Curl - Normal 1 - Astonish - Ghost 1 - Rapid Spin - Normal 5 - Absorb - Grass 5 - Trailblaze - Grass 9 - Infestation - Bug 12 - Rollout - Rock 15 - Mega Drain - Grass 15 - Needle Arm - Grass 18 - Disable - Normal 21 - Hex - Ghost 23 - Skitter Smack - Bug 24 - Bullet Seed - Grass 27 - Scorching Sands - Ground 29 - Giga Drain - Grass 32 - Shadow Ball - Ghost 35 - Phantom Force - Ghost 38 - Leech Life - Bug 40 - Curse - Ghost 43 - Earth Power - Ground 47 - Power Whip - Grass 50 - Pain Split - Normal 50 - Poltergeist",
+          "Type": "Ghost"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Brambleghast",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Bramblin 2 - Brambleghast Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Desert",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Levitate 6",
+      "Jump 1/2",
+      "Power 2",
+      "Naturewalk (Desert)"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "4d6+1",
+      "Combat": "3d6",
+      "Stealth": "3d6+2",
+      "Percep": "4d6",
+      "Focus": "4d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Defense Curl - Normal 1 - Astonish - Ghost 1 - Rapid Spin - Normal 5 - Absorb - Grass 5 - Trailblaze - Grass 9 - Infestation - Bug 12 - Rollout - Rock 15 - Mega Drain - Grass 15 - Needle Arm - Grass 18 - Disable - Normal 21 - Hex - Ghost 23 - Skitter Smack - Bug 24 - Bullet Seed - Grass 27 - Scorching Sands - Ground 29 - Giga Drain - Grass 32 - Shadow Ball - Ghost 35 - Phantom Force - Ghost 38 - Leech Life - Bug 40 - Curse - Ghost 43 - Earth Power - Ground 47 - Power Whip - Grass 50 - Pain Split - Normal 50 - Poltergeist",
+          "Type": "Ghost"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Toedscool",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Toedscool 2 - Toedscruel Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland, Rainforest",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 2",
+      "Mushroom Harvest",
+      "Naturewalk (Forest, Grassland)",
+      "Shrinkable",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6+1",
+      "Combat": "1d6",
+      "Stealth": "3d6+2",
+      "Percep": "2d6",
+      "Focus": "2d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Reflect Type - Normal 1 - Wrap - Normal 1 - Tackle - Normal 1 - Mud-Slap - Ground 4 - Absorb - Grass 8 - Stun Spore - Grass 8 - Fairy Wind - Fairy 11 - Supersonic - Normal 13 - Acid - Poison 15 - Mega Drain - Grass 17 - Mud Shot - Ground 20 - Screech - Normal 20 - Draining Kiss - Fairy 23 - Clear Smog - Poison 27 - Hex - Ghost 30 - Mud Bomb - Ground 33 - Seed Bomb - Grass 36 - Spore - Grass 39 - Dazzling Gleam - Fairy 42 - Growth - Normal 45 - Giga Drain - Grass 48 - Earth Power - Ground 52 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Toedscruel",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Toedscool 2 - Toedscruel Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland, Rainforest",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 4",
+      "Jump 1/1",
+      "Power 5",
+      "Mushroom Harvest",
+      "Naturewalk (Forest, Grassland)",
+      "Reach",
+      "Shrinkable",
+      "Mountable 1"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6+1",
+      "Combat": "4d6",
+      "Stealth": "5d6+2",
+      "Percep": "3d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Mould* - Grass [Hex] 1 - Reflect Type - Normal 1 - Wrap - Normal 1 - Tackle - Normal 1 - Mud-Slap - Ground 4 - Absorb - Grass 8 - Stun Spore - Grass 8 - Fairy Wind - Fairy 11 - Supersonic - Normal 13 - Acid - Poison 15 - Mega Drain - Grass 17 - Mud Shot - Ground 20 - Screech - Normal 20 - Draining Kiss - Fairy 23 - Clear Smog - Poison 27 - Hex - Ghost 30 - Mud Bomb - Ground 33 - Seed Bomb - Grass 36 - Spore - Grass 39 - Dazzling Gleam - Fairy 42 - Growth - Normal 45 - Giga Drain - Grass 48 - Earth Power - Ground 52 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Klawf",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Klawf"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Desert, Mountain",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 1",
+      "Burrow 3",
+      "Jump 1/1",
+      "Power 3",
+      "Naturewalk (Mountain)",
+      "Underdog",
+      "Wallclimber"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "2d6",
+      "Combat": "2d6",
+      "Stealth": "2d6",
+      "Percep": "4d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Vice Grip - Normal 1 - Astonish - Ghost 1 - Rock Throw - Rock 6 - Harden - Normal 9 - Rock Smash - Fighting 12 - Metal Claw - Steel 15 - Protect - Normal 18 - Rock Tomb - Rock 21 - Feint Attack - Dark 23 - Bulldoze - Ground 25 - Swords Dance - Normal 27 - X-Scissor - Bug 29 - Stone Axe - Rock 33 - Flail - Normal 37 - Iron Head - Steel 40 - Stone Edge - Rock 43 - Iron Defense - Steel 46 - Rock Slide - Rock 49 - High Horsepower - Ground 52 - Earthquake",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Capsakid",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Capsakid 2 - Scovillain Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Desert, Grassland",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 1",
+      "Naturewalk (Grassland)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "2d6",
+      "Combat": "1d6",
+      "Stealth": "3d6",
+      "Percep": "3d6",
+      "Focus": "1d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leafage - Grass 1 - Leer - Normal 4 - Bite - Dark 10 - Growth - Normal 13 - Razor Leaf - Grass 17 - Snarl - Dark 20 - Sunny Day - Fire 20 - Worry Seed - Grass 23 - Headbutt - Normal 26 - Crunch - Dark 29 - Shadow Ball - Ghost 32 - Seed Bomb - Grass 35 - Zen Headbutt - Psychic 38 - Flamethrower - Fire 41 - Power Whip - Grass 44 - Flare Blitz - Fire 48 - Solar Beam - Grass 48 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Scovillain",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Capsakid 2 - Scovillain Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Desert, Grassland",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 4",
+      "Firestarter",
+      "Naturewalk (Grassland)"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Fire Fang - Fire Evo - Incinerate - Fire Evo - Spicy Extract - Grass 1 - Leafage - Grass 1 - Leer - Normal 4 - Bite - Dark 10 - Growth - Normal 13 - Razor Leaf - Grass 17 - Snarl - Dark 20 - Sunny Day - Fire 20 - Worry Seed - Grass 23 - Headbutt - Normal 26 - Crunch - Dark 29 - Shadow Ball - Ghost 32 - Seed Bomb - Grass 35 - Zen Headbutt - Psychic 38 - Flamethrower - Fire 41 - Power Whip - Grass 44 - Flare Blitz - Fire 48 - Solar Beam - Grass 48 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Rellor",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Rellor 2 - Rabsca Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Desert",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 1",
+      "Jump 1/1",
+      "Power 2",
+      "Naturewalk (Desert)",
+      "Scavenger",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "2d6",
+      "Combat": "1d6",
+      "Stealth": "2d6",
+      "Percep": "2d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Defense Curl - Normal 1 - Psy Kick* - Psychic 4 - Sand Attack - Ground 7 - Pounce - Bug 11 - Sand Tomb - Ground 14 - Bug Bite - Bug 17 - Rollout - Rock 20 - Clayball* - Ground [Ranged Tackle] 22 - Take Down - Normal 25 - Dig - Ground 28 - Steamroller - Bug 33 - Zen Headbutt - Psychic 35 - Bulldoze - Ground 38 - Rock Slide - Rock 41 - Gyro Ball - Steel 44 - Megahorn - Bug 47 - Earthquake - Ground 50 - Rock Wrecker",
+          "Type": "Rock"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Rabsca",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Rellor 2 - Rabsca Lv 25 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Desert",
+    "Capabilities": [
+      "Overland 1",
+      "Swim 1",
+      "Jump 1/1",
+      "Levitate 6",
+      "Power 4",
+      "Naturewalk (Desert)",
+      "Telekinetic",
+      "Telepath"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6",
+      "Combat": "1d6",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "6d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Revival Blessing - Normal Evo - Psybeam - Psychic Evo - Signal Beam",
+          "Type": "Bug"
+        },
+        {
+          "Level": "Evo",
+          "Move": "Mud Shot - Ground 1 - Tackle - Normal 1 - Defense Curl - Normal 1 - Confusion - Psychic 4 - Sand Attack - Ground 7 - Struggle Bug - Bug 11 - Rollout - Rock 14 - Sand Tomb - Ground 17 - Bug Bite - Bug 20 - Clayball* - Ground [Ranged Tackle] 22 - Take Down - Normal 25 - Dig - Ground 28 - Steamroller - Bug 31 - Extrasensory - Psychic 33 - Mud Bomb - Ground 35 - Speed Swap - Psychic 35 - Power Swap - Psychic 35 - Guard Swap - Psychic 38 - Psychic - Psychic 41 - Gyro Ball - Steel 44 - Bug Buzz - Bug 47 - Earth Power - Ground 50 - Future Sight",
+          "Type": "Psychic"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Flittle",
+    "Base Stats": {
+      "HP": 3,
+      "Attack": 3,
+      "Special Attack": 3,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 3
+    },
+    "Evolution": [
+      "1 - Flittle 2 - Espathra Lv 30 Minimum"
+    ],
+    "Diet": "Insectivore",
+    "Habitat": "Desert, Grassland",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 3",
+      "Levitate 5 Jump 1/1",
+      "Power 1",
+      "Telekinetic",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "4d6",
+      "Percep": "3d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Peck - Flying 1 - Gust - Flying 1 - Growl - Normal 5 - Confusion - Psychic 8 - Baby-Doll Eyes - Fairy 11 - Disarming Voice - Fairy 15 - Quick Attack - Normal 18 - Psybeam - Psychic 21 - Snarl - Dark 24 - Air Cutter - Flying 27 - Agility - Psychic 32 - Hypnosis - Psychic 35 - Uproar - Normal 38 - Air Slash - Flying 41 - Dazzling Gleam - Fairy 44 - Dark Pulse - Dark 46 - Hyper Voice - Normal 49 - Future Sight - Psychic 52 - Hurricane - Flying 54 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Espathra",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Flittle 2 - Espathra Lv 30 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Desert, Grassland",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 4/5",
+      "Power 5",
+      "Mountable 1",
+      "Telekinetic",
+      "Telepath"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "6d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Lumina Crash - Psychic 1 - Peck - Flying 1 - Gust - Flying 1 - Growl - Normal 5 - Confusion - Psychic 8 - Baby-Doll Eyes - Fairy 11 - Disarming Voice - Fairy 15 - Quick Attack - Normal 18 - Psybeam - Psychic 21 - Snarl - Dark 24 - Air Cutter - Flying 27 - Agility - Psychic 32 - Hypnosis - Psychic 35 - Uproar - Normal 38 - Air Slash - Flying 41 - Dazzling Gleam - Fairy 44 - Dark Pulse - Dark 46 - Hyper Voice - Normal 49 - Future Sight - Psychic 52 - Hurricane - Flying 54 - Last Resort",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tinkatink",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Tinkatink 2 - Tinkatuff Lv 15 Minimum 3 - Tinkaton Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Urban",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 2",
+      "Jump 0/1",
+      "Power 3",
+      "Scavenger",
+      "Tinker",
+      "Wielder",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6+1",
+      "Acro": "2d6",
+      "Combat": "2d6",
+      "Stealth": "3d6+2",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Astonish - Ghost 1 - Sugar Rush* - Fairy [Trailblaze] 1 - Rock Smash - Fighting 5 - Baby-Doll Eyes - Fairy 8 - Metal Claw - Steel 11 - Covet - Normal 14 - Fake Out - Normal 17 - Crush* - Fairy [Dizzy Punch w/ Infatuate] 20 - Magnet Bomb - Steel 23 - Sweet Kiss - Fairy 25 - Brutal Swing - Dark 28 - Slam - Normal 33 - Skitter Smack - Bug 36 - Knock Off - Dark 39 - Play Rough - Fairy 43 - Flatter - Dark 46 - Meteor Mash - Steel 49 - Fey Wild* - Fairy [Superpower] 52 - Heavy Slam",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tinkatuff",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Tinkatink 2 - Tinkatuff Lv 15 Minimum 3 - Tinkaton Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Urban",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 6",
+      "Scavenger",
+      "Tinker",
+      "Wielder",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "4d6+2",
+      "Acro": "2d6",
+      "Combat": "4d6+1",
+      "Stealth": "2d6+2",
+      "Percep": "3d6",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Astonish - Ghost 1 - Sugar Rush* - Fairy [Trailblaze] 1 - Rock Smash - Fighting 5 - Baby-Doll Eyes - Fairy 8 - Metal Claw - Steel 11 - Covet - Normal 14 - Fake Out - Normal 17 - Crush* - Fairy [Dizzy Punch w/ Infatuate] 20 - Magnet Bomb - Steel 23 - Sweet Kiss - Fairy 25 - Brutal Swing - Dark 28 - Slam - Normal 33 - Skitter Smack - Bug 36 - Knock Off - Dark 39 - Play Rough - Fairy 43 - Flatter - Dark 46 - Meteor Mash - Steel 49 - Fey Wild* - Fairy [Superpower] 52 - Heavy Slam",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tinkaton",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Tinkatink 2 - Tinkatuff Lv 15 Minimum 3 - Tinkaton Lv 30 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Urban",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/2",
+      "Power 9",
+      "Reach",
+      "Scavenger",
+      "Tinker",
+      "Wielder"
+    ],
+    "Skills": {
+      "Athl": "5d6+3",
+      "Acro": "2d6",
+      "Combat": "5d6+2",
+      "Stealth": "2d6",
+      "Percep": "3d6+2",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Gigaton Hammer - Steel 1 - Astonish - Ghost 1 - Sugar Rush* - Fairy [Trailblaze] 1 - Rock Smash - Fighting 5 - Baby-Doll Eyes - Fairy 8 - Metal Claw - Steel 11 - Covet - Normal 14 - Fake Out - Normal 17 - Crush* - Fairy [Dizzy Punch w/ Infatuate] 20 - Magnet Bomb - Steel 23 - Sweet Kiss - Fairy 25 - Brutal Swing - Dark 28 - Slam - Normal 33 - Skitter Smack - Bug 36 - Knock Off - Dark 39 - Play Rough - Fairy 43 - Flatter - Dark 46 - Meteor Mash - Steel 49 - Fey Wild* - Fairy [Superpower] 52 - Heavy Slam",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Wiglett",
+    "Base Stats": {
+      "HP": 1,
+      "Attack": 1,
+      "Special Attack": 1,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 3
+    },
+    "Evolution": [
+      "1 - Wiglett 2 - Wugtrio Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Beach, Ocean",
+    "Capabilities": [
+      "Overland 1",
+      "Swim 3",
+      "Burrow 6",
+      "Jump 1/1",
+      "Power 3",
+      "Gilled",
+      "Fountain",
+      "Reach",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "1d6",
+      "Stealth": "4d6+2",
+      "Percep": "3d6+1",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Aqua Jet - Water 1 - Sand Attack - Ground 1 - Withdraw - Water 1 - Wrap - Normal 5 - Tackle - Normal 7 - Beat Up - Dark 10 - Sand Tomb - Ground 13 - Constrict - Normal 16 - Flip Turn - Water 18 - Slam - Normal 21 - Brutal Swing - Dark 24 - Taunt - Dark 27 - Headbutt - Normal 30 - Dig - Ground 33 - Sucker Punch - Dark 36 - Liquidation - Water 39 - Throat Chop - Dark 42 - Soak - Water 45 - Earthquake - Ground 48 - Brutal Beatdown* - Dark [Close Combat] 52 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Wugtrio",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Wiglett 2 - Wugtrio Lv 25 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Beach, Ocean",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 5",
+      "Burrow 8",
+      "Jump 1/1",
+      "Power 6",
+      "Gilled",
+      "Fountain",
+      "Reach",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "6d6+2",
+      "Percep": "4d6+1",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Triple Dive - Water 1 - Aqua Jet - Water 1 - Sand Attack - Ground 1 - Withdraw - Water 1 - Wrap - Normal 5 - Tackle - Normal 7 - Beat Up - Dark 10 - Sand Tomb - Ground 13 - Constrict - Normal 16 - Flip Turn - Water 18 - Slam - Normal 21 - Brutal Swing - Dark 24 - Taunt - Dark 27 - Headbutt - Normal 30 - Dig - Ground 33 - Sucker Punch - Dark 36 - Liquidation - Water 39 - Throat Chop - Dark 42 - Soak - Water 45 - Earthquake - Ground 48 - Brutal Beatdown* - Dark [Close Combat] 52 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Bombirdier",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Bombirdier"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Beach, Mountain, Ocean, River",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 3",
+      "Sky 6",
+      "Jump 2/2",
+      "Power 6"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "3d6",
+      "Combat": "2d6",
+      "Stealth": "2d6",
+      "Percep": "5d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leer - Normal 1 - Peck - Flying 1 - Fling - Dark 1 - Memento - Dark 1 - Hone Claws - Dark 7 - Thief - Dark 11 - Rock Throw - Rock 13 - Wing Attack - Flying 15 - Whirlwind - Normal 17 - Knock Off - Dark 20 - Pluck - Flying 23 - Rock Tomb - Rock 25 - Torment - Dark 28 - Payback - Dark 30 - Dual Wingbeat - Flying 33 - Rock Blast - Rock 36 - Parting Shot - Dark 40 - Fly - Flying 43 - Assurance - Dark 47 - Rock Slide - Rock 50 - Sky Attack",
+          "Type": "Flying"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Finizen",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 4
+    },
+    "Evolution": [
+      "1 - Finizen 2 - Palafin Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Oceans",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Supersonic - Normal 1 - Aqua Ring - Water 1 - Water Gun - Water 4 - Astonish - Ghost 7 - Focus Energy - Normal 10 - Disarming Voice - Fairy 13 - Aqua Jet - Water 16 - Double Hit - Normal 18 - Flip Turn - Water 21 - Charm - Fairy 24 - Vacuum Wave - Fighting 26 - Dive - Water 29 - Acrobatics - Flying 32 - Sky Uppercut - Fighting 34 - Encore - Normal 37 - Play Rough - Fairy 39 - Aqua Tail - Water 43 - Mist - Ice 45 - Hydro Pump",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Palafin Zero Form",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Finizen 2 - Palafin Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Ocean",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 7",
+      "Jump 3/3",
+      "Power 3",
+      "Aura Reader",
+      "Fountain",
+      "Forme Change",
+      "Naturewalk (Ocean)"
+    ],
+    "Skills": {
+      "Athl": "2d6+1",
+      "Acro": "3d6+1",
+      "Combat": "1d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Jet Punch - Water 1 - Supersonic - Normal 1 - Aqua Ring - Water 1 - Water Gun - Water 4 - Astonish - Ghost 7 - Focus Energy - Normal 10 - Disarming Voice - Fairy 13 - Aqua Jet - Water 16 - Double Hit - Normal 18 - Flip Turn - Water 21 - Charm - Fairy 24 - Vacuum Wave - Fighting 26 - Dive - Water 29 - Acrobatics - Flying 32 - Sky Uppercut - Fighting 34 - Encore - Normal 37 - Play Rough - Fairy 39 - Aqua Tail - Water 41 - Drain Punch - Fighting 43 - Mist - Ice 45 - Hydro Pump - Water 48 - Focus Punch - Fighting 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Palafin Hero Form",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 16,
+      "Special Defense": 16,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Finizen 2 - Palafin Lv 25 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Ocean",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Jet Punch - Water 1 - Supersonic - Normal 1 - Aqua Ring - Water 1 - Water Gun - Water 4 - Astonish - Ghost 7 - Focus Energy - Normal 10 - Disarming Voice - Fairy 13 - Aqua Jet - Water 16 - Double Hit - Normal 18 - Flip Turn - Water 21 - Charm - Fairy 24 - Vacuum Wave - Fighting 26 - Dive - Water 29 - Acrobatics - Flying 32 - Sky Uppercut - Fighting 34 - Encore - Normal 37 - Play Rough - Fairy 39 - Aqua Tail - Water 41 - Drain Punch - Fighting 43 - Mist - Ice 45 - Hydro Pump - Water 48 - Focus Punch - Fighting 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Varoom",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 6
+    },
+    "Evolution": [
+      "2 - Revavroom Lv 25 Minimum"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Desert, Mountain, Urban",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 2",
+      "Levitate 4",
+      "Jump 1/1",
+      "Power 3",
+      "Intoxicator",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "2d6",
+      "Combat": "2d6",
+      "Stealth": "1d6",
+      "Percep": "2d6+1",
+      "Focus": "2d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Magnet Rise - Electric 1 - Lick - Ghost 1 - Poison Gas - Poison 1 - Poison Sting - Poison 4 - Smog - Poison 7 - Taunt - Dark 10 - Gyro Ball - Steel 13 - Pursuit - Dark 16 - Poison Fang - Poison 18 - Magnet Bomb - Steel 20 - Flame Charge - Fire 22 - Headbutt - Normal 24 - Poison Jab - Poison 27 - Iron Head - Steel 30 - Screech - Normal 33 - Fire Lash - Fire 35 - Swagger - Normal 38 - Assurance - Dark 40 - Spin Out - Steel 44 - Gunk Shot",
+          "Type": "Poison"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Revavroom",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 9
+    },
+    "Evolution": [
+      "2 - Revavroom Lv 25 Minimum"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Desert, Mountain, Urban",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Shift Gear - Steel 1 - Magnet Rise - Electric 1 - Lick - Ghost 1 - Poison Gas - Poison 1 - Poison Sting - Poison 4 - Smog - Poison 7 - Taunt - Dark 10 - Gyro Ball - Steel 13 - Pursuit - Dark 16 - Poison Fang - Poison 18 - Magnet Bomb - Steel 20 - Flame Charge - Fire 22 - Headbutt - Normal 24 - Poison Jab - Poison 27 - Iron Head - Steel 30 - Screech - Normal 33 - Fire Lash - Fire 35 - Swagger - Normal 38 - Assurance - Dark 40 - Spin Out - Steel 44 - Gunk Shot - Poison 48 - Steel Roller",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Cyclizar",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Cyclizar"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Grassland, Mountain, Forest",
+    "Capabilities": [
+      "Overland 9",
+      "Swim 5",
+      "Jump 5/7",
+      "Power 6",
+      "Mountable 1"
+    ],
+    "Skills": {
+      "Athl": "5d6",
+      "Acro": "5d6",
+      "Combat": "3d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Echoed Voice - Normal 1 - Growl - Normal 3 - Quick Attack - Normal 6 - Pounce - Bug 8 - Taunt - Dark 10 - Fire Spin - Fire 11 - Rapid Spin - Normal 13 - Bite - Dark 15 - Dragon Breath - Dragon 17 - Breaking Swipe - Dragon 20 - Swift - Normal 23 - U-turn - Bug 25 - Shed Tail - Normal 28 - Dragon Claw - Dragon 30 - Redline* - Dragon [New] 32 - Shift Gear - Steel 34 - Dragon Pulse - Dragon 37 - High Horsepower - Ground 40 - Heat Wave - Fire 43 - Double-Edge - Normal 46 - Dragon Rush - Dragon 50 - Hyper Beam",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Orthworm",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 15
+    },
+    "Evolution": [
+      "1 - Orthworm"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Mountain, Desert",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Burrow 7",
+      "Jump 2/3",
+      "Power 10",
+      "Groundshaper",
+      "Mountable 2",
+      "Reach",
+      "Tremorsense"
+    ],
+    "Skills": {
+      "Athl": "6d6+2",
+      "Acro": "1d6",
+      "Combat": "3d6+2",
+      "Stealth": "1d6",
+      "Percep": "3d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Wrap - Normal 1 - Harden - Normal 1 - Mud-Slap - Ground 5 - Bullet Punch - Steel 7 - Sand Tomb - Ground 12 - Smack Down - Rock 16 - Magnet Bomb - Steel 18 - Bulldoze - Ground 21 - Dig - Ground 24 - Take Down - Normal 26 - Iron Head - Steel 30 - Sandstorm - Rock 32 - Thunder Punch - Electric 35 - Iron Defense - Steel 38 - Rock Slide - Rock 43 - Shed Tail - Normal 47 - Iron Tail - Steel 52 - Earthquake",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Glimmet",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 4,
+      "Special Defense": 4,
+      "Speed": 4
+    },
+    "Evolution": [
+      "2 - Glimmora Lv 30 Minimum"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Cave",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 2",
+      "Levitate 5",
+      "Jump 0/1",
+      "Power 1",
+      "Dead Silent",
+      "Materializer",
+      "Intoxicator",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6+1",
+      "Acro": "3d6",
+      "Combat": "2d6",
+      "Stealth": "4d6",
+      "Percep": "3d6",
+      "Focus": "3d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Rock Throw - Rock 1 - Harden - Normal 1 - Poison Gas - Poison 1 - Smack Down - Rock 7 - Acid Spray",
+          "Type": "Poison"
+        },
+        {
+          "Level": 10,
+          "Move": "Mud Shot - Ground 12 - Ancient Power - Rock 15 - Rock Polish",
+          "Type": "Rock"
+        },
+        {
+          "Level": 18,
+          "Move": "Venoshock - Poison 21 - Stealth Rock",
+          "Type": "Rock"
+        },
+        {
+          "Level": 24,
+          "Move": "Mirror Shot - Steel 28 - Sandstorm - Rock 30 - Self-Destruct",
+          "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Clear Smog - Poison 33 - Power Gem",
+          "Type": "Rock"
+        },
+        {
+          "Level": 35,
+          "Move": "Signal Beam - Bug 37 - Rock Slide - Rock 40 - Acid Armor",
+          "Type": "Poison"
+        },
+        {
+          "Level": 43,
+          "Move": "Mirror Coat - Psychic 46 - Sludge Wave - Poison 50 - Meteor Beam",
+          "Type": "Rock"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Glimmora",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 9
+    },
+    "Evolution": [
+      "2 - Glimmora Lv 30 Minimum"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Cave",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 3",
+      "Levitate 6",
+      "Jump 1/1",
+      "Power 3",
+      "Dead Silent",
+      "Materializer",
+      "Intoxicator"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "3d6+1",
+      "Percep": "4d6",
+      "Focus": "4d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Mortal Spin - Poison 1 - Rock Throw - Rock 1 - Harden - Normal 1 - Poison Gas - Poison 1 - Smack Down - Rock 7 - Acid Spray",
+          "Type": "Poison"
+        },
+        {
+          "Level": 10,
+          "Move": "Mud Shot - Ground 12 - Ancient Power - Rock 15 - Rock Polish",
+          "Type": "Rock"
+        },
+        {
+          "Level": 18,
+          "Move": "Venoshock - Poison 21 - Stealth Rock",
+          "Type": "Rock"
+        },
+        {
+          "Level": 24,
+          "Move": "Mirror Shot - Steel 28 - Sandstorm - Rock 30 - Self-Destruct",
+          "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Clear Smog - Poison 33 - Power Gem",
+          "Type": "Rock"
+        },
+        {
+          "Level": 35,
+          "Move": "Signal Beam - Bug 37 - Rock Slide - Rock 40 - Acid Armor",
+          "Type": "Poison"
+        },
+        {
+          "Level": 43,
+          "Move": "Mirror Coat - Psychic 46 - Sludge Wave - Poison 50 - Meteor Beam",
+          "Type": "Rock"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Greavard",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Greavard 2 - Houndstone Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Mountain, Tundra, Desert",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Burrow 3",
+      "Jump 1/1",
+      "Power 1",
+      "Darkvision",
+      "Dead Silent",
+      "Tracker",
+      "Glow",
+      "Phasing",
+      "Shrinkable",
+      "Pack Mon",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6+2",
+      "Acro": "2d6+2",
+      "Combat": "2d6",
+      "Stealth": "3d6",
+      "Percep": "3d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Growl - Normal 3 - Lick - Ghost 6 - Tail Whip - Normal 6 - Bite - Dark 8 - Roar - Normal 11 - Flame Charge - Fire 15 - Shadow Punch - Ghost 18 - Headbutt - Normal 21 - Dig - Ground 24 - Rest - Psychic 26 - Rock Tomb - Rock 28 - Crunch - Dark 30 - Shadow Bone - Ghost 32 - Play Rough - Fairy 37 - Helping Hand - Normal 40 - Last Respects - Ghost 42 - Stone Edge - Rock 46 - Charm - Fairy 49 - Double-Edge - Normal 52 - Flare Blitz",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Houndstone",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Greavard 2 - Houndstone Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Mountain, Tundra, Desert",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 3",
+      "Burrow 5",
+      "Jump 1/1",
+      "Power 2",
+      "Darkvision",
+      "Dead Silent",
+      "Tracker",
+      "Phasing",
+      "Shrinkable",
+      "Pack mon"
+    ],
+    "Skills": {
+      "Athl": "3d6+2",
+      "Acro": "3d6+2",
+      "Combat": "2d6",
+      "Stealth": "4d6",
+      "Percep": "5d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Growl - Normal 3 - Lick - Ghost 6 - Tail Whip - Normal 6 - Bite - Dark 8 - Roar - Normal 11 - Flame Charge - Fire 15 - Shadow Punch - Ghost 18 - Headbutt - Normal 21 - Dig - Ground 24 - Rest - Psychic 26 - Rock Tomb - Rock 28 - Crunch - Dark 30 - Shadow Bone - Ghost 32 - Play Rough - Fairy 37 - Helping Hand - Normal 40 - Last Respects - Ghost 42 - Stone Edge - Rock 46 - Charm - Fairy 49 - Double-Edge - Normal 52 - Head Smash",
+          "Type": "Rock"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Flamigo",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Flamigo"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Beach, Marsh",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 5",
+      "Sky 6",
+      "Jump 2/1",
+      "Power 5",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "4d6+1",
+      "Combat": "4d6",
+      "Stealth": "2d6",
+      "Percep": "5d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Peck - Flying 1 - Copycat - Normal 5 - Double Kick",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 7,
+          "Move": "Pursuit - Dark 9 - Detect - Fighting 12 - Wing Attack - Flying 15 - Focus Energy - Normal 18 - Low Kick - Fighting 21 - Feint",
+          "Type": "Normal"
+        },
+        {
+          "Level": 24,
+          "Move": "Dual Wingbeat - Flying 27 - Payback - Dark 30 - Jump Kick - Fighting 33 - Roost",
+          "Type": "Flying"
+        },
+        {
+          "Level": 36,
+          "Move": "Acrobatics - Flying 39 - Mega Kick - Normal 42 - Wide Guard - Rock 45 - High Jump Kick - Fighting 48 - Throat Chop - Dark 50 - Brave Bird",
+          "Type": "Flying"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Cetoddle",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Cetoddle 2 - Cetitan Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Tundra, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 2",
+      "Jump 3/3",
+      "Power 5",
+      "Chilled",
+      "Mountable 1",
+      "Naturewalk (Tundra)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "2d6",
+      "Combat": "2d6",
+      "Stealth": "2d6",
+      "Percep": "2d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Powder Snow - Ice 1 - Ice Shard - Ice 6 - Growl - Normal 9 - Echoed Voice - Normal 12 - Aqua Jet - Water 15 - Flail - Normal 18 - Ice Fang - Ice 21 - Bulldoze - Ground 24 - Bounce - Flying 27 - Ice Spinner - Ice 30 - Take Down - Normal 33 - Amnesia - Psychic 36 - Body Slam - Normal 40 - Avalanche - Ice 44 - Slack Off - Normal 47 - Double-Edge - Normal 50 - Earthquake - Ground 53 - Blizzard - Ice 53 - Icebreaker* [Double Edge+]",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Cetitan",
+    "Base Stats": {
+      "HP": 17,
+      "Attack": 17,
+      "Special Attack": 17,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Cetoddle 2 - Cetitan Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Tundra, Mountain",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 3/3",
+      "Power 12",
+      "Chilled",
+      "Mountable 5",
+      "Naturewalk (Tundra)"
+    ],
+    "Skills": {
+      "Athl": "5d6",
+      "Acro": "1d6",
+      "Combat": "4d6",
+      "Stealth": "1d6",
+      "Percep": "2d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Powder Snow - Ice 1 - Ice Shard - Ice 6 - Growl - Normal 9 - Echoed Voice - Normal 12 - Aqua Jet - Water 15 - Flail - Normal 18 - Ice Fang - Ice 21 - Bulldoze - Ground 24 - Bounce - Flying 27 - Ice Spinner - Ice 30 - Take Down - Normal 33 - Amnesia - Psychic 36 - Body Slam - Normal 40 - Avalanche - Ice 44 - Slack Off - Normal 47 - Double-Edge - Normal 50 - Earthquake - Ground 53 - Blizzard - Ice 53 - Icebreaker* [Double Edge+]",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Veluza",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Veluza"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Freshwater, Ocean",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 7",
+      "Levitate 4",
+      "Jump 4/4",
+      "Power 4",
+      "Naturewalk (Ocean)",
+      "Gilled",
+      "Telekinetic",
+      "Fountain"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "4d6",
+      "Combat": "4d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Aqua Jet - Water 1 - Psy Kick* - Psychic [Tackle] 5 - Pluck - Flying 8 - Pursuit - Dark 11 - Focus Energy",
+          "Type": "Normal"
+        },
+        {
+          "Level": 14,
+          "Move": "Water Pulse - Water 15 - Bite",
+          "Type": "Dark"
+        },
+        {
+          "Level": 17,
+          "Move": "Flash Step*",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 20,
+          "Move": "Flip Turn",
+          "Type": "Water"
+        },
+        {
+          "Level": 22,
+          "Move": "Psycho Cut - Psychic 24 - Slash",
+          "Type": "Normal"
+        },
+        {
+          "Level": 27,
+          "Move": "Aqua Cutter",
+          "Type": "Water"
+        },
+        {
+          "Level": 30,
+          "Move": "Fillet Away - Normal 33 - Night Slash - Dark 36 - Psychic Fangs - Psychic 39 - Liquidation",
+          "Type": "Water"
+        },
+        {
+          "Level": 42,
+          "Move": "Autotomize",
+          "Type": "Steel"
+        },
+        {
+          "Level": 45,
+          "Move": "Crunch - Dark 48 - Occult Razor* - Psychic [New] 51 - Final Gambit",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Dondozo",
+    "Base Stats": {
+      "HP": 15,
+      "Attack": 15,
+      "Special Attack": 15,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Dondozo"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Freshwater",
+    "Skills": {
+      "Athl": "5d6+3",
+      "Acro": "1d6",
+      "Combat": "4d6",
+      "Stealth": "1d6",
+      "Percep": "2d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Supersonic - Normal 1 - Water Gun - Water 1 - Bite - Dark 3 - Tickle - Normal 6 - Flail - Normal 8 - Rest - Psychic 10 - Wave Dash* - Water [New] 12 - Sleep Talk - Normal 14 - Bulldoze - Ground 16 - Flip Turn - Water 18 - Stockpile - Normal 18 - Spit Up - Normal 18 - Swallow - Normal 20 - Noble Roar - Normal 22 - Dive - Water 25 - Body Slam - Normal 27 - Waterfall - Water 30 - Soak - Water 33 - Iron Head - Steel 35 - Rain Dance - Water 37 - Order Up - Dragon 40 - Aqua Tail - Water 43 - Heavy Slam - Steel 45 - Double Edge - Normal 48 - Earthquake - Ground 51 - Wave Crash",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Tatsugiri",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Tatsugiri"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Freshwater",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 5",
+      "Jump 1/1",
+      "Power 1"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "3d6+1",
+      "Percep": "4d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Water Gun - Water 1 - Splash - Normal 1 - Harden - Normal 4 - Helping Hand",
+          "Type": "Normal"
+        },
+        {
+          "Level": 8,
+          "Move": "Dragon Breath",
+          "Type": "Dragon"
+        },
+        {
+          "Level": 11,
+          "Move": "Water Pulse",
+          "Type": "Water"
+        },
+        {
+          "Level": 14,
+          "Move": "Mud Shot",
+          "Type": "Ground"
+        },
+        {
+          "Level": 17,
+          "Move": "Twister",
+          "Type": "Dragon"
+        },
+        {
+          "Level": 20,
+          "Move": "Snarl",
+          "Type": "Dark"
+        },
+        {
+          "Level": 23,
+          "Move": "Brine",
+          "Type": "Water"
+        },
+        {
+          "Level": 25,
+          "Move": "Mud Bomb",
+          "Type": "Ground"
+        },
+        {
+          "Level": 28,
+          "Move": "Soak - Water 30 - Taunt",
+          "Type": "Dark"
+        },
+        {
+          "Level": 33,
+          "Move": "Dragon Pulse",
+          "Type": "Dragon"
+        },
+        {
+          "Level": 35,
+          "Move": "Dark Pulse - Dark 36 - Memento - Dark 38 - Muddy Water - Water 40 - Nasty Plot - Dark 44 - Mirror Coat",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 48,
+          "Move": "Foul Play",
+          "Type": "Dark"
+        },
+        {
+          "Level": 53,
+          "Move": "Hydro Pump",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Paldean Tauros Combat Breed",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Paldean Tauros Combat Breed"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Grassland",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 4",
+      "Jump 1/2",
+      "Power 9",
+      "Mountable 1",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6+2",
+      "Combat": "4d6+1",
+      "Stealth": "1d6+2",
+      "Percep": "1d6+2",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Tail Whip - Normal 1 - Rock Smash",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 5,
+          "Move": "Pursuit - Dark 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Horn Attack - Normal 15 - Bulldoze - Ground 17 - Headbutt - Normal 20 - Brutal Swing - Dark 22 - Scary Face - Normal 25 - Reversal - Fighting 28 - Zen Headbutt - Psychic 30 - Counter - Fighting 33 - Raging Bull - Fighting 37 - Thrash - Normal 40 - Assurance - Dark 44 - Rest - Psychic 48 - Swagger - Normal 50 - Earthquake - Ground 53 - Close Combat",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Paldean Tauros Blaze Breed",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Paldean Tauros Blaze Breed"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Grassland",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 4",
+      "Jump 1/2",
+      "Power 9",
+      "Mountable 1",
+      "Firestarter",
+      "Heater",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6+2",
+      "Combat": "4d6+1",
+      "Stealth": "1d6+2",
+      "Percep": "1d6+2",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Tail Whip - Normal 1 - Rock Smash",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 5,
+          "Move": "Flame Charge - Fire 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Horn Attack - Normal 15 - Bulldoze - Ground 17 - Headbutt - Normal 20 - Flame Wheel - Fire 22 - Scary Face - Normal 25 - Reversal - Fighting 28 - Zen Headbutt - Psychic 30 - Iron Head - Steel 33 - Raging Bull - Fighting 37 - Thrash - Normal 40 - Flare Blitz - Fire 44 - Rest - Psychic 48 - Swagger - Normal 50 - Earthquake - Ground 53 - Close Combat",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Paldean Tauros Aqua Breed",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Paldean Tauros Aqua Breed"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Grassland",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 6",
+      "Jump 1/3",
+      "Power 9",
+      "Mountable 1",
+      "Fountain",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6+2",
+      "Combat": "4d6+1",
+      "Stealth": "1d6+2",
+      "Percep": "1d6+2",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Tail Whip - Normal 1 - Rock Smash",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 5,
+          "Move": "Aqua Jet - Water 7 - Work Up - Normal 10 - Double Kick - Fighting 13 - Horn Attack - Normal 15 - Bulldoze - Ground 17 - Headbutt - Normal 20 - Flip Turn - Water 22 - Scary Face - Normal 25 - Reversal - Fighting 28 - Zen Headbutt - Psychic 30 - Bounce - Flying 33 - Raging Bull - Fighting 37 - Thrash - Normal 40 - Wave Crash - Water 44 - Rest - Psychic 48 - Swagger - Normal 50 - Earthquake - Ground 53 - Close Combat",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Annihilape",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Mankey 2 - Primeape Lv 25 Minimum 3 - Annihilape Lv 35 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Forest, Grassland, Mountain, Rainforest",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 3/4",
+      "Power 8",
+      "Naturewalk (Forest, Mountain)",
+      "Breathless"
+    ],
+    "Skills": {
+      "Athl": "6d6+2",
+      "Acro": "6d6+2",
+      "Combat": "6d6+1",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Shadow Punch - Ghost 1 - Scratch - Normal 1 - Leer - Normal 1 - Rock Smash - Fighting 3 - Focus Energy - Normal 6 - Swagger - Normal 8 - Low Kick - Fighting 12 - Seismic Toss - Fighting 15 - Bulldoze - Ground 18 - Screech - Normal 20 - Fury Swipes - Normal 23 - Punishment - Dark 25 - Submission - Fighting 28 - Stomping Tantrum - Ground 30 - Rage Fist - Ghost 33 - Counter - Fighting 37 - Cross Chop - Fighting 41 - Thrash - Normal 44 - Assurance - Dark 47 - Close Combat - Fighting 50 - Outrage - Dragon 53 - Final Gambit",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Paldean Wooper",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 5
+    },
+    "Evolution": [
+      "2 - Clodsire Lv 20 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Marsh",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 4",
+      "Jump 3/3",
+      "Power 1",
+      "Naturewalk (Wetlands)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "1d6",
+      "Combat": "1d6",
+      "Stealth": "3d6",
+      "Percep": "2d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Clayball* - Ground [Ranged Tackle] 1 - Poison Sting - Poison 1 - Tail Whip - Normal 4 - Tackle - Normal 8 - Wave Dash* - Water [New] 11 - Toxic Spikes - Poison 13 - Poison Tail - Poison 16 - Bulldoze - Ground 18 - Slam - Normal 21 - Yawn - Normal 24 - Toxic - Poison 27 - Poison Jab - Poison 30 - Stomping Tantrum - Ground 33 - Aqua Tail - Water 36 - Counter - Fighting 39 - Gunk Shot - Poison 42 - Earthquake",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Clodsire",
+    "Base Stats": {
+      "HP": 13,
+      "Attack": 13,
+      "Special Attack": 13,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 6
+    },
+    "Evolution": [
+      "2 - Clodsire Lv 20 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Marsh",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 5",
+      "Jump 1/1",
+      "Power 6",
+      "Naturewalk (Wetlands)",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "1d6",
+      "Combat": "3d6",
+      "Stealth": "1d6",
+      "Percep": "3d6+1",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Amnesia - Psychic 1 - Clayball* - Ground [Ranged Tackle] 1 - Poison Sting - Poison 1 - Tail Whip - Normal 4 - Tackle - Normal 8 - Wave Dash* - Water [New] 11 - Toxic Spikes - Poison 13 - Poison Tail - Poison 16 - Bulldoze - Ground 18 - Slam - Normal 21 - Yawn - Normal 24 - Bone Rush - Ground 27 - Toxic - Poison 30 - Poison Jab - Poison 33 - Stomping Tantrum - Ground 36 - Aqua Tail - Water 39 - Counter - Fighting 42 - Gunk Shot - Poison 45 - Megahorn - Bug 48 - Earthquake",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Farigiraf",
+    "Base Stats": {
+      "HP": 12,
+      "Attack": 12,
+      "Special Attack": 12,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Girafarig 2 - Farigaraf Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Grassland, Forest",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Power Swap - Psychic 1 - Guard Swap - Psychic 1 - Astonish - Ghost 1 - Tackle - Normal 1 - Growl - Normal 5 - Confusion - Psychic 10 - Bite - Dark 14 - Stomp - Normal 18 - Psybeam - Psychic 20 - Agility - Psychic 20 - Baton Pass - Normal 23 - Double Hit - Normal 25 - Smart Strike - Steel 27 - Swift - Normal 30 - Twin Beam - Psychic 33 - Crunch - Dark 36 - Body Slam - Normal 38 - Flash Cannon - Steel 41 - Psychic - Psychic 44 - Nasty Plot - Dark 46 - Assurance - Dark 48 - Thrash - Normal 50 - Hyper Beam",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Dudunsparce",
+    "Base Stats": {
+      "HP": 13,
+      "Attack": 13,
+      "Special Attack": 13,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Dunsparce 2 - Dudunsparce Lv 30 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Cave, Desert, Forest, Grassland",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 6",
+      "Burrow 6",
+      "Jump 3/3",
+      "Power 9",
+      "Darkvison",
+      "Mountable 2"
+    ],
+    "Skills": {
+      "Athl": "6d6",
+      "Acro": "2d6",
+      "Combat": "3d6",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Flail - Normal 1 - Defense Curl - Normal 4 - Mud-Slap - Ground 7 - Rollout - Rock 10 - Spite - Ghost 12 - Glare - Normal 14 - Screech - Normal 17 - Swift - Normal 20 - Ancient Power - Rock 23 - Aerial Ace - Flying 25 - Yawn - Normal 27 - Drill Run - Ground 30 - Hyper Drill - Normal 32 - Coil - Poison 33 - Dig - Ground 36 - Air Slash - Flying 38 - Roost - Flying 40 - Dragon Rush - Dragon 43 - Double-Edge - Normal 46 - Endeavor - Normal 49 - Hurricane - Flying 52 - Boomburst",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Kingambit",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 14
+    },
+    "Evolution": [
+      "1 - Pawniard 2 - Bisharp Lv 25 Minimum 3 - Kingambit Lv 35 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 1/2",
+      "Power 10",
+      "Darkvision",
+      "Tracker",
+      "Stealth",
+      "Pack Mon"
+    ],
+    "Skills": {
+      "Athl": "5d6+1",
+      "Acro": "2d6",
+      "Combat": "6d6+1",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "4d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Kowtow Cleave - Dark 1 - Scratch - Normal 1 - Leer - Normal 1 - Metal Claw - Steel 4 - Fury Cutter - Bug 7 - Beat Up - Dark 10 - Scary Face - Normal 13 - Feint Attack - Dark 16 - Aerial Ace - Flying 19 - Slash - Normal 22 - Metal Sound - Steel 25 - Iron Head - Steel 29 - Torment - Dark 33 - X-Scissor - Bug 37 - Night Slash - Dark 40 - Iron Defense - Steel 43 - Retaliate - Normal 46 - Swords Dance - Normal 49 - Assurance - Dark 52 - Sacred Sword - Fighting 55 - Zantetsuken* [New]",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Great Tusk",
+    "Base Stats": {
+      "HP": 12,
+      "Attack": 12,
+      "Special Attack": 12,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 13
+    },
+    "Evolution": [
+      "1 - Great Tusk"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Desert, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 1/1",
+      "Power 7",
+      "Tracker",
+      "Naturewalk (Desert, Mountain)",
+      "Mountable 3"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6+2",
+      "Stealth": "2d6",
+      "Percep": "3d6+1",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Horn Attack - Normal 1 - Defense Curl - Normal 1 - Rollout - Rock 1 - Rock Smash - Fighting 1 - Clayball* - Ground [Ranged Tackle] 4 - Rapid Spin - Normal 8 - Taunt - Dark 12 - Knock Off - Dark 14 - Double Kick - Fighting 16 - Bulldoze - Ground 20 - Endeavor - Normal 24 - Brick Break - Fighting 28 - Stomping Tantrum - Ground 32 - Giga Impact - Normal 36 - Earthquake - Ground 40 - Close Combat - Fighting 44 - Megahorn - Bug 48 - Head Smash - Rock 52 - Headlong Rush",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Scream Tail",
+    "Base Stats": {
+      "HP": 12,
+      "Attack": 12,
+      "Special Attack": 12,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Scream Tail"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Cave, Grassland",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/2",
+      "Levitate 4",
+      "Power 3",
+      "Inflatable",
+      "Naturewalk (Grassland, Cave)"
+    ],
+    "Skills": {
+      "Athl": "3d6+1",
+      "Acro": "4d6+1",
+      "Combat": "2d6+2",
+      "Stealth": "2d6+2",
+      "Percep": "3d6+2",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Pound - Normal 1 - Sing - Normal 1 - Disable - Normal 1 - Disarming Voice - Fairy 4 - Howl - Normal 8 - Noble Roar - Normal 10 - Confusion - Psychic 12 - Bite - Dark 14 - Heart Stamp - Psychic 16 - Draining Kiss - Fairy 18 - Body Slam - Normal 20 - Rest - Psychic 24 - Crush* - Fairy [Dizzy Punch w/ Infatuate] 28 - Hyper Voice - Normal 30 - Psychic Fangs - Psychic 32 - Dazzling Gleam - Fairy 34 - Psyshock - Psychic 36 - Crunch - Dark 38 - Play Rough - Fairy 40 - Wish - Normal 42 - Synchronoise - Psychic 44 - Gyro Ball - Steel 48 - Perish Song - Normal 52 - Boomburst",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Brute Bonnet",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Brute Bonnet"
+    ],
+    "Diet": "Phototroph",
+    "Habitat": "Cave, Forest, Grassland",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 1",
+      "Jump 1/1",
+      "Power 4",
+      "Naturewalk (Grassland, Forest)",
+      "Mushroom Harvest",
+      "Shrinkable"
+    ],
+    "Skills": {
+      "Athl": "3d6+1",
+      "Acro": "1d6+1",
+      "Combat": "2d6+1",
+      "Stealth": "4d6+2",
+      "Percep": "4d6",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leafage - Grass 1 - Growth - Normal 1 - Astonish - Ghost 4 - Stun Spore - Grass 8 - Synthesis - Grass 12 - Brutal Swing - Dark 16 - Needle Arm - Grass 20 - Payback - Dark 24 - Spore - Grass 28 - Seed Bomb - Grass 32 - Sucker Punch - Dark 34 - Spiky Shield - Grass 36 - Lash Out - Dark 40 - Thrash - Normal 44 - Rage Powder - Bug 48 - Brutal Beatdown* - Dark [Close Combat] 52 - Power Whip",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Flutter Mane",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Flutter Mane"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Cave, Forest",
+    "Capabilities": [
+      "Overland 1",
+      "Swim 3",
+      "Sky 6",
+      "Jump 1/1",
+      "Power 3",
+      "Darkvision",
+      "Dead Silent",
+      "Invisibility",
+      "Phasing"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "3d6+2",
+      "Stealth": "4d6",
+      "Percep": "2d6+3",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Confuse Ray - Ghost 1 - Spite - Ghost 1 - Spook* - Ghost [Ember, -1SpD] 1 - Disarming Voice - Fairy 4 - Psybeam - Psychic 8 - Mean Look - Normal 12 - Memento - Dark 16 - Ominous Wind - Ghost 20 - Wish - Normal 24 - Dazzling Gleam - Fairy 28 - Mystical Fire - Fire 32 - Shadow Ball - Ghost 36 - Power Gem - Rock 40 - Psyshock - Psychic 44 - Pain Split - Normal 48 - Moonblast - Fairy 52 - Perish Song",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Slither Wing",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Slither Wing"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Cave, Mountain, Rainforest",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 3",
+      "Sky 2",
+      "Jump 1/1",
+      "Power 8",
+      "Egg Warmer",
+      "Firestarter",
+      "Heater",
+      "Mountable 1"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "3d6",
+      "Combat": "4d6",
+      "Stealth": "1d6+2",
+      "Percep": "4d6+1",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Ember - Fire 1 - Pounce - Bug 1 - Rock Smash - Fighting 4 - Poison Powder - Poison 4 - Stun Spore - Grass 8 - Flame Charge - Fire 10 - Wing Attack - Flying 12 - Stomp - Normal 14 - Bug Bite - Bug 16 - Low Sweep - Fighting 20 - Morning Sun - Normal 24 - Lunge - Bug 28 - Bulk Up - Fighting 30 - Submission - Fighting 32 - Dual Wingbeat - Flying 34 - Take Down - Normal 36 - First Impression - Bug 40 - Flare Blitz - Fire 42 - Whirlwind - Normal 44 - Superpower - Fighting 48 - Leech Life - Bug 52 - Thrash",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Sandy Shocks",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Sandy Shocks"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Desert, Mountain, Urban",
+    "Capabilities": [
+      "Overland 3",
+      "Swim 4",
+      "Levitate 5",
+      "Jump 1/1",
+      "Power 4",
+      "Dead Silent",
+      "Magnetic",
+      "Zapper"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "2d6+1",
+      "Combat": "2d6+2",
+      "Stealth": "2d6+1",
+      "Percep": "3d6+2",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Thunder Wave - Electric 1 - Electric Terrain - Electric 1 - Supersonic - Normal 1 - Thunder Shock - Electric 4 - Mud-Slap - Ground 8 - Metal Sound - Steel 12 - Charge Beam - Electric 16 - Mud Shot - Ground 20 - Screech - Normal 24 - Mirror Shot - Steel 28 - Tri Attack - Normal 32 - Discharge - Electric 34 - Flash Cannon - Steel 36 - Earth Power - Ground 40 - Mirror Coat - Psychic 44 - Gravity - Psychic 48 - Zap Cannon - Electric 50 - Steel Beam - Steel 52 - Magnetic Flux",
+          "Type": "Electric"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Treads",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Iron Treads"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Desert, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 1/1",
+      "Power 7",
+      "Breathless",
+      "Glow",
+      "Magnetic",
+      "Mountable 1",
+      "Naturewalk (Desert, Urban)",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6",
+      "Combat": "3d6+2",
+      "Stealth": "2d6",
+      "Percep": "3d6+1",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Horn Attack - Normal 1 - Defense Curl - Normal 1 - Rollout - Rock 1 - Bullet Punch - Steel 1 - Clayball* - Ground [Ranged Tackle] 4 - Rapid Spin - Normal 8 - Lock-On - Normal 12 - Bulldoze - Ground 14 - Knock Off - Dark 16 - Spark - Electric 20 - Smart Strike - Steel 24 - Endeavor - Normal 28 - Stomping Tantrum - Ground 30 - Wild Charge - Electric 32 - Iron Head - Steel 36 - Earthquake - Ground 40 - Heavy Slam - Steel 44 - Steamroller - Bug 48 - Giga Impact - Normal 52 - Steel Roller",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Bundle",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Iron Bundle"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Mountain, Taiga, Tundra",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 6",
+      "Jump 3/4",
+      "Power 4",
+      "Breathless",
+      "Chilled",
+      "Glow",
+      "Magnetic",
+      "Naturewalk (Urban, Tundra)",
+      "Wielder"
+    ],
+    "Skills": {
+      "Athl": "3d6+3",
+      "Acro": "3d6",
+      "Combat": "4d6+2",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Present - Normal 1 - Water Gun - Water 1 - Whirlpool - Water 4 - Powder Snow - Ice 8 - Gust - Flying 12 - Chilling Water - Water 16 - Aurora Beam - Ice 18 - Air Cutter - Flying 20 - Helping Hand - Normal 24 - Freeze Dry - Ice 28 - Snipe Shot - Water 32 - Ice Beam - Ice 36 - Agility - Psychic 38 - Flash Cannon - Steel 40 - Snowscape - Ice 44 - Hydro Pump - Water 48 - Aurora Veil - Ice 52 - Blizzard",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Hands",
+    "Base Stats": {
+      "HP": 15,
+      "Attack": 15,
+      "Special Attack": 15,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Iron Hands"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 14",
+      "Breathless",
+      "Glow",
+      "Magnetic",
+      "Reach"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "1d6",
+      "Combat": "5d6",
+      "Stealth": "1d6",
+      "Percep": "3d6",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Sand Attack - Ground 1 - Tackle - Normal 1 - Focus Energy - Normal 1 - Rock Smash - Fighting 1 - Bullet Punch - Steel 4 - Fake Out - Normal 6 - Surge* - Electric [Quick Attack] 8 - Whirlwind - Normal 12 - Force Palm - Fighting 14 - Spark - Electric 16 - Slam - Normal 18 - Arm Thrust - Fighting 20 - Seismic Toss - Fighting 24 - Thunder Punch - Electric 28 - Charge - Electric 30 - Brick Break - Fighting 32 - Wild Charge - Electric 36 - Heavy Slam - Steel 40 - Detect - Fighting 44 - Close Combat - Fighting 48 - Belly Drum - Normal 52 - Focus Punch",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Jugulis",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Iron Jugulis"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 1",
+      "Swim 4",
+      "Sky 7",
+      "Levitate 5",
+      "Jump 2/2",
+      "Power 6",
+      "Blindsense",
+      "Breathless",
+      "Glow",
+      "Lifesense",
+      "Magnetic",
+      "Mindlock",
+      "Mountable 1",
+      "Stealth"
+    ],
+    "Skills": {
+      "Athl": "4d6+2",
+      "Acro": "3d6",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "5d6+2",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Work Up - Normal 1 - Focus Energy - Normal 1 - Gust - Flying 1 - Disorient* - Dark [Confusion] 4 - Roar - Normal 8 - Fire Spin - Fire 12 - Dragon Breath - Dragon 14 - Air Cutter - Flying 16 - Swift - Normal 18 - Snarl - Dark 20 - Taunt - Dark 24 - Flame Burst - Fire 28 - Tri Attack - Normal 30 - Nasty Plot - Dark 32 - Dark Pulse - Dark 36 - Air Slash - Flying 40 - Hyper Voice - Normal 42 - Heat Wave - Fire 44 - Dragon Pulse - Dragon 48 - Hurricane - Flying 50 - Draco Meteor - Dragon 52 - Hyper Beam",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Moth",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 6
+    },
+    "Evolution": [
+      "1 - Iron Moth"
+    ],
+    "Diet": "Ergovore, Phototroph",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 3",
+      "Sky 7",
+      "Jump 1/1",
+      "Power 3",
+      "Breathless",
+      "Firestarter",
+      "Glow",
+      "Heater",
+      "Lifesense",
+      "Magnetic"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "1d6+2",
+      "Percep": "4d6+1",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Gust - Flying 1 - Whirlwind - Normal 1 - Ember - Fire 1 - Acid Spray - Poison 4 - Struggle Bug - Bug 8 - Fire Spin - Fire 12 - Take Down - Normal 14 - Sludge - Poison 16 - Shock Wave - Electric 18 - Incinerate - Fire 20 - Screech - Normal 24 - Signal Beam - Bug 28 - Sludge Bomb - Poison 30 - Discharge - Electric 32 - Fiery Dance - Fire 36 - Metal Sound - Steel 40 - Morning Sun - Normal 42 - Sludge Wave - Poison 44 - Hurricane - Flying 48 - Bug Buzz - Bug 52 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Thorns",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Iron Thorns"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 3",
+      "Jump 1/2",
+      "Power 11",
+      "Breathless",
+      "Darkvision",
+      "Glow",
+      "Magnetic",
+      "Naturewalk (Mountain, Urban)"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "1d6",
+      "Combat": "5d6+1",
+      "Stealth": "2d6",
+      "Percep": "4d6+3",
+      "Focus": "6d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Rock Throw - Rock 1 - Iron Defense - Steel 1 - Surge* - Electric [Quick Attack] 4 - Screech - Normal 8 - Sand Tomb - Ground 12 - Rock Tomb - Rock 16 - Bite - Dark 18 - Fire Fang - Fire 18 - Ice Fang - Ice 18 - Thunder Fang - Electric 20 - Charge - Electric 24 - Smack Down - Rock 26 - Sandstorm - Rock 28 - Pin Missile - Bug 30 - Stealth Rock - Rock 32 - Wild Charge - Electric 34 - Spiky Shield - Grass 36 - Stone Edge - Rock 40 - Megahorn - Bug 44 - Earthquake - Ground 48 - Rock Slide - Rock 52 - Giga Impact",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Frigibax",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Frigibax 2 - Arctibax Lv 20 Minimum 3 - Baxcailbur Lv 40 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Mountain, Tundra",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 3",
+      "Naturewalk (Tundra)",
+      "Chilled",
+      "Freezer",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "2d6",
+      "Combat": "2d6",
+      "Stealth": "3d6",
+      "Percep": "2d6",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Ice Shard - Ice 1 - Tackle - Normal 1 - Leer - Normal 4 - Metal Claw - Steel 7 - Roar - Normal 10 - Dragon Tail - Dragon 13 - Focus Energy - Normal 15 - Bite - Dark 18 - Hone Claws - Dark 22 - Ice Fang - Ice 25 - Breaking Swipe - Dragon 28 - Iron Head - Steel 30 - Dragon Claw - Dragon 33 - Icicle Crash - Ice 36 - Crunch - Dark 40 - Take Down - Normal 43 - Mountain Gale - Ice 47 - Snowscape - Ice 51 - Iron Tail - Steel 53 - Outrage - Dragon 55 - Sheer Cold",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Arctibax",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Frigibax 2 - Arctibax Lv 20 Minimum 3 - Baxcailbur Lv 40 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Mountain, Tundra",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 4",
+      "Naturewalk (Tundra)",
+      "Chilled",
+      "Freezer",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "3d6+2",
+      "Acro": "3d6",
+      "Combat": "3d6",
+      "Stealth": "3d6+1",
+      "Percep": "3d6+1",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Ice Shard - Ice 1 - Tackle - Normal 1 - Leer - Normal 4 - Metal Claw - Steel 7 - Roar - Normal 10 - Dragon Tail - Dragon 13 - Focus Energy - Normal 15 - Bite - Dark 18 - Hone Claws - Dark 22 - Ice Fang - Ice 25 - Breaking Swipe - Dragon 28 - Iron Head - Steel 30 - Dragon Claw - Dragon 33 - Icicle Crash - Ice 36 - Crunch - Dark 40 - Take Down - Normal 43 - Mountain Gale - Ice 47 - Snowscape - Ice 51 - Iron Tail - Steel 53 - Outrage - Dragon 55 - Sheer Cold",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Baxcalibur",
+    "Base Stats": {
+      "HP": 12,
+      "Attack": 12,
+      "Special Attack": 12,
+      "Defense": 15,
+      "Special Defense": 15,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Frigibax 2 - Arctibax Lv 20 Minimum 3 - Baxcailbur Lv 40 Minimum"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Mountain, Tundra",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Glaive Rush - Dragon 1 - Ice Shard - Ice 1 - Tackle - Normal 1 - Leer - Normal 4 - Metal Claw - Steel 7 - Roar - Normal 10 - Dragon Tail - Dragon 13 - Focus Energy - Normal 15 - Bite - Dark 18 - Hone Claws - Dark 22 - Ice Fang - Ice 25 - Breaking Swipe - Dragon 28 - Iron Head - Steel 30 - Dragon Claw - Dragon 33 - Icicle Crash - Ice 36 - Crunch - Dark 40 - Take Down - Normal 43 - Mountain Gale - Ice 47 - Snowscape - Ice 51 - Iron Tail - Steel 53 - Outrage - Dragon 55 - Sheer Cold",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Gimmighoul",
+    "Base Stats": {
+      "HP": 5,
+      "Attack": 5,
+      "Special Attack": 5,
+      "Defense": 3,
+      "Special Defense": 3,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Gimmighoul 2 - Gholdengo Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Ruins, Urban",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 3",
+      "Fortune",
+      "Phasing",
+      "Stealth",
+      "Scavenger",
+      "Dead Silent",
+      "Forme Change",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "1d6",
+      "Combat": "1d6",
+      "Stealth": "4d6+2",
+      "Percep": "4d6+1",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Tackle - Normal 1 - Spook* - Ghost [Ember, -1SpD] 4 - Night Shade - Ghost 8 - Confuse Ray - Ghost 12 - Substitute - Normal 15 - Glint* - Steel [Chilling Water] 18 - Hex - Ghost 21 - Metal Sound - Steel 24 - Ancient Power - Rock 27 - Recover - Normal 29 - Shadow Ball - Ghost 31 - Flash Cannon - Steel 33 - Power Gem - Rock 35 - Nasty Plot - Dark 38 - Dazzling Gleam - Fairy 41 - Memento - Dark 45 - Beckon* [New]",
+          "Type": "Ghost"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Gholdengo",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Gimmighoul 2 - Gholdengo Lv 25 Minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Underground, Urban, Ruins",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 7",
+      "Levitate 5",
+      "Jump 1/1",
+      "Power 5",
+      "Fortune",
+      "Glow"
+    ],
+    "Skills": {
+      "Athl": "5d6",
+      "Acro": "5d6",
+      "Combat": "3d6",
+      "Stealth": "1d6",
+      "Percep": "4d6+1",
+      "Focus": "5d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Mirror Shot - Steel 1 - Tackle - Normal 1 - Spook* - Ghost [Ember, -1SpD] 4 - Night Shade - Ghost 8 - Confuse Ray - Ghost 12 - Substitute - Normal 15 - Glint* - Steel [Chilling Water] 18 - Hex - Ghost 21 - Metal Sound - Steel 24 - Ancient Power - Rock 27 - Recover - Normal 29 - Shadow Ball - Ghost 32 - Flash Cannon - Steel 35 - Power Gem - Rock 37 - Nasty Plot - Dark 40 - Dazzling Gleam - Fairy 44 - Memento - Dark 48 - Make it Rain - Steel 52 - Beckon* [New]",
+          "Type": "Ghost"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Wo-Chien",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Wo-Chien"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Marsh",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 9",
+      "Groundshaper",
+      "Mountable 1",
+      "Naturewalk (Grassland, Forest)",
+      "Planter",
+      "Darkvision"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "1d6",
+      "Combat": "4d6+2",
+      "Stealth": "5d6",
+      "Percep": "3d6",
+      "Focus": "6d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Absorb - Grass 1 - Spite - Ghost 1 - Mean Look - Normal 4 - Tickle - Normal 8 - Disorient* - Dark [Confusion] 12 - Poison Powder - Poison 12 - Stun Spore - Grass 14 - Chilling Water - Water 16 - Mega Drain - Grass 18 - Growth - Normal 20 - Snarl - Dark 22 - Leech Seed - Grass 24 - Terrain Pulse - Normal 28 - Brine - Water 32 - Dark Pulse - Dark 34 - Ingrain - Grass 36 - Giga Drain - Grass 40 - Ruination - Dark 40 - Synthesis - Grass 44 - Muddy Water - Water 46 - Hyper Beam - Normal 48 - Petal Dance - Grass 52 - Grassy Terrain - Grass 56 - Wither* - Dark [New] 60 - Leaf Storm",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Chien-Pao",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Chien-Pao"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Mountain, Tundra",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 2/3",
+      "Power 6",
+      "Darkvision",
+      "Naturewalk (Tundra)",
+      "Stealth",
+      "Mountable 1",
+      "Freezer"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "5d6+1",
+      "Combat": "4d6+2",
+      "Stealth": "5d6+1",
+      "Percep": "5d6",
+      "Focus": "3d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Spite - Ghost 1 - Ice Shard - Ice 1 - Mean Look - Normal 4 - Scary Face - Normal 8 - Payback - Dark 12 - Mist - Ice 12 - Haze - Ice 14 - Double Kick - Fighting 16 - Ice Fang - Ice 18 - Swords Dance - Normal 20 - Sucker Punch - Dark 22 - Fake Out - Normal 24 - Slash - Normal 28 - Low Sweep - Fighting 32 - Throat Chop - Dark 34 - Double Team - Normal 36 - Icicle Crash - Ice 40 - Ruination - Dark 40 - Recover - Normal 44 - Sacred Sword - Fighting 46 - Thrash - Normal 48 - Mountain Gale - Ice 52 - Snowscape - Ice 56 - Brutal Beatdown* - Dark [Close Combat] 60 - Icebreaker* [New]",
+          "Type": "Ice"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Ting-Lu",
+    "Base Stats": {
+      "HP": 16,
+      "Attack": 16,
+      "Special Attack": 16,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 13
+    },
+    "Evolution": [
+      "1 - Ting-Lu"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 2/2",
+      "Power 10",
+      "Mountable 1",
+      "Darkvison",
+      "Groundshaper",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "4d6+2",
+      "Acro": "4d6+1",
+      "Combat": "2d6+2",
+      "Stealth": "1d6+2",
+      "Percep": "5d6+2",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Mean Look - Normal 1 - Sand Tomb - Ground 1 - Clayball* - Ground [Ranged Tackle] 1 - Spite - Ghost 4 - Sand Attack - Ground 8 - Payback - Dark 12 - Spikes - Ground 14 - Smack Down - Rock 16 - Bulldoze - Ground 18 - Amnesia - Psychic 20 - Sucker Punch - Dark 22 - Taunt - Dark 24 - Stomp - Normal 28 - Stone Edge - Rock 32 - Throat Chop - Dark 34 - Whirlwind - Normal 36 - Stomping Tantrum - Ground 40 - Ruination - Dark 40 - Shore Up - Ground 44 - Rock Slide - Rock 46 - Thrash - Normal 48 - Earthquake - Ground 52 - Sandstorm - Rock 56 - Brutal Beatdown* - Dark [Close Combat] 60 - Fissure",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Chi-Yu",
+    "Base Stats": {
+      "HP": 6,
+      "Attack": 6,
+      "Special Attack": 6,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Chi-Yu"
+    ],
+    "Diet": "Terravore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Burrow 7",
+      "Jump 2/3",
+      "Power 2",
+      "Darkvision",
+      "Egg Warmer",
+      "Firestarter",
+      "Groundshaper",
+      "Heater",
+      "Scavenger",
+      "Tremorsense"
+    ],
+    "Skills": {
+      "Athl": "4d6+2",
+      "Acro": "4d6",
+      "Combat": "3d6",
+      "Stealth": "4d6",
+      "Percep": "6d6",
+      "Focus": "4d6+1"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Ember - Fire 1 - Spite - Ghost 1 - Mean Look - Normal 4 - Smokescreen - Normal 8 - Disorient* - Dark [Confusion] 12 - Will-O-Wisp - Fire 14 - Confusion - Psychic 16 - Incinerate - Fire 18 - Nasty Plot - Dark 20 - Snarl - Dark 22 - Confuse Ray - Ghost 24 - Swift - Normal 28 - Psybeam - Psychic 32 - Dark Pulse - Dark 34 - Swagger - Normal 36 - Lava Plume - Fire 40 - Ruination - Dark 40 - Morning Sun - Normal 44 - Psyshock - Psychic 46 - Hyper Beam - Normal 48 - Inferno - Fire 52 - Sunny Day - Fire 56 - Wither* - Dark [New] 60 - Overheat",
+          "Type": "Fire"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Roaring Moon",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Roaring Moon"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Cave, Mountain",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 4",
+      "Sky 9",
+      "Jump 2/3",
+      "Power 8",
+      "Mountable 1"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "3d6",
+      "Combat": "4d6+2",
+      "Stealth": "1d6",
+      "Percep": "3d6+1",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Draco Jet* - Dragon [Quick Attack] 1 - Leer - Normal 1 - Pursuit - Dark 1 - Focus Energy - Normal 4 - Flame Charge - Fire 8 - Scary Face - Normal 12 - Bite - Dark 14 - Dual Chop - Dragon 16 - Headbutt - Normal 20 - Zen Headbutt - Psychic 24 - Dragon Claw - Dragon 28 - Night Slash - Dark 32 - Dragon Dance - Dragon 34 - Heat Crash - Fire 36 - Throat Chop - Dark 40 - Fly - Flying 44 - Dragon Rush - Dragon 48 - Roost - Flying 50 - Brutal Beatdown* - Dark [Close Combat] 52 - Double-Edge",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Valiant",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Iron Valiant"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Forest, Urban",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 7",
+      "Aura Reader",
+      "Breathless",
+      "Darkvision",
+      "Glow",
+      "Magnetic",
+      "Naturewalk (Urban)",
+      "Stealth",
+      "Telekinetic",
+      "Telepath",
+      "Wielder"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "2d6+2",
+      "Combat": "6d6+4",
+      "Stealth": "2d6",
+      "Percep": "3d6+2",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Disable - Normal 1 - Double Team - Normal 1 - Shadow Sneak - Ghost 1 - Butterfly Knife* - Fairy [Fury Cutter] 1 - Vacuum Wave - Fighting 4 - Feint - Normal 8 - Confusion - Psychic 12 - Hypnosis - Psychic 14 - Force Palm - Fighting 16 - Draining Kiss - Fairy 20 - Knock Off - Dark 24 - Magical Leaf - Grass 26 - Psycho Cut - Psychic 28 - Aura Sphere - Fighting 30 - Spirit Break - Fairy 32 - Wide Guard - Rock 32 - Quick Guard - Fighting 34 - Mystical Fire - Fire 36 - Sacred Sword - Fighting 40 - Moonblast - Fairy 42 - Leaf Blade - Grass 44 - Future Sight - Psychic 48 - Destiny Bond - Ghost 52 - Close Combat",
+          "Type": "Fighting"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Koraidon",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 14,
+      "Special Defense": 14,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Koraidon"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Mountain, Cave, Grassland",
+    "Capabilities": [
+      "Overland 10",
+      "Swim 7",
+      "Jump 5/6",
+      "Power 9",
+      "Sky 8",
+      "Mountable 4",
+      "Materializer",
+      "Wallclimber"
+    ],
+    "Skills": {
+      "Athl": "6d6",
+      "Acro": "6d6",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Sunny Day - Fire 1 - Rock Smash - Fighting 1 - Dragon Rage - Dragon 1 - Draco Jet* - Dragon [Quick Attack] 4 - Flame Charge - Fire 8 - Ancient Power - Rock 12 - Breaking Swipe - Dragon 16 - Force Palm - Fighting 20 - Agility - Psychic 24 - Dragon Claw - Dragon 26 - Brick Break - Fighting 28 - Fire Punch - Fire 32 - Drain Punch - Fighting 34 - Redline* - Dragon [New] 36 - Screech - Normal 38 - Collision Course - Fighting 40 - Counter - Fighting 44 - Outrage - Dragon 48 - Close Combat - Fighting 52 - Flare Blitz - Fire 56 - Giga Impact",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Miraidon",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Miraidon"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Mountain, Cave, Urban",
+    "Capabilities": [
+      "Capabilities"
+    ],
+    "Skills": {},
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Electric Terrain - Electric 1 - Thunder Shock - Electric 1 - Dragon Rage - Dragon 1 - Draco Jet* - Dragon [Quick Attack] 4 - Ember - Fire 8 - Charge - Electric 12 - Dragon Breath - Dragon 16 - Shock Wave - Electric 20 - Agility - Psychic 24 - Dragon Pulse - Dragon 26 - Discharge - Electric 28 - Flamethrower - Fire 32 - Parabolic Charge - Electric 34 - Redline* - Dragon [New] 36 - Metal Sound - Steel 38 - Electro Drift - Electric 40 - Mirror Coat - Psychic 44 - Draco Meteor - Dragon 48 - Thunder - Electric 52 - Overheat - Fire 56 - Hyper Beam",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Walking Wake",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Walking Wake"
+    ],
+    "Diet": "Carnivore",
+    "Habitat": "Beach, Grassland, Mountain",
+    "Capabilities": [
+      "Overland 9",
+      "Swim 8",
+      "Jump 3/3",
+      "Power 12",
+      "Mountable 2",
+      "Fountain",
+      "Naturewalk (Ocean)"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "3d6",
+      "Combat": "4d6+2",
+      "Stealth": "1d6",
+      "Percep": "3d6+1",
+      "Focus": "5d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Water Gun - Water 1 - Draco Jet - Dragon 1 - Roar - Normal 1 - Leer - Normal 4 - Bite - Dark 8 - Fire Spin - Fire 10 - Dragon Breath - Dragon 12 - Noble Roar - Normal 14 - Water Pulse - Water 16 - Twister - Dragon 20 - Nasty Plot - Dark 22 - Snarl - Dark 24 - Flame Burst - Fire 28 - Smokescreen - Normal 32 - Hydro Steam - Water 36 - Dragon Pulse - Dragon 38 - Energy Ball - Grass 40 - Flamethrower - Fire 44 - Glare - Normal 48 - Hydro Pump - Water 50 - Solar Beam - Grass 52 - Draco Meteor",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Gouging Fire",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Gouging Fire"
+    ],
+    "Diet": "Herbivore, Carnivore",
+    "Habitat": "Grassland, Forest, Mountain",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 5",
+      "Jump 2/2",
+      "Power 10",
+      "Firestarter",
+      "Heater",
+      "Mountable 2",
+      "Naturewalk (Mountain)"
+    ],
+    "Skills": {
+      "Athl": "6d6+3",
+      "Acro": "2d6",
+      "Combat": "4d6",
+      "Stealth": "2d6",
+      "Percep": "4d6+2",
+      "Focus": "5d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leer - Normal 1 - Flame Charge - Fire 1 - Draco Jet - Dragon 4 - Howl - Normal 8 - Stomp - Normal 12 - Bite - Dark 14 - Fire Fang - Fire 16 - Dragon Tail - Dragon 20 - Crush Claw - Normal 22 - Crunch - Dark 24 - Temper Flare - Fire 28 - Dragon Claw - Dragon 32 - Burning Bulwark - Fire 36 - Dragon Rush - Dragon 40 - Lava Plume - Fire 40 - Flare Blitz - Fire 44 - Morning Sun - Normal 48 - Close Combat - Fighting 48 - Brutal Beatdown* - Dark [Close Combat] 50 - Raging Fury - Fire 52 - Outrage",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Raging Bolt",
+    "Base Stats": {
+      "HP": 13,
+      "Attack": 13,
+      "Special Attack": 13,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Raging Bolt"
+    ],
+    "Diet": "Herbivore, Carnivore",
+    "Habitat": "Grassland, Mountain, Rainforest",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 6",
+      "Jump 2/2",
+      "Power 13",
+      "Mountable 2",
+      "Naturewalk (Wetlands)",
+      "Reach",
+      "Zapper"
+    ],
+    "Skills": {
+      "Athl": "6d6+3",
+      "Acro": "3d6",
+      "Combat": "5d6",
+      "Stealth": "1d6",
+      "Percep": "4d6+2",
+      "Focus": "2d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Draco Jet - Dragon 1 - Dragon Rage - Dragon 1 - Thunder Shock - Electric 4 - Electric Terrain - Electric 8 - Gust - Flying 10 - Dragon Breath - Dragon 12 - Dragon Tail - Dragon 14 - Shock Wave - Electric 16 - Twister - Dragon 20 - Air Slash - Flying 22 - Discharge - Electric 24 - Brine - Water 28 - Charge - Electric 32 - Thunderclap - Electric 36 - Dragon Hammer - Dragon 36 - Dragon Pulse - Dragon 40 - Rising Voltage - Electric 44 - Hurricane - Flying 48 - Thunder - Electric 50 - Hydro Pump - Water 52 - Draco Meteor",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Leaves",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 9
+    },
+    "Evolution": [
+      "1 - Iron Leaves"
+    ],
+    "Diet": "Ergovore, Phototroph",
+    "Habitat": "Forest, Grassland, Urban",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 4",
+      "Jump 3/3",
+      "Power 8",
+      "Mountable 1",
+      "Breathless",
+      "Darkvision",
+      "Glow",
+      "Magnetic",
+      "Naturewalk (Grassland, Urban)",
+      "Telekinetic"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "5d6+2",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "3d6+1",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Work Up - Normal 1 - Helping Hand - Normal 1 - Quick Attack - Normal 1 - Leer - Normal 1 - Psy Kick* - Psychic 4 - Trailblaze - Grass 8 - Double Kick - Fighting 12 - Quick Guard - Fighting 16 - Flash Step* - Psychic [New] 20 - Swords Dance - Normal 22 - Razor Leaf - Grass 24 - Retaliate - Normal 28 - Night Slash - Dark 32 - Psyblade - Psychic 34 - Imprison - Psychic 36 - Sacred Sword - Fighting 40 - Leaf Blade - Grass 44 - Ally Switch - Psychic 46 - Close Combat - Fighting 48 - Megahorn - Bug 50 - Solar Blade - Grass 52 - Occult Razor* [New]",
+          "Type": "Psychic"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Boulder",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Iron Boulder"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Cave, Mountain, Urban",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 2",
+      "Jump 4/3",
+      "Power 11",
+      "Breathless",
+      "Glow",
+      "Materializer",
+      "Mountable 1",
+      "Naturewalk (Mountain)",
+      "Tremorsense"
+    ],
+    "Skills": {
+      "Athl": "6d6+6",
+      "Acro": "4d6",
+      "Combat": "5d6+3",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leer - Normal 1 - Rock Throw - Rock 1 - Quick Attack - Normal 4 - Psy Kick* - Psychic [Tackle] 8 - Horn Attack - Normal 12 - Quick Guard - Fighting 16 - Rock Tomb - Rock 20 - Swords Dance - Normal 20 - Agility - Psychic 22 - Psycho Cut - Psychic 24 - Slash - Normal 28 - X-Scissor - Bug 32 - Mighty Cleave - Rock 34 - Counter - Fighting 36 - Sacred Sword - Fighting 40 - Megahorn - Bug 44 - Rock Slide - Rock 48 - Steel Roller - Steel 50 - Close Combat - Fighting 52 - Occult Razor* [New]",
+          "Type": "Psychic"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Iron Crown",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 10
+    },
+    "Evolution": [
+      "1 - Iron Crown"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Mountain, Urban",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 5",
+      "Jump 4/4",
+      "Power 8",
+      "Breathless",
+      "Glow",
+      "Mountable 1",
+      "Naturewalk (Urban)",
+      "Telekinetic"
+    ],
+    "Skills": {
+      "Athl": "4d6+3",
+      "Acro": "5d6+3",
+      "Combat": "5d6+3",
+      "Stealth": "4d6",
+      "Percep": "4d6",
+      "Focus": "4d6+3"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Leer - Normal 1 - Confusion - Psychic 4 - Glint* - Steel [Chilling Water] 8 - Thunder Shock - Electric 12 - Quick Guard - Fighting 16 - Psyshock - Psychic 20 - Iron Defense - Steel 22 - Flash Cannon - Steel 24 - Swift - Normal 28 - Volt Switch - Electric 32 - Tachyon Cutter - Steel 34 - Psychic - Psychic 36 - Aura Sphere - Fighting 40 - Hyper Beam - Normal 44 - Laser Focus - Normal 46 - Thunder - Electric 48 - Inferno - Fire 50 - Future Sight - Psychic 52 - Steel Beam",
+          "Type": "Steel"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Dipplin",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Applin 2 - Dipplin Lv 20 Minimum 3 - Hydrapple Lv 35 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 2",
+      "Jump 1/1",
+      "Power 2",
+      "Alluring",
+      "Naturewalk (Forest, Grassland)",
+      "Stealth",
+      "Sticky Hold"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "1d6",
+      "Combat": "3d6",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Double Hit - Normal Evo - Syrup Bomb - Grass 1 - Tackle",
+          "Type": "Normal"
+        },
+        {
+          "Level": 30,
+          "Move": "Energy Ball - Grass 33 - Belch - Poison 37 - Leaf Tornado - Grass 40 - Grassy Terrain - Grass 44 - Substitute - Normal 47 - Leaf Storm - Grass 50 - Recover",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Hydrapple",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 8,
+      "Special Defense": 8,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Applin",
+      "3 - Hydrapple Lv 35 Minimum"
+    ],
+    "Diet": "Herbivore",
+    "Habitat": "Forest, Grassland",
+    "Capabilities": [
+      "Overland 5",
+      "Swim 3",
+      "Jump 1/1",
+      "Power 8",
+      "Alluring",
+      "Naturewalk (Forest, Grassland)",
+      "Reach",
+      "Sticky Hold"
+    ],
+    "Skills": {
+      "Athl": "2d6+1",
+      "Acro": "1d6",
+      "Combat": "4d6",
+      "Stealth": "2d6",
+      "Percep": "5d6+2",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Fickle Beam - Dragon 1 - Syrup Bomb - Grass 1 - Tackle",
+          "Type": "Normal"
+        },
+        {
+          "Level": 30,
+          "Move": "Energy Ball - Grass 33 - Belch - Poison 37 - Leaf Tornado - Grass 40 - Grassy Terrain - Grass 44 - Substitute - Normal 47 - Leaf Storm - Grass 50 - Recover",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Poltchageist",
+    "Base Stats": {
+      "HP": 4,
+      "Attack": 4,
+      "Special Attack": 4,
+      "Defense": 5,
+      "Special Defense": 5,
+      "Speed": 5
+    },
+    "Evolution": [
+      "1 - Poltchageist 2 - Sinistcha Lv 20 minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Grassland, Urban",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 1",
+      "Levitate 4",
+      "Jump 0/1",
+      "Power 1",
+      "Darkvision",
+      "Dead Silent",
+      "Fountain",
+      "Phasing",
+      "Underdog"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "3d6",
+      "Combat": "1d6",
+      "Stealth": "4d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Astonish - Ghost 1 - Withdraw - Water 1 - Stun Spore - Grass 1 - Absorb - Grass 5 - Spook - Ghost 9 - Mega Drain - Grass 12 - Bubble - Water 15 - Ominous Wind - Ghost 18 - Life Dew - Water 21 - Rage Powder - Bug 24 - Hex - Ghost 27 - Scald - Water 30 - Giga Drain - Grass 33 - Shadow Ball - Ghost 36 - Pollen Puff - Bug 39 - Foul Play - Dark 42 - Strength Sap - Grass 45 - Leaf Storm - Grass 47 - Memento - Dark 50 - Hydro Pump",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Sinistcha",
+    "Base Stats": {
+      "HP": 7,
+      "Attack": 7,
+      "Special Attack": 7,
+      "Defense": 6,
+      "Special Defense": 6,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Poltchageist 2 - Sinistcha Lv 20 minimum"
+    ],
+    "Diet": "Nullivore",
+    "Habitat": "Forest, Grassland, Urban",
+    "Capabilities": [
+      "Overland 2",
+      "Swim 1",
+      "Levitate 6",
+      "Jump 0/1",
+      "Power 1",
+      "Darkvision",
+      "Dead Silent",
+      "Fountain",
+      "Phasing"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "4d6",
+      "Combat": "2d6",
+      "Stealth": "5d6",
+      "Percep": "4d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Matcha Gotcha - Grass 1 - Astonish - Ghost 1 - Withdraw - Water 1 - Stun Spore - Grass 1 - Absorb - Grass 5 - Spook - Ghost 9 - Mega Drain - Grass 12 - Bubble - Water 15 - Ominous Wind - Ghost 18 - Life Dew - Water 21 - Rage Powder - Bug 24 - Hex - Ghost 27 - Scald - Water 30 - Giga Drain - Grass 33 - Shadow Ball - Ghost 36 - Pollen Puff - Bug 39 - Foul Play - Dark 42 - Strength Sap - Grass 45 - Leaf Storm - Grass 47 - Memento - Dark 50 - Hydro Pump",
+          "Type": "Water"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Okidogi",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 13,
+      "Special Defense": 13,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Okidogi"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Mountain, Urban",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Undiscovered"
+      ]
+    },
+    "Capabilities": [
+      "Overland 8",
+      "Swim 4",
+      "Jump 3/2",
+      "Power 12",
+      "Naturewalk (Mountain, Urban)",
+      "Intoxicator",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "5d6",
+      "Acro": "3d6",
+      "Combat": "5d6+1",
+      "Stealth": "2d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Munkidori",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 7
+    },
+    "Evolution": [
+      "1 - Munkidori"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Forest, Mountain, Urban",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Undiscovered"
+      ]
+    },
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 4",
+      "Naturewalk (Forest, Mountain)",
+      "Intoxicator",
+      "Stealth",
+      "Telekinetic"
+    ],
+    "Skills": {
+      "Athl": "2d6",
+      "Acro": "4d6+2",
+      "Combat": "3d6",
+      "Stealth": "4d6+1",
+      "Percep": "5d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Disorient* - Dark [Confusion] 1 - Confusion - Psychic 1 - Smog - Poison 6 - Helping Hand - Normal 9 - Poison Gas - Poison 12 - Clear Smog - Poison 15 - Magical Leaf - Grass 17 - Psybeam - Psychic 20 - Torment - Dark 22 - Nasty Plot - Dark 24 - Snarl - Dark 27 - Sludge Bomb - Poison 30 - Dark Pulse - Dark 33 - Psychic - Psychic 36 - Energy Ball - Grass 39 - Mirror Coat - Psychic 42 - Sludge Wave - Poison 45 - Wither* - Dark [New] 48 - Future Sight - Psychic 51 - Leaf Storm",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Fezandipiti",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Fezandipiti"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Mountain, Urban",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Undiscovered"
+      ]
+    },
+    "Capabilities": [
+      "Overland 6",
+      "Sky 9",
+      "Swim 2",
+      "Jump 1/3",
+      "Power 5",
+      "Guster",
+      "Intoxicator"
+    ],
+    "Skills": {
+      "Athl": "3d6",
+      "Acro": "4d6",
+      "Combat": "3d6",
+      "Stealth": "3d6",
+      "Percep": "5d6",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Thief - Dark 1 - Butterfly Knife* - Fairy [Fury Cutter] 1 - Poison Sting - Poison 6 - Attract - Normal 9 - Poison Gas - Poison 12 - Poison Tail - Poison 15 - Pluck - Flying 17 - Crush - Fairy 20 - Flatter - Dark 22 - Agility - Psychic 24 - Brutal Swing - Dark 27 - Cross Poison - Poison 30 - Throat Chop - Dark 33 - Play Rough - Fairy 36 - Drill Peck - Flying 39 - Roost - Flying 42 - Gunk Shot - Poison 45 - Brutal Beatdown* - Dark [Close Combat] 48 - Fey Wild* - Fairy [Superpower] 51 - Brave Bird",
+          "Type": "Flying"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Ogerpon",
+    "Base Stats": {
+      "HP": 8,
+      "Attack": 8,
+      "Special Attack": 8,
+      "Defense": 12,
+      "Special Defense": 12,
+      "Speed": 8
+    },
+    "Evolution": [
+      "1 - Ogerpon"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Cave, Mountain, Urban",
+    "Breeding Information": {
+      "Egg Groups": [
+        "Undiscovered"
+      ]
+    },
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 1/1",
+      "Power 7",
+      "Naturewalk (Mountain)",
+      "Stealth",
+      "Wielder"
+    ],
+    "Skills": {
+      "Athl": "5d6",
+      "Acro": "3d6",
+      "Combat": "4d6+3",
+      "Stealth": "4d6",
+      "Percep": "3d6",
+      "Focus": "3d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Vine Whip - Grass 1 - Leech Seed - Grass 1 - Quick Attack - Normal 1 - Rock Smash - Fighting 5 - Focus Energy - Normal 10 - Growth - Normal 15 - Needle Arm - Grass 18 - Low Sweep - Fighting 20 - Slam - Normal 23 - Brutal Swing - Dark 26 - Follow Me - Normal 28 - Sky Uppercut - Fighting 30 - Ivy Cudgel - Grass 33 - Throat Chop - Dark 37 - Spiky Shield - Grass 40 - Counter - Fighting 42 - Assurance - Dark 45 - Power Whip - Grass 47 - Synthesis - Grass 50 - Superpower - Fighting 52 - Wood Hammer",
+          "Type": "Grass"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Ursaluna (Bloodmoon)",
+    "Base Stats": {
+      "HP": 11,
+      "Attack": 11,
+      "Special Attack": 11,
+      "Defense": 7,
+      "Special Defense": 7,
+      "Speed": 12
+    },
+    "Evolution": [
+      "1 - Teddiursa 2 - Ursaring Lv 20 Minimum 3 - Bloodmoon Ursaluna Lv 35 Minimum"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Cave, Mountain, Wetlands",
+    "Capabilities": [
+      "Overland 7",
+      "Swim 4",
+      "Jump 2/2",
+      "Power 8",
+      "Darkvision",
+      "Groundshaper",
+      "Mountable 1",
+      "Naturewalk (Wetlands)",
+      "Tracker"
+    ],
+    "Skills": {
+      "Athl": "5d6+3",
+      "Acro": "2d6",
+      "Combat": "5d6",
+      "Stealth": "2d6",
+      "Percep": "4d6+3",
+      "Focus": "4d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Earth Power - Ground Evo - Uproar - Normal 1 - Scratch - Normal 1 - Clayball* - Ground [Ranged Tackle] 1 - Leer - Normal 4 - Lick - Ghost 8 - Double Kick - Fighting 12 - Bite - Dark 15 - Covet - Normal 17 - Play Nice - Normal 19 - Bulldoze - Ground 22 - Brutal Swing - Dark 25 - Slash - Normal 28 - Revenge - Fighting 31 - Rest - Psychic 31 - Snore - Normal 34 - Scary Face - Normal 36 - Snarl - Dark 38 - Moonblast - Fairy 41 - Blood Moon - Normal 43 - Moonlight - Fairy 46 - Muddy Water - Water 49 - Hyper Voice - Normal 52 - Mudslide* [Rock Slide+]",
+          "Type": "Ground"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Archaludon",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 11,
+      "Special Defense": 11,
+      "Speed": 13
+    },
+    "Evolution": [
+      "1 - Duraludon 2 - Archaludon Lv 35 Minimum"
+    ],
+    "Diet": "Ergovore",
+    "Habitat": "Mountain",
+    "Capabilities": [
+      "Overland 8",
+      "Swim 3",
+      "Jump 1/2",
+      "Power 10",
+      "Naturewalk (Mountain)"
+    ],
+    "Skills": {
+      "Athl": "5d6+2",
+      "Acro": "2d6",
+      "Combat": "5d6",
+      "Stealth": "3d6",
+      "Percep": "4d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": "Evo",
+          "Move": "Electro Shot - Electric 1 - Glint* - Steel [Chilling Water] 1 - Leer - Normal 6 - Vacuum Wave - Fighting 9 - Hone Claws - Dark 12 - Dragon Tail - Dragon 14 - Metal Claw - Steel 17 - Focus Energy - Normal 20 - Slash - Normal 22 - Breaking Swipe - Dragon 25 - Body Press - Fighting 28 - Flash Cannon - Steel 30 - Dragon Pulse - Dragon 33 - Hard Press - Steel 36 - Thunderbolt - Electric 38 - Aura Sphere - Fighting 41 - Hyper Beam - Normal 44 - Dragon Dance - Dragon 46 - Steel Beam - Steel 49 - Mirror Coat - Psychic 51 - Outrage",
+          "Type": "Dragon"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Terapagos",
+    "Base Stats": {
+      "HP": 10,
+      "Attack": 10,
+      "Special Attack": 10,
+      "Defense": 10,
+      "Special Defense": 10,
+      "Speed": 11
+    },
+    "Evolution": [
+      "1 - Terapagos"
+    ],
+    "Diet": "Omnivore",
+    "Habitat": "Cave",
+    "Capabilities": [
+      "Overland 6",
+      "Swim 4",
+      "Jump 1/1",
+      "Power 8",
+      "Sky 4",
+      "Glow",
+      "Tera Shift"
+    ],
+    "Skills": {
+      "Athl": "4d6",
+      "Acro": "2d6",
+      "Combat": "4d6",
+      "Stealth": "2d6",
+      "Percep": "4d6",
+      "Focus": "5d6"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Withdraw - Water 1 - Rapid Spin - Normal 1 - Echoed Voice - Normal 4 - Rock Polish - Rock 8 - Ancient Power - Rock 12 - Cosmic Power - Psychic 16 - Tri Attack - Normal 20 - Headbutt - Normal 22 - Protect - Normal 24 - Flash Cannon - Steel 28 - Earth Power - Ground 30 - Tera Starstorm - Normal 32 - Double-Edge - Normal 36 - Mirror Shot - Steel 40 - Meteor Beam - Rock 44 - Mudslide - Ground 48 - Mirror Coat",
+          "Type": "Psychic"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  },
+  {
+    "Species": "Pecharunt",
+    "Base Stats": {
+      "HP": 9,
+      "Attack": 9,
+      "Special Attack": 9,
+      "Defense": 9,
+      "Special Defense": 9,
+      "Speed": 16
+    },
+    "Evolution": [
+      "1 - Pecharunt"
+    ],
+    "Diet": "Unknown",
+    "Habitat": "Unknown",
+    "Capabilities": [
+      "Overland 4",
+      "Swim 3",
+      "Levitate 6",
+      "Jump 0/0",
+      "Power 2",
+      "Intoxicator"
+    ],
+    "Skills": {
+      "Athl": "1d6",
+      "Acro": "2d6",
+      "Combat": "1d6",
+      "Stealth": "4d6+1",
+      "Percep": "2d6",
+      "Focus": "6d6+2"
+    },
+    "Moves": {
+      "Level Up Move List": [
+        {
+          "Level": 1,
+          "Move": "Smog - Poison 1 - Spook* - Ghost [Ember] 1 - Poison Gas - Poison 1 - Memento - Dark 1 - Fake Tears - Dark 4 - Withdraw - Water 8 - Confusion - Psychic 10 - Clear Smog - Poison 13 - Parting Shot - Dark 15 - Psybeam - Psychic 18 - Hex - Ghost 21 - Venoshock - Poison 24 - Toxic - Poison 28 - Shadow Ball - Ghost 31 - Malignant Chain - Poison 34 - Seed Bomb - Grass 38 - Destiny Bond - Ghost 41 - Psychic - Psychic 44 - Beckon* - Ghost [New] 48 - Nasty Plot - Dark 51 - Recover",
+          "Type": "Normal"
+        }
+      ],
+      "TM/Tutor Moves List": []
+    }
+  }
+]

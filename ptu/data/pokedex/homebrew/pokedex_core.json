@@ -2624,7 +2624,7 @@
       "Basic Ability 2": "Torrent",
       "Adv Ability 1": "Shell Armor",
       "Adv Ability 2": "Shell Shield",
-      "High Ability": "Overtcoat"
+      "High Ability": "Overcoat"
     },
     "Evolution": [
       {
@@ -3015,7 +3015,7 @@
       "Basic Ability 2": "Torrent",
       "Adv Ability 1": "Shell Armor",
       "Adv Ability 2": "Shell Shield",
-      "High Ability": "Overtcoat"
+      "High Ability": "Overcoat"
     },
     "Evolution": [
       {
@@ -3418,7 +3418,7 @@
       "Basic Ability 2": "Torrent",
       "Adv Ability 1": "Shell Armor",
       "Adv Ability 2": "Shell Cannon",
-      "High Ability": "Overtcoat"
+      "High Ability": "Overcoat"
     },
     "Evolution": [
       {
@@ -5864,7 +5864,7 @@
       "Basic Ability 1": "Run Away",
       "Basic Ability 2": "Guts",
       "Adv Ability 1": "Hustle",
-      "Adv Ability 2": "Pick Up",
+      "Adv Ability 2": "Pickup",
       "High Ability": "Nimble Strikes"
     },
     "Evolution": [
@@ -6232,7 +6232,7 @@
       "Basic Ability 1": "Run Away",
       "Basic Ability 2": "Guts",
       "Adv Ability 1": "Hustle",
-      "Adv Ability 2": "Pick Up",
+      "Adv Ability 2": "Pickup",
       "High Ability": "Nimble Strikes"
     },
     "Evolution": [
@@ -7177,7 +7177,7 @@
       ],
       "Basic Ability 1": "Shed Skin",
       "Basic Ability 2": "Intimidate",
-      "Adv Ability 1": "Unnnerve",
+      "Adv Ability 1": "Unnerve",
       "High Ability": "Keen Eye"
     },
     "Evolution": [
@@ -21922,17 +21922,17 @@
         },
         {
           "Level": 1,
+          "Move": "Rock Smash",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 3,
           "Move": "Focus Energy",
           "Type": "Normal"
         },
         {
-          "Level": 1,
-          "Move": "Covet",
-          "Type": "Normal"
-        },
-        {
-          "Level": 5,
-          "Move": "Fury Swipes",
+          "Level": 6,
+          "Move": "Swagger",
           "Type": "Normal"
         },
         {
@@ -21946,63 +21946,72 @@
           "Type": "Fighting"
         },
         {
-          "Level": 13,
-          "Move": "Karate Chop",
-          "Type": "Fighting",
-          "Tags": [
-            "Deleted"
-          ]
+          "Level": 15,
+          "Move": "Bulldoze",
+          "Type": "Ground"
         },
         {
-          "Level": 17,
-          "Move": "Swagger",
-          "Type": "Normal"
-        },
-        {
-          "Level": 22,
-          "Move": "Cross Chop",
-          "Type": "Fighting"
-        },
-        {
-          "Level": 26,
-          "Move": "Assurance",
-          "Type": "Dark"
-        },
-        {
-          "Level": 29,
-          "Move": "Thrash",
-          "Type": "Normal"
-        },
-        {
-          "Level": 33,
-          "Move": "Close Combat",
-          "Type": "Fighting"
-        },
-        {
-          "Level": 36,
+          "Level": 18,
           "Move": "Screech",
           "Type": "Normal"
         },
         {
-          "Level": 40,
+          "Level": 20,
+          "Move": "Fury Swipes",
+          "Type": "Normal"
+        },
+        {
+          "Level": 23,
+          "Move": "Punishment",
+          "Type": "Dark"
+        },
+        {
+          "Level": 25,
+          "Move": "Submission",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 28,
           "Move": "Stomping Tantrum",
           "Type": "Ground"
         },
         {
+          "Level": 30,
+          "Move": "Rage Fist",
+          "Type": "Ghost"
+        },
+        {
+          "Level": 33,
+          "Move": "Counter",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 37,
+          "Move": "Cross Chop",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 41,
+          "Move": "Thrash",
+          "Type": "Normal"
+        },
+        {
           "Level": 44,
+          "Move": "Assurance",
+          "Type": "Dark"
+        },
+        {
+          "Level": 47,
+          "Move": "Close Combat",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 50,
           "Move": "Outrage",
           "Type": "Dragon"
         },
         {
-          "Level": 45,
-          "Move": "Punishment",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 48,
+          "Level": 53,
           "Move": "Final Gambit",
           "Type": "Fighting"
         }
@@ -22390,8 +22399,33 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Level": 5,
-          "Move": "Fury Swipes",
+          "Level": "Evo",
+          "Move": "Shadow Punch",
+          "Type": "Ghost"
+        },
+        {
+          "Level": 1,
+          "Move": "Scratch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Leer",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Rock Smash",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 3,
+          "Move": "Focus Energy",
+          "Type": "Normal"
+        },
+        {
+          "Level": 6,
+          "Move": "Swagger",
           "Type": "Normal"
         },
         {
@@ -22400,81 +22434,77 @@
           "Type": "Fighting"
         },
         {
-          "Level": 13,
-          "Move": "Karate Chop",
-          "Type": "Fighting",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 15,
+          "Level": 12,
           "Move": "Seismic Toss",
           "Type": "Fighting"
         },
         {
-          "Level": 17,
-          "Move": "Swagger",
-          "Type": "Normal"
+          "Level": 15,
+          "Move": "Bulldoze",
+          "Type": "Ground"
         },
         {
-          "Level": 22,
-          "Move": "Cross Chop",
-          "Type": "Fighting"
-        },
-        {
-          "Level": 26,
-          "Move": "Assurance",
-          "Type": "Dark"
-        },
-        {
-          "Level": 28,
-          "Move": "Rage",
-          "Type": "Normal",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 30,
-          "Move": "Thrash",
-          "Type": "Normal"
-        },
-        {
-          "Level": 35,
-          "Move": "Rage Fist",
-          "Type": "Ghost"
-        },
-        {
-          "Level": 39,
-          "Move": "Close Combat",
-          "Type": "Fighting"
-        },
-        {
-          "Level": 44,
+          "Level": 18,
           "Move": "Screech",
           "Type": "Normal"
         },
         {
-          "Level": 48,
+          "Level": 20,
+          "Move": "Fury Swipes",
+          "Type": "Normal"
+        },
+        {
+          "Level": 23,
+          "Move": "Punishment",
+          "Type": "Dark"
+        },
+        {
+          "Level": 25,
+          "Move": "Submission",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 28,
           "Move": "Stomping Tantrum",
           "Type": "Ground"
         },
         {
-          "Level": 53,
+          "Level": 30,
+          "Move": "Rage Fist",
+          "Type": "Ghost"
+        },
+        {
+          "Level": 33,
+          "Move": "Counter",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 37,
+          "Move": "Cross Chop",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 41,
+          "Move": "Thrash",
+          "Type": "Normal"
+        },
+        {
+          "Level": 44,
+          "Move": "Assurance",
+          "Type": "Dark"
+        },
+        {
+          "Level": 47,
+          "Move": "Close Combat",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 50,
           "Move": "Outrage",
           "Type": "Dragon"
         },
         {
           "Level": 53,
-          "Move": "Punishment",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 57,
           "Move": "Final Gambit",
           "Type": "Fighting"
         }
@@ -37060,7 +37090,7 @@
         "Poison"
       ],
       "Basic Ability 1": "Levitate",
-      "Adv Ability 1": "Corsed Body",
+      "Adv Ability 1": "Cursed Body",
       "Adv Ability 2": "Frighten",
       "Adv Ability 3": "Spiteful Intervention",
       "High Ability": "Soulstealer"
@@ -37497,7 +37527,7 @@
         "Poison"
       ],
       "Basic Ability 1": "Levitate",
-      "Adv Ability 1": "Corsed Body",
+      "Adv Ability 1": "Cursed Body",
       "Adv Ability 2": "Frighten",
       "Adv Ability 3": "Spiteful Intervention",
       "High Ability": "Soulstealer"
@@ -37957,7 +37987,7 @@
         "Poison"
       ],
       "Basic Ability 1": "Levitate",
-      "Adv Ability 1": "Corsed Body",
+      "Adv Ability 1": "Cursed Body",
       "Adv Ability 2": "Frighten",
       "Adv Ability 3": "Spiteful Intervention",
       "High Ability": "Soulstealer"
@@ -84120,21 +84150,6 @@
       "Level Up Move List": [
         {
           "Level": 1,
-          "Move": "Tackle",
-          "Type": "Normal"
-        },
-        {
-          "Level": 1,
-          "Move": "Growl",
-          "Type": "Normal"
-        },
-        {
-          "Level": 1,
-          "Move": "Astonish",
-          "Type": "Ghost"
-        },
-        {
-          "Level": 1,
           "Move": "Power Swap",
           "Type": "Psychic"
         },
@@ -84144,21 +84159,28 @@
           "Type": "Psychic"
         },
         {
+          "Level": 1,
+          "Move": "Astonish",
+          "Type": "Ghost"
+        },
+        {
+          "Level": 1,
+          "Move": "Tackle",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Growl",
+          "Type": "Normal"
+        },
+        {
           "Level": 5,
           "Move": "Confusion",
           "Type": "Psychic"
         },
         {
-          "Level": 5,
-          "Move": "Odor Sleuth",
-          "Type": "Normal",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
           "Level": 10,
-          "Move": "Assurance",
+          "Move": "Bite",
           "Type": "Dark"
         },
         {
@@ -84167,44 +84189,79 @@
           "Type": "Normal"
         },
         {
-          "Level": 19,
+          "Level": 18,
           "Move": "Psybeam",
           "Type": "Psychic"
         },
         {
-          "Level": 23,
+          "Level": 20,
           "Move": "Agility",
           "Type": "Psychic"
         },
         {
-          "Level": 28,
-          "Move": "Double Hit",
-          "Type": "Normal"
-        },
-        {
-          "Level": 32,
-          "Move": "Twin Beam",
-          "Type": "Psychic"
-        },
-        {
-          "Level": 37,
-          "Move": "Crunch",
-          "Type": "Dark"
-        },
-        {
-          "Level": 41,
+          "Level": 20,
           "Move": "Baton Pass",
           "Type": "Normal"
         },
         {
-          "Level": 46,
+          "Level": 23,
+          "Move": "Double Hit",
+          "Type": "Normal"
+        },
+        {
+          "Level": 25,
+          "Move": "Smart Strike",
+          "Type": "Steel"
+        },
+        {
+          "Level": 27,
+          "Move": "Swift",
+          "Type": "Normal"
+        },
+        {
+          "Level": 30,
+          "Move": "Twin Beam",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 33,
+          "Move": "Crunch",
+          "Type": "Dark"
+        },
+        {
+          "Level": 36,
+          "Move": "Body Slam",
+          "Type": "Normal"
+        },
+        {
+          "Level": 38,
+          "Move": "Flash Cannon",
+          "Type": "Steel"
+        },
+        {
+          "Level": 41,
+          "Move": "Psychic",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 44,
           "Move": "Nasty Plot",
           "Type": "Dark"
         },
         {
+          "Level": 46,
+          "Move": "Assurance",
+          "Type": "Dark"
+        },
+        {
+          "Level": 48,
+          "Move": "Thrash",
+          "Type": "Normal"
+        },
+        {
           "Level": 50,
-          "Move": "Psychic",
-          "Type": "Psychic"
+          "Move": "Hyper Beam",
+          "Type": "Normal"
         }
       ],
       "TM/Tutor Moves List": [
@@ -85520,21 +85577,13 @@
       "Level Up Move List": [
         {
           "Level": 1,
-          "Move": "Defense Curl",
-          "Type": "Normal"
-        },
-        {
-          "Level": 1,
           "Move": "Flail",
           "Type": "Normal"
         },
         {
           "Level": 1,
-          "Move": "Rage",
-          "Type": "Normal",
-          "Tags": [
-            "Deleted"
-          ]
+          "Move": "Defense Curl",
+          "Type": "Normal"
         },
         {
           "Level": 4,
@@ -85542,17 +85591,14 @@
           "Type": "Ground"
         },
         {
-          "Level": 8,
+          "Level": 7,
           "Move": "Rollout",
           "Type": "Rock"
         },
         {
           "Level": 10,
-          "Move": "Pursuit",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
+          "Move": "Spite",
+          "Type": "Ghost"
         },
         {
           "Level": 12,
@@ -85560,8 +85606,13 @@
           "Type": "Normal"
         },
         {
-          "Level": 16,
+          "Level": 14,
           "Move": "Screech",
+          "Type": "Normal"
+        },
+        {
+          "Level": 17,
+          "Move": "Swift",
           "Type": "Normal"
         },
         {
@@ -85570,22 +85621,42 @@
           "Type": "Rock"
         },
         {
-          "Level": 24,
-          "Move": "Drill Run",
-          "Type": "Ground"
+          "Level": 23,
+          "Move": "Aerial Ace",
+          "Type": "Flying"
         },
         {
-          "Level": 28,
+          "Level": 25,
           "Move": "Yawn",
           "Type": "Normal"
         },
         {
-          "Level": 32,
+          "Level": 27,
+          "Move": "Drill Run",
+          "Type": "Ground"
+        },
+        {
+          "Level": 30,
           "Move": "Hyper Drill",
           "Type": "Normal"
         },
         {
+          "Level": 32,
+          "Move": "Coil",
+          "Type": "Poison"
+        },
+        {
+          "Level": 33,
+          "Move": "Dig",
+          "Type": "Ground"
+        },
+        {
           "Level": 36,
+          "Move": "Air Slash",
+          "Type": "Flying"
+        },
+        {
+          "Level": 38,
           "Move": "Roost",
           "Type": "Flying"
         },
@@ -85595,424 +85666,124 @@
           "Type": "Dragon"
         },
         {
-          "Level": 44,
-          "Move": "Coil",
-          "Type": "Poison"
-        },
-        {
-          "Level": 48,
+          "Level": 43,
           "Move": "Double-Edge",
           "Type": "Normal"
         },
         {
-          "Level": 52,
+          "Level": 46,
           "Move": "Endeavor",
+          "Type": "Normal"
+        },
+        {
+          "Level": 49,
+          "Move": "Hurricane",
+          "Type": "Flying"
+        },
+        {
+          "Level": 52,
+          "Move": "Boomburst",
           "Type": "Normal"
         }
       ],
       "TM/Tutor Moves List": [
-        {
-          "Move": "Agility",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Air Slash",
-          "Type": "Flying",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Amnesia",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Aqua Tail",
-          "Type": "Water",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Astonish",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Baton Pass",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Bite",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Blizzard",
-          "Type": "Ice",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Body Slam",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Breaking Swipe",
-          "Type": "Dragon",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Bulldoze",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Calm Mind",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Chilling Water",
-          "Type": "Water",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Curse",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Dig",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Earth Power",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Earthquake",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Endure",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Facade",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Fire Blast",
-          "Type": "Fire",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Flamethrower",
-          "Type": "Fire",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Giga Impact",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Gyro Ball",
-          "Type": "Steel",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Headbutt",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Helping Hand",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Hex",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Hyper Beam",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Hyper Voice",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Ice Beam",
-          "Type": "Ice",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Ice Spinner",
-          "Type": "Ice",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Last Resort",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Egg"
-        },
-        {
-          "Move": "Lunge",
-          "Type": "Bug",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Mud Shot",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Pain Split",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Poison Jab",
-          "Type": "Poison",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Poison Tail",
-          "Type": "Poison",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Pounce",
-          "Type": "Bug",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Protect",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Psych Up",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rain Dance",
-          "Type": "Water",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rest",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rock Slide",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rock Tomb",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Sandstorm",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Scale Shot",
-          "Type": "Dragon",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Scary Face",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Shadow Ball",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Skitter Smack",
-          "Type": "Bug",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Sleep Talk",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Smart Strike",
-          "Type": "Steel",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Solar Beam",
-          "Type": "Grass",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Spite",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stealth Rock",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stomping Tantrum",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stone Edge",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stored Power",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Substitute",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Sunny Day",
-          "Type": "Fire",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Take Down",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Tera Blast",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Thief",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Thunder",
-          "Type": "Electric",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Thunderbolt",
-          "Type": "Electric",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Toxic",
-          "Type": "Poison",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Uproar",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Wild Charge",
-          "Type": "Electric",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Zen Headbutt",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        }
+        "Agility",
+        "Amnesia",
+        "Aqua Tail",
+        "Astonish",
+        "Attract",
+        "Baton Pass",
+        "Bide",
+        "Bind",
+        "Bite",
+        "Blizzard",
+        "Body Press",
+        "Body Slam",
+        "Breaking Swipe",
+        "Bulldoze,",
+        "Calm Mind",
+        "Charge Beam",
+        "Chilling Water (N)",
+        "Confide",
+        "Counter",
+        "Curse,",
+        "Double Team",
+        "Dragon Tail",
+        "Dream Eater",
+        "Dual Wingbeat,",
+        "Earth Power (N)",
+        "Earthquake",
+        "Endure",
+        "Facade",
+        "Fire Blast,",
+        "Flamethrower",
+        "Frustration",
+        "Giga Impact",
+        "Gyro Ball",
+        "Headbutt,",
+        "Heavy Slam",
+        "Helping Hand",
+        "Hex",
+        "Hidden Power",
+        "Hyper Beam,",
+        "Hyper Voice",
+        "Ice Beam",
+        "Ice Spinner",
+        "Incinerate",
+        "Iron Tail",
+        "Last Resort,",
+        "Lunge",
+        "Magic Coat",
+        "Mud Shot",
+        "Outrage",
+        "Pain Split",
+        "Poison Jab,",
+        "Poison Tail",
+        "Pounce",
+        "Protect",
+        "Psych Up",
+        "Rain Dance",
+        "Rest",
+        "Retaliate,",
+        "Return",
+        "Rock Slide",
+        "Rock Smash",
+        "Rock Tomb",
+        "Role Play",
+        "Round,",
+        "Sandstorm",
+        "Scale Shot",
+        "Scary Face",
+        "Secret Power",
+        "Shadow Ball,",
+        "Shock Wave",
+        "Skitter Smack",
+        "Sleep Talk",
+        "Smart Strike",
+        "Snore,",
+        "Solar Beam",
+        "Stealth Rock",
+        "Stomping Tantrum",
+        "Stone Edge,",
+        "Stored Power",
+        "Strength",
+        "Substitute",
+        "Sunny Day",
+        "Swagger",
+        "Tailwind,",
+        "Take Down",
+        "Tera Blast",
+        "Thief",
+        "Throat Chop",
+        "Thunder (N),",
+        "Thunder Wave",
+        "Thunderbolt",
+        "Toxic",
+        "Trump Card",
+        "Uproar",
+        "Water Pulse,",
+        "Wild Charge",
+        "Zen Headbutt"
       ]
     }
   },
@@ -122068,7 +121839,7 @@
         "Bug",
         "Ghost"
       ],
-      "Basic Ability 1": "Wonderguard",
+      "Basic Ability 1": "Wonder Guard",
       "Adv Ability 1": "Dodge",
       "Adv Ability 2": "Magic Guard",
       "Adv Ability 3": "Wonder Skin",
@@ -172948,7 +172719,7 @@
       ],
       "Basic Ability 1": "Anticipation",
       "Adv Ability 1": "Overcoat",
-      "Adv Ability 2": "Adaptation",
+      "Adv Ability 2": "Adaptability",
       "Adv Ability 3": "Tolerance",
       "High Ability": "Grass Pelt"
     },
@@ -173262,7 +173033,7 @@
       ],
       "Basic Ability 1": "Anticipation",
       "Adv Ability 1": "Overcoat",
-      "Adv Ability 2": "Adaptation",
+      "Adv Ability 2": "Adaptability",
       "Adv Ability 3": "Tolerance",
       "High Ability": "Sand Veil"
     },
@@ -173588,7 +173359,7 @@
       ],
       "Basic Ability 1": "Anticipation",
       "Adv Ability 1": "Overcoat",
-      "Adv Ability 2": "Adaptation",
+      "Adv Ability 2": "Adaptability",
       "Adv Ability 3": "Tolerance",
       "High Ability": "Clear Body"
     },
@@ -217848,7 +217619,7 @@
       "Basic Ability 2": "Gluttony",
       "Adv Ability 1": "Chlorophyll",
       "Adv Ability 2": "Sap Sipper",
-      "High Ability": "Overgrowth"
+      "High Ability": "Overgrow"
     },
     "Evolution": [
       {
@@ -218294,7 +218065,7 @@
       "Basic Ability 2": "Gluttony",
       "Adv Ability 1": "Chlorophyll",
       "Adv Ability 2": "Sap Sipper",
-      "High Ability": "Overgrowth"
+      "High Ability": "Overgrow"
     },
     "Evolution": [
       {
@@ -261351,6 +261122,11 @@
     "Moves": {
       "Level Up Move List": [
         {
+          "Level": "Evo",
+          "Move": "Kowtow Cleave",
+          "Type": "Dark"
+        },
+        {
           "Level": 1,
           "Move": "Scratch",
           "Type": "Normal"
@@ -261361,85 +261137,94 @@
           "Type": "Normal"
         },
         {
-          "Level": 5,
-          "Move": "Fury Cutter",
-          "Type": "Bug"
-        },
-        {
-          "Level": 10,
+          "Level": 1,
           "Move": "Metal Claw",
           "Type": "Steel"
         },
         {
-          "Level": 15,
-          "Move": "Torment",
+          "Level": 4,
+          "Move": "Fury Cutter",
+          "Type": "Bug"
+        },
+        {
+          "Level": 7,
+          "Move": "Beat Up",
           "Type": "Dark"
         },
         {
-          "Level": 17,
-          "Move": "Feint Attack",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 20,
+          "Level": 10,
           "Move": "Scary Face",
           "Type": "Normal"
         },
         {
-          "Level": 25,
-          "Move": "Assurance",
+          "Level": 13,
+          "Move": "Feint Attack",
           "Type": "Dark"
         },
         {
-          "Level": 30,
-          "Move": "Metal Sound",
-          "Type": "Steel"
+          "Level": 16,
+          "Move": "Aerial Ace",
+          "Type": "Flying"
         },
         {
-          "Level": 35,
+          "Level": 19,
           "Move": "Slash",
           "Type": "Normal"
         },
         {
-          "Level": 40,
-          "Move": "Night Slash",
-          "Type": "Dark"
-        },
-        {
-          "Level": 41,
-          "Move": "Embargo",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 45,
-          "Move": "Iron Defense",
+          "Level": 22,
+          "Move": "Metal Sound",
           "Type": "Steel"
         },
         {
-          "Level": 50,
-          "Move": "Retaliate",
-          "Type": "Normal"
-        },
-        {
-          "Level": 55,
+          "Level": 25,
           "Move": "Iron Head",
           "Type": "Steel"
         },
         {
-          "Level": 60,
+          "Level": 29,
+          "Move": "Torment",
+          "Type": "Dark"
+        },
+        {
+          "Level": 33,
+          "Move": "X-Scissor",
+          "Type": "Bug"
+        },
+        {
+          "Level": 37,
+          "Move": "Night Slash",
+          "Type": "Dark"
+        },
+        {
+          "Level": 40,
+          "Move": "Iron Defense",
+          "Type": "Steel"
+        },
+        {
+          "Level": 43,
+          "Move": "Retaliate",
+          "Type": "Normal"
+        },
+        {
+          "Level": 46,
           "Move": "Swords Dance",
           "Type": "Normal"
         },
         {
-          "Level": 65,
-          "Move": "Guillotine",
-          "Type": "Normal"
+          "Level": 49,
+          "Move": "Assurance",
+          "Type": "Dark"
+        },
+        {
+          "Level": 52,
+          "Move": "Sacred Sword",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 55,
+          "Move": "Zantetsuken*",
+          "Type": "Steel"
         }
       ],
       "TM/Tutor Moves List": [
@@ -261745,358 +261530,177 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Level": 15,
-          "Move": "Torment",
+          "Level": "Evo",
+          "Move": "Kowtow Cleave",
           "Type": "Dark"
         },
         {
-          "Level": 17,
-          "Move": "Feint Attack",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
+          "Level": 1,
+          "Move": "Scratch",
+          "Type": "Normal"
         },
         {
-          "Level": 20,
+          "Level": 1,
+          "Move": "Leer",
+          "Type": "Normal"
+        },
+        {
+          "Level": 1,
+          "Move": "Metal Claw",
+          "Type": "Steel"
+        },
+        {
+          "Level": 4,
+          "Move": "Fury Cutter",
+          "Type": "Bug"
+        },
+        {
+          "Level": 7,
+          "Move": "Beat Up",
+          "Type": "Dark"
+        },
+        {
+          "Level": 10,
           "Move": "Scary Face",
           "Type": "Normal"
         },
         {
-          "Level": 25,
-          "Move": "Assurance",
+          "Level": 13,
+          "Move": "Feint Attack",
           "Type": "Dark"
         },
         {
-          "Level": 30,
-          "Move": "Metal Sound",
-          "Type": "Steel"
+          "Level": 16,
+          "Move": "Aerial Ace",
+          "Type": "Flying"
         },
         {
-          "Level": 35,
+          "Level": 19,
           "Move": "Slash",
           "Type": "Normal"
         },
         {
-          "Level": 40,
-          "Move": "Night Slash",
-          "Type": "Dark"
-        },
-        {
-          "Level": 41,
-          "Move": "Embargo",
-          "Type": "Dark",
-          "Tags": [
-            "Deleted"
-          ]
-        },
-        {
-          "Level": 45,
-          "Move": "Iron Defense",
+          "Level": 22,
+          "Move": "Metal Sound",
           "Type": "Steel"
         },
         {
-          "Level": 50,
-          "Move": "Retaliate",
-          "Type": "Normal"
-        },
-        {
-          "Level": 57,
+          "Level": 25,
           "Move": "Iron Head",
           "Type": "Steel"
         },
         {
-          "Level": 64,
+          "Level": 29,
+          "Move": "Torment",
+          "Type": "Dark"
+        },
+        {
+          "Level": 33,
+          "Move": "X-Scissor",
+          "Type": "Bug"
+        },
+        {
+          "Level": 37,
+          "Move": "Night Slash",
+          "Type": "Dark"
+        },
+        {
+          "Level": 40,
+          "Move": "Iron Defense",
+          "Type": "Steel"
+        },
+        {
+          "Level": 43,
+          "Move": "Retaliate",
+          "Type": "Normal"
+        },
+        {
+          "Level": 46,
           "Move": "Swords Dance",
           "Type": "Normal"
         },
         {
-          "Level": 71,
-          "Move": "Guillotine",
-          "Type": "Normal"
+          "Level": 49,
+          "Move": "Assurance",
+          "Type": "Dark"
+        },
+        {
+          "Level": 52,
+          "Move": "Sacred Sword",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 55,
+          "Move": "Zantetsuken*",
+          "Type": "Steel"
         }
       ],
       "TM/Tutor Moves List": [
-        {
-          "Move": "Aerial Ace",
-          "Type": "Flying",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Air Slash",
-          "Type": "Flying",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Brick Break",
-          "Type": "Fighting",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Dark Pulse",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Dig",
-          "Type": "Ground",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Endure",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Facade",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "False Swipe",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Flash Cannon",
-          "Type": "Steel",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Fling",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Focus Blast",
-          "Type": "Fighting",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Foul Play",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Fury Cutter",
-          "Type": "Bug",
-          "Tags": [
-            "N"
-          ],
-          "Method": "Level-Up"
-        },
-        {
-          "Move": "Giga Impact",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Grass Knot",
-          "Type": "Grass",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Hyper Beam",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Lash Out",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Leer",
-          "Type": "Normal",
-          "Tags": [
-            "N"
-          ],
-          "Method": "Level-Up"
-        },
-        {
-          "Move": "Low Kick",
-          "Type": "Fighting",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Low Sweep",
-          "Type": "Fighting",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Metal Burst",
-          "Type": "Steel",
-          "Tags": [
-            "N"
-          ],
-          "Method": "Level-Up"
-        },
-        {
-          "Move": "Metal Claw",
-          "Type": "Steel",
-          "Tags": [
-            "N"
-          ],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Poison Jab",
-          "Type": "Poison",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Protect",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rain Dance",
-          "Type": "Water",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rest",
-          "Type": "Psychic",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Reversal",
-          "Type": "Fighting",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Rock Tomb",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Sandstorm",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Scratch",
-          "Type": "Normal",
-          "Tags": [
-            "N"
-          ],
-          "Method": "Level-Up"
-        },
-        {
-          "Move": "Shadow Claw",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Sleep Talk",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Snarl",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Spite",
-          "Type": "Ghost",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stealth Rock",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Steel Beam",
-          "Type": "Steel",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Stone Edge",
-          "Type": "Rock",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Substitute",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Take Down",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Taunt",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Tera Blast",
-          "Type": "Normal",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Thief",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Throat Chop",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Thunder Wave",
-          "Type": "Electric",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "X-Scissor",
-          "Type": "Bug",
-          "Tags": [],
-          "Method": "Machine"
-        }
+        "Air Slash",
+        "Aqua Cutter",
+        "Attract",
+        "Brick Break (N)",
+        "Brutal Swing,",
+        "Ceaseless Edge",
+        "Confide",
+        "Dark Pulse",
+        "Dig",
+        "Double Team,",
+        "Dual Chop",
+        "Endure",
+        "Facade",
+        "False Swipe",
+        "Flash Cannon,",
+        "Fling",
+        "Focus Blast",
+        "Foul Play",
+        "Frustration",
+        "Giga Impact,",
+        "Grass Knot",
+        "Guillotine",
+        "Headbutt",
+        "Hidden Power,",
+        "Hyper Beam",
+        "Knock Off (N)",
+        "Lash Out",
+        "Low Kick",
+        "Low Sweep,",
+        "Magnet Rise",
+        "Mean Look",
+        "Metal Burst (N)",
+        "Metal Sound,",
+        "Poison Jab",
+        "Protect",
+        "Psycho Cut (N)",
+        "Quick Guard,",
+        "Rain Dance",
+        "Rest",
+        "Return",
+        "Reversal",
+        "Rock Tomb",
+        "Role Play,",
+        "Round",
+        "Sandstorm",
+        "Shadow Claw",
+        "Sleep Talk",
+        "Snarl",
+        "Snatch,",
+        "Snore",
+        "Spite",
+        "Stealth Rock",
+        "Steel Beam",
+        "Stone Edge,",
+        "Substitute",
+        "Sucker Punch",
+        "Swagger",
+        "Take Down",
+        "Taunt,",
+        "Tera Blast",
+        "Thief (N)",
+        "Throat Chop",
+        "Thunder Wave",
+        "Toxic,",
+        "Zen Headbutt"
       ]
     }
   },
@@ -264038,9 +263642,9 @@
         "Fire"
       ],
       "Basic Ability 1": "White Smoke",
-      "Basic Ability 2": "Glutony",
+      "Basic Ability 2": "Gluttony",
       "Adv Ability 1": "Flame Tongue",
-      "Adv Ability 2": "Exploitw",
+      "Adv Ability 2": "Exploit",
       "High Ability": "Big Swallow"
     },
     "Evolution": [
@@ -273407,7 +273011,7 @@
       ],
       "Basic Ability 1": "Serene Grace",
       "Adv Ability 1": "Soundproof",
-      "Adv Ability 2": "Spining Dance",
+      "Adv Ability 2": "Spinning Dance",
       "Adv Ability 3": "Own Tempo",
       "High Ability": "Lullaby"
     },

@@ -17270,7 +17270,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -17531,7 +17531,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -35290,7 +35290,7 @@
         },
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -35493,7 +35493,7 @@
         },
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -39673,7 +39673,7 @@
         },
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -39913,7 +39913,7 @@
         },
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -40376,7 +40376,7 @@
         },
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -40599,7 +40599,7 @@
         },
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -45580,7 +45580,7 @@
         },
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -45848,7 +45848,7 @@
         },
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -47338,7 +47338,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -47583,7 +47583,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -47829,7 +47829,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -59711,7 +59711,7 @@
       "basicAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -59937,7 +59937,7 @@
       "basicAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -82393,7 +82393,7 @@
       "advancedAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -106827,7 +106827,7 @@
       "basicAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -107048,7 +107048,7 @@
       "basicAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -116765,7 +116765,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -117026,7 +117026,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -124757,7 +124757,7 @@
       "advancedAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -124971,7 +124971,7 @@
       "advancedAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -126258,7 +126258,7 @@
       "advancedAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -131011,7 +131011,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -150060,7 +150060,7 @@
       "highAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -150303,7 +150303,7 @@
       "highAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -174045,7 +174045,7 @@
       "advancedAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - Aqua Jet. The user may use Water- Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - Aqua Jet. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -184447,7 +184447,7 @@
       "advancedAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -184678,7 +184678,7 @@
       "advancedAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -207669,7 +207669,7 @@
       "basicAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -207927,7 +207927,7 @@
       "basicAbilities": [
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -212107,7 +212107,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -212640,7 +212640,7 @@
       "highAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -241048,7 +241048,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -241260,7 +241260,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -241478,7 +241478,7 @@
         },
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -257178,7 +257178,7 @@
       "advancedAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -270472,7 +270472,7 @@
       "basicAbilities": [
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -270710,7 +270710,7 @@
       "basicAbilities": [
         {
           "name": "Ice Shield",
-          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice- Type.",
+          "effect": "The user places up to 3 segments of Ice Wall; each segment must be continuous with another segment, and at least one must be adjacent to the user. These Ice Walls count as Blocking Terrain and last until the end of the encounter or until they are destroyed. Each Ice Wall segment is 2 meters tall, 1 meter wide, and 2 centimeters thick. Each segment has 10 Hit Points, 5 Damage Reduction, and takes damage as if it was Ice-Type.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Standard Action, Interrupt"
@@ -271932,7 +271932,7 @@
         },
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -272149,7 +272149,7 @@
         },
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -272391,7 +272391,7 @@
         },
         {
           "name": "Dry Skin",
-          "effect": "Whenever the user is hit by a damaging Fire- Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
+          "effect": "Whenever the user is hit by a damaging Fire-Type Move or ends their turn in Sunny Weather, they lose a Tick of Hit Points. The user is immune to the damage and effects of Water-Type Moves, and whenever the user is hit by a damaging Water-Type Move or ends their turn in Rainy Weather, they gain a Tick of Hit Points.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -273898,7 +273898,7 @@
       "highAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -274143,7 +274143,7 @@
       "highAbilities": [
         {
           "name": "Winter's Kiss",
-          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice- Type Move, the user is healed by a Tick of Hit Points. Defensive.",
+          "effect": "The user does not take damage from Ice-Type Moves. Whenever the user uses or is hit by an Ice-Type Move, the user is healed by a Tick of Hit Points. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"

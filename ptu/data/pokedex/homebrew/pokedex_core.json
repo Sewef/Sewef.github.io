@@ -126917,7 +126917,7 @@
       "Basic Ability 1": "Danger Syrup",
       "Adv Ability 1": "Spinning Dance",
       "Adv Ability 2": "Swift Swim",
-      "Adv Ability 3": "Maelstrom Pulse",
+      "Adv Ability 3": "Accelerate",
       "High Ability": "Rain Dish"
     },
     "Evolution": [
@@ -188094,7 +188094,7 @@
       "Basic Ability 2": "Swift Swim",
       "Adv Ability 1": "Speed Boost",
       "Adv Ability 2": "Water Veil",
-      "High Ability": "Maelstrom Pulse"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -188540,7 +188540,7 @@
       "Basic Ability 2": "Swift Swim",
       "Adv Ability 1": "Speed Boost",
       "Adv Ability 2": "Water Veil",
-      "High Ability": "Maelstrom Pulse"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -217298,7 +217298,7 @@
   {
     "Species": "Rotom Wash Form",
     "Number": 479,
-    "Icon": 10012,
+    "Icon": 10009,
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -218014,7 +218014,7 @@
   {
     "Species": "Rotom Fan Form",
     "Number": 479,
-    "Icon": 10012,
+    "Icon": 10011,
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -225016,7 +225016,7 @@
       "Adv Ability 1": "Leaf Guard",
       "Adv Ability 2": "Sol Veil",
       "Adv Ability 3": "Rocket",
-      "High Ability": "Leaf Rush"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -226750,7 +226750,7 @@
       "Basic Ability 1": "Sol Veil",
       "Basic Ability 2": "Overgrow",
       "Adv Ability 1": "Contrary",
-      "Adv Ability 2": "Leaf Rush",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Sway"
     },
     "Evolution": [
@@ -227154,7 +227154,7 @@
       "Basic Ability 1": "Sol Veil",
       "Basic Ability 2": "Overgrow",
       "Adv Ability 1": "Contrary",
-      "Adv Ability 2": "Leaf Rush",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Sway"
     },
     "Evolution": [
@@ -227568,7 +227568,7 @@
       "Basic Ability 1": "Sol Veil",
       "Basic Ability 2": "Overgrow",
       "Adv Ability 1": "Contrary",
-      "Adv Ability 2": "Leaf Rush",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Regal Challenge"
     },
     "Evolution": [
@@ -245828,7 +245828,7 @@
       "Adv Ability 1": "Full Guard",
       "Adv Ability 2": "Leafy Cloak",
       "Adv Ability 3": "Swarm",
-      "High Ability": "Leaf Rush"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -246164,7 +246164,7 @@
       "Adv Ability 1": "Full Guard",
       "Adv Ability 2": "Leafy Cloak",
       "Adv Ability 3": "Swarm",
-      "High Ability": "Leaf Rush"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -246513,7 +246513,7 @@
       "Adv Ability 1": "Full Guard",
       "Adv Ability 2": "Leafy Cloak",
       "Adv Ability 3": "Swarm",
-      "High Ability": "Leaf Rush"
+      "High Ability": "Accelerate"
     },
     "Evolution": [
       {
@@ -299946,9 +299946,9 @@
         "Flying"
       ],
       "Basic Ability 1": "Keen Eye",
-      "Basic Ability 2": "Tangled Feet",
+      "Basic Ability 2": "Gale Wings",
       "Adv Ability 1": "Big Pecks",
-      "Adv Ability 2": "Gale Wings",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Rocket"
     },
     "Evolution": [
@@ -300312,9 +300312,9 @@
         "Flying"
       ],
       "Basic Ability 1": "Keen Eye",
-      "Basic Ability 2": "Tangled Feet",
-      "Adv Ability 1": "Big Pecks",
-      "Adv Ability 2": "Gale Wings",
+      "Basic Ability 2": "Gale Wings",
+      "Adv Ability 1": "Flame Body",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Rocket"
     },
     "Evolution": [
@@ -300714,9 +300714,9 @@
         "Flying"
       ],
       "Basic Ability 1": "Keen Eye",
-      "Basic Ability 2": "Tangled Feet",
-      "Adv Ability 1": "Big Pecks",
-      "Adv Ability 2": "Gale Wings",
+      "Basic Ability 2": "Gale Wings",
+      "Adv Ability 1": "Flame Body",
+      "Adv Ability 2": "Accelerate",
       "High Ability": "Rocket"
     },
     "Evolution": [

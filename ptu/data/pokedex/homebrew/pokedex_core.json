@@ -56624,10 +56624,7 @@
         {
           "Level": 35,
           "Move": "Raging Bull",
-          "Type": "Normal",
-          "Tags": [
-            "Stab"
-          ]
+          "Type": "Fighting"
         },
         {
           "Level": 40,

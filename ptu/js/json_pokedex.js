@@ -820,6 +820,42 @@
     document.body.appendChild(el);
   }
 
+  // 1) ADD — constructeur paresseux de la modale (si absente)
+  function buildMoveAbilityModalIfMissing() {
+    if (document.getElementById('moveAbilityModal')) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'modal fade';
+    wrap.id = 'moveAbilityModal';
+    wrap.tabIndex = -1;
+    wrap.setAttribute('aria-hidden', 'true');
+    wrap.innerHTML = `
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 id="moveAbilityModalLabel" class="modal-title">Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="moveAbilityModalBody" class="modal-body"></div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>`;
+    // S'assure que <body> existe (au cas où le script est en <head>)
+    (document.body || document.documentElement).appendChild(wrap);
+  }
+
+  // petit helper pour récupérer les éléments (en s’assurant qu’ils existent)
+  function getMoveAbilityEls() {
+    buildMoveAbilityModalIfMissing();
+    return {
+      label: document.getElementById('moveAbilityModalLabel'),
+      body: document.getElementById('moveAbilityModalBody'),
+      root: document.getElementById('moveAbilityModal'),
+    };
+  }
+
+
   function buildTypeSidebar(all, onChange) {
     const sidebar = $("#sidebar");
     if (!sidebar) return;
@@ -1021,35 +1057,61 @@
   let _moveAbilityModal;
   function ensureMoveAbilityModal() {
     if (_moveAbilityModal) return _moveAbilityModal;
-    const el = $("#moveAbilityModal");
+    buildMoveAbilityModalIfMissing();
+    const el = document.getElementById('moveAbilityModal');
     if (!el) return null;
     _moveAbilityModal = new bootstrap.Modal(el, { backdrop: true });
     return _moveAbilityModal;
   }
 
+  // 2) REPLACE — openMoveModalByName
   async function openMoveModalByName(moveName) {
-    const name = String(moveName || "").trim().toLowerCase();
+    const name = String(moveName || '').trim().toLowerCase();
     if (!name) return;
+
     const idx = await loadMoveIndex();
-    const mv = idx.get(name) || idx.get(name.replace(/[-–—]/g, " ")) || null;
+    const mv = idx.get(name) || idx.get(name.replace(/[-–—]/g, ' ')) || null;
+
     const display = mv?.Move || mv?.Name || mv?.__displayName || moveName;
-    const labelEl = $("#moveAbilityModalLabel");
-    const typeHtml = mv?.Type ? wrapTypes([mv.Type]) : "";
-    labelEl.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
-    $("#moveAbilityModalBody").innerHTML = renderMoveDetails(mv);
+    const typeHtml = mv?.Type ? wrapTypes([mv.Type]) : '';
+
+    const { label, body, root } = getMoveAbilityEls();
+    if (!label || !body || !root) {
+      console.warn('[move modal] container missing in DOM');
+      return;
+    }
+
+    label.innerHTML = `
+    <div>
+      <div class="fw-semibold">Move — ${escapeHtml(display)}</div>
+      <div class="mt-1">${typeHtml}</div>
+    </div>`;
+    body.innerHTML = renderMoveDetails(mv);
+
     ensureMoveAbilityModal()?.show();
   }
 
+  // 3) REPLACE — openAbilityModalByName
   async function openAbilityModalByName(abilityName) {
-    const name = String(abilityName || "").trim().toLowerCase();
+    const name = String(abilityName || '').trim().toLowerCase();
     if (!name) return;
+
     const idx = await loadAbilityIndex();
     const ab = idx.get(name) || null;
     const display = ab?.Name || ab?.__displayName || abilityName;
-    $("#moveAbilityModalLabel").textContent = `Ability — ${display}`;
-    $("#moveAbilityModalBody").innerHTML = renderAbilityDetails(ab);
+
+    const { label, body, root } = getMoveAbilityEls();
+    if (!label || !body || !root) {
+      console.warn('[ability modal] container missing in DOM');
+      return;
+    }
+
+    label.textContent = `Ability — ${display}`;
+    body.innerHTML = renderAbilityDetails(ab);
+
     ensureMoveAbilityModal()?.show();
   }
+
 
   document.addEventListener("click", (ev) => {
     const a = ev.target.closest("a.js-move-link, a.js-ability-link");

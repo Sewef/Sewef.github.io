@@ -965,80 +965,29 @@
     return _moveAbilityModal;
   }
 
-  // --- helper minimal : attend l'existence des éléments de la modale ---
-  async function waitForMoveAbilityEls(maxWaitMs = 1500, stepMs = 50) {
-    if (document.readyState === "loading") {
-      await new Promise(res => document.addEventListener("DOMContentLoaded", res, { once: true }));
-    }
-    const start = performance.now();
-    while (performance.now() - start < maxWaitMs) {
-      const label = document.getElementById("moveAbilityModalLabel");
-      const body = document.getElementById("moveAbilityModalBody");
-      const root = document.getElementById("moveAbilityModal");
-      if (label && body && root) return { label, body, root };
-      await new Promise(r => setTimeout(r, stepMs));
-    }
-    // renvoie ce qu'on a (au cas où)
-    return {
-      label: document.getElementById("moveAbilityModalLabel"),
-      body: document.getElementById("moveAbilityModalBody"),
-      root: document.getElementById("moveAbilityModal"),
-    };
-  }
-
-
-  // --- REMPLACE ta fonction existante ---
   async function openMoveModalByName(moveName) {
     const name = String(moveName || "").trim().toLowerCase();
     if (!name) return;
-
-    // Attendre les éléments de la modale pour éviter "null.innerHTML"
-    const { label, body, root } = await waitForMoveAbilityEls();
-    if (!label || !body || !root) {
-      console.warn("[pokedex] move modal elements missing in DOM");
-      return;
-    }
-
-    // Charge l'index
-    const idx = await (typeof loadMoveIndex === "function" ? loadMoveIndex() : Promise.resolve(new Map()));
+    const idx = await loadMoveIndex();
     const mv = idx.get(name) || idx.get(name.replace(/[-–—]/g, " ")) || null;
-
     const display = mv?.Move || mv?.Name || mv?.__displayName || moveName;
+    const labelEl = $("#moveAbilityModalLabel");
     const typeHtml = mv?.Type ? wrapTypes([mv.Type]) : "";
-
-    // Remplissage
-    label.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
-    body.innerHTML = renderMoveDetails(mv);
-
-    // Ouverture
-    (bootstrap.Modal.getOrCreateInstance(root, { backdrop: true }))?.show();
+    labelEl.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
+    $("#moveAbilityModalBody").innerHTML = renderMoveDetails(mv);
+    ensureMoveAbilityModal()?.show();
   }
 
-  // --- REMPLACE ta fonction existante ---
   async function openAbilityModalByName(abilityName) {
     const name = String(abilityName || "").trim().toLowerCase();
     if (!name) return;
-
-    // Attendre les éléments de la modale pour éviter "null.textContent"
-    const { label, body, root } = await waitForMoveAbilityEls();
-    if (!label || !body || !root) {
-      console.warn("[pokedex] ability modal elements missing in DOM");
-      return;
-    }
-
-    // Charge l'index
-    const idx = await (typeof loadAbilityIndex === "function" ? loadAbilityIndex() : Promise.resolve(new Map()));
+    const idx = await loadAbilityIndex();
     const ab = idx.get(name) || null;
     const display = ab?.Name || ab?.__displayName || abilityName;
-
-    // Remplissage
-    label.textContent = `Ability — ${display}`;
-    body.innerHTML = renderAbilityDetails(ab);
-
-    // Ouverture
-    (bootstrap.Modal.getOrCreateInstance(root, { backdrop: true }))?.show();
+    $("#moveAbilityModalLabel").textContent = `Ability — ${display}`;
+    $("#moveAbilityModalBody").innerHTML = renderAbilityDetails(ab);
+    ensureMoveAbilityModal()?.show();
   }
-
 
   document.addEventListener("click", (ev) => {
     const a = ev.target.closest("a.js-move-link, a.js-ability-link");
@@ -1102,135 +1051,3 @@
     if (target) openDetail(target);
   });
 })();
-
-
-
-/* --- BEGIN PATCH (merged from pokedex.minpatch.js) --- */
-
-/**
- * pokedex.minpatch.js — Minimal patch
- * - Avoids HTML injection: does NOT create the modal, assumes it's in the page.
- * - Fixes GitHub Pages race: waits for #moveAbilityModalLabel / Body to exist before using.
- * - Overrides only openMoveModalByName / openAbilityModalByName (non-invasive).
- *
- * Usage: include AFTER json_pokedex.js
- *   <script src="/ptu/js/json_pokedex.js" defer></script>
- *   <script src="/ptu/js/pokedex.minpatch.js" defer></script>
- */
-(function () {
-  const escapeHtml = window.escapeHtml || ((s) => String(s).replace(/[&<>"']/g, (c) => ({
-    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
-  }[c])));
-
-  const wrapTypes = window.wrapTypes || ((t) => {
-    if (!t) return "";
-    if (typeof t === "string") return `<span class="type-pill card-type-${t}">${t}</span>`;
-    if (!Array.isArray(t)) t = [t];
-    return t.map(x => `<span class="type-pill card-type-${x}">${x}</span>`).join("");
-  });
-
-  const loadMoveIndex = window.loadMoveIndex;
-  const loadAbilityIndex = window.loadAbilityIndex;
-  const formatDamageBase = window.formatDamageBase || (() => "");
-
-  // Reuse the renderer already present (fallbacks to local ones if missing)
-  const renderMoveDetails = window.renderMoveDetails || function (mv) {
-    if (!mv) return '<p class="text-muted mb-0">Cannot find move.</p>';
-    const row = (k, v) => v ? `<div><span class="text-muted">${k}:</span> ${escapeHtml(String(v))}</div>` : "";
-    return `${row("Frequency", mv.Frequency)}${row("AC", mv.AC)}${formatDamageBase(mv)}`;
-  };
-  const renderAbilityDetails = window.renderAbilityDetails || function (ab) {
-    if (!ab) return '<p class="text-muted mb-0">Ability introuvable.</p>';
-    const row = (k, v) => v ? `<div><span class="text-muted">${k}:</span> ${escapeHtml(String(v))}</div>` : "";
-    return `${row("Frequency", ab.Frequency)}${row("Target", ab.Target)}${row("Trigger", ab.Trigger)}`;
-  };
-
-  // ---- Minimal wait helper (no HTML injection) ----
-  function getMoveAbilityEls() {
-    return {
-      label: document.getElementById("moveAbilityModalLabel"),
-      body: document.getElementById("moveAbilityModalBody"),
-      root: document.getElementById("moveAbilityModal"),
-    };
-  }
-
-  function readyPromise() {
-    if (document.readyState !== "loading") return Promise.resolve();
-    return new Promise(res => document.addEventListener("DOMContentLoaded", res, { once: true }));
-  }
-
-  async function waitForMoveAbilityEls(maxWaitMs = 1500, stepMs = 50) {
-    await readyPromise();
-    const start = performance.now();
-    while (performance.now() - start < maxWaitMs) {
-      const { label, body, root } = getMoveAbilityEls();
-      if (label && body && root) return { label, body, root };
-      await new Promise(r => setTimeout(r, stepMs));
-    }
-    // Return whatever we have; callers will guard
-    return getMoveAbilityEls();
-  }
-
-  // Keep existing ensureMoveAbilityModal if present
-  const ensureMoveAbilityModal = window.ensureMoveAbilityModal || (function () {
-    let _inst = null;
-    return function () {
-      const el = document.getElementById("moveAbilityModal");
-      if (!el) return null;
-      _inst = _inst || new bootstrap.Modal(el, { backdrop: true });
-      return _inst;
-    };
-  })();
-
-  // ---- Overrides (minimal) ----
-  async function openMoveModalByNamePatched(moveName) {
-    const name = String(moveName || "").trim().toLowerCase();
-    if (!name) return;
-
-    // Wait for DOM to have the modal nodes
-    const { label, body } = await waitForMoveAbilityEls();
-    if (!label || !body) {
-      console.warn("[minpatch] move modal elements missing in DOM");
-      return;
-    }
-
-    // Load data
-    const idx = await (typeof loadMoveIndex === "function" ? loadMoveIndex() : Promise.resolve(new Map()));
-    const mv = idx.get(name) || idx.get(name.replace(/[-–—]/g, " ")) || null;
-
-    const display = mv?.Move || mv?.Name || mv?.__displayName || moveName;
-    const typeHtml = mv?.Type ? wrapTypes([mv.Type]) : "";
-    label.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
-    body.innerHTML = renderMoveDetails(mv);
-
-    ensureMoveAbilityModal()?.show();
-  }
-
-  async function openAbilityModalByNamePatched(abilityName) {
-    const name = String(abilityName || "").trim().toLowerCase();
-    if (!name) return;
-
-    // Wait for DOM to have the modal nodes
-    const { label, body } = await waitForMoveAbilityEls();
-    if (!label || !body) {
-      console.warn("[minpatch] ability modal elements missing in DOM");
-      return;
-    }
-
-    // Load data
-    const idx = await (typeof loadAbilityIndex === "function" ? loadAbilityIndex() : Promise.resolve(new Map()));
-    const ab = idx.get(name) || null;
-    const display = ab?.Name || ab?.__displayName || abilityName;
-
-    label.textContent = `Ability — ${display}`;
-    body.innerHTML = renderAbilityDetails(ab);
-
-    ensureMoveAbilityModal()?.show();
-  }
-
-  // Export overrides (leave everything else untouched)
-  window.openMoveModalByName = openMoveModalByNamePatched;
-  window.openAbilityModalByName = openAbilityModalByNamePatched;
-})();
-
-/* --- END PATCH --- */

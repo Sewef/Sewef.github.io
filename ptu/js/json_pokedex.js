@@ -965,29 +965,80 @@
     return _moveAbilityModal;
   }
 
+  // --- helper minimal : attend l'existence des éléments de la modale ---
+  async function waitForMoveAbilityEls(maxWaitMs = 1500, stepMs = 50) {
+    if (document.readyState === "loading") {
+      await new Promise(res => document.addEventListener("DOMContentLoaded", res, { once: true }));
+    }
+    const start = performance.now();
+    while (performance.now() - start < maxWaitMs) {
+      const label = document.getElementById("moveAbilityModalLabel");
+      const body = document.getElementById("moveAbilityModalBody");
+      const root = document.getElementById("moveAbilityModal");
+      if (label && body && root) return { label, body, root };
+      await new Promise(r => setTimeout(r, stepMs));
+    }
+    // renvoie ce qu'on a (au cas où)
+    return {
+      label: document.getElementById("moveAbilityModalLabel"),
+      body: document.getElementById("moveAbilityModalBody"),
+      root: document.getElementById("moveAbilityModal"),
+    };
+  }
+
+
+  // --- REMPLACE ta fonction existante ---
   async function openMoveModalByName(moveName) {
     const name = String(moveName || "").trim().toLowerCase();
     if (!name) return;
-    const idx = await loadMoveIndex();
+
+    // Attendre les éléments de la modale pour éviter "null.innerHTML"
+    const { label, body, root } = await waitForMoveAbilityEls();
+    if (!label || !body || !root) {
+      console.warn("[pokedex] move modal elements missing in DOM");
+      return;
+    }
+
+    // Charge l'index
+    const idx = await (typeof loadMoveIndex === "function" ? loadMoveIndex() : Promise.resolve(new Map()));
     const mv = idx.get(name) || idx.get(name.replace(/[-–—]/g, " ")) || null;
+
     const display = mv?.Move || mv?.Name || mv?.__displayName || moveName;
-    const labelEl = $("#moveAbilityModalLabel");
     const typeHtml = mv?.Type ? wrapTypes([mv.Type]) : "";
-    labelEl.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
-    $("#moveAbilityModalBody").innerHTML = renderMoveDetails(mv);
-    ensureMoveAbilityModal()?.show();
+
+    // Remplissage
+    label.innerHTML = `<div><div class="fw-semibold">Move — ${escapeHtml(display)}</div><div class="mt-1">${typeHtml}</div></div>`;
+    body.innerHTML = renderMoveDetails(mv);
+
+    // Ouverture
+    (bootstrap.Modal.getOrCreateInstance(root, { backdrop: true }))?.show();
   }
 
+  // --- REMPLACE ta fonction existante ---
   async function openAbilityModalByName(abilityName) {
     const name = String(abilityName || "").trim().toLowerCase();
     if (!name) return;
-    const idx = await loadAbilityIndex();
+
+    // Attendre les éléments de la modale pour éviter "null.textContent"
+    const { label, body, root } = await waitForMoveAbilityEls();
+    if (!label || !body || !root) {
+      console.warn("[pokedex] ability modal elements missing in DOM");
+      return;
+    }
+
+    // Charge l'index
+    const idx = await (typeof loadAbilityIndex === "function" ? loadAbilityIndex() : Promise.resolve(new Map()));
     const ab = idx.get(name) || null;
     const display = ab?.Name || ab?.__displayName || abilityName;
-    $("#moveAbilityModalLabel").textContent = `Ability — ${display}`;
-    $("#moveAbilityModalBody").innerHTML = renderAbilityDetails(ab);
-    ensureMoveAbilityModal()?.show();
+
+    // Remplissage
+    label.textContent = `Ability — ${display}`;
+    body.innerHTML = renderAbilityDetails(ab);
+
+    // Ouverture
+    (bootstrap.Modal.getOrCreateInstance(root, { backdrop: true }))?.show();
   }
+
 
   document.addEventListener("click", (ev) => {
     const a = ev.target.closest("a.js-move-link, a.js-ability-link");

@@ -5274,7 +5274,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -19279,7 +19281,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -19626,7 +19630,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -23510,7 +23516,10 @@
         {
           "Level": 23,
           "Move": "Punishment",
-          "Type": "Dark"
+          "Type": "Dark",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 25,
@@ -24042,7 +24051,10 @@
         {
           "Level": 23,
           "Move": "Punishment",
-          "Type": "Dark"
+          "Type": "Dark",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 25,
@@ -27445,6 +27457,7 @@
           "Move": "Kinesis",
           "Type": "Psychic",
           "Tags": [
+            "Deleted",
             "N"
           ],
           "Method": "Level-Up"
@@ -27932,6 +27945,7 @@
           "Move": "Kinesis",
           "Type": "Psychic",
           "Tags": [
+            "Deleted",
             "N"
           ],
           "Method": "Level-Up"
@@ -74257,7 +74271,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -74578,7 +74594,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -90180,7 +90198,10 @@
         {
           "Level": 1,
           "Move": "Hidden Power",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         }
       ],
       "TM/Tutor Moves List": []
@@ -120025,7 +120046,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -120435,7 +120458,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -134700,7 +134725,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -135137,7 +135164,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -147176,7 +147205,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -158264,7 +158295,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -158685,7 +158718,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -181028,6 +181063,7 @@
           "Move": "Rock Climb",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -185819,7 +185855,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -186155,7 +186193,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -186505,7 +186545,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -186866,7 +186908,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -194294,7 +194338,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -194675,7 +194721,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -205002,7 +205050,9 @@
         {
           "Move": "Flash",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -231082,6 +231132,7 @@
           "Move": "Bide",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -231238,13 +231289,16 @@
         {
           "Move": "Foresight",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
           "Move": "Frustration",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231271,6 +231325,7 @@
           "Move": "Hidden Power",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231310,7 +231365,9 @@
         {
           "Move": "Pursuit",
           "Type": "Dark",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
@@ -231329,6 +231386,7 @@
           "Move": "Return",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231519,6 +231577,7 @@
           "Move": "Bide",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -231686,6 +231745,7 @@
           "Move": "Frustration",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231720,6 +231780,7 @@
           "Move": "Hidden Power",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231800,6 +231861,7 @@
           "Move": "Return",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -231808,6 +231870,7 @@
           "Move": "Rototiller",
           "Type": "Ground",
           "Tags": [
+            "Deleted",
             "N"
           ],
           "Method": "Level-Up"
@@ -231841,7 +231904,9 @@
         {
           "Move": "Signal Beam",
           "Type": "Bug",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Tutor"
         },
         {
@@ -234056,7 +234121,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -234138,7 +234206,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234166,7 +234236,9 @@
         {
           "Move": "Grass Whistle",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
@@ -234184,7 +234256,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234260,7 +234334,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234515,7 +234591,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -234589,7 +234668,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234635,7 +234716,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234703,7 +234786,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -234949,6 +235034,7 @@
           "Move": "Flame Burst",
           "Type": "Fire",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -234983,7 +235069,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -235103,7 +235192,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235141,7 +235232,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235203,7 +235296,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235417,6 +235512,7 @@
           "Move": "Flame Burst",
           "Type": "Fire",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -235451,7 +235547,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -235549,7 +235648,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235593,7 +235694,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235663,7 +235766,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -235895,7 +236000,10 @@
         {
           "Level": 16,
           "Move": "Water Sport",
-          "Type": "Water"
+          "Type": "Water",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 19,
@@ -235941,7 +236049,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -236027,7 +236138,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -236063,7 +236176,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -236119,7 +236234,9 @@
         {
           "Move": "Mud Sport",
           "Type": "Ground",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
@@ -236155,7 +236272,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -236365,7 +236484,10 @@
         {
           "Level": 16,
           "Move": "Water Sport",
-          "Type": "Water"
+          "Type": "Water",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 19,
@@ -236411,7 +236533,10 @@
         {
           "Level": 40,
           "Move": "Natural Gift",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 43,
@@ -236491,7 +236616,9 @@
         {
           "Move": "Frustration",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -236533,7 +236660,9 @@
         {
           "Move": "Hidden Power",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -236619,7 +236748,9 @@
         {
           "Move": "Return",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Machine"
         },
         {
@@ -280794,6 +280925,7 @@
           "Move": "Feint Attack",
           "Type": "Dark",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -281245,6 +281377,7 @@
           "Move": "Feint Attack",
           "Type": "Dark",
           "Tags": [
+            "Deleted",
             "Stab"
           ]
         },
@@ -305698,7 +305831,10 @@
         {
           "Level": 27,
           "Move": "Odor Sleuth",
-          "Type": "Normal"
+          "Type": "Normal",
+          "Tags": [
+            "Deleted"
+          ]
         },
         {
           "Level": 33,
@@ -305742,7 +305878,9 @@
         {
           "Move": "Captivate",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
@@ -305797,6 +305935,7 @@
           "Move": "Frustration",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -305825,6 +305964,7 @@
           "Move": "Hidden Power",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"
@@ -305872,7 +306012,9 @@
         {
           "Move": "Refresh",
           "Type": "Normal",
-          "Tags": [],
+          "Tags": [
+            "Deleted"
+          ],
           "Method": "Egg"
         },
         {
@@ -305885,6 +306027,7 @@
           "Move": "Return",
           "Type": "Normal",
           "Tags": [
+            "Deleted",
             "Stab"
           ],
           "Method": "Machine"

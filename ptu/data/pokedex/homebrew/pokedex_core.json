@@ -228765,9 +228765,54 @@
     "Moves": {
       "Level Up Move List": [
         {
+          "Level": 1,
           "Move": "Sketch",
-          "Type": "Normal",
-          "Level": 1
+          "Type": "Normal"
+        },
+        {
+          "Level": 11,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 21,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 41,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 51,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 61,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 71,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 81,
+          "Move": "Sketch",
+          "Type": "Normal"
+        },
+        {
+          "Level": 91,
+          "Move": "Sketch",
+          "Type": "Normal"
         }
       ],
       "TM/HM Move List": [],

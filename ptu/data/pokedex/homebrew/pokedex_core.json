@@ -47046,7 +47046,7 @@
     "Number": 51,
     "Base Stats": {
       "HP": 4,
-      "Attack": 8,
+      "Attack": 10,
       "Defense": 5,
       "Special Attack": 5,
       "Special Defense": 7,
@@ -81020,7 +81020,7 @@
     "Number": 83,
     "Base Stats": {
       "HP": 5,
-      "Attack": 7,
+      "Attack": 9,
       "Defense": 6,
       "Special Attack": 6,
       "Special Defense": 6,
@@ -83079,7 +83079,7 @@
       "Defense": 7,
       "Special Attack": 6,
       "Special Defense": 6,
-      "Speed": 10
+      "Speed": 11
     },
     "Basic Information": {
       "Type": [
@@ -99439,7 +99439,7 @@
       "Defense": 7,
       "Special Attack": 8,
       "Special Defense": 8,
-      "Speed": 14
+      "Speed": 15
     },
     "Basic Information": {
       "Type": [
@@ -166772,7 +166772,7 @@
       "HP": 10,
       "Attack": 5,
       "Defense": 5,
-      "Special Attack": 8,
+      "Special Attack": 9,
       "Special Defense": 10,
       "Speed": 7
     },
@@ -170271,7 +170271,7 @@
       "Attack": 9,
       "Defense": 7,
       "Special Attack": 6,
-      "Special Defense": 6,
+      "Special Defense": 7,
       "Speed": 4
     },
     "Basic Information": {
@@ -221149,10 +221149,10 @@
     "Species": "Magcargo",
     "Number": 219,
     "Base Stats": {
-      "HP": 5,
+      "HP": 6,
       "Attack": 5,
       "Defense": 12,
-      "Special Attack": 8,
+      "Special Attack": 9,
       "Special Defense": 8,
       "Speed": 3
     },
@@ -227904,7 +227904,7 @@
     "Species": "Mantine",
     "Number": 226,
     "Base Stats": {
-      "HP": 7,
+      "HP": 8,
       "Attack": 4,
       "Defense": 7,
       "Special Attack": 8,
@@ -277359,7 +277359,7 @@
       "HP": 6,
       "Attack": 9,
       "Defense": 6,
-      "Special Attack": 5,
+      "Special Attack": 7,
       "Special Defense": 5,
       "Speed": 13
     },
@@ -284689,9 +284689,9 @@
       "HP": 7,
       "Attack": 6,
       "Defense": 6,
-      "Special Attack": 8,
+      "Special Attack": 10,
       "Special Defense": 8,
-      "Speed": 6
+      "Speed": 8
     },
     "Basic Information": {
       "Type": [
@@ -300206,7 +300206,7 @@
       "Defense": 7,
       "Special Attack": 6,
       "Special Defense": 6,
-      "Speed": 7
+      "Speed": 9
     },
     "Basic Information": {
       "Type": [
@@ -312720,7 +312720,7 @@
     "Base Stats": {
       "HP": 7,
       "Attack": 7,
-      "Defense": 6,
+      "Defense": 7,
       "Special Attack": 5,
       "Special Defense": 8,
       "Speed": 9
@@ -313706,7 +313706,7 @@
     "Base Stats": {
       "HP": 7,
       "Attack": 5,
-      "Defense": 6,
+      "Defense": 7,
       "Special Attack": 7,
       "Special Defense": 8,
       "Speed": 9
@@ -336668,7 +336668,7 @@
     "Species": "Lunatone",
     "Number": 337,
     "Base Stats": {
-      "HP": 7,
+      "HP": 9,
       "Attack": 6,
       "Defense": 7,
       "Special Attack": 10,
@@ -337778,7 +337778,7 @@
     "Species": "Solrock",
     "Number": 338,
     "Base Stats": {
-      "HP": 7,
+      "HP": 9,
       "Attack": 10,
       "Defense": 9,
       "Special Attack": 6,
@@ -356949,9 +356949,9 @@
     "Base Stats": {
       "HP": 7,
       "Attack": 5,
-      "Defense": 7,
+      "Defense": 8,
       "Special Attack": 10,
-      "Special Defense": 8,
+      "Special Defense": 9,
       "Speed": 7
     },
     "Basic Information": {
@@ -495982,9 +495982,9 @@
     "Base Stats": {
       "HP": 12,
       "Attack": 7,
-      "Defense": 12,
+      "Defense": 11,
       "Special Attack": 8,
-      "Special Defense": 13,
+      "Special Defense": 12,
       "Speed": 9
     },
     "Basic Information": {
@@ -604971,7 +604971,7 @@
     "Number": 614,
     "Base Stats": {
       "HP": 10,
-      "Attack": 11,
+      "Attack": 13,
       "Defense": 8,
       "Special Attack": 7,
       "Special Defense": 8,
@@ -606018,9 +606018,9 @@
     "Species": "Cryogonal",
     "Number": 615,
     "Base Stats": {
-      "HP": 7,
+      "HP": 8,
       "Attack": 5,
-      "Defense": 3,
+      "Defense": 5,
       "Special Attack": 10,
       "Special Defense": 14,
       "Speed": 11
@@ -670985,9 +670985,9 @@
     "Base Stats": {
       "HP": 6,
       "Attack": 5,
-      "Defense": 15,
+      "Defense": 14,
       "Special Attack": 5,
-      "Special Defense": 15,
+      "Special Defense": 14,
       "Speed": 6
     },
     "Basic Information": {

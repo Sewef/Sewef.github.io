@@ -4195,8 +4195,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -5827,8 +5826,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -6923,8 +6921,7 @@
           "Type": "Flying",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -8178,8 +8175,7 @@
           "Type": "Bug",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -9669,8 +9665,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -11367,8 +11362,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -13373,8 +13367,7 @@
           "Type": "Electric",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -17304,8 +17297,7 @@
           "Type": "Ground",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -18381,17 +18373,14 @@
           "Type": "Flying",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
         {
           "Move": "Aqua Cutter",
           "Type": "Water",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -20779,8 +20768,7 @@
           "Type": "Bug",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         }
@@ -21702,8 +21690,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -21721,8 +21708,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -21731,8 +21717,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -27003,8 +26988,7 @@
           "Type": "Fairy",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -28913,8 +28897,7 @@
           "Type": "Bug",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -30055,8 +30038,7 @@
           "Type": "Rock",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -30621,8 +30603,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -31188,8 +31169,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -31806,8 +31786,7 @@
           "Type": "Psychic",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -31816,8 +31795,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -32428,8 +32406,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -37564,8 +37541,7 @@
           "Type": "Dragon",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -41822,8 +41798,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -46807,8 +46782,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -48904,8 +48878,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },

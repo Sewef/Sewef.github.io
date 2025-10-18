@@ -2731,9 +2731,7 @@
         {
           "Move": "Head Smash",
           "Type": "Rock",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -5301,9 +5299,7 @@
         {
           "Move": "Acid Spray",
           "Type": "Poison",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -6527,9 +6523,7 @@
         {
           "Move": "Counter",
           "Type": "Fighting",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {

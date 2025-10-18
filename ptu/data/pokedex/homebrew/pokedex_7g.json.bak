@@ -3638,8 +3638,7 @@
           "Type": "Fire",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -8660,8 +8659,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -8670,8 +8668,7 @@
           "Type": "Flying",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -8693,9 +8690,7 @@
         {
           "Move": "Sky Attack",
           "Type": "Flying",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -8712,8 +8707,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         }
@@ -10751,9 +10745,7 @@
         {
           "Move": "Endeavor",
           "Type": "Normal",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -10779,8 +10771,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -14356,9 +14347,7 @@
         {
           "Move": "Focus Punch",
           "Type": "Fighting",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -14366,8 +14355,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -16744,8 +16732,7 @@
           "Type": "Fairy",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -21905,8 +21892,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -21924,8 +21910,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -21943,8 +21928,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Ultra Sun/Ultra Moon",
-            "Stab"
+            "Ultra Sun/Ultra Moon"
           ],
           "Method": "Egg"
         }
@@ -22559,8 +22543,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -22578,8 +22561,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -22597,8 +22579,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Ultra Sun/Ultra Moon",
-            "Stab"
+            "Ultra Sun/Ultra Moon"
           ],
           "Method": "Egg"
         }
@@ -24861,8 +24842,7 @@
           "Type": "Ground",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -24871,8 +24851,7 @@
           "Type": "Ground",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -27692,8 +27671,7 @@
           "Type": "Grass",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -27702,8 +27680,7 @@
           "Type": "Grass",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -30606,8 +30583,7 @@
           "Type": "Poison",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -32281,8 +32257,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -32300,8 +32275,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -32319,8 +32293,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -37358,8 +37331,7 @@
           "Type": "Psychic",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -37368,8 +37340,7 @@
           "Type": "Psychic",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -37378,8 +37349,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -38395,8 +38365,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -38450,8 +38419,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -38460,8 +38428,7 @@
           "Type": "Fighting",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         }
@@ -38845,8 +38812,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -46492,8 +46458,7 @@
           "Type": "Fire",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -49189,8 +49154,7 @@
           "Type": "Water",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         }
@@ -50193,8 +50157,7 @@
           "Type": "Dragon",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -50230,8 +50193,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -51910,8 +51872,7 @@
           "Type": "Dragon",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -54714,8 +54675,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -54787,8 +54747,7 @@
           "Type": "Normal",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         }
@@ -57750,9 +57709,7 @@
         {
           "Move": "Ice Shard",
           "Type": "Ice",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         },
         {
@@ -57760,8 +57717,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -57770,8 +57726,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -57780,8 +57735,7 @@
           "Type": "Steel",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -59918,8 +59872,7 @@
           "Type": "Ice",
           "Tags": [
             "Legacy",
-            "Sword/Shield",
-            "Stab"
+            "Sword/Shield"
           ],
           "Method": "Egg"
         },
@@ -63830,8 +63783,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -63858,8 +63810,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -65909,9 +65860,7 @@
         {
           "Move": "Zap Cannon",
           "Type": "Electric",
-          "Tags": [
-            "Stab"
-          ],
+          "Tags": [],
           "Method": "Egg"
         }
       ]
@@ -68678,8 +68627,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -68688,8 +68636,7 @@
           "Type": "Poison",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },
@@ -68734,8 +68681,7 @@
           "Type": "Dark",
           "Tags": [
             "Legacy",
-            "Sun/Moon",
-            "Stab"
+            "Sun/Moon"
           ],
           "Method": "Egg"
         },

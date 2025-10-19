@@ -128437,11 +128437,9 @@
         },
         {
           "Move": "Raging Bull",
-          "Type": "Normal",
+          "Type": "Fighting",
           "Level": 35,
-          "Tags": [
-            "Stab"
-          ]
+          "Tags": []
         },
         {
           "Move": "Focus Energy",

@@ -25276,14 +25276,60 @@
           "Level": "Evo"
         },
         {
-          "Move": "Growl",
+          "Move": "Tail Whip",
           "Type": "Normal",
-          "Level": 1
+          "Level": 3,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
         },
         {
-          "Move": "Scratch",
+          "Move": "Poison Sting",
+          "Type": "Poison",
+          "Level": 6,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Double Kick",
+          "Type": "Fighting",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Bite",
+          "Type": "Dark",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
           "Type": "Normal",
-          "Level": 1
+          "Level": 15
+        },
+        {
+          "Move": "Helping Hand",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Toxic Spikes",
+          "Type": "Poison",
+          "Level": 22
         },
         {
           "Move": "Chip Away",
@@ -25295,6 +25341,33 @@
           ]
         },
         {
+          "Move": "Toxic",
+          "Type": "Poison",
+          "Level": 23,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Flatter",
+          "Type": "Dark",
+          "Level": 38,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": 39,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
           "Move": "Earth Power",
           "Type": "Ground",
           "Level": 43,
@@ -25303,6 +25376,39 @@
             "Ultra Sun/Ultra Moon",
             "Stab"
           ]
+        },
+        {
+          "Move": "Super Fang",
+          "Type": "Normal",
+          "Level": 47,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Captivate",
+          "Type": "Normal",
+          "Level": 50,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Poison Fang",
+          "Type": "Poison",
+          "Level": 58,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Earth Power",
+          "Type": "Ground",
+          "Level": 71
         }
       ],
       "TM/HM Move List": [
@@ -26567,6 +26673,22 @@
             "Omega Ruby/Alpha Sapphire"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Growl",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Scratch",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -28335,14 +28457,60 @@
           ]
         },
         {
-          "Move": "Leer",
+          "Move": "Focus Energy",
           "Type": "Normal",
-          "Level": 1
+          "Level": 3,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
         },
         {
-          "Move": "Peck",
-          "Type": "Flying",
-          "Level": 1
+          "Move": "Poison Sting",
+          "Type": "Poison",
+          "Level": 6,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Double Kick",
+          "Type": "Fighting",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Horn Attack",
+          "Type": "Normal",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Fury Attack",
+          "Type": "Normal",
+          "Level": 15
+        },
+        {
+          "Move": "Helping Hand",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Toxic Spikes",
+          "Type": "Poison",
+          "Level": 22
         },
         {
           "Move": "Chip Away",
@@ -28354,6 +28522,34 @@
           ]
         },
         {
+          "Move": "Toxic",
+          "Type": "Poison",
+          "Level": 23,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Flatter",
+          "Type": "Dark",
+          "Level": 38,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Poison Jab",
+          "Type": "Poison",
+          "Level": 39,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
           "Move": "Earth Power",
           "Type": "Ground",
           "Level": 43,
@@ -28362,6 +28558,29 @@
             "Ultra Sun/Ultra Moon",
             "Stab"
           ]
+        },
+        {
+          "Move": "Horn Drill",
+          "Type": "Normal",
+          "Level": 47,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Captivate",
+          "Type": "Normal",
+          "Level": 50,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Earth Power",
+          "Type": "Ground",
+          "Level": 71
         }
       ],
       "TM/HM Move List": [
@@ -29636,6 +29855,22 @@
             "Omega Ruby/Alpha Sapphire"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Peck",
+          "Type": "Flying",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -36858,25 +37093,198 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Charm",
-          "Type": "Fairy",
-          "Level": 1
+          "Move": "Defense Curl",
+          "Type": "Normal",
+          "Level": 3,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
         },
         {
-          "Move": "Copycat",
+          "Move": "Echoed Voice",
           "Type": "Normal",
-          "Level": 1
+          "Level": 4,
+          "Tags": [
+            "Stab"
+          ]
         },
         {
-          "Move": "Sing",
+          "Move": "Pound",
           "Type": "Normal",
-          "Level": 1
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
         },
         {
           "Move": "Play Rough",
           "Type": "Fairy",
           "Level": 5,
           "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Covet",
+          "Type": "Normal",
+          "Level": 8,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Play Nice",
+          "Type": "Normal",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
+          "Move": "Bide",
+          "Type": "Normal",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Disarming Voice",
+          "Type": "Fairy",
+          "Level": 11,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Double Slap",
+          "Type": "Normal",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Spit Up",
+          "Type": "Normal",
+          "Level": 12,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Stockpile",
+          "Type": "Normal",
+          "Level": 12
+        },
+        {
+          "Move": "Swallow",
+          "Type": "Normal",
+          "Level": 12
+        },
+        {
+          "Move": "Disable",
+          "Type": "Normal",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Round",
+          "Type": "Normal",
+          "Level": 16,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Rollout",
+          "Type": "Rock",
+          "Level": 17,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
+          ]
+        },
+        {
+          "Move": "Rest",
+          "Type": "Psychic",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Body Slam",
+          "Type": "Normal",
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Mimic",
+          "Type": "Normal",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Wake Up Slap",
+          "Type": "Fighting",
+          "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Double Edge",
+          "Type": "Normal",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Gyro Ball",
+          "Type": "Steel",
+          "Level": 32
+        },
+        {
+          "Move": "Hyper Voice",
+          "Type": "Normal",
+          "Level": 36,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Play Rough",
+          "Type": "Fairy",
+          "Level": 40,
+          "Tags": [
+            "Legacy",
+            "BDSP",
             "Stab"
           ]
         }
@@ -38357,6 +38765,30 @@
             "Omega Ruby/Alpha Sapphire"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Charm",
+          "Type": "Fairy",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Copycat",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Sing",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -41994,9 +42426,142 @@
           ]
         },
         {
-          "Move": "Absorb",
+          "Move": "Growth",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Sweet Scent",
+          "Type": "Normal",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Acid",
+          "Type": "Poison",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
           "Type": "Grass",
-          "Level": 1,
+          "Level": 12,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Level": 14,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 20,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Lucky Chant",
+          "Type": "Normal",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Toxic",
+          "Type": "Poison",
+          "Level": 26
+        },
+        {
+          "Move": "Moonlight",
+          "Type": "Fairy",
+          "Level": 29,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Level": 32
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Grassy Terrain",
+          "Type": "Grass",
+          "Level": 38
+        },
+        {
+          "Move": "Petal Blizzard",
+          "Type": "Grass",
+          "Level": 49,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Petal Dance",
+          "Type": "Grass",
+          "Level": 50,
           "Tags": [
             "Stab"
           ]
@@ -42732,6 +43297,14 @@
             "HeartGold/SoulSilver"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -56341,33 +56914,146 @@
           "Level": "Evo"
         },
         {
-          "Move": "Bite",
-          "Type": "Dark",
-          "Level": 1
-        },
-        {
-          "Move": "Ember",
-          "Type": "Fire",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
-        },
-        {
-          "Move": "Leer",
+          "Move": "Howl",
           "Type": "Normal",
-          "Level": 1
-        },
-        {
-          "Move": "Roar",
-          "Type": "Normal",
-          "Level": 1
+          "Level": 4
         },
         {
           "Move": "Flamethrower",
           "Type": "Fire",
           "Level": 5,
           "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Helping Hand",
+          "Type": "Normal",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Odor Sleuth",
+          "Type": "Normal",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Flame Wheel",
+          "Type": "Fire",
+          "Level": 12,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Take Down",
+          "Type": "Normal",
+          "Level": 14,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Flamethrower",
+          "Type": "Fire",
+          "Level": 17,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Reversal",
+          "Type": "Fighting",
+          "Level": 19,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Agility",
+          "Type": "Psychic",
+          "Level": 20
+        },
+        {
+          "Move": "Fire Fang",
+          "Type": "Fire",
+          "Level": 21,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Heat Wave",
+          "Type": "Fire",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Flame Burst",
+          "Type": "Fire",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Retaliate",
+          "Type": "Normal",
+          "Level": 28
+        },
+        {
+          "Move": "Outrage",
+          "Type": "Dragon",
+          "Level": 31,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Play Rough",
+          "Type": "Fairy",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Flare Blitz",
+          "Type": "Fire",
+          "Level": 38,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
             "Stab"
           ]
         }
@@ -57253,6 +57939,38 @@
         {
           "Move": "Thunder Fang",
           "Type": "Electric",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Bite",
+          "Type": "Dark",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Ember",
+          "Type": "Fire",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Roar",
+          "Type": "Normal",
           "Method": "Tutor",
           "Tags": [
             "N"
@@ -59147,12 +59865,134 @@
           ]
         },
         {
+          "Move": "Pound",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Bubble",
+          "Type": "Water",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Black 2/White 2",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Water Gun",
+          "Type": "Water",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Hypnosis",
+          "Type": "Psychic",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Double Slap",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Bubble Beam",
+          "Type": "Water",
+          "Level": 18,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Rain Dance",
+          "Type": "Water",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Body Slam",
+          "Type": "Normal",
+          "Level": 21,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Low Kick",
+          "Type": "Fighting",
+          "Level": 30,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Mud Shot",
+          "Type": "Ground",
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Belly Drum",
+          "Type": "Normal",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Earth Power",
+          "Type": "Ground",
+          "Level": 40
+        },
+        {
           "Move": "Mind Reader",
           "Type": "Normal",
           "Level": 43,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Wake Up Slap",
+          "Type": "Fighting",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Level": 48,
+          "Tags": [
+            "Stab"
           ]
         },
         {
@@ -59166,6 +60006,15 @@
           ]
         },
         {
+          "Move": "Mud Bomb",
+          "Type": "Ground",
+          "Level": 53,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
           "Move": "Superpower",
           "Type": "Fighting",
           "Level": 57,
@@ -59174,6 +60023,11 @@
             "Let's Go Pikachu/Eevee",
             "Stab"
           ]
+        },
+        {
+          "Move": "Double Edge",
+          "Type": "Normal",
+          "Level": 66
         }
       ],
       "TM/HM Move List": [
@@ -60244,6 +61098,14 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Water Sport",
+          "Type": "Water",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -69088,11 +69950,102 @@
           ]
         },
         {
-          "Move": "Vine Whip",
-          "Type": "Grass",
-          "Level": 1,
+          "Move": "Growth",
+          "Type": "Normal",
+          "Level": 4,
           "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Wrap",
+          "Type": "Normal",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Acid",
+          "Type": "Poison",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
             "Stab"
+          ]
+        },
+        {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Level": 13
+        },
+        {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 15
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 17
+        },
+        {
+          "Move": "Knock Off",
+          "Type": "Dark",
+          "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Sweet Scent",
+          "Type": "Normal",
+          "Level": 29,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
+          "Move": "Gastro Acid",
+          "Type": "Poison",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
+          "Move": "Poison Jab",
+          "Type": "Poison",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Slam",
+          "Type": "Normal",
+          "Level": 41,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
           ]
         },
         {
@@ -69104,12 +70057,29 @@
           ]
         },
         {
+          "Move": "Wring Out",
+          "Type": "Normal",
+          "Level": 47,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
           "Move": "Power Whip",
           "Type": "Grass",
           "Level": 54,
           "Tags": [
             "Legacy",
             "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Power Whip",
+          "Type": "Grass",
+          "Level": 58,
+          "Tags": [
             "Stab"
           ]
         }
@@ -69827,6 +70797,14 @@
         {
           "Move": "Wrap",
           "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Vine Whip",
+          "Type": "Grass",
           "Method": "Tutor",
           "Tags": [
             "N"
@@ -88706,17 +89684,9 @@
           ]
         },
         {
-          "Move": "Tackle",
-          "Type": "Normal",
-          "Level": 1
-        },
-        {
-          "Move": "Water Gun",
+          "Move": "Withdraw",
           "Type": "Water",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
+          "Level": 4
         },
         {
           "Move": "Razor Shell",
@@ -88727,12 +89697,127 @@
           ]
         },
         {
+          "Move": "Ice Shard",
+          "Type": "Ice",
+          "Level": 8
+        },
+        {
+          "Move": "Supersonic",
+          "Type": "Normal",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Icicle Spear",
+          "Type": "Ice",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Protect",
+          "Type": "Normal",
+          "Level": 16,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Whirlpool",
+          "Type": "Water",
+          "Level": 16,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Clamp",
+          "Type": "Water",
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Aurora Beam",
+          "Type": "Ice",
+          "Level": 24
+        },
+        {
           "Move": "Spikes",
           "Type": "Ground",
           "Level": 28,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Razor Shell",
+          "Type": "Water",
+          "Level": 32,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Ice Beam",
+          "Type": "Ice",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Iron Defense",
+          "Type": "Steel",
+          "Level": 36
+        },
+        {
+          "Move": "Shell Smash",
+          "Type": "Normal",
+          "Level": 40,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Brine",
+          "Type": "Water",
+          "Level": 44,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Level": 45,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
           ]
         },
         {
@@ -89487,6 +90572,22 @@
         },
         {
           "Move": "Withdraw",
+          "Type": "Water",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Water Gun",
           "Type": "Water",
           "Method": "Tutor",
           "Tags": [
@@ -101339,31 +102440,51 @@
           "Level": "Evo"
         },
         {
-          "Move": "Absorb",
+          "Move": "Reflect",
+          "Type": "Psychic",
+          "Level": 5
+        },
+        {
+          "Move": "Leech Seed",
           "Type": "Grass",
-          "Level": 1,
+          "Level": 10
+        },
+        {
+          "Move": "Confusion",
+          "Type": "Psychic",
+          "Level": 14,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 15,
           "Tags": [
             "Stab"
           ]
         },
         {
-          "Move": "Barrage",
-          "Type": "Normal",
-          "Level": 1,
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 16,
           "Tags": [
             "Legacy",
             "Let's Go Pikachu/Eevee"
           ]
         },
         {
-          "Move": "Hypnosis",
-          "Type": "Psychic",
-          "Level": 1
-        },
-        {
-          "Move": "Uproar",
-          "Type": "Normal",
-          "Level": 1
+          "Move": "Bullet Seed",
+          "Type": "Grass",
+          "Level": 17,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
         },
         {
           "Move": "Psyshock",
@@ -101376,9 +102497,68 @@
           ]
         },
         {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Level": 20,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Synthesis",
+          "Type": "Grass",
+          "Level": 25
+        },
+        {
           "Move": "Egg Bomb",
           "Type": "Normal",
           "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Psybeam",
+          "Type": "Psychic",
+          "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Worry Seed",
+          "Type": "Grass",
+          "Level": 33,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 35,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 37,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
@@ -101395,6 +102575,24 @@
           ]
         },
         {
+          "Move": "Extrasensory",
+          "Type": "Psychic",
+          "Level": 40,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Solar Beam",
+          "Type": "Grass",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
           "Move": "Leaf Storm",
           "Type": "Grass",
           "Level": 47,
@@ -101402,6 +102600,25 @@
             "Legacy",
             "Ultra Sun/Ultra Moon",
             "Stab"
+          ]
+        },
+        {
+          "Move": "Psychic",
+          "Type": "Psychic",
+          "Level": 47,
+          "Tags": [
+            "Legacy",
+            "Black/White",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Bestow",
+          "Type": "Normal",
+          "Level": 50,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
           ]
         }
       ],
@@ -102335,6 +103552,38 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Barrage",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Hypnosis",
+          "Type": "Psychic",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Uproar",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -120615,19 +121864,163 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Harden",
-          "Type": "Normal",
-          "Level": 1
+          "Move": "Psywave",
+          "Type": "Psychic",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
         },
         {
-          "Move": "Tackle",
+          "Move": "Water Gun",
+          "Type": "Water",
+          "Level": 4,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Rapid Spin",
           "Type": "Normal",
-          "Level": 1
+          "Level": 7,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Confuse Ray",
+          "Type": "Ghost",
+          "Level": 8
+        },
+        {
+          "Move": "Recover",
+          "Type": "Normal",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Swift",
+          "Type": "Normal",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Camouflage",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Minimize",
+          "Type": "Normal",
+          "Level": 16
+        },
+        {
+          "Move": "Bubble Beam",
+          "Type": "Water",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
         },
         {
           "Move": "Confuse Ray",
           "Type": "Ghost",
           "Level": 22,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Gyro Ball",
+          "Type": "Steel",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Psybeam",
+          "Type": "Psychic",
+          "Level": 24
+        },
+        {
+          "Move": "Brine",
+          "Type": "Water",
+          "Level": 28,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Light Screen",
+          "Type": "Psychic",
+          "Level": 31,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Reflect Type",
+          "Type": "Normal",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Power Gem",
+          "Type": "Rock",
+          "Level": 36
+        },
+        {
+          "Move": "Psychic",
+          "Type": "Psychic",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Surf",
+          "Type": "Water",
+          "Level": 44,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Level": 45,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Cosmic Power",
+          "Type": "Psychic",
+          "Level": 48,
           "Tags": [
             "Legacy",
             "X/Y"
@@ -121519,6 +122912,22 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Harden",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -184211,12 +185620,127 @@
           ]
         },
         {
-          "Move": "Absorb",
+          "Move": "Growth",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Sweet Scent",
+          "Type": "Normal",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Acid",
+          "Type": "Poison",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
           "Type": "Grass",
-          "Level": 1,
+          "Level": 12,
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Level": 14,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 20,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Lucky Chant",
+          "Type": "Normal",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Toxic",
+          "Type": "Poison",
+          "Level": 26
+        },
+        {
+          "Move": "Moonlight",
+          "Type": "Fairy",
+          "Level": 29,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Level": 32
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Grassy Terrain",
+          "Type": "Grass",
+          "Level": 38
         },
         {
           "Move": "Quiver Dance",
@@ -184225,6 +185749,24 @@
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Petal Blizzard",
+          "Type": "Grass",
+          "Level": 49,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Petal Dance",
+          "Type": "Grass",
+          "Level": 50,
+          "Tags": [
+            "Stab"
           ]
         },
         {
@@ -184983,6 +186525,14 @@
             "HeartGold/SoulSilver"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -188412,12 +189962,134 @@
           "Level": "Evo"
         },
         {
+          "Move": "Pound",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Bubble",
+          "Type": "Water",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Black 2/White 2",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Water Gun",
+          "Type": "Water",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Hypnosis",
+          "Type": "Psychic",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Double Slap",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Bubble Beam",
+          "Type": "Water",
+          "Level": 18,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Rain Dance",
+          "Type": "Water",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Body Slam",
+          "Type": "Normal",
+          "Level": 21,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
           "Move": "Swagger",
           "Type": "Normal",
           "Level": 27,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Low Kick",
+          "Type": "Fighting",
+          "Level": 30,
+          "Tags": [
+            "Legacy",
+            "Let's Go Pikachu/Eevee"
+          ]
+        },
+        {
+          "Move": "Mud Shot",
+          "Type": "Ground",
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Belly Drum",
+          "Type": "Normal",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Earth Power",
+          "Type": "Ground",
+          "Level": 40
+        },
+        {
+          "Move": "Wake Up Slap",
+          "Type": "Fighting",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Level": 48,
+          "Tags": [
+            "Stab"
           ]
         },
         {
@@ -188428,6 +190100,20 @@
             "Legacy",
             "Ultra Sun/Ultra Moon"
           ]
+        },
+        {
+          "Move": "Mud Bomb",
+          "Type": "Ground",
+          "Level": 53,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Double Edge",
+          "Type": "Normal",
+          "Level": 66
         }
       ],
       "TM/HM Move List": [
@@ -189303,6 +190989,14 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Water Sport",
+          "Type": "Water",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -272111,12 +273805,156 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Astonish",
-          "Type": "Ghost",
-          "Level": 1,
+          "Move": "Growl",
+          "Type": "Normal",
+          "Level": 3,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "X/Y",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Nature Power",
+          "Type": "Normal",
+          "Level": 7,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Bubble",
+          "Type": "Water",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Mist",
+          "Type": "Ice",
+          "Level": 9
+        },
+        {
+          "Move": "Fake Out",
+          "Type": "Normal",
+          "Level": 11,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
+          "Type": "Normal",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 12,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Water Sport",
+          "Type": "Water",
+          "Level": 19,
+          "Tags": [
+            "Legacy",
+            "X/Y"
+          ]
+        },
+        {
+          "Move": "Bubble Beam",
+          "Type": "Water",
+          "Level": 24,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Zen Headbutt",
+          "Type": "Psychic",
+          "Level": 27,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Leech Seed",
+          "Type": "Grass",
+          "Level": 30
+        },
+        {
+          "Move": "Uproar",
+          "Type": "Normal",
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 36,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Knock Off",
+          "Type": "Dark",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Rain Dance",
+          "Type": "Water",
+          "Level": 43,
           "Tags": [
             "Legacy",
             "BDSP"
+          ]
+        },
+        {
+          "Move": "Energy Ball",
+          "Type": "Grass",
+          "Level": 57,
+          "Tags": [
+            "Stab"
           ]
         }
       ],
@@ -273157,6 +274995,14 @@
             "N"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Astonish",
+          "Type": "Ghost",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -275299,13 +277145,112 @@
           ]
         },
         {
-          "Move": "Tackle",
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": "Evo",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Harden",
           "Type": "Normal",
-          "Level": 1,
+          "Level": 3,
           "Tags": [
             "Legacy",
-            "BDSP"
+            "Ultra Sun/Ultra Moon"
           ]
+        },
+        {
+          "Move": "Growth",
+          "Type": "Normal",
+          "Level": 6,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Nature Power",
+          "Type": "Normal",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Omega Ruby/Alpha Sapphire"
+          ]
+        },
+        {
+          "Move": "Torment",
+          "Type": "Dark",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Fake Out",
+          "Type": "Normal",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Rollout",
+          "Type": "Rock",
+          "Level": 12
+        },
+        {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 18,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Razor Wind",
+          "Type": "Normal",
+          "Level": 20,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Feint Attack",
+          "Type": "Dark",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Payback",
+          "Type": "Dark",
+          "Level": 24,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Leaf Blade",
+          "Type": "Grass",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Synthesis",
+          "Type": "Grass",
+          "Level": 30
         },
         {
           "Move": "Hurricane",
@@ -275317,12 +277262,43 @@
           ]
         },
         {
+          "Move": "Swagger",
+          "Type": "Normal",
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Extrasensory",
+          "Type": "Psychic",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Sunny Day",
+          "Type": "Fire",
+          "Level": 36
+        },
+        {
           "Move": "Leaf Storm",
           "Type": "Grass",
           "Level": 44,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Sucker Punch",
+          "Type": "Dark",
+          "Level": 50,
+          "Tags": [
             "Stab"
           ]
         }
@@ -276654,6 +278630,14 @@
             "HeartGold/SoulSilver"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -300259,30 +302243,156 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Fake Out",
+          "Move": "Attract",
           "Type": "Normal",
-          "Level": 1,
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Foresight",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Sing",
+          "Type": "Normal",
+          "Level": 7
+        },
+        {
+          "Move": "Copycat",
+          "Type": "Normal",
+          "Level": 11,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Disarming Voice",
+          "Type": "Fairy",
+          "Level": 13
+        },
+        {
+          "Move": "Double Slap",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "X/Y",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
+          "Type": "Normal",
+          "Level": 16,
           "Tags": [
             "Stab"
           ]
         },
         {
-          "Move": "Growl",
+          "Move": "Assist",
           "Type": "Normal",
-          "Level": 1
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
         },
         {
-          "Move": "Tackle",
+          "Move": "Charm",
+          "Type": "Fairy",
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Feint Attack",
+          "Type": "Dark",
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Payback",
+          "Type": "Dark",
+          "Level": 22
+        },
+        {
+          "Move": "Wake Up Slap",
+          "Type": "Fighting",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Facade",
           "Type": "Normal",
-          "Level": 1,
+          "Level": 31,
           "Tags": [
             "Stab"
           ]
         },
         {
-          "Move": "Tail Whip",
+          "Move": "Covet",
           "Type": "Normal",
-          "Level": 1
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Heal Bell",
+          "Type": "Normal",
+          "Level": 36,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Double Edge",
+          "Type": "Normal",
+          "Level": 39,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Captivate",
+          "Type": "Normal",
+          "Level": 42,
+          "Tags": [
+            "Legacy",
+            "Diamond/Pearl"
+          ]
+        },
+        {
+          "Move": "Baby Doll Eyes",
+          "Type": "Fairy",
+          "Level": 43
+        },
+        {
+          "Move": "Play Rough",
+          "Type": "Fairy",
+          "Level": 46
         }
       ],
       "TM/HM Move List": [
@@ -301020,6 +303130,38 @@
             "HeartGold/SoulSilver"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Fake Out",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Growl",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tail Whip",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -405300,12 +407442,32 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Worry Seed",
-          "Type": "Grass",
-          "Level": 1,
+          "Move": "Poison Sting",
+          "Type": "Poison",
+          "Level": "Evo",
           "Tags": [
             "Legacy",
-            "BDSP"
+            "BDSP",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Growth",
+          "Type": "Normal",
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "BDSP",
+            "Stab"
           ]
         },
         {
@@ -405317,14 +407479,79 @@
           ]
         },
         {
+          "Move": "Leech Seed",
+          "Type": "Grass",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "BDSP"
+          ]
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
           "Move": "Poison Powder",
           "Type": "Poison",
           "Level": 11
         },
         {
+          "Move": "Magical Leaf",
+          "Type": "Grass",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "BDSP",
+            "Stab"
+          ]
+        },
+        {
           "Move": "Stun Spore",
           "Type": "Grass",
           "Level": 18
+        },
+        {
+          "Move": "Toxic Spikes",
+          "Type": "Poison",
+          "Level": 20,
+          "Tags": [
+            "Legacy",
+            "BDSP"
+          ]
+        },
+        {
+          "Move": "Grass Whistle",
+          "Type": "Grass",
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 25,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Sweet Scent",
+          "Type": "Normal",
+          "Level": 25,
+          "Tags": [
+            "Legacy",
+            "BDSP"
+          ]
         },
         {
           "Move": "Venoshock",
@@ -405335,11 +407562,67 @@
           ]
         },
         {
+          "Move": "Ingrain",
+          "Type": "Grass",
+          "Level": 34,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
           "Move": "Poison Jab",
           "Type": "Poison",
           "Level": 34,
           "Tags": [
             "Stab"
+          ]
+        },
+        {
+          "Move": "Synthesis",
+          "Type": "Grass",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "BDSP"
+          ]
+        },
+        {
+          "Move": "Petal Blizzard",
+          "Type": "Grass",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Petal Dance",
+          "Type": "Grass",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "X/Y",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Toxic",
+          "Type": "Poison",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Black/White"
+          ]
+        },
+        {
+          "Move": "Aromatherapy",
+          "Type": "Grass",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
           ]
         },
         {
@@ -426768,27 +429051,12 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Growl",
-          "Type": "Normal",
-          "Level": 1
-        },
-        {
-          "Move": "Psywave",
-          "Type": "Psychic",
-          "Level": 1,
-          "Tags": [
-            "Legacy",
-            "Ultra Sun/Ultra Moon"
-          ]
-        },
-        {
-          "Move": "Shadow Sneak",
+          "Move": "Spite",
           "Type": "Ghost",
-          "Level": 1,
+          "Level": 5,
           "Tags": [
             "Legacy",
-            "Legends: Arceus",
-            "Stab"
+            "BDSP"
           ]
         },
         {
@@ -426801,6 +429069,14 @@
           ]
         },
         {
+          "Move": "Astonish",
+          "Type": "Ghost",
+          "Level": 10,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
           "Move": "Hypnosis",
           "Type": "Psychic",
           "Level": 11,
@@ -426808,6 +429084,11 @@
             "Legacy",
             "Legends: Arceus"
           ]
+        },
+        {
+          "Move": "Confuse Ray",
+          "Type": "Ghost",
+          "Level": 14
         },
         {
           "Move": "Hex",
@@ -426820,12 +429101,52 @@
           ]
         },
         {
+          "Move": "Mean Look",
+          "Type": "Normal",
+          "Level": 19
+        },
+        {
+          "Move": "Hex",
+          "Type": "Ghost",
+          "Level": 23,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Psybeam",
+          "Type": "Psychic",
+          "Level": 23,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
+          ]
+        },
+        {
           "Move": "Extrasensory",
           "Type": "Psychic",
           "Level": 25,
           "Tags": [
             "Legacy",
             "Legends: Arceus"
+          ]
+        },
+        {
+          "Move": "Pain Split",
+          "Type": "Normal",
+          "Level": 28,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
+          ]
+        },
+        {
+          "Move": "Payback",
+          "Type": "Dark",
+          "Level": 32,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
           ]
         },
         {
@@ -426840,12 +429161,45 @@
         {
           "Move": "Shadow Ball",
           "Type": "Ghost",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Perish Song",
+          "Type": "Normal",
+          "Level": 41,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
+          ]
+        },
+        {
+          "Move": "Shadow Ball",
+          "Type": "Ghost",
           "Level": 43,
           "Tags": [
             "Legacy",
             "Legends: Arceus",
             "Stab"
           ]
+        },
+        {
+          "Move": "Grudge",
+          "Type": "Ghost",
+          "Level": 46,
+          "Tags": [
+            "Legacy",
+            "HeartGold/SoulSilver"
+          ]
+        },
+        {
+          "Move": "Power Gem",
+          "Type": "Rock",
+          "Level": 50
         }
       ],
       "TM/HM Move List": [
@@ -427715,6 +430069,38 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Growl",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Psywave",
+          "Type": "Psychic",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Shadow Sneak",
+          "Type": "Ghost",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Confusion",
+          "Type": "Psychic",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -518078,7 +520464,87 @@
       "Focus": "3d6+1"
     },
     "Moves": {
-      "Level Up Move List": [],
+      "Level Up Move List": [
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Level": 4
+        },
+        {
+          "Move": "Lick",
+          "Type": "Ghost",
+          "Level": 7
+        },
+        {
+          "Move": "Vine Whip",
+          "Type": "Grass",
+          "Level": 10,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
+          "Type": "Normal",
+          "Level": 13
+        },
+        {
+          "Move": "Leech Seed",
+          "Type": "Grass",
+          "Level": 16
+        },
+        {
+          "Move": "Bite",
+          "Type": "Dark",
+          "Level": 19
+        },
+        {
+          "Move": "Seed Bomb",
+          "Type": "Grass",
+          "Level": 22,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Torment",
+          "Type": "Dark",
+          "Level": 25
+        },
+        {
+          "Move": "Fling",
+          "Type": "Dark",
+          "Level": 28
+        },
+        {
+          "Move": "Acrobatics",
+          "Type": "Flying",
+          "Level": 31
+        },
+        {
+          "Move": "Grass Knot",
+          "Type": "Grass",
+          "Level": 34,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Recycle",
+          "Type": "Normal",
+          "Level": 37
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 40
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": 43
+        }
+      ],
       "TM/HM Move List": [
         {
           "Move": "Acrobatics",
@@ -518670,6 +521136,22 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Play Nice",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Scratch",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -519521,7 +522003,87 @@
       "Focus": "3d6+1"
     },
     "Moves": {
-      "Level Up Move List": [],
+      "Level Up Move List": [
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Level": 4
+        },
+        {
+          "Move": "Lick",
+          "Type": "Ghost",
+          "Level": 7
+        },
+        {
+          "Move": "Incinerate",
+          "Type": "Fire",
+          "Level": 10,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
+          "Type": "Normal",
+          "Level": 13
+        },
+        {
+          "Move": "Yawn",
+          "Type": "Normal",
+          "Level": 16
+        },
+        {
+          "Move": "Bite",
+          "Type": "Dark",
+          "Level": 19
+        },
+        {
+          "Move": "Flame Burst",
+          "Type": "Fire",
+          "Level": 22,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Amnesia",
+          "Type": "Psychic",
+          "Level": 25
+        },
+        {
+          "Move": "Fling",
+          "Type": "Dark",
+          "Level": 28
+        },
+        {
+          "Move": "Acrobatics",
+          "Type": "Flying",
+          "Level": 31
+        },
+        {
+          "Move": "Fire Blast",
+          "Type": "Fire",
+          "Level": 34,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Recycle",
+          "Type": "Normal",
+          "Level": 37
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 40
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": 43
+        }
+      ],
       "TM/HM Move List": [
         {
           "Move": "Acrobatics",
@@ -520133,6 +522695,22 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Play Nice",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Scratch",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -520980,7 +523558,87 @@
       "Focus": "3d6+1"
     },
     "Moves": {
-      "Level Up Move List": [],
+      "Level Up Move List": [
+        {
+          "Move": "Leer",
+          "Type": "Normal",
+          "Level": 4
+        },
+        {
+          "Move": "Lick",
+          "Type": "Ghost",
+          "Level": 7
+        },
+        {
+          "Move": "Water Gun",
+          "Type": "Water",
+          "Level": 10,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Fury Swipes",
+          "Type": "Normal",
+          "Level": 13
+        },
+        {
+          "Move": "Water Sport",
+          "Type": "Water",
+          "Level": 16
+        },
+        {
+          "Move": "Bite",
+          "Type": "Dark",
+          "Level": 19
+        },
+        {
+          "Move": "Scald",
+          "Type": "Water",
+          "Level": 22,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Taunt",
+          "Type": "Dark",
+          "Level": 25
+        },
+        {
+          "Move": "Fling",
+          "Type": "Dark",
+          "Level": 28
+        },
+        {
+          "Move": "Acrobatics",
+          "Type": "Flying",
+          "Level": 31
+        },
+        {
+          "Move": "Brine",
+          "Type": "Water",
+          "Level": 34,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Recycle",
+          "Type": "Normal",
+          "Level": 37
+        },
+        {
+          "Move": "Natural Gift",
+          "Type": "Normal",
+          "Level": 40
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": 43
+        }
+      ],
       "TM/HM Move List": [
         {
           "Move": "Acrobatics",
@@ -521608,6 +524266,22 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Play Nice",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Scratch",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -522621,17 +525295,131 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Defense Curl",
-          "Type": "Normal",
-          "Level": 1
+          "Move": "Hypnosis",
+          "Type": "Psychic",
+          "Level": 4
         },
         {
-          "Move": "Stored Power",
+          "Move": "Lucky Chant",
+          "Type": "Normal",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Yawn",
+          "Type": "Normal",
+          "Level": 7,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Psybeam",
           "Type": "Psychic",
-          "Level": 1,
+          "Level": 8,
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Move": "Imprison",
+          "Type": "Psychic",
+          "Level": 12
+        },
+        {
+          "Move": "Moonlight",
+          "Type": "Fairy",
+          "Level": 16
+        },
+        {
+          "Move": "Magic Coat",
+          "Type": "Psychic",
+          "Level": 20
+        },
+        {
+          "Move": "Zen Headbutt",
+          "Type": "Psychic",
+          "Level": 23,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Synchronoise",
+          "Type": "Psychic",
+          "Level": 25,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Calm Mind",
+          "Type": "Psychic",
+          "Level": 28
+        },
+        {
+          "Move": "Nightmare",
+          "Type": "Ghost",
+          "Level": 29,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Level": 31,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Psychic",
+          "Type": "Psychic",
+          "Level": 36,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Level": 40
+        },
+        {
+          "Move": "Dream Eater",
+          "Type": "Psychic",
+          "Level": 41,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Telekinesis",
+          "Type": "Psychic",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Wonder Room",
+          "Type": "Psychic",
+          "Level": 52
         }
       ],
       "TM/HM Move List": [
@@ -523404,6 +526192,30 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Defense Curl",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Stored Power",
+          "Type": "Psychic",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Psywave",
+          "Type": "Psychic",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -545963,25 +548775,27 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Absorb",
-          "Type": "Grass",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
-        },
-        {
-          "Move": "Fairy Wind",
-          "Type": "Fairy",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
-        },
-        {
-          "Move": "Helping Hand",
+          "Move": "Growth",
           "Type": "Normal",
-          "Level": 1
+          "Level": 4,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 6
+        },
+        {
+          "Move": "Leech Seed",
+          "Type": "Grass",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
         },
         {
           "Move": "Gust",
@@ -545993,6 +548807,49 @@
           ]
         },
         {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 12,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": 15,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Cotton Spore",
+          "Type": "Grass",
+          "Level": 17,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 21
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 24,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Charm",
+          "Type": "Fairy",
+          "Level": 27
+        },
+        {
           "Move": "Tailwind",
           "Type": "Flying",
           "Level": 28,
@@ -546002,12 +548859,51 @@
           ]
         },
         {
+          "Move": "Energy Ball",
+          "Type": "Grass",
+          "Level": 35,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Cotton Guard",
+          "Type": "Grass",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Sunny Day",
+          "Type": "Fire",
+          "Level": 39
+        },
+        {
+          "Move": "Endeavor",
+          "Type": "Normal",
+          "Level": 42
+        },
+        {
           "Move": "Hurricane",
           "Type": "Flying",
           "Level": 46,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Solar Beam",
+          "Type": "Grass",
+          "Level": 46,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
           ]
         },
         {
@@ -546709,6 +549605,22 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Fairy Wind",
+          "Type": "Fairy",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -547552,17 +550464,19 @@
           ]
         },
         {
-          "Move": "Absorb",
-          "Type": "Grass",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
+          "Move": "Helping Hand",
+          "Type": "Normal",
+          "Level": 3
         },
         {
-          "Move": "Growth",
-          "Type": "Normal",
-          "Level": 1
+          "Move": "Leafage",
+          "Type": "Grass",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Legends: Arceus",
+            "Stab"
+          ]
         },
         {
           "Move": "Magical Leaf",
@@ -547570,6 +550484,37 @@
           "Level": 5,
           "Tags": [
             "Stab"
+          ]
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Level": 6
+        },
+        {
+          "Move": "Leech Seed",
+          "Type": "Grass",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Mega Drain",
+          "Type": "Grass",
+          "Level": 9,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
           ]
         },
         {
@@ -547582,12 +550527,104 @@
           ]
         },
         {
+          "Move": "Aromatherapy",
+          "Type": "Grass",
+          "Level": 12,
+          "Tags": [
+            "Legacy",
+            "Sword/Shield"
+          ]
+        },
+        {
+          "Move": "Charm",
+          "Type": "Fairy",
+          "Level": 12
+        },
+        {
+          "Move": "Magical Leaf",
+          "Type": "Grass",
+          "Level": 15,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Poison Powder",
+          "Type": "Poison",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Legends: Arceus"
+          ]
+        },
+        {
+          "Move": "Synthesis",
+          "Type": "Grass",
+          "Level": 17,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Giga Drain",
+          "Type": "Grass",
+          "Level": 21,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "After You",
+          "Type": "Normal",
+          "Level": 27
+        },
+        {
           "Move": "Quiver Dance",
           "Type": "Bug",
           "Level": 28,
           "Tags": [
             "Legacy",
             "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Energy Ball",
+          "Type": "Grass",
+          "Level": 30,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Sunny Day",
+          "Type": "Fire",
+          "Level": 36
+        },
+        {
+          "Move": "Entrainment",
+          "Type": "Normal",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Recover",
+          "Type": "Normal",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Legends: Arceus"
+          ]
+        },
+        {
+          "Move": "Leaf Storm",
+          "Type": "Grass",
+          "Level": 42,
+          "Tags": [
+            "Stab"
           ]
         },
         {
@@ -548244,6 +551281,22 @@
             "Black 2/White 2"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Absorb",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Growth",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -571661,19 +574714,135 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
-          "Type": "Fairy",
-          "Level": 1,
+          "Move": "Growl",
+          "Type": "Normal",
+          "Level": 3,
           "Tags": [
             "Legacy",
-            "Sword/Shield"
+            "Black 2/White 2"
           ]
         },
         {
-          "Move": "Pound",
+          "Move": "Helping Hand",
           "Type": "Normal",
-          "Level": 1,
+          "Level": 4
+        },
+        {
+          "Move": "Echoed Voice",
+          "Type": "Normal",
+          "Level": 8,
           "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Tickle",
+          "Type": "Normal",
+          "Level": 9,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Sing",
+          "Type": "Normal",
+          "Level": 12
+        },
+        {
+          "Move": "Double Slap",
+          "Type": "Normal",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Encore",
+          "Type": "Normal",
+          "Level": 15,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Charm",
+          "Type": "Fairy",
+          "Level": 16
+        },
+        {
+          "Move": "Swift",
+          "Type": "Normal",
+          "Level": 19,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Tail Slap",
+          "Type": "Normal",
+          "Level": 25,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "After You",
+          "Type": "Normal",
+          "Level": 28
+        },
+        {
+          "Move": "Wake Up Slap",
+          "Type": "Fighting",
+          "Level": 31,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Slam",
+          "Type": "Normal",
+          "Level": 37,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Captivate",
+          "Type": "Normal",
+          "Level": 39,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Hyper Voice",
+          "Type": "Normal",
+          "Level": 43,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Last Resort",
+          "Type": "Normal",
+          "Level": 45,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
             "Stab"
           ]
         }
@@ -572374,6 +575543,22 @@
             "Stab"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Baby Doll Eyes",
+          "Type": "Fairy",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Pound",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -595584,12 +598769,79 @@
     "Moves": {
       "Level Up Move List": [
         {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Level": "Evo"
+        },
+        {
           "Move": "Wild Charge",
           "Type": "Electric",
           "Level": 5,
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Move": "Bind",
+          "Type": "Normal",
+          "Level": 9
+        },
+        {
+          "Move": "Acid",
+          "Type": "Poison",
+          "Level": 19
+        },
+        {
+          "Move": "Discharge",
+          "Type": "Electric",
+          "Level": 29,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Thunderbolt",
+          "Type": "Electric",
+          "Level": 44,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Acid Spray",
+          "Type": "Poison",
+          "Level": 49
+        },
+        {
+          "Move": "Coil",
+          "Type": "Poison",
+          "Level": 54
+        },
+        {
+          "Move": "Wild Charge",
+          "Type": "Electric",
+          "Level": 59,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Gastro Acid",
+          "Type": "Poison",
+          "Level": 64
+        },
+        {
+          "Move": "Zap Cannon",
+          "Type": "Electric",
+          "Level": 69,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Thrash",
+          "Type": "Normal",
+          "Level": 74
         }
       ],
       "TM/HM Move List": [
@@ -596404,6 +599656,30 @@
           "Tags": [
             "N",
             "Stab"
+          ]
+        },
+        {
+          "Move": "Charge Beam",
+          "Type": "Electric",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Spark",
+          "Type": "Electric",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Thunder Wave",
+          "Type": "Electric",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
           ]
         }
       ],
@@ -600295,25 +603571,124 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Astonish",
-          "Type": "Ghost",
-          "Level": 1,
+          "Move": "Minimize",
+          "Type": "Normal",
+          "Level": 3,
           "Tags": [
-            "Stab"
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
           ]
         },
         {
-          "Move": "Ember",
+          "Move": "Fire Spin",
           "Type": "Fire",
-          "Level": 1,
+          "Level": 7,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Confuse Ray",
+          "Type": "Ghost",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Night Shade",
+          "Type": "Ghost",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Hex",
+          "Type": "Ghost",
+          "Level": 16,
           "Tags": [
             "Stab"
           ]
         },
         {
-          "Move": "Smog",
-          "Type": "Poison",
-          "Level": 1
+          "Move": "Will O Wisp",
+          "Type": "Fire",
+          "Level": 16,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Flame Burst",
+          "Type": "Fire",
+          "Level": 20,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Imprison",
+          "Type": "Psychic",
+          "Level": 24,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Curse",
+          "Type": "Ghost",
+          "Level": 32
+        },
+        {
+          "Move": "Memento",
+          "Type": "Dark",
+          "Level": 33,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Shadow Ball",
+          "Type": "Ghost",
+          "Level": 36,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Inferno",
+          "Type": "Fire",
+          "Level": 38,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Pain Split",
+          "Type": "Normal",
+          "Level": 48
+        },
+        {
+          "Move": "Overheat",
+          "Type": "Fire",
+          "Level": 52,
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -601105,6 +604480,30 @@
           "Tags": [
             "N",
             "Stab"
+          ]
+        },
+        {
+          "Move": "Astonish",
+          "Type": "Ghost",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Ember",
+          "Type": "Fire",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Smog",
+          "Type": "Poison",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
           ]
         }
       ],
@@ -661761,6 +665160,92 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Move": "Fairy Wind",
+          "Type": "Fairy",
+          "Level": 6,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Lucky Chant",
+          "Type": "Normal",
+          "Level": 10,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Safeguard",
+          "Type": "Normal",
+          "Level": 10
+        },
+        {
+          "Move": "Razor Leaf",
+          "Type": "Grass",
+          "Level": 15
+        },
+        {
+          "Move": "Wish",
+          "Type": "Normal",
+          "Level": 20
+        },
+        {
+          "Move": "Magical Leaf",
+          "Type": "Grass",
+          "Level": 25
+        },
+        {
+          "Move": "Grassy Terrain",
+          "Type": "Grass",
+          "Level": 27
+        },
+        {
+          "Move": "Petal Blizzard",
+          "Type": "Grass",
+          "Level": 33
+        },
+        {
+          "Move": "Aromatherapy",
+          "Type": "Grass",
+          "Level": 38,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Synthesis",
+          "Type": "Grass",
+          "Level": 38
+        },
+        {
+          "Move": "Misty Terrain",
+          "Type": "Fairy",
+          "Level": 43
+        },
+        {
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Level": 46,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Petal Dance",
+          "Type": "Grass",
+          "Level": 51
+        },
+        {
+          "Move": "Solar Beam",
+          "Type": "Grass",
+          "Level": 58
         }
       ],
       "TM/HM Move List": [
@@ -662417,6 +665902,22 @@
             "Omega Ruby/Alpha Sapphire"
           ],
           "Method": "Tutor"
+        },
+        {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Vine Whip",
+          "Type": "Grass",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
         }
       ],
       "Egg Move List": []
@@ -671058,9 +674559,110 @@
           ]
         },
         {
-          "Move": "Tackle",
+          "Move": "Fury Cutter",
+          "Type": "Bug",
+          "Level": 5,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Metal Sound",
+          "Type": "Steel",
+          "Level": 8,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Aerial Ace",
+          "Type": "Flying",
+          "Level": 12
+        },
+        {
+          "Move": "Pursuit",
+          "Type": "Dark",
+          "Level": 13,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Autotomize",
+          "Type": "Steel",
+          "Level": 18,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Shadow Sneak",
+          "Type": "Ghost",
+          "Level": 20,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Slash",
           "Type": "Normal",
-          "Level": 1
+          "Level": 20
+        },
+        {
+          "Move": "Night Slash",
+          "Type": "Dark",
+          "Level": 24
+        },
+        {
+          "Move": "Retaliate",
+          "Type": "Normal",
+          "Level": 26,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Iron Defense",
+          "Type": "Steel",
+          "Level": 32
+        },
+        {
+          "Move": "Iron Head",
+          "Type": "Steel",
+          "Level": 38,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Power Trick",
+          "Type": "Psychic",
+          "Level": 41,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Swords Dance",
+          "Type": "Normal",
+          "Level": 50
+        },
+        {
+          "Move": "Sacred Sword",
+          "Type": "Fighting",
+          "Level": 51,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -671651,6 +675253,14 @@
         },
         {
           "Move": "Swords Dance",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tackle",
           "Type": "Normal",
           "Method": "Tutor",
           "Tags": [
@@ -682503,22 +686113,94 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Mud Slap",
-          "Type": "Ground",
-          "Level": 1
+          "Move": "Thunder Shock",
+          "Type": "Electric",
+          "Level": 6,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
         },
         {
-          "Move": "Pound",
+          "Move": "Charge",
+          "Type": "Electric",
+          "Level": 11,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Quick Attack",
           "Type": "Normal",
-          "Level": 1,
+          "Level": 12,
           "Tags": [
             "Stab"
           ]
         },
         {
-          "Move": "Tail Whip",
+          "Move": "Bulldoze",
+          "Type": "Ground",
+          "Level": 20
+        },
+        {
+          "Move": "Razor Wind",
           "Type": "Normal",
-          "Level": 1
+          "Level": 22,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Volt Switch",
+          "Type": "Electric",
+          "Level": 24,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Parabolic Charge",
+          "Type": "Electric",
+          "Level": 25,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon",
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Thunder Wave",
+          "Type": "Electric",
+          "Level": 31,
+          "Tags": [
+            "Legacy",
+            "Ultra Sun/Ultra Moon"
+          ]
+        },
+        {
+          "Move": "Thunderbolt",
+          "Type": "Electric",
+          "Level": 36,
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Move": "Electrify",
+          "Type": "Electric",
+          "Level": 40
+        },
+        {
+          "Move": "Thunder",
+          "Type": "Electric",
+          "Level": 44,
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -683347,6 +687029,30 @@
           "Tags": [
             "N",
             "Stab"
+          ]
+        },
+        {
+          "Move": "Mud Slap",
+          "Type": "Ground",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Pound",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
+          ]
+        },
+        {
+          "Move": "Tail Whip",
+          "Type": "Normal",
+          "Method": "Tutor",
+          "Tags": [
+            "N"
           ]
         }
       ],

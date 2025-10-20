@@ -42961,7 +42961,7 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Light Metalor Heavy Metal",
+          "name": "Light Metal or Heavy Metal",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -43026,7 +43026,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Light Metalor Heavy Metal"
+      "Light Metal or Heavy Metal"
     ],
     "advancedAbilities": [
       "Confidence",
@@ -61426,7 +61426,7 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Sleightof Hand",
+          "name": "Sleight of Hand",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -61486,7 +61486,7 @@
       "Pickpocket"
     ],
     "advancedAbilities": [
-      "Sleightof Hand",
+      "Sleight of Hand",
       "Protean"
     ],
     "highAbilities": [
@@ -61719,7 +61719,7 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Sleightof Hand",
+          "name": "Sleight of Hand",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -61779,7 +61779,7 @@
       "Magician"
     ],
     "advancedAbilities": [
-      "Sleightof Hand",
+      "Sleight of Hand",
       "Protean"
     ],
     "highAbilities": [
@@ -77442,7 +77442,7 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Zeroto Hero",
+          "name": "Zero to Hero",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -77507,7 +77507,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Zeroto Hero"
+      "Zero to Hero"
     ],
     "advancedAbilities": [
       "Run Away",
@@ -77728,7 +77728,7 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Zeroto Hero",
+          "name": "Zero to Hero",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -77793,7 +77793,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Zeroto Hero"
+      "Zero to Hero"
     ],
     "advancedAbilities": [
       "Justified",
@@ -88672,7 +88672,7 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "Goodas Gold",
+          "name": "Good as Gold",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -88737,7 +88737,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Goodas Gold"
+      "Good as Gold"
     ],
     "advancedAbilities": [
       "Clear Body",
@@ -88987,7 +88987,7 @@
       ],
       "highAbilities": [
         {
-          "name": "Tabletsof Ruin",
+          "name": "Tablets of Ruin",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -89035,7 +89035,7 @@
       "Forest Lord"
     ],
     "highAbilities": [
-      "Tabletsof Ruin"
+      "Tablets of Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89280,7 +89280,7 @@
       ],
       "highAbilities": [
         {
-          "name": "Swordof Ruin",
+          "name": "Sword of Ruin",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -89328,7 +89328,7 @@
       "Super Luck"
     ],
     "highAbilities": [
-      "Swordof Ruin"
+      "Sword of Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89571,7 +89571,7 @@
       ],
       "highAbilities": [
         {
-          "name": "Vesselof Ruin",
+          "name": "Vessel of Ruin",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -89619,7 +89619,7 @@
       "Solid Rock"
     ],
     "highAbilities": [
-      "Vesselof Ruin"
+      "Vessel of Ruin"
     ],
     "capabilities": {
       "Overland": 8,
@@ -89857,7 +89857,7 @@
       ],
       "highAbilities": [
         {
-          "name": "Beadsof Ruin",
+          "name": "Beads of Ruin",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -89905,7 +89905,7 @@
       "Heat Mirage"
     ],
     "highAbilities": [
-      "Beadsof Ruin"
+      "Beads of Ruin"
     ],
     "capabilities": {
       "Overland": 7,
@@ -92886,7 +92886,7 @@
           "frequency": "Static"
         },
         {
-          "name": "Super Sweet Syrup",
+          "name": "Supersweet Syrup",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -92952,7 +92952,7 @@
     "levelUpMoves": {},
     "basicAbilities": [
       "Gluttony",
-      "Super Sweet Syrup"
+      "Supersweet Syrup"
     ],
     "advancedAbilities": [
       "Ripen",
@@ -93178,7 +93178,7 @@
           "frequency": "Static"
         },
         {
-          "name": "Super Sweet Syrup",
+          "name": "Supersweet Syrup",
           "effect": null,
           "trigger": null,
           "target": null,
@@ -93244,7 +93244,7 @@
     "levelUpMoves": {},
     "basicAbilities": [
       "Gluttony",
-      "Super Sweet Syrup"
+      "Supersweet Syrup"
     ],
     "advancedAbilities": [
       "Ripen",

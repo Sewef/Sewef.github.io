@@ -185234,7 +185234,7 @@
       "Adv Ability 1": "Levitate",
       "Adv Ability 2": "Cloud Nine",
       "Adv Ability 3": "Drought / Drizzle",
-      "High Ability": "Sandstream / Snow Warning"
+      "High Ability": ["Sandstream", "Snow Warning"]
     },
     "Evolution": [
       {
@@ -278033,7 +278033,7 @@
       "Basic Ability 2": "Super Luck",
       "Adv Ability 1": "Rivalry",
       "Adv Ability 2": "Klutz",
-      "High Ability": "Frighten (Male) / Rocket (Female)"
+      "High Ability": ["Frighten (Male)", "Rocket (Female)"]
     },
     "Evolution": [
       {
@@ -314969,7 +314969,7 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": "Plus or Minus",
+      "Adv Ability 2": ["Plus", "Minus"],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },
@@ -315315,7 +315315,7 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": "Plus or Minus",
+      "Adv Ability 2": ["Plus", "Minus"],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },
@@ -315656,7 +315656,7 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": "Plus or Minus",
+      "Adv Ability 2": ["Plus", "Minus"],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },

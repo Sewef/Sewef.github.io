@@ -355436,8 +355436,15 @@
       },
       {
         "Stade": 2,
-        "Species": "Meowstic Lv 25 Minimum",
-        "Condition": ""
+        "Species": "Meowstic (Male)",
+        "Condition": "",
+        "Minimum Level": 25
+      },
+      {
+        "Stade": 2,
+        "Species": "Meowstic (Female)",
+        "Condition": "",
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -355901,8 +355908,9 @@
       },
       {
         "Stade": 2,
-        "Species": "Meowstic Lv 25 Minimum",
-        "Condition": ""
+        "Species": "Meowstic (Male)",
+        "Condition": "",
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -356418,8 +356426,9 @@
       },
       {
         "Stade": 2,
-        "Species": "Meowstic Lv 25 Minimum",
-        "Condition": ""
+        "Species": "Meowstic (Female)",
+        "Condition": "",
+        "Minimum Level": 25
       }
     ],
     "Other Information": {

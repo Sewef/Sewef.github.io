@@ -31,13 +31,13 @@
         "Stade": 2,
         "Species": "Ivysaur",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Venusaur",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -1068,13 +1068,13 @@
         "Stade": 2,
         "Species": "Ivysaur",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Venusaur",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -1958,13 +1958,13 @@
         "Stade": 2,
         "Species": "Ivysaur",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Venusaur",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -3030,13 +3030,13 @@
         "Stade": 2,
         "Species": "Charmeleon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Charizard",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -4186,13 +4186,13 @@
         "Stade": 2,
         "Species": "Charmeleon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Charizard",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -5177,13 +5177,13 @@
         "Stade": 2,
         "Species": "Charmeleon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Charizard",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -6549,13 +6549,13 @@
         "Stade": 2,
         "Species": "Wartortle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blastoise",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -7677,13 +7677,13 @@
         "Stade": 2,
         "Species": "Wartortle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blastoise",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -8659,13 +8659,13 @@
         "Stade": 2,
         "Species": "Wartortle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blastoise",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -9859,13 +9859,13 @@
         "Stade": 2,
         "Species": "Metapod",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Butterfree",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -10001,13 +10001,13 @@
         "Stade": 2,
         "Species": "Metapod",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Butterfree",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -10139,13 +10139,13 @@
         "Stade": 2,
         "Species": "Metapod",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Butterfree",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -11015,13 +11015,13 @@
         "Stade": 2,
         "Species": "Kakuna",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beedrill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -11142,13 +11142,13 @@
         "Stade": 2,
         "Species": "Kakuna",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beedrill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -11261,13 +11261,13 @@
         "Stade": 2,
         "Species": "Kakuna",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beedrill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -12123,13 +12123,13 @@
         "Stade": 2,
         "Species": "Pidgeotto",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Pidgeot",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -12828,13 +12828,13 @@
         "Stade": 2,
         "Species": "Pidgeotto",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Pidgeot",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -13447,13 +13447,13 @@
         "Stade": 2,
         "Species": "Pidgeotto",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Pidgeot",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -14111,7 +14111,7 @@
         "Stade": 2,
         "Species": "Raticate",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -14939,7 +14939,7 @@
         "Stade": 2,
         "Species": "Raticate",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -15755,7 +15755,7 @@
         "Stade": 2,
         "Species": "Fearow",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -16500,7 +16500,7 @@
         "Stade": 2,
         "Species": "Fearow",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -17193,7 +17193,7 @@
         "Stade": 2,
         "Species": "Arbok",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -18139,7 +18139,7 @@
         "Stade": 2,
         "Species": "Arbok",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -19101,19 +19101,19 @@
         "Stade": 2,
         "Species": "Pikachu",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Raichu",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Raichu Alola",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -20178,13 +20178,13 @@
         "Stade": 2,
         "Species": "Pikachu",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Raichu",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -21307,7 +21307,7 @@
         "Stade": 2,
         "Species": "Sandslash",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -22472,7 +22472,7 @@
         "Stade": 2,
         "Species": "Sandslash",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -23576,13 +23576,13 @@
         "Stade": 2,
         "Species": "Nidorina",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoqueen",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -24462,13 +24462,13 @@
         "Stade": 2,
         "Species": "Nidorina",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoqueen",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -25227,13 +25227,13 @@
         "Stade": 2,
         "Species": "Nidorina",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoqueen",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -26731,13 +26731,13 @@
         "Stade": 2,
         "Species": "Nidorino",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoking",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -27634,13 +27634,13 @@
         "Stade": 2,
         "Species": "Nidorino",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoking",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -28408,13 +28408,13 @@
         "Stade": 2,
         "Species": "Nidorino",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Nidoking",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -29913,13 +29913,13 @@
         "Stade": 2,
         "Species": "Clefairy",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Clefable",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -31562,13 +31562,13 @@
         "Stade": 2,
         "Species": "Clefairy",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Clefable",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -33210,7 +33210,7 @@
         "Stade": 2,
         "Species": "Ninetales",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -34408,7 +34408,7 @@
         "Stade": 2,
         "Species": "Ninetales",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -35523,13 +35523,13 @@
         "Stade": 2,
         "Species": "Jigglypuff",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Wigglytuff",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -37060,13 +37060,13 @@
         "Stade": 2,
         "Species": "Jigglypuff",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Wigglytuff",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -38832,13 +38832,13 @@
         "Stade": 2,
         "Species": "Golbat",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Crobat",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -39850,13 +39850,13 @@
         "Stade": 2,
         "Species": "Golbat",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Crobat",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -40786,19 +40786,19 @@
         "Stade": 2,
         "Species": "Gloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vileplume",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Bellossom",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -41618,19 +41618,19 @@
         "Stade": 2,
         "Species": "Gloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vileplume",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Bellossom",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -42387,13 +42387,13 @@
         "Stade": 2,
         "Species": "Gloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vileplume",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -43348,7 +43348,7 @@
         "Stade": 2,
         "Species": "Parasect",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -44256,7 +44256,7 @@
         "Stade": 2,
         "Species": "Parasect",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -45041,7 +45041,7 @@
         "Stade": 2,
         "Species": "Venomoth",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -45835,7 +45835,7 @@
         "Stade": 2,
         "Species": "Venomoth",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -46747,7 +46747,7 @@
         "Stade": 2,
         "Species": "Dugtrio",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -47651,7 +47651,7 @@
         "Stade": 2,
         "Species": "Dugtrio",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -48499,7 +48499,7 @@
         "Stade": 2,
         "Species": "Persian",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -49742,7 +49742,7 @@
         "Stade": 2,
         "Species": "Persian",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -50944,7 +50944,7 @@
         "Stade": 2,
         "Species": "Golduck",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -52201,7 +52201,7 @@
         "Stade": 2,
         "Species": "Golduck",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -53451,13 +53451,13 @@
         "Stade": 2,
         "Species": "Primeape",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Annihilape",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -54702,13 +54702,13 @@
         "Stade": 2,
         "Species": "Primeape",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Annihilape",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -55886,7 +55886,7 @@
         "Stade": 2,
         "Species": "Arcanine",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -56894,7 +56894,7 @@
         "Stade": 2,
         "Species": "Arcanine",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -58029,19 +58029,19 @@
         "Stade": 2,
         "Species": "Poliwhirl",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Poliwrath",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Politoed",
         "Condition": "Holding King's Rock",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -58918,19 +58918,19 @@
         "Stade": 2,
         "Species": "Poliwhirl",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Poliwrath",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Politoed",
         "Condition": "Holding King's Rock",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -59826,13 +59826,13 @@
         "Stade": 2,
         "Species": "Poliwhirl",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Poliwrath",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -61160,13 +61160,13 @@
         "Stade": 2,
         "Species": "Kadabra",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Alakazam",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -62268,13 +62268,13 @@
         "Stade": 2,
         "Species": "Kadabra",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Alakazam",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -63460,13 +63460,13 @@
         "Stade": 2,
         "Species": "Kadabra",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Alakazam",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -64749,13 +64749,13 @@
         "Stade": 2,
         "Species": "Machoke",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Machamp",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -65978,13 +65978,13 @@
         "Stade": 2,
         "Species": "Machoke",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Machamp",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -67058,13 +67058,13 @@
         "Stade": 2,
         "Species": "Machoke",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Machamp",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -68261,13 +68261,13 @@
         "Stade": 2,
         "Species": "Weepinbell",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Victreebel",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -69156,13 +69156,13 @@
         "Stade": 2,
         "Species": "Weepinbell",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Victreebel",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -69913,13 +69913,13 @@
         "Stade": 2,
         "Species": "Weepinbell",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Victreebel",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -70864,7 +70864,7 @@
         "Stade": 2,
         "Species": "Tentacruel",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -71887,7 +71887,7 @@
         "Stade": 2,
         "Species": "Tentacruel",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -72883,13 +72883,13 @@
         "Stade": 2,
         "Species": "Graveler",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Golem",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -73922,13 +73922,13 @@
         "Stade": 2,
         "Species": "Graveler",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Golem",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -74903,13 +74903,13 @@
         "Stade": 2,
         "Species": "Graveler",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Golem",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -75948,7 +75948,7 @@
         "Stade": 2,
         "Species": "Rapidash",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -76805,7 +76805,7 @@
         "Stade": 2,
         "Species": "Rapidash",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -77709,13 +77709,13 @@
         "Stade": 2,
         "Species": "Slowbro",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 2,
         "Species": "Slowking",
         "Condition": "Holding King's Rock",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -78957,7 +78957,7 @@
         "Stade": 2,
         "Species": "Slowbro",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -80354,13 +80354,13 @@
         "Stade": 2,
         "Species": "Magneton",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magnezone",
         "Condition": ".5 mi. above sea level",
-        "Minimum Level": "Lv 1 Minimum"
+        "Minimum Level": 1
       }
     ],
     "Other Information": {
@@ -81183,13 +81183,13 @@
         "Stade": 2,
         "Species": "Magneton",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magnezone",
         "Condition": ".5 mi. above sea level",
-        "Minimum Level": "Lv 1 Minimum"
+        "Minimum Level": 1
       }
     ],
     "Other Information": {
@@ -83253,7 +83253,7 @@
         "Stade": 2,
         "Species": "Dodrio",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -84098,7 +84098,7 @@
         "Stade": 2,
         "Species": "Dodrio",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -84966,7 +84966,7 @@
         "Stade": 2,
         "Species": "Dewgong",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -85914,7 +85914,7 @@
         "Stade": 2,
         "Species": "Dewgong",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -86835,7 +86835,7 @@
         "Stade": 2,
         "Species": "Muk",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -87811,7 +87811,7 @@
         "Stade": 2,
         "Species": "Muk",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -88808,7 +88808,7 @@
         "Stade": 2,
         "Species": "Cloyster",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -89651,7 +89651,7 @@
         "Stade": 2,
         "Species": "Cloyster",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -90648,13 +90648,13 @@
         "Stade": 2,
         "Species": "Haunter",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gengar",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -91913,13 +91913,13 @@
         "Stade": 2,
         "Species": "Haunter",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gengar",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -93100,13 +93100,13 @@
         "Stade": 2,
         "Species": "Haunter",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gengar",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -94518,7 +94518,7 @@
         "Stade": 2,
         "Species": "Steelix",
         "Condition": "Holding Metal Coat",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -95691,7 +95691,7 @@
         "Stade": 2,
         "Species": "Hypno",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -96861,7 +96861,7 @@
         "Stade": 2,
         "Species": "Hypno",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -97977,7 +97977,7 @@
         "Stade": 2,
         "Species": "Kingler",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -98943,7 +98943,7 @@
         "Stade": 2,
         "Species": "Kingler",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -99871,7 +99871,7 @@
         "Stade": 2,
         "Species": "Electrode",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -100580,7 +100580,7 @@
         "Stade": 2,
         "Species": "Electrode",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -101338,13 +101338,13 @@
         "Stade": 2,
         "Species": "Exeggutor",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Exeggutor Alola",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -102429,7 +102429,7 @@
         "Stade": 2,
         "Species": "Exeggutor",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -103644,13 +103644,13 @@
         "Stade": 2,
         "Species": "Marowak",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 2,
         "Species": "Marowak Alola",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -104745,7 +104745,7 @@
         "Stade": 2,
         "Species": "Marowak",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -105825,7 +105825,7 @@
         "Stade": 2,
         "Species": "Hitmonlee",
         "Condition": "Superior Attack",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -106900,7 +106900,7 @@
         "Stade": 2,
         "Species": "Hitmonchan",
         "Condition": "Superior Defense",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -109302,13 +109302,13 @@
         "Stade": 2,
         "Species": "Weezing",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 2,
         "Species": "Weezing Galar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -110196,7 +110196,7 @@
         "Stade": 2,
         "Species": "Weezing",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -111009,13 +111009,13 @@
         "Stade": 2,
         "Species": "Rhydon",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       },
       {
         "Stade": 3,
         "Species": "Rhyperior",
         "Condition": "Holding Protector",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -112349,13 +112349,13 @@
         "Stade": 2,
         "Species": "Rhydon",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Rhyperior",
         "Condition": "Holding Protector",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -113856,13 +113856,13 @@
         "Stade": 2,
         "Species": "Chansey",
         "Condition": "Holding Oval Stone",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Blissey",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -117684,13 +117684,13 @@
         "Stade": 2,
         "Species": "Seadra",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Kingdra",
         "Condition": "Holding Dragon Scale",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -118581,13 +118581,13 @@
         "Stade": 2,
         "Species": "Seadra",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Kingdra",
         "Condition": "Holding Dragon Scale",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -119421,7 +119421,7 @@
         "Stade": 2,
         "Species": "Seaking",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -120275,7 +120275,7 @@
         "Stade": 2,
         "Species": "Seaking",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -121061,7 +121061,7 @@
         "Stade": 2,
         "Species": "Starmie",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -121867,7 +121867,7 @@
         "Stade": 2,
         "Species": "Starmie",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -124432,13 +124432,13 @@
         "Stade": 2,
         "Species": "Scizor",
         "Condition": "Holding Metal Coat",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 2,
         "Species": "Kleavor",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -125502,7 +125502,7 @@
         "Stade": 2,
         "Species": "Jynx",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -126756,13 +126756,13 @@
         "Stade": 2,
         "Species": "Electabuzz",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Electivire",
         "Condition": "Holding Electrizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -127774,13 +127774,13 @@
         "Stade": 2,
         "Species": "Magmar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magmortar",
         "Condition": "Holding Magmarizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -130847,7 +130847,7 @@
         "Stade": 2,
         "Species": "Gyarados",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -130962,7 +130962,7 @@
         "Stade": 2,
         "Species": "Gyarados",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -133452,43 +133452,43 @@
         "Stade": 2,
         "Species": "Vaporeon",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Jolteon",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Flareon",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Espeon",
         "Condition": "Dawn Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Umbreon",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Leafeon",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Glaceon",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -134426,7 +134426,7 @@
         "Stade": 2,
         "Species": "Vaporeon",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -135515,7 +135515,7 @@
         "Stade": 2,
         "Species": "Jolteon",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -136569,7 +136569,7 @@
         "Stade": 2,
         "Species": "Flareon",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -137638,13 +137638,13 @@
         "Stade": 2,
         "Species": "Porygon2",
         "Condition": "Holding UpGrade",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Porygon-Z",
         "Condition": "Porygon - Z Holding Dubious Disc",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -138598,7 +138598,7 @@
         "Stade": 2,
         "Species": "Omastar",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -139588,7 +139588,7 @@
         "Stade": 2,
         "Species": "Omastar",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -140531,7 +140531,7 @@
         "Stade": 2,
         "Species": "Kabutops",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -141509,7 +141509,7 @@
         "Stade": 2,
         "Species": "Kabutops",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -143808,7 +143808,7 @@
         "Stade": 2,
         "Species": "Snorlax",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -148115,13 +148115,13 @@
         "Stade": 2,
         "Species": "Dragonair",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Dragonite",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -149097,13 +149097,13 @@
         "Stade": 2,
         "Species": "Dragonair",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Dragonite",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -149977,13 +149977,13 @@
         "Stade": 2,
         "Species": "Dragonair",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Dragonite",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -156931,13 +156931,13 @@
         "Stade": 2,
         "Species": "Bayleef",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Meganium",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -157807,13 +157807,13 @@
         "Stade": 2,
         "Species": "Bayleef",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Meganium",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -158590,13 +158590,13 @@
         "Stade": 2,
         "Species": "Bayleef",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Meganium",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -159518,19 +159518,19 @@
         "Stade": 2,
         "Species": "Quilava",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Typhlosion",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Typhlosion Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -160365,19 +160365,19 @@
         "Stade": 2,
         "Species": "Quilava",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Typhlosion",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Typhlosion Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -161136,13 +161136,13 @@
         "Stade": 2,
         "Species": "Quilava",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Typhlosion",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -162103,13 +162103,13 @@
         "Stade": 2,
         "Species": "Croconaw",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Feraligatr",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -163127,13 +163127,13 @@
         "Stade": 2,
         "Species": "Croconaw",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Feraligatr",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -164038,13 +164038,13 @@
         "Stade": 2,
         "Species": "Croconaw",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Feraligatr",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -165107,7 +165107,7 @@
         "Stade": 2,
         "Species": "Furret",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -166188,7 +166188,7 @@
         "Stade": 2,
         "Species": "Furret",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -167196,7 +167196,7 @@
         "Stade": 2,
         "Species": "Noctowl",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -168258,7 +168258,7 @@
         "Stade": 2,
         "Species": "Noctowl",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -169280,7 +169280,7 @@
         "Stade": 2,
         "Species": "Ledian",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -170129,7 +170129,7 @@
         "Stade": 2,
         "Species": "Ledian",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -170898,7 +170898,7 @@
         "Stade": 2,
         "Species": "Ariados",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -171756,7 +171756,7 @@
         "Stade": 2,
         "Species": "Ariados",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -172575,13 +172575,13 @@
         "Stade": 2,
         "Species": "Golbat",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Crobat",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -173533,7 +173533,7 @@
         "Stade": 2,
         "Species": "Lanturn",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -174407,7 +174407,7 @@
         "Stade": 2,
         "Species": "Lanturn",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -175222,19 +175222,19 @@
         "Stade": 2,
         "Species": "Pikachu",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Raichu",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Raichu Alola",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -176191,13 +176191,13 @@
         "Stade": 2,
         "Species": "Clefairy",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Clefable",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -177415,13 +177415,13 @@
         "Stade": 2,
         "Species": "Jigglypuff",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Wigglytuff",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -178486,13 +178486,13 @@
         "Stade": 2,
         "Species": "Togetic",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Togekiss",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -179666,13 +179666,13 @@
         "Stade": 2,
         "Species": "Togetic",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Togekiss",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -180965,7 +180965,7 @@
         "Stade": 2,
         "Species": "Xatu",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -182051,7 +182051,7 @@
         "Stade": 2,
         "Species": "Xatu",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -183090,13 +183090,13 @@
         "Stade": 2,
         "Species": "Flaaffy",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ampharos",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -183886,13 +183886,13 @@
         "Stade": 2,
         "Species": "Flaaffy",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ampharos",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -184667,13 +184667,13 @@
         "Stade": 2,
         "Species": "Flaaffy",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ampharos",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -185625,13 +185625,13 @@
         "Stade": 2,
         "Species": "Gloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Bellossom",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -186630,13 +186630,13 @@
         "Stade": 2,
         "Species": "Marill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Azumarill",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -187730,13 +187730,13 @@
         "Stade": 2,
         "Species": "Marill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Azumarill",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -189977,13 +189977,13 @@
         "Stade": 2,
         "Species": "Poliwhirl",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Politoed",
         "Condition": "Holding King's Rock",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -191094,13 +191094,13 @@
         "Stade": 2,
         "Species": "Skiploom",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Jumpluff",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -191963,13 +191963,13 @@
         "Stade": 2,
         "Species": "Skiploom",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Jumpluff",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -192694,13 +192694,13 @@
         "Stade": 2,
         "Species": "Skiploom",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Jumpluff",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -194580,7 +194580,7 @@
         "Stade": 2,
         "Species": "Sunflora",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -195379,7 +195379,7 @@
         "Stade": 2,
         "Species": "Sunflora",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -197014,7 +197014,7 @@
         "Stade": 2,
         "Species": "Quagsire",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -198091,7 +198091,7 @@
         "Stade": 2,
         "Species": "Quagsire",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -199153,7 +199153,7 @@
         "Stade": 2,
         "Species": "Espeon",
         "Condition": "Dawn Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -200278,7 +200278,7 @@
         "Stade": 2,
         "Species": "Umbreon",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -201384,7 +201384,7 @@
         "Stade": 2,
         "Species": "Honchkrow",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -202547,7 +202547,7 @@
         "Stade": 2,
         "Species": "Slowking",
         "Condition": "Holding King's Rock",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -203975,7 +203975,7 @@
         "Stade": 2,
         "Species": "Mismagius",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -205157,7 +205157,7 @@
         "Stade": 2,
         "Species": "Wobbuffet",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -205304,7 +205304,7 @@
         "Stade": 2,
         "Species": "Farigiraf",
         "Condition": "Farigaraf",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -206484,7 +206484,7 @@
         "Stade": 2,
         "Species": "Forretress",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -207335,7 +207335,7 @@
         "Stade": 2,
         "Species": "Forretress",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -208289,7 +208289,7 @@
         "Stade": 2,
         "Species": "Dudunsparce",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -209690,7 +209690,7 @@
         "Stade": 2,
         "Species": "Gliscor",
         "Condition": "Holding Razor Fang at Night",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -210875,7 +210875,7 @@
         "Stade": 2,
         "Species": "Steelix",
         "Condition": "Holding Metal Coat",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -212086,7 +212086,7 @@
         "Stade": 2,
         "Species": "Granbull",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -213163,7 +213163,7 @@
         "Stade": 2,
         "Species": "Granbull",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -215352,7 +215352,7 @@
         "Stade": 2,
         "Species": "Scizor",
         "Condition": "Holding Metal Coat",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -218649,7 +218649,7 @@
         "Stade": 2,
         "Species": "Weavile",
         "Condition": "Holding Razor Claw at Night",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -220110,19 +220110,19 @@
         "Stade": 2,
         "Species": "Ursaring",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Ursaluna",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Bloodmoon Ursaluna",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -221156,13 +221156,13 @@
         "Stade": 2,
         "Species": "Ursaring",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Ursaluna",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -222168,7 +222168,7 @@
         "Stade": 2,
         "Species": "Magcargo",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -222949,7 +222949,7 @@
         "Stade": 2,
         "Species": "Magcargo",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -223750,7 +223750,7 @@
         "Stade": 2,
         "Species": "Piloswine",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
@@ -224736,7 +224736,7 @@
         "Stade": 2,
         "Species": "Piloswine",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
@@ -226780,7 +226780,7 @@
         "Stade": 2,
         "Species": "Octillery",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -227715,7 +227715,7 @@
         "Stade": 2,
         "Species": "Octillery",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -229704,7 +229704,7 @@
         "Stade": 2,
         "Species": "Mantine",
         "Condition": "Interact wiht a Remoraid",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -231820,7 +231820,7 @@
         "Stade": 2,
         "Species": "Houndoom",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -232859,7 +232859,7 @@
         "Stade": 2,
         "Species": "Houndoom",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -233843,13 +233843,13 @@
         "Stade": 2,
         "Species": "Seadra",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Kingdra",
         "Condition": "Holding Dragon Scale",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -234770,7 +234770,7 @@
         "Stade": 2,
         "Species": "Donphan",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -235606,7 +235606,7 @@
         "Stade": 2,
         "Species": "Donphan",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -236542,13 +236542,13 @@
         "Stade": 2,
         "Species": "Porygon2",
         "Condition": "Holding UpGrade",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Porygon-Z",
         "Condition": "Porygon - Z Holding Dubious Disc",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -237389,7 +237389,7 @@
         "Stade": 2,
         "Species": "Wyrdeer",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -238537,19 +238537,19 @@
         "Stade": 2,
         "Species": "Hitmonchan",
         "Condition": "Superior Defense",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Hitmonlee",
         "Condition": "Superior Attack",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Hitmontop",
         "Condition": "Equal Attack and Defense",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -239262,7 +239262,7 @@
         "Stade": 2,
         "Species": "Hitmontop",
         "Condition": "Equal Attack and Defense",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -240174,7 +240174,7 @@
         "Stade": 2,
         "Species": "Jynx",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -241210,13 +241210,13 @@
         "Stade": 2,
         "Species": "Electabuzz",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Electivire",
         "Condition": "Holding Electrizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -242203,13 +242203,13 @@
         "Stade": 2,
         "Species": "Magmar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magmortar",
         "Condition": "Holding Magmarizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -244386,13 +244386,13 @@
         "Stade": 2,
         "Species": "Chansey",
         "Condition": "Holding Oval Stone",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Blissey",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -248634,13 +248634,13 @@
         "Stade": 2,
         "Species": "Pupitar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Tyranitar",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -249689,13 +249689,13 @@
         "Stade": 2,
         "Species": "Pupitar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Tyranitar",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -250660,13 +250660,13 @@
         "Stade": 2,
         "Species": "Pupitar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Tyranitar",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -255892,13 +255892,13 @@
         "Stade": 2,
         "Species": "Grovyle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Sceptile",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -257032,13 +257032,13 @@
         "Stade": 2,
         "Species": "Grovyle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Sceptile",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -258089,13 +258089,13 @@
         "Stade": 2,
         "Species": "Grovyle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Sceptile",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -259401,13 +259401,13 @@
         "Stade": 2,
         "Species": "Combusken",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blaziken",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -260412,13 +260412,13 @@
         "Stade": 2,
         "Species": "Combusken",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blaziken",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -261509,13 +261509,13 @@
         "Stade": 2,
         "Species": "Combusken",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Blaziken",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -262857,13 +262857,13 @@
         "Stade": 2,
         "Species": "Marshtomp",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Swampert",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -263908,13 +263908,13 @@
         "Stade": 2,
         "Species": "Marshtomp",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Swampert",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -264956,13 +264956,13 @@
         "Stade": 2,
         "Species": "Marshtomp",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Swampert",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -266232,7 +266232,7 @@
         "Stade": 2,
         "Species": "Mightyena",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -267094,7 +267094,7 @@
         "Stade": 2,
         "Species": "Mightyena",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -267948,7 +267948,7 @@
         "Stade": 2,
         "Species": "Linoone",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -268935,7 +268935,7 @@
         "Stade": 2,
         "Species": "Linoone",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -269965,25 +269965,25 @@
         "Stade": 2,
         "Species": "Silcoon",
         "Condition": "see Split Evolution",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beautifly",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 2,
         "Species": "Cascoon",
         "Condition": "see Split Evolution",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Dustox",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -270126,13 +270126,13 @@
         "Stade": 2,
         "Species": "Silcoon",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beautifly",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -270264,13 +270264,13 @@
         "Stade": 2,
         "Species": "Silcoon",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Beautifly",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -271007,13 +271007,13 @@
         "Stade": 2,
         "Species": "Cascoon",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Dustox",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -271145,13 +271145,13 @@
         "Stade": 2,
         "Species": "Cascoon",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Dustox",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -271879,13 +271879,13 @@
         "Stade": 2,
         "Species": "Lombre",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ludicolo",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -272748,13 +272748,13 @@
         "Stade": 2,
         "Species": "Lombre",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ludicolo",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -273835,13 +273835,13 @@
         "Stade": 2,
         "Species": "Lombre",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Ludicolo",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -275107,13 +275107,13 @@
         "Stade": 2,
         "Species": "Nuzleaf",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Shiftry",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -276005,13 +276005,13 @@
         "Stade": 2,
         "Species": "Nuzleaf",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Shiftry",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -277157,13 +277157,13 @@
         "Stade": 2,
         "Species": "Nuzleaf",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Shiftry",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -278743,7 +278743,7 @@
         "Stade": 2,
         "Species": "Swellow",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -279434,7 +279434,7 @@
         "Stade": 2,
         "Species": "Swellow",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -280040,7 +280040,7 @@
         "Stade": 2,
         "Species": "Pelipper",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -281035,7 +281035,7 @@
         "Stade": 2,
         "Species": "Pelipper",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -282076,19 +282076,19 @@
         "Stade": 2,
         "Species": "Kirlia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gardevoir",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Gallade",
         "Condition": "Dawn Stone Male",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -283382,19 +283382,19 @@
         "Stade": 2,
         "Species": "Kirlia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gardevoir",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Gallade",
         "Condition": "Dawn Stone Male",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -284583,13 +284583,13 @@
         "Stade": 2,
         "Species": "Kirlia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gardevoir",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -285991,7 +285991,7 @@
         "Stade": 2,
         "Species": "Masquerain",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -286764,7 +286764,7 @@
         "Stade": 2,
         "Species": "Masquerain",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -287689,7 +287689,7 @@
         "Stade": 2,
         "Species": "Breloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -288432,7 +288432,7 @@
         "Stade": 2,
         "Species": "Breloom",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -289397,13 +289397,13 @@
         "Stade": 2,
         "Species": "Vigoroth",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Slaking",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -290330,13 +290330,13 @@
         "Stade": 2,
         "Species": "Vigoroth",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Slaking",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -291374,13 +291374,13 @@
         "Stade": 2,
         "Species": "Vigoroth",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Slaking",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -292552,7 +292552,7 @@
         "Stade": 2,
         "Species": "Ninjask",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
@@ -293191,7 +293191,7 @@
         "Stade": 2,
         "Species": "Ninjask",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -294787,13 +294787,13 @@
         "Stade": 2,
         "Species": "Loudred",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Exploud",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -295652,13 +295652,13 @@
         "Stade": 2,
         "Species": "Loudred",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Exploud",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -296562,13 +296562,13 @@
         "Stade": 2,
         "Species": "Loudred",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Exploud",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -297663,7 +297663,7 @@
         "Stade": 2,
         "Species": "Hariyama",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -298622,7 +298622,7 @@
         "Stade": 2,
         "Species": "Hariyama",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -299554,13 +299554,13 @@
         "Stade": 2,
         "Species": "Marill",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Azumarill",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -300432,7 +300432,7 @@
         "Stade": 2,
         "Species": "Probopass",
         "Condition": "1.5 mi. above sea level",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -301305,7 +301305,7 @@
         "Stade": 2,
         "Species": "Delcatty",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -302278,7 +302278,7 @@
         "Stade": 2,
         "Species": "Delcatty",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -306085,13 +306085,13 @@
         "Stade": 2,
         "Species": "Lairon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Aggron",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -307074,13 +307074,13 @@
         "Stade": 2,
         "Species": "Lairon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Aggron",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -307998,13 +307998,13 @@
         "Stade": 2,
         "Species": "Lairon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Aggron",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -309421,7 +309421,7 @@
         "Stade": 2,
         "Species": "Medicham",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -310532,7 +310532,7 @@
         "Stade": 2,
         "Species": "Medicham",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -311597,7 +311597,7 @@
         "Stade": 2,
         "Species": "Manectric",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -312446,7 +312446,7 @@
         "Stade": 2,
         "Species": "Manectric",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -316898,13 +316898,13 @@
         "Stade": 2,
         "Species": "Roselia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Roserade",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -317707,7 +317707,7 @@
         "Stade": 2,
         "Species": "Swalot",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -318552,7 +318552,7 @@
         "Stade": 2,
         "Species": "Swalot",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -319397,7 +319397,7 @@
         "Stade": 2,
         "Species": "Sharpedo",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -320316,7 +320316,7 @@
         "Stade": 2,
         "Species": "Sharpedo",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -321318,7 +321318,7 @@
         "Stade": 2,
         "Species": "Wailord",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -322200,7 +322200,7 @@
         "Stade": 2,
         "Species": "Wailord",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -323035,7 +323035,7 @@
         "Stade": 2,
         "Species": "Camerupt",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -323982,7 +323982,7 @@
         "Stade": 2,
         "Species": "Camerupt",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -325914,7 +325914,7 @@
         "Stade": 2,
         "Species": "Grumpig",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -326921,7 +326921,7 @@
         "Stade": 2,
         "Species": "Grumpig",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -329079,13 +329079,13 @@
         "Stade": 2,
         "Species": "Vibrava",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Flygon",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -329935,13 +329935,13 @@
         "Stade": 2,
         "Species": "Vibrava",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Flygon",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -331070,13 +331070,13 @@
         "Stade": 2,
         "Species": "Vibrava",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Flygon",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -332453,7 +332453,7 @@
         "Stade": 2,
         "Species": "Cacturne",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -333455,7 +333455,7 @@
         "Stade": 2,
         "Species": "Cacturne",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -334459,7 +334459,7 @@
         "Stade": 2,
         "Species": "Altaria",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -335488,7 +335488,7 @@
         "Stade": 2,
         "Species": "Altaria",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -341169,7 +341169,7 @@
         "Stade": 2,
         "Species": "Whiscash",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -342009,7 +342009,7 @@
         "Stade": 2,
         "Species": "Whiscash",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -342879,7 +342879,7 @@
         "Stade": 2,
         "Species": "Crawdaunt",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -343866,7 +343866,7 @@
         "Stade": 2,
         "Species": "Crawdaunt",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -344952,7 +344952,7 @@
         "Stade": 2,
         "Species": "Claydol",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -345930,7 +345930,7 @@
         "Stade": 2,
         "Species": "Claydol",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -347020,7 +347020,7 @@
         "Stade": 2,
         "Species": "Cradily",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -347842,7 +347842,7 @@
         "Stade": 2,
         "Species": "Cradily",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -348696,7 +348696,7 @@
         "Stade": 2,
         "Species": "Armaldo",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -349516,7 +349516,7 @@
         "Stade": 2,
         "Species": "Armaldo",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -350436,7 +350436,7 @@
         "Stade": 2,
         "Species": "Milotic",
         "Condition": "6 Beauty Dice or Prism Scale",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -351052,7 +351052,7 @@
         "Stade": 2,
         "Species": "Milotic",
         "Condition": "6 Beauty Dice or Prism Scale",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -353933,7 +353933,7 @@
         "Stade": 2,
         "Species": "Banette",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -354927,7 +354927,7 @@
         "Stade": 2,
         "Species": "Banette",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -355904,13 +355904,13 @@
         "Stade": 2,
         "Species": "Dusclops",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Dusknoir",
         "Condition": "Holding Reaper Cloth",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -356936,13 +356936,13 @@
         "Stade": 2,
         "Species": "Dusclops",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Dusknoir",
         "Condition": "Holding Reaper Cloth",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -359181,7 +359181,7 @@
         "Stade": 2,
         "Species": "Chimecho",
         "Condition": "Night",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -361535,7 +361535,7 @@
         "Stade": 2,
         "Species": "Wobbuffet",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -361682,13 +361682,13 @@
         "Stade": 2,
         "Species": "Glalie",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 2,
         "Species": "Froslass",
         "Condition": "Dawn Stone Female",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -362474,7 +362474,7 @@
         "Stade": 2,
         "Species": "Glalie",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -363388,13 +363388,13 @@
         "Stade": 2,
         "Species": "Sealeo",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Walrein",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -364264,13 +364264,13 @@
         "Stade": 2,
         "Species": "Sealeo",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Walrein",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -365040,13 +365040,13 @@
         "Stade": 2,
         "Species": "Sealeo",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Walrein",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -365982,13 +365982,13 @@
         "Stade": 2,
         "Species": "Huntail",
         "Condition": "Holding Deepseatooth",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Gorebyss",
         "Condition": "Holding Deepseascale",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -366523,7 +366523,7 @@
         "Stade": 2,
         "Species": "Huntail",
         "Condition": "Holding Deepseatooth",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -367154,7 +367154,7 @@
         "Stade": 2,
         "Species": "Gorebyss",
         "Condition": "Holding Deepseascale",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -369501,13 +369501,13 @@
         "Stade": 2,
         "Species": "Shelgon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Salamence",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -370380,13 +370380,13 @@
         "Stade": 2,
         "Species": "Shelgon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Salamence",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -371199,13 +371199,13 @@
         "Stade": 2,
         "Species": "Shelgon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Salamence",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -372343,13 +372343,13 @@
         "Stade": 2,
         "Species": "Metang",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Metagross",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -372525,13 +372525,13 @@
         "Stade": 2,
         "Species": "Metang",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Metagross",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -373625,13 +373625,13 @@
         "Stade": 2,
         "Species": "Metang",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Metagross",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -389563,13 +389563,13 @@
         "Stade": 2,
         "Species": "Grotle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Torterra",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -390546,13 +390546,13 @@
         "Stade": 2,
         "Species": "Grotle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Torterra",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -391374,13 +391374,13 @@
         "Stade": 2,
         "Species": "Grotle",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Torterra",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -392443,13 +392443,13 @@
         "Stade": 2,
         "Species": "Monferno",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Infernape",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -393546,13 +393546,13 @@
         "Stade": 2,
         "Species": "Monferno",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Infernape",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -394622,13 +394622,13 @@
         "Stade": 2,
         "Species": "Monferno",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Infernape",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -395844,13 +395844,13 @@
         "Stade": 2,
         "Species": "Prinplup",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Empoleon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -396841,13 +396841,13 @@
         "Stade": 2,
         "Species": "Prinplup",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Empoleon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -397772,13 +397772,13 @@
         "Stade": 2,
         "Species": "Prinplup",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Empoleon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -398991,13 +398991,13 @@
         "Stade": 2,
         "Species": "Staravia",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Staraptor",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -399848,13 +399848,13 @@
         "Stade": 2,
         "Species": "Staravia",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Staraptor",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -400596,13 +400596,13 @@
         "Stade": 2,
         "Species": "Staravia",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Staraptor",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -401402,7 +401402,7 @@
         "Stade": 2,
         "Species": "Bibarel",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -402271,7 +402271,7 @@
         "Stade": 2,
         "Species": "Bibarel",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -403238,7 +403238,7 @@
         "Stade": 2,
         "Species": "Kricketune",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -403460,7 +403460,7 @@
         "Stade": 2,
         "Species": "Kricketune",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -404273,13 +404273,13 @@
         "Stade": 2,
         "Species": "Luxio",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Luxray",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -405132,13 +405132,13 @@
         "Stade": 2,
         "Species": "Luxio",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Luxray",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -405860,13 +405860,13 @@
         "Stade": 2,
         "Species": "Luxio",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Luxray",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -406674,13 +406674,13 @@
         "Stade": 2,
         "Species": "Roselia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Roserade",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -407472,13 +407472,13 @@
         "Stade": 2,
         "Species": "Roselia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Roserade",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -408447,7 +408447,7 @@
         "Stade": 2,
         "Species": "Rampardos",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -409429,7 +409429,7 @@
         "Stade": 2,
         "Species": "Rampardos",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -410468,7 +410468,7 @@
         "Stade": 2,
         "Species": "Bastiodon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -411348,7 +411348,7 @@
         "Stade": 2,
         "Species": "Bastiodon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -412218,7 +412218,7 @@
         "Stade": 2,
         "Species": "Mothim",
         "Condition": "Male",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -414959,7 +414959,7 @@
         "Stade": 2,
         "Species": "Mothim",
         "Condition": "Male",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -415723,7 +415723,7 @@
         "Stade": 2,
         "Species": "Vespiquen",
         "Condition": "Female",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -415996,7 +415996,7 @@
         "Stade": 2,
         "Species": "Vespiquen",
         "Condition": "Female",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -418018,7 +418018,7 @@
         "Stade": 2,
         "Species": "Floatzel",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -418975,7 +418975,7 @@
         "Stade": 2,
         "Species": "Floatzel",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -419911,7 +419911,7 @@
         "Stade": 2,
         "Species": "Cherrim",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -420708,7 +420708,7 @@
         "Stade": 2,
         "Species": "Cherrim",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -421418,7 +421418,7 @@
         "Stade": 2,
         "Species": "Gastrodon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -422315,7 +422315,7 @@
         "Stade": 2,
         "Species": "Gastrodon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -424261,7 +424261,7 @@
         "Stade": 2,
         "Species": "Drifblim",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -425413,7 +425413,7 @@
         "Stade": 2,
         "Species": "Drifblim",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -426555,7 +426555,7 @@
         "Stade": 2,
         "Species": "Lopunny",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -427819,7 +427819,7 @@
         "Stade": 2,
         "Species": "Lopunny",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -429083,7 +429083,7 @@
         "Stade": 2,
         "Species": "Mismagius",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -430205,7 +430205,7 @@
         "Stade": 2,
         "Species": "Honchkrow",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -431263,7 +431263,7 @@
         "Stade": 2,
         "Species": "Purugly",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -432159,7 +432159,7 @@
         "Stade": 2,
         "Species": "Purugly",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -433037,7 +433037,7 @@
         "Stade": 2,
         "Species": "Chimecho",
         "Condition": "Night",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       }
     ],
     "Other Information": {
@@ -433955,7 +433955,7 @@
         "Stade": 2,
         "Species": "Skuntank",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -435067,7 +435067,7 @@
         "Stade": 2,
         "Species": "Skuntank",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -436127,7 +436127,7 @@
         "Stade": 2,
         "Species": "Bronzong",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -437051,7 +437051,7 @@
         "Stade": 2,
         "Species": "Bronzong",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -439002,13 +439002,13 @@
         "Stade": 2,
         "Species": "Mr. Mime Galar",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Mr. Rime",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -440269,13 +440269,13 @@
         "Stade": 2,
         "Species": "Chansey",
         "Condition": "Holding Oval Stone",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Blissey",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -443068,13 +443068,13 @@
         "Stade": 2,
         "Species": "Gabite",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Garchomp",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -444052,13 +444052,13 @@
         "Stade": 2,
         "Species": "Gabite",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Garchomp",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -444962,13 +444962,13 @@
         "Stade": 2,
         "Species": "Gabite",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Garchomp",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -446111,7 +446111,7 @@
         "Stade": 2,
         "Species": "Snorlax",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -450125,7 +450125,7 @@
         "Stade": 2,
         "Species": "Hippowdon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -450979,7 +450979,7 @@
         "Stade": 2,
         "Species": "Hippowdon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -451846,7 +451846,7 @@
         "Stade": 2,
         "Species": "Drapion",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -452806,7 +452806,7 @@
         "Stade": 2,
         "Species": "Drapion",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -453881,7 +453881,7 @@
         "Stade": 2,
         "Species": "Toxicroak",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -455242,7 +455242,7 @@
         "Stade": 2,
         "Species": "Toxicroak",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -457352,7 +457352,7 @@
         "Stade": 2,
         "Species": "Lumineon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -458214,7 +458214,7 @@
         "Stade": 2,
         "Species": "Lumineon",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -459868,7 +459868,7 @@
         "Stade": 2,
         "Species": "Abomasnow",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -460802,7 +460802,7 @@
         "Stade": 2,
         "Species": "Abomasnow",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -461874,7 +461874,7 @@
         "Stade": 2,
         "Species": "Weavile",
         "Condition": "Holding Razor Claw at Night",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -463187,13 +463187,13 @@
         "Stade": 2,
         "Species": "Magneton",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magnezone",
         "Condition": ".5 mi. above sea level",
-        "Minimum Level": "Lv 1 Minimum"
+        "Minimum Level": 1
       }
     ],
     "Other Information": {
@@ -465293,13 +465293,13 @@
         "Stade": 2,
         "Species": "Rhydon",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Rhyperior",
         "Condition": "Holding Protector",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -467771,13 +467771,13 @@
         "Stade": 2,
         "Species": "Electabuzz",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Electivire",
         "Condition": "Holding Electrizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -468892,13 +468892,13 @@
         "Stade": 2,
         "Species": "Magmar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Magmortar",
         "Condition": "Holding Magmarizer",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -469977,13 +469977,13 @@
         "Stade": 2,
         "Species": "Togetic",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Togekiss",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -472207,7 +472207,7 @@
         "Stade": 2,
         "Species": "Leafeon",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -473267,7 +473267,7 @@
         "Stade": 2,
         "Species": "Glaceon",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -474278,7 +474278,7 @@
         "Stade": 2,
         "Species": "Gliscor",
         "Condition": "Holding Razor Fang at Night",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -475444,7 +475444,7 @@
         "Stade": 2,
         "Species": "Piloswine",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
@@ -476498,13 +476498,13 @@
         "Stade": 2,
         "Species": "Porygon2",
         "Condition": "Holding UpGrade",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       },
       {
         "Stade": 3,
         "Species": "Porygon-Z",
         "Condition": "Porygon - Z Holding Dubious Disc",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -477446,13 +477446,13 @@
         "Stade": 2,
         "Species": "Kirlia",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Gallade",
         "Condition": "Dawn Stone Male",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -479217,7 +479217,7 @@
         "Stade": 2,
         "Species": "Probopass",
         "Condition": "1.5 mi. above sea level",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -480150,13 +480150,13 @@
         "Stade": 2,
         "Species": "Dusclops",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Dusknoir",
         "Condition": "Holding Reaper Cloth",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -481354,7 +481354,7 @@
         "Stade": 2,
         "Species": "Froslass",
         "Condition": "Dawn Stone Female",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -506590,13 +506590,13 @@
         "Stade": 2,
         "Species": "Servine",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Serperior",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -507412,13 +507412,13 @@
         "Stade": 2,
         "Species": "Servine",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Serperior",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -508137,13 +508137,13 @@
         "Stade": 2,
         "Species": "Servine",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Serperior",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -508987,13 +508987,13 @@
         "Stade": 2,
         "Species": "Pignite",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Emboar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -509771,13 +509771,13 @@
         "Stade": 2,
         "Species": "Pignite",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Emboar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -510643,13 +510643,13 @@
         "Stade": 2,
         "Species": "Pignite",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Emboar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -511602,19 +511602,19 @@
         "Stade": 2,
         "Species": "Dewott",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Samurott",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Samurott Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -512434,19 +512434,19 @@
         "Stade": 2,
         "Species": "Dewott",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Samurott",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Samurott Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -513216,13 +513216,13 @@
         "Stade": 2,
         "Species": "Dewott",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Samurott",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -514147,7 +514147,7 @@
         "Stade": 2,
         "Species": "Watchog",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -514808,7 +514808,7 @@
         "Stade": 2,
         "Species": "Watchog",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -515583,13 +515583,13 @@
         "Stade": 2,
         "Species": "Herdier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Stoutland",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -516401,13 +516401,13 @@
         "Stade": 2,
         "Species": "Herdier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Stoutland",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -517114,13 +517114,13 @@
         "Stade": 2,
         "Species": "Herdier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Stoutland",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -517923,7 +517923,7 @@
         "Stade": 2,
         "Species": "Liepard",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -518843,7 +518843,7 @@
         "Stade": 2,
         "Species": "Liepard",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -519753,7 +519753,7 @@
         "Stade": 2,
         "Species": "Simisage",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -520516,7 +520516,7 @@
         "Stade": 2,
         "Species": "Simisage",
         "Condition": "Leaf Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -521269,7 +521269,7 @@
         "Stade": 2,
         "Species": "Simisear",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -522054,7 +522054,7 @@
         "Stade": 2,
         "Species": "Simisear",
         "Condition": "Fire Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -522828,7 +522828,7 @@
         "Stade": 2,
         "Species": "Simipour",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -523609,7 +523609,7 @@
         "Stade": 2,
         "Species": "Simipour",
         "Condition": "Water Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -524399,7 +524399,7 @@
         "Stade": 2,
         "Species": "Musharna",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -525342,7 +525342,7 @@
         "Stade": 2,
         "Species": "Musharna",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -526334,13 +526334,13 @@
         "Stade": 2,
         "Species": "Tranquill",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Unfezant",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -527012,13 +527012,13 @@
         "Stade": 2,
         "Species": "Tranquill",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Unfezant",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -527620,13 +527620,13 @@
         "Stade": 2,
         "Species": "Tranquill",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Unfezant",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -528272,7 +528272,7 @@
         "Stade": 2,
         "Species": "Zebstrika",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -528924,7 +528924,7 @@
         "Stade": 2,
         "Species": "Zebstrika",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -529565,13 +529565,13 @@
         "Stade": 2,
         "Species": "Boldore",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Gigalith",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -530230,13 +530230,13 @@
         "Stade": 2,
         "Species": "Boldore",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Gigalith",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -530848,13 +530848,13 @@
         "Stade": 2,
         "Species": "Boldore",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Gigalith",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -531576,7 +531576,7 @@
         "Stade": 2,
         "Species": "Swoobat",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -532709,7 +532709,7 @@
         "Stade": 2,
         "Species": "Swoobat",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -533786,7 +533786,7 @@
         "Stade": 2,
         "Species": "Excadrill",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -534582,7 +534582,7 @@
         "Stade": 2,
         "Species": "Excadrill",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -536765,13 +536765,13 @@
         "Stade": 2,
         "Species": "Gurdurr",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Conkeldurr",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -537739,13 +537739,13 @@
         "Stade": 2,
         "Species": "Gurdurr",
         "Condition": "",
-        "Minimum Level": "Lv 250 Minimum"
+        "Minimum Level": 250
       },
       {
         "Stade": 3,
         "Species": "Conkeldurr",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -538606,13 +538606,13 @@
         "Stade": 2,
         "Species": "Gurdurr",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Conkeldurr",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -539555,13 +539555,13 @@
         "Stade": 2,
         "Species": "Palpitoad",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Seismitoad",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -540277,13 +540277,13 @@
         "Stade": 2,
         "Species": "Palpitoad",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Seismitoad",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -540966,13 +540966,13 @@
         "Stade": 2,
         "Species": "Palpitoad",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Seismitoad",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -543628,13 +543628,13 @@
         "Stade": 2,
         "Species": "Swadloon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Leavanny",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -544374,13 +544374,13 @@
         "Stade": 2,
         "Species": "Swadloon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Leavanny",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -545011,13 +545011,13 @@
         "Stade": 2,
         "Species": "Swadloon",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Leavanny",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -545901,13 +545901,13 @@
         "Stade": 2,
         "Species": "Whirlipede",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Scolipede",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -546576,13 +546576,13 @@
         "Stade": 2,
         "Species": "Whirlipede",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Scolipede",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -547185,13 +547185,13 @@
         "Stade": 2,
         "Species": "Whirlipede",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Scolipede",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -548047,7 +548047,7 @@
         "Stade": 2,
         "Species": "Whimsicott",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -548826,7 +548826,7 @@
         "Stade": 2,
         "Species": "Whimsicott",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -549741,13 +549741,13 @@
         "Stade": 2,
         "Species": "Lilligant",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Lilligant Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -550514,7 +550514,7 @@
         "Stade": 2,
         "Species": "Lilligant",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -551423,13 +551423,13 @@
         "Stade": 2,
         "Species": "Basculegion Male",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 2,
         "Species": "Basculegion Female",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -552338,13 +552338,13 @@
         "Stade": 2,
         "Species": "Krokorok",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Krookodile",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -553373,13 +553373,13 @@
         "Stade": 2,
         "Species": "Krokorok",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Krookodile",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -554481,13 +554481,13 @@
         "Stade": 2,
         "Species": "Krokorok",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Krookodile",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -555787,7 +555787,7 @@
         "Stade": 2,
         "Species": "Darmanitan",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -556681,7 +556681,7 @@
         "Stade": 2,
         "Species": "Darmanitan",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -557721,7 +557721,7 @@
         "Stade": 2,
         "Species": "Darmanitan",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -559592,7 +559592,7 @@
         "Stade": 2,
         "Species": "Crustle",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -560350,7 +560350,7 @@
         "Stade": 2,
         "Species": "Crustle",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -561089,7 +561089,7 @@
         "Stade": 2,
         "Species": "Scrafty",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -562394,7 +562394,7 @@
         "Stade": 2,
         "Species": "Scrafty",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -564692,7 +564692,7 @@
         "Stade": 2,
         "Species": "Cofagrigus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -565578,7 +565578,7 @@
         "Stade": 2,
         "Species": "Cofagrigus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -566481,7 +566481,7 @@
         "Stade": 2,
         "Species": "Carracosta",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -567419,7 +567419,7 @@
         "Stade": 2,
         "Species": "Carracosta",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -568331,7 +568331,7 @@
         "Stade": 2,
         "Species": "Archeops",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -569333,7 +569333,7 @@
         "Stade": 2,
         "Species": "Archeops",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -570326,7 +570326,7 @@
         "Stade": 2,
         "Species": "Garbodor",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -571033,7 +571033,7 @@
         "Stade": 2,
         "Species": "Garbodor",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -571814,7 +571814,7 @@
         "Stade": 2,
         "Species": "Zoroark",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -572821,7 +572821,7 @@
         "Stade": 2,
         "Species": "Zoroark",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -573918,7 +573918,7 @@
         "Stade": 2,
         "Species": "Cinccino",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -574776,7 +574776,7 @@
         "Stade": 2,
         "Species": "Cinccino",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -575697,13 +575697,13 @@
         "Stade": 2,
         "Species": "Gothorita",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Gothitelle",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -576675,13 +576675,13 @@
         "Stade": 2,
         "Species": "Gothorita",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Gothitelle",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -577587,13 +577587,13 @@
         "Stade": 2,
         "Species": "Gothorita",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Gothitelle",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -578561,13 +578561,13 @@
         "Stade": 2,
         "Species": "Duosion",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Reuniclus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -579519,13 +579519,13 @@
         "Stade": 2,
         "Species": "Duosion",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Reuniclus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -580427,13 +580427,13 @@
         "Stade": 2,
         "Species": "Duosion",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Reuniclus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -581664,7 +581664,7 @@
         "Stade": 2,
         "Species": "Swanna",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -582401,7 +582401,7 @@
         "Stade": 2,
         "Species": "Swanna",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -583113,13 +583113,13 @@
         "Stade": 2,
         "Species": "Vanillish",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vanilluxe",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -583813,13 +583813,13 @@
         "Stade": 2,
         "Species": "Vanillish",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vanilluxe",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -584424,13 +584424,13 @@
         "Stade": 2,
         "Species": "Vanillish",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 3,
         "Species": "Vanilluxe",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -585097,7 +585097,7 @@
         "Stade": 2,
         "Species": "Sawsbuck",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -585866,7 +585866,7 @@
         "Stade": 2,
         "Species": "Sawsbuck",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -587579,7 +587579,7 @@
         "Stade": 2,
         "Species": "Escavalier",
         "Condition": "Interact with Shelmet",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -588249,7 +588249,7 @@
         "Stade": 2,
         "Species": "Escavalier",
         "Condition": "Interact with Shelmet",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -589043,7 +589043,7 @@
         "Stade": 2,
         "Species": "Amoonguss",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -589722,7 +589722,7 @@
         "Stade": 2,
         "Species": "Amoonguss",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -590381,7 +590381,7 @@
         "Stade": 2,
         "Species": "Jellicent",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -591230,7 +591230,7 @@
         "Stade": 2,
         "Species": "Jellicent",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -592785,7 +592785,7 @@
         "Stade": 2,
         "Species": "Galvantula",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -593683,7 +593683,7 @@
         "Stade": 2,
         "Species": "Galvantula",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -594518,7 +594518,7 @@
         "Stade": 2,
         "Species": "Ferrothorn",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -595327,7 +595327,7 @@
         "Stade": 2,
         "Species": "Ferrothorn",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -596204,13 +596204,13 @@
         "Stade": 2,
         "Species": "Klang",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Klinklang",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -596790,13 +596790,13 @@
         "Stade": 2,
         "Species": "Klang",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Klinklang",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -597402,13 +597402,13 @@
         "Stade": 2,
         "Species": "Klang",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Klinklang",
         "Condition": "",
-        "Minimum Level": "Lv 45 Minimum"
+        "Minimum Level": 45
       }
     ],
     "Other Information": {
@@ -598068,13 +598068,13 @@
         "Stade": 2,
         "Species": "Eelektrik",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Eelektross",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -598218,13 +598218,13 @@
         "Stade": 2,
         "Species": "Eelektrik",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Eelektross",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -598839,13 +598839,13 @@
         "Stade": 2,
         "Species": "Eelektrik",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Eelektross",
         "Condition": "Thunderstone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -599828,7 +599828,7 @@
         "Stade": 2,
         "Species": "Beheeyem",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -600845,7 +600845,7 @@
         "Stade": 2,
         "Species": "Beheeyem",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -601828,13 +601828,13 @@
         "Stade": 2,
         "Species": "Lampent",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Chandelure",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -602766,13 +602766,13 @@
         "Stade": 2,
         "Species": "Lampent",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Chandelure",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -603637,13 +603637,13 @@
         "Stade": 2,
         "Species": "Lampent",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Chandelure",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -604652,13 +604652,13 @@
         "Stade": 2,
         "Species": "Fraxure",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Haxorus",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -605634,13 +605634,13 @@
         "Stade": 2,
         "Species": "Fraxure",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Haxorus",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -606555,13 +606555,13 @@
         "Stade": 2,
         "Species": "Fraxure",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
         "Species": "Haxorus",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -607580,7 +607580,7 @@
         "Stade": 2,
         "Species": "Beartic",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -608505,7 +608505,7 @@
         "Stade": 2,
         "Species": "Beartic",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -610272,7 +610272,7 @@
         "Stade": 2,
         "Species": "Accelgor",
         "Condition": "Interact with Karrablast",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -610904,7 +610904,7 @@
         "Stade": 2,
         "Species": "Accelgor",
         "Condition": "Interact with Karrablast",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -612540,7 +612540,7 @@
         "Stade": 2,
         "Species": "Mienshao",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -613537,7 +613537,7 @@
         "Stade": 2,
         "Species": "Mienshao",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -615669,7 +615669,7 @@
         "Stade": 2,
         "Species": "Golurk",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -616750,7 +616750,7 @@
         "Stade": 2,
         "Species": "Golurk",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -618000,13 +618000,13 @@
         "Stade": 2,
         "Species": "Bisharp",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Kingambit",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -619019,13 +619019,13 @@
         "Stade": 2,
         "Species": "Bisharp",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       },
       {
         "Stade": 3,
         "Species": "Kingambit",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -621006,13 +621006,13 @@
         "Stade": 2,
         "Species": "Braviary",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 2,
         "Species": "Braviary Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -621859,7 +621859,7 @@
         "Stade": 2,
         "Species": "Braviary",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -622733,7 +622733,7 @@
         "Stade": 2,
         "Species": "Mandibuzz",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -623697,7 +623697,7 @@
         "Stade": 2,
         "Species": "Mandibuzz",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -626431,13 +626431,13 @@
         "Stade": 2,
         "Species": "Zweilous",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Hydreigon",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -627337,13 +627337,13 @@
         "Stade": 2,
         "Species": "Zweilous",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Hydreigon",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -628191,13 +628191,13 @@
         "Stade": 2,
         "Species": "Zweilous",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       },
       {
         "Stade": 3,
         "Species": "Hydreigon",
         "Condition": "",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -629453,7 +629453,7 @@
         "Stade": 2,
         "Species": "Volcarona",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -630189,7 +630189,7 @@
         "Stade": 2,
         "Species": "Volcarona",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -649149,13 +649149,13 @@
         "Stade": 2,
         "Species": "Quilladin",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Chesnaught",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -650154,13 +650154,13 @@
         "Stade": 2,
         "Species": "Quilladin",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Chesnaught",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -651087,13 +651087,13 @@
         "Stade": 2,
         "Species": "Quilladin",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Chesnaught",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -652203,13 +652203,13 @@
         "Stade": 2,
         "Species": "Braixen",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Delphox",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -653013,13 +653013,13 @@
         "Stade": 2,
         "Species": "Braixen",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Delphox",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -653876,13 +653876,13 @@
         "Stade": 2,
         "Species": "Braixen",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Delphox",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -654934,13 +654934,13 @@
         "Stade": 2,
         "Species": "Frogadier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Greninja",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -655734,13 +655734,13 @@
         "Stade": 2,
         "Species": "Frogadier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Greninja",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -656465,13 +656465,13 @@
         "Stade": 2,
         "Species": "Frogadier",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Greninja",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -657315,7 +657315,7 @@
         "Stade": 2,
         "Species": "Diggersby",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -658074,7 +658074,7 @@
         "Stade": 2,
         "Species": "Diggersby",
         "Condition": "",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -659156,13 +659156,13 @@
         "Stade": 2,
         "Species": "Fletchinder",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Talonflame",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -659874,13 +659874,13 @@
         "Stade": 2,
         "Species": "Fletchinder",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Talonflame",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -660596,13 +660596,13 @@
         "Stade": 2,
         "Species": "Fletchinder",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Talonflame",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -661395,13 +661395,13 @@
         "Stade": 2,
         "Species": "Spewpa",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Vivillon",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -661563,13 +661563,13 @@
         "Stade": 2,
         "Species": "Spewpa",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Vivillon",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -661727,13 +661727,13 @@
         "Stade": 2,
         "Species": "Spewpa",
         "Condition": "",
-        "Minimum Level": "Lv 5 Minimum"
+        "Minimum Level": 5
       },
       {
         "Stade": 3,
         "Species": "Vivillon",
         "Condition": "",
-        "Minimum Level": "Lv 10 Minimum"
+        "Minimum Level": 10
       }
     ],
     "Other Information": {
@@ -662392,7 +662392,7 @@
         "Stade": 2,
         "Species": "Pyroar",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -663127,7 +663127,7 @@
         "Stade": 2,
         "Species": "Pyroar",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -663867,13 +663867,13 @@
         "Stade": 2,
         "Species": "Floette",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Florges",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -664560,13 +664560,13 @@
         "Stade": 2,
         "Species": "Floette",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Florges",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -665236,13 +665236,13 @@
         "Stade": 2,
         "Species": "Floette",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Florges",
         "Condition": "Shiny Stone",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -666075,7 +666075,7 @@
         "Stade": 2,
         "Species": "Gogoat",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -666739,7 +666739,7 @@
         "Stade": 2,
         "Species": "Gogoat",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -667445,7 +667445,7 @@
         "Stade": 2,
         "Species": "Pangoro",
         "Condition": "exposed to Dark Type",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -668509,7 +668509,7 @@
         "Stade": 2,
         "Species": "Pangoro",
         "Condition": "exposed to Dark Type",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -673349,13 +673349,13 @@
         "Stade": 2,
         "Species": "Doublade",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Aegislash",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -674011,13 +674011,13 @@
         "Stade": 2,
         "Species": "Doublade",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Aegislash",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -674631,13 +674631,13 @@
         "Stade": 2,
         "Species": "Doublade",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 3,
         "Species": "Aegislash",
         "Condition": "Dusk Stone",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       }
     ],
     "Other Information": {
@@ -675423,7 +675423,7 @@
         "Stade": 2,
         "Species": "Aromatisse",
         "Condition": "Holding Sachet",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -676151,7 +676151,7 @@
         "Stade": 2,
         "Species": "Aromatisse",
         "Condition": "Holding Sachet",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -676922,7 +676922,7 @@
         "Stade": 2,
         "Species": "Slurpuff",
         "Condition": "Holding Whipped Dream",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -677585,7 +677585,7 @@
         "Stade": 2,
         "Species": "Slurpuff",
         "Condition": "Holding Whipped Dream",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -678265,7 +678265,7 @@
         "Stade": 2,
         "Species": "Malamar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -679215,7 +679215,7 @@
         "Stade": 2,
         "Species": "Malamar",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -680206,7 +680206,7 @@
         "Stade": 2,
         "Species": "Barbaracle",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -681144,7 +681144,7 @@
         "Stade": 2,
         "Species": "Barbaracle",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -682204,7 +682204,7 @@
         "Stade": 2,
         "Species": "Dragalge",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -683010,7 +683010,7 @@
         "Stade": 2,
         "Species": "Dragalge",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -683804,7 +683804,7 @@
         "Stade": 2,
         "Species": "Clawitzer",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -684608,7 +684608,7 @@
         "Stade": 2,
         "Species": "Clawitzer",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -685450,7 +685450,7 @@
         "Stade": 2,
         "Species": "Heliolisk",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -686202,7 +686202,7 @@
         "Stade": 2,
         "Species": "Heliolisk",
         "Condition": "Sun Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -687212,7 +687212,7 @@
         "Stade": 2,
         "Species": "Tyrantrum",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -688158,7 +688158,7 @@
         "Stade": 2,
         "Species": "Tyrantrum",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -689107,7 +689107,7 @@
         "Stade": 2,
         "Species": "Aurorus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -690084,7 +690084,7 @@
         "Stade": 2,
         "Species": "Aurorus",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -691043,7 +691043,7 @@
         "Stade": 2,
         "Species": "Sylveon",
         "Condition": "Moon Stone",
-        "Minimum Level": "Lv 20 Minimum"
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -694991,25 +694991,25 @@
         "Stade": 2,
         "Species": "Sliggoo",
         "Condition": "",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       },
       {
         "Stade": 2,
         "Species": "Sliggoo Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 15 Minimum"
+        "Minimum Level": 15
       },
       {
         "Stade": 3,
         "Species": "Goodra",
         "Condition": "in Rain",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       },
       {
         "Stade": 3,
         "Species": "Goodra Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -695676,13 +695676,13 @@
         "Stade": 2,
         "Species": "Sliggoo",
         "Condition": "Sligoo",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       },
       {
         "Stade": 3,
         "Species": "Goodra",
         "Condition": "in Rain",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -696299,13 +696299,13 @@
         "Stade": 2,
         "Species": "Sliggoo",
         "Condition": "Sligoo",
-        "Minimum Level": "Lv 40 Minimum"
+        "Minimum Level": 40
       },
       {
         "Stade": 3,
         "Species": "Goodra",
         "Condition": "in Rain",
-        "Minimum Level": "Lv 50 Minimum"
+        "Minimum Level": 50
       }
     ],
     "Other Information": {
@@ -698089,7 +698089,7 @@
         "Stade": 2,
         "Species": "Trevenant",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -699061,7 +699061,7 @@
         "Stade": 2,
         "Species": "Trevenant",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -700121,7 +700121,7 @@
         "Stade": 2,
         "Species": "Gourgeist",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -700998,7 +700998,7 @@
         "Stade": 2,
         "Species": "Gourgeist",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -701896,13 +701896,13 @@
         "Stade": 2,
         "Species": "Avalugg",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       },
       {
         "Stade": 2,
         "Species": "Avalugg Hisuian",
         "Condition": "",
-        "Minimum Level": "Lv 30 Minimum"
+        "Minimum Level": 30
       }
     ],
     "Other Information": {
@@ -702562,7 +702562,7 @@
         "Stade": 2,
         "Species": "Avalugg",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -703400,7 +703400,7 @@
         "Stade": 2,
         "Species": "Noivern",
         "Condition": "",
-        "Minimum Level": "Lv 25 Minimum"
+        "Minimum Level": 25
       }
     ],
     "Other Information": {
@@ -704321,7 +704321,7 @@
         "Stade": 2,
         "Species": "Noivern",
         "Condition": "",
-        "Minimum Level": "Lv 35 Minimum"
+        "Minimum Level": 35
       }
     ],
     "Other Information": {

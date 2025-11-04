@@ -19108,6 +19108,12 @@
         "Species": "Raichu",
         "Condition": "Thunderstone",
         "Minimum Level": "Lv 20 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Raichu Alola",
+        "Condition": "Thunderstone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -53446,6 +53452,12 @@
         "Species": "Primeape",
         "Condition": "",
         "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Annihilape",
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -54691,6 +54703,12 @@
         "Species": "Primeape",
         "Condition": "",
         "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Annihilape",
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -101321,6 +101339,12 @@
         "Species": "Exeggutor",
         "Condition": "Leaf Stone",
         "Minimum Level": "Lv 20 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Exeggutor Alola",
+        "Condition": "Leaf Stone",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -103619,6 +103643,12 @@
       {
         "Stade": 2,
         "Species": "Marowak",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Marowak Alola",
         "Condition": "",
         "Minimum Level": "Lv 25 Minimum"
       }
@@ -109273,6 +109303,12 @@
         "Species": "Weezing",
         "Condition": "",
         "Minimum Level": "Lv 35 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Weezing Galar",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -122959,7 +122995,7 @@
       {
         "Stade": 1,
         "Species": "Mime Jr.",
-        "Condition": "."
+        "Condition": ""
       },
       {
         "Stade": 2,
@@ -124396,6 +124432,12 @@
         "Stade": 2,
         "Species": "Scizor",
         "Condition": "Holding Metal Coat",
+        "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Kleavor",
+        "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
       }
     ],
@@ -159483,6 +159525,12 @@
         "Species": "Typhlosion",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Typhlosion Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -160322,6 +160370,12 @@
       {
         "Stade": 3,
         "Species": "Typhlosion",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Typhlosion Hisuian",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
       }
@@ -175173,6 +175227,12 @@
       {
         "Stade": 3,
         "Species": "Raichu",
+        "Condition": "Thunderstone",
+        "Minimum Level": "Lv 20 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Raichu Alola",
         "Condition": "Thunderstone",
         "Minimum Level": "Lv 20 Minimum"
       }
@@ -205239,6 +205299,12 @@
         "Stade": 1,
         "Species": "Girafarig",
         "Condition": ""
+      },
+      {
+        "Stade": 2,
+        "Species": "Farigiraf",
+        "Condition": "Farigaraf",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -208218,6 +208284,12 @@
         "Stade": 1,
         "Species": "Dunsparce",
         "Condition": ""
+      },
+      {
+        "Stade": 2,
+        "Species": "Dudunsparce",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -220039,6 +220111,18 @@
         "Species": "Ursaring",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Ursaluna",
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Bloodmoon Ursaluna",
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -221073,6 +221157,12 @@
         "Species": "Ursaring",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Ursaluna",
+        "Condition": "",
+        "Minimum Level": "Lv 35 Minimum"
       }
     ],
     "Other Information": {
@@ -237294,6 +237384,12 @@
         "Stade": 1,
         "Species": "Stantler",
         "Condition": ""
+      },
+      {
+        "Stade": 2,
+        "Species": "Wyrdeer",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -438895,12 +438991,24 @@
       {
         "Stade": 1,
         "Species": "Mime Jr.",
-        "Condition": "."
+        "Condition": ""
       },
       {
         "Stade": 2,
         "Species": "Mr. Mime",
         "Condition": "Learn Mimic"
+      },
+      {
+        "Stade": 2,
+        "Species": "Mr. Mime Galar",
+        "Condition": "",
+        "Minimum Level": "Lv 20 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Mr. Rime",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -511501,6 +511609,12 @@
         "Species": "Samurott",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Samurott Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -512325,6 +512439,12 @@
       {
         "Stade": 3,
         "Species": "Samurott",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Samurott Hisuian",
         "Condition": "",
         "Minimum Level": "Lv 30 Minimum"
       }
@@ -549622,6 +549742,12 @@
         "Species": "Lilligant",
         "Condition": "Sun Stone",
         "Minimum Level": "Lv 20 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Lilligant Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -551292,6 +551418,18 @@
         "Stade": 1,
         "Species": "Basculin",
         "Condition": ""
+      },
+      {
+        "Stade": 2,
+        "Species": "Basculegion Male",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Basculegion Female",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
       }
     ],
     "Other Information": {
@@ -617862,6 +618000,12 @@
         "Stade": 2,
         "Species": "Bisharp",
         "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Kingambit",
+        "Condition": "",
         "Minimum Level": "Lv 35 Minimum"
       }
     ],
@@ -618874,6 +619018,12 @@
       {
         "Stade": 2,
         "Species": "Bisharp",
+        "Condition": "",
+        "Minimum Level": "Lv 25 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Kingambit",
         "Condition": "",
         "Minimum Level": "Lv 35 Minimum"
       }
@@ -620857,6 +621007,12 @@
         "Species": "Braviary",
         "Condition": "",
         "Minimum Level": "Lv 35 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Braviary Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -694834,14 +694990,26 @@
       {
         "Stade": 2,
         "Species": "Sliggoo",
-        "Condition": "Sligoo",
+        "Condition": "",
         "Minimum Level": "Lv 40 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Sliggoo Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 15 Minimum"
       },
       {
         "Stade": 3,
         "Species": "Goodra",
         "Condition": "in Rain",
         "Minimum Level": "Lv 50 Minimum"
+      },
+      {
+        "Stade": 3,
+        "Species": "Goodra Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {
@@ -701729,6 +701897,12 @@
         "Species": "Avalugg",
         "Condition": "",
         "Minimum Level": "Lv 35 Minimum"
+      },
+      {
+        "Stade": 2,
+        "Species": "Avalugg Hisuian",
+        "Condition": "",
+        "Minimum Level": "Lv 30 Minimum"
       }
     ],
     "Other Information": {

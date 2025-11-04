@@ -68931,6 +68931,12 @@
         "Species": "Glaceon",
         "Condition": "Shiny Stone",
         "Minimum Level": 20
+      },
+      {
+        "Stade": 2,
+        "Species": "Sylveon",
+        "Condition": "Moon Stone",
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -112684,6 +112690,12 @@
         "Species": "Ursaluna",
         "Condition": "",
         "Minimum Level": 35
+      },
+      {
+        "Stade": 3,
+        "Species": "Ursaluna (Bloodmoon)",
+        "Condition": "",
+        "Minimum Level": 35
       }
     ],
     "Other Information": {
@@ -113356,6 +113368,12 @@
       {
         "Stade": 3,
         "Species": "Ursaluna",
+        "Condition": "",
+        "Minimum Level": 35
+      },
+      {
+        "Stade": 3,
+        "Species": "Ursaluna (Bloodmoon)",
         "Condition": "",
         "Minimum Level": 35
       }

@@ -412223,8 +412223,21 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam Lv 20 Minimum Female",
-        "Condition": ""
+        "Species": "Wormadam Plant Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
+      },
+      {
+        "Stade": 2,
+        "Species": "Wormadam Sandy Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
+      },
+      {
+        "Stade": 2,
+        "Species": "Wormadam Trash Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
       },
       {
         "Stade": 2,
@@ -412409,8 +412422,9 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam Lv 20 Minimum Female",
-        "Condition": ""
+        "Species": "Wormadam Plant Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -413248,8 +413262,9 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam Lv 20 Minimum Female",
-        "Condition": ""
+        "Species": "Wormadam Sandy Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
       }
     ],
     "Other Information": {
@@ -414091,8 +414106,9 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam Lv 20 Minimum Female",
-        "Condition": ""
+        "Species": "Wormadam Trash Cloak Form",
+        "Condition": "Female",
+        "Minimum Level": 20
       }
     ],
     "Other Information": {

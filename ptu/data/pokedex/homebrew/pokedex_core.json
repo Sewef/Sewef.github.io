@@ -209617,13 +209617,8 @@
       {
         "Stade": 2,
         "Species": "Gliscor",
-        "Condition": "Holding Razor Fang",
+        "Condition": "Holding Razor Fang at Night",
         "Minimum Level": "Lv 25 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "at Night",
-        "Condition": ""
       }
     ],
     "Other Information": {
@@ -218581,13 +218576,8 @@
       {
         "Stade": 2,
         "Species": "Weavile",
-        "Condition": "Holding Razor Claw",
+        "Condition": "Holding Razor Claw at Night",
         "Minimum Level": "Lv 30 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "at Night",
-        "Condition": ""
       }
     ],
     "Other Information": {
@@ -238462,12 +238452,8 @@
       {
         "Stade": 2,
         "Species": "Hitmontop",
-        "Condition": "Equal Attack and Defense"
-      },
-      {
-        "Stade": null,
-        "Species": "Lv 20 Minimum",
-        "Condition": ""
+        "Condition": "Equal Attack and Defense",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -239179,12 +239165,8 @@
       {
         "Stade": 2,
         "Species": "Hitmontop",
-        "Condition": "Equal Attack and Defense"
-      },
-      {
-        "Stade": null,
-        "Species": "Lv 20 Minimum",
-        "Condition": ""
+        "Condition": "Equal Attack and Defense",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -269886,13 +269868,8 @@
       {
         "Stade": 2,
         "Species": "Silcoon",
-        "Condition": "see Split",
+        "Condition": "see Split Evolution",
         "Minimum Level": "Lv 5 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "Evolution",
-        "Condition": ""
       },
       {
         "Stade": 3,
@@ -269903,13 +269880,8 @@
       {
         "Stade": 2,
         "Species": "Cascoon",
-        "Condition": "see Split",
+        "Condition": "see Split Evolution",
         "Minimum Level": "Lv 5 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "Evolution",
-        "Condition": ""
       },
       {
         "Stade": 3,
@@ -350367,7 +350339,7 @@
       {
         "Stade": 2,
         "Species": "Milotic",
-        "Condition": "Beauty 6 Beauty Dice or Prism Scale",
+        "Condition": "6 Beauty Dice or Prism Scale",
         "Minimum Level": "Lv 20 Minimum"
       }
     ],
@@ -350983,12 +350955,8 @@
       {
         "Stade": 2,
         "Species": "Milotic",
-        "Condition": "6 Beauty Dice or Prism Scale Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "20",
-        "Condition": ""
+        "Condition": "6 Beauty Dice or Prism Scale",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -351952,7 +351920,10 @@
       "Adv Ability 1": "Levitate",
       "Adv Ability 2": "Cloud Nine",
       "Adv Ability 3": "Drought / Drizzle",
-      "High Ability": ["Sandstream", "Snow Warning"]
+      "High Ability": [
+        "Sandstream",
+        "Snow Warning"
+      ]
     },
     "Evolution": [
       {
@@ -461794,13 +461765,8 @@
       {
         "Stade": 2,
         "Species": "Weavile",
-        "Condition": "Holding Razor Claw",
+        "Condition": "Holding Razor Claw at Night",
         "Minimum Level": "Lv 30 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "at Night",
-        "Condition": ""
       }
     ],
     "Other Information": {
@@ -474203,13 +474169,8 @@
       {
         "Stade": 2,
         "Species": "Gliscor",
-        "Condition": "Holding Razor Fang",
+        "Condition": "Holding Razor Fang at Night",
         "Minimum Level": "Lv 25 Minimum"
-      },
-      {
-        "Stade": null,
-        "Species": "at Night",
-        "Condition": ""
       }
     ],
     "Other Information": {
@@ -527524,7 +527485,10 @@
       "Basic Ability 2": "Super Luck",
       "Adv Ability 1": "Rivalry",
       "Adv Ability 2": "Klutz",
-      "High Ability": ["Frighten (Male)", "Rocket (Female)"]
+      "High Ability": [
+        "Frighten (Male)",
+        "Rocket (Female)"
+      ]
     },
     "Evolution": [
       {
@@ -596085,7 +596049,10 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": ["Plus", "Minus"],
+      "Adv Ability 2": [
+        "Plus",
+        "Minus"
+      ],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },
@@ -596668,7 +596635,10 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": ["Plus", "Minus"],
+      "Adv Ability 2": [
+        "Plus",
+        "Minus"
+      ],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },
@@ -597277,7 +597247,10 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Clear Body",
-      "Adv Ability 2": ["Plus", "Minus"],
+      "Adv Ability 2": [
+        "Plus",
+        "Minus"
+      ],
       "Adv Ability 3": "Weird Power",
       "High Ability": "Targeting System"
     },
@@ -610160,12 +610133,8 @@
       {
         "Stade": 2,
         "Species": "Accelgor",
-        "Condition": "Interact with Karrablast"
-      },
-      {
-        "Stade": null,
-        "Species": "Lv 20 Minimum",
-        "Condition": ""
+        "Condition": "Interact with Karrablast",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {
@@ -610796,12 +610765,8 @@
       {
         "Stade": 2,
         "Species": "Accelgor",
-        "Condition": "Interact with Karrablast"
-      },
-      {
-        "Stade": null,
-        "Species": "Lv 20 Minimum",
-        "Condition": ""
+        "Condition": "Interact with Karrablast",
+        "Minimum Level": "Lv 20 Minimum"
       }
     ],
     "Other Information": {

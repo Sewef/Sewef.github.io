@@ -11880,7 +11880,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -22123,7 +22123,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -23358,7 +23358,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -43489,7 +43489,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 31,
           "Tags": [
@@ -43932,7 +43932,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -44399,7 +44399,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 37,
           "Tags": [
@@ -44858,7 +44858,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -80514,7 +80514,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 27,
           "Tags": [
@@ -81362,7 +81362,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 27,
           "Tags": [
@@ -98624,7 +98624,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -99665,7 +99665,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -124602,7 +124602,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 40,
           "Tags": [
@@ -125206,7 +125206,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -128881,7 +128881,7 @@
           "Level": 20
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 20,
           "Tags": [
@@ -129475,7 +129475,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -137828,7 +137828,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 45,
           "Tags": [
@@ -142373,7 +142373,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -155971,7 +155971,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -171491,7 +171491,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -172398,7 +172398,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -173302,7 +173302,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -209847,7 +209847,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 40
         },
@@ -210561,7 +210561,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -215527,7 +215527,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 40,
           "Tags": [
@@ -216250,7 +216250,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -219611,7 +219611,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -219911,7 +219911,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -226868,7 +226868,7 @@
           "Level": 6
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 6,
           "Tags": [
@@ -227860,7 +227860,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 24,
           "Tags": [
@@ -231479,7 +231479,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -236678,7 +236678,7 @@
           "Level": 40
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 45,
           "Tags": [
@@ -257199,7 +257199,7 @@
           "Level": 35
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 43,
           "Tags": [
@@ -257872,7 +257872,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -258212,7 +258212,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 16,
           "Tags": [
@@ -259096,7 +259096,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -278304,7 +278304,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -290043,7 +290043,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -291122,7 +291122,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -292281,7 +292281,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -292986,7 +292986,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -293350,7 +293350,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 47,
           "Tags": [
@@ -293802,7 +293802,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -294590,7 +294590,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -300572,7 +300572,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 43
         },
@@ -304346,7 +304346,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -336816,7 +336816,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 36,
           "Tags": [
@@ -337465,7 +337465,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -338611,7 +338611,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -343595,7 +343595,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -344759,7 +344759,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -348839,7 +348839,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 44,
           "Tags": [
@@ -349250,7 +349250,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -349669,7 +349669,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 46,
           "Tags": [
@@ -350209,7 +350209,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -361099,7 +361099,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -374900,7 +374900,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 1,
           "Tags": [
@@ -375914,7 +375914,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 1,
           "Tags": [
@@ -376843,7 +376843,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 1,
           "Tags": [
@@ -403584,7 +403584,7 @@
           "Level": 26
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 26,
           "Tags": [
@@ -404110,7 +404110,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -416873,7 +416873,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -452056,7 +452056,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 34,
           "Tags": [
@@ -452574,7 +452574,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -453005,7 +453005,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 34
         },
@@ -453709,7 +453709,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -454843,7 +454843,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -456277,7 +456277,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -462939,7 +462939,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -463387,7 +463387,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 27,
           "Tags": [
@@ -473036,7 +473036,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -474486,7 +474486,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 40
         },
@@ -475237,7 +475237,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -476677,7 +476677,7 @@
           "Level": 40
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 45,
           "Tags": [
@@ -478762,7 +478762,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -479399,7 +479399,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 43
         },
@@ -501795,7 +501795,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -505101,7 +505101,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -512236,7 +512236,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -513107,7 +513107,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -513983,7 +513983,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -530179,7 +530179,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -534415,7 +534415,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -535314,7 +535314,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -545143,7 +545143,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 39,
           "Tags": [
@@ -545726,7 +545726,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -547898,7 +547898,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -559742,7 +559742,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 35,
           "Tags": [
@@ -560157,7 +560157,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -560510,7 +560510,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 38,
           "Tags": [
@@ -560977,7 +560977,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -587715,7 +587715,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 32,
           "Tags": [
@@ -588054,7 +588054,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -588395,7 +588395,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 32,
           "Tags": [
@@ -588872,7 +588872,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -593437,7 +593437,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -594376,7 +594376,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -596330,7 +596330,7 @@
           "Level": 28
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 36
         },
@@ -596924,7 +596924,7 @@
           "Level": 28
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 36
         },
@@ -597544,7 +597544,7 @@
           "Level": 28
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 36
         },
@@ -605397,7 +605397,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -606399,7 +606399,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -607415,7 +607415,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -608324,7 +608324,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -609431,7 +609431,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -618776,7 +618776,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -619914,7 +619914,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -625787,7 +625787,7 @@
           "Level": 28
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 32,
           "Tags": [
@@ -626223,7 +626223,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -631925,7 +631925,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -632841,7 +632841,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -633776,7 +633776,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -645895,7 +645895,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -648297,7 +648297,7 @@
           ]
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Level": 11,
           "Tags": [
@@ -648353,7 +648353,7 @@
           ]
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Level": 42,
           "Tags": [
@@ -648938,7 +648938,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -669516,7 +669516,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -680997,7 +680997,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -682066,7 +682066,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -692951,7 +692951,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -698056,7 +698056,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Lock On",
+          "Move": "Lock-On",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -699911,7 +699911,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -704115,7 +704115,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -705155,7 +705155,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X Scissor",
+          "Move": "X-Scissor",
           "Type": "Bug",
           "Tags": [
             "Legacy",

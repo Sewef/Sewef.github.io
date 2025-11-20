@@ -708774,6 +708774,7 @@
       "Perception": "6d6+2",
       "Focus": "3d6"
     },
+    "Confined": "If Hoopa's Confined Form is exposed to the Prison Bottle and the bottle is uncorked, the dark spirit within the bottle will change Hoopa to its Unbound Forme for three full days. After that, the Prison Bottle cannot be activated again for three days. If the Prison Bottle is destroyed, Hoopa becomes permanently Unbound until a new Prison Bottle is created and used to seal the dark power controlling Hoopa.<br>While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Additionally some of  its Ghost-Typed Moves are changed to different Dark Type Moves.<br>»  Hyperspace Hole becomes Hyperspace Fury.<br>»  Shadow Ball becomes Dark Pulse<br>»  Phantom Force becomes Knock Off",
     "Moves": {
       "Level Up Move List": [
         {
@@ -708795,7 +708796,7 @@
           "Level": 1
         },
         {
-          "Move": "Hyperspace Hole",
+          "Move": "Hyperspace Hole*",
           "Type": "Psychic",
           "Level": 1,
           "Tags": [
@@ -708861,7 +708862,7 @@
           "Level": 29
         },
         {
-          "Move": "Phantom Force",
+          "Move": "Phantom Force*",
           "Type": "Ghost",
           "Level": 35,
           "Tags": [
@@ -708887,7 +708888,7 @@
           "Level": 50
         },
         {
-          "Move": "Shadow Ball",
+          "Move": "Shadow Ball*",
           "Type": "Ghost",
           "Level": 55,
           "Tags": [
@@ -708937,12 +708938,6 @@
             "Legacy",
             "X/Y"
           ],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Dark Pulse",
-          "Type": "Dark",
-          "Tags": [],
           "Method": "Machine"
         },
         {
@@ -709107,12 +709102,6 @@
           "Method": "Machine"
         },
         {
-          "Move": "Knock Off",
-          "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
           "Move": "Lash Out",
           "Type": "Dark",
           "Tags": [],
@@ -709131,7 +709120,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Phantom Force",
+          "Move": "Phantom Force*",
           "Type": "Ghost",
           "Tags": [
             "Stab"
@@ -709279,7 +709268,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Shadow Ball",
+          "Move": "Shadow Ball*",
           "Type": "Ghost",
           "Tags": [
             "Stab"
@@ -709512,15 +709501,6 @@
         {
           "Move": "Ice Punch",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Omega Ruby/Alpha Sapphire"
-          ],
-          "Method": "Tutor"
-        },
-        {
-          "Move": "Knock Off",
-          "Type": "Dark",
           "Tags": [
             "Legacy",
             "Omega Ruby/Alpha Sapphire"
@@ -709750,7 +709730,7 @@
       "Perception": "2d6",
       "Focus": "2d6"
     },
-    "Confined": "If Hoopa's Confined Form is exposed to the Prison Bottle and the bottle is uncorked, the dark spirit within the bottle will change Hoopa to its Unbound Forme for three full days. After that, the Prison Bottle cannot be activated again for three days. If the Prison Bottle is destroyed, Hoopa becomes permanently Unbound until a new Prison Bottle is created and used to seal the dark power controlling Hoopa.<br>While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Additionally some of  its Ghost-Typed Moves are changed to different Dark Type Moves.<br>»  Hyperspace Hole becomes Hyperspace Fury.<br>»  Shadow Ball becomes Dark Pulse<br>»  Phantom Force becomes Knock Of",
+    "Confined": "If Hoopa's Confined Form is exposed to the Prison Bottle and the bottle is uncorked, the dark spirit within the bottle will change Hoopa to its Unbound Forme for three full days. After that, the Prison Bottle cannot be activated again for three days. If the Prison Bottle is destroyed, Hoopa becomes permanently Unbound until a new Prison Bottle is created and used to seal the dark power controlling Hoopa.<br>While Unbound, Hoopa is always Enraged and cannot be cured of this condition. Additionally some of  its Ghost-Typed Moves are changed to different Dark Type Moves.<br>»  Hyperspace Hole becomes Hyperspace Fury.<br>»  Shadow Ball becomes Dark Pulse<br>»  Phantom Force becomes Knock Off",
     "Moves": {
       "Level Up Move List": [
         {
@@ -709772,7 +709752,7 @@
           "Level": 1
         },
         {
-          "Move": "Hyperspace Fury",
+          "Move": "Hyperspace Fury*",
           "Type": "Dark",
           "Level": 1,
           "Tags": [
@@ -709833,7 +709813,7 @@
           "Level": 29
         },
         {
-          "Move": "Knock Off",
+          "Move": "Knock Off*",
           "Type": "Dark",
           "Level": 46,
           "Tags": [
@@ -709851,7 +709831,7 @@
           "Level": 50
         },
         {
-          "Move": "Dark Pulse",
+          "Move": "Dark Pulse*",
           "Type": "Dark",
           "Level": 55,
           "Tags": [
@@ -709899,7 +709879,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Dark Pulse",
+          "Move": "Dark Pulse*",
           "Type": "Dark",
           "Tags": [
             "Stab"
@@ -710072,7 +710052,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Knock Off",
+          "Move": "Knock Off*",
           "Type": "Dark",
           "Tags": [
             "Stab"
@@ -710096,12 +710076,6 @@
         {
           "Move": "Nasty Plot",
           "Type": "Dark",
-          "Tags": [],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Phantom Force",
-          "Type": "Ghost",
           "Tags": [],
           "Method": "Machine"
         },
@@ -710243,12 +710217,6 @@
             "Legacy",
             "Omega Ruby/Alpha Sapphire"
           ],
-          "Method": "Machine"
-        },
-        {
-          "Move": "Shadow Ball",
-          "Type": "Ghost",
-          "Tags": [],
           "Method": "Machine"
         },
         {
@@ -710489,7 +710457,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Knock Off",
+          "Move": "Knock Off*",
           "Type": "Dark",
           "Tags": [
             "Legacy",

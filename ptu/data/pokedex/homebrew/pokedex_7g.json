@@ -2693,7 +2693,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -2897,7 +2897,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Method": "Tutor",
           "Tags": [
@@ -3525,7 +3525,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -3534,7 +3534,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -4302,7 +4302,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -4311,7 +4311,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -5372,7 +5372,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -5381,7 +5381,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -5635,6 +5635,7 @@
     "Base Stats": {
       "HP": 5,
       "Attack": 5,
+      "Defense": 5,
       "Special Attack": 7,
       "Special Defense": 6,
       "Speed": 4
@@ -5730,7 +5731,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 11,
           "Tags": [
@@ -6554,7 +6555,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 11,
           "Tags": [
@@ -7267,7 +7268,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 11,
           "Tags": [
@@ -8547,7 +8548,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -9257,7 +9258,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -9997,7 +9998,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -10254,7 +10255,7 @@
           "Level": 19
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 22
         },
@@ -10459,7 +10460,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -10647,7 +10648,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -10939,7 +10940,7 @@
           "Level": 19
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 23
         },
@@ -11213,7 +11214,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -11413,7 +11414,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -11664,7 +11665,7 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 1
         },
@@ -11889,7 +11890,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -12260,7 +12261,7 @@
           ]
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 7,
           "Tags": [
@@ -12521,7 +12522,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -12876,7 +12877,7 @@
           ]
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 7,
           "Tags": [
@@ -13249,7 +13250,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -13764,7 +13765,7 @@
           ]
         },
         {
-          "Move": "Power Up Punch",
+          "Move": "Power-Up Punch",
           "Type": "Fighting",
           "Level": 22,
           "Tags": [
@@ -14052,7 +14053,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -14511,7 +14512,7 @@
           ]
         },
         {
-          "Move": "Power Up Punch",
+          "Move": "Power-Up Punch",
           "Type": "Fighting",
           "Level": 22,
           "Tags": [
@@ -14883,7 +14884,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -15252,6 +15253,13 @@
       "Adv Ability 3": "Revelation",
       "High Ability": "Competitive"
     },
+    "Evolution": [
+      {
+        "Stade": 1,
+        "Species": "Oricorio",
+        "Condition": ""
+      }
+    ],
     "Other Information": {
       "Size Information": {
         "Height": "2' 0\" / 0.6 m (Small)",
@@ -15745,7 +15753,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -16550,7 +16558,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -17465,7 +17473,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Stab"
@@ -18010,7 +18018,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -18879,7 +18887,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -19794,7 +19802,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -21772,7 +21780,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -22426,7 +22434,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -24228,7 +24236,7 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 1,
           "Tags": [
@@ -24535,7 +24543,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -24908,6 +24916,7 @@
     "Number": 750,
     "Base Stats": {
       "HP": 10,
+      "Attack": 13,
       "Defense": 10,
       "Special Attack": 6,
       "Special Defense": 9,
@@ -24966,7 +24975,7 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 1,
           "Tags": [
@@ -25329,7 +25338,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -26336,6 +26345,7 @@
       "Attack": 7,
       "Defense": 9,
       "Special Attack": 5,
+      "Special Defense": 13,
       "Speed": 4
     },
     "Basic Information": {
@@ -30247,7 +30257,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -30486,7 +30496,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Stab"
@@ -30636,7 +30646,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Legacy",
@@ -31160,7 +31170,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -31399,7 +31409,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Stab"
@@ -31664,7 +31674,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 4
         },
@@ -32453,7 +32463,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 10,
           "Tags": [
@@ -35170,7 +35180,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -36084,7 +36094,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -38194,7 +38204,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -40216,7 +40226,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -41084,7 +41094,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -42544,7 +42554,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -42714,7 +42724,7 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Multi Attack",
+          "Move": "Multi-Attack",
           "Type": "Normal",
           "Level": "Evo",
           "Tags": [
@@ -43233,7 +43243,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -43399,7 +43409,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -43769,7 +43779,7 @@
           ]
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Level": 22
         },
@@ -44181,7 +44191,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -44287,6 +44297,7 @@
       "HP": 6,
       "Attack": 10,
       "Defense": 6,
+      "Special Attack": 10,
       "Special Defense": 6,
       "Speed": 12
     },
@@ -44374,7 +44385,7 @@
           ]
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Level": 22
         },
@@ -44786,7 +44797,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -45442,7 +45453,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -46294,7 +46305,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -47117,7 +47128,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -47533,7 +47544,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 10,
           "Tags": [
@@ -48170,7 +48181,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -54580,7 +54591,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -55350,7 +55361,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -59347,7 +59358,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 9,
           "Tags": [
@@ -59488,7 +59499,7 @@
           ]
         },
         {
-          "Move": "Freeze Dry",
+          "Move": "Freeze-Dry",
           "Type": "Ice",
           "Level": 48,
           "Tags": [
@@ -60034,7 +60045,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Tags": [
             "Legacy",
@@ -60210,7 +60221,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Tags": [
             "Legacy",
@@ -60264,7 +60275,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Freeze Dry",
+          "Move": "Freeze-Dry",
           "Type": "Ice",
           "Tags": [
             "Legacy",
@@ -60453,7 +60464,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Level": 9,
           "Tags": [
@@ -60594,7 +60605,7 @@
           ]
         },
         {
-          "Move": "Freeze Dry",
+          "Move": "Freeze-Dry",
           "Type": "Ice",
           "Level": 48,
           "Tags": [
@@ -61256,7 +61267,7 @@
           ]
         },
         {
-          "Move": "Baby Doll Eyes",
+          "Move": "Baby-Doll Eyes",
           "Type": "Fairy",
           "Tags": [
             "Legacy",
@@ -61707,7 +61718,7 @@
           ]
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 10,
           "Tags": [
@@ -62048,7 +62059,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -62598,7 +62609,7 @@
           ]
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Level": 10,
           "Tags": [
@@ -62979,7 +62990,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [
             "Stab"
@@ -63341,6 +63352,7 @@
     "Icon": 10107,
     "Base Stats": {
       "HP": 4,
+      "Attack": 4,
       "Defense": 4,
       "Special Attack": 5,
       "Special Defense": 4,
@@ -64123,7 +64135,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -64432,7 +64444,8 @@
       "Attack": 6,
       "Defense": 6,
       "Special Attack": 8,
-      "Special Defense": 7
+      "Special Defense": 7,
+      "Speed": 12
     },
     "Basic Information": {
       "Type": [
@@ -65289,7 +65302,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -65693,7 +65706,7 @@
           ]
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Level": 19,
           "Tags": [
@@ -65993,7 +66006,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -66094,7 +66107,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -66630,7 +66643,7 @@
           ]
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Level": 19,
           "Tags": [
@@ -66950,7 +66963,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -67057,7 +67070,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -67528,7 +67541,7 @@
           ]
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Level": 19,
           "Tags": [
@@ -67901,7 +67914,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -68014,7 +68027,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -68815,7 +68828,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -68934,7 +68947,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -69260,7 +69273,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Power Up Punch",
+          "Move": "Power-Up Punch",
           "Type": "Fighting",
           "Tags": [
             "Legacy",
@@ -69882,7 +69895,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Tags": [],
           "Method": "Machine"
@@ -70001,7 +70014,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -71105,7 +71118,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -71776,7 +71789,7 @@
           ]
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Level": 23,
           "Tags": [
@@ -72515,7 +72528,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -72696,7 +72709,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Mud Slap",
+          "Move": "Mud-Slap",
           "Type": "Ground",
           "Method": "Tutor",
           "Tags": [
@@ -73551,7 +73564,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -77318,7 +77331,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Wake Up Slap",
+          "Move": "Wake-Up Slap",
           "Type": "Fighting",
           "Method": "Tutor",
           "Tags": [
@@ -78143,7 +78156,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -79412,6 +79425,7 @@
       "HP": 10,
       "Attack": 16,
       "Defense": 13,
+      "Special Attack": 11,
       "Special Defense": 11,
       "Speed": 8
     },
@@ -84716,7 +84730,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -84901,7 +84915,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -85932,7 +85946,7 @@
           ]
         },
         {
-          "Move": "Power Up Punch",
+          "Move": "Power-Up Punch",
           "Type": "Fighting",
           "Level": 1,
           "Tags": [
@@ -87293,7 +87307,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -88692,7 +88706,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -91652,7 +91666,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U Turn",
+          "Move": "U-Turn",
           "Type": "Bug",
           "Tags": [
             "Legacy",
@@ -92897,7 +92911,7 @@
           ]
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Level": 55,
           "Tags": [
@@ -93204,7 +93218,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -93359,7 +93373,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -94145,7 +94159,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Self Destruct",
+          "Move": "Self-Destruct",
           "Type": "Normal",
           "Tags": [
             "Legacy",
@@ -95228,7 +95242,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will O Wisp",
+          "Move": "Will-O-Wisp",
           "Type": "Fire",
           "Tags": [
             "Legacy",
@@ -95534,7 +95548,7 @@
           "Level": 1
         },
         {
-          "Move": "Power Up Punch",
+          "Move": "Power-Up Punch",
           "Type": "Fighting",
           "Level": 1
         },

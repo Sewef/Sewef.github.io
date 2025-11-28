@@ -15123,7 +15123,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -42945,7 +42945,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -113536,7 +113536,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Battle Armor",
@@ -113728,7 +113728,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Battle Armor",
@@ -114156,7 +114156,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -118824,7 +118824,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Battle Armor",
@@ -119016,7 +119016,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Battle Armor",
@@ -119444,7 +119444,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -143713,7 +143713,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Probability Control",
@@ -178815,7 +178815,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Probability Control",
@@ -237448,7 +237448,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -237682,7 +237682,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -237938,7 +237938,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -243523,7 +243523,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Probability Control",
@@ -246598,7 +246598,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -251768,7 +251768,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -253481,7 +253481,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -260080,7 +260080,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -325283,7 +325283,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -325545,7 +325545,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -328116,7 +328116,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -328346,7 +328346,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -344221,7 +344221,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -344458,7 +344458,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -354515,7 +354515,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Soundproof",
@@ -375857,7 +375857,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",
@@ -376075,7 +376075,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",
@@ -376326,7 +376326,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",
@@ -426452,7 +426452,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -426686,7 +426686,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -426942,7 +426942,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -432527,7 +432527,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Probability Control",
@@ -435602,7 +435602,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -440772,7 +440772,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -442485,7 +442485,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -449084,7 +449084,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -514287,7 +514287,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -514549,7 +514549,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -517120,7 +517120,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -517350,7 +517350,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ]
     },
@@ -533225,7 +533225,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -533462,7 +533462,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -543519,7 +543519,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Soundproof",
@@ -564861,7 +564861,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",
@@ -565079,7 +565079,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",
@@ -565330,7 +565330,7 @@
           "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": "Scene"
+          "frequency": "Static"
         },
         {
           "name": "Dry Skin",

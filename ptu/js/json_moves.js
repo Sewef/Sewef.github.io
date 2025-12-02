@@ -1,95 +1,73 @@
-function debounce(fn, delay = 150) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), delay); } }
+import {
+  debounce,
+  jsonToItems,
+  buildPillSection,
+  getSelectedPills,
+  filterText,
+  filterByTypes,
+  filterByClasses
+} from "/ptu/js/helpers.js";
 
-function jsonToItems(obj) {
-  return Object.entries(obj).map(([name, value]) =>
-    typeof value === "string" ? { Name: name, Description: value } : { Name: name, ...value }
-  );
-}
-
-function buildTypeSidebar(moves, container, cols) {
+function buildSidebarMoves(allItems, container, cols) {
   const sidebar = document.getElementById("sidebar");
-  if (!sidebar) return;
+  sidebar.innerHTML = "";
 
-  const types = [...new Set(moves.map(m => m.Type).filter(Boolean))].sort();
-  sidebar.innerHTML = `
-  <div class="mb-3">
-    <input type="text" id="sidebar-search" class="form-control form-control-sm mb-2" placeholder="Filter types...">
-    <button id="toggle-all-types" class="btn btn-sm btn-primary w-100 mb-2">Select/Deselect all</button>
-  </div>
-  <div id="type-filters" class="list-group">
-    ${types.map(type => `
-      <label class="list-group-item card-type-${type}">
-        <input class="form-check-input me-1" type="checkbox" value="${type}">
-        ${type}
-      </label>
-    `).join("")}
-  </div>
-`;
+  // ====================
+  // Types
+  // ====================
+  const moveTypes = [...new Set(allItems.map(m => m.Type).filter(Boolean))].sort();
 
+  const typesGroup = document.createElement("div");
+  typesGroup.className = "mb-3";
 
-  // Listeners
-  sidebar.querySelectorAll("#type-filters input[type='checkbox']").forEach(input => {
-    input.addEventListener("change", () => filterAndRender(moves, container, cols));
+  const typesLabel = document.createElement("label");
+  typesLabel.className = "form-label";
+  typesLabel.textContent = "Types";
+  typesGroup.appendChild(typesLabel);
+
+  // Les pills sont insérées DANS ce group
+  buildPillSection(typesGroup, "type-filters", moveTypes, {
+    attr: "data-type",
+    onChange: () => refreshMoves(allItems, container, cols)
   });
 
-  const sidebarSearch = document.getElementById("sidebar-search");
-  if (sidebarSearch) {
-    sidebarSearch.addEventListener("input", debounce(() => {
-      const q = sidebarSearch.value.toLowerCase();
-      document.querySelectorAll("#type-filters label").forEach(label => {
-        const text = label.textContent.toLowerCase();
-        label.style.display = text.includes(q) ? "" : "none";
-      });
-    }), 150);
-  }
+  sidebar.appendChild(typesGroup);
 
+  // ====================
+  // Class
+  // ====================
+  const classGroup = document.createElement("div");
+  classGroup.className = "mt-3";
 
-  // Bouton tout cocher / décocher
-  const toggleBtn = document.getElementById("toggle-all-types");
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", () => {
-      const typeFilters = document.getElementById("type-filters");
-      const checkboxes = typeFilters.querySelectorAll('input[type="checkbox"]');
-      const allChecked = Array.from(checkboxes).every(cb => cb.checked);
-      checkboxes.forEach(cb => cb.checked = !allChecked);
-      filterAndRender(moves, container, cols);
-    });
-  }
+  const classLabel = document.createElement("label");
+  classLabel.className = "form-label";
+  classLabel.textContent = "Class";
+  classGroup.appendChild(classLabel);
+
+  buildPillSection(classGroup, "class-filters", ["Physical", "Special", "Status"], {
+    attr: "data-class",
+    onChange: () => refreshMoves(allItems, container, cols)
+  });
+
+  sidebar.appendChild(classGroup);
 }
 
 
-function getActiveTypes() {
-  return Array.from(document.querySelectorAll('#type-filters input:checked'))
-    .map(el => el.value);
-}
-
-function filterAndRender(allItems, container, cols = 3) {
+function refreshMoves(allItems, container, cols) {
   const query = document.getElementById("card-search")?.value.toLowerCase() || "";
-  const activeTypes = getActiveTypes();
 
-  const filtered = allItems.filter(item => {
-    const nameMatches = item.Name?.toLowerCase().includes(query);
-    const otherMatches = Object.entries(item)
-      .filter(([key]) => key !== 'Name')
-      .some(([key, value]) => typeof value === "string" && value.toLowerCase().includes(query));
+  const types = getSelectedPills(document, "type-filters", "data-type");
+  const classes = getSelectedPills(document, "class-filters", "data-class");
 
-    const matchesType = activeTypes.length === 0 || activeTypes.includes(item.Type);
-
-    return (nameMatches || otherMatches) && matchesType;
-  });
-
-  filtered.sort((a, b) => {
-    const qa = query, an = a.Name?.toLowerCase() || "", bn = b.Name?.toLowerCase() || "";
-    const aHit = an.includes(qa), bHit = bn.includes(qa);
-    if (aHit !== bHit) return aHit ? -1 : 1;
-    return an.localeCompare(bn);
-  });
+  const filtered = allItems
+    .filter(item => filterText(query, item))
+    .filter(item => filterByTypes(item, types))
+    .filter(item => filterByClasses(item, classes));
 
   renderFilteredCards(filtered, container, cols);
 }
 
-
-function loadMovesAsCard(file, container, cols = 3) {
+export function loadMovesAsCard(file, container, cols = 3) {
   $.getJSON(file, function (data) {
     if (typeof data !== 'object' || Object.keys(data).length === 0) {
       alert(`Error: no data found in ${file}`);
@@ -98,17 +76,17 @@ function loadMovesAsCard(file, container, cols = 3) {
 
     const allItems = jsonToItems(data);
 
-    buildTypeSidebar(allItems, container, cols);
-    filterAndRender(allItems, container, cols);
+    buildSidebarMoves(allItems, container, cols);
+    refreshMoves(allItems, container, cols);
 
     const searchInput = document.getElementById("card-search");
     if (searchInput) {
-      searchInput.oninput = debounce(() => filterAndRender(allItems, container, cols), 150);
+      searchInput.oninput = debounce(() => refreshMoves(allItems, container, cols), 150);
     }
   });
 }
 
-function loadKeywordsAsCard(file, container, cols = 3) {
+export function loadKeywordsAsCard(file, container, cols = 3) {
   $.getJSON(file, function (data) {
     if (typeof data !== 'object' || Object.keys(data).length === 0) {
       alert(`Error: no data found in ${file}`);

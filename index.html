@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sewef.github.io</title>
+    <style>
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fdf6e3;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 180px);
+            grid-template-rows: repeat(2, 120px);
+            gap: 32px;
+        }
+        .fancy-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #eee8d5 0%, #fdf6e3 100%);
+            color: #586e75;
+            border: 2px solid #b58900;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(101, 123, 131, 0.10);
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+            outline: none;
+            position: relative;
+        }
+        .fancy-btn:hover, .fancy-btn:focus {
+            transform: translateY(-4px) scale(1.04);
+            box-shadow: 0 8px 32px rgba(101, 123, 131, 0.18);
+            border-color: #cb4b16;
+        }
+        .logo {
+            max-width: 48px;
+            max-height: 48px;
+            width: auto;
+            height: auto;
+            margin-bottom: 10px;
+            background: none;
+            border-radius: 8px;
+            display: block;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-grid">
+        <button class="fancy-btn" onclick="location.href='/ptu/index.html'">
+            <img class="logo" src="/ptu/img/logo64.png" alt="PTU-Data Logo" />
+            PTU-Data
+        </button>
+        <!-- <button class="fancy-btn" onclick="alert('Button 2 clicked!')">
+            <svg class="logo" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="48" height="48" rx="12" fill="#fff" stroke="#4e4376" stroke-width="4"/>
+                <circle cx="32" cy="32" r="12" fill="#4e4376"/>
+            </svg>
+            Button 2
+        </button>
+        <button class="fancy-btn" onclick="alert('Button 3 clicked!')">
+            <svg class="logo" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="12" y="12" width="40" height="40" rx="8" fill="#fff" stroke="#2b5876" stroke-width="4"/>
+                <rect x="24" y="24" width="16" height="16" rx="4" fill="#2b5876"/>
+            </svg>
+            Button 3
+        </button>
+        <button class="fancy-btn" onclick="alert('Button 4 clicked!')">
+            <svg class="logo" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="32,8 56,56 8,56" fill="#fff" stroke="#4e4376" stroke-width="4"/>
+                <circle cx="32" cy="40" r="8" fill="#4e4376"/>
+            </svg>
+            Button 4
+        </button> -->
+    </div>
+</body>
+</html>

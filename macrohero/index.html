@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacroHero Owlbear Extension Documentation</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <style>
+    body {
+      background: #fdf6e3;
+      color: #586e75;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+    }
+    .navbar {
+      background: #eee8d5;
+      border-bottom: 2px solid #b58900;
+    }
+    .navbar-brand {
+      color: #b58900 !important;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    h1, h2, h3, h4 {
+      color: #b58900;
+    }
+    pre code {
+      background: #f5f2e7;
+      border-radius: 6px;
+      padding: 1em;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      color: #93a1a1;
+      margin-top: 3rem;
+      padding: 1rem 0;
+      border-top: 1px solid #eee8d5;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MacroHero Owlbear Extension</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>MacroHero Owlbear Extension Documentation</h1>
+      <p class="lead">Welcome to the official user guide for <strong>MacroHero</strong> — the all-in-one macro and automation extension for Owlbear Rodeo. This documentation explains how to use MacroHero’s features, visual editor, items, commands, and integrations to supercharge your virtual tabletop experience.</p>
+      <hr>
+
+      <h2>Getting Started</h2>
+      <ol>
+        <li><strong>Install MacroHero</strong>: Add the extension manifest URL <a href="https://macrohero.onrender.com/manifest.json" target="_blank">https://macrohero.onrender.com/manifest.json</a> using Owlbear Rodeo's "Install from manifest" option.</li>
+        <li><strong>Enable MacroHero</strong> in your Owlbear Rodeo session.</li>
+        <li><strong>Open MacroHero</strong> from the sidebar to access the main interface.</li>
+      </ol>
+
+      <h2 id="editor">Visual Editor</h2>
+      <ol>
+        <li>Click the <strong>Configuration</strong> (⚙️) button in the header to open the visual editor modal.</li>
+        <li>The visual editor is a GUI wrapper around the underlying JSON configuration — every change you make updates the JSON and vice‑versa. There are no separate editor "tabs" or modes: the visual editor is the single interface for changing your configuration.</li>
+        <li>Use the editor to add pages, define variables, and place items (buttons, values, inputs, counters, stacks, rows, dividers, etc.).
+          <ul>
+            <li><strong>Add Page</strong>: give it a label and open it to add variables and layout items.</li>
+            <li><strong>Add Variable</strong>: set a key and an <code>expression</code>. Optionally set numeric <code>min</code>/<code>max</code>.</li>
+            <li><strong>Add Item</strong>: pick a type (value, input, checkbox, counter, button, text, title). Configure its <strong>label</strong>, link it to a <strong>var</strong> (when applicable), and add <strong>commands</strong> arrays to buttons.</li>
+          </ul>
+        </li>
+        <li><strong>Commands</strong>: buttons accept an array of command strings — they execute sequentially when clicked. Use integration calls, variable references (<code>{var}</code>) and expressions inside commands.</li>
+        <li><strong>Counter items</strong> respect the variable's <code>min</code>/<code>max</code> and accept an optional <code>step</code> setting (default 1).</li>
+        <li><strong>Save / Cancel</strong>: Use the modal controls to save changes (persisted per-room) or cancel to discard edits. Changes are written to room metadata/local storage as appropriate.</li>
+        <li><strong>Validation & Debug</strong>: the editor validates syntax where possible; use temporary value items to surface intermediate variables and test expressions before using them in commands.</li>
+      </ol>
+
+      <h3>Visual Editor Modal Walkthrough</h3>
+      <ul>
+        <li><strong>Global Title</strong>: Sets the extension title shown in the header.</li>
+        <li><strong>Width / Height</strong>: Canvas size for the extension window.</li>
+        <li><strong>Global Variables</strong>: Add variables that are available to all pages via <code>{var}</code> references.</li>
+        <li><strong>Pages</strong>: Add or open pages to edit their variables and layout. Use <strong>+ Add Page</strong> to create new pages.</li>
+        <li><strong>Save / Cancel</strong>: Use the buttons in the modal corner to persist or discard changes.</li>
+      </ul>
+
+      <h2 id="items">Items</h2>
+      <p>Each macro page can contain several types of items:</p>
+      <hr>
+      <h2 id="configuration">Configuration Guide & Syntax</h2>
+      <p>MacroHero is configured using a JSON structure that defines global variables, pages, UI layout, and commands. You can edit this configuration via the visual editor (⚙️) or by importing/exporting JSON. Below is a step-by-step guide with copy-pasteable examples for every feature.</p>
+
+        <h3>The <code>global</code> Section</h3>
+        <p>The <code>global</code> section sets up your extension's title, window size, and variables available everywhere. Here’s a real-world example:</p>
+        <pre><code class="language-json">{
+    "global": {
+      "title": "Macro Hero",
+      "width": 800,
+      "height": 600,
+      "variables": {
+        "playerName": {
+          "expression": "Local.value('playerName', 'Unknown')"
+        },
+        "sessionId": {
+          "expression": "OBR.session.id()"
+        }
+      }
+    }
+  }</code></pre>
+        <ul>
+          <li><strong>title</strong>: The window title (shown at the top).</li>
+          <li><strong>width</strong> / <strong>height</strong>: The extension window size in pixels.</li>
+          <li><strong>variables</strong>: Global variables, available on all pages. Each variable uses an <code>expression</code> (see below for syntax).</li>
+        </ul>
+
+        <h3>Defining Variables & Expressions</h3>
+        <p>Variables are defined in the <code>variables</code> section of either <strong>global</strong> or a <strong>page</strong>. Each variable uses an <code>expression</code> string. You can reference other variables, use math, or call integration functions.</p>
+        <pre><code class="language-json">{
+    "variables": {
+      "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
+      "isBandaged": { "expression": "ConditionsMarkers.hasCondition({token}, 'Bandaged')" },
+      "bonus": { "expression": "5" },
+      "total": { "expression": "{hp} + {bonus}" }
+    }
+  }</code></pre>
+        <ul>
+          <li>Reference variables with <code>{varName}</code> in expressions and commands.</li>
+          <li>Supported functions: <code>GoogleSheets.getValue</code>, <code>Local.value</code>, <code>OwlTrackers.getValue</code>, <code>ConditionsMarkers.hasCondition</code>, etc.</li>
+          <li>Use math and logic: <code>({hp} &gt; 10 ? 'Healthy' : 'Wounded')</code></li>
+          <li><strong>Optional numeric bounds</strong>: Variables may include optional <code>min</code> and <code>max</code> numeric properties. These are used by <code>counter</code> UI items (see below) to constrain the input range.</li>
+        </ul>
+
+      <h3>Creating & Organizing UI Items</h3>
+      <p>Each page's <code>layout</code> array defines the UI. You can use these item types:</p>
+      <ul>
+        <li><strong>title</strong>: Section heading.<br><code>{ "type": "title", "text": "Section Name" }</code></li>
+        <li><strong>text</strong>: Paragraph or note.<br><code>{ "type": "text", "content": "Some info" }</code></li>
+        <li><strong>divider</strong>: Horizontal line.<br><code>{ "type": "divider" }</code></li>
+        <li><strong>value</strong>: Display a variable.<br><code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
+        <li><strong>input</strong>: Text input.<br><code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
+        <li><strong>checkbox</strong>: Checkbox input.<br><code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
+        <li><strong>counter</strong>: Number input. Use <code>step</code> (optional, default <code>1</code>) to set increment/decrement amount. If the referenced variable defines <code>min</code> and/or <code>max</code>, the counter will respect those bounds.<br><code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
+        <li><strong>button</strong>: Clickable button.<br><code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] }</code></li>
+        <li><strong>row</strong>: Horizontal group.<br><code>{ "type": "row", "children": [ ... ] }</code></li>
+        <li><strong>stack</strong>: Vertical group.<br><code>{ "type": "stack", "children": [ ... ] }</code></li>
+      </ul>
+
+      <h3>Writing Commands & Using Integrations</h3>
+      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Commands can:</p>
+      <ul>
+        <li>Call integrations: <code>OwlTrackers.addValue({token}, 'HP', 10)</code></li>
+        <li>Use variables: <code>JustDices.roll('Player: ' + {playerName})</code></li>
+        <li>Use logic: <code>{isBandaged} ? ... : ...</code></li>
+      </ul>
+      <pre><code class="language-json">{
+    "type": "button",
+    "label": "Heal if Bandaged",
+    "commands": [
+      "{isBandaged} ? OwlTrackers.addValue({token}, 'HP', 10) : OwlTrackers.addValue({token}, 'HP', -5)"
+    ]
+  }</code></pre>
+      <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionsMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
+
+      <h3>JSON Structure for Pages, Layouts, and Commands</h3>
+      <pre><code class="language-json">{
+    "global": { ... },
+    "pages": [
+      {
+        "label": "Page Name",
+        "variables": { ... },
+        "layout": [ ... ]
+      }
+    ]
+  }</code></pre>
+      <ul>
+        <li><strong>global</strong>: Global settings and variables.</li>
+        <li><strong>pages</strong>: Array of page objects, each with its own variables and layout.</li>
+        <li><strong>layout</strong>: Array of UI items (see above).</li>
+      </ul>
+
+      <h3>Saving & Persistence</h3>
+      <p>MacroHero stores different kinds of data in different places to balance persistence, size limits, and privacy:</p>
+      <ul>
+        <li><strong>Full configuration:</strong> The complete JSON (pages, variables, layout) is saved to your browser <strong>localStorage</strong> using a room-scoped key (internal key: <code>com.sewef.macrohero/fullConfig/&lt;roomId&gt;</code>). This is written when you save in the configuration modal and on automatic saves.</li>
+        <li><strong>Local (editable) variables:</strong> Only values for editable variables (inputs, counters, checkboxes) are saved to the Owlbear Rodeo <strong>Room metadata</strong> under the key <code>com.sewef.macrohero/playerConfigs</code>, namespaced by player ID. This persists across reloads and is shared within the room (but namespaced to avoid collisions).</li>
+        <li><strong>Google Sheets credentials:</strong> API key and Sheet ID are stored in browser <strong>localStorage</strong> under <code>macrohero.gsheet.apiKey</code> and <code>macrohero.gsheet.sheetId</code>. The config modal enforces that credentials are provided when the configuration references Google Sheets.</li>
+        <li><strong>Local integration storage:</strong> The `Local` integration (`Local.set` / `Local.value`) stores data in-memory for the current session. It does <em>not</em> persist across page reloads by itself — to persist values, bind them to editable UI variables (inputs/counters/checkboxes), which are saved to room metadata.</li>
+        <li><strong>Notes & warnings:</strong> Room metadata is shared among extensions and players; MacroHero namespaces saved values by player ID to avoid accidental overwrites and saves only a compact set of editable values to keep metadata small.</li>
+      </ul>
+
+      <h3>Full Example: Copy-Pasteable Page</h3>
+      <pre><code class="language-json">{
+    "label": "Health Controls",
+    "variables": {
+      "token": { "expression": "'token-id-here'" },
+      "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
+      "maxHp": { "expression": "OwlTrackers.getMax({token}, 'HP')" },
+      "revives": { "expression": "3", "min": 0, "max": 10 }
+    },
+    "layout": [
+      { "type": "title", "text": "HP Controls" },
+      { "type": "value", "var": "hp", "label": "Current HP" },
+      { "type": "value", "var": "maxHp", "label": "Max HP" },
+      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue({token}, 'HP', -5)"] },
+      { "type": "button", "label": "Heal to Max", "commands": ["OwlTrackers.setValue({token}, 'HP', {maxHp})"] },
+      { "type": "title", "text": "Revives" },
+      { "type": "value", "var": "revives", "label": "Revives Left" },
+      { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 }
+    ]
+  }</code></pre>
+  <p><strong>Notes:</strong> the <code>revives</code> variable includes <code>min</code>/<code>max</code> so the counter will stay within 0–10, and <code>step</code> is set to <code>1</code> (optional).</p>
+      <p>Paste this into your configuration (via the visual editor or JSON import) and adjust variable names as needed.</p>
+
+
+
+
+      <h3>UI Items (Layout)</h3>
+      <p>Each page's <code>layout</code> array defines the UI. Common item types:</p>
+      <ul>
+        <li><strong>title</strong>: Section heading. <code>{ "type": "title", "text": "Section Name" }</code></li>
+        <li><strong>text</strong>: Paragraph or note. <code>{ "type": "text", "content": "Some info" }</code></li>
+        <li><strong>divider</strong>: Horizontal line. <code>{ "type": "divider" }</code></li>
+        <li><strong>value</strong>: Display a variable. <code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
+        <li><strong>input</strong>: Text input. <code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
+        <li><strong>checkbox</strong>: Checkbox input. <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
+        <li><strong>counter</strong>: Number input. <code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
+        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] }</code></li>
+        <li><strong>row</strong>: Horizontal group. <code>{ "type": "row", "children": [ ... ] }</code></li>
+        <li><strong>stack</strong>: Vertical group. <code>{ "type": "stack", "children": [ ... ] }</code></li>
+      </ul>
+
+      <h3>Commands</h3>
+      <p>Buttons and some other items use <code>commands</code> (array of strings) to perform actions. Commands can:</p>
+      <ul>
+        <li>Call integrations: <code>OwlTrackers.addValue({token}, 'HP', 10)</code></li>
+        <li>Use variables: <code>JustDices.roll('Player: ' + {playerName})</code></li>
+        <li>Use logic: <code>{isBandaged} ? ... : ...</code></li>
+      </ul>
+      <h2 id="integrations">Integrations</h2>
+      <ul>
+        <li><strong>Google Sheets</strong>: Read values from a Google Sheet (requires API key and Sheet ID).</li>
+        <li><strong>Local Storage</strong>: Store and retrieve data locally for the current room.</li>
+        <li><strong>Owlbear Rodeo Plugins</strong>: Integrate with other extensions like Conditions Markers, OwlTrackers, StatBubbles, ColoredRings, JustDices, and PrettySordid.</li>
+      </ul>
+
+      <h3>Integrations (Short List)</h3>
+      <ul>
+        <li><strong>GoogleSheets.getValue / getRange</strong>: Read values from a Google Sheet (read-only; requires API key and Sheet ID).</li>
+        <li><strong>Local.value(key, default)</strong>: Read from browser localStorage.</li>
+        <li><strong>OwlTrackers, StatBubbles, ConditionsMarkers, ColoredRings, PrettySordid, JustDices</strong>: See their function names in the default config for examples.</li>
+          <li><strong>getValue(sheetName, range)</strong> → Promise&lt;any&gt;
+            <br>Convenience helper exposed in expressions as <code>GoogleSheets.getValue('Sheet', 'A1')</code> (the Integrations Manager calls the module-level implementation using the configured client).</li>
+          <li><strong>getRange(sheetName, range)</strong> → Promise&lt;Array&gt;
+            <br>Convenience helper exposed in expressions as <code>GoogleSheets.getRange('Sheet', 'A1:B2')</code>. The module also provides lower-level helpers <code>getValue(client, sheetName, range)</code> and <code>getRange(client, sheetName, range)</code> if you access the module directly in code.</li>
+      </ul>
+      <p>To use Google Sheets, set your API key and Sheet ID in the configuration modal.</p>
+
+      <h3 id="integrations-api">Integrations API Reference</h3>
+      <p>This section documents all public functions exposed by MacroHero's built-in integrations. Use these functions in variable <code>expression</code>s and in <code>commands</code>. Examples show how to call them from configuration JSON (expressions) or commands.</p>
+
+      <h4>Local</h4>
+      <ul>
+        <li><strong>value(key, default)</strong> → returns any
+          <br>Read a local value. Example: <code>Local.value('playerName', 'Unknown')</code>
+        </li>
+        <li><strong>set(key, value)</strong> → returns value
+          <br>Store a value locally. Example command: <code>Local.set('playerName', 'Xalithra')</code>
+        </li>
+        <li><strong>clear()</strong> → void
+          <br>Clear all local keys stored by MacroHero.</li>
+        <li><strong>keys()</strong> → Array
+          <br>Return stored keys array.</li>
+      </ul>
+
+      <h4>GoogleSheets</h4>
+      <ul>
+        <li><strong>getValue(sheetName, range)</strong> → Promise&lt;any&gt;
+          <br>Convenience helper exposed in expressions: <code>GoogleSheets.getValue('Sheet1', 'A1')</code> (returns a single cell when possible).</li>
+        <li><strong>getRange(sheetName, range)</strong> → Promise&lt;Array&gt;
+          <br>Convenience helper exposed in expressions: <code>GoogleSheets.getRange('Sheet1', 'A1:B4')</code>. Returns a 2D array (or a flattened 1D array for single-column ranges).</li>
+        <li><strong>Note:</strong> Due to API restrictions, GoogleSheets integration is read-only.</li>
+      </ul>
+
+      <h4>JustDices</h4>
+      <ul>
+        <li><strong>roll(expression, options|hidden)</strong> → Promise&lt;number&gt;
+          <br>Roll dice using JustDices and return the total. Example: <code>JustDices.roll('1d20+5')</code></li>
+        <li><strong>getRollObject(expression, options|hidden)</strong> → Promise&lt;Object&gt;
+          <br>Return full roll details (rolls, total, raw data).</li>
+        <li><strong>rollSilent(expression, hidden)</strong> → Promise&lt;number&gt;</li>
+        <li><strong>getRollObjectSilent(expression, hidden)</strong> → Promise&lt;Object&gt;</li>
+        <li><strong>options</strong>: boolean (hidden)</code>.</li>
+      </ul>
+
+      <h4>OwlTrackers</h4>
+      <ul>
+        <li><strong>getValue(tokenId, trackerName)</strong> → Promise&lt;number|null&gt;
+          <br>Read a tracker value from a token (e.g., HP).</li>
+        <li><strong>getMax(tokenId, trackerName)</strong> → Promise&lt;number|null&gt;</li>
+        <li><strong>setValue(tokenId, trackerName, value)</strong> → Promise&lt;void&gt;</li>
+        <li><strong>addValue(tokenId, trackerName, delta)</strong> → Promise&lt;void&gt;
+          <br>Add (or subtract if negative) a value to the tracker.</li>
+      </ul>
+
+      <h4>StatBubbles</h4>
+      <ul>
+        <li><strong>getValue(tokenId, statName)</strong> → Promise&lt;number|null&gt;</li>
+        <li><strong>setValue(tokenId, statName, value)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>addValue(tokenId, statName, amount)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>getAllStats(tokenId)</strong> → Promise&lt;Object|null&gt;</li>
+        <li><strong>getHealthPercentage(tokenId)</strong> → Promise&lt;number|null&gt;</li>
+        <li><strong>heal(tokenId, amount)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>damage(tokenId, amount)</strong> → Promise&lt;boolean&gt;</li>
+      </ul>
+
+      <h4>ConditionsMarkers</h4>
+      <ul>
+        <li><strong>getConditions(itemId)</strong> → Promise&lt;Array&gt;
+          <br>Return an array of condition objects applied to an item (token).</li>
+        <li><strong>addCondition(itemId, conditionName, value?)</strong> → Promise&lt;any&gt;
+          <br>Add a condition; value is optional and may be a number/string/boolean.</li>
+        <li><strong>removeCondition(itemId, conditionName)</strong> → Promise&lt;any&gt;</li>
+        <li><strong>toggleCondition(itemId, conditionName)</strong> → Promise&lt;void&gt;</li>
+        <li><strong>clearAllConditions(itemId)</strong> → Promise&lt;void&gt;</li>
+        <li><strong>hasCondition(itemId, conditionName)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>getValue(tokenId, conditionName)</strong> → Promise&lt;number|null&gt;
+          <br>Read numeric value stored on the textual label of a condition marker (if present).</li>
+      </ul>
+
+      <h4>ColoredRings</h4>
+      <ul>
+        <li><strong>getRings(tokenId)</strong> → Promise&lt;Array&lt;string&gt;&gt;
+          <br>Returns an array of color hex strings for rings attached to the token.</li>
+        <li><strong>hasRing(tokenId, color?)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>addRing(tokenId, color)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>removeRing(tokenId, color)</strong> → Promise&lt;boolean&gt;</li>
+      </ul>
+
+      <h4>PrettySordid</h4>
+      <ul>
+        <li><strong>hasInitiative(itemOrId)</strong> → boolean
+          <br>Sync-safe check (works if you have the item object; otherwise use the async helpers below).</li>
+        <li><strong>getInitiativeCount(itemOrId)</strong> → Promise&lt;number&gt;</li>
+        <li><strong>isActiveTurn(itemOrId)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>setInitiativeCount(itemOrId, count)</strong> → Promise&lt;void&gt;
+          <br>Accepts either an item object or token id string.</li>
+      </ul>
+
+      <h4>Integrations Manager</h4>
+      <ul>
+        <li><strong>initializeIntegrations(config)</strong> → void
+          <br>Initialize integrations (e.g., Google Sheets) with a config object (<code>{gsheet: {apiKey, sheetId}}</code> or direct gsheet config).</li>
+        <li><strong>getIntegrationsContext()</strong> → Object
+          <br>Returns the full integrations context object suitable for expression evaluation (used internally but useful for advanced users).</li>
+        <li><strong>getIntegration(name)</strong> → integration instance
+          <br>Access a specific integration instance (e.g., <code>getIntegration('local')</code>).</li>
+      </ul>
+
+      <h3>Example: Full Page</h3>
+      <p>Here is a full, copy-pasteable page example that demonstrates variables, expressions, counters with min/max, inputs, and commands that call integrations (GoogleSheets, OwlTrackers, JustDices).</p>
+      <pre><code class="language-json">{
+  "label": "Character Demo",
+  "variables": {
+    "token": { "expression": "'your-token-id-here'" },
+    "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
+    "maxHp": { "expression": "OwlTrackers.getMax({token}, 'HP')" },
+    "name": { "expression": "GoogleSheets.getValue('Roster', 'A2')" },
+    "revives": { "expression": "3", "min": 0, "max": 5 }
+  },
+  "layout": [
+    { "type": "title", "text": "Character Demo" },
+    { "type": "value", "var": "name", "label": "Name" },
+    { "type": "row", "children": [
+      { "type": "value", "var": "hp", "label": "HP" },
+      { "type": "value", "var": "maxHp", "label": "Max" }
+    ]},
+    { "type": "row", "children": [
+      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue({token}, 'HP', -5)"] }
+    ]},
+    { "type": "divider" },
+    { "type": "value", "var": "revives", "label": "Revives" },
+    { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 },
+    { "type": "input", "var": "note", "label": "Note", "placeholder": "Notes..." },
+    { "type": "button", "label": "Quick Attack", "commands": ["JustDices.roll('1d20 + {hp} % 5')"] }
+  ]
+}</code></pre>
+      <p>Paste this page JSON into the editor (or import it). Replace <code>'your-token-id-here'</code> with a real token id. The <code>revives</code> counter respects <code>min</code>/<code>max</code>, and <code>step</code> sets the increment.</p>
+
+      <h3>Stack Item & Multi-Command Button Example</h3>
+      <p>Use <code>stack</code> to group items vertically. Buttons accept multiple commands; they run in order. Here's a minimal example:</p>
+      <pre><code class="language-json">{
+  "label": "Stack + MultiCmd",
+  "variables": {
+    "token": { "expression": "'your-token-id-here'" },
+    "revives": { "expression": "2", "min": 0, "max": 5 }
+  },
+  "layout": [
+    { "type": "title", "text": "Stack & Multi-Command" },
+    { "type": "stack", "children": [
+      { "type": "value", "var": "revives", "label": "Revives Left" },
+      { "type": "input", "var": "note", "label": "Note" },
+      { "type": "button", "label": "Use Revive & Roll",
+        "commands": [
+          "addValue('revives', -1)",
+          "OwlTrackers.addValue({token}, 'HP', 10)",
+          "JustDices.roll('1d6')"
+        ]
+      }
+    ]}
+  ]
+}</code></pre>
+      <p>When the button is clicked it decrements <code>revives</code>, heals the token's HP by 10, then rolls a d6 and returns the result.</p>
+
+      <h2 id="advanced">Advanced Usage</h2>
+      <p>Advanced usage focuses on combining variables, expressions and integrations to build responsive and robust UI pages.</p>
+      <ul>
+        <li><strong>Lazy variable resolution:</strong> Commands only resolve variables they need for execution — structure expressions to minimize unnecessary work.</li>
+        <li><strong>Use expressions for computed state:</strong> Keep UI items declarative; compute display values (e.g., derived stats) in <code>variables</code> not in button commands.</li>
+        <li><strong>Respect min/max:</strong> Add <code>min</code>/<code>max</code> to numeric variables when you display them with <code>counter</code> items.</li>
+        <li><strong>Async-safe commands:</strong> The executor auto-awaits async integration calls (e.g., OwlTrackers, GoogleSheets) — write commands naturally, but test any complex sequencing.</li>
+        <li><strong>Permissions and safety:</strong> Treat third-party integration credentials (Google API keys) as secrets and store them only via the config modal.</li>
+      </ul>
+
+      <h3>Expressions & Debugging</h3>
+      <ul>
+        <li>Test expressions directly in the visual editor; use simple sub-expressions to isolate errors.</li>
+        <li>Prefer explicit numeric casts (e.g., <code>Number()</code>, <code>floor()</code>) when mixing strings and numbers.</li>
+        <li>If an expression returns unexpected values, check <code>_resolved</code> values in your exported config to inspect resolved results.</li>
+        <li>Use temporary <code>value</code> items to surface intermediate variables for debugging.</li>
+      </ul>
+
+      <h3>Async & Commands</h3>
+      <ul>
+        <li>Buttons can contain multiple commands — they run in order; functions returning promises are awaited automatically.</li>
+        <li>When using integrations inside expressions, expect network latency; keep UI responsive and avoid blocking long-running calls in critical UI paths.</li>
+        <li>Use <code>setValue()</code> and <code>addValue()</code> inside commands to modify page variables safely — those changes will trigger dependent variable recalculation.</li>
+      </ul>
+
+      <h3>Tips & Best Practices</h3>
+      <ul>
+        <li><strong>Modular pages:</strong> Split unrelated macros across pages to improve discoverability and reduce per-page variable complexity.</li>
+        <li><strong>Name variables clearly:</strong> Use descriptive variable names and keep expressions short and composed from smaller helper variables.</li>
+        <li><strong>Reuse integrations:</strong> Use the Integrations Manager helpers (e.g., <code>GoogleSheets.getValue</code>) instead of calling low-level APIs yourself.</li>
+        <li><strong>Backup:</strong> Export your configuration regularly via Import/Export to keep a backup of working setups.</li>
+      </ul>
+
+      <h2 id="troubleshooting">Troubleshooting & Common Issues</h2>
+      <h4>Quick fixes</h4>
+      <ul>
+        <li><strong>UI not updating:</strong> Click <strong>Reload Variables</strong>. If still stale, reload the extension or the page and check the browser console for errors.</li>
+        <li><strong>Expression errors:</strong> Simplify the expression into smaller parts and validate each; ensure referenced variables exist.</li>
+        <li><strong>Commands failing:</strong> Inspect the console for stack traces; add a temporary <code>button</code> that runs a simple diagnostic command (e.g., <code>JustDices.roll('1d6')</code>).</li>
+      </ul>
+
+      <h4>Google Sheets</h4>
+      <ul>
+        <li><strong>Credentials:</strong> Ensure API key and Sheet ID are set in the config modal; check browser console for GSheets API errors.</li>
+        <li><strong>Ranges:</strong> Use the correct sheet name and A1-style ranges; when reading single cells, prefer <code>GoogleSheets.getValue('Sheet', 'A1')</code>.</li>
+        <li><strong>Parsing numbers:</strong> Localized numeric strings are parsed automatically by the library, but if values are text in sheets ensure formatting is consistent.</li>
+      </ul>
+
+      <h4>Common mistakes</h4>
+      <ul>
+        <li>Using curly variable syntax incorrectly inside dice strings — prefer wrapping computed sub-expressions in <code>{{...}}</code> or test them separately.</li>
+        <li>Referencing missing variables — these evaluate to <code>0</code> in math contexts, which can mask bugs; prefer explicit guards.</li>
+        <li>Forgetting to pass token IDs to integration calls — many functions require a valid token id; use a page-level <code>token</code> variable.</li>
+      </ul>
+
+      <h2 id="support">Support</h2>
+      <p>For questions, bug reports, or feature requests, visit the <a href="https://github.com/Sewef/MacroHero" target="_blank">MacroHero GitHub repository</a>.</p>
+  </div>
+  <footer>
+    &copy; 2025 MacroHero &mdash; Owlbear Extension Documentation
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>

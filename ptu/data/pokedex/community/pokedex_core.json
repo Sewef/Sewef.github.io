@@ -326952,14 +326952,6 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Level": "Evo",
-          "Move": "Kowtow Cleave",
-          "Type": "Dark",
-          "Tags": [
-            "Stab"
-          ]
-        },
-        {
           "Level": 1,
           "Move": "Scratch",
           "Type": "Normal"

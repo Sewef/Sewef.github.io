@@ -258153,10 +258153,6 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
-          "moveName": "Kowtow Cleave",
-          "learnedLevel": 1
-        },
-        {
           "moveName": "Scratch",
           "learnedLevel": 1
         },

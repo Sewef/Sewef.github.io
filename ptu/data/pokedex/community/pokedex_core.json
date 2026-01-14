@@ -94662,7 +94662,8 @@
       "Type": [
         "Grass"
       ],
-      "Basic Ability 1": "Healer",
+      "Basic Ability 1": "Sol Veil",
+      "Basic Ability 2": "Healer",
       "Adv Ability 1": "Chlorophyll",
       "Adv Ability 2": "Natural Cure",
       "High Ability": "Life Force"

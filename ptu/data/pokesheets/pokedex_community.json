@@ -142515,6 +142515,13 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
+          "name": "Sol Veil",
+          "effect": "The user gains +1 Evasion. This is increased to +2 Evasion while in Sunny Weather or on grassy terrain. While in Sunny Weather, the user gains +5 Damage Reduction.",
+          "trigger": null,
+          "target": null,
+          "frequency": "Static"
+        },
+        {
           "name": "Healer",
           "effect": "The target is cured of all Status conditions.",
           "trigger": null,
@@ -142580,6 +142587,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
+      "Sol Veil",
       "Healer"
     ],
     "advancedAbilities": [

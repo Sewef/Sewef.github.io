@@ -42,6 +42,16 @@
       padding: 1rem 0;
       border-top: 1px solid #eee8d5;
     }
+    .hero-logo {
+      max-width: 200px;
+      margin: 2rem auto;
+      display: block;
+    }
+    .copy-btn {
+      margin-left: 0.5rem;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.875rem;
+    }
   </style>
 </head>
 <body>
@@ -51,18 +61,21 @@
     </div>
   </nav>
   <div class="container">
+    <img src="logo.png" alt="MacroHero Logo" class="hero-logo">
     <h1>MacroHero Owlbear Extension Documentation</h1>
       <p class="lead">Welcome to the official user guide for <strong>MacroHero</strong> — the all-in-one macro and automation extension for Owlbear Rodeo. This documentation explains how to use MacroHero's features, visual editor, items, commands, and integrations to supercharge your virtual tabletop experience.</p>
       
       <div class="alert alert-info" role="alert">
         <h4 class="alert-heading">🔧 Pure JavaScript Scripting</h4>
-        <p class="mb-0">MacroHero uses <strong>pure JavaScript</strong> for all expressions and commands. Variables are referenced directly by name (no special syntax), and you have full access to JavaScript operators, functions, and control structures. All integration functions return standard JavaScript values or Promises.</p>
+        <p class="mb-0">MacroHero uses <strong>pure JavaScript</strong> for all expressions and commands. Variables are referenced directly by name (no special syntax), and you have full access to JavaScript operators, functions, and control structures. All integration functions are async and automatically awaited — use <code>await</code> when calling them in commands.</p>
       </div>
       <hr>
 
       <h2>Getting Started</h2>
       <ol>
-        <li><strong>Install MacroHero</strong>: Add the extension manifest URL <a href="https://macrohero.onrender.com/manifest.json" target="_blank">https://macrohero.onrender.com/manifest.json</a> using Owlbear Rodeo's "Install from manifest" option.</li>
+        <li><strong>Install MacroHero</strong>: Add the extension manifest URL <code id="manifestUrl">https://macrohero.onrender.com/manifest.json</code>
+          <button class="btn btn-sm btn-outline-secondary copy-btn" onclick="navigator.clipboard.writeText('https://macrohero.onrender.com/manifest.json'); this.textContent='Copied!'; setTimeout(() => this.textContent='Copy', 1500)">Copy</button>
+          using Owlbear Rodeo's "Install from manifest" option.</li>
         <li><strong>Enable MacroHero</strong> in your Owlbear Rodeo session.</li>
         <li><strong>Open MacroHero</strong> from the sidebar to access the main interface.</li>
       </ol>
@@ -78,7 +91,7 @@
             <li><strong>Add Item</strong>: pick a type (value, input, checkbox, counter, button, text, title). Configure its <strong>label</strong>, link it to a <strong>var</strong> (when applicable), and add <strong>commands</strong> arrays to buttons.</li>
           </ul>
         </li>
-        <li><strong>Commands</strong>: buttons accept an array of command strings — they execute sequentially when clicked. Commands are written in <strong>pure JavaScript</strong>: call integration functions, reference variables by name, use operators, conditionals, and any standard JavaScript syntax.</li>
+        <li><strong>Commands</strong>: buttons accept an array of command strings — they execute sequentially when clicked. Commands are written in <strong>pure JavaScript</strong> and run in an async context. Use <code>await</code> when calling integration functions (e.g., <code>await OwlTrackers.addValue(token, 'HP', 10)</code>), reference variables by name, use operators, conditionals, and any standard JavaScript syntax.</li>
         <li><strong>Counter items</strong> respect the variable's <code>min</code>/<code>max</code> and accept an optional <code>step</code> setting (default 1).</li>
         <li><strong>Save / Cancel</strong>: Use the modal controls to save changes (persisted per-room) or cancel to discard edits. Changes are written to room metadata/local storage as appropriate.</li>
         <li><strong>Validation & Debug</strong>: the editor validates syntax where possible; use temporary value items to surface intermediate variables and test expressions before using them in commands.</li>
@@ -155,10 +168,10 @@
       </ul>
 
       <h3>Writing Commands & Using Integrations</h3>
-      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Each command is a <strong>JavaScript expression</strong> that executes when the button is clicked. Commands can:</p>
+      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Each command is a <strong>JavaScript expression</strong> that executes in an async context when the button is clicked. Commands can:</p>
       <ul>
-        <li>Call integrations: <code>OwlTrackers.addValue(token, 'HP', 10)</code></li>
-        <li>Use variables: <code>JustDices.roll('Player: ' + playerName)</code></li>
+        <li>Call integrations (use <code>await</code>): <code>await OwlTrackers.addValue(token, 'HP', 10)</code></li>
+        <li>Use variables: <code>await JustDices.roll('Player: ' + playerName)</code></li>
         <li>Use JavaScript logic: <code>isBandaged ? ... : ...</code></li>
         <li>Modify variables: <code>revives = revives - 1</code></li>
         <li>Use any JavaScript syntax: arithmetic, string manipulation, function calls, etc.</li>
@@ -167,7 +180,7 @@
     "type": "button",
     "label": "Heal if Bandaged",
     "commands": [
-      "isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5)"
+      "await (isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5))"
     ]
   }</code></pre>
       <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionsMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
@@ -217,9 +230,9 @@
       { "type": "title", "text": "HP Controls" },
       { "type": "value", "var": "hp", "label": "Current HP" },
       { "type": "value", "var": "maxHp", "label": "Max HP" },
-      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue(token, 'HP', -5)"] },
-      { "type": "button", "label": "Heal to Max", "commands": ["OwlTrackers.setValue(token, 'HP', maxHp)"] },
+      { "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["await OwlTrackers.addValue(token, 'HP', -5)"] },
+      { "type": "button", "label": "Heal to Max", "commands": ["await OwlTrackers.setValue(token, 'HP', maxHp)"] },
       { "type": "title", "text": "Revives" },
       { "type": "value", "var": "revives", "label": "Revives Left" },
       { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 }
@@ -241,39 +254,32 @@
         <li><strong>input</strong>: Text input. <code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
         <li><strong>checkbox</strong>: Checkbox input. <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
         <li><strong>counter</strong>: Number input. <code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
-        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
+        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
         <li><strong>row</strong>: Horizontal group. <code>{ "type": "row", "children": [ ... ] }</code></li>
         <li><strong>stack</strong>: Vertical group. <code>{ "type": "stack", "children": [ ... ] }</code></li>
       </ul>
 
       <h3>Commands</h3>
-      <p>Buttons and some other items use <code>commands</code> (array of strings) to perform actions. Commands can:</p>
+      <p>Buttons and some other items use <code>commands</code> (array of strings) to perform actions. Commands run in an async context and can:</p>
       <ul>
-        <li>Call integrations: <code>OwlTrackers.addValue(token, 'HP', 10)</code></li>
-        <li>Use variables: <code>JustDices.roll('Player: ' + playerName)</code></li>
+        <li>Call integrations (use <code>await</code>): <code>await OwlTrackers.addValue(token, 'HP', 10)</code></li>
+        <li>Use variables: <code>await JustDices.roll('Player: ' + playerName)</code></li>
         <li>Use logic: <code>isBandaged ? ... : ...</code></li>
       </ul>
       <h2 id="integrations">Integrations</h2>
+      <p>MacroHero provides integrations with popular Owlbear Rodeo extensions and external services. All integration functions are async and should be used with <code>await</code> in commands.</p>
       <ul>
-        <li><strong>Google Sheets</strong>: Read values from a Google Sheet (requires API key and Sheet ID).</li>
-        <li><strong>Local Storage</strong>: Store and retrieve data locally for the current room.</li>
-        <li><strong>Owlbear Rodeo Plugins</strong>: Integrate with other extensions like Conditions Markers, OwlTrackers, StatBubbles, ColoredRings, JustDices, PrettySordid, and Weather.</li>
-        <li><strong>Scene & Token Helpers</strong>: Utility functions for working with scene metadata, tokens, attachments, and scene elements.</li>
+        <li><strong>GoogleSheets</strong>: Read values from a Google Sheet (requires API key and Sheet ID).</li>
+        <li><strong>Local</strong>: Store and retrieve data locally in browser storage.</li>
+        <li><strong>OwlTrackers</strong>: Read and modify HP trackers on tokens.</li>
+        <li><strong>StatBubbles</strong>: Manage token stats (HP, AC, etc.).</li>
+        <li><strong>ConditionsMarkers</strong>: Add, remove, and check conditions on tokens.</li>
+        <li><strong>ColoredRings</strong>: Manage colored rings around tokens.</li>
+        <li><strong>JustDices</strong>: Roll dice and display results.</li>
+        <li><strong>PrettySordid</strong>: Manage initiative and turn order.</li>
+        <li><strong>Weather</strong>: Control weather effects on maps.</li>
       </ul>
-
-      <h3>Integrations (Short List)</h3>
-      <ul>
-        <li><strong>GoogleSheets.getValue / getRange</strong>: Read values from a Google Sheet (read-only; requires API key and Sheet ID).</li>
-        <li><strong>Local.value(key, default)</strong>: Read from browser localStorage.</li>
-        <li><strong>OwlTrackers, StatBubbles, ConditionsMarkers, ColoredRings, PrettySordid, JustDices</strong>: Plugin integrations for HP tracking, conditions, rings, dice rolls, and initiative.</li>
-        <li><strong>Weather</strong>: Control weather effects on maps (requires weather-extended extension).</li>
-        <li><strong>sceneHelpers, tokenHelpers, playerMetadata, sceneMetadata, tokenMetadata, tokenAttachments</strong>: Utility functions for scene manipulation and metadata management.</li>
-          <li><strong>getValue(sheetName, range)</strong> → Promise&lt;any&gt;
-            <br>Convenience helper exposed in expressions as <code>GoogleSheets.getValue('Sheet', 'A1')</code> (the Integrations Manager calls the module-level implementation using the configured client).</li>
-          <li><strong>getRange(sheetName, range)</strong> → Promise&lt;Array&gt;
-            <br>Convenience helper exposed in expressions as <code>GoogleSheets.getRange('Sheet', 'A1:B2')</code>. The module also provides lower-level helpers <code>getValue(client, sheetName, range)</code> and <code>getRange(client, sheetName, range)</code> if you access the module directly in code.</li>
-      </ul>
-      <p>To use Google Sheets, set your API key and Sheet ID in the configuration modal.</p>
+      <p>See the detailed API reference below for all available functions.</p>
 
       <h3 id="integrations-api">Integrations API Reference</h3>
       <p>This section documents all public functions exposed by MacroHero's built-in integrations. Use these functions in variable <code>expression</code>s and in <code>commands</code>. Examples show how to call them from configuration JSON (expressions) or commands.</p>
@@ -385,35 +391,37 @@
       </ul>
 
       <h4>Scene & Token Helpers</h4>
-      <p>Utility functions for working with scene elements, tokens, and metadata.</p>
+      <p>Advanced utility functions for scene manipulation. These are helper modules in <code>/commands</code>, not integrations.</p>
       <ul>
-        <li><strong>getMapIdFromToken(tokenId)</strong> → Promise&lt;string|null&gt;
+        <li><strong>sceneHelpers.getMapIdFromToken(tokenId)</strong> → Promise&lt;string|null&gt;
           <br>Find which map a token is positioned on. Returns map ID or null.</li>
-        <li><strong>createToken(params)</strong> → Promise&lt;string&gt;
-          <br>Create a single token. Params: <code>{url, name?, position?, scale?, layer?, ...}</code>
-          <br>Example: <code>createToken({url: 'https://...', position: {x: 100, y: 100}})</code></li>
-        <li><strong>createTokens(tokensArray)</strong> → Promise&lt;string[]&gt;
-          <br>Create multiple tokens at once. Returns array of created token IDs.</li>
+        <li><strong>sceneHelpers.createToken(params)</strong> → Promise&lt;string&gt;
+          <br>Create a single token. Params: <code>{url, name?, position?, scale?, layer?, ...}</code></li>
+        <li><strong>sceneHelpers.createTokens(tokensArray)</strong> → Promise&lt;string[]&gt;
+          <br>Create multiple tokens at once.</li>
+        <li><strong>tokenHelpers</strong>: Additional token manipulation functions.</li>
       </ul>
+      <p><em>Note: These are exposed directly in the expression context for advanced users. See source code for complete API.</em></p>
 
-      <h4>Metadata Modules</h4>
-      <p>Low-level access to Owlbear metadata for advanced use cases.</p>
+      <h4>Metadata Modules (Advanced)</h4>
+      <p>Low-level OBR SDK access for expert users. These modules provide direct metadata manipulation.</p>
       <ul>
-        <li><strong>playerMetadata</strong>: Functions to read/write player-specific metadata.</li>
-        <li><strong>sceneMetadata</strong>: Functions to read/write scene-level metadata.</li>
-        <li><strong>tokenMetadata</strong>: Functions to read/write token metadata.</li>
-        <li><strong>tokenAttachments</strong>: Functions to manage token attachments.</li>
+        <li><strong>playerMetadata</strong>: Read/write player-specific metadata.</li>
+        <li><strong>sceneMetadata</strong>: Read/write scene-level metadata.</li>
+        <li><strong>tokenMetadata</strong>: Read/write token metadata.</li>
+        <li><strong>tokenAttachments</strong>: Manage token attachments.</li>
       </ul>
-      <p><em>Note: These modules expose low-level OBR SDK operations. Refer to the source code for detailed function signatures.</em></p>
+      <p><em>These expose raw OBR SDK operations. Use with caution. Refer to source code for function signatures.</em></p>
 
-      <h4>Integrations Manager</h4>
+      <h4>Integrations Manager (Advanced)</h4>
+      <p>Low-level manager functions for integration initialization. Most users won't need these.</p>
       <ul>
         <li><strong>initializeIntegrations(config)</strong> → void
-          <br>Initialize integrations (e.g., Google Sheets) with a config object (<code>{gsheet: {apiKey, sheetId}}</code> or direct gsheet config).</li>
+          <br>Initialize integrations with a config object. Called automatically by MacroHero.</li>
         <li><strong>getIntegrationsContext()</strong> → Object
-          <br>Returns the full integrations context object suitable for expression evaluation (used internally but useful for advanced users).</li>
+          <br>Returns the full integrations context (used internally).</li>
         <li><strong>getIntegration(name)</strong> → integration instance
-          <br>Access a specific integration instance (e.g., <code>getIntegration('local')</code>).</li>
+          <br>Access a specific integration instance directly.</li>
       </ul>
 
       <h3>Example: Full Page with Weather</h3>
@@ -436,21 +444,21 @@
       { "type": "value", "var": "maxHp", "label": "Max" }
     ]},
     { "type": "row", "children": [
-      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue(token, 'HP', -5)"] }
+      { "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["await OwlTrackers.addValue(token, 'HP', -5)"] }
     ]},
     { "type": "divider" },
     { "type": "title", "text": "Weather Controls" },
     { "type": "row", "children": [
-      { "type": "button", "label": "Snow", "commands": ["Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})"] },
-      { "type": "button", "label": "Rain", "commands": ["Weather.setWeather(mapId, {type: 'RAIN', speed: 3, density: 4})"] },
-      { "type": "button", "label": "Remove", "commands": ["Weather.removeWeather(mapId)"] }
+      { "type": "button", "label": "Snow", "commands": ["await Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})"] },
+      { "type": "button", "label": "Rain", "commands": ["await Weather.setWeather(mapId, {type: 'RAIN', speed: 3, density: 4})"] },
+      { "type": "button", "label": "Remove", "commands": ["await Weather.removeWeather(mapId)"] }
     ]},
     { "type": "divider" },
     { "type": "value", "var": "revives", "label": "Revives" },
     { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 },
     { "type": "input", "var": "note", "label": "Note", "placeholder": "Notes..." },
-    { "type": "button", "label": "Quick Attack", "commands": ["JustDices.roll('1d20 + ' + (hp % 5))"] }
+    { "type": "button", "label": "Quick Attack", "commands": ["await JustDices.roll('1d20 + ' + (hp % 5))"] }
   ]
 }</code></pre>
       <p>Paste this page JSON into the editor (or import it). Replace <code>'your-token-id-here'</code> with a real token id. The <code>revives</code> counter respects <code>min</code>/<code>max</code>, <code>step</code> sets the increment, and weather buttons demonstrate the Weather integration.</p>
@@ -471,8 +479,8 @@
       { "type": "button", "label": "Use Revive & Roll",
         "commands": [
           "revives = revives - 1",
-          "OwlTrackers.addValue(token, 'HP', 10)",
-          "JustDices.roll('1d6')"
+          "await OwlTrackers.addValue(token, 'HP', 10)",
+          "await JustDices.roll('1d6')"
         ]
       }
     ]}
@@ -500,7 +508,8 @@
 
       <h3>Async & Commands</h3>
       <ul>
-        <li>Buttons can contain multiple commands — they run in order; functions returning promises are awaited automatically.</li>
+        <li>All commands run in an async context. Use <code>await</code> when calling integration functions to ensure they complete before the next command executes.</li>
+        <li>Buttons can contain multiple commands — they run in order; each command is awaited automatically by the executor.</li>
         <li>When using integrations inside expressions, expect network latency; keep UI responsive and avoid blocking long-running calls in critical UI paths.</li>
         <li>Use <code>setValue()</code> and <code>addValue()</code> inside commands to modify page variables safely — those changes will trigger dependent variable recalculation.</li>
       </ul>

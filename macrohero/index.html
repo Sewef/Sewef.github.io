@@ -43,9 +43,10 @@
       border-top: 1px solid #eee8d5;
     }
     .hero-logo {
-      max-width: 200px;
+      max-width: 64px;  
       margin: 2rem auto;
       display: block;
+      border-radius: 50%;
     }
     .copy-btn {
       margin-left: 0.5rem;
@@ -56,12 +57,12 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
+    <div class="container-fluid d-flex align-items-center" style="justify-content: flex-start;">
+      <img src="logo.png" alt="MacroHero Logo" class="hero-logo me-3" style="margin:0;">
       <a class="navbar-brand" href="#">MacroHero Owlbear Extension</a>
     </div>
   </nav>
   <div class="container">
-    <img src="logo.png" alt="MacroHero Logo" class="hero-logo">
     <h1>MacroHero Owlbear Extension Documentation</h1>
       <p class="lead">Welcome to the official user guide for <strong>MacroHero</strong> — the all-in-one macro and automation extension for Owlbear Rodeo. This documentation explains how to use MacroHero's features, visual editor, items, commands, and integrations to supercharge your virtual tabletop experience.</p>
       
@@ -73,8 +74,7 @@
 
       <h2>Getting Started</h2>
       <ol>
-        <li><strong>Install MacroHero</strong>: Add the extension manifest URL <code id="manifestUrl">https://macrohero.onrender.com/manifest.json</code>
-          <button class="btn btn-sm btn-outline-secondary copy-btn" onclick="navigator.clipboard.writeText('https://macrohero.onrender.com/manifest.json'); this.textContent='Copied!'; setTimeout(() => this.textContent='Copy', 1500)">Copy</button>
+        <li><strong>Install MacroHero</strong>: Add the extension manifest URL <code id="manifestUrl"><a href="https://macrohero.onrender.com/manifest.json" id="manifestLink" onclick="event.preventDefault();">https://macrohero.onrender.com/manifest.json</a></code>
           using Owlbear Rodeo's "Install from manifest" option.</li>
         <li><strong>Enable MacroHero</strong> in your Owlbear Rodeo session.</li>
         <li><strong>Open MacroHero</strong> from the sidebar to access the main interface.</li>
@@ -105,6 +105,36 @@
         <li><strong>Pages</strong>: Add or open pages to edit their variables and layout. Use <strong>+ Add Page</strong> to create new pages.</li>
         <li><strong>Save / Cancel</strong>: Use the buttons in the modal corner to persist or discard changes.</li>
       </ul>
+
+      <h3>Advanced Modal Features</h3>
+      
+      <h4>Token Visualization Tool</h4>
+      <p>The configuration modal includes a <strong>Token Viewer</strong> tab that displays all tokens and items currently in your Owlbear Rodeo scene. This tool helps you:</p>
+      <ul>
+        <li><strong>Find Token IDs</strong>: Quickly copy token IDs for use in your macros and expressions.</li>
+        <li><strong>Browse Scene Items</strong>: View all items organized by layer (CHARACTER, PROP, MOUNT, ATTACHMENT, etc.).</li>
+        <li><strong>Search & Filter</strong>: Search by name or filter by type to find specific tokens.</li>
+        <li><strong>View Metadata</strong>: Expand items to see their full metadata, position, scale, and other properties.</li>
+        <li><strong>Copy IDs</strong>: One-click copy of token IDs to clipboard for easy use in variable expressions like <code>"token": { "expression": "'copied-token-id'" }</code></li>
+      </ul>
+      <p><strong>Usage</strong>: Open the config modal (⚙️) and click the <strong>Token Viewer</strong> tab. Use the search box to find tokens by name, or expand layers to browse all items. Click "Copy ID" next to any token to use it in your configuration.</p>
+
+      <h4>Debug Mode</h4>
+      <p>MacroHero includes a comprehensive <strong>Debug Mode</strong> system that lets you enable detailed console logging for specific modules. This is invaluable for troubleshooting expressions, commands, and integration calls.</p>
+      <ul>
+        <li><strong>Module-level control</strong>: Enable debug logging independently for each module (executor, expressionEvaluator, integrations, etc.).</li>
+        <li><strong>Organized by categories</strong>:
+          <ul>
+            <li><strong>Core Modules</strong>: executor, expressionEvaluator, ui, storage, parser, config, configModal</li>
+            <li><strong>Command Modules</strong>: sceneHelpers, tokenHelpers, metadata modules</li>
+            <li><strong>Integration Modules</strong>: GoogleSheets, OwlTrackers, Weather, JustDices, etc.</li>
+          </ul>
+        </li>
+        <li><strong>Category toggles</strong>: Enable/disable all modules in a category with one click.</li>
+        <li><strong>Persistent settings</strong>: Debug modes are saved to localStorage and persist across sessions.</li>
+        <li><strong>Real-time logging</strong>: When enabled, modules output detailed logs to the browser console showing variable resolution, command execution, API calls, and more.</li>
+      </ul>
+      <p><strong>Usage</strong>: Open the config modal (⚙️), click the <strong>Debug Mode</strong> tab, and check the boxes for modules you want to debug. Open your browser's developer console (F12) to see the logs. Useful for diagnosing why expressions return unexpected values or why commands fail.</p>
 
       <h2 id="items">Items</h2>
       <p>Each macro page can contain several types of items:</p>

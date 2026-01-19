@@ -52,7 +52,12 @@
   </nav>
   <div class="container">
     <h1>MacroHero Owlbear Extension Documentation</h1>
-      <p class="lead">Welcome to the official user guide for <strong>MacroHero</strong> — the all-in-one macro and automation extension for Owlbear Rodeo. This documentation explains how to use MacroHero’s features, visual editor, items, commands, and integrations to supercharge your virtual tabletop experience.</p>
+      <p class="lead">Welcome to the official user guide for <strong>MacroHero</strong> — the all-in-one macro and automation extension for Owlbear Rodeo. This documentation explains how to use MacroHero's features, visual editor, items, commands, and integrations to supercharge your virtual tabletop experience.</p>
+      
+      <div class="alert alert-info" role="alert">
+        <h4 class="alert-heading">🔧 Pure JavaScript Scripting</h4>
+        <p class="mb-0">MacroHero uses <strong>pure JavaScript</strong> for all expressions and commands. Variables are referenced directly by name (no special syntax), and you have full access to JavaScript operators, functions, and control structures. All integration functions return standard JavaScript values or Promises.</p>
+      </div>
       <hr>
 
       <h2>Getting Started</h2>
@@ -73,7 +78,7 @@
             <li><strong>Add Item</strong>: pick a type (value, input, checkbox, counter, button, text, title). Configure its <strong>label</strong>, link it to a <strong>var</strong> (when applicable), and add <strong>commands</strong> arrays to buttons.</li>
           </ul>
         </li>
-        <li><strong>Commands</strong>: buttons accept an array of command strings — they execute sequentially when clicked. Use integration calls, variable references (<code>{var}</code>) and expressions inside commands.</li>
+        <li><strong>Commands</strong>: buttons accept an array of command strings — they execute sequentially when clicked. Commands are written in <strong>pure JavaScript</strong>: call integration functions, reference variables by name, use operators, conditionals, and any standard JavaScript syntax.</li>
         <li><strong>Counter items</strong> respect the variable's <code>min</code>/<code>max</code> and accept an optional <code>step</code> setting (default 1).</li>
         <li><strong>Save / Cancel</strong>: Use the modal controls to save changes (persisted per-room) or cancel to discard edits. Changes are written to room metadata/local storage as appropriate.</li>
         <li><strong>Validation & Debug</strong>: the editor validates syntax where possible; use temporary value items to surface intermediate variables and test expressions before using them in commands.</li>
@@ -83,7 +88,7 @@
       <ul>
         <li><strong>Global Title</strong>: Sets the extension title shown in the header.</li>
         <li><strong>Width / Height</strong>: Canvas size for the extension window.</li>
-        <li><strong>Global Variables</strong>: Add variables that are available to all pages via <code>{var}</code> references.</li>
+        <li><strong>Global Variables</strong>: Add variables that are available to all pages by referencing them directly by name in expressions.</li>
         <li><strong>Pages</strong>: Add or open pages to edit their variables and layout. Use <strong>+ Add Page</strong> to create new pages.</li>
         <li><strong>Save / Cancel</strong>: Use the buttons in the modal corner to persist or discard changes.</li>
       </ul>
@@ -118,19 +123,19 @@
         </ul>
 
         <h3>Defining Variables & Expressions</h3>
-        <p>Variables are defined in the <code>variables</code> section of either <strong>global</strong> or a <strong>page</strong>. Each variable uses an <code>expression</code> string. You can reference other variables, use math, or call integration functions.</p>
+        <p>Variables are defined in the <code>variables</code> section of either <strong>global</strong> or a <strong>page</strong>. Each variable uses an <code>expression</code> string written in <strong>pure JavaScript</strong>. You can reference other variables directly by name, use standard JavaScript math operators, call integration functions, and use any JavaScript syntax (ternary operators, string concatenation, etc.).</p>
         <pre><code class="language-json">{
     "variables": {
-      "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
-      "isBandaged": { "expression": "ConditionsMarkers.hasCondition({token}, 'Bandaged')" },
+      "hp": { "expression": "OwlTrackers.getValue(token, 'HP')" },
+      "isBandaged": { "expression": "ConditionsMarkers.hasCondition(token, 'Bandaged')" },
       "bonus": { "expression": "5" },
-      "total": { "expression": "{hp} + {bonus}" }
+      "total": { "expression": "hp + bonus" }
     }
   }</code></pre>
         <ul>
-          <li>Reference variables with <code>{varName}</code> in expressions and commands.</li>
+          <li>Reference variables directly by name (no curly braces) in expressions and commands.</li>
           <li>Supported functions: <code>GoogleSheets.getValue</code>, <code>Local.value</code>, <code>OwlTrackers.getValue</code>, <code>ConditionsMarkers.hasCondition</code>, etc.</li>
-          <li>Use math and logic: <code>({hp} &gt; 10 ? 'Healthy' : 'Wounded')</code></li>
+          <li>Use math and logic: <code>(hp &gt; 10 ? 'Healthy' : 'Wounded')</code></li>
           <li><strong>Optional numeric bounds</strong>: Variables may include optional <code>min</code> and <code>max</code> numeric properties. These are used by <code>counter</code> UI items (see below) to constrain the input range.</li>
         </ul>
 
@@ -144,23 +149,25 @@
         <li><strong>input</strong>: Text input.<br><code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
         <li><strong>checkbox</strong>: Checkbox input.<br><code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
         <li><strong>counter</strong>: Number input. Use <code>step</code> (optional, default <code>1</code>) to set increment/decrement amount. If the referenced variable defines <code>min</code> and/or <code>max</code>, the counter will respect those bounds.<br><code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
-        <li><strong>button</strong>: Clickable button.<br><code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] }</code></li>
+        <li><strong>button</strong>: Clickable button.<br><code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
         <li><strong>row</strong>: Horizontal group.<br><code>{ "type": "row", "children": [ ... ] }</code></li>
         <li><strong>stack</strong>: Vertical group.<br><code>{ "type": "stack", "children": [ ... ] }</code></li>
       </ul>
 
       <h3>Writing Commands & Using Integrations</h3>
-      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Commands can:</p>
+      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Each command is a <strong>JavaScript expression</strong> that executes when the button is clicked. Commands can:</p>
       <ul>
-        <li>Call integrations: <code>OwlTrackers.addValue({token}, 'HP', 10)</code></li>
-        <li>Use variables: <code>JustDices.roll('Player: ' + {playerName})</code></li>
-        <li>Use logic: <code>{isBandaged} ? ... : ...</code></li>
+        <li>Call integrations: <code>OwlTrackers.addValue(token, 'HP', 10)</code></li>
+        <li>Use variables: <code>JustDices.roll('Player: ' + playerName)</code></li>
+        <li>Use JavaScript logic: <code>isBandaged ? ... : ...</code></li>
+        <li>Modify variables: <code>revives = revives - 1</code></li>
+        <li>Use any JavaScript syntax: arithmetic, string manipulation, function calls, etc.</li>
       </ul>
       <pre><code class="language-json">{
     "type": "button",
     "label": "Heal if Bandaged",
     "commands": [
-      "{isBandaged} ? OwlTrackers.addValue({token}, 'HP', 10) : OwlTrackers.addValue({token}, 'HP', -5)"
+      "isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5)"
     ]
   }</code></pre>
       <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionsMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
@@ -202,17 +209,17 @@
     "label": "Health Controls",
     "variables": {
       "token": { "expression": "'token-id-here'" },
-      "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
-      "maxHp": { "expression": "OwlTrackers.getMax({token}, 'HP')" },
+      "hp": { "expression": "OwlTrackers.getValue(token, 'HP')" },
+      "maxHp": { "expression": "OwlTrackers.getMax(token, 'HP')" },
       "revives": { "expression": "3", "min": 0, "max": 10 }
     },
     "layout": [
       { "type": "title", "text": "HP Controls" },
       { "type": "value", "var": "hp", "label": "Current HP" },
       { "type": "value", "var": "maxHp", "label": "Max HP" },
-      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue({token}, 'HP', -5)"] },
-      { "type": "button", "label": "Heal to Max", "commands": ["OwlTrackers.setValue({token}, 'HP', {maxHp})"] },
+      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue(token, 'HP', -5)"] },
+      { "type": "button", "label": "Heal to Max", "commands": ["OwlTrackers.setValue(token, 'HP', maxHp)"] },
       { "type": "title", "text": "Revives" },
       { "type": "value", "var": "revives", "label": "Revives Left" },
       { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 }
@@ -234,7 +241,7 @@
         <li><strong>input</strong>: Text input. <code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
         <li><strong>checkbox</strong>: Checkbox input. <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
         <li><strong>counter</strong>: Number input. <code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
-        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] }</code></li>
+        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
         <li><strong>row</strong>: Horizontal group. <code>{ "type": "row", "children": [ ... ] }</code></li>
         <li><strong>stack</strong>: Vertical group. <code>{ "type": "stack", "children": [ ... ] }</code></li>
       </ul>
@@ -242,22 +249,25 @@
       <h3>Commands</h3>
       <p>Buttons and some other items use <code>commands</code> (array of strings) to perform actions. Commands can:</p>
       <ul>
-        <li>Call integrations: <code>OwlTrackers.addValue({token}, 'HP', 10)</code></li>
-        <li>Use variables: <code>JustDices.roll('Player: ' + {playerName})</code></li>
-        <li>Use logic: <code>{isBandaged} ? ... : ...</code></li>
+        <li>Call integrations: <code>OwlTrackers.addValue(token, 'HP', 10)</code></li>
+        <li>Use variables: <code>JustDices.roll('Player: ' + playerName)</code></li>
+        <li>Use logic: <code>isBandaged ? ... : ...</code></li>
       </ul>
       <h2 id="integrations">Integrations</h2>
       <ul>
         <li><strong>Google Sheets</strong>: Read values from a Google Sheet (requires API key and Sheet ID).</li>
         <li><strong>Local Storage</strong>: Store and retrieve data locally for the current room.</li>
-        <li><strong>Owlbear Rodeo Plugins</strong>: Integrate with other extensions like Conditions Markers, OwlTrackers, StatBubbles, ColoredRings, JustDices, and PrettySordid.</li>
+        <li><strong>Owlbear Rodeo Plugins</strong>: Integrate with other extensions like Conditions Markers, OwlTrackers, StatBubbles, ColoredRings, JustDices, PrettySordid, and Weather.</li>
+        <li><strong>Scene & Token Helpers</strong>: Utility functions for working with scene metadata, tokens, attachments, and scene elements.</li>
       </ul>
 
       <h3>Integrations (Short List)</h3>
       <ul>
         <li><strong>GoogleSheets.getValue / getRange</strong>: Read values from a Google Sheet (read-only; requires API key and Sheet ID).</li>
         <li><strong>Local.value(key, default)</strong>: Read from browser localStorage.</li>
-        <li><strong>OwlTrackers, StatBubbles, ConditionsMarkers, ColoredRings, PrettySordid, JustDices</strong>: See their function names in the default config for examples.</li>
+        <li><strong>OwlTrackers, StatBubbles, ConditionsMarkers, ColoredRings, PrettySordid, JustDices</strong>: Plugin integrations for HP tracking, conditions, rings, dice rolls, and initiative.</li>
+        <li><strong>Weather</strong>: Control weather effects on maps (requires weather-extended extension).</li>
+        <li><strong>sceneHelpers, tokenHelpers, playerMetadata, sceneMetadata, tokenMetadata, tokenAttachments</strong>: Utility functions for scene manipulation and metadata management.</li>
           <li><strong>getValue(sheetName, range)</strong> → Promise&lt;any&gt;
             <br>Convenience helper exposed in expressions as <code>GoogleSheets.getValue('Sheet', 'A1')</code> (the Integrations Manager calls the module-level implementation using the configured client).</li>
           <li><strong>getRange(sheetName, range)</strong> → Promise&lt;Array&gt;
@@ -356,6 +366,46 @@
           <br>Accepts either an item object or token id string.</li>
       </ul>
 
+      <h4>Weather</h4>
+      <p>Control weather effects on maps. Works with the official Weather extension. For advanced features (ENERGYSTORM, WATER, CURRENT weather types and tint color support), use the <a href="https://github.com/IAmConorNolan/weather-extended" target="_blank">weather-extended</a> fork.</p>
+      <ul>
+        <li><strong>setWeather(mapId, config)</strong> → Promise&lt;void&gt;
+          <br>Create or replace weather on a map. Config: <code>{type, speed?, density?, direction?, tint?}</code>
+          <br>Types: "SNOW", "RAIN", "SAND", "FIRE", "CLOUD", "BLOOM" (all extensions) + "ENERGYSTORM", "WATER", "CURRENT" (weather-extended only)
+          <br>Note: <code>tint</code> parameter requires weather-extended
+          <br>Example: <code>Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})</code></li>
+        <li><strong>updateWeather(mapId, updates)</strong> → Promise&lt;void&gt;
+          <br>Update specific weather properties (e.g., tint, speed). Example: <code>Weather.updateWeather(mapId, {tint: '#88aaff'})</code></li>
+        <li><strong>removeWeather(mapId)</strong> → Promise&lt;void&gt;
+          <br>Remove weather from a map.</li>
+        <li><strong>getWeather(mapId)</strong> → Promise&lt;Object|null&gt;
+          <br>Get current weather config or null.</li>
+        <li><strong>hasWeather(mapId)</strong> → Promise&lt;boolean&gt;
+          <br>Check if map has weather.</li>
+      </ul>
+
+      <h4>Scene & Token Helpers</h4>
+      <p>Utility functions for working with scene elements, tokens, and metadata.</p>
+      <ul>
+        <li><strong>getMapIdFromToken(tokenId)</strong> → Promise&lt;string|null&gt;
+          <br>Find which map a token is positioned on. Returns map ID or null.</li>
+        <li><strong>createToken(params)</strong> → Promise&lt;string&gt;
+          <br>Create a single token. Params: <code>{url, name?, position?, scale?, layer?, ...}</code>
+          <br>Example: <code>createToken({url: 'https://...', position: {x: 100, y: 100}})</code></li>
+        <li><strong>createTokens(tokensArray)</strong> → Promise&lt;string[]&gt;
+          <br>Create multiple tokens at once. Returns array of created token IDs.</li>
+      </ul>
+
+      <h4>Metadata Modules</h4>
+      <p>Low-level access to Owlbear metadata for advanced use cases.</p>
+      <ul>
+        <li><strong>playerMetadata</strong>: Functions to read/write player-specific metadata.</li>
+        <li><strong>sceneMetadata</strong>: Functions to read/write scene-level metadata.</li>
+        <li><strong>tokenMetadata</strong>: Functions to read/write token metadata.</li>
+        <li><strong>tokenAttachments</strong>: Functions to manage token attachments.</li>
+      </ul>
+      <p><em>Note: These modules expose low-level OBR SDK operations. Refer to the source code for detailed function signatures.</em></p>
+
       <h4>Integrations Manager</h4>
       <ul>
         <li><strong>initializeIntegrations(config)</strong> → void
@@ -366,15 +416,16 @@
           <br>Access a specific integration instance (e.g., <code>getIntegration('local')</code>).</li>
       </ul>
 
-      <h3>Example: Full Page</h3>
-      <p>Here is a full, copy-pasteable page example that demonstrates variables, expressions, counters with min/max, inputs, and commands that call integrations (GoogleSheets, OwlTrackers, JustDices).</p>
+      <h3>Example: Full Page with Weather</h3>
+      <p>Here is a full, copy-pasteable page example that demonstrates variables, expressions, counters with min/max, inputs, Weather integration, and commands that call integrations (GoogleSheets, OwlTrackers, JustDices).</p>
       <pre><code class="language-json">{
   "label": "Character Demo",
   "variables": {
     "token": { "expression": "'your-token-id-here'" },
-    "hp": { "expression": "OwlTrackers.getValue({token}, 'HP')" },
-    "maxHp": { "expression": "OwlTrackers.getMax({token}, 'HP')" },
+    "hp": { "expression": "OwlTrackers.getValue(token, 'HP')" },
+    "maxHp": { "expression": "OwlTrackers.getMax(token, 'HP')" },
     "name": { "expression": "GoogleSheets.getValue('Roster', 'A2')" },
+    "mapId": { "expression": "sceneHelpers.getMapIdFromToken(token)" },
     "revives": { "expression": "3", "min": 0, "max": 5 }
   },
   "layout": [
@@ -385,17 +436,24 @@
       { "type": "value", "var": "maxHp", "label": "Max" }
     ]},
     { "type": "row", "children": [
-      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue({token}, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue({token}, 'HP', -5)"] }
+      { "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "commands": ["OwlTrackers.addValue(token, 'HP', -5)"] }
+    ]},
+    { "type": "divider" },
+    { "type": "title", "text": "Weather Controls" },
+    { "type": "row", "children": [
+      { "type": "button", "label": "Snow", "commands": ["Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})"] },
+      { "type": "button", "label": "Rain", "commands": ["Weather.setWeather(mapId, {type: 'RAIN', speed: 3, density: 4})"] },
+      { "type": "button", "label": "Remove", "commands": ["Weather.removeWeather(mapId)"] }
     ]},
     { "type": "divider" },
     { "type": "value", "var": "revives", "label": "Revives" },
     { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 },
     { "type": "input", "var": "note", "label": "Note", "placeholder": "Notes..." },
-    { "type": "button", "label": "Quick Attack", "commands": ["JustDices.roll('1d20 + {hp} % 5')"] }
+    { "type": "button", "label": "Quick Attack", "commands": ["JustDices.roll('1d20 + ' + (hp % 5))"] }
   ]
 }</code></pre>
-      <p>Paste this page JSON into the editor (or import it). Replace <code>'your-token-id-here'</code> with a real token id. The <code>revives</code> counter respects <code>min</code>/<code>max</code>, and <code>step</code> sets the increment.</p>
+      <p>Paste this page JSON into the editor (or import it). Replace <code>'your-token-id-here'</code> with a real token id. The <code>revives</code> counter respects <code>min</code>/<code>max</code>, <code>step</code> sets the increment, and weather buttons demonstrate the Weather integration.</p>
 
       <h3>Stack Item & Multi-Command Button Example</h3>
       <p>Use <code>stack</code> to group items vertically. Buttons accept multiple commands; they run in order. Here's a minimal example:</p>
@@ -412,8 +470,8 @@
       { "type": "input", "var": "note", "label": "Note" },
       { "type": "button", "label": "Use Revive & Roll",
         "commands": [
-          "addValue('revives', -1)",
-          "OwlTrackers.addValue({token}, 'HP', 10)",
+          "revives = revives - 1",
+          "OwlTrackers.addValue(token, 'HP', 10)",
           "JustDices.roll('1d6')"
         ]
       }
@@ -472,8 +530,8 @@
 
       <h4>Common mistakes</h4>
       <ul>
-        <li>Using curly variable syntax incorrectly inside dice strings — prefer wrapping computed sub-expressions in <code>{{...}}</code> or test them separately.</li>
-        <li>Referencing missing variables — these evaluate to <code>0</code> in math contexts, which can mask bugs; prefer explicit guards.</li>
+        <li>Not using the correct variable names in expressions — variables are referenced directly by name without curly braces.</li>
+        <li>Referencing missing variables — these evaluate to <code>undefined</code> or cause errors; ensure all referenced variables are defined.</li>
         <li>Forgetting to pass token IDs to integration calls — many functions require a valid token id; use a page-level <code>token</code> variable.</li>
       </ul>
 

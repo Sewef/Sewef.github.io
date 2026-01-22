@@ -7437,7 +7437,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water",
+      "Freshwater",
       "Ocean"
     ],
     "diets": [
@@ -7654,9 +7654,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Forme Change, Gilled, Glow, Naturewalk (Fresh Water)": -1
+      "Forme Change, Gilled, Glow, Naturewalk (Freshwater)": -1
     },
-    "otherCapabilities": "Forme Change, Gilled, Glow, Naturewalk (Fresh Water)"
+    "otherCapabilities": "Forme Change, Gilled, Glow, Naturewalk (Freshwater)"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -7691,7 +7691,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water",
+      "Freshwater",
       "Ocean"
     ],
     "diets": [
@@ -9015,7 +9015,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water",
+      "Freshwater",
       "Grassland"
     ],
     "diets": [
@@ -9286,7 +9286,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water",
+      "Freshwater",
       "Grassland"
     ],
     "diets": [
@@ -34053,7 +34053,7 @@
       "highAbilities": [
         {
           "name": "Mimicry",
-          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Fresh Water / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
+          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Freshwater / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Free Action"
@@ -34273,7 +34273,7 @@
       "highAbilities": [
         {
           "name": "Mimicry",
-          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Fresh Water / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
+          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Freshwater / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Free Action"
@@ -34529,7 +34529,7 @@
       "highAbilities": [
         {
           "name": "Mimicry",
-          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Fresh Water / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
+          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Freshwater / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Free Action"
@@ -40739,7 +40739,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water"
+      "Freshwater"
     ],
     "diets": [
       "Carnivore"
@@ -40971,7 +40971,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Fresh Water"
+      "Freshwater"
     ],
     "diets": [
       "Carnivore"
@@ -54965,7 +54965,7 @@
       "basicAbilities": [
         {
           "name": "Mimicry",
-          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Fresh Water / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
+          "effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Freshwater / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too.",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Free Action"
@@ -256031,7 +256031,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -256337,7 +256337,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -257288,7 +257288,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -257608,7 +257608,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -258798,7 +258798,7 @@
     "hatchRate": null,
     "habitats": [
       "Forest",
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Nullivore"
@@ -259690,7 +259690,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Nullivore"
@@ -289962,7 +289962,7 @@
     "hatchRate": null,
     "habitats": [
       "Cave",
-      "Moutnain"
+      "Mountain"
     ],
     "diets": [
       "Phototroph",
@@ -290240,7 +290240,7 @@
     "hatchRate": null,
     "habitats": [
       "Cave",
-      "Moutnain"
+      "Mountain"
     ],
     "diets": [
       "Phototroph",
@@ -304085,7 +304085,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -304384,7 +304384,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -304690,7 +304690,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Mountian"
+      "Mountain"
     ],
     "diets": [
       "Omnivore"
@@ -305012,7 +305012,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Mountian"
+      "Mountain"
     ],
     "diets": [
       "Omnivore"
@@ -305314,7 +305314,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -305612,7 +305612,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"
@@ -305910,7 +305910,7 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Non Space"
+      "Non-Space"
     ],
     "diets": [
       "Omnivore"

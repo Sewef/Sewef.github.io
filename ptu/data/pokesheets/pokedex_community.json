@@ -60582,7 +60582,7 @@
     "hatchRate": null,
     "habitats": [
       "Forest",
-      "Grasslands"
+      "Grassland"
     ],
     "diets": [
       "Omnivore",
@@ -60808,9 +60808,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Alluring, Naturewalk (Forest, Grasslands), Underdog": -1
+      "Alluring, Naturewalk (Forest, Grassland), Underdog": -1
     },
-    "otherCapabilities": "Alluring, Naturewalk (Forest, Grasslands), Underdog"
+    "otherCapabilities": "Alluring, Naturewalk (Forest, Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -60844,7 +60844,7 @@
     "hatchRate": null,
     "habitats": [
       "Forest",
-      "Grasslands"
+      "Grassland"
     ],
     "diets": [
       "Omnivore",
@@ -61079,9 +61079,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Alluring, Naturewalk (Forest, Grasslands), Reach, Underdog": -1
+      "Alluring, Naturewalk (Forest, Grassland), Reach, Underdog": -1
     },
-    "otherCapabilities": "Alluring, Naturewalk (Forest, Grasslands), Reach, Underdog"
+    "otherCapabilities": "Alluring, Naturewalk (Forest, Grassland), Reach, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -61116,7 +61116,7 @@
     "hatchRate": null,
     "habitats": [
       "Forest",
-      "Grasslands"
+      "Grassland"
     ],
     "diets": [
       "Omnivore",
@@ -61372,9 +61372,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Alluring, Naturewalk (Forest, Grasslands), Reach, Stealth, Darkvision, Mindlock": -1
+      "Alluring, Naturewalk (Forest, Grassland), Reach, Stealth, Darkvision, Mindlock": -1
     },
-    "otherCapabilities": "Alluring, Naturewalk (Forest, Grasslands), Reach, Stealth, Darkvision, Mindlock"
+    "otherCapabilities": "Alluring, Naturewalk (Forest, Grassland), Reach, Stealth, Darkvision, Mindlock"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -64664,9 +64664,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Naturewalk (Grasslands, Forest), Underdog": -1
+      "Naturewalk (Grassland, Forest), Underdog": -1
     },
-    "otherCapabilities": "Naturewalk (Grasslands, Forest), Underdog"
+    "otherCapabilities": "Naturewalk (Grassland, Forest), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -64952,9 +64952,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Darkvision, Stealth, Tracker, Naturewalk (Forest, Grasslands), Underdog": -1
+      "Darkvision, Stealth, Tracker, Naturewalk (Forest, Grassland), Underdog": -1
     },
-    "otherCapabilities": "Darkvision, Stealth, Tracker, Naturewalk (Forest, Grasslands), Underdog"
+    "otherCapabilities": "Darkvision, Stealth, Tracker, Naturewalk (Forest, Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -135565,9 +135565,9 @@
       "Power": 2,
       "Sky": 0,
       "Levitate": 0,
-      "Firestarter, Heater, Glow, Naturewalk (Grasslands), Underdog": -1
+      "Firestarter, Heater, Glow, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -135802,9 +135802,9 @@
       "Power": 3,
       "Sky": 0,
       "Levitate": 0,
-      "Firestarter, Heater, Glow, Naturewalk (Grasslands), Underdog": -1
+      "Firestarter, Heater, Glow, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -136062,9 +136062,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Heater, Glow, Naturewalk (Grasslands)": -1
+      "Firestarter, Heater, Glow, Naturewalk (Grassland)": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grasslands)"
+    "otherCapabilities": "Firestarter, Heater, Glow, Naturewalk (Grassland)"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -161598,9 +161598,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Heater, Naturewalk (Grasslands), Underdog": -1
+      "Heater, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Heater, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Heater, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -161855,9 +161855,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Heater, Naturewalk (Grasslands), Underdog": -1
+      "Firestarter, Heater, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Firestarter, Heater, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -162132,9 +162132,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Naturewalk (Grasslands), Heater": -1
+      "Firestarter, Naturewalk (Grassland), Heater": -1
     },
-    "otherCapabilities": "Firestarter, Naturewalk (Grasslands), Heater"
+    "otherCapabilities": "Firestarter, Naturewalk (Grassland), Heater"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -226372,9 +226372,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Heater, Tracker, Naturewalk (Grasslands), Underdog": -1
+      "Firestarter, Heater, Tracker, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Tracker, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Firestarter, Heater, Tracker, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -226633,9 +226633,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Heater, Tracker, Naturewalk (Grasslands), Underdog": -1
+      "Firestarter, Heater, Tracker, Naturewalk (Grassland), Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Tracker, Naturewalk (Grasslands), Underdog"
+    "otherCapabilities": "Firestarter, Heater, Tracker, Naturewalk (Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -226904,9 +226904,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Heater, Naturewalk (Grasslands), Tracker": -1
+      "Firestarter, Heater, Naturewalk (Grassland), Tracker": -1
     },
-    "otherCapabilities": "Firestarter, Heater, Naturewalk (Grasslands), Tracker"
+    "otherCapabilities": "Firestarter, Heater, Naturewalk (Grassland), Tracker"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -267291,9 +267291,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Naturewalk (Forest, Grasslands), Tracker, Underdog": -1
+      "Firestarter, Naturewalk (Forest, Grassland), Tracker, Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grasslands), Tracker, Underdog"
+    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grassland), Tracker, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -267554,9 +267554,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Naturewalk (Forest, Grasslands), Tracker, Underdog": -1
+      "Firestarter, Naturewalk (Forest, Grassland), Tracker, Underdog": -1
     },
-    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grasslands), Tracker, Underdog"
+    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grassland), Tracker, Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -267834,9 +267834,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Firestarter, Naturewalk (Forest, Grasslands), Telekinesis, Telepath, Tracker": -1
+      "Firestarter, Naturewalk (Forest, Grassland), Telekinesis, Telepath, Tracker": -1
     },
-    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grasslands), Telekinesis, Telepath, Tracker"
+    "otherCapabilities": "Firestarter, Naturewalk (Forest, Grassland), Telekinesis, Telepath, Tracker"
   },
   {
     "pokedexEntryDocumentId": null,

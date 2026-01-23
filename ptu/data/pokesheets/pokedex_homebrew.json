@@ -6808,7 +6808,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "745",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10126.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/745-midnight.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 9,
@@ -7119,7 +7119,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "745",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10152.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/745-dusk.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -7671,7 +7671,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "746",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10127.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/746-schooling.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -15488,7 +15488,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "774",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10141.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/774-core.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -18627,7 +18627,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "19",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10091.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/19-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 3,
@@ -18883,7 +18883,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "20",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10092.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/20-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -19144,7 +19144,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "26",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10100.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/26-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -19500,7 +19500,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "27",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10101.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/27-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -19838,7 +19838,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "28",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10102.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/28-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -20186,7 +20186,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "37",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10103.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/37-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -20536,7 +20536,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "38",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10104.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/38-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -20893,7 +20893,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "50",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10105.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/50-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 1,
@@ -21197,7 +21197,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "51",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10106.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/51-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -21507,7 +21507,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "52",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10107.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/52-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -21824,7 +21824,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "53",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10108.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/53-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -22150,7 +22150,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "74",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10109.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/74-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -22453,7 +22453,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "75",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10110.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/75-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -22753,7 +22753,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "76",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10111.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/76-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -23066,7 +23066,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "88",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10112.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/88-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -23385,7 +23385,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "89",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10113.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/89-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -23703,7 +23703,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "103",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10114.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/103-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -24059,7 +24059,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "105",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10115.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/105-alola.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -26702,7 +26702,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "800",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10155.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/800-dusk.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -27018,7 +27018,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "800",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10156.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/800-dawn.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -27334,7 +27334,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "718",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10118.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/718-10.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -27613,7 +27613,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "718",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10119.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/718-50.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -27892,7 +27892,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "718",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10120.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/710-100.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 22,
@@ -53012,7 +53012,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "264",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10175.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/800-dusk-ultraburst.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -61416,7 +61416,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "724",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10244.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/724-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 9,
@@ -61714,7 +61714,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "157",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10233.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/157-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -61999,7 +61999,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "503",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10236.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/503-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -62263,7 +62263,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "58",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10229.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/58-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -62539,7 +62539,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "59",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10230.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/59-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -62815,7 +62815,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "100",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10231.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/100-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -63092,7 +63092,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "101",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10232.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/101-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -63377,7 +63377,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "211",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10234.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/211-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -63970,7 +63970,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "215",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10235.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/215-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -64521,7 +64521,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "549",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10237.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/549-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -64797,7 +64797,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "570",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10238.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/570-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 4,
@@ -65075,7 +65075,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "571",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10239.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/571-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -65368,7 +65368,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "628",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10240.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/628-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -65653,7 +65653,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "705",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10241.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/705-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -65900,7 +65900,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "706",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10242.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/706-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -66188,7 +66188,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "713",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10243.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/713-hisui.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -67760,7 +67760,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "483",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10245.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/483-origin.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -68002,7 +68002,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "484",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10246.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/484-origin.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 9,
@@ -68501,7 +68501,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "905",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10249.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/905-therian.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -85298,7 +85298,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "964",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10256.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/964-hero.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -89426,7 +89426,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "128",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10250.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/128-paldea-combat.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -89695,7 +89695,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "128",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10251.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/128-paldea-blaze.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -89968,7 +89968,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "128",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10252.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/128-paldea-aqua.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -90558,7 +90558,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "194",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10253.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/194-paldea.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -102755,7 +102755,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "901",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10272.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/901-bloodmoon.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -222885,7 +222885,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "386",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10001.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/386-attack.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -223208,7 +223208,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "386",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10002.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/386-defense.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -223542,7 +223542,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "386",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10003.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/386-speed.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -231993,7 +231993,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "413",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10004.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/413-sandy.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -232284,7 +232284,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "413",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10005.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/413-trash.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 6,
@@ -253667,7 +253667,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "479",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10008.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/479-heat.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -253939,7 +253939,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "479",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10009.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/479-wash.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -254211,7 +254211,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "479",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10010.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/479-frost.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -254483,7 +254483,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "479",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10011.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/479-fan.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -254755,7 +254755,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "479",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10012.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/479-mow.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 5,
@@ -257268,7 +257268,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "487",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10007.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/487-origin.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 15,
@@ -259402,7 +259402,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "492",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10006.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/492-sky.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -277650,7 +277650,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "555",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10017.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/555-zen.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -303121,7 +303121,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "641",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10019.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/641-therian.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -303751,7 +303751,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "642",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10020.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/642-therian.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,
@@ -304992,7 +304992,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "645",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10021.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/645-therian.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 9,
@@ -305592,7 +305592,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "646",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10022.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/646-zekrom.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 13,
@@ -305890,7 +305890,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "646",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10023.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/646-reshiram.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 13,
@@ -306790,7 +306790,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "648",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10018.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/648-step.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 10,
@@ -315199,7 +315199,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "678",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10025.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/678-male.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 7,
@@ -327050,7 +327050,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "718",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10119.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/718-50.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 11,
@@ -327964,7 +327964,7 @@
     "regionOfOrigin": null,
     "entryText": null,
     "pokeApiId": "720",
-    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/10086.png",
+    "imageFileUrl": "https://sewef.github.io/ptu/img/pokemon/icons/720-unbound.png",
     "cryFileUrl": null,
     "baseStats": {
       "hp": 8,

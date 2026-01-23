@@ -1539,7 +1539,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10033,
+        "Icon": "3-mega",
         "Type": [
           "Unchanged"
         ],
@@ -3369,7 +3369,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution X": {
-        "Icon": 10034,
+        "Icon": "6-mega-x",
         "Type": [
           "Fire",
           "Dragon"
@@ -3382,7 +3382,7 @@
         }
       },
       "Mega Evolution Y": {
-        "Icon": 10035,
+        "Icon": "6-mega-y",
         "Type": [
           "Unchanged "
         ],
@@ -5053,7 +5053,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10036,
+        "Icon": "9-mega",
         "Type": [
           "Unchanged"
         ],
@@ -6492,7 +6492,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10090,
+        "Icon": "15-mega",
         "Type": [
           "Unchanged"
         ],
@@ -7827,7 +7827,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10073,
+        "Icon": "18-mega",
         "Type": [
           "Unchanged"
         ],
@@ -33758,7 +33758,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10037,
+        "Icon": "65-mega",
         "Type": [
           "Unchanged"
         ],
@@ -41927,7 +41927,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10071,
+        "Icon": "80-mega",
         "Type": [
           "Unchanged"
         ],
@@ -49118,7 +49118,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10038,
+        "Icon": "94-mega",
         "Type": [
           "Unchanged"
         ],
@@ -60987,7 +60987,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10039,
+        "Icon": "115-mega",
         "Type": [
           "Unchanged"
         ],
@@ -67059,7 +67059,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10040,
+        "Icon": "127-mega",
         "Type": [
           "Bug",
           "Flying"
@@ -68198,7 +68198,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10041,
+        "Icon": "130-mega",
         "Type": [
           "Water",
           "Dark"
@@ -73871,7 +73871,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10042,
+        "Icon": "142-mega",
         "Type": [
           "Unchanged"
         ],
@@ -78320,7 +78320,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution X": {
-        "Icon": 10043,
+        "Icon": "150-mega-x",
         "Type": [
           "Psychic",
           "Fighting"
@@ -78332,7 +78332,7 @@
         }
       },
       "Mega Evolution Y": {
-        "Icon": 10044,
+        "Icon": "150-mega-y",
         "Type": [
           "Unchanged"
         ],
@@ -94534,7 +94534,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10045,
+        "Icon": "181-mega",
         "Type": [
           "Electric",
           "Dragon"
@@ -108341,7 +108341,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10072,
+        "Icon": "208-mega",
         "Type": [
           "Unchanged"
         ],
@@ -110771,7 +110771,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10046,
+        "Icon": "212-mega",
         "Type": [
           "Unchanged"
         ],
@@ -111941,7 +111941,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10047,
+        "Icon": "214-mega",
         "Type": [
           "Unchanged"
         ],
@@ -120257,7 +120257,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10048,
+        "Icon": "229-mega",
         "Type": [
           "Unchanged"
         ],
@@ -130061,7 +130061,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10049,
+        "Icon": "248-mega",
         "Type": [
           "Unchanged"
         ],
@@ -133647,7 +133647,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10065,
+        "Icon": "254-mega",
         "Type": [
           "Grass ",
           " Dragon"
@@ -135464,7 +135464,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10050,
+        "Icon": "257-mega",
         "Type": [
           "Unchanged"
         ],
@@ -137172,7 +137172,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10064,
+        "Icon": "260-mega",
         "Type": [
           "Unchanged"
         ],
@@ -147776,7 +147776,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10051,
+        "Icon": "282-mega",
         "Type": [
           "Unchanged"
         ],
@@ -158810,7 +158810,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10066,
+        "Icon": "302-mega",
         "Type": [
           "Unchanged"
         ],
@@ -159531,7 +159531,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10052,
+        "Icon": "303-mega",
         "Type": [
           "Unchanged"
         ],
@@ -161343,7 +161343,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10053,
+        "Icon": "306-mega",
         "Type": [
           "Steel"
         ],
@@ -162687,7 +162687,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10054,
+        "Icon": "308-mega",
         "Type": [
           "Unchanged"
         ],
@@ -163610,7 +163610,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10055,
+        "Icon": "310-mega",
         "Type": [
           "Unchanged"
         ],
@@ -168365,7 +168365,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10070,
+        "Icon": "319-mega",
         "Type": [
           "Unchanged"
         ],
@@ -170341,7 +170341,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10087,
+        "Icon": "323-mega",
         "Type": [
           "Unchanged"
         ],
@@ -176709,7 +176709,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10067,
+        "Icon": "334-mega",
         "Type": [
           "Dragon ",
           " Fairy"
@@ -187702,7 +187702,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10056,
+        "Icon": "354-mega",
         "Type": [
           "Unchanged"
         ],
@@ -190756,7 +190756,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10057,
+        "Icon": "359-mega",
         "Type": [
           "Unchanged"
         ],
@@ -191742,7 +191742,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10074,
+        "Icon": "362-mega",
         "Type": [
           "Unchanged"
         ],
@@ -196834,7 +196834,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10089,
+        "Icon": "373-mega",
         "Type": [
           "Unchanged"
         ],
@@ -198072,7 +198072,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10076,
+        "Icon": "376-mega",
         "Type": [
           "Unchanged"
         ],
@@ -200398,7 +200398,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10062,
+        "Icon": "380-mega",
         "Type": [
           "Unchanged"
         ],
@@ -201089,7 +201089,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10063,
+        "Icon": "381-mega",
         "Type": [
           "Unchanged"
         ],
@@ -201550,7 +201550,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10077,
+        "Icon": "382-mega",
         "Type": [
           "Unchanged"
         ],
@@ -202153,7 +202153,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10078,
+        "Icon": "383-mega",
         "Type": [
           "Ground",
           "Fire"
@@ -202775,7 +202775,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10079,
+        "Icon": "384-mega",
         "Type": [
           "Unchanged"
         ],
@@ -204029,7 +204029,7 @@
   {
     "Species": "Deoxys Attack Forme",
     "Number": 386,
-    "Icon": 10001,
+    "Icon": "386-attack",
     "Base Stats": {
       "HP": 5,
       "Attack": 18,
@@ -204647,7 +204647,7 @@
   {
     "Species": "Deoxys Defense Forme",
     "Number": 386,
-    "Icon": 10002,
+    "Icon": "386-defense",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -205276,7 +205276,7 @@
   {
     "Species": "Deoxys Speed Forme",
     "Number": 386,
-    "Icon": 10003,
+    "Icon": "386-speed",
     "Base Stats": {
       "HP": 5,
       "Attack": 10,
@@ -218541,7 +218541,7 @@
   {
     "Species": "Wormadam Sandy Cloak Form",
     "Number": 413,
-    "Icon": 10004,
+    "Icon": "413-sandy",
     "Base Stats": {
       "HP": 7,
       "Attack": 8,
@@ -218945,7 +218945,7 @@
   {
     "Species": "Wormadam Trash Cloak Form",
     "Number": 413,
-    "Icon": 10005,
+    "Icon": "413-trash",
     "Base Stats": {
       "HP": 6,
       "Attack": 7,
@@ -226539,7 +226539,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10088,
+        "Icon": "428-mega",
         "Type": [
           "Normal ",
           " Fighting"
@@ -235474,7 +235474,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10058,
+        "Icon": "445-mega",
         "Type": [
           "Unchanged"
         ],
@@ -243428,7 +243428,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10060,
+        "Icon": "460-mega",
         "Type": [
           "Unchanged"
         ],
@@ -252082,7 +252082,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10068,
+        "Icon": "475-mega",
         "Type": [
           "Unchanged"
         ],
@@ -254223,7 +254223,7 @@
   {
     "Species": "Rotom Heat Form",
     "Number": 479,
-    "Icon": 10008,
+    "Icon": "479-heat",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -254658,7 +254658,7 @@
   {
     "Species": "Rotom Wash Form",
     "Number": 479,
-    "Icon": 10009,
+    "Icon": "479-wash",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -255094,7 +255094,7 @@
   {
     "Species": "Rotom Frost Form",
     "Number": 479,
-    "Icon": 10010,
+    "Icon": "479-frost",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -255530,7 +255530,7 @@
   {
     "Species": "Rotom Fan Form",
     "Number": 479,
-    "Icon": 10011,
+    "Icon": "479-fan",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -255966,7 +255966,7 @@
   {
     "Species": "Rotom Mow Form",
     "Number": 479,
-    "Icon": 10012,
+    "Icon": "479-mow",
     "Base Stats": {
       "HP": 5,
       "Attack": 7,
@@ -260146,7 +260146,7 @@
   {
     "Species": "Giratina Origin Forme",
     "Number": 487,
-    "Icon": 10007,
+    "Icon": "487-origin",
     "Base Stats": {
       "HP": 15,
       "Attack": 12,
@@ -263598,7 +263598,7 @@
   {
     "Species": "Shaymin Sky Forme",
     "Number": 492,
-    "Icon": 10006,
+    "Icon": "492-sky",
     "Base Stats": {
       "HP": 10,
       "Attack": 10,
@@ -283153,7 +283153,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10069,
+        "Icon": "531-mega",
         "Type": [
           "Normal ",
           " Fairy"
@@ -294128,7 +294128,7 @@
   {
     "Species": "Darmanitan, Zen Mode",
     "Number": 555,
-    "Icon": 10017,
+    "Icon": "555-zen",
     "Base Stats": {
       "HP": 11,
       "Attack": 3,
@@ -335536,7 +335536,7 @@
   {
     "Species": "Tornadus Therian Forme",
     "Number": 641,
-    "Icon": 10019,
+    "Icon": "641-therian",
     "Base Stats": {
       "HP": 8,
       "Attack": 10,
@@ -336554,7 +336554,7 @@
   {
     "Species": "Thundurus Therian Forme",
     "Number": 642,
-    "Icon": 10020,
+    "Icon": "642-therian",
     "Base Stats": {
       "HP": 8,
       "Attack": 11,
@@ -338590,7 +338590,7 @@
   {
     "Species": "Landorus Therian Forme",
     "Number": 645,
-    "Icon": 10021,
+    "Icon": "645-therian",
     "Base Stats": {
       "HP": 9,
       "Attack": 15,
@@ -339580,7 +339580,7 @@
   {
     "Species": "Kyurem Zekrom Fusion Forme",
     "Number": 646,
-    "Icon": 10022,
+    "Icon": "646-zekrom",
     "Base Stats": {
       "HP": 13,
       "Attack": 17,
@@ -340069,7 +340069,7 @@
   {
     "Species": "Kyurem Reshiram Fusion Forme",
     "Number": 646,
-    "Icon": 10023,
+    "Icon": "646-reshiram",
     "Base Stats": {
       "HP": 13,
       "Attack": 12,
@@ -341650,7 +341650,7 @@
   {
     "Species": "Meloetta Step Form",
     "Number": 648,
-    "Icon": 10018,
+    "Icon": "648-step",
     "Base Stats": {
       "HP": 10,
       "Attack": 13,
@@ -355893,7 +355893,7 @@
   {
     "Species": "Meowstic (Male)",
     "Number": 678,
-    "Icon": 10025,
+    "Icon": "678-male",
     "Base Stats": {
       "HP": 7,
       "Attack": 5,
@@ -375177,7 +375177,7 @@
   },
   {
     "Species": "Zygarde (old)",
-    "Icon": 10119,
+    "Icon": "718-50",
     "Number": 718,
     "Base Stats": {
       "HP": 11,
@@ -376116,7 +376116,7 @@
     },
     "Battle-Only Forms": {
       "Mega Evolution": {
-        "Icon": 10075,
+        "Icon": "719-mega",
         "Type": [
           "Unchanged"
         ],
@@ -376715,7 +376715,7 @@
   {
     "Species": "Hoopa Unbound",
     "Number": 720,
-    "Icon": 10086,
+    "Icon": "720-unbound",
     "Base Stats": {
       "HP": 8,
       "Attack": 16,

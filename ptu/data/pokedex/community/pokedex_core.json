@@ -75101,7 +75101,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zapdos",
@@ -75577,7 +75578,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Moltres",
@@ -76035,7 +76037,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Dratini",
@@ -78444,7 +78447,8 @@
           "Speed": 1
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Mew",
@@ -78570,7 +78574,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Chikorita",
@@ -127604,7 +127609,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Entei",
@@ -128109,7 +128115,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Suicune",
@@ -128588,7 +128595,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Larvitar",
@@ -131007,7 +131015,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Ho-Oh",
@@ -131589,7 +131598,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Celebi",
@@ -132153,7 +132163,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Treecko",
@@ -198920,7 +198931,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Regice",
@@ -199453,7 +199465,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Registeel",
@@ -200004,7 +200017,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Latias",
@@ -200706,7 +200720,8 @@
           "Special Defense": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Latios",
@@ -201396,7 +201411,8 @@
           "Special Defense": 1
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Kyogre",
@@ -201855,7 +201871,8 @@
           "Special Defense": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Groudon",
@@ -202458,7 +202475,8 @@
           "Special Attack": 5
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Rayquaza",
@@ -203080,7 +203098,8 @@
           "Speed": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Jirachi",
@@ -203672,7 +203691,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Deoxys Normal Forme",
@@ -204313,7 +204333,8 @@
         }
       ]
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Attack Forme",
@@ -204930,7 +204951,8 @@
         }
       ]
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Defense Forme",
@@ -205558,7 +205580,8 @@
         }
       ]
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Speed Forme",
@@ -206193,7 +206216,8 @@
         }
       ]
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Turtwig",
@@ -257219,7 +257243,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Mesprit",
@@ -257737,7 +257762,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Azelf",
@@ -258289,7 +258315,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Dialga",
@@ -258849,7 +258876,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Palkia",
@@ -259398,7 +259426,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Heatran",
@@ -259885,7 +259914,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Regigigas",
@@ -260420,7 +260450,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Giratina Origin Forme",
@@ -261010,7 +261041,8 @@
         }
       ]
     },
-    "Origin Forme": "Giratina is in its Origin Forme when in the Reverse World or when it holds part of Reverse World with in, outside of the Reverse World. Otherwise, Giratina changes into its Altered Forme."
+    "Origin Forme": "Giratina is in its Origin Forme when in the Reverse World or when it holds part of Reverse World with in, outside of the Reverse World. Otherwise, Giratina changes into its Altered Forme.",
+    "Legendary": true
   },
   {
     "Species": "Giratina Altered Forme",
@@ -261603,7 +261635,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Cresselia",
@@ -262065,7 +262098,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Phione",
@@ -262447,7 +262481,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Manaphy",
@@ -262900,7 +262935,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Darkrai",
@@ -263491,7 +263527,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Shaymin",
@@ -263865,7 +263902,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Shaymin Sky Forme",
@@ -264236,7 +264274,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Arceus",
@@ -265003,7 +265042,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Victini",
@@ -265599,7 +265639,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Snivy",
@@ -334114,7 +334155,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Terrakion",
@@ -334574,7 +334616,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Virizion",
@@ -335049,7 +335092,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Tornadus Incarnate Forme",
@@ -335540,7 +335584,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Tornadus Therian Forme",
@@ -336033,7 +336078,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Thundurus Incarnate Forme",
@@ -336556,7 +336602,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Thundurus Therian Forme",
@@ -337081,7 +337128,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Reshiram",
@@ -337579,7 +337627,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zekrom",
@@ -338094,7 +338143,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Landorus Incarnate Forme",
@@ -338588,7 +338638,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Landorus Therian Forme",
@@ -339082,7 +339133,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Kyurem",
@@ -340552,7 +340604,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Keldeo",
@@ -340981,7 +341034,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Meloetta Aria Form",
@@ -341642,7 +341696,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Meloetta Step Form",
@@ -342306,7 +342361,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Genesect",
@@ -342825,7 +342881,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Chespin",
@@ -374684,7 +374741,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Yveltal",
@@ -375168,7 +375226,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zygarde (old)",
@@ -375628,7 +375687,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Diancie",
@@ -376123,7 +376183,8 @@
           "Speed": 6
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Hoopa Confined",
@@ -376703,7 +376764,8 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Hoopa Unbound",
@@ -377286,6 +377348,7 @@
           "Method": "Tutor"
         }
       ]
-    }
+    },
+    "Legendary": true
   }
 ]

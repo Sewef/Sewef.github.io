@@ -146189,7 +146189,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zapdos",
@@ -147130,7 +147131,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Moltres",
@@ -148088,7 +148090,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Dratini",
@@ -153159,7 +153162,8 @@
           "Speed": 1
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Mew",
@@ -156904,7 +156908,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Chikorita",
@@ -246757,7 +246762,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Entei",
@@ -247674,7 +247680,8 @@
           "Method": "Egg"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Suicune",
@@ -248613,7 +248620,8 @@
           "Method": "Egg"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Larvitar",
@@ -253530,7 +253538,8 @@
           "Method": "Egg"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Ho-Oh",
@@ -254697,7 +254706,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Celebi",
@@ -255872,7 +255882,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Treecko",
@@ -375816,7 +375827,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Regice",
@@ -376743,7 +376755,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Registeel",
@@ -377761,7 +377774,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Latias",
@@ -379161,7 +379175,8 @@
           "Special Defense": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Latios",
@@ -380531,7 +380546,8 @@
           "Special Defense": 1
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Kyogre",
@@ -381407,7 +381423,8 @@
           "Special Defense": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Groudon",
@@ -382560,7 +382577,8 @@
           "Special Attack": 5
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Rayquaza",
@@ -383842,7 +383860,8 @@
           "Speed": 2
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Jirachi",
@@ -385129,7 +385148,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Deoxys Normal Forme",
@@ -386257,7 +386277,8 @@
       ],
       "Egg Move List": []
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Attack Forme",
@@ -387328,7 +387349,8 @@
       ],
       "Egg Move List": []
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Defense Forme",
@@ -388430,7 +388452,8 @@
       ],
       "Egg Move List": []
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Deoxys Speed Forme",
@@ -389543,7 +389566,8 @@
       ],
       "Egg Move List": []
     },
-    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys."
+    "Multiform": "Deoxys may change into its different forms at-will as an Extended Action outside of battle. Prepare stats for its four forms if you intend to use a Deoxys.",
+    "Legendary": true
   },
   {
     "Species": "Turtwig",
@@ -489086,7 +489110,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Mesprit",
@@ -490289,7 +490314,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Azelf",
@@ -491551,7 +491577,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Dialga",
@@ -492695,7 +492722,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Palkia",
@@ -493896,7 +493924,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Heatran",
@@ -494948,7 +494977,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Regigigas",
@@ -496074,7 +496104,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Giratina Origin Forme",
@@ -497281,7 +497312,8 @@
       ],
       "Egg Move List": []
     },
-    "Origin Forme": "Giratina is in its Origin Forme when in the Reverse World or when it holds part of Reverse World with in, outside of the Reverse World. Otherwise, Giratina changes into its Altered Forme."
+    "Origin Forme": "Giratina is in its Origin Forme when in the Reverse World or when it holds part of Reverse World with in, outside of the Reverse World. Otherwise, Giratina changes into its Altered Forme.",
+    "Legendary": true
   },
   {
     "Species": "Giratina Altered Forme",
@@ -498456,7 +498488,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Cresselia",
@@ -499402,7 +499435,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Phione",
@@ -500106,7 +500140,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Manaphy",
@@ -500917,7 +500952,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Darkrai",
@@ -501993,7 +502029,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Shaymin",
@@ -502884,7 +502921,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Shaymin Sky Forme",
@@ -503705,7 +503743,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Arceus",
@@ -505467,7 +505506,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Victini",
@@ -506586,7 +506626,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Snivy",
@@ -632076,7 +632117,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Terrakion",
@@ -632972,7 +633014,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Virizion",
@@ -633935,7 +633978,8 @@
           "Method": "Egg"
         }
       ]
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Tornadus Incarnate Forme",
@@ -634928,7 +634972,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Tornadus Therian Forme",
@@ -635896,7 +635941,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Thundurus Incarnate Forme",
@@ -636977,7 +637023,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Thundurus Therian Forme",
@@ -638023,7 +638070,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Reshiram",
@@ -639068,7 +639116,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zekrom",
@@ -640152,7 +640201,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Landorus Incarnate Forme",
@@ -641140,7 +641190,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Landorus Therian Forme",
@@ -642083,7 +642134,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Kyurem",
@@ -645111,7 +645163,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Keldeo",
@@ -646059,7 +646112,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Meloetta Aria Form",
@@ -647116,7 +647170,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Meloetta Step Form",
@@ -648179,7 +648234,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Genesect",
@@ -649145,7 +649201,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Chespin",
@@ -706095,7 +706152,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Yveltal",
@@ -706919,7 +706977,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Zygarde (old)",
@@ -707784,7 +707843,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Diancie",
@@ -708716,7 +708776,8 @@
           "Speed": 6
         }
       }
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Hoopa Confined",
@@ -709673,7 +709734,8 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   },
   {
     "Species": "Hoopa Unbound",
@@ -710633,6 +710695,7 @@
         }
       ],
       "Egg Move List": []
-    }
+    },
+    "Legendary": true
   }
 ]

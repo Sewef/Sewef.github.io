@@ -370,6 +370,13 @@
       </ul>
 
       <h4>ConditionMarkers</h4>
+      <div class="alert alert-warning" role="alert" style="margin-top:1em;">
+        <h4 class="alert-heading">Important — Choose the right ConditionMarkers Extension</h4>
+        <p class="mb-0">
+          For full API support, you must use either <strong>ConditionMarkers-API</strong> (<a href="https://conditionmarkers-api.onrender.com/manifest.json" target="_blank">manifest</a>), which is identical but exposes a dedicated API, <strong>or</strong> <strong>ConditionMarkers-Extended</strong> (<a href="https://conditionmarkers-extended.onrender.com/manifest.json" target="_blank">manifest</a>), which adds the API and enables numeric value support for conditions.<br>
+          The default ConditionMarkers extension does <em>not</em> provide API access or numeric value features. The two extensions above have been built to be fully compatible with MacroHero's ConditionMarkers integration.
+        </p>
+      </div>
       <ul>
         <li><strong>getConditions(itemId)</strong> → Promise&lt;Array&gt;
           <br>Return an array of condition objects applied to an item (token).</li>

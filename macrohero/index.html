@@ -170,14 +170,14 @@
         <pre><code class="language-json">{
     "variables": {
       "hp": { "expression": "OwlTrackers.getValue(token, 'HP')" },
-      "isBandaged": { "expression": "ConditionsMarkers.hasCondition(token, 'Bandaged')" },
+      "isBandaged": { "expression": "ConditionMarkers.hasCondition(token, 'Bandaged')" },
       "bonus": { "expression": "5" },
       "total": { "expression": "hp + bonus" }
     }
   }</code></pre>
         <ul>
           <li>Reference variables directly by name (no curly braces) in expressions and commands.</li>
-          <li>Supported functions: <code>GoogleSheets.getValue</code>, <code>Local.value</code>, <code>OwlTrackers.getValue</code>, <code>ConditionsMarkers.hasCondition</code>, etc.</li>
+          <li>Supported functions: <code>GoogleSheets.getValue</code>, <code>Local.value</code>, <code>OwlTrackers.getValue</code>, <code>ConditionMarkers.hasCondition</code>, etc.</li>
           <li>Use math and logic: <code>(hp &gt; 10 ? 'Healthy' : 'Wounded')</code></li>
           <li><strong>Optional numeric bounds</strong>: Variables may include optional <code>min</code> and <code>max</code> numeric properties. These are used by <code>counter</code> UI items (see below) to constrain the input range.</li>
         </ul>
@@ -213,7 +213,7 @@
       "await (isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5))"
     ]
   }</code></pre>
-      <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionsMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
+      <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
 
       <h3>JSON Structure for Pages, Layouts, and Commands</h3>
       <pre><code class="language-json">{
@@ -303,7 +303,7 @@
         <li><strong>Local</strong>: Store and retrieve data locally in browser storage.</li>
         <li><strong>OwlTrackers</strong>: Read and modify HP trackers on tokens.</li>
         <li><strong>StatBubbles</strong>: Manage token stats (HP, AC, etc.).</li>
-        <li><strong>ConditionsMarkers</strong>: Add, remove, and check conditions on tokens.</li>
+        <li><strong>ConditionMarkers</strong>: Add, remove, and check conditions on tokens.</li>
         <li><strong>ColoredRings</strong>: Manage colored rings around tokens.</li>
         <li><strong>JustDices</strong>: Roll dice and display results.</li>
         <li><strong>PrettySordid</strong>: Manage initiative and turn order.</li>
@@ -369,7 +369,7 @@
         <li><strong>damage(tokenId, amount)</strong> → Promise&lt;boolean&gt;</li>
       </ul>
 
-      <h4>ConditionsMarkers</h4>
+      <h4>ConditionMarkers</h4>
       <ul>
         <li><strong>getConditions(itemId)</strong> → Promise&lt;Array&gt;
           <br>Return an array of condition objects applied to an item (token).</li>

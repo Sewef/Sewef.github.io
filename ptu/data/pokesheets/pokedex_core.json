@@ -151152,11 +151152,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Sandstream",
-          "effect": null,
+          "name": "Sand Stream",
+          "effect": "The Weather changes to a Sandstorm for 1 full round. The user is immune to Hit Point loss from Sandstorms.",
           "trigger": null,
           "target": null,
-          "frequency": null
+          "frequency": "Scene x3 – Swift Action"
         },
         {
           "name": "Snow Warning",
@@ -151206,7 +151206,7 @@
       "Cloud Nine"
     ],
     "highAbilities": [
-      "Sandstream",
+      "Sand Stream",
       "Snow Warning"
     ],
     "capabilities": {

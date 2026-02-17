@@ -5546,7 +5546,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Lycanroc (Community)",
-    "form": null,
+    "form": "Midday",
     "types": [
       "Rock"
     ],
@@ -5788,7 +5788,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Lycanroc (Community)",
-    "form": null,
+    "form": "Midnight",
     "types": [
       "Rock"
     ],
@@ -6038,7 +6038,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Lycanroc (Community)",
-    "form": null,
+    "form": "Dusk",
     "types": [
       "Rock"
     ],
@@ -6281,7 +6281,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wishiwashi (Community)",
-    "form": null,
+    "form": "Solo",
     "types": [
       "Water"
     ],
@@ -6516,7 +6516,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wishiwashi (Community)",
-    "form": null,
+    "form": "Schooling",
     "types": [
       "Water"
     ],
@@ -13169,7 +13169,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Minior (Community)",
-    "form": null,
+    "form": "Meteor",
     "types": [
       "Rock",
       "Flying"
@@ -13412,7 +13412,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Minior (Community)",
-    "form": null,
+    "form": "Core",
     "types": [
       "Rock",
       "Flying"
@@ -16206,7 +16206,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rattata (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Dark",
       "Normal"
@@ -16460,7 +16460,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Raticate (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Dark",
       "Normal"
@@ -16708,7 +16708,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Raichu (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Electric",
       "Psychic"
@@ -16977,7 +16977,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Sandshrew (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ice",
       "Steel"
@@ -17253,7 +17253,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Sandslash (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ice",
       "Steel"
@@ -17511,7 +17511,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Vulpix (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ice"
     ],
@@ -17787,7 +17787,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Ninetales (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ice",
       "Fairy"
@@ -18061,7 +18061,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Diglett (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ground",
       "Steel"
@@ -18309,7 +18309,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Dugtrio (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Ground",
       "Steel"
@@ -18546,7 +18546,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meowth (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Dark"
     ],
@@ -18819,7 +18819,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Persian (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Dark"
     ],
@@ -19079,7 +19079,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Geodude (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Rock",
       "Electric"
@@ -19338,7 +19338,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Graveler (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Rock",
       "Electric"
@@ -19580,7 +19580,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Golem (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Rock",
       "Electric"
@@ -19833,7 +19833,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Grimer (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Poison",
       "Dark"
@@ -20107,7 +20107,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Muk (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Poison",
       "Dark"
@@ -20367,7 +20367,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Exeggutor (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Grass",
       "Dragon"
@@ -20651,7 +20651,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Marowak (Community)",
-    "form": null,
+    "form": "Alola",
     "types": [
       "Fire",
       "Ghost"
@@ -22962,7 +22962,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Necrozma (Community)",
-    "form": null,
+    "form": "Dusk Mane",
     "types": [
       "Psychic",
       "Steel"
@@ -23230,7 +23230,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Necrozma (Community)",
-    "form": null,
+    "form": "Dawn Wings",
     "types": [
       "Psychic",
       "Ghost"
@@ -23498,7 +23498,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zygarde (Community)",
-    "form": null,
+    "form": "10% Forme",
     "types": [
       "Dragon",
       "Ground"
@@ -23745,7 +23745,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zygarde (Community)",
-    "form": null,
+    "form": "50% Forme",
     "types": [
       "Dragon",
       "Ground"
@@ -23988,7 +23988,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zygarde (Community)",
-    "form": null,
+    "form": "Complete Forme",
     "types": [
       "Dragon",
       "Ground"
@@ -40986,7 +40986,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Eiscue (Community)",
-    "form": null,
+    "form": "Ice Face",
     "types": [
       "Ice"
     ],
@@ -41211,7 +41211,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Eiscue (Community)",
-    "form": null,
+    "form": "Noice Face",
     "types": [
       "Ice"
     ],
@@ -41436,7 +41436,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Indeedee (Community)",
-    "form": null,
+    "form": "Male",
     "types": [
       "Psychic",
       "Normal"
@@ -41673,7 +41673,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Indeedee (Community)",
-    "form": null,
+    "form": "Female",
     "types": [
       "Psychic",
       "Normal"
@@ -44561,7 +44561,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meowth (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Steel"
     ],
@@ -45051,7 +45051,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Ponyta (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Psychic"
     ],
@@ -45283,7 +45283,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rapidash (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Psychic",
       "Fairy"
@@ -45515,7 +45515,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Farfetch'D (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Fighting"
     ],
@@ -46006,7 +46006,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Weezing (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Poison",
       "Fairy"
@@ -46250,7 +46250,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Mr. Mime (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ice",
       "Psychic"
@@ -46794,7 +46794,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Corsola (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ghost"
     ],
@@ -47296,7 +47296,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zigzagoon (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Dark",
       "Normal"
@@ -47546,7 +47546,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Linoone (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Dark",
       "Normal"
@@ -48059,7 +48059,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Darumaka (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ice"
     ],
@@ -48314,7 +48314,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Darmanitan (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ice"
     ],
@@ -48821,7 +48821,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Yamask (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ground",
       "Ghost"
@@ -49313,7 +49313,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Stunfisk (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Ground",
       "Steel"
@@ -49562,7 +49562,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Slowpoke (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Psychic"
     ],
@@ -49852,7 +49852,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Slowbro (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Poison",
       "Psychic"
@@ -50146,7 +50146,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Slowking (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Poison",
       "Psychic"
@@ -50445,7 +50445,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zacian (Community)",
-    "form": null,
+    "form": "Hero Of Many Battles Forme",
     "types": [
       "Fairy"
     ],
@@ -50648,7 +50648,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zacian (Community)",
-    "form": null,
+    "form": "Crowned Sword Forme",
     "types": [
       "Fairy",
       "Steel"
@@ -50856,7 +50856,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zamazenta (Community)",
-    "form": null,
+    "form": "Hero Of Many Battles Forme",
     "types": [
       "Fighting"
     ],
@@ -51067,7 +51067,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zamazenta (Community)",
-    "form": null,
+    "form": "Crowned Shield Forme",
     "types": [
       "Fighting",
       "Steel"
@@ -52145,7 +52145,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Urshifu (Community)",
-    "form": null,
+    "form": "Single Strike Form",
     "types": [
       "Fighting",
       "Dark"
@@ -52397,7 +52397,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Urshifu (Community)",
-    "form": null,
+    "form": "Rapid Strike Form",
     "types": [
       "Fighting",
       "Water"
@@ -52907,7 +52907,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Articuno (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Psychic",
       "Flying"
@@ -53157,7 +53157,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zapdos (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Fighting",
       "Flying"
@@ -53407,7 +53407,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Moltres (Community)",
-    "form": null,
+    "form": "Galar",
     "types": [
       "Dark",
       "Flying"
@@ -54796,7 +54796,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Calyrex (Community)",
-    "form": null,
+    "form": "Ice Rider",
     "types": [
       "Psychic",
       "Ice"
@@ -55031,7 +55031,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Calyrex (Community)",
-    "form": null,
+    "form": "Shadow Rider",
     "types": [
       "Psychic",
       "Ghost"
@@ -55266,7 +55266,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Decidueye (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Grass",
       "Fighting"
@@ -55471,7 +55471,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Typhlosion (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Fire",
       "Ghost"
@@ -55673,7 +55673,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Samurott (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Water",
       "Dark"
@@ -55873,7 +55873,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Growlithe (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Fire",
       "Rock"
@@ -56063,7 +56063,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Arcanine (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Fire",
       "Rock"
@@ -56259,7 +56259,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Voltorb (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Electric",
       "Grass"
@@ -56444,7 +56444,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Electrode (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Electric"
     ],
@@ -56630,7 +56630,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Qwilfish (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Dark",
       "Poison"
@@ -57022,7 +57022,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Sneasel (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Fighting",
       "Poison"
@@ -57405,7 +57405,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Lilligant (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Grass",
       "Fighting"
@@ -57615,7 +57615,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zorua (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Normal",
       "Ghost"
@@ -57796,7 +57796,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Zoroark (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Normal",
       "Ghost"
@@ -57985,7 +57985,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Braviary (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Psychic",
       "Flying"
@@ -58183,7 +58183,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Sliggoo (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Steel",
       "Dragon"
@@ -58368,7 +58368,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Goodra (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Steel",
       "Dragon"
@@ -58560,7 +58560,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Avalugg (Community)",
-    "form": null,
+    "form": "Hisui",
     "types": [
       "Ice",
       "Rock"
@@ -59349,7 +59349,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Basculegion (Community)",
-    "form": null,
+    "form": "Male",
     "types": [
       "Water",
       "Ghost"
@@ -59524,7 +59524,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Basculegion (Community)",
-    "form": null,
+    "form": "Female",
     "types": [
       "Water",
       "Ghost"
@@ -59699,7 +59699,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Dialga (Community)",
-    "form": null,
+    "form": "Origin Forme",
     "types": [
       "Steel",
       "Dragon"
@@ -59951,7 +59951,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Palkia (Community)",
-    "form": null,
+    "form": "Origin Forme",
     "types": [
       "Water",
       "Dragon"
@@ -60202,7 +60202,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Enamorus (Community)",
-    "form": null,
+    "form": "Incarnate Forme",
     "types": [
       "Fairy",
       "Flying"
@@ -63326,7 +63326,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Oinkologne (Community)",
-    "form": null,
+    "form": "Male",
     "types": [
       "Normal"
     ],
@@ -63596,7 +63596,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Oinkologne (Community)",
-    "form": null,
+    "form": "Female",
     "types": [
       "Normal"
     ],
@@ -76821,7 +76821,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Palafin (Community)",
-    "form": null,
+    "form": "Zero Form",
     "types": [
       "Water"
     ],
@@ -77107,7 +77107,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Palafin (Community)",
-    "form": null,
+    "form": "Hero Form",
     "types": [
       "Water"
     ],
@@ -81235,7 +81235,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Tauros (Community)",
-    "form": null,
+    "form": "Combat Breed",
     "types": [
       "Fighting"
     ],
@@ -81503,7 +81503,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Tauros (Community)",
-    "form": null,
+    "form": "Blaze Breed",
     "types": [
       "Fighting",
       "Fire"
@@ -81776,7 +81776,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Tauros (Community)",
-    "form": null,
+    "form": "Aqua Breed",
     "types": [
       "Fighting",
       "Water"
@@ -82366,7 +82366,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wooper (Community)",
-    "form": null,
+    "form": "Paldea",
     "types": [
       "Poison",
       "Ground"
@@ -195034,7 +195034,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Deoxys (Community)",
-    "form": null,
+    "form": "Normal Forme",
     "types": [
       "Psychic"
     ],
@@ -195300,7 +195300,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Deoxys (Community)",
-    "form": null,
+    "form": "Attack Forme",
     "types": [
       "Psychic"
     ],
@@ -195562,7 +195562,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Deoxys (Community)",
-    "form": null,
+    "form": "Defense Forme",
     "types": [
       "Psychic"
     ],
@@ -195829,7 +195829,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Deoxys (Community)",
-    "form": null,
+    "form": "Speed Forme",
     "types": [
       "Psychic"
     ],
@@ -202409,7 +202409,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wormadam (Community)",
-    "form": null,
+    "form": "Plant Cloak Form",
     "types": [
       "Bug",
       "Grass"
@@ -202642,7 +202642,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wormadam (Community)",
-    "form": null,
+    "form": "Sandy Cloak Form",
     "types": [
       "Bug",
       "Ground"
@@ -202872,7 +202872,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Wormadam (Community)",
-    "form": null,
+    "form": "Trash Cloak Form",
     "types": [
       "Bug",
       "Steel"
@@ -219794,7 +219794,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Normal Form",
     "types": [
       "Electric",
       "Ghost"
@@ -220029,7 +220029,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Heat Form",
     "types": [
       "Electric",
       "Fire"
@@ -220264,7 +220264,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Wash Form",
     "types": [
       "Electric",
       "Water"
@@ -220499,7 +220499,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Frost Form",
     "types": [
       "Electric",
       "Ice"
@@ -220734,7 +220734,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Fan Form",
     "types": [
       "Electric",
       "Flying"
@@ -220969,7 +220969,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Rotom (Community)",
-    "form": null,
+    "form": "Mow Form",
     "types": [
       "Electric",
       "Grass"
@@ -222901,7 +222901,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Giratina (Community)",
-    "form": null,
+    "form": "Origin Forme",
     "types": [
       "Ghost",
       "Dragon"
@@ -223157,7 +223157,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Giratina (Community)",
-    "form": null,
+    "form": "Altered Forme",
     "types": [
       "Ghost",
       "Dragon"
@@ -224595,7 +224595,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Shaymin (Community)",
-    "form": null,
+    "form": "Sky Forme",
     "types": [
       "Grass",
       "Flying"
@@ -262445,7 +262445,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Tornadus (Community)",
-    "form": null,
+    "form": "Incarnate Forme",
     "types": [
       "Flying"
     ],
@@ -262696,7 +262696,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Tornadus (Community)",
-    "form": null,
+    "form": "Therian Forme",
     "types": [
       "Flying"
     ],
@@ -262947,7 +262947,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Thundurus (Community)",
-    "form": null,
+    "form": "Incarnate Forme",
     "types": [
       "Electric",
       "Flying"
@@ -263203,7 +263203,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Thundurus (Community)",
-    "form": null,
+    "form": "Therian Forme",
     "types": [
       "Electric",
       "Flying"
@@ -263950,7 +263950,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Landorus (Community)",
-    "form": null,
+    "form": "Incarnate Forme",
     "types": [
       "Ground",
       "Flying"
@@ -264202,7 +264202,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Landorus (Community)",
-    "form": null,
+    "form": "Therian Forme",
     "types": [
       "Ground",
       "Flying"
@@ -264698,7 +264698,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Kyurem (Community)",
-    "form": null,
+    "form": "Zekrom Fusion Forme",
     "types": [
       "Dragon",
       "Ice"
@@ -264938,7 +264938,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Kyurem (Community)",
-    "form": null,
+    "form": "Reshiram Fusion Forme",
     "types": [
       "Dragon",
       "Ice"
@@ -265411,7 +265411,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meloetta (Community)",
-    "form": null,
+    "form": "Aria Form",
     "types": [
       "Normal",
       "Psychic"
@@ -265681,7 +265681,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meloetta (Community)",
-    "form": null,
+    "form": "Step Form",
     "types": [
       "Normal",
       "Fighting"
@@ -273135,7 +273135,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meowstic (Community)",
-    "form": null,
+    "form": "Male",
     "types": [
       "Psychic"
     ],
@@ -273404,7 +273404,7 @@
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
     "species": "Meowstic (Community)",
-    "form": null,
+    "form": "Female",
     "types": [
       "Psychic"
     ],

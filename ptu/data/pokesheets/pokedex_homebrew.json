@@ -6506,7 +6506,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lycanroc Midday (Homebrew)",
+    "species": "Lycanroc (Homebrew)",
     "form": null,
     "types": [
       "Rock"
@@ -6798,7 +6798,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lycanroc Midnight (Homebrew)",
+    "species": "Lycanroc (Homebrew)",
     "form": null,
     "types": [
       "Rock"
@@ -7109,7 +7109,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lycanroc Dusk (Homebrew)",
+    "species": "Lycanroc (Homebrew)",
     "form": null,
     "types": [
       "Rock"
@@ -7407,7 +7407,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Wishiwashi Solo (Homebrew)",
+    "species": "Wishiwashi (Homebrew)",
     "form": null,
     "types": [
       "Water"
@@ -7661,7 +7661,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Wishiwashi Schooling (Homebrew)",
+    "species": "Wishiwashi (Homebrew)",
     "form": null,
     "types": [
       "Water"
@@ -15214,7 +15214,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Minior Meteor (Homebrew)",
+    "species": "Minior (Homebrew)",
     "form": null,
     "types": [
       "Rock",
@@ -15477,7 +15477,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Minior Core (Homebrew)",
+    "species": "Minior (Homebrew)",
     "form": null,
     "types": [
       "Rock",
@@ -18616,7 +18616,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rattata Alola (Homebrew)",
+    "species": "Rattata (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -18872,7 +18872,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Raticate Alola (Homebrew)",
+    "species": "Raticate (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -19133,7 +19133,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Raichu Alola (Homebrew)",
+    "species": "Raichu (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -19489,7 +19489,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Sandshrew Alola (Homebrew)",
+    "species": "Sandshrew (Homebrew)",
     "form": null,
     "types": [
       "Ice",
@@ -19827,7 +19827,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Sandslash Alola (Homebrew)",
+    "species": "Sandslash (Homebrew)",
     "form": null,
     "types": [
       "Ice",
@@ -20176,7 +20176,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Vulpix Alola (Homebrew)",
+    "species": "Vulpix (Homebrew)",
     "form": null,
     "types": [
       "Ice"
@@ -20525,7 +20525,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Ninetales Alola (Homebrew)",
+    "species": "Ninetales (Homebrew)",
     "form": null,
     "types": [
       "Ice",
@@ -20882,7 +20882,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Diglett Alola (Homebrew)",
+    "species": "Diglett (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -21186,7 +21186,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Dugtrio Alola (Homebrew)",
+    "species": "Dugtrio (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -21497,7 +21497,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Meowth Alola (Homebrew)",
+    "species": "Meowth (Homebrew)",
     "form": null,
     "types": [
       "Dark"
@@ -21814,7 +21814,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Persian Alola (Homebrew)",
+    "species": "Persian (Homebrew)",
     "form": null,
     "types": [
       "Dark"
@@ -22139,7 +22139,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Geodude Alola (Homebrew)",
+    "species": "Geodude (Homebrew)",
     "form": null,
     "types": [
       "Rock",
@@ -22442,7 +22442,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Graveler Alola (Homebrew)",
+    "species": "Graveler (Homebrew)",
     "form": null,
     "types": [
       "Rock",
@@ -22742,7 +22742,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Golem Alola (Homebrew)",
+    "species": "Golem (Homebrew)",
     "form": null,
     "types": [
       "Rock",
@@ -23055,7 +23055,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Grimer Alola (Homebrew)",
+    "species": "Grimer (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -23374,7 +23374,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Muk Alola (Homebrew)",
+    "species": "Muk (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -23692,7 +23692,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Exeggutor Alola (Homebrew)",
+    "species": "Exeggutor (Homebrew)",
     "form": null,
     "types": [
       "Grass",
@@ -24048,7 +24048,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Marowak Alola (Homebrew)",
+    "species": "Marowak (Homebrew)",
     "form": null,
     "types": [
       "Fire",
@@ -26691,7 +26691,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Necrozma Dusk Mane (Homebrew)",
+    "species": "Necrozma (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -27007,7 +27007,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Necrozma Dawn Wings (Homebrew)",
+    "species": "Necrozma (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -27323,7 +27323,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zygarde 10% Forme (Homebrew)",
+    "species": "Zygarde (Homebrew)",
     "form": null,
     "types": [
       "Dragon",
@@ -27602,7 +27602,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zygarde 50% Forme (Homebrew)",
+    "species": "Zygarde (Homebrew)",
     "form": null,
     "types": [
       "Dragon",
@@ -27881,7 +27881,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zygarde Complete Forme (Homebrew)",
+    "species": "Zygarde (Homebrew)",
     "form": null,
     "types": [
       "Dragon",
@@ -46202,7 +46202,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Eiscue Ice Face (Homebrew)",
+    "species": "Eiscue (Homebrew)",
     "form": null,
     "types": [
       "Ice"
@@ -46442,7 +46442,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Eiscue Noice Face (Homebrew)",
+    "species": "Eiscue (Homebrew)",
     "form": null,
     "types": [
       "Ice"
@@ -46682,7 +46682,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Indeedee Male (Homebrew)",
+    "species": "Indeedee (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -46939,7 +46939,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Indeedee Female (Homebrew)",
+    "species": "Indeedee (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -49926,7 +49926,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Meowth Galar (Homebrew)",
+    "species": "Meowth (Homebrew)",
     "form": null,
     "types": [
       "Steel"
@@ -50467,7 +50467,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Ponyta Galar (Homebrew)",
+    "species": "Ponyta (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -50700,7 +50700,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rapidash Galar (Homebrew)",
+    "species": "Rapidash (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -50942,7 +50942,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Farfetch'D Galar (Homebrew)",
+    "species": "Farfetch'D (Homebrew)",
     "form": null,
     "types": [
       "Fighting"
@@ -51430,7 +51430,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Weezing Galar (Homebrew)",
+    "species": "Weezing (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -51690,7 +51690,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Mr. Mime Galar (Homebrew)",
+    "species": "Mr. Mime (Homebrew)",
     "form": null,
     "types": [
       "Ice",
@@ -52245,7 +52245,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Corsola Galar (Homebrew)",
+    "species": "Corsola (Homebrew)",
     "form": null,
     "types": [
       "Ghost"
@@ -52750,7 +52750,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zigzagoon Galar (Homebrew)",
+    "species": "Zigzagoon (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -53001,7 +53001,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Linoone Galar (Homebrew)",
+    "species": "Linoone (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -53527,7 +53527,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Darumaka Galar (Homebrew)",
+    "species": "Darumaka (Homebrew)",
     "form": null,
     "types": [
       "Ice"
@@ -53780,7 +53780,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Darmanitan Galar (Homebrew)",
+    "species": "Darmanitan (Homebrew)",
     "form": null,
     "types": [
       "Ice"
@@ -54305,7 +54305,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Yamask Galar (Homebrew)",
+    "species": "Yamask (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -54806,7 +54806,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Stunfisk Galar (Homebrew)",
+    "species": "Stunfisk (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -55054,7 +55054,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Slowpoke Galar (Homebrew)",
+    "species": "Slowpoke (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -55340,7 +55340,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Slowbro Galar (Homebrew)",
+    "species": "Slowbro (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -55652,7 +55652,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Slowking Galar (Homebrew)",
+    "species": "Slowking (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -55966,7 +55966,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zacian Hero Of Many Battles Forme (Homebrew)",
+    "species": "Zacian (Homebrew)",
     "form": null,
     "types": [
       "Fairy"
@@ -56218,7 +56218,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zacian Crowned Sword Forme (Homebrew)",
+    "species": "Zacian (Homebrew)",
     "form": null,
     "types": [
       "Fairy",
@@ -56471,7 +56471,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zamazenta Hero Of Many Battles Forme (Homebrew)",
+    "species": "Zamazenta (Homebrew)",
     "form": null,
     "types": [
       "Fighting"
@@ -56726,7 +56726,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zamazenta Crowned Shield Forme (Homebrew)",
+    "species": "Zamazenta (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -57892,7 +57892,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Urshifu Single Strike Form (Homebrew)",
+    "species": "Urshifu (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -58158,7 +58158,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Urshifu Rapid Strike Form (Homebrew)",
+    "species": "Urshifu (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -58698,7 +58698,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Articuno Galar (Homebrew)",
+    "species": "Articuno (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -58963,7 +58963,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zapdos Galar (Homebrew)",
+    "species": "Zapdos (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -59228,7 +59228,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Moltres Galar (Homebrew)",
+    "species": "Moltres (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -60706,7 +60706,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Calyrex Ice Rider (Homebrew)",
+    "species": "Calyrex (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -61058,7 +61058,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Calyrex Shadow Rider (Homebrew)",
+    "species": "Calyrex (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -61405,7 +61405,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Decidueye Hisuian (Homebrew)",
+    "species": "Decidueye (Homebrew)",
     "form": null,
     "types": [
       "Grass",
@@ -61703,7 +61703,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Typhlosion Hisuian (Homebrew)",
+    "species": "Typhlosion (Homebrew)",
     "form": null,
     "types": [
       "Fire",
@@ -61988,7 +61988,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Samurott Hisuian (Homebrew)",
+    "species": "Samurott (Homebrew)",
     "form": null,
     "types": [
       "Water",
@@ -62252,7 +62252,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Growlithe Hisuian (Homebrew)",
+    "species": "Growlithe (Homebrew)",
     "form": null,
     "types": [
       "Fire",
@@ -62528,7 +62528,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Arcanine Hisuian (Homebrew)",
+    "species": "Arcanine (Homebrew)",
     "form": null,
     "types": [
       "Fire",
@@ -62804,7 +62804,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Voltorb Hisuian (Homebrew)",
+    "species": "Voltorb (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -63082,7 +63082,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Electrode Hisuian (Homebrew)",
+    "species": "Electrode (Homebrew)",
     "form": null,
     "types": [
       "Electric"
@@ -63331,11 +63331,11 @@
       "familyName": null,
       "entries": []
     },
-    "evolutionStage": 1,
+    "evolutionStage": 2,
     "evolutionsRemainingMale": null,
     "evolutionsRemainingFemale": null,
     "evolutionsRemainingGenderless": null,
-    "evolutionMinLevel": null,
+    "evolutionMinLevel": 30,
     "evolutionAtLevel": null,
     "megaEvolution": null,
     "levelUpMoves": {},
@@ -63366,7 +63366,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Qwilfish Hisuian (Homebrew)",
+    "species": "Qwilfish (Homebrew)",
     "form": null,
     "types": [
       "Dark",
@@ -63959,7 +63959,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Sneasel Hisuian (Homebrew)",
+    "species": "Sneasel (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -64510,7 +64510,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lilligant Hisuian (Homebrew)",
+    "species": "Lilligant (Homebrew)",
     "form": null,
     "types": [
       "Grass",
@@ -64786,7 +64786,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zorua Hisuian (Homebrew)",
+    "species": "Zorua (Homebrew)",
     "form": null,
     "types": [
       "Normal",
@@ -65064,7 +65064,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Zoroark Hisuian (Homebrew)",
+    "species": "Zoroark (Homebrew)",
     "form": null,
     "types": [
       "Normal",
@@ -65357,7 +65357,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Braviary Hisuian (Homebrew)",
+    "species": "Braviary (Homebrew)",
     "form": null,
     "types": [
       "Psychic",
@@ -65642,7 +65642,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Sliggoo Hisuian (Homebrew)",
+    "species": "Sliggoo (Homebrew)",
     "form": null,
     "types": [
       "Steel",
@@ -65889,7 +65889,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Goodra Hisuian (Homebrew)",
+    "species": "Goodra (Homebrew)",
     "form": null,
     "types": [
       "Steel",
@@ -66177,7 +66177,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Avalugg Hisuian (Homebrew)",
+    "species": "Avalugg (Homebrew)",
     "form": null,
     "types": [
       "Ice",
@@ -67276,7 +67276,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Basculegion Male (Homebrew)",
+    "species": "Basculegion (Homebrew)",
     "form": null,
     "types": [
       "Water",
@@ -67518,7 +67518,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Basculegion Female (Homebrew)",
+    "species": "Basculegion (Homebrew)",
     "form": null,
     "types": [
       "Water",
@@ -67749,7 +67749,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Dialga Origin Forme (Homebrew)",
+    "species": "Dialga (Homebrew)",
     "form": null,
     "types": [
       "Steel",
@@ -67991,7 +67991,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Palkia Origin Forme (Homebrew)",
+    "species": "Palkia (Homebrew)",
     "form": null,
     "types": [
       "Water",
@@ -68233,7 +68233,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Enamorus Incarnate Forme (Homebrew)",
+    "species": "Enamorus (Homebrew)",
     "form": null,
     "types": [
       "Fairy",
@@ -68490,7 +68490,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Enamorus Therian Forme (Homebrew)",
+    "species": "Enamorus (Homebrew)",
     "form": null,
     "types": [
       "Fairy",
@@ -71507,7 +71507,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Oinkologne Male (Homebrew)",
+    "species": "Oinkologne (Homebrew)",
     "form": null,
     "types": [
       "Normal"
@@ -71777,7 +71777,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Oinkologne Female (Homebrew)",
+    "species": "Oinkologne (Homebrew)",
     "form": null,
     "types": [
       "Normal"
@@ -85002,7 +85002,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Palafin Zero Form (Homebrew)",
+    "species": "Palafin (Homebrew)",
     "form": null,
     "types": [
       "Water"
@@ -85254,11 +85254,11 @@
       "familyName": null,
       "entries": []
     },
-    "evolutionStage": 1,
+    "evolutionStage": 2,
     "evolutionsRemainingMale": null,
     "evolutionsRemainingFemale": null,
     "evolutionsRemainingGenderless": null,
-    "evolutionMinLevel": null,
+    "evolutionMinLevel": 25,
     "evolutionAtLevel": null,
     "megaEvolution": null,
     "levelUpMoves": {},
@@ -85288,7 +85288,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Palafin Hero Form (Homebrew)",
+    "species": "Palafin (Homebrew)",
     "form": null,
     "types": [
       "Water"
@@ -85540,11 +85540,11 @@
       "familyName": null,
       "entries": []
     },
-    "evolutionStage": 1,
+    "evolutionStage": 2,
     "evolutionsRemainingMale": null,
     "evolutionsRemainingFemale": null,
     "evolutionsRemainingGenderless": null,
-    "evolutionMinLevel": null,
+    "evolutionMinLevel": 25,
     "evolutionAtLevel": null,
     "megaEvolution": null,
     "levelUpMoves": {},
@@ -89416,7 +89416,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Paldean Tauros Combat Breed (Homebrew)",
+    "species": "Tauros (Homebrew)",
     "form": null,
     "types": [
       "Fighting"
@@ -89684,7 +89684,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Paldean Tauros Blaze Breed (Homebrew)",
+    "species": "Tauros (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -89957,7 +89957,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Paldean Tauros Aqua Breed (Homebrew)",
+    "species": "Tauros (Homebrew)",
     "form": null,
     "types": [
       "Fighting",
@@ -90547,7 +90547,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Paldean Wooper (Homebrew)",
+    "species": "Wooper (Homebrew)",
     "form": null,
     "types": [
       "Poison",
@@ -222130,7 +222130,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Deoxys Normal Forme (Homebrew)",
+    "species": "Deoxys (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -222462,7 +222462,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Deoxys Attack Forme (Homebrew)",
+    "species": "Deoxys (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -222785,7 +222785,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Deoxys Defense Forme (Homebrew)",
+    "species": "Deoxys (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -223119,7 +223119,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Deoxys Speed Forme (Homebrew)",
+    "species": "Deoxys (Homebrew)",
     "form": null,
     "types": [
       "Psychic"
@@ -231279,7 +231279,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Wormadam Plant Cloak Form (Homebrew)",
+    "species": "Wormadam (Homebrew)",
     "form": null,
     "types": [
       "Bug",
@@ -231569,7 +231569,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Wormadam Sandy Cloak Form (Homebrew)",
+    "species": "Wormadam (Homebrew)",
     "form": null,
     "types": [
       "Bug",
@@ -231860,7 +231860,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Wormadam Trash Cloak Form (Homebrew)",
+    "species": "Wormadam (Homebrew)",
     "form": null,
     "types": [
       "Bug",
@@ -252955,7 +252955,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Normal Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -253243,7 +253243,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Heat Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -253515,7 +253515,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Wash Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -253787,7 +253787,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Frost Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -254059,7 +254059,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Fan Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -254331,7 +254331,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Rotom Mow Form (Homebrew)",
+    "species": "Rotom (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -256844,7 +256844,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Giratina Origin Forme (Homebrew)",
+    "species": "Giratina (Homebrew)",
     "form": null,
     "types": [
       "Ghost",
@@ -257164,7 +257164,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Giratina Altered Forme (Homebrew)",
+    "species": "Giratina (Homebrew)",
     "form": null,
     "types": [
       "Ghost",
@@ -258978,7 +258978,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Shaymin Sky Forme (Homebrew)",
+    "species": "Shaymin (Homebrew)",
     "form": null,
     "types": [
       "Grass",
@@ -302387,7 +302387,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Tornadus Incarnate Forme (Homebrew)",
+    "species": "Tornadus (Homebrew)",
     "form": null,
     "types": [
       "Flying"
@@ -302698,7 +302698,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Tornadus Therian Forme (Homebrew)",
+    "species": "Tornadus (Homebrew)",
     "form": null,
     "types": [
       "Flying"
@@ -302997,7 +302997,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Thundurus Incarnate Forme (Homebrew)",
+    "species": "Thundurus (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -303327,7 +303327,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Thundurus Therian Forme (Homebrew)",
+    "species": "Thundurus (Homebrew)",
     "form": null,
     "types": [
       "Electric",
@@ -304246,7 +304246,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Landorus Incarnate Forme (Homebrew)",
+    "species": "Landorus (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -304568,7 +304568,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Landorus Therian Forme (Homebrew)",
+    "species": "Landorus (Homebrew)",
     "form": null,
     "types": [
       "Ground",
@@ -305168,7 +305168,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Kyurem Zekrom Fusion Forme (Homebrew)",
+    "species": "Kyurem (Homebrew)",
     "form": null,
     "types": [
       "Dragon",
@@ -305466,7 +305466,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Kyurem Reshiram Fusion Forme (Homebrew)",
+    "species": "Kyurem (Homebrew)",
     "form": null,
     "types": [
       "Dragon",
@@ -306049,7 +306049,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Meloetta Aria Form (Homebrew)",
+    "species": "Meloetta (Homebrew)",
     "form": null,
     "types": [
       "Normal",
@@ -306366,7 +306366,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Meloetta Step Form (Homebrew)",
+    "species": "Meloetta (Homebrew)",
     "form": null,
     "types": [
       "Normal",
@@ -315094,7 +315094,7 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Meowstic (Female) (Homebrew)",
+    "species": "Meowstic (Homebrew)",
     "form": null,
     "types": [
       "Psychic"

@@ -268237,6 +268237,13 @@
           "trigger": null,
           "target": null,
           "frequency": "Static"
+        },
+        {
+          "name": "Weak Armor",
+          "effect": "The user may lower its Defense by 1 Combat Stage, and gain +1 Speed Combat Stage. This is done after the triggering damage is resolved.",
+          "trigger": "The user takes Physical damage.",
+          "target": null,
+          "frequency": "At-Will – Free Action"
         }
       ],
       "advancedAbilities": [
@@ -268297,7 +268304,8 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Sturdy"
+      "Sturdy",
+      "Weak Armor"
     ],
     "advancedAbilities": [
       "Sand Rush",
@@ -268479,6 +268487,13 @@
           "trigger": null,
           "target": null,
           "frequency": "Static"
+        },
+        {
+          "name": "Weak Armor",
+          "effect": "The user may lower its Defense by 1 Combat Stage, and gain +1 Speed Combat Stage. This is done after the triggering damage is resolved.",
+          "trigger": "The user takes Physical damage.",
+          "target": null,
+          "frequency": "At-Will – Free Action"
         }
       ],
       "advancedAbilities": [
@@ -268539,7 +268554,8 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Sturdy"
+      "Sturdy",
+      "Weak Armor"
     ],
     "advancedAbilities": [
       "Sand Rush",
@@ -268733,6 +268749,13 @@
           "trigger": null,
           "target": null,
           "frequency": "Static"
+        },
+        {
+          "name": "Sand Stream",
+          "effect": "The Weather changes to a Sandstorm for 1 full round. The user is immune to Hit Point loss from Sandstorms.",
+          "trigger": null,
+          "target": null,
+          "frequency": "Scene x3 – Swift Action"
         }
       ],
       "advancedAbilities": [
@@ -268793,7 +268816,8 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "Sturdy"
+      "Sturdy",
+      "Sand Stream"
     ],
     "advancedAbilities": [
       "Sand Rush",
@@ -294228,11 +294252,11 @@
       ],
       "highAbilities": [
         {
-          "name": "Rattled",
-          "effect": "The user's Speed is raised by +1 Combat Stage, and may immediately Disengage as a Free Action.",
-          "trigger": "The user is hit by a Bug, Dark, or Ghost Type Move",
+          "name": "Slush Rush",
+          "effect": "While in Hailing Weather or under half maximum Hit Points, the user's Initiative is doubled.",
+          "trigger": null,
           "target": null,
-          "frequency": "At-Will – Free Action"
+          "frequency": "Static"
         }
       ]
     },
@@ -294276,7 +294300,7 @@
       "Thick Fat"
     ],
     "highAbilities": [
-      "Rattled"
+      "Slush Rush"
     ],
     "capabilities": {
       "Overland": 4,
@@ -294555,8 +294579,8 @@
       ],
       "highAbilities": [
         {
-          "name": "Swift Swim",
-          "effect": "While in Rainy Weather or under 50% Max Hit Points, the user's Initiative is doubled.",
+          "name": "Slush Rush",
+          "effect": "While in Hailing Weather or under half maximum Hit Points, the user's Initiative is doubled.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -294603,7 +294627,7 @@
       "Thick Fat"
     ],
     "highAbilities": [
-      "Swift Swim"
+      "Slush Rush"
     ],
     "capabilities": {
       "Overland": 6,

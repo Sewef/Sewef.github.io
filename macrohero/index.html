@@ -409,6 +409,152 @@
           <br>Accepts either an item object or token id string.</li>
       </ul>
 
+      <h4>Embers</h4>
+      <p>Embers provides a fluent API for creating and chaining spell visual effects (projectiles, area effects, cone effects, and gameplay actions) using the Embers extension for Owlbear Rodeo.</p>
+      <ul>
+        <li><strong>sequence()</strong> → EmbersSequence
+          <br>Create a new spell effect sequence. Supports method chaining for building complex effect chains.
+          <br>Example: <code>await Embers.sequence().projectile('effectId', caster, target).cast()</code></li>
+      </ul>
+
+      <h5>EmbersSequence Fluent Methods</h5>
+      <ul>
+        <li><strong>.projectile(effectId, casterId, targetIds, config?)</strong>
+          <br>Add a projectile effect from a caster to one or more targets.
+          <br>Params: <code>effectId</code> (string), <code>casterId</code> (token id), <code>targetIds</code> (token id or array), <code>config</code> (optional: size, spellName, etc.)
+          <br>Example: <code>.projectile('generic.weapon_attacks.ranged.laser_shot.orange', caster, target, {spellName: 'Fireball'})</code></li>
+        
+        <li><strong>.aoe(effectId, tokenIds, config?)</strong>
+          <br>Add an area-of-effect (AOE/circle) effect at one or more token positions.
+          <br>Params: <code>effectId</code> (string), <code>tokenIds</code> (token id or array), <code>config</code> (optional: size, spellName, etc.)
+          <br>Example: <code>.aoe('generic.impact.fire', targetToken, {size: 5, spellName: 'Explosion'})</code></li>
+        
+        <li><strong>.cone(effectId, casterId, targetId, config?)</strong>
+          <br>Add a cone effect from a caster directed at a target (rotation calculated automatically).
+          <br>Params: <code>effectId</code> (string), <code>casterId</code> (token id), <code>targetId</code> (token id), <code>config</code> (optional: size, spellName, etc.)
+          <br>Example: <code>.cone('generic.weapon_attacks.melee.single.generic_slash', caster, target, {size: 6, spellName: 'Cone Attack'})</code></li>
+        
+        <li><strong>.action(actionId, args, config?)</strong>
+          <br>Add a gameplay action (move, create token, slide, etc.).
+          <br>Params: <code>actionId</code> (string), <code>args</code> (object), <code>config</code> (optional configuration)
+          <br>Example: <code>.action('move', {target: targetId, distance: 10})</code></li>
+        
+        <li><strong>.delay(ms)</strong>
+          <br>Add a delay (in milliseconds) before the next effect executes. Delays stack and apply to the following effect.
+          <br>Example: <code>.delay(300)</code> delays the next effect by 300ms.</li>
+        
+        <li><strong>.then()</strong>
+          <br>Create a nested sequence where following effects execute only after all previous effects complete. Use for sequential effect chains.
+          <br>Example: <code>.projectile(...).then().aoe(...)</code> — projectile fires first, then AOE executes after.</li>
+        
+        <li><strong>.cast(options?)</strong> → Promise&lt;void&gt;
+          <br>Execute and broadcast the effect sequence to the Embers extension. Must be called to trigger the effects.
+          <br>Params: <code>options</code> (optional: spellName, destination for broadcast, etc.)
+          <br>Example: <code>await Embers.sequence().projectile(...).cast()</code></li>
+        
+        <li><strong>.named(name)</strong>
+          <br>Set a spell name for the sequence (used by Embers for displays).
+          <br>Example: <code>.named('Fireball')</code></li>
+        
+        <li><strong>.withOptions(options)</strong>
+          <br>Set additional options for the sequence (spellName, destination, interactions, spellData, etc.).
+          <br>Example: <code>.withOptions({spellName: 'Lightning Bolt'})</code></li>
+      </ul>
+
+      <h5>Convenience Helpers</h5>
+      <ul>
+        <li><strong>castProjectile(effectId, casterId, targetIds, config?)</strong> → Promise&lt;void&gt;
+          <br>Shortcut: create and cast a projectile effect in one call.
+          <br>Example: <code>await Embers.castProjectile('effectId', caster, target, {spellName: 'My Spell'})</code></li>
+        
+        <li><strong>castAOE(effectId, tokenIds, config?)</strong> → Promise&lt;void&gt;
+          <br>Shortcut: create and cast an AOE effect in one call.
+          <br>Example: <code>await Embers.castAOE('effectId', target, {size: 5})</code></li>
+        
+        <li><strong>castCone(effectId, casterId, targetId, config?)</strong> → Promise&lt;void&gt;
+          <br>Shortcut: create and cast a cone effect in one call.
+          <br>Example: <code>await Embers.castCone('effectId', caster, target, {size: 6})</code></li>
+        
+        <li><strong>sendInstructions(instructions, options?)</strong> → Promise&lt;void&gt;
+          <br>Advanced: send raw instruction objects directly to the Embers extension (for expert users building effects manually).</li>
+      </ul>
+
+      <h5>Embers Examples</h5>
+
+      <p><strong>Single Projectile Effect</strong></p>
+      <pre><code class="language-javascript">await Embers.sequence()
+  .projectile('generic.weapon_attacks.ranged.laser_shot.orange', caster, target)
+  .cast()</code></pre>
+
+      <p><strong>Projectile Followed by AOE (Sequential)</strong></p>
+      <pre><code class="language-javascript">await Embers.sequence()
+  .projectile('generic.weapon_attacks.ranged.laser_shot.orange', caster, target, {spellName: 'Fireball'})
+  .then()
+  .aoe('generic.impact.fire', target, {size: 5})
+  .cast()</code></pre>
+
+      <p><strong>Multiple Projectiles (Simultaneous)</strong></p>
+      <pre><code class="language-javascript">await Embers.sequence()
+  .projectile('effectId', caster, target1)
+  .projectile('effectId', caster, target2)
+  .projectile('effectId', caster, target3)
+  .cast()</code></pre>
+
+      <p><strong>Cone Effect with Delay</strong></p>
+      <pre><code class="language-javascript">await Embers.sequence()
+  .cone('generic.weapon_attacks.melee.single.generic_slash', caster, target, {size: 6, spellName: 'Cone Attack'})
+  .named('Sweep')
+  .cast()</code></pre>
+
+      <p><strong>Complex Chain with Delays</strong></p>
+      <pre><code class="language-javascript">await Embers.sequence()
+  .projectile('missile', caster, target, {spellName: 'Chain Lightning'})
+  .delay(200)
+  .then()
+  .aoe('impact', target, {size: 4})
+  .delay(300)
+  .then()
+  .cone('secondary', caster, target2, {size: 3})
+  .cast()</code></pre>
+
+      <p><strong>Using Convenience Helpers</strong></p>
+      <pre><code class="language-javascript">// Shortcut for simple projectiles
+await Embers.castProjectile('effectId', caster, target, {spellName: 'Arrow'})
+
+// Shortcut for AOE
+await Embers.castAOE('effectId', target, {size: 5})
+
+// Shortcut for cone
+await Embers.castCone('effectId', caster, target, {size: 6})</code></pre>
+
+      <h5>How Delays Work</h5>
+      <p>When you call <code>.delay(ms)</code>, the delay is applied to the <strong>next effect</strong>, not the previous one. Delays stack — multiple consecutive <code>.delay()</code> calls add together.</p>
+      <pre><code class="language-javascript">// This delays the aoe by 300ms (projectile executes, then 300ms passes, then aoe fires)
+Embers.sequence()
+  .projectile('effect1', caster, target)
+  .delay(300)
+  .aoe('effect2', target)
+  .cast()</code></pre>
+
+      <h5>How Sequential Execution Works (.then())</h5>
+      <p>The <code>.then()</code> method creates a nested sequence where following effects execute <strong>after</strong> all previous effects complete. Without <code>.then()</code>, effects execute simultaneously. You can chain multiple <code>.then()</code> calls to create a complex sequence.</p>
+      <pre><code class="language-javascript">// Effects execute in order: projectile → (waits for completion) → aoe → (waits) → cone
+await Embers.sequence()
+  .projectile('missile', caster, target)
+  .then()
+  .aoe('impact', target, {size: 5})
+  .then()
+  .cone('secondary', caster, target2)
+  .cast()</code></pre>
+
+      <h5>Notes on Embers</h5>
+      <ul>
+        <li><strong>Async:</strong> Always use <code>await</code> when calling <code>.cast()</code> to ensure effects execute before the next command.</li>
+        <li><strong>Fluent chaining:</strong> All methods except <code>.cast()</code> return the EmbersSequence instance for chaining.</li>
+        <li><strong>Effect IDs:</strong> Use the correct Embers effect IDs for your extension version. Refer to the Embers documentation for available effects.</li>
+        <li><strong>Positions fetched at cast time:</strong> Token positions are resolved when <code>.cast()</code> is called, not when methods are chained, allowing dynamic positioning.</li>
+      </ul>
+
       <h4>Weather</h4>
       <p>Control weather effects on maps. Works with the official Weather extension. For advanced features (ENERGYSTORM, WATER, CURRENT weather types and tint color support), use the <a href="https://github.com/IAmConorNolan/weather-extended" target="_blank">weather-extended</a> fork.</p>
       <ul>

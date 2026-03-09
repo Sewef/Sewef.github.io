@@ -573,6 +573,99 @@ await Embers.sequence()
           <br>Check if map has weather.</li>
       </ul>
 
+      <h4>Auras</h4>
+      <p>Manage auras on tokens and items using the Auras extension (formerly Emanation). Auras are visual effects that appear around tokens, including glows, bubbles, ranges, images, and custom effects.</p>
+      <ul>
+        <li><strong>hasAura(itemId)</strong> → Promise&lt;boolean&gt;
+          <br>Check if an item has any auras.
+          <br>Example: <code>const hasAuras = await Auras.hasAura(token)</code></li>
+        
+        <li><strong>getAuras(itemId)</strong> → Promise&lt;Array&gt;
+          <br>Get all auras on an item. Returns an array of aura entry objects (each containing size, style, visibleTo, layer, etc.).
+          <br>Example: <code>const auras = await Auras.getAuras(token)</code></li>
+        
+        <li><strong>addAura(itemId, config)</strong> → Promise&lt;void&gt;
+          <br>Add a color-based or image aura to an item. The config object supports:
+          <ul style="margin-top: 0.5em; margin-bottom: 0.5em;">
+            <li><strong>size</strong>: number (required) — Aura radius in grid units</li>
+            <li><strong>style</strong>: string (optional) — Style type. Supported values:
+              <ul style="margin-top: 0.25em;">
+                <li>"Glow" — Glowing aura effect</li>
+                <li>"Bubble" — Bubble-shaped aura</li>
+                <li>"Range" — Range circle</li>
+                <li>"Solid" — Solid colored aura</li>
+                <li>"Simple" — Simple shape-based aura</li>
+                <li>"Distort" — Distortion effect</li>
+                <li>"Spirits" — Particle effect</li>
+                <li>"Image" — Image-based aura (requires <code>imageBuildParams</code>)</li>
+                <li>"Custom" — Custom shader (requires <code>sksl</code> parameter)</li>
+              </ul>
+            </li>
+            <li><strong>color</strong>: string (optional) — Hex color code (e.g., "#FF0000"). Optional if style is Image/Custom</li>
+            <li><strong>opacity</strong>: number (optional) — Opacity from 0 (transparent) to 1 (opaque)</li>
+            <li><strong>blendMode</strong>: string (optional) — Blend mode for shader effects (e.g., "PLUS", "DIFFERENCE", "SATURATION")</li>
+            <li><strong>layer</strong>: string (optional) — Which layer to draw on (e.g., "DRAWING", "POST_PROCESS")</li>
+            <li><strong>visibleTo</strong>: string | null (optional) — Player ID for visibility (null = invisible to all, omit = visible to all)</li>
+            <li><strong>sksl</strong>: string (optional) — Shader code for Custom style auras</li>
+            <li><strong>imageBuildParams</strong>: object (optional) — Image params for Image style: <code>{image: ImageContent, grid: ImageGrid}</code></li>
+          </ul>
+          <br>Example: <code>await Auras.addAura(token, { style: 'Glow', color: '#FF0000', size: 5 })</code></li>
+        
+        <li><strong>removeAura(itemId)</strong> → Promise&lt;void&gt;
+          <br>Remove all auras from an item.
+          <br>Example: <code>await Auras.removeAura(token)</code></li>
+      </ul>
+
+      <h5>Auras Examples</h5>
+
+      <p><strong>Add a Red Glow Aura</strong></p>
+      <pre><code class="language-javascript">await Auras.addAura(token, {
+  style: 'Glow',
+  color: '#FF0000',
+  size: 5
+})</code></pre>
+
+      <p><strong>Add a Blue Range Aura with Opacity</strong></p>
+      <pre><code class="language-javascript">await Auras.addAura(token, {
+  style: 'Range',
+  color: '#0000FF',
+  size: 8,
+  opacity: 0.6
+})</code></pre>
+
+      <p><strong>Add an Aura with Blend Mode (Glow + PLUS mode simulates light)</strong></p>
+      <pre><code class="language-javascript">await Auras.addAura(token, {
+  style: 'Glow',
+  color: '#FFFF00',
+  size: 4,
+  blendMode: 'PLUS'
+})</code></pre>
+
+      <p><strong>Add a Custom Shader Aura</strong></p>
+      <pre><code class="language-javascript">await Auras.addAura(token, {
+  style: 'Custom',
+  size: 5,
+  sksl: 'your_shader_code_here'
+})</code></pre>
+
+      <p><strong>Check and Remove Auras</strong></p>
+      <pre><code class="language-javascript">const hasAuras = await Auras.hasAura(token)
+if (hasAuras) {
+  const aurasList = await Auras.getAuras(token)
+  console.log(`Token has ${aurasList.length} aura(s)`)
+  await Auras.removeAura(token)
+}</code></pre>
+
+      <h5>Auras Notes & Limitations</h5>
+      <ul>
+        <li><strong>Image auras:</strong> Image-based auras (style: "Image") are supported via the broadcast API when you provide the <code>imageBuildParams</code> object with ImageContent and ImageGrid properties. These are advanced primitives from the OBR SDK; for simpler image auras, use the Auras extension UI directly.</li>
+        <li><strong>Color format:</strong> Always use hex color codes (e.g., "#FF0000"). The API does not accept RGB objects or color names.</li>
+        <li><strong>Blend modes:</strong> Blend modes are only applied to effect-style auras (Glow, Bubble, Range, Solid, Distort, Spirits, Custom). Common modes: "SRC_OVER" (default), "PLUS", "DIFFERENCE", "SATURATION", "MULTIPLY".</li>
+        <li><strong>Default values:</strong> If you omit <code>style</code>, <code>color</code>, or <code>opacity</code>, the extension uses the current player's default settings. This is useful for creating auras that respect player preferences.</li>
+        <li><strong>Layer and visibility:</strong> Some aura styles require the "POST_PROCESS" layer and will automatically override any layer setting. Use the Auras extension UI for advanced layer/visibility control.</li>
+        <li><strong>Querying auras:</strong> The <code>hasAura()</code> and <code>getAuras()</code> functions inspect Auras extension metadata. To modify auras, always use <code>addAura()</code> and <code>removeAura()</code> — do not edit metadata directly.</li>
+      </ul>
+
       <h4>Scene & Token Helpers</h4>
       <p>Advanced utility functions for scene manipulation. These are helper modules in <code>/commands</code>, not integrations.</p>
       <ul>

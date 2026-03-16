@@ -1,29 +1,71 @@
-// ------------------------- VARIABLES GLOBALES ------------------------------
+// ----------------------- GLOBAL VARIABLES -----------------------------------
 let classesData = {};
 let activeSources = new Set();
 let currentLink = null;
+let _cachedHashParams = null;
+let _lastHashTime = 0;
+let _currentViewClass = null; // Currently displayed class
+let _currentViewBranch = null; // Currently displayed branch
+let _searchTimeout = null; // Global timer for search
 
-// Parse hash parameters (format: #key=value&key=value)
+// Compiled regex constants
+const COLUMN_GROUP_REGEX = /^(.*?)(?:_(\d+))$/;
+const WHITESPACE_REGEX = /\s+/g;
+
+// Parse hash parameters with cache (format: #key=value&key=value)
 function getHashParams() {
-  const hash = window.location.hash.slice(1);
-  const params = new URLSearchParams(hash);
-  return params;
+  const hash = window.location.hash;
+  // Cache to avoid recreating URLSearchParams object on each call
+  if (_cachedHashParams && _lastHashTime === hash) {
+    return _cachedHashParams;
+  }
+  _cachedHashParams = new URLSearchParams(hash.slice(1));
+  _lastHashTime = hash;
+  return _cachedHashParams;
 }
 
 function setHashParams(obj) {
   const params = new URLSearchParams(obj);
   const newHash = params.toString();
-  const url = new URL(window.location);
-  const oldHash = url.hash.slice(1);
+  const oldHash = window.location.hash.slice(1);
   
   if (oldHash === newHash) {
     return; // No change
   }
   
+  _cachedHashParams = null; // Invalidate cache
   window.history.pushState({}, "", `#${newHash}`);
 }
 
-// ------------------------- CHARGEMENT JSON ---------------------------------
+// --------- Global search setup ------------------------------------------
+function setupGlobalSearch() {
+  const searchEl = document.getElementById("features-search");
+  if (!searchEl) return;
+
+  searchEl.addEventListener("input", e => {
+    clearTimeout(_searchTimeout);
+    const q = e.target.value.toLowerCase();
+
+    _searchTimeout = setTimeout(() => {
+      if (!q.trim()) {
+        // Empty search: redisplay current class
+        renderSection(_currentViewClass, _currentViewBranch);
+      } else {
+        // Global search
+        const results = globalFeatureSearch(q);
+        if (results) {
+          renderGlobalSearchResults(results);
+        } else {
+          // No results found
+          const pane = document.getElementById("cards-container");
+          pane.innerHTML = `<div class="alert alert-info">No features match "<strong>${escapeHTML(q)}</strong>"</div>`;
+        }
+      }
+    }, 200); // 200ms debounce
+  });
+}
+
+// ----------------------- JSON LOADING -----------------------------------
 export function loadClasses(path) {
   fetch(path)
     .then(r => r.json())
@@ -38,6 +80,10 @@ export function loadClasses(path) {
       let clsName = section && classesData[section] ? section : (classesData.General ? "General" : Object.keys(classesData)[0]);
       let brName = branch || classesData[clsName].branches[0].Name;
 
+      // Store current view
+      _currentViewClass = clsName;
+      _currentViewBranch = brName;
+
       renderSection(clsName, brName);
 
       const l = document.querySelector(`[data-section="${clsName}"][data-branch="${brName}"]`);
@@ -50,11 +96,14 @@ export function loadClasses(path) {
           new bootstrap.Collapse(parentCollapse, { toggle: true });
         }
       }
+
+      // Setup global search (once only)
+      setupGlobalSearch();
     })
     .catch(err => console.error("JSON load error:", err));
 }
 
-// ------------------------- SIDEBAR -----------------------------------------
+// ----------------------- SIDEBAR -----------------------------------------------
 function buildSidebar() {
   const sb = document.getElementById("sidebar");
   sb.innerHTML = `
@@ -93,7 +142,7 @@ function buildSidebar() {
         expandedCategories.add(el.id);
       });
 
-      renderSidebar();                                   // ← sidebar mise à jour
+      renderSidebar();                                   // ← sidebar updated
 
       // Restore the state of the collapsible elements
       expandedCategories.forEach(id => {
@@ -106,7 +155,7 @@ function buildSidebar() {
       if (currentLink && currentLink.dataset.section === "General") {
         // on recharge la section General pour appliquer le nouveau filtre
         renderSection("General", "Default");
-        // (l'appel conserve scrollTo et la recherche locale déjà en place)
+        // (call preserves scrollTo and local search already in place)
       }
     })
   );
@@ -116,14 +165,14 @@ function buildSidebar() {
   renderSidebar();
 }
 
-// ------------- Source d'une branche ---------------------------------------
+// --------- Branch source helper --------------------------------
 function branchSource(branch, fallback) {
   const feats = Array.isArray(branch?.features) ? branch.features : [];
   const featWithSrc = feats.find(f => f && (f.Source || f.source));
   return featWithSrc ? (featWithSrc.Source || featWithSrc.source) : (fallback || "Unknown");
 }
 
-// ------------- Icones Catégories ------------------------------------------
+// --------- Category icons ------------------------------------------------
 const categoryIcons = {
   "Introductory": "🌱",
   "Battling": "⚔️",
@@ -149,7 +198,7 @@ function renderSidebar() {
 
   const q = document.getElementById("sidebar-search").value.trim().toLowerCase();
 
-  // ----- GENERAL -----------------------------------------------------------
+  // ----- GENERAL ---------------------------------------------------------
   if (classesData.General) {
     const g = classesData.General;
     const br0 = (Array.isArray(g.branches) && g.branches[0]) ? g.branches[0] : null;
@@ -160,11 +209,12 @@ function renderSidebar() {
     }
   }
 
-  // ----- CATÉGORIES --------------------------------------------------------
+  // ----- CATEGORIES ---------------------------------------------------
   const cats = {};
+  const lowerQ = q.toLowerCase(); // Cache lowercase conversion
   Object.entries(classesData).forEach(([clsName, cls]) => {
     if (clsName === "General") return;
-    if (q && !clsName.toLowerCase().includes(q)) return;
+    if (q && !clsName.toLowerCase().includes(lowerQ)) return;
 
     const visibleBranches = cls.branches.filter(br => activeSources.has(branchSource(br, cls.source)));
     if (visibleBranches.length === 0) return;
@@ -182,10 +232,10 @@ function renderSidebar() {
     catTgl.className =
       "list-group-item list-group-item-action d-flex align-items-center collapse-toggle collapsed mb-1 ps-3";
 
-    // si c'est la première catégorie, on ajoute un espace au-dessus
+    // Add spacing above first category
     if (index === 0) {
       const sep = document.createElement("div");
-      sep.className = "border-top my-2"; // ligne grise + marge
+      sep.className = "border-top my-2"; // grey line + margin
       box.appendChild(sep);
     }
 
@@ -195,7 +245,7 @@ function renderSidebar() {
     <span class="me-2">${getCategoryIcon(cat)}</span>
     <span class="flex-grow-1">${cat}</span>
     <span class="triangle-toggle ms-2"></span>`;
-    catTgl.addEventListener("click", e => e.preventDefault());
+    catTgl.onclick = () => false; // Preferred to addEventListener to prevent default
     box.appendChild(catTgl);
 
     const catCol = document.createElement("div");
@@ -209,10 +259,11 @@ function renderSidebar() {
         catCol.appendChild(makeLink(clsName, branchSource(branches[0], cls.source), { section: clsName, branch: "Default" }, 4));
       } else {
         const clsId = `collapse-cls-${clsName.replace(/\s+/g, "-")}`;
-        catCol.insertAdjacentHTML("beforeend", `
+        // Escape values to prevent XSS
+    catCol.insertAdjacentHTML("beforeend", `
           <a href="#" class="list-group-item list-group-item-action ps-4 d-flex justify-content-between align-items-center collapse-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#${clsId}">
-            <span>${clsName}</span>
-            <span class="badge bg-secondary-subtle ms-auto text-truncate" style="max-width:10rem" title="${cls.source}">${cls.source}</span>
+            <span>${escapeHTML(clsName)}</span>
+            <span class="badge bg-secondary-subtle ms-auto text-truncate" style="max-width:10rem" title="${escapeHTML(cls.source)}">${escapeHTML(cls.source)}</span>
             <span class="triangle-toggle ms-2"></span>
           </a>`);
         const brWrap = document.createElement("div");
@@ -229,20 +280,23 @@ function renderSidebar() {
 }
 
 
-// ------------- Helper : Création de lien ----------------------------------
+// --------- Link creation helper -----------------------------------------
 function makeLink(label, src, data = {}, pad = 3) {
   const a = document.createElement("a");
   a.href = "#";
   a.className = `list-group-item list-group-item-action ps-${pad} d-flex justify-content-between align-items-center`;
+  // Escape HTML values to prevent XSS
+  const escapedLabel = escapeHTML(label);
+  const escapedSrc = escapeHTML(src);
   a.innerHTML = `
-    <span>${label}</span>
-    <span class="badge bg-secondary-subtle ms-auto text-truncate" style="max-width:10rem" title="${src}">${src}</span>`;
+    <span>${escapedLabel}</span>
+    <span class="badge bg-secondary-subtle ms-auto text-truncate" style="max-width:10rem" title="${escapedSrc}">${escapedSrc}</span>`;
   Object.entries(data).forEach(([k, v]) => a.dataset[k] = v);
-  a.addEventListener("click", e => {
-    e.preventDefault();
+  a.onclick = () => {
     renderSection(data.section, data.branch);
     setActiveLink(a);
-  });
+    return false;
+  };
   return a;
 }
 
@@ -273,13 +327,113 @@ function featureSource(feat, fallback) {
   return feat.Source || feat.source || fallback || "Unknown";
 }
 
+// --------- Global feature search -----------------------------------
+function globalFeatureSearch(query) {
+  if (!query) return null;
+  
+  const q = query.toLowerCase();
+  const results = {}; // { className: { branchName: [features] } }
+  
+  Object.entries(classesData).forEach(([clsName, cls]) => {
+    cls.branches?.forEach(br => {
+      const matchedFeatures = [];
+      
+      br.features?.forEach(feat => {
+        // Recursively collect all matching features
+        const collectMatches = (f) => {
+          const matched = [];
+          if (!f) return matched;
+          
+          const name = (f.Name || "").toLowerCase();
+          if (name.includes(q)) {
+            matched.push(f);
+          }
+          
+          // Search in sub-features (arrays of features)
+          if (Array.isArray(f.features)) {
+            f.features.forEach(sub => {
+              matched.push(...collectMatches(sub));
+            });
+          }
+          
+          return matched;
+        };
+        
+        matchedFeatures.push(...collectMatches(feat));
+      });
+      
+      if (matchedFeatures.length > 0) {
+        if (!results[clsName]) results[clsName] = {};
+        results[clsName][br.Name] = matchedFeatures;
+      }
+    });
+  });
+  
+  return Object.keys(results).length > 0 ? results : null;
+}
+
+// --------- Render global search results --------------------------------
+function renderGlobalSearchResults(results) {
+  const pane = document.getElementById("cards-container");
+  pane.innerHTML = "";
+  
+  // Title
+  pane.insertAdjacentHTML("afterbegin", 
+    `<h2 class="mb-1" style="font-size:1.5rem;">Search Results</h2>`
+  );
+  
+  const row = document.createElement("div");
+  row.className = "row g-3 mt-2";
+  
+  // Iterate through results and display features
+  Object.entries(results).forEach(([clsName, branches]) => {
+    Object.entries(branches).forEach(([brName, features]) => {
+      const cls = classesData[clsName];
+      
+      features.forEach(feat => {
+        // collectLeafFeatures now fully clones, no need to clean
+        const leafs = collectLeafFeatures(feat);
+        leafs.forEach(leaf => {
+          // Create a wrapper for the card with source badge
+          const wrapper = document.createElement("div");
+          wrapper.className = "col-md-12";
+          
+          // Source badge
+          const badge = document.createElement("div");
+          badge.className = "mb-2";
+          badge.innerHTML = `
+            <small class="text-muted">
+              From <strong>${escapeHTML(clsName)}</strong> 
+              ${brName !== "Default" ? `› ${escapeHTML(brName)}` : ""}
+              ${cls.category ? ` • ${escapeHTML(cls.category)}` : ""}
+            </small>
+          `;
+          wrapper.appendChild(badge);
+          
+          // Create the card
+          const cardCol = createCard(leaf, cls, clsName === "General", false);
+          // createCard already returns a column, so just extract the card
+          const card = cardCol.querySelector(".card");
+          if (card) {
+            wrapper.appendChild(card);
+          }
+          
+          row.appendChild(wrapper);
+        });
+      });
+    });
+  });
+  
+  pane.appendChild(row);
+}
+
 
 // ------------------------- SECTION MAIN -----------------------------------
 function makeGaugeBar(value) {
   const v = Math.max(0, Math.min(5, Number(value) || 0));
   const percent = (v / 5) * 100;
 
-  // progress-bar fine avec classes Bootstrap
+  // progress bar with Bootstrap classes
   return `
     <div class="progress" style="height: 6px; width: 100%; min-width: 170px">
       <div class="progress-bar bg-primary" role="progressbar" style="width:${percent}%"></div>
@@ -289,13 +443,17 @@ function makeGaugeBar(value) {
 
 
 function renderSection(clsName, branchName = "Default") {
+  // Update current view
+  _currentViewClass = clsName;
+  _currentViewBranch = branchName;
+
   const pane = document.getElementById("cards-container");
   pane.innerHTML = "";
   const cls = classesData[clsName];
   if (!cls) return;
 
   let branches = cls.branches.filter(b => b.Name === branchName);
-  if (branches.length === 0) branches = [cls.branches[0]]; // fallback gracieux
+  if (branches.length === 0) branches = [cls.branches[0]]; // graceful fallback
   branchName = branches[0].Name;
 
   const title = (cls.branches.length === 1 && branchName === "Default")
@@ -306,7 +464,7 @@ function renderSection(clsName, branchName = "Default") {
 
   if (clsName !== "General" && stats && typeof stats === "object") {
 
-    // Construire chaque colonne (une par stat)
+    // Build each column (one per stat)
     const cols = Object.entries(stats)
       .map(([label, value]) => `
       <span class="d-flex flex-column align-items-start" style="line-height:2.25;">
@@ -324,7 +482,6 @@ function renderSection(clsName, branchName = "Default") {
   `;
   }
 
-  // --- Portrait ---
   let imgBase = clsName.replace(/\(.*?\)/g, "").trim();
   const imgPath = `/ptu/img/features/${imgBase}.png`;
 
@@ -335,7 +492,7 @@ function renderSection(clsName, branchName = "Default") {
        style="width:60px; height:60px; object-fit:cover;">
 `;
 
-  // --- Badges de la classe (catégorie + source si présents)
+  // --- Class badges (category + source if present)
   const classBadges = [];
 
   if (clsName !== "General") {
@@ -375,15 +532,15 @@ function renderSection(clsName, branchName = "Default") {
   pane.appendChild(row);
 
   if (clsName === "General") {
-    // --- FLUX PRINCIPAL ----------------------------------------------------
-    let cardIndex = 0;                                   // pour 1ʳᵉ-carte badge
+    // --- MAIN FLOW -------------------------------------------------------
+    let cardIndex = 0;                                   // for first-card badge
     branches.forEach(br => {
       br.features.forEach(feat => {
-        // → si on est dans General ET la Source de la Feature n'est pas cochée,
-        //   on saute entièrement cette Feature (et donc ses sous-features)
+        // → if in General AND the Feature Source is not checked,
+        //   skip this Feature entirely (and thus its sub-features)
         if (clsName === "General" &&
           !activeSources.has(featureSource(feat, cls.source))) {
-          return;                                        // on zappe
+          return;                                        // skip
         }
         const leafs = collectLeafFeatures(feat);
         leafs.forEach((leaf, idx) =>
@@ -392,7 +549,7 @@ function renderSection(clsName, branchName = "Default") {
       });
     });
   } else {
-    // ---- comportement précédent : flatten complet
+    // ---- Previous behavior: complete flatten
     const leafs = [];
     branches.forEach(br => br.features.forEach(f => leafs.push(...collectLeafFeatures(f))));
     leafs.forEach((leaf, idx) =>
@@ -400,74 +557,84 @@ function renderSection(clsName, branchName = "Default") {
     );
   }
 
-  document.getElementById("features-search").addEventListener("input", e => {
-    const q = e.target.value.toLowerCase();
-    // cibler uniquement les cartes top-level :
-    row.querySelectorAll(':scope > .col-md-12 > .card').forEach(card => {
-      const match = (card.dataset.title || "").toLowerCase().includes(q);
-      card.parentElement.style.display = match ? "" : "none";
-    });
-  });
 }
 
 
-// --------- Collecte récursive des Features (carte-mère + feuilles) --------
-function collectLeafFeatures(featObj, nameOverride = null, embedOnly = false) {
-  const list = [];
-  const isSimpleTextMap = obj =>
-    obj && typeof obj === "object" &&
-    !Array.isArray(obj) &&
-    Object.values(obj).every(v => typeof v === "string");
+// --------- Recursive feature collection (robust version) --------
+/**
+ * Prépare une feature pour l'affichage en clonant et en collectant les enfants.
+ * Toujours cloner pour éviter de muterer les originaux du JSON.
+ */
+function prepareFeatureForDisplay(featObj, nameOverride = null) {
+  // Complete clone to avoid any mutation of originals
+  const cleaned = JSON.parse(JSON.stringify(featObj));
+  
+  // Apply name override if provided
+  if (nameOverride) {
+    cleaned.Name = nameOverride;
+  }
+  if (!cleaned.Name) {
+    cleaned.Name = "(unnamed)";
+  }
 
-  const hasAnyContent = obj =>
-    Object.entries(obj).some(([, v]) =>
-      typeof v === "string" || isSimpleTextMap(v)
-    );
+  // Collect children from arrays of sub-features
+  const children = [];
+  const displayMeta = cleaned._display || {};
 
-  const cleaned = { ...featObj, Name: featObj.Name || nameOverride || "(unnamed)" };
-  const subCards = [];
-
-  // Recherche de tableaux de sous-features
-  const displayMeta = featObj._display || {};
-  for (const [key, val] of Object.entries(featObj)) {
+  for (const [key, val] of Object.entries(cleaned)) {
     if (!Array.isArray(val)) continue;
+    
+    // Check if it's an array of features
+    if (!val.every(v => typeof v === "object")) continue;
 
-    // Si _display dit "table" pour cette clé, on la laisse sur l'objet (elle sera
-    // rendue en tableau dans createCard) au lieu de la convertir en sous-cartes.
+    // Respect display type (tables vs cards)
     const meta = normalizeDisplayMeta(displayMeta[key]);
-    if (meta.type === "table") continue;
+    if (meta.type === "table") continue; // Tables stay in object
 
-    if (val.every(v => typeof v === "object" && (v.Name || v.Effect))) {
+    // It's an array of sub-features, transform them into children
+    if (val.some(v => v.Name || v.Effect)) {
       val.forEach(sub => {
-        const child = { ...sub, Name: sub.Name || `(${key})` };
-        subCards.push(...collectLeafFeatures(child, child.Name, true));
+        children.push(prepareFeatureForDisplay(sub));
       });
     }
   }
 
-  // Si l'objet principal contient du contenu, on le garde
-  if (hasAnyContent(cleaned)) {
-    if (subCards.length > 0) {
-      cleaned.__children = subCards;
-    }
-    if (!embedOnly) list.push(cleaned);
-    else return [cleaned];
-  } else if (embedOnly && subCards.length > 0) {
-    return subCards;
+  if (children.length > 0) {
+    cleaned._children = children;
   }
 
-  return list;
+  return cleaned;
+}
+
+/**
+ * Collects "leaf" features (displayable) from a feature hierarchy.
+ */
+function collectLeafFeatures(featObj, nameOverride = null) {
+  const feature = prepareFeatureForDisplay(featObj, nameOverride);
+  
+  // If feature has content, return it
+  const hasContent = Object.entries(feature).some(([k, v]) => {
+    if (k.startsWith('_') || k === 'Name') return false; // Ignore meta
+    return v != null;
+  });
+
+  if (hasContent) {
+    return [feature];
+  }
+
+  // Otherwise, return its children (if any)
+  return feature._children || [];
 }
 
 /* ------------------------------------------------------------------ *
- * 1. createCard() – rend une carte et, récursivement, ses sous-cartes
+ * Create card - renders a card and recursively its sub-cards
  * ------------------------------------------------------------------ */
 function createCard(feat, clsMeta, isGeneral, nested = false) {
-  // ----- conteneur colonne (pas de colonne Bootstrap quand imbriqué)
+  // ----- column container (no Bootstrap column when nested)
   const col = document.createElement("div");
   if (!nested) col.className = "col-md-12";
 
-  // ----- carte principale
+  // ----- main card
   const card = document.createElement("div");
   card.className = `card ${nested ? "mb-2" : ""} bg-body border shadow-sm overflow-hidden rounded-3`;
   card.dataset.title = feat.Name || "(unnamed)";
@@ -492,9 +659,9 @@ function createCard(feat, clsMeta, isGeneral, nested = false) {
 
   body.insertAdjacentHTML("afterbegin", `<h5 class="card-title">${titleHTML}</h5>`);
 
-  // ----- champs simples
+  // ----- simple fields
   Object.entries(feat).forEach(([k, v]) => {
-    if (["Name", "Source", "source", "Category", "__children"].includes(k)) return;
+    if (["Name", "Source", "source", "Category", "_children"].includes(k)) return;
     if (v == null || typeof v === "object") return;
 
     if (k === "Effect" && /<\s*table/i.test(v)) {
@@ -510,14 +677,14 @@ function createCard(feat, clsMeta, isGeneral, nested = false) {
     }
   });
 
-  // ----- tableaux déclarés en "table" via _display -----
+  // ----- arrays declared as "table" via _display -----
   const disp = feat._display || {};
   Object.entries(feat).forEach(([k, v]) => {
     if (!Array.isArray(v)) return;
     const meta = normalizeDisplayMeta(disp[k]);
     if (meta.type !== "table") return;
 
-    // recherche locale appliquée (même input Search que pour les cartes)
+    // local search applied (same Search input for cards)
     const rootRow = body.closest(".row");
     const searchInput = document.getElementById("features-search");
     const q = searchInput ? (searchInput.value || "") : "";
@@ -525,9 +692,9 @@ function createCard(feat, clsMeta, isGeneral, nested = false) {
     renderAsTable(v, k, meta, q, body);
   });
 
-  // ----- enfants imbriqués uniquement ici
-  if (feat.__children && Array.isArray(feat.__children)) {
-    feat.__children.forEach(child => {
+  // ----- nested children only here
+  if (feat._children && Array.isArray(feat._children)) {
+    feat._children.forEach(child => {
       body.appendChild(createCard(child, clsMeta, isGeneral, true));
     });
   }
@@ -539,7 +706,7 @@ function createCard(feat, clsMeta, isGeneral, nested = false) {
 
 /* ========== TABLE RENDERING HELPERS ===================================== */
 
-// détection générique du meilleur idField si non fourni (clé la plus "distinctive")
+// Generic detection of best idField if not provided (most distinctive key)
 function resolveIdField(preferred, entries) {
   if (preferred && entries.some(e => e && (preferred in e))) return preferred;
   const keyCounts = {};
@@ -556,7 +723,7 @@ function resolveIdField(preferred, entries) {
   return best;
 }
 
-// ajoute juste ce flag dans ton normalize
+// Normalize display metadata
 function normalizeDisplayMeta(raw) {
   if (raw === "table") return { type: "table", rowPerField: true, noheader: false };
   if (raw && typeof raw === "object") {
@@ -579,7 +746,7 @@ function normalizeDisplayMeta(raw) {
 
 
 
-// petit utilitaire d'échappement (mêmes règles que ton code existant)
+// Small HTML escape utility (same rules as existing code)
 function escapeHTML(str) {
   return String(str)
     .replaceAll("&", "&amp;")
@@ -590,7 +757,7 @@ function escapeHTML(str) {
 }
 
 function computeColumnGroups(cols, meta) {
-  const rx = new RegExp(meta.columnGroupRegex || "^(.*?)(?:_(\\d+))$");
+  const rx = new RegExp(meta.columnGroupRegex || COLUMN_GROUP_REGEX.source);
   const groups = [];
   let i = 0;
   while (i < cols.length) {
@@ -611,29 +778,9 @@ function computeColumnGroups(cols, meta) {
 }
 
 function renderAsTable(entries, title, meta, q, parentEl) {
-  // --- helper interne pour fusionner les colonnes "Bloc_1/2/3" → colspan
-  function computeColumnGroups(cols, meta) {
-    const rx = new RegExp(meta.columnGroupRegex || "^(.*?)(?:_(\\d+))$");
-    const groups = [];
-    let i = 0;
-    while (i < cols.length) {
-      const m = String(cols[i]).match(rx);
-      const base = (m ? m[1] : cols[i]).trim();
-      let span = 1, j = i + 1;
-      while (j < cols.length) {
-        const m2 = String(cols[j]).match(rx);
-        const base2 = (m2 ? m2[1] : cols[j]).trim();
-        if (base2 !== base) break;
-        span++; j++;
-      }
-      const label = (meta.groupLabels && meta.groupLabels[base]) || base;
-      groups.push({ label, span });
-      i = j;
-    }
-    return groups;
-  }
+  // Note: computeColumnGroups is defined at global level to avoid duplication
 
-  // Filtrage texte
+  // Text filtering
   const filtered = entries.filter(obj => {
     if (!q) return true;
     const hay = Object.values(obj || {}).map(v => (v == null ? "" : String(v).toLowerCase())).join(" ");
@@ -641,13 +788,13 @@ function renderAsTable(entries, title, meta, q, parentEl) {
   });
   if (filtered.length === 0) return;
 
-  // Carte + body
+  // Card + body
   const card = document.createElement("div");
   card.className = "card h-100 bg-body border shadow-sm mb-2 overflow-hidden rounded-3";
   const body = document.createElement("div");
   body.className = "card-body bg-body-secondary";
 
-  // Wrapper responsive
+  // Responsive wrapper
   const wrap = document.createElement("div");
   wrap.className = "table-responsive";
 
@@ -656,13 +803,13 @@ function renderAsTable(entries, title, meta, q, parentEl) {
   table.className = "table table-sm table-striped mb-0 items-table";
   if (meta.rowPerField) table.classList.add("items-table--transposed");
 
-  // ======================= MODE COLONNES (lignes = items) ===================
+  // ======================= COLUMNS MODE (rows = items) ==================
   if (!meta.rowPerField) {
-    // Déterminer les colonnes
+    // Determine columns
     let cols;
     if (Array.isArray(meta.columns)) {
       cols = meta.columns.filter(k => filtered.some(e => Object.prototype.hasOwnProperty.call(e, k)));
-      // compléter avec les clés manquantes en fin
+      // complete with missing keys at end
       const union = new Set();
       filtered.forEach(e => Object.keys(e).forEach(k => union.add(k)));
       [...union].forEach(k => { if (!cols.includes(k)) cols.push(k); });
@@ -672,7 +819,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
       cols = [...union];
     }
 
-    // Colgroup (largeurs optionnelles)
+    // Colgroup (optional widths)
     if (Array.isArray(meta.columnWidths) && meta.columnWidths.length) {
       const cg = document.createElement("colgroup");
       cols.forEach((_, i) => {
@@ -684,13 +831,13 @@ function renderAsTable(entries, title, meta, q, parentEl) {
       table.appendChild(cg);
     }
 
-    // En-têtes (si pas noheader)
+    // Headers (if not noheader)
     if (!meta.noheader) {
       const thead = document.createElement("thead");
 
-      // Fusion d'en-têtes si demandé
+      // Merge headers if requested
       if (meta.mergeColumns) {
-        // Rangée 1 : groupes fusionnés
+        // Row 1: merged groups
         const top = document.createElement("tr");
         computeColumnGroups(cols, meta).forEach(g => {
           const th = document.createElement("th");
@@ -701,7 +848,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
         });
         thead.appendChild(top);
 
-        // Rangée 2 : sous-entêtes (facultatif)
+        // Row 2: sub-headers (optional)
         if (meta.subHeaders) {
           const rx = new RegExp(meta.columnGroupRegex || "^(.*?)(?:_(\\d+))$");
           const sub = document.createElement("tr");
@@ -715,7 +862,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
           thead.appendChild(sub);
         }
       } else {
-        // En-tête simple
+        // Simple header
         const headRow = document.createElement("tr");
         cols.forEach(k => {
           const th = document.createElement("th");
@@ -727,7 +874,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
       table.appendChild(thead);
     }
 
-    // Corps
+    // Body
     const tbody = document.createElement("tbody");
     filtered.forEach(obj => {
       const tr = document.createElement("tr");
@@ -748,10 +895,10 @@ function renderAsTable(entries, title, meta, q, parentEl) {
     return;
   }
 
-  // ================== MODE TRANSPOSE (lignes = champs, colonnes = items) ====
+  // ================== TRANSPOSE MODE (rows = fields, columns = items) ====
   const idField = resolveIdField(meta.idField, filtered);
 
-  // Lignes = union des clés (sauf idField)
+  // Rows = union of keys (except idField)
   const rowKeys = [];
   const seen = new Set();
   filtered.forEach(e => {
@@ -761,17 +908,17 @@ function renderAsTable(entries, title, meta, q, parentEl) {
     });
   });
 
-  // Colgroup : première colonne (étiquettes) un peu plus large
+  // Colgroup: first column (labels) wider
   const cg = document.createElement("colgroup");
   const c0 = document.createElement("col"); c0.style.width = "18ch"; cg.appendChild(c0);
   filtered.forEach(() => cg.appendChild(document.createElement("col")));
   table.appendChild(cg);
 
-  // En-tête (si pas noheader)
+  // Header (if not noheader)
   if (!meta.noheader) {
     const thead = document.createElement("thead");
     const headRow = document.createElement("tr");
-    headRow.appendChild(document.createElement("th")); // coin vide
+    headRow.appendChild(document.createElement("th")); // empty corner
     filtered.forEach((obj, idx) => {
       const th = document.createElement("th");
       const label = idField && obj[idField] != null ? String(obj[idField]) : `#${idx + 1}`;
@@ -782,7 +929,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
     table.appendChild(thead);
   }
 
-  // Corps
+  // Body
   const tbody = document.createElement("tbody");
   rowKeys.forEach(k => {
     const tr = document.createElement("tr");
@@ -809,7 +956,7 @@ function renderAsTable(entries, title, meta, q, parentEl) {
 
 
 
-// Styles minimes pour colonnes homogènes + wrap (à mettre dans ton CSS global)
+// Minimal styles for homogeneous columns + wrap (to put in your global CSS)
 (function ensureTableCSS() {
   if (document.getElementById("items-table-css")) return;
   const css = `

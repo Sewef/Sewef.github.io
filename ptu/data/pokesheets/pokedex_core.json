@@ -236470,15 +236470,15 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Rock Head (Blue Basculin Only)",
-          "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
+          "name": "Chlorophyll",
+          "effect": "While in Sunny Weather or under 50% Max Hit Points, the user's Initiative is doubled.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
         },
         {
-          "name": "Sap Sipper",
-          "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
+          "name": "Rock Head (Blue Basculin Only)",
+          "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -236529,8 +236529,8 @@
       "Grass Pelt"
     ],
     "advancedAbilities": [
-      "Rock Head",
-      "Sap Sipper"
+      "Chlorophyll",
+      "Rock Head"
     ],
     "highAbilities": [
       "Empower"
@@ -236723,15 +236723,15 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Rock Head (Blue Basculin Only)",
-          "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
+          "name": "Chlorophyll",
+          "effect": "While in Sunny Weather or under 50% Max Hit Points, the user's Initiative is doubled.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
         },
         {
-          "name": "Sap Sipper",
-          "effect": "The user is immune to the damage and effects of Grass-Type attacks. If the user is hit by a Grass-Type attack, they gain +1 CS in their choice of Attack or Special Attack. Defensive.",
+          "name": "Rock Head (Blue Basculin Only)",
+          "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -236782,8 +236782,8 @@
       "Grass Pelt"
     ],
     "advancedAbilities": [
-      "Rock Head",
-      "Sap Sipper"
+      "Chlorophyll",
+      "Rock Head"
     ],
     "highAbilities": [
       "Empower"

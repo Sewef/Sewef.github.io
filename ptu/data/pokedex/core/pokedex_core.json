@@ -352871,8 +352871,9 @@
         "Grass"
       ],
       "Basic Ability 1": "Grass Pelt",
-      "Adv Ability 1": "Rock Head",
-      "Adv Ability 2": "Sap Sipper",
+      "Adv Ability 1": "Chlorophyll",
+      "Adv Ability 2": "Rock Head",
+      "Adv Ability 3": "Sap Sipper",
       "High Ability": "Empower"
     },
     "Evolution": [
@@ -353295,8 +353296,9 @@
         "Grass"
       ],
       "Basic Ability 1": "Grass Pelt",
-      "Adv Ability 1": "Rock Head",
-      "Adv Ability 2": "Sap Sipper",
+      "Adv Ability 1": "Chlorophyll",
+      "Adv Ability 2": "Rock Head",
+      "Adv Ability 3": "Sap Sipper",
       "High Ability": "Empower"
     },
     "Evolution": [

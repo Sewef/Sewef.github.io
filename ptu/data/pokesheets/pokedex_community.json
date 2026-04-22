@@ -170839,11 +170839,11 @@
           "frequency": "At-Will – Free Action"
         },
         {
-          "name": "Cute Charm",
-          "effect": "The target becomes Infatuated with the user.",
-          "trigger": null,
-          "target": "An adjacent foe",
-          "frequency": "Scene – Free Action"
+          "name": "Drown Out",
+          "effect": "The triggering Move fails and has no effect.",
+          "trigger": "A foe uses a Move with the Sonic keyword",
+          "target": null,
+          "frequency": "Scene x2 – Free Action"
         }
       ],
       "highAbilities": [
@@ -170892,7 +170892,7 @@
     ],
     "advancedAbilities": [
       "Rattled",
-      "Cute Charm"
+      "Drown Out"
     ],
     "highAbilities": [
       "Vital Spirit"
@@ -183090,8 +183090,8 @@
           "frequency": "Scene x2- Swift Action"
         },
         {
-          "name": "Perception",
-          "effect": "The user gains +1 Evasion. Whenever an Ally uses a damaging area-of-effect attack that would hit you, you may Disengage as a Free Action before the attack resolves.",
+          "name": "Magic Guard",
+          "effect": "The user is immune to damage and Hit Point loss from Hazards, Weather, Status Afflictions, Vortexes, Recoil, Hay Fever, Iron Barbs, Rough Skin, and Leech Seed. Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -183143,7 +183143,7 @@
     ],
     "advancedAbilities": [
       "Solar Power",
-      "Perception"
+      "Magic Guard"
     ],
     "highAbilities": [
       "Sunglow"
@@ -239330,13 +239330,6 @@
           "trigger": null,
           "target": null,
           "frequency": "Static"
-        },
-        {
-          "name": "Rock Head (Blue Basculin Only)",
-          "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
-          "trigger": null,
-          "target": null,
-          "frequency": "Static"
         }
       ],
       "highAbilities": [
@@ -239384,8 +239377,7 @@
       "Torrent"
     ],
     "advancedAbilities": [
-      "Water Absorb",
-      "Rock Head (Blue Basculin Only)"
+      "Water Absorb"
     ],
     "highAbilities": [
       "Mold Breaker"
@@ -271777,7 +271769,7 @@
           "frequency": "Static"
         },
         {
-          "name": "Rock Head (Blue Basculin Only)",
+          "name": "Rock Head",
           "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,
@@ -272030,7 +272022,7 @@
           "frequency": "Static"
         },
         {
-          "name": "Rock Head (Blue Basculin Only)",
+          "name": "Rock Head",
           "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,
@@ -278124,7 +278116,7 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Rock Head (Blue Basculin Only)",
+          "name": "Rock Head",
           "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,
@@ -278398,7 +278390,7 @@
       ],
       "advancedAbilities": [
         {
-          "name": "Rock Head (Blue Basculin Only)",
+          "name": "Rock Head",
           "effect": "The user ignores the Recoil keyword when attacking. If the user moves at least 4 meters in a straight line towards a foe before attacking that foe with a physical attack, they may add a +2d6 Bonus to the Damage Roll against that foe.",
           "trigger": null,
           "target": null,

@@ -19111,7 +19111,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Raichu", "Form": "Alola",
+        "Species": "Raichu",
+        "Form": "Alola",
         "Condition": "Thunderstone",
         "Minimum Level": 20
       }
@@ -101342,7 +101343,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Exeggutor", "Form": "Alola",
+        "Species": "Exeggutor",
+        "Form": "Alola",
         "Condition": "Leaf Stone",
         "Minimum Level": 20
       }
@@ -103648,7 +103650,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Marowak", "Form": "Alola",
+        "Species": "Marowak",
+        "Form": "Alola",
         "Condition": "",
         "Minimum Level": 25
       }
@@ -109306,7 +109309,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Weezing", "Form": "Galar",
+        "Species": "Weezing",
+        "Form": "Galar",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -156013,7 +156017,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Typhlosion", "Form": "Hisui",
+        "Species": "Typhlosion",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -156860,7 +156865,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Typhlosion", "Form": "Hisui",
+        "Species": "Typhlosion",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -171717,7 +171723,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Raichu", "Form": "Alola",
+        "Species": "Raichu",
+        "Form": "Alola",
         "Condition": "Thunderstone",
         "Minimum Level": 20
       }
@@ -291272,7 +291279,8 @@
       ],
       "Basic Ability 1": "Soundproof",
       "Adv Ability 1": "Rattled",
-      "Adv Ability 2": "Cute Charm",
+      "Adv Ability 2": "Drown Out",
+      "Adv Ability 3": "Cute Charm",
       "High Ability": "Vital Spirit"
     },
     "Evolution": [
@@ -336498,7 +336506,8 @@
       ],
       "Basic Ability 1": "Levitate",
       "Adv Ability 1": "Solar Power",
-      "Adv Ability 2": "Perception",
+      "Adv Ability 2": "Magic Guard",
+      "Adv Ability 3": "Perception",
       "High Ability": "Sunglow"
     },
     "Evolution": [
@@ -381626,7 +381635,8 @@
     "Legendary": true
   },
   {
-    "Species": "Deoxys", "Form": "Normal Forme",
+    "Species": "Deoxys",
+    "Form": "Normal Forme",
     "Number": 386,
     "Base Stats": {
       "HP": 5,
@@ -382755,7 +382765,8 @@
     "Legendary": true
   },
   {
-    "Species": "Deoxys", "Form": "Attack Forme",
+    "Species": "Deoxys",
+    "Form": "Attack Forme",
     "Number": 386,
     "Icon": "386-attack",
     "Base Stats": {
@@ -383827,7 +383838,8 @@
     "Legendary": true
   },
   {
-    "Species": "Deoxys", "Form": "Defense Forme",
+    "Species": "Deoxys",
+    "Form": "Defense Forme",
     "Number": 386,
     "Icon": "386-defense",
     "Base Stats": {
@@ -384930,7 +384942,8 @@
     "Legendary": true
   },
   {
-    "Species": "Deoxys", "Form": "Speed Forme",
+    "Species": "Deoxys",
+    "Form": "Speed Forme",
     "Number": 386,
     "Icon": "386-speed",
     "Base Stats": {
@@ -408722,19 +408735,22 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Plant Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Plant Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Sandy Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Sandy Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Trash Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Trash Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       },
@@ -408892,7 +408908,8 @@
     }
   },
   {
-    "Species": "Wormadam", "Form": "Plant Cloak Form",
+    "Species": "Wormadam",
+    "Form": "Plant Cloak Form",
     "Number": 413,
     "Base Stats": {
       "HP": 6,
@@ -408921,7 +408938,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Plant Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Plant Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       }
@@ -409731,7 +409749,8 @@
     }
   },
   {
-    "Species": "Wormadam", "Form": "Sandy Cloak Form",
+    "Species": "Wormadam",
+    "Form": "Sandy Cloak Form",
     "Number": 413,
     "Icon": "413-sandy",
     "Base Stats": {
@@ -409761,7 +409780,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Sandy Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Sandy Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       }
@@ -410575,7 +410595,8 @@
     }
   },
   {
-    "Species": "Wormadam", "Form": "Trash Cloak Form",
+    "Species": "Wormadam",
+    "Form": "Trash Cloak Form",
     "Number": 413,
     "Icon": "413-trash",
     "Base Stats": {
@@ -410605,7 +410626,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Wormadam", "Form": "Trash Cloak Form",
+        "Species": "Wormadam",
+        "Form": "Trash Cloak Form",
         "Condition": "Female",
         "Minimum Level": 20
       }
@@ -435527,7 +435549,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Mr. Mime", "Form": "Galar",
+        "Species": "Mr. Mime",
+        "Form": "Galar",
         "Condition": "",
         "Minimum Level": 20
       },
@@ -479024,7 +479047,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Normal Form",
+    "Species": "Rotom",
+    "Form": "Normal Form",
     "Number": 479,
     "Base Stats": {
       "HP": 5,
@@ -479958,7 +479982,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Heat Form",
+    "Species": "Rotom",
+    "Form": "Heat Form",
     "Number": 479,
     "Icon": "479-heat",
     "Base Stats": {
@@ -480837,7 +480862,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Wash Form",
+    "Species": "Rotom",
+    "Form": "Wash Form",
     "Number": 479,
     "Icon": "479-wash",
     "Base Stats": {
@@ -481716,7 +481742,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Frost Form",
+    "Species": "Rotom",
+    "Form": "Frost Form",
     "Number": 479,
     "Icon": "479-frost",
     "Base Stats": {
@@ -482595,7 +482622,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Fan Form",
+    "Species": "Rotom",
+    "Form": "Fan Form",
     "Number": 479,
     "Icon": "479-fan",
     "Base Stats": {
@@ -483474,7 +483502,8 @@
     }
   },
   {
-    "Species": "Rotom", "Form": "Mow Form",
+    "Species": "Rotom",
+    "Form": "Mow Form",
     "Number": 479,
     "Icon": "479-mow",
     "Base Stats": {
@@ -492582,7 +492611,8 @@
     "Legendary": true
   },
   {
-    "Species": "Giratina", "Form": "Origin Forme",
+    "Species": "Giratina",
+    "Form": "Origin Forme",
     "Number": 487,
     "Icon": "487-origin",
     "Base Stats": {
@@ -493790,7 +493820,8 @@
     "Legendary": true
   },
   {
-    "Species": "Giratina", "Form": "Altered Forme",
+    "Species": "Giratina",
+    "Form": "Altered Forme",
     "Number": 487,
     "Base Stats": {
       "HP": 15,
@@ -499399,7 +499430,8 @@
     "Legendary": true
   },
   {
-    "Species": "Shaymin", "Form": "Sky Forme",
+    "Species": "Shaymin",
+    "Form": "Sky Forme",
     "Number": 492,
     "Icon": "492-sky",
     "Base Stats": {
@@ -508156,7 +508188,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Samurott", "Form": "Hisui",
+        "Species": "Samurott",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -508988,7 +509021,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Samurott", "Form": "Hisui",
+        "Species": "Samurott",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -546292,7 +546326,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Lilligant", "Form": "Hisui",
+        "Species": "Lilligant",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 25
       }
@@ -547956,7 +547991,8 @@
       ],
       "Basic Ability 1": "Torrent",
       "Adv Ability 1": "Water Absorb",
-      "Adv Ability 2": "Rock Head (Blue Basculin Only)",
+      "Adv Ability 2 (Red)": "Reckless",
+      "Adv Ability 2 (Blue)": "Rock Head",
       "Adv Ability 3": "Swift Swim",
       "High Ability": "Mold Breaker"
     },
@@ -547968,13 +548004,15 @@
       },
       {
         "Stade": 2,
-        "Species": "Basculegion", "Form": "Male",
+        "Species": "Basculegion",
+        "Form": "Male",
         "Condition": "",
         "Minimum Level": 25
       },
       {
         "Stade": 2,
-        "Species": "Basculegion", "Form": "Female",
+        "Species": "Basculegion",
+        "Form": "Female",
         "Condition": "",
         "Minimum Level": 25
       }
@@ -617557,7 +617595,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Braviary", "Form": "Hisui",
+        "Species": "Braviary",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -630459,7 +630498,8 @@
     "Legendary": true
   },
   {
-    "Species": "Tornadus", "Form": "Incarnate Forme",
+    "Species": "Tornadus",
+    "Form": "Incarnate Forme",
     "Number": 641,
     "Base Stats": {
       "HP": 8,
@@ -631453,7 +631493,8 @@
     "Legendary": true
   },
   {
-    "Species": "Tornadus", "Form": "Therian Forme",
+    "Species": "Tornadus",
+    "Form": "Therian Forme",
     "Number": 641,
     "Icon": "641-therian",
     "Base Stats": {
@@ -632422,7 +632463,8 @@
     "Legendary": true
   },
   {
-    "Species": "Thundurus", "Form": "Incarnate Forme",
+    "Species": "Thundurus",
+    "Form": "Incarnate Forme",
     "Number": 642,
     "Base Stats": {
       "HP": 8,
@@ -633504,7 +633546,8 @@
     "Legendary": true
   },
   {
-    "Species": "Thundurus", "Form": "Therian Forme",
+    "Species": "Thundurus",
+    "Form": "Therian Forme",
     "Number": 642,
     "Icon": "642-therian",
     "Base Stats": {
@@ -636682,7 +636725,8 @@
     "Legendary": true
   },
   {
-    "Species": "Landorus", "Form": "Incarnate Forme",
+    "Species": "Landorus",
+    "Form": "Incarnate Forme",
     "Number": 645,
     "Base Stats": {
       "HP": 9,
@@ -637671,7 +637715,8 @@
     "Legendary": true
   },
   {
-    "Species": "Landorus", "Form": "Therian Forme",
+    "Species": "Landorus",
+    "Form": "Therian Forme",
     "Number": 645,
     "Icon": "645-therian",
     "Base Stats": {
@@ -639626,7 +639671,8 @@
     "Legendary": true
   },
   {
-    "Species": "Kyurem", "Form": "Zekrom Fusion Forme",
+    "Species": "Kyurem",
+    "Form": "Zekrom Fusion Forme",
     "Number": 646,
     "Icon": "646-zekrom",
     "Base Stats": {
@@ -640636,7 +640682,8 @@
     "Legendary": true
   },
   {
-    "Species": "Kyurem", "Form": "Reshiram Fusion Forme",
+    "Species": "Kyurem",
+    "Form": "Reshiram Fusion Forme",
     "Number": 646,
     "Icon": "646-reshiram",
     "Base Stats": {
@@ -642595,7 +642642,8 @@
     "Legendary": true
   },
   {
-    "Species": "Meloetta", "Form": "Aria Form",
+    "Species": "Meloetta",
+    "Form": "Aria Form",
     "Number": 648,
     "Base Stats": {
       "HP": 10,
@@ -643653,7 +643701,8 @@
     "Legendary": true
   },
   {
-    "Species": "Meloetta", "Form": "Step Form",
+    "Species": "Meloetta",
+    "Form": "Step Form",
     "Number": 648,
     "Icon": "648-step",
     "Base Stats": {
@@ -666949,7 +666998,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Meowstic", "Form": "Female",
+        "Species": "Meowstic",
+        "Form": "Female",
         "Condition": "",
         "Minimum Level": 25
       }
@@ -668846,7 +668896,8 @@
     }
   },
   {
-    "Species": "Meowstic", "Form": "Female",
+    "Species": "Meowstic",
+    "Form": "Female",
     "Number": 678,
     "Base Stats": {
       "HP": 7,
@@ -668874,7 +668925,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Meowstic", "Form": "Female",
+        "Species": "Meowstic",
+        "Form": "Female",
         "Condition": "",
         "Minimum Level": 25
       }
@@ -691569,7 +691621,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Sliggoo", "Form": "Hisui",
+        "Species": "Sliggoo",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 15
       },
@@ -691581,7 +691634,8 @@
       },
       {
         "Stade": 3,
-        "Species": "Goodra", "Form": "Hisui",
+        "Species": "Goodra",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }
@@ -698474,7 +698528,8 @@
       },
       {
         "Stade": 2,
-        "Species": "Avalugg", "Form": "Hisui",
+        "Species": "Avalugg",
+        "Form": "Hisui",
         "Condition": "",
         "Minimum Level": 30
       }

@@ -282031,9 +282031,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Illusory Disguise, Naturewalk (Forest, Grassland), Underdog": -1
+      "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Naturewalk (Forest, Grassland), Underdog": -1
     },
-    "otherCapabilities": "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Illusory Disguise, Naturewalk (Forest, Grassland), Underdog"
+    "otherCapabilities": "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Naturewalk (Forest, Grassland), Underdog"
   },
   {
     "pokedexEntryDocumentId": null,
@@ -282345,9 +282345,9 @@
       "Sky": 0,
       "Levitate": 0,
       "Burrow": 0,
-      "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Illusory Disguise, Naturewalk (Forest, Grassland)": -1
+      "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Naturewalk (Forest, Grassland)": -1
     },
-    "otherCapabilities": "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Illusory Disguise, Naturewalk (Forest, Grassland)"
+    "otherCapabilities": "Darkvision, Stealth, Tracker, Pack Mon, Illusionist, Naturewalk (Forest, Grassland)"
   },
   {
     "pokedexEntryDocumentId": null,

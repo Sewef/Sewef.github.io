@@ -488260,7 +488260,7 @@
           ]
         },
         {
-          "Move": "Roar Of Time",
+          "Move": "Roar of Time",
           "Type": "Dragon",
           "Level": 40,
           "Tags": [
@@ -636995,7 +636995,7 @@
           ]
         },
         {
-          "Move": "Sandsear Storm",
+          "Move": "Sandstorm Sear",
           "Type": "Ground",
           "Level": 80,
           "Tags": [
@@ -637940,7 +637940,7 @@
           ]
         },
         {
-          "Move": "Sandsear Storm",
+          "Move": "Sandstorm Sear",
           "Type": "Ground",
           "Level": 80,
           "Tags": [
@@ -671296,7 +671296,7 @@
     "Moves": {
       "Level Up Move List": [
         {
-          "Move": "Kings Shield",
+          "Move": "King's Shield",
           "Type": "Steel",
           "Level": "Evo",
           "Tags": [
@@ -694843,7 +694843,7 @@
           ]
         },
         {
-          "Move": "Forests Curse",
+          "Move": "Forest's Curse",
           "Type": "Grass",
           "Level": 35,
           "Tags": [
@@ -695814,7 +695814,7 @@
           ]
         },
         {
-          "Move": "Forests Curse",
+          "Move": "Forest's Curse",
           "Type": "Grass",
           "Level": 35,
           "Tags": [
@@ -703657,7 +703657,7 @@
           ]
         },
         {
-          "Move": "Lands Wrath",
+          "Move": "Land's Wrath",
           "Type": "Ground",
           "Level": 26,
           "Tags": [

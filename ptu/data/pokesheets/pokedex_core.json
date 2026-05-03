@@ -95582,7 +95582,7 @@
           "learnedLevel": 1
         },
         {
-          "moveName": "Conversion2",
+          "moveName": "Conversion 2",
           "learnedLevel": 1
         },
         {
@@ -120520,7 +120520,7 @@
       "eggMoves": [],
       "tutorMoves": [
         "Conversion",
-        "Conversion2",
+        "Conversion 2",
         "Defense Curl",
         "Double-Edge",
         "Electroweb",
@@ -183311,7 +183311,7 @@
       "eggMoves": [],
       "tutorMoves": [
         "Conversion",
-        "Conversion2",
+        "Conversion 2",
         "Dark Pulse",
         "Double-Edge",
         "Electroweb",

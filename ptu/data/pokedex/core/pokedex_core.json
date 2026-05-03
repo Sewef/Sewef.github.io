@@ -70777,7 +70777,7 @@
         },
         {
           "Level": 1,
-          "Move": "Conversion2",
+          "Move": "Conversion 2",
           "Type": "Normal"
         },
         {
@@ -121961,7 +121961,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Conversion2",
+          "Move": "Conversion 2",
           "Type": "Normal",
           "Tags": [
             "N"
@@ -251142,7 +251142,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Conversion2",
+          "Move": "Conversion 2",
           "Type": "Normal",
           "Tags": [
             "N"

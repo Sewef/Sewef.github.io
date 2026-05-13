@@ -97463,6 +97463,14 @@
         {
           "moveName": "Hurricane",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Ice Beam",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Sheer Cold",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -97710,6 +97718,14 @@
         {
           "moveName": "Zap Cannon",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Discharge",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Thunder",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -97959,6 +97975,14 @@
         {
           "moveName": "Hurricane",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Flamethrower",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Sky Attack",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -98977,6 +99001,18 @@
         {
           "moveName": "Aura Sphere",
           "learnedLevel": 93
+        },
+        {
+          "moveName": "Psycho Cut",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Psychic",
+          "learnedLevel": 64
+        },
+        {
+          "moveName": "Psystrike",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -99227,6 +99263,10 @@
           "learnedLevel": 1
         },
         {
+          "moveName": "Transform",
+          "learnedLevel": 1
+        },
+        {
           "moveName": "Mega Punch",
           "learnedLevel": 10
         },
@@ -99253,6 +99293,18 @@
         {
           "moveName": "Nasty Plot",
           "learnedLevel": 90
+        },
+        {
+          "moveName": "Psychic",
+          "learnedLevel": 30
+        },
+        {
+          "moveName": "Barrier",
+          "learnedLevel": 40
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -123028,6 +123080,10 @@
         {
           "moveName": "Calm Mind",
           "learnedLevel": 78
+        },
+        {
+          "moveName": "Thunder",
+          "learnedLevel": 85
         }
       ],
       "machineMoves": [
@@ -123279,6 +123335,10 @@
         {
           "moveName": "Calm Mind",
           "learnedLevel": 78
+        },
+        {
+          "moveName": "Eruption",
+          "learnedLevel": 85
         }
       ],
       "machineMoves": [
@@ -123532,6 +123592,10 @@
         {
           "moveName": "Calm Mind",
           "learnedLevel": 78
+        },
+        {
+          "moveName": "Blizzard",
+          "learnedLevel": 85
         }
       ],
       "machineMoves": [
@@ -124569,6 +124633,14 @@
         {
           "moveName": "Calm Mind",
           "learnedLevel": 93
+        },
+        {
+          "moveName": "Aeroblast",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Sky Attack",
+          "learnedLevel": 99
         }
       ],
       "machineMoves": [
@@ -124840,6 +124912,14 @@
         {
           "moveName": "Calm Mind",
           "learnedLevel": 93
+        },
+        {
+          "moveName": "Sacred Fire",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Sky Attack",
+          "learnedLevel": 99
         }
       ],
       "machineMoves": [
@@ -125091,6 +125171,18 @@
         {
           "moveName": "Perish Song",
           "learnedLevel": 91
+        },
+        {
+          "moveName": "Magical Leaf",
+          "learnedLevel": 19
+        },
+        {
+          "moveName": "Future Sight",
+          "learnedLevel": 64
+        },
+        {
+          "moveName": "Leaf Storm",
+          "learnedLevel": 82
         }
       ],
       "machineMoves": [
@@ -157505,6 +157597,14 @@
         {
           "moveName": "Hyper Beam",
           "learnedLevel": 67
+        },
+        {
+          "moveName": "Ancient Power",
+          "learnedLevel": 31
+        },
+        {
+          "moveName": "Stone Edge",
+          "learnedLevel": 43
         }
       ],
       "machineMoves": [
@@ -157756,6 +157856,14 @@
         {
           "moveName": "Hyper Beam",
           "learnedLevel": 67
+        },
+        {
+          "moveName": "Ancient Power",
+          "learnedLevel": 31
+        },
+        {
+          "moveName": "Ice Beam",
+          "learnedLevel": 43
         }
       ],
       "machineMoves": [
@@ -157997,6 +158105,10 @@
           "learnedLevel": 43
         },
         {
+          "moveName": "Flash Cannon",
+          "learnedLevel": 43
+        },
+        {
           "moveName": "Hammer Arm",
           "learnedLevel": 49
         },
@@ -158015,6 +158127,10 @@
         {
           "moveName": "Hyper Beam",
           "learnedLevel": 67
+        },
+        {
+          "moveName": "Ancient Power",
+          "learnedLevel": 31
         }
       ],
       "machineMoves": [
@@ -158291,6 +158407,14 @@
         {
           "moveName": "Healing Wish",
           "learnedLevel": 61
+        },
+        {
+          "moveName": "Mist Ball",
+          "learnedLevel": 24
+        },
+        {
+          "moveName": "Psycho Shift",
+          "learnedLevel": 28
         }
       ],
       "machineMoves": [
@@ -158581,6 +158705,14 @@
         {
           "moveName": "Memento",
           "learnedLevel": 61
+        },
+        {
+          "moveName": "Luster Purge",
+          "learnedLevel": 24
+        },
+        {
+          "moveName": "Psycho Shift",
+          "learnedLevel": 28
         }
       ],
       "machineMoves": [
@@ -158846,6 +158978,14 @@
         {
           "moveName": "Double-Edge",
           "learnedLevel": 80
+        },
+        {
+          "moveName": "Origin Pulse",
+          "learnedLevel": 45
+        },
+        {
+          "moveName": "Water Spout",
+          "learnedLevel": 90
         }
       ],
       "machineMoves": [
@@ -159082,6 +159222,14 @@
         {
           "moveName": "Hammer Arm",
           "learnedLevel": 80
+        },
+        {
+          "moveName": "Precipice Blades",
+          "learnedLevel": 45
+        },
+        {
+          "moveName": "Eruption",
+          "learnedLevel": 90
         }
       ],
       "machineMoves": [
@@ -159333,6 +159481,18 @@
         {
           "moveName": "Hyper Beam",
           "learnedLevel": 90
+        },
+        {
+          "moveName": "Extreme Speed",
+          "learnedLevel": 45
+        },
+        {
+          "moveName": "Fly",
+          "learnedLevel": 65
+        },
+        {
+          "moveName": "Outrage",
+          "learnedLevel": 80
         }
       ],
       "machineMoves": [
@@ -159602,6 +159762,18 @@
         {
           "moveName": "Last Resort",
           "learnedLevel": 65
+        },
+        {
+          "moveName": "Healing Wish",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Future Sight",
+          "learnedLevel": 55
+        },
+        {
+          "moveName": "Doom Desire",
+          "learnedLevel": 70
         }
       ],
       "machineMoves": [
@@ -159856,6 +160028,18 @@
         {
           "moveName": "Cosmic Power",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Recover",
+          "learnedLevel": 61
+        },
+        {
+          "moveName": "Psycho Boost",
+          "learnedLevel": 67
+        },
+        {
+          "moveName": "Hyper Beam",
+          "learnedLevel": 73
         }
       ],
       "machineMoves": [
@@ -160122,6 +160306,18 @@
         {
           "moveName": "Zap Cannon",
           "learnedLevel": 61
+        },
+        {
+          "moveName": "Superpower",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Psycho Boost",
+          "learnedLevel": 67
+        },
+        {
+          "moveName": "Hyper Beam",
+          "learnedLevel": 73
         }
       ],
       "machineMoves": [
@@ -160388,6 +160584,22 @@
         {
           "moveName": "Iron Defense",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Recover",
+          "learnedLevel": 61
+        },
+        {
+          "moveName": "Psycho Boost",
+          "learnedLevel": 67
+        },
+        {
+          "moveName": "Counter",
+          "learnedLevel": 73
+        },
+        {
+          "moveName": "Mirror Coat",
+          "learnedLevel": 73
         }
       ],
       "machineMoves": [
@@ -160651,6 +160863,18 @@
         {
           "moveName": "Agility",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Recover",
+          "learnedLevel": 61
+        },
+        {
+          "moveName": "Psycho Boost",
+          "learnedLevel": 67
+        },
+        {
+          "moveName": "Extreme Speed",
+          "learnedLevel": 73
         }
       ],
       "machineMoves": [
@@ -186017,6 +186241,18 @@
         {
           "moveName": "Natural Gift",
           "learnedLevel": 66
+        },
+        {
+          "moveName": "Future Sight",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Extrasensory",
+          "learnedLevel": 51
+        },
+        {
+          "moveName": "Memento",
+          "learnedLevel": 76
         }
       ],
       "machineMoves": [
@@ -186257,6 +186493,18 @@
         {
           "moveName": "Natural Gift",
           "learnedLevel": 66
+        },
+        {
+          "moveName": "Future Sight",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Extrasensory",
+          "learnedLevel": 51
+        },
+        {
+          "moveName": "Healing Wish",
+          "learnedLevel": 76
         }
       ],
       "machineMoves": [
@@ -186495,6 +186743,18 @@
         {
           "moveName": "Natural Gift",
           "learnedLevel": 66
+        },
+        {
+          "moveName": "Future Sight",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Extrasensory",
+          "learnedLevel": 51
+        },
+        {
+          "moveName": "Explosion",
+          "learnedLevel": 76
         }
       ],
       "machineMoves": [
@@ -186752,6 +187012,14 @@
         {
           "moveName": "Heal Block",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Roar Of Time",
+          "learnedLevel": 46
         }
       ],
       "machineMoves": [
@@ -187000,6 +187268,14 @@
         {
           "moveName": "Heal Block",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Spacial Rend",
+          "learnedLevel": 46
         }
       ],
       "machineMoves": [
@@ -187248,6 +187524,14 @@
         {
           "moveName": "Stone Edge",
           "learnedLevel": 88
+        },
+        {
+          "moveName": "Lava Plume",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Magma Storm",
+          "learnedLevel": 96
         }
       ],
       "machineMoves": [
@@ -187477,6 +187761,14 @@
         {
           "moveName": "Heavy Slam",
           "learnedLevel": 90
+        },
+        {
+          "moveName": "Crush Grip",
+          "learnedLevel": 75
+        },
+        {
+          "moveName": "Giga Impact",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -187727,6 +188019,14 @@
         {
           "moveName": "Heal Block",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Shadow Force",
+          "learnedLevel": 46
         }
       ],
       "machineMoves": [
@@ -187983,6 +188283,14 @@
         {
           "moveName": "Heal Block",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 37
+        },
+        {
+          "moveName": "Shadow Force",
+          "learnedLevel": 46
         }
       ],
       "machineMoves": [
@@ -188232,6 +188540,18 @@
         {
           "moveName": "Moonblast",
           "learnedLevel": 99
+        },
+        {
+          "moveName": "Moonlight",
+          "learnedLevel": 57
+        },
+        {
+          "moveName": "Psycho Cut",
+          "learnedLevel": 66
+        },
+        {
+          "moveName": "Lunar Dance",
+          "learnedLevel": 84
         }
       ],
       "machineMoves": [
@@ -188459,6 +188779,14 @@
         {
           "moveName": "Dive",
           "learnedLevel": 61
+        },
+        {
+          "moveName": "Aqua Ring",
+          "learnedLevel": 54
+        },
+        {
+          "moveName": "Rain Dance",
+          "learnedLevel": 69
         }
       ],
       "machineMoves": [
@@ -188690,6 +189018,14 @@
         {
           "moveName": "Rain Dance",
           "learnedLevel": 69
+        },
+        {
+          "moveName": "Aqua Ring",
+          "learnedLevel": 54
+        },
+        {
+          "moveName": "Heart Swap",
+          "learnedLevel": 76
         }
       ],
       "machineMoves": [
@@ -188935,6 +189271,18 @@
         {
           "moveName": "Dark Pulse",
           "learnedLevel": 93
+        },
+        {
+          "moveName": "Nightmare",
+          "learnedLevel": 38
+        },
+        {
+          "moveName": "Dark Void",
+          "learnedLevel": 66
+        },
+        {
+          "moveName": "Dream Eater",
+          "learnedLevel": 84
         }
       ],
       "machineMoves": [
@@ -189414,6 +189762,14 @@
         {
           "moveName": "Leaf Storm",
           "learnedLevel": 91
+        },
+        {
+          "moveName": "Energy Ball",
+          "learnedLevel": 73
+        },
+        {
+          "moveName": "Seed Flare",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -189634,6 +189990,18 @@
         {
           "moveName": "Perish Song",
           "learnedLevel": 90
+        },
+        {
+          "moveName": "Hyper Voice",
+          "learnedLevel": 30
+        },
+        {
+          "moveName": "Hyper Beam",
+          "learnedLevel": 80
+        },
+        {
+          "moveName": "Judgment",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -226507,6 +226875,14 @@
         {
           "moveName": "Close Combat",
           "learnedLevel": 73
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 42
+        },
+        {
+          "moveName": "Metal Burst",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -226746,6 +227122,14 @@
         {
           "moveName": "Close Combat",
           "learnedLevel": 73
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 42
+        },
+        {
+          "moveName": "Stone Edge",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -226983,6 +227367,14 @@
         {
           "moveName": "Close Combat",
           "learnedLevel": 73
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 42
+        },
+        {
+          "moveName": "Leaf Blade",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -227232,6 +227624,14 @@
         {
           "moveName": "Thrash",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Rain Dance",
+          "learnedLevel": 61
+        },
+        {
+          "moveName": "Hurricane",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -227483,6 +227883,14 @@
         {
           "moveName": "Thrash",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Rain Dance",
+          "learnedLevel": 61
+        },
+        {
+          "moveName": "Hurricane",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -227735,6 +228143,14 @@
         {
           "moveName": "Thrash",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Charge",
+          "learnedLevel": 55
+        },
+        {
+          "moveName": "Thunder",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -227991,6 +228407,14 @@
         {
           "moveName": "Thrash",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Charge",
+          "learnedLevel": 55
+        },
+        {
+          "moveName": "Thunder",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -228239,6 +228663,18 @@
         {
           "moveName": "Hyper Voice",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Fusion Flare",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Fire Blast",
+          "learnedLevel": 78
+        },
+        {
+          "moveName": "Blue Flare",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -228483,6 +228919,18 @@
         {
           "moveName": "Hyper Voice",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Fusion Bolt",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Thunder",
+          "learnedLevel": 78
+        },
+        {
+          "moveName": "Bolt Strike",
+          "learnedLevel": 100
         }
       ],
       "machineMoves": [
@@ -228738,6 +229186,14 @@
         {
           "moveName": "Outrage",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Earthquake",
+          "learnedLevel": 55
+        },
+        {
+          "moveName": "Fissure",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -228990,6 +229446,14 @@
         {
           "moveName": "Outrage",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Earthquake",
+          "learnedLevel": 55
+        },
+        {
+          "moveName": "Fissure",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -229234,6 +229698,14 @@
         {
           "moveName": "Hyper Voice",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Glaciate",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Blizzard",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -229474,6 +229946,18 @@
         {
           "moveName": "Hyper Voice",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Fusion Bolt",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Freeze Shock",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Blizzard",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -229714,6 +230198,18 @@
         {
           "moveName": "Hyper Voice",
           "learnedLevel": 92
+        },
+        {
+          "moveName": "Fusion Flare",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Ice Burn",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Blizzard",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -229955,6 +230451,14 @@
         {
           "moveName": "Close Combat",
           "learnedLevel": 73
+        },
+        {
+          "moveName": "Sacred Sword",
+          "learnedLevel": 43
+        },
+        {
+          "moveName": "Hydro Pump",
+          "learnedLevel": 67
         }
       ],
       "machineMoves": [
@@ -230192,6 +230696,14 @@
         {
           "moveName": "Close Combat",
           "learnedLevel": 78
+        },
+        {
+          "moveName": "Hyper Voice",
+          "learnedLevel": 64
+        },
+        {
+          "moveName": "Perish Song",
+          "learnedLevel": 85
         }
       ],
       "machineMoves": [
@@ -230462,6 +230974,14 @@
         {
           "moveName": "Perish Song",
           "learnedLevel": 85
+        },
+        {
+          "moveName": "Acrobatics",
+          "learnedLevel": 26
+        },
+        {
+          "moveName": "Close Combat",
+          "learnedLevel": 78
         }
       ],
       "machineMoves": [
@@ -230693,6 +231213,10 @@
           "learnedLevel": 1
         },
         {
+          "moveName": "Techno Blast",
+          "learnedLevel": 1
+        },
+        {
           "moveName": "Fury Cutter",
           "learnedLevel": 7
         },
@@ -230743,6 +231267,10 @@
         {
           "moveName": "Self-Destruct",
           "learnedLevel": 77
+        },
+        {
+          "moveName": "Hyper Beam",
+          "learnedLevel": 73
         }
       ],
       "machineMoves": [
@@ -248662,6 +249190,10 @@
         },
         {
           "moveName": "Moonblast",
+          "learnedLevel": 50
+        },
+        {
+          "moveName": "Diamond Storm",
           "learnedLevel": 50
         },
         {

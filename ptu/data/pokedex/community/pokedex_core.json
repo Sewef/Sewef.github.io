@@ -74780,6 +74780,22 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 43,
+          "Move": "Ice Beam",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Sheer Cold",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -75243,6 +75259,22 @@
         {
           "Level": 92,
           "Move": "Zap Cannon",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 50,
+          "Move": "Discharge",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Thunder",
           "Type": "Electric",
           "Tags": [
             "Stab"
@@ -75724,6 +75756,22 @@
         {
           "Level": 92,
           "Move": "Hurricane",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 36,
+          "Move": "Flamethrower",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Sky Attack",
           "Type": "Flying",
           "Tags": [
             "Stab"
@@ -77850,6 +77898,30 @@
           "Level": 93,
           "Move": "Aura Sphere",
           "Type": "Fighting"
+        },
+        {
+          "Level": 43,
+          "Move": "Psycho Cut",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 64,
+          "Move": "Psychic",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Psystrike",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -78526,6 +78598,11 @@
           "Type": "Normal"
         },
         {
+          "Level": 1,
+          "Move": "Transform",
+          "Type": "Normal"
+        },
+        {
           "Level": 10,
           "Move": "Mega Punch",
           "Type": "Normal"
@@ -78559,6 +78636,24 @@
           "Level": 90,
           "Move": "Nasty Plot",
           "Type": "Dark"
+        },
+        {
+          "Level": 30,
+          "Move": "Psychic",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 40,
+          "Move": "Barrier",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 100,
+          "Move": "Aura Sphere",
+          "Type": "Fighting"
         }
       ],
       "TM/HM Move List": [
@@ -127276,6 +127371,14 @@
           "Level": 78,
           "Move": "Calm Mind",
           "Type": "Psychic"
+        },
+        {
+          "Level": 85,
+          "Move": "Thunder",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -127762,6 +127865,14 @@
           "Level": 78,
           "Move": "Calm Mind",
           "Type": "Psychic"
+        },
+        {
+          "Level": 85,
+          "Move": "Eruption",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -128256,6 +128367,11 @@
           "Level": 78,
           "Move": "Calm Mind",
           "Type": "Psychic"
+        },
+        {
+          "Level": 85,
+          "Move": "Blizzard",
+          "Type": "Ice"
         }
       ],
       "TM/HM Move List": [
@@ -130537,6 +130653,22 @@
           "Level": 93,
           "Move": "Calm Mind",
           "Type": "Psychic"
+        },
+        {
+          "Level": 43,
+          "Move": "Aeroblast",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 99,
+          "Move": "Sky Attack",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -131168,6 +131300,22 @@
           "Level": 93,
           "Move": "Calm Mind",
           "Type": "Psychic"
+        },
+        {
+          "Level": 43,
+          "Move": "Sacred Fire",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 99,
+          "Move": "Sky Attack",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -131729,6 +131877,30 @@
           "Level": 91,
           "Move": "Perish Song",
           "Type": "Normal"
+        },
+        {
+          "Level": 19,
+          "Move": "Magical Leaf",
+          "Type": "Grass",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 64,
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 82,
+          "Move": "Leaf Storm",
+          "Type": "Grass",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -198527,6 +198699,22 @@
           "Level": 67,
           "Move": "Hyper Beam",
           "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Ancient Power",
+          "Type": "Rock",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 43,
+          "Move": "Stone Edge",
+          "Type": "Rock",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -199063,6 +199251,19 @@
           "Level": 67,
           "Move": "Hyper Beam",
           "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Ancient Power",
+          "Type": "Rock"
+        },
+        {
+          "Level": 43,
+          "Move": "Ice Beam",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -199587,6 +199788,14 @@
           ]
         },
         {
+          "Level": 43,
+          "Move": "Flash Cannon",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
           "Level": 49,
           "Move": "Hammer Arm",
           "Type": "Fighting"
@@ -199610,6 +199819,11 @@
           "Level": 67,
           "Move": "Hyper Beam",
           "Type": "Normal"
+        },
+        {
+          "Level": 31,
+          "Move": "Ancient Power",
+          "Type": "Rock"
         }
       ],
       "TM/HM Move List": [
@@ -200193,6 +200407,19 @@
         {
           "Level": 61,
           "Move": "Healing Wish",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 24,
+          "Move": "Mist Ball",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 28,
+          "Move": "Psycho Shift",
           "Type": "Psychic"
         }
       ],
@@ -200897,6 +201124,19 @@
           "Level": 61,
           "Move": "Memento",
           "Type": "Psychic"
+        },
+        {
+          "Level": 24,
+          "Move": "Luster Purge",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 28,
+          "Move": "Psycho Shift",
+          "Type": "Psychic"
         }
       ],
       "TM/HM Move List": [
@@ -201555,6 +201795,22 @@
           "Level": 80,
           "Move": "Double-Edge",
           "Type": "Normal"
+        },
+        {
+          "Level": 45,
+          "Move": "Origin Pulse",
+          "Type": "Water",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 90,
+          "Move": "Water Spout",
+          "Type": "Water",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -202016,6 +202272,19 @@
           "Level": 80,
           "Move": "Hammer Arm",
           "Type": "Fighting"
+        },
+        {
+          "Level": 45,
+          "Move": "Precipice Blades",
+          "Type": "Ground",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 90,
+          "Move": "Eruption",
+          "Type": "Fire"
         }
       ],
       "TM/HM Move List": [
@@ -202610,6 +202879,27 @@
           "Level": 90,
           "Move": "Hyper Beam",
           "Type": "Normal"
+        },
+        {
+          "Level": 45,
+          "Move": "Extreme Speed",
+          "Type": "Normal"
+        },
+        {
+          "Level": 65,
+          "Move": "Fly",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 80,
+          "Move": "Outrage",
+          "Type": "Dragon",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -203245,6 +203535,27 @@
           "Level": 65,
           "Move": "Last Resort",
           "Type": "Normal"
+        },
+        {
+          "Level": 50,
+          "Move": "Healing Wish",
+          "Type": "Psychic"
+        },
+        {
+          "Level": 55,
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 70,
+          "Move": "Doom Desire",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -203825,6 +204136,24 @@
           "Level": 55,
           "Move": "Cosmic Power",
           "Type": "Psychic"
+        },
+        {
+          "Level": 61,
+          "Move": "Recover",
+          "Type": "Normal"
+        },
+        {
+          "Level": 67,
+          "Move": "Psycho Boost",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 73,
+          "Move": "Hyper Beam",
+          "Type": "Normal"
         }
       ],
       "TM/HM Move List": [
@@ -204468,6 +204797,24 @@
           "Level": 61,
           "Move": "Zap Cannon",
           "Type": "Electric"
+        },
+        {
+          "Level": 37,
+          "Move": "Superpower",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 67,
+          "Move": "Psycho Boost",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 73,
+          "Move": "Hyper Beam",
+          "Type": "Normal"
         }
       ],
       "TM/HM Move List": [
@@ -205092,6 +205439,32 @@
           "Level": 55,
           "Move": "Iron Defense",
           "Type": "Steel"
+        },
+        {
+          "Level": 61,
+          "Move": "Recover",
+          "Type": "Normal"
+        },
+        {
+          "Level": 67,
+          "Move": "Psycho Boost",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 73,
+          "Move": "Counter",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 73,
+          "Move": "Mirror Coat",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -205717,6 +206090,24 @@
           "Level": 55,
           "Move": "Agility",
           "Type": "Psychic"
+        },
+        {
+          "Level": 61,
+          "Move": "Recover",
+          "Type": "Normal"
+        },
+        {
+          "Level": 67,
+          "Move": "Psycho Boost",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 73,
+          "Move": "Extreme Speed",
+          "Type": "Normal"
         }
       ],
       "TM/HM Move List": [
@@ -256845,6 +257236,27 @@
           "Level": 66,
           "Move": "Natural Gift",
           "Type": "Normal"
+        },
+        {
+          "Level": 36,
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 51,
+          "Move": "Extrasensory",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 76,
+          "Move": "Memento",
+          "Type": "Dark"
         }
       ],
       "TM/HM Move List": [
@@ -257382,6 +257794,27 @@
           "Level": 66,
           "Move": "Natural Gift",
           "Type": "Normal"
+        },
+        {
+          "Level": 36,
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 51,
+          "Move": "Extrasensory",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 76,
+          "Move": "Healing Wish",
+          "Type": "Psychic"
         }
       ],
       "TM/HM Move List": [
@@ -257900,6 +258333,27 @@
         {
           "Level": 66,
           "Move": "Natural Gift",
+          "Type": "Normal"
+        },
+        {
+          "Level": 36,
+          "Move": "Future Sight",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 51,
+          "Move": "Extrasensory",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 76,
+          "Move": "Explosion",
           "Type": "Normal"
         }
       ],
@@ -258486,6 +258940,19 @@
           "Level": 55,
           "Move": "Heal Block",
           "Type": "Psychic"
+        },
+        {
+          "Level": 37,
+          "Move": "Aura Sphere",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 46,
+          "Move": "Roar Of Time",
+          "Type": "Dragon",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -259040,6 +259507,19 @@
           "Level": 55,
           "Move": "Heal Block",
           "Type": "Psychic"
+        },
+        {
+          "Level": 37,
+          "Move": "Aura Sphere",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 46,
+          "Move": "Spacial Rend",
+          "Type": "Dragon",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -259588,6 +260068,22 @@
           "Level": 88,
           "Move": "Stone Edge",
           "Type": "Rock"
+        },
+        {
+          "Level": 49,
+          "Move": "Lava Plume",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 96,
+          "Move": "Magma Storm",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -260055,6 +260551,22 @@
           "Level": 90,
           "Move": "Heavy Slam",
           "Type": "Steel"
+        },
+        {
+          "Level": 75,
+          "Move": "Crush Grip",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Giga Impact",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -260627,6 +261139,19 @@
           "Level": 55,
           "Move": "Heal Block",
           "Type": "Psychic"
+        },
+        {
+          "Level": 37,
+          "Move": "Aura Sphere",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 46,
+          "Move": "Shadow Force",
+          "Type": "Ghost",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -261217,6 +261742,19 @@
           "Level": 55,
           "Move": "Heal Block",
           "Type": "Psychic"
+        },
+        {
+          "Level": 37,
+          "Move": "Aura Sphere",
+          "Type": "Fighting"
+        },
+        {
+          "Level": 46,
+          "Move": "Shadow Force",
+          "Type": "Ghost",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -261789,6 +262327,24 @@
           "Level": 99,
           "Move": "Moonblast",
           "Type": "Fairy"
+        },
+        {
+          "Level": 57,
+          "Move": "Moonlight",
+          "Type": "Fairy"
+        },
+        {
+          "Level": 66,
+          "Move": "Psycho Cut",
+          "Type": "Psychic",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 84,
+          "Move": "Lunar Dance",
+          "Type": "Psychic"
         }
       ],
       "TM/HM Move List": [
@@ -262251,6 +262807,16 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 54,
+          "Move": "Aqua Ring",
+          "Type": "Water"
+        },
+        {
+          "Level": 69,
+          "Move": "Rain Dance",
+          "Type": "Water"
         }
       ],
       "TM/HM Move List": [
@@ -262645,6 +263211,16 @@
           "Level": 69,
           "Move": "Rain Dance",
           "Type": "Water"
+        },
+        {
+          "Level": 54,
+          "Move": "Aqua Ring",
+          "Type": "Water"
+        },
+        {
+          "Level": 76,
+          "Move": "Heart Swap",
+          "Type": "Psychic"
         }
       ],
       "TM/HM Move List": [
@@ -263101,6 +263677,21 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 38,
+          "Move": "Nightmare",
+          "Type": "Ghost"
+        },
+        {
+          "Level": 66,
+          "Move": "Dark Void",
+          "Type": "Dark"
+        },
+        {
+          "Level": 84,
+          "Move": "Dream Eater",
+          "Type": "Psychic"
         }
       ],
       "TM/HM Move List": [
@@ -264057,6 +264648,22 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 73,
+          "Move": "Energy Ball",
+          "Type": "Grass",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Seed Flare",
+          "Type": "Grass",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -264433,6 +265040,30 @@
           "Level": 90,
           "Move": "Perish Song",
           "Type": "Normal"
+        },
+        {
+          "Level": 30,
+          "Move": "Hyper Voice",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 80,
+          "Move": "Hyper Beam",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Judgment",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -333855,6 +334486,22 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 42,
+          "Move": "Sacred Sword",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Metal Burst",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -334327,6 +334974,22 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 42,
+          "Move": "Sacred Sword",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Stone Edge",
+          "Type": "Rock",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -334783,6 +335446,22 @@
           "Level": 73,
           "Move": "Close Combat",
           "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 42,
+          "Move": "Sacred Sword",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Leaf Blade",
+          "Type": "Grass",
           "Tags": [
             "Stab"
           ]
@@ -335276,6 +335955,19 @@
           "Level": 85,
           "Move": "Thrash",
           "Type": "Normal"
+        },
+        {
+          "Level": 61,
+          "Move": "Rain Dance",
+          "Type": "Water"
+        },
+        {
+          "Level": 67,
+          "Move": "Hurricane",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -335771,6 +336463,19 @@
           "Level": 85,
           "Move": "Thrash",
           "Type": "Normal"
+        },
+        {
+          "Level": 61,
+          "Move": "Rain Dance",
+          "Type": "Water"
+        },
+        {
+          "Level": 67,
+          "Move": "Hurricane",
+          "Type": "Flying",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -336265,6 +336970,19 @@
           "Level": 85,
           "Move": "Thrash",
           "Type": "Normal"
+        },
+        {
+          "Level": 55,
+          "Move": "Charge",
+          "Type": "Electric"
+        },
+        {
+          "Level": 67,
+          "Move": "Thunder",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -336792,6 +337510,19 @@
           "Level": 85,
           "Move": "Thrash",
           "Type": "Normal"
+        },
+        {
+          "Level": 55,
+          "Move": "Charge",
+          "Type": "Electric"
+        },
+        {
+          "Level": 67,
+          "Move": "Thunder",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -337317,6 +338048,30 @@
           "Level": 92,
           "Move": "Hyper Voice",
           "Type": "Normal"
+        },
+        {
+          "Level": 50,
+          "Move": "Fusion Flare",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Fire Blast",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Blue Flare",
+          "Type": "Fire",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -337815,6 +338570,30 @@
           "Level": 92,
           "Move": "Hyper Voice",
           "Type": "Normal"
+        },
+        {
+          "Level": 50,
+          "Move": "Fusion Bolt",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Thunder",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 100,
+          "Move": "Bolt Strike",
+          "Type": "Electric",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -338332,6 +339111,22 @@
           "Level": 85,
           "Move": "Outrage",
           "Type": "Dragon"
+        },
+        {
+          "Level": 55,
+          "Move": "Earthquake",
+          "Type": "Ground",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Fissure",
+          "Type": "Ground",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -338828,6 +339623,22 @@
           "Level": 85,
           "Move": "Outrage",
           "Type": "Dragon"
+        },
+        {
+          "Level": 55,
+          "Move": "Earthquake",
+          "Type": "Ground",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Fissure",
+          "Type": "Ground",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -339326,6 +340137,22 @@
           "Level": 92,
           "Move": "Hyper Voice",
           "Type": "Normal"
+        },
+        {
+          "Level": 50,
+          "Move": "Glaciate",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Blizzard",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -339816,6 +340643,27 @@
           "Level": 92,
           "Move": "Hyper Voice",
           "Type": "Normal"
+        },
+        {
+          "Level": 43,
+          "Move": "Fusion Bolt",
+          "Type": "Electric"
+        },
+        {
+          "Level": 50,
+          "Move": "Freeze Shock",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Blizzard",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -340306,6 +341154,27 @@
           "Level": 92,
           "Move": "Hyper Voice",
           "Type": "Normal"
+        },
+        {
+          "Level": 43,
+          "Move": "Fusion Flare",
+          "Type": "Fire"
+        },
+        {
+          "Level": 50,
+          "Move": "Ice Burn",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 78,
+          "Move": "Blizzard",
+          "Type": "Ice",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -340788,6 +341657,22 @@
           "Tags": [
             "Stab"
           ]
+        },
+        {
+          "Level": 43,
+          "Move": "Sacred Sword",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 67,
+          "Move": "Hydro Pump",
+          "Type": "Water",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -341225,6 +342110,19 @@
           "Level": 78,
           "Move": "Close Combat",
           "Type": "Fighting"
+        },
+        {
+          "Level": 64,
+          "Move": "Hyper Voice",
+          "Type": "Normal",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 85,
+          "Move": "Perish Song",
+          "Type": "Normal"
         }
       ],
       "TM/HM Move List": [
@@ -341885,6 +342783,19 @@
           "Level": 85,
           "Move": "Perish Song",
           "Type": "Normal"
+        },
+        {
+          "Level": 26,
+          "Move": "Acrobatics",
+          "Type": "Flying"
+        },
+        {
+          "Level": 78,
+          "Move": "Close Combat",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -342490,6 +343401,11 @@
           ]
         },
         {
+          "Level": 1,
+          "Move": "Techno Blast",
+          "Type": "Normal"
+        },
+        {
           "Level": 7,
           "Move": "Fury Cutter",
           "Type": "Bug",
@@ -342564,6 +343480,11 @@
         {
           "Level": 77,
           "Move": "Self-Destruct",
+          "Type": "Normal"
+        },
+        {
+          "Level": 73,
+          "Move": "Hyper Beam",
           "Type": "Normal"
         }
       ],
@@ -375891,6 +376812,14 @@
           "Level": 50,
           "Move": "Moonblast",
           "Type": "Fairy",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 50,
+          "Move": "Diamond Storm",
+          "Type": "Rock",
           "Tags": [
             "Stab"
           ]

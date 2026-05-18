@@ -1930,7 +1930,7 @@
     "accuracyCheck": 10,
     "damageBase": "",
     "damageClass": "Status",
-    "range": "Melee 1",
+    "range": "Melee, 1 Target",
     "effects": "The target falls Asleep. Once per Scene, Dark Void may be used as if its range were \"Burst 5, Friendly\" instead.",
     "contestType": "Smart",
     "contestEffect": "Excitement",

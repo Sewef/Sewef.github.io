@@ -11332,11 +11332,11 @@
     "abilityLearnset": {
       "basicAbilities": [
         {
-          "name": "None",
-          "effect": null,
+          "name": "Fluffy",
+          "effect": "The user resists damaging Melee attacks one step further, but resists Fire-Type attacks one step less. Defensive.",
           "trigger": null,
           "target": null,
-          "frequency": null
+          "frequency": "Static"
         }
       ],
       "advancedAbilities": [
@@ -11397,7 +11397,7 @@
     "megaEvolution": null,
     "levelUpMoves": {},
     "basicAbilities": [
-      "None"
+      "Fluffy"
     ],
     "advancedAbilities": [
       "Klutz",

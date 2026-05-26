@@ -6,54 +6,7 @@
   <title>MacroHero Owlbear Extension Documentation</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
-  <style>
-    body {
-      background: #fdf6e3;
-      color: #586e75;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      min-height: 100vh;
-    }
-    .navbar {
-      background: #eee8d5;
-      border-bottom: 2px solid #b58900;
-    }
-    .navbar-brand {
-      color: #b58900 !important;
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    .container {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-    h1, h2, h3, h4 {
-      color: #b58900;
-    }
-    pre code {
-      background: #f5f2e7;
-      border-radius: 6px;
-      padding: 1em;
-      display: block;
-    }
-    footer {
-      text-align: center;
-      color: #93a1a1;
-      margin-top: 3rem;
-      padding: 1rem 0;
-      border-top: 1px solid #eee8d5;
-    }
-    .hero-logo {
-      max-width: 64px;  
-      margin: 2rem auto;
-      display: block;
-      border-radius: 50%;
-    }
-    .copy-btn {
-      margin-left: 0.5rem;
-      padding: 0.25rem 0.75rem;
-      font-size: 0.875rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg">
@@ -136,8 +89,126 @@
       </ul>
       <p><strong>Usage</strong>: Open the config modal (⚙️), click the <strong>Debug Mode</strong> tab, and check the boxes for modules you want to debug. Open your browser's developer console (F12) to see the logs. Useful for diagnosing why expressions return unexpected values or why commands fail.</p>
 
-      <h2 id="items">Items</h2>
-      <p>Each macro page can contain several types of items:</p>
+      <h2 id="items">Items Reference</h2>
+      <p>Each page's <code>layout</code> array is built from items. Below is the complete reference for every available item type and its properties.</p>
+
+      <h3>Layout & Display</h3>
+      <ul>
+        <li><strong>title</strong> — Section heading.
+          <ul>
+            <li><code>text</code>: Title text (supports <code>${var}</code> expressions)</li>
+            <li><code>color</code>: Optional custom color</li>
+          </ul>
+          <code>{ "type": "title", "text": "Section Name" }</code></li>
+        <li><strong>text</strong> — Paragraph or note. Supports plain text, Markdown, or sanitized HTML. Use <code>${varName}</code> to embed variable values.
+          <ul>
+            <li><code>content</code> / <code>text</code>: Content string (Markdown auto-detected)</li>
+          </ul>
+          <code>{ "type": "text", "content": "HP is ${hp}" }</code></li>
+        <li><strong>divider</strong> — Horizontal separator line.
+          <ul>
+            <li><code>color</code>: Line color (default: accent)</li>
+            <li><code>height</code>: Thickness (default: <code>"1px"</code>)</li>
+            <li><code>margin</code>: Spacing above/below (default: <code>"12px"</code>)</li>
+            <li><code>style</code>: <code>"solid"</code> | <code>"dashed"</code> | <code>"dotted"</code></li>
+          </ul>
+          <code>{ "type": "divider" }</code></li>
+        <li><strong>alert</strong> — Notification box with icon.
+          <ul>
+            <li><code>type</code> / <code>alert</code>: <code>"info"</code> | <code>"warning"</code> | <code>"success"</code> | <code>"error"</code></li>
+            <li><code>title</code>: Optional heading</li>
+            <li><code>text</code> / <code>message</code>: Alert body text</li>
+          </ul>
+          <code>{ "type": "alert", "alert": "warning", "title": "Warning", "text": "HP is low!" }</code></li>
+      </ul>
+
+      <h3>Data Binding</h3>
+      <ul>
+        <li><strong>value</strong> — Read-only display of a variable.
+          <ul>
+            <li><code>var</code>: Variable name</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>color</code>: Optional accent color</li>
+          </ul>
+          <code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
+        <li><strong>input</strong> — Text input bound to a variable.
+          <ul>
+            <li><code>var</code>: Variable name</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>placeholder</code>: Placeholder text</li>
+            <li><code>onupdate</code>: Commands array executed on change</li>
+          </ul>
+          <code>{ "type": "input", "var": "note", "label": "Note", "placeholder": "Enter text..." }</code></li>
+        <li><strong>checkbox</strong> — Boolean toggle checkbox.
+          <ul>
+            <li><code>var</code>: Variable name (boolean)</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>onupdate</code>: Commands array executed on change</li>
+          </ul>
+          <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
+        <li><strong>toggle</strong> — Modern toggle switch (boolean).
+          <ul>
+            <li><code>var</code>: Variable name (boolean)</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>color</code>: Optional accent color</li>
+            <li><code>onupdate</code>: Commands array executed on change</li>
+          </ul>
+          <code>{ "type": "toggle", "var": "isEnabled", "label": "Enabled" }</code></li>
+        <li><strong>counter</strong> — Numeric input with +/− buttons.
+          <ul>
+            <li><code>var</code>: Variable name</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>step</code>: Increment amount (default: <code>1</code>)</li>
+            <li><code>min</code> / <code>max</code>: Overrides variable bounds if set</li>
+            <li><code>onupdate</code>: Commands array executed on change</li>
+          </ul>
+          <code>{ "type": "counter", "var": "revives", "label": "Revives", "step": 1 }</code></li>
+        <li><strong>dropdown</strong> — Select dropdown bound to a variable.
+          <ul>
+            <li><code>var</code>: Variable name</li>
+            <li><code>label</code>: Display label</li>
+            <li><code>options</code>: Array of strings or <code>{value, label}</code> objects</li>
+            <li><code>optionsVar</code>: Variable name containing a dynamic options array</li>
+            <li><code>onupdate</code>: Commands array executed on change</li>
+          </ul>
+          <code>{ "type": "dropdown", "var": "mode", "label": "Mode", "options": ["Attack", "Defend", "Heal"] }</code></li>
+      </ul>
+
+      <h3>Actions</h3>
+      <ul>
+        <li><strong>button</strong> — Clickable button that executes commands.
+          <ul>
+            <li><code>label</code>: Button text (supports <code>${var}</code> expressions)</li>
+            <li><code>onclick</code>: JavaScript script executed on left-click (string, or array of strings joined with newlines)</li>
+            <li><code>onrightclick</code>: JavaScript script executed on right-click</li>
+            <li><code>tooltip</code>: Hover tooltip text</li>
+            <li><code>color</code>: Custom button color</li>
+          </ul>
+          <code>{ "type": "button", "label": "Heal 10", "onclick": ["await OwlTrackers.addValue(token, 'HP', 10)"], "tooltip": "Restore 10 HP" }</code></li>
+        <li><strong>matrix</strong> — Grid of compact icon/text buttons.
+          <ul>
+            <li><code>columns</code>: Number of columns (default: <code>4</code>)</li>
+            <li><code>buttonSize</code>: Button size (default: <code>"40px"</code>)</li>
+            <li><code>gap</code>: Gap between buttons (default: <code>"4px"</code>)</li>
+            <li><code>buttonShape</code>: <code>"rectangle"</code> or <code>"square"</code> (default)</li>
+            <li><code>border</code>: Boolean — add border styling</li>
+            <li><code>children</code>: Array of button configs, each with <code>label</code>, <code>icon</code>, <code>color</code>, <code>borderColor</code>, <code>onclick</code>, <code>onrightclick</code>, <code>tooltip</code></li>
+          </ul>
+          <code>{ "type": "matrix", "columns": 3, "children": [{"icon": "⚔️", "tooltip": "Attack", "onclick": ["..."]}] }</code></li>
+      </ul>
+
+      <h3>Layout Containers</h3>
+      <ul>
+        <li><strong>row</strong> — Horizontal layout container.
+          <br><code>{ "type": "row", "children": [ ... ] }</code></li>
+        <li><strong>stack</strong> — Vertical layout container.
+          <ul>
+            <li><code>children</code>: Array of child items</li>
+            <li><code>border</code>: Boolean — add border</li>
+            <li><code>color</code>: Accent color</li>
+          </ul>
+          <code>{ "type": "stack", "border": true, "children": [ ... ] }</code></li>
+      </ul>
       <hr>
       <h2 id="configuration">Configuration Guide & Syntax</h2>
       <p>MacroHero is configured using a JSON structure that defines global variables, pages, UI layout, and commands. You can edit this configuration via the visual editor (⚙️) or by importing/exporting JSON. Below is a step-by-step guide with copy-pasteable examples for every feature.</p>
@@ -152,9 +223,6 @@
       "variables": {
         "playerName": {
           "expression": "Local.value('playerName', 'Unknown')"
-        },
-        "sessionId": {
-          "expression": "OBR.session.id()"
         }
       }
     }
@@ -176,44 +244,38 @@
     }
   }</code></pre>
         <ul>
-          <li>Reference variables directly by name (no curly braces) in expressions and commands.</li>
           <li>Supported functions: <code>GoogleSheets.getValue</code>, <code>Local.value</code>, <code>OwlTrackers.getValue</code>, <code>ConditionMarkers.hasCondition</code>, etc.</li>
           <li>Use math and logic: <code>(hp &gt; 10 ? 'Healthy' : 'Wounded')</code></li>
           <li><strong>Optional numeric bounds</strong>: Variables may include optional <code>min</code> and <code>max</code> numeric properties. These are used by <code>counter</code> UI items (see below) to constrain the input range.</li>
         </ul>
 
       <h3>Creating & Organizing UI Items</h3>
-      <p>Each page's <code>layout</code> array defines the UI. You can use these item types:</p>
+      <p>Each page's <code>layout</code> array defines the UI. See the <a href="#items">Items Reference</a> for the full list of types and properties. Quick reference:</p>
       <ul>
-        <li><strong>title</strong>: Section heading.<br><code>{ "type": "title", "text": "Section Name" }</code></li>
-        <li><strong>text</strong>: Paragraph or note.<br><code>{ "type": "text", "content": "Some info" }</code></li>
-        <li><strong>divider</strong>: Horizontal line.<br><code>{ "type": "divider" }</code></li>
-        <li><strong>value</strong>: Display a variable.<br><code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
-        <li><strong>input</strong>: Text input.<br><code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
-        <li><strong>checkbox</strong>: Checkbox input.<br><code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
-        <li><strong>counter</strong>: Number input. Use <code>step</code> (optional, default <code>1</code>) to set increment/decrement amount. If the referenced variable defines <code>min</code> and/or <code>max</code>, the counter will respect those bounds.<br><code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
-        <li><strong>button</strong>: Clickable button.<br><code>{ "type": "button", "label": "Heal 10", "commands": ["OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
-        <li><strong>row</strong>: Horizontal group.<br><code>{ "type": "row", "children": [ ... ] }</code></li>
-        <li><strong>stack</strong>: Vertical group.<br><code>{ "type": "stack", "children": [ ... ] }</code></li>
+        <li><strong>title</strong>: Section heading. <code>{ "type": "title", "text": "Section Name" }</code></li>
+        <li><strong>text</strong>: Text/Markdown/HTML note with optional <code>${var}</code> expressions. <code>{ "type": "text", "content": "HP is ${hp}" }</code></li>
+        <li><strong>divider</strong>: Horizontal separator. <code>{ "type": "divider" }</code></li>
+        <li><strong>alert</strong>: Notification box. <code>{ "type": "alert", "alert": "info", "text": "Message" }</code></li>
+        <li><strong>value</strong>: Read-only variable display. <code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
+        <li><strong>input</strong>: Text input. <code>{ "type": "input", "var": "note", "label": "Note" }</code></li>
+        <li><strong>checkbox</strong>: Boolean checkbox. <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
+        <li><strong>toggle</strong>: Boolean toggle switch. <code>{ "type": "toggle", "var": "isEnabled", "label": "Enabled" }</code></li>
+        <li><strong>counter</strong>: Numeric +/− input. <code>step</code> (default <code>1</code>) sets the increment; variable <code>min</code>/<code>max</code> constrain the range.<br><code>{ "type": "counter", "var": "revives", "label": "Revives", "step": 1 }</code></li>
+        <li><strong>dropdown</strong>: Select from a list of options. <code>{ "type": "dropdown", "var": "mode", "label": "Mode", "options": ["Attack", "Defend"] }</code></li>
+        <li><strong>button</strong>: Clickable button. <code>onclick</code> is an array of strings forming a JavaScript script. Supports <code>onrightclick</code> and <code>tooltip</code>.<br><code>{ "type": "button", "label": "Heal 10", "onclick": ["await OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
+        <li><strong>matrix</strong>: Grid of compact icon/text buttons. <code>{ "type": "matrix", "columns": 3, "children": [{"icon": "⚔️", "onclick": ["..."]}] }</code></li>
+        <li><strong>row</strong>: Horizontal container. <code>{ "type": "row", "children": [ ... ] }</code></li>
+        <li><strong>stack</strong>: Vertical container. <code>{ "type": "stack", "children": [ ... ] }</code></li>
       </ul>
 
-      <h3>Writing Commands & Using Integrations</h3>
-      <p>Buttons and some other items use <code>commands</code> (an array of strings) to perform actions. Each command is a <strong>JavaScript expression</strong> that executes in an async context when the button is clicked. Commands can:</p>
-      <ul>
-        <li>Call integrations (use <code>await</code>): <code>await OwlTrackers.addValue(token, 'HP', 10)</code></li>
-        <li>Use variables: <code>await JustDices.roll('Player: ' + playerName)</code></li>
-        <li>Use JavaScript logic: <code>isBandaged ? ... : ...</code></li>
-        <li>Modify variables: <code>revives = revives - 1</code></li>
-        <li>Use any JavaScript syntax: arithmetic, string manipulation, function calls, etc.</li>
-      </ul>
+      <h3>Writing Scripts & Using Integrations</h3>
+      <p>The <code>onclick</code>, <code>onrightclick</code>, and <code>onupdate</code> fields accept a <strong>JavaScript script as an array of strings</strong> — each string is a line, joined and executed in an async context. Variables are in scope by name; use <code>await</code> for async integration calls.</p>
       <pre><code class="language-json">{
     "type": "button",
     "label": "Heal if Bandaged",
-    "commands": [
-      "await (isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5))"
-    ]
+    "onclick": ["await (isBandaged ? OwlTrackers.addValue(token, 'HP', 10) : OwlTrackers.addValue(token, 'HP', -5))"]
   }</code></pre>
-      <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>. See the default config for more function names and usage.</p>
+      <p>Supported integrations include: <strong>GoogleSheets</strong>, <strong>Local</strong>, <strong>OwlTrackers</strong>, <strong>StatBubbles</strong>, <strong>ConditionMarkers</strong>, <strong>ColoredRings</strong>, <strong>PrettySordid</strong>, <strong>JustDices</strong>, <strong>DicePlus</strong>, <strong>Weather</strong>, <strong>Embers</strong>, <strong>Auras</strong>, <strong>Aurora</strong>, <strong>Announcement</strong>. See the <a href="#integrations-api">API reference</a> for all functions.</p>
 
       <h3>JSON Structure for Pages, Layouts, and Commands</h3>
       <pre><code class="language-json">{
@@ -260,9 +322,9 @@
       { "type": "title", "text": "HP Controls" },
       { "type": "value", "var": "hp", "label": "Current HP" },
       { "type": "value", "var": "maxHp", "label": "Max HP" },
-      { "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["await OwlTrackers.addValue(token, 'HP', -5)"] },
-      { "type": "button", "label": "Heal to Max", "commands": ["await OwlTrackers.setValue(token, 'HP', maxHp)"] },
+      { "type": "button", "label": "Heal 10", "onclick": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "onclick": ["await OwlTrackers.addValue(token, 'HP', -5)"] },
+      { "type": "button", "label": "Heal to Max", "onclick": ["await OwlTrackers.setValue(token, 'HP', maxHp)"] },
       { "type": "title", "text": "Revives" },
       { "type": "value", "var": "revives", "label": "Revives Left" },
       { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 }
@@ -274,30 +336,9 @@
 
 
 
-      <h3>UI Items (Layout)</h3>
-      <p>Each page's <code>layout</code> array defines the UI. Common item types:</p>
-      <ul>
-        <li><strong>title</strong>: Section heading. <code>{ "type": "title", "text": "Section Name" }</code></li>
-        <li><strong>text</strong>: Paragraph or note. <code>{ "type": "text", "content": "Some info" }</code></li>
-        <li><strong>divider</strong>: Horizontal line. <code>{ "type": "divider" }</code></li>
-        <li><strong>value</strong>: Display a variable. <code>{ "type": "value", "var": "hp", "label": "HP" }</code></li>
-        <li><strong>input</strong>: Text input. <code>{ "type": "input", "var": "inputName", "label": "Name" }</code></li>
-        <li><strong>checkbox</strong>: Checkbox input. <code>{ "type": "checkbox", "var": "isActive", "label": "Active?" }</code></li>
-        <li><strong>counter</strong>: Number input. <code>{ "type": "counter", "var": "counterVar", "label": "Counter", "step": 1 }</code></li>
-        <li><strong>button</strong>: Clickable button. <code>{ "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] }</code></li>
-        <li><strong>row</strong>: Horizontal group. <code>{ "type": "row", "children": [ ... ] }</code></li>
-        <li><strong>stack</strong>: Vertical group. <code>{ "type": "stack", "children": [ ... ] }</code></li>
-      </ul>
 
-      <h3>Commands</h3>
-      <p>Buttons and some other items use <code>commands</code> (array of strings) to perform actions. Commands run in an async context and can:</p>
-      <ul>
-        <li>Call integrations (use <code>await</code>): <code>await OwlTrackers.addValue(token, 'HP', 10)</code></li>
-        <li>Use variables: <code>await JustDices.roll('Player: ' + playerName)</code></li>
-        <li>Use logic: <code>isBandaged ? ... : ...</code></li>
-      </ul>
       <h2 id="integrations">Integrations</h2>
-      <p>MacroHero provides integrations with popular Owlbear Rodeo extensions and external services. All integration functions are async and should be used with <code>await</code> in commands.</p>
+      <p>MacroHero provides integrations with popular Owlbear Rodeo extensions and external services. All integration functions are async and should be used with <code>await</code> in commands when necessary.</p>
       <ul>
         <li><strong>GoogleSheets</strong>: Read values from a Google Sheet (requires API key and Sheet ID).</li>
         <li><strong>Local</strong>: Store and retrieve data locally in browser storage.</li>
@@ -305,9 +346,14 @@
         <li><strong>StatBubbles</strong>: Manage token stats (HP, AC, etc.).</li>
         <li><strong>ConditionMarkers</strong>: Add, remove, and check conditions on tokens.</li>
         <li><strong>ColoredRings</strong>: Manage colored rings around tokens.</li>
-        <li><strong>JustDices</strong>: Roll dice and display results.</li>
+        <li><strong>JustDices</strong>: Roll standard dice and display results.</li>
+        <li><strong>DicePlus</strong>: Advanced dice rolling with exploding dice, keep-highest, drop-lowest, and more.</li>
         <li><strong>PrettySordid</strong>: Manage initiative and turn order.</li>
         <li><strong>Weather</strong>: Control weather effects on maps.</li>
+        <li><strong>Embers</strong>: Trigger spell/attack visual effects on tokens.</li>
+        <li><strong>Auras</strong>: Add and remove visual auras around tokens.</li>
+        <li><strong>Aurora</strong>: Control ambient lighting and time-of-day effects on maps.</li>
+        <li><strong>Announcement</strong>: Show and manage scene-wide announcement banners.</li>
       </ul>
       <p>See the detailed API reference below for all available functions.</p>
 
@@ -356,6 +402,8 @@
         <li><strong>setValue(tokenId, trackerName, value)</strong> → Promise&lt;void&gt;</li>
         <li><strong>addValue(tokenId, trackerName, delta)</strong> → Promise&lt;void&gt;
           <br>Add (or subtract if negative) a value to the tracker.</li>
+        <li><strong>addTracker(tokenId, trackerConfig)</strong> → Promise&lt;string|null&gt;
+          <br>Create a new tracker on a token. <code>trackerConfig</code>: <code>{variant, name?, color?, value?, max?, ...}</code>. Returns the new tracker ID.</li>
       </ul>
 
       <h4>StatBubbles</h4>
@@ -401,12 +449,15 @@
 
       <h4>PrettySordid</h4>
       <ul>
-        <li><strong>hasInitiative(itemOrId)</strong> → boolean
-          <br>Sync-safe check (works if you have the item object; otherwise use the async helpers below).</li>
-        <li><strong>getInitiativeCount(itemOrId)</strong> → Promise&lt;number&gt;</li>
+        <li><strong>hasInitiative(itemOrId)</strong> → Promise&lt;boolean&gt;
+          <br>Check if a token is in the initiative list.</li>
+        <li><strong>getInitiative(itemOrId)</strong> → Promise&lt;number&gt;
+          <br>Get the initiative value for a token.</li>
         <li><strong>isActiveTurn(itemOrId)</strong> → Promise&lt;boolean&gt;</li>
-        <li><strong>setInitiativeCount(itemOrId, count)</strong> → Promise&lt;void&gt;
-          <br>Accepts either an item object or token id string.</li>
+        <li><strong>setInitiative(itemOrId, count)</strong> → Promise&lt;void&gt;
+          <br>Set the initiative value. Accepts either an item object or token id string.</li>
+        <li><strong>removeInitiative(itemOrId)</strong> → Promise&lt;void&gt;
+          <br>Remove a token from the initiative list.</li>
       </ul>
 
       <h4>Embers</h4>
@@ -666,18 +717,30 @@ if (hasAuras) {
         <li><strong>Querying auras:</strong> The <code>hasAura()</code> and <code>getAuras()</code> functions inspect Auras extension metadata. To modify auras, always use <code>addAura()</code> and <code>removeAura()</code> — do not edit metadata directly.</li>
       </ul>
 
-      <h4>Scene & Token Helpers</h4>
-      <p>Advanced utility functions for scene manipulation. These are helper modules in <code>/commands</code>, not integrations.</p>
+      <h4>Scene &amp; Token Helpers</h4>
+      <p>Advanced utility functions for scene and token manipulation. These are helper modules exposed directly in the expression/command context.</p>
+      <h5>sceneHelpers</h5>
       <ul>
         <li><strong>sceneHelpers.getMapIdFromToken(tokenId)</strong> → Promise&lt;string|null&gt;
           <br>Find which map a token is positioned on. Returns map ID or null.</li>
-        <li><strong>sceneHelpers.createToken(params)</strong> → Promise&lt;string&gt;
-          <br>Create a single token. Params: <code>{url, name?, position?, scale?, layer?, ...}</code></li>
-        <li><strong>sceneHelpers.createTokens(tokensArray)</strong> → Promise&lt;string[]&gt;
-          <br>Create multiple tokens at once.</li>
-        <li><strong>tokenHelpers</strong>: Additional token manipulation functions.</li>
       </ul>
-      <p><em>Note: These are exposed directly in the expression context for advanced users. See source code for complete API.</em></p>
+      <h5>tokenHelpers</h5>
+      <ul>
+        <li><strong>tokenHelpers.getSelectedTokenId()</strong> → Promise&lt;string|null&gt;
+          <br>Get the ID of the first currently selected token.</li>
+        <li><strong>tokenHelpers.getSelectedTokensIds()</strong> → Promise&lt;string[]&gt;
+          <br>Get IDs of all currently selected tokens.</li>
+        <li><strong>tokenHelpers.getTokenPosition(tokenId)</strong> → Promise&lt;{x, y}|null&gt;
+          <br>Get the center position of a token.</li>
+        <li><strong>tokenHelpers.getTokenSize(tokenId)</strong> → Promise&lt;number|null&gt;
+          <br>Get the token size in grid cells.</li>
+        <li><strong>tokenHelpers.getClosestTokenId(tokenId, filter?)</strong> → Promise&lt;string|null&gt;
+          <br>Find the closest token to <code>tokenId</code>. Optional <code>filter</code>: layer name, array of layers, or <code>{layers?, excludeOverlapping?}</code>.</li>
+        <li><strong>tokenHelpers.createToken(params)</strong> → Promise&lt;string&gt;
+          <br>Create a single token and return its ID. Key params: <code>url</code> (image URL, <code>"SELECT"</code> to open asset picker, or <code>"EMPTY"</code>), <code>position</code> (<code>"HERE"</code> = viewport center or <code>{x, y}</code>), <code>scale</code>, <code>layer</code>, <code>name</code>, <code>visible</code>, <code>locked</code>.</li>
+        <li><strong>tokenHelpers.createTokens(tokensArray)</strong> → Promise&lt;string[]&gt;
+          <br>Create multiple tokens at once. Returns an array of IDs.</li>
+      </ul>
 
       <h4>Metadata Modules (Advanced)</h4>
       <p>Low-level OBR SDK access for expert users. These modules provide direct metadata manipulation.</p>
@@ -689,15 +752,55 @@ if (hasAuras) {
       </ul>
       <p><em>These expose raw OBR SDK operations. Use with caution. Refer to source code for function signatures.</em></p>
 
-      <h4>Integrations Manager (Advanced)</h4>
-      <p>Low-level manager functions for integration initialization. Most users won't need these.</p>
+      <h4>Aurora</h4>
+      <p>Control ambient lighting and time-of-day effects on maps using the Aurora extension.</p>
       <ul>
-        <li><strong>initializeIntegrations(config)</strong> → void
-          <br>Initialize integrations with a config object. Called automatically by MacroHero.</li>
-        <li><strong>getIntegrationsContext()</strong> → Object
-          <br>Returns the full integrations context (used internally).</li>
-        <li><strong>getIntegration(name)</strong> → integration instance
-          <br>Access a specific integration instance directly.</li>
+        <li><strong>setAurora(mapId, config)</strong> → Promise&lt;void&gt;
+          <br>Apply lighting to a map. Config: <code>{saturation?, lightness?, hue?, opacity?, blendMode?, feather?, dreamy?}</code>
+          <br>Example: <code>await Aurora.setAurora(mapId, {lightness: -0.4, hue: 220})</code></li>
+        <li><strong>updateAurora(mapId, updates)</strong> → Promise&lt;void&gt;
+          <br>Update specific Aurora properties without replacing the full config.</li>
+        <li><strong>removeAurora(mapId)</strong> → Promise&lt;void&gt;</li>
+        <li><strong>getAurora(mapId)</strong> → Promise&lt;Object|null&gt;</li>
+        <li><strong>hasAurora(mapId)</strong> → Promise&lt;boolean&gt;</li>
+        <li><strong>getPresets()</strong> → Object
+          <br>Returns built-in preset configs: <code>MIDNIGHT</code>, <code>GOLDEN_HOUR</code>, <code>PRE_DAWN</code>, <code>BLOOD_MOON</code>.
+          <br>Example: <code>await Aurora.setAurora(mapId, Aurora.getPresets().MIDNIGHT)</code></li>
+      </ul>
+
+      <h4>DicePlus</h4>
+      <p>Advanced dice rolling with full dice notation support: exploding dice (<code>!</code>), keep highest (<code>kh</code>), drop lowest (<code>dl</code>), and more.</p>
+      <ul>
+        <li><strong>roll(diceNotation, options?)</strong> → Promise&lt;Object&gt;
+          <br>Roll dice and return the full result object. Supports complex notation like <code>2d20kh1</code>, <code>4d6dl1</code>, <code>3d6!</code>.
+          <br>Options: <code>{rollTarget?, showResults?, timeoutMs?}</code>
+          <br>Example: <code>await DicePlus.roll('2d20kh1')</code></li>
+        <li><strong>rollTotal(diceNotation, options?)</strong> → Promise&lt;number&gt;
+          <br>Roll dice and return the numeric total only.
+          <br>Example: <code>const total = await DicePlus.rollTotal('4d6dl1')</code></li>
+        <li><strong>rollSecret(diceNotation, visibility, options?)</strong> → Promise&lt;Object&gt;
+          <br>Roll with a specific visibility setting.</li>
+        <li><strong>getRollObject(diceNotation, options?)</strong> → Promise&lt;Object&gt;
+          <br>Get the full roll result with groups and individual die values.</li>
+        <li><strong>isReady(timeoutMs?)</strong> → Promise&lt;boolean&gt;
+          <br>Check whether the DicePlus extension is installed and ready.</li>
+      </ul>
+
+      <h4>Announcement</h4>
+      <p>Show and manage scene-wide announcement banners visible to all players.</p>
+      <ul>
+        <li><strong>setAnnouncement(content, active?)</strong> → Promise&lt;void&gt;
+          <br>Create or replace the scene announcement. <code>active</code> defaults to <code>true</code>.
+          <br>Example: <code>await Announcement.setAnnouncement('Round 3 begins!', true)</code></li>
+        <li><strong>updateAnnouncement(updates)</strong> → Promise&lt;void&gt;
+          <br>Update properties: <code>{content?, active?}</code>.</li>
+        <li><strong>getAnnouncement()</strong> → Promise&lt;{active, content}|null&gt;</li>
+        <li><strong>removeAnnouncementMetadata()</strong> → Promise&lt;void&gt;</li>
+        <li><strong>toggleAnnouncement()</strong> → Promise&lt;boolean&gt;
+          <br>Toggle visibility; returns the new state.</li>
+        <li><strong>showAnnouncement()</strong> → Promise&lt;void&gt;</li>
+        <li><strong>hideAnnouncement()</strong> → Promise&lt;void&gt;</li>
+        <li><strong>updateContent(content)</strong> → Promise&lt;void&gt;</li>
       </ul>
 
       <h3>Example: Full Page with Weather</h3>
@@ -720,27 +823,27 @@ if (hasAuras) {
       { "type": "value", "var": "maxHp", "label": "Max" }
     ]},
     { "type": "row", "children": [
-      { "type": "button", "label": "Heal 10", "commands": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
-      { "type": "button", "label": "Damage 5", "commands": ["await OwlTrackers.addValue(token, 'HP', -5)"] }
+      { "type": "button", "label": "Heal 10", "onclick": ["await OwlTrackers.addValue(token, 'HP', 10)"] },
+      { "type": "button", "label": "Damage 5", "onclick": ["await OwlTrackers.addValue(token, 'HP', -5)"] }
     ]},
     { "type": "divider" },
     { "type": "title", "text": "Weather Controls" },
     { "type": "row", "children": [
-      { "type": "button", "label": "Snow", "commands": ["await Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})"] },
-      { "type": "button", "label": "Rain", "commands": ["await Weather.setWeather(mapId, {type: 'RAIN', speed: 3, density: 4})"] },
-      { "type": "button", "label": "Remove", "commands": ["await Weather.removeWeather(mapId)"] }
+      { "type": "button", "label": "Snow", "onclick": ["await Weather.setWeather(mapId, {type: 'SNOW', speed: 2, density: 3})"] },
+      { "type": "button", "label": "Rain", "onclick": ["await Weather.setWeather(mapId, {type: 'RAIN', speed: 3, density: 4})"] },
+      { "type": "button", "label": "Remove", "onclick": ["await Weather.removeWeather(mapId)"] }
     ]},
     { "type": "divider" },
     { "type": "value", "var": "revives", "label": "Revives" },
     { "type": "counter", "var": "revives", "label": "Use Revive", "step": 1 },
     { "type": "input", "var": "note", "label": "Note", "placeholder": "Notes..." },
-    { "type": "button", "label": "Quick Attack", "commands": ["await JustDices.roll('1d20 + ' + (hp % 5))"] }
+    { "type": "button", "label": "Quick Attack", "onclick": ["await JustDices.roll('1d20 + ' + (hp % 5))"] }
   ]
 }</code></pre>
       <p>Paste this page JSON into the editor (or import it). Replace <code>'your-token-id-here'</code> with a real token id. The <code>revives</code> counter respects <code>min</code>/<code>max</code>, <code>step</code> sets the increment, and weather buttons demonstrate the Weather integration.</p>
 
-      <h3>Stack Item & Multi-Command Button Example</h3>
-      <p>Use <code>stack</code> to group items vertically. Buttons accept multiple commands; they run in order. Here's a minimal example:</p>
+      <h3>Stack Item &amp; Multi-Line Script Example</h3>
+      <p>Use <code>stack</code> to group items vertically. Here's a minimal example with a multi-line button script:</p>
       <pre><code class="language-json">{
   "label": "Stack + MultiCmd",
   "variables": {
@@ -753,7 +856,7 @@ if (hasAuras) {
       { "type": "value", "var": "revives", "label": "Revives Left" },
       { "type": "input", "var": "note", "label": "Note" },
       { "type": "button", "label": "Use Revive & Roll",
-        "commands": [
+        "onclick": [
           "revives = revives - 1",
           "await OwlTrackers.addValue(token, 'HP', 10)",
           "await JustDices.roll('1d6')"
@@ -784,8 +887,7 @@ if (hasAuras) {
 
       <h3>Async & Commands</h3>
       <ul>
-        <li>All commands run in an async context. Use <code>await</code> when calling integration functions to ensure they complete before the next command executes.</li>
-        <li>Buttons can contain multiple commands — they run in order; each command is awaited automatically by the executor.</li>
+        <li>Button scripts run in an async context. Use <code>await</code> when calling integration functions.</li>
         <li>When using integrations inside expressions, expect network latency; keep UI responsive and avoid blocking long-running calls in critical UI paths.</li>
         <li>Use <code>setValue()</code> and <code>addValue()</code> inside commands to modify page variables safely — those changes will trigger dependent variable recalculation.</li>
       </ul>

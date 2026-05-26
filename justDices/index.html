@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JustDices — Documentation</title>
+  <meta name="description" content="JustDices — A formula-based dice roller for Owlbear Rodeo. Fast, flexible, and API-friendly." />
+  <link rel="icon" href="JustDices.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#commands">Commands</a>
+    <a href="#formula">Formula</a>
+    <a href="#modifiers">Modifiers</a>
+    <a href="#buttons">Buttons</a>
+    <a href="#quickrolls">Quick Rolls</a>
+    <a href="#history">History</a>
+    <a href="#api">API</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+
+  <!-- Hero -->
+  <header class="hero">
+    <img src="JustDices.png" alt="JustDices logo" class="hero-logo" />
+    <div class="hero-text">
+      <h1>JustDices</h1>
+      <p>A formula-based dice roller for Owlbear Rodeo — fast, flexible, and API-friendly. Type natural formulas, click a button, or call the broadcast API from other extensions.</p>
+      <div class="hero-links">
+        <a href="https://github.com/Sewef/justDices/" class="btn-primary" target="_blank" rel="noopener">
+          ⭐ GitHub
+        </a>
+        <button class="btn-secondary" id="copyManifestBtn" onclick="
+          navigator.clipboard.writeText('https://justdices.onrender.com/manifest.json').then(() => {
+            this.textContent = '✅ Copied!';
+            setTimeout(() => this.textContent = '📋 Copy manifest link', 1800);
+          });
+        ">📋 Copy manifest link</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Highlights -->
+  <section id="highlights">
+    <h2>Highlights</h2>
+    <div class="highlights">
+      <div class="highlight-item"><span class="hi-icon">↔️</span>Resizable window — drag any corner to resize the panel.</div>
+      <div class="highlight-item"><span class="hi-icon">🎲</span>Formula engine: NdX, dF/dFudge, Pokemon Tabletop United Damage Base dbX, arithmetic, parentheses.</div>
+      <div class="highlight-item"><span class="hi-icon">🔢</span>Math functions via mathjs: <code>sqrt(25) + ceil(2.1)</code> and many more.</div>
+      <div class="highlight-item"><span class="hi-icon">🟢</span>Crit coloring: per-die min results in red, max results in green.</div>
+      <div class="highlight-item"><span class="hi-icon">🔒</span>Public &amp; GM rolls: <code>/r</code> public, <code>/gr</code> private to GM + roller.</div>
+      <div class="highlight-item"><span class="hi-icon">⬆️</span>History navigation: press ↑ / ↓ to reuse previous commands.</div>
+      <div class="highlight-item"><span class="hi-icon">🔁</span>Reroll button on each card to instantly replay the exact expression.</div>
+      <div class="highlight-item"><span class="hi-icon">🧹</span>Stateless: nothing is saved locally or remotely — reload clears the list.</div>
+      <div class="highlight-item"><span class="hi-icon">📡</span>OBR broadcast API: trigger rolls from any extension and get a structured response.</div>
+    </div>
+  </section>
+
+  <!-- Commands -->
+  <section id="commands">
+    <h2>Commands</h2>
+    <table class="cmd-table">
+      <tbody>
+        <tr>
+          <td>/r &lt;expr&gt;<br/>/roll &lt;expr&gt;</td>
+          <td>Public roll broadcast to the whole room.
+            <em>Examples: <code>/r d20</code> &nbsp; <code>/roll 2d6+3</code> &nbsp; <code>/r max 10d20</code></em>
+          </td>
+        </tr>
+        <tr>
+          <td>/gr &lt;expr&gt;<br/>/gmroll &lt;expr&gt;</td>
+          <td>Hidden roll — visible to the GM and the roller only.
+            <em>Examples: <code>/gr db6</code> &nbsp; <code>/gmroll (2dF + 1)</code></em>
+          </td>
+        </tr>
+        <tr>
+          <td>/say &lt;message&gt;</td>
+          <td>Send a text message to the chat (also callable via API).
+            <em>Example: <code>/say The beast roars!</code></em>
+          </td>
+        </tr>
+        <tr>
+          <td>/help</td>
+          <td>Display a quick command reference card inside JustDices.</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note">
+      No prefix? JustDices treats the input as a public roll — same as <code>/r</code>.<br/>
+      Commands are case-insensitive: <code>/R</code>, <code>/Gr</code>, <code>dFUDGE</code>, <code>Db6</code> all work.
+    </div>
+  </section>
+
+  <!-- Formula Language -->
+  <section id="formula">
+    <h2>Formula Language</h2>
+
+    <h3>Core dice notation</h3>
+    <table class="dice-table">
+      <thead>
+        <tr><th>Syntax</th><th>Description</th><th>Example</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>NdX</td><td>Roll N dice with X faces. N is optional (defaults to 1).</td><td><code>2d6</code>, <code>d20</code>, <code>D20</code></td></tr>
+        <tr><td>NdX!</td><td>Exploding dice — reroll when the max face is rolled.</td><td><code>4d6!</code></td></tr>
+        <tr><td>NdX!&gt;=T</td><td>Exploding dice with a custom threshold T.</td><td><code>4d6!&gt;=5</code></td></tr>
+        <tr><td>NdXkY</td><td>Roll N dice, keep the highest Y.</td><td><code>4d6k3</code></td></tr>
+        <tr><td>NdXdY</td><td>Roll N dice, drop the lowest Y.</td><td><code>4d6d1</code></td></tr>
+        <tr><td>NdF / NdFudge</td><td>Fudge/Fate dice — result in {−1, 0, +1}. Defaults to 4 dice.</td><td><code>4dF</code>, <code>2dFudge</code></td></tr>
+        <tr><td>NdbX</td><td>Pokemon Tabletop United Damage Base — expands to a full dice+bonus expression.</td><td><code>db6</code>, <code>2db4</code></td></tr>
+      </tbody>
+    </table>
+
+    <h3>Arithmetic &amp; math functions</h3>
+    <p>Expressions support <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, and parentheses.</p>
+    <p>Math functions are powered by <strong>mathjs</strong>. Common helpers that work out of the box:</p>
+    <div class="card" style="font-family:'JetBrains Mono',monospace; font-size:0.82rem; color:var(--accent-soft); line-height:2;">
+      sqrt &nbsp; abs &nbsp; ceil &nbsp; floor &nbsp; round &nbsp; min &nbsp; max &nbsp; log &nbsp; exp &nbsp; sin &nbsp; cos &nbsp; tan &nbsp; …
+    </div>
+    <div class="warn">⚠️ Functions are evaluated by mathjs. Unknown names will throw a parse error.</div>
+
+    <h3>Practical examples</h3>
+    <table class="dice-table">
+      <tbody>
+        <tr><td>/r 2d6 + 3</td><td>Two d6 plus a flat +3.</td></tr>
+        <tr><td>/r (1d8 + 2) * 2</td><td>Roll 1d8, add 2, double the result.</td></tr>
+        <tr><td>/r 4d6k3</td><td>Classic D&amp;D stat roll — keep best 3 of 4d6.</td></tr>
+        <tr><td>/r 4dF + 2</td><td>Fate/Fudge roll with a +2 modifier.</td></tr>
+        <tr><td>/r sqrt(25) + 1d6</td><td>Math function combined with a die roll.</td></tr>
+        <tr><td>/gr db6 + 1d4</td><td>Hidden Pokemon Tabletop United Damage Base roll with bonus die.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Modifiers / Prefixes -->
+  <section id="modifiers">
+    <h2>Prefixes &amp; Modifiers</h2>
+    <p>Place <code>max</code> or <code>min</code> before the expression to force every die to its maximum or minimum value. Useful for testing or theoretical maximums.</p>
+
+    <table class="dice-table">
+      <thead>
+        <tr><th>Prefix</th><th>Effect</th><th>Example</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>max &lt;expr&gt;</td>
+          <td>Every die shows its maximum face.</td>
+          <td><code>/r max 10d20</code> → <code>[20, 20, …]</code></td>
+        </tr>
+        <tr>
+          <td>min &lt;expr&gt;</td>
+          <td>Every die shows its minimum face (1).</td>
+          <td><code>/r min db6</code> → all internal d6 roll 1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="note">Always place the prefix before the expression: <code>/r max (db6 + 1d4)</code></div>
+
+    <h3>Pokemon Tabletop United Damage Base (db)</h3>
+    <p>Implements the Pokemon Tabletop United 1.05 Damage Base table. <code>dbX</code> expands to its full dice + flat bonus expression (e.g. <code>db6</code> → <code>2d6+8</code>). The table covers <strong>db1 through db28</strong>.</p>
+    <table class="dice-table">
+      <tbody>
+        <tr><td>db6</td><td>Standard crit-less Damage Base roll.</td></tr>
+        <tr><td>2db4</td><td>Multiplied DB (e.g. for criticals).</td></tr>
+        <tr><td>db6 + 1d4 - 2</td><td>Mixed DB with regular dice and flat modifiers.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Buttons -->
+  <section id="buttons">
+    <h2>Buttons</h2>
+    <table class="cmd-table">
+      <tbody>
+        <tr>
+          <td>⚔️ Roll it</td>
+          <td>Sends <code>/r &lt;expr&gt;</code> — public roll with whatever is typed in the input field.</td>
+        </tr>
+        <tr>
+          <td>🙈 Hidden roll</td>
+          <td>Sends <code>/gr &lt;expr&gt;</code> — GM-only roll with the current input.</td>
+        </tr>
+        <tr>
+          <td>🎲 Quick Rolls</td>
+          <td>Toggles the Quick Rolls panel (see below).</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="note">If the formula already starts with an opposite prefix (e.g. you type <code>/gr …</code> and press ⚔️), the UI will warn you.</div>
+  </section>
+
+  <!-- Quick Rolls -->
+  <section id="quickrolls">
+    <h2>Quick Rolls</h2>
+    <p>The Quick Rolls panel provides a grid of the most common dice. Click the number of dice you want to roll and the expression is sent automatically — just like typing it manually.</p>
+    <p>The <strong>🐵 / 🙈 toggle</strong> inside the panel switches between public and hidden rolls for the quick-click buttons.</p>
+    <div class="note">Due to Owlbear Rodeo limitations, the Quick Rolls panel cannot be moved or repositioned.</div>
+  </section>
+
+  <!-- History -->
+  <section id="history">
+    <h2>Roll History</h2>
+    <p>Every roll produces a card in the Rolls History pane. Cards are prepended (most recent on top) and cleared on reload — nothing is persisted.</p>
+    <table class="cmd-table">
+      <tbody>
+        <tr>
+          <td>Expression display</td>
+          <td>The typed expression is shown on the card. Hover 🔍 to reveal the <em>expanded</em> expression (e.g. <code>db6</code> → <code>(2d6+8)</code>).</td>
+        </tr>
+        <tr>
+          <td>Per-die coloring</td>
+          <td>Min face values are shown in <span style="color:var(--red)">red</span>, max face values in <span style="color:var(--green)">green</span>.</td>
+        </tr>
+        <tr>
+          <td>Critical animations</td>
+          <td>All-max results trigger a green glow animation; all-min trigger a red glow.</td>
+        </tr>
+        <tr>
+          <td>Hidden rolls 🔒</td>
+          <td>Only the rolling player and GMs can see hidden roll cards.</td>
+        </tr>
+        <tr>
+          <td>🎲 Reroll button</td>
+          <td>Replays the exact original expression — preserves the public/private status.</td>
+        </tr>
+        <tr>
+          <td>↑ / ↓ keys</td>
+          <td>Navigate command history directly in the input field (up to 50 entries).</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- API -->
+  <section id="api">
+    <h2>Broadcast API</h2>
+    <p>JustDices exposes an OBR broadcast API that lets any other Owlbear extension trigger a roll and receive a structured response. No UI interaction is required.</p>
+
+    <h3>Request</h3>
+    <p>Send a message on channel <code>justdices.api.request</code>:</p>
+<pre><code><span class="cmt">// Channel: "justdices.api.request"</span>
+OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
+  <span class="prop">callId</span>:      <span class="str">"my-unique-id-123"</span>,  <span class="cmt">// string — correlates request ↔ response</span>
+  <span class="prop">expression</span>: <span class="str">"/r 2d6+3"</span>,         <span class="cmt">// string — same syntax as the input box</span>
+  <span class="prop">showInLogs</span>: <span class="kw">true</span>               <span class="cmt">// boolean (default true) — also push to log</span>
+}, { <span class="prop">destination</span>: <span class="str">"LOCAL"</span> });
+</code></pre>
+
+    <h3>Parameters</h3>
+    <div class="card">
+      <div class="param-list">
+        <div class="param-row">
+          <div class="param-name">callId<em class="param-required">required</em></div>
+          <div class="param-desc">A unique string identifier for this call. Used to correlate the request with its response when you listen on the response channel.</div>
+        </div>
+        <div class="param-row">
+          <div class="param-name">expression<em class="param-required">required</em></div>
+          <div class="param-desc">The formula or full command string. All command prefixes are accepted: <code>/r</code>, <code>/gr</code>, <code>/say</code>, <code>max</code>, <code>min</code>, etc.</div>
+        </div>
+        <div class="param-row">
+          <div class="param-name">showInLogs<em class="param-optional">optional · default: true</em></div>
+          <div class="param-desc">Whether to also display the result in the JustDices roll log. Set to <code>false</code> for silent / background rolls.</div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Listening for the response</h3>
+    <p>Filter by your <code>callId</code> on channel <code>justdices.api.response</code>:</p>
+<pre><code>OBR.broadcast.onMessage(<span class="str">"justdices.api.response"</span>, (evt) => {
+  <span class="kw">const</span> res = evt.data;
+  <span class="kw">if</span> (res.callId !== myCallId) <span class="kw">return</span>;
+
+  <span class="kw">if</span> (res.ok) {
+    console.log(<span class="str">"Total:"</span>,    res.data.total);
+    console.log(<span class="str">"Expanded:"</span>, res.expressionOut);
+    console.log(<span class="str">"Detail:"</span>,   res.rolls);  <span class="cmt">// HTML string with colored dice</span>
+  } <span class="kw">else</span> {
+    console.warn(<span class="str">"Roll failed:"</span>, res.error);
+  }
+});
+</code></pre>
+
+    <h3>Response structure</h3>
+    <div class="response-grid">
+      <div class="response-block">
+        <h4>Roll — ok: true</h4>
+<pre><code>{
+  <span class="prop">callId</span>:        <span class="str">string</span>,
+  <span class="prop">expressionIn</span>:  <span class="str">string</span>,  <span class="cmt">// what you sent</span>
+  <span class="prop">ok</span>:            <span class="kw">true</span>,
+  <span class="prop">expressionOut</span>: <span class="str">string</span>,  <span class="cmt">// expanded display</span>
+  <span class="prop">rolls</span>:         <span class="str">string</span>,  <span class="cmt">// HTML, colored dice</span>
+  <span class="prop">data</span>: {
+    <span class="prop">expression</span>:  <span class="str">string</span>,
+    <span class="prop">rolls</span>:       <span class="str">string</span>,
+    <span class="prop">total</span>:       <span class="num">number</span>,
+    <span class="prop">allDiceMin</span>:  <span class="kw">boolean</span>,
+    <span class="prop">allDiceMax</span>:  <span class="kw">boolean</span>
+  }
+}</code></pre>
+      </div>
+      <div class="response-block">
+        <h4>Say — ok: true</h4>
+<pre><code>{
+  <span class="prop">callId</span>:       <span class="str">string</span>,
+  <span class="prop">expressionIn</span>: <span class="str">string</span>,
+  <span class="prop">ok</span>:           <span class="kw">true</span>,
+  <span class="prop">data</span>: {
+    <span class="prop">isSay</span>:    <span class="kw">true</span>,
+    <span class="prop">message</span>: <span class="str">string</span>
+  }
+}
+
+
+
+
+</code></pre>
+      </div>
+    </div>
+
+    <div class="response-block" style="margin-top:14px;">
+      <h4>Error — ok: false</h4>
+<pre><code>{
+  <span class="prop">callId</span>:       <span class="str">string</span>,
+  <span class="prop">expressionIn</span>: <span class="str">string</span>,
+  <span class="prop">ok</span>:           <span class="kw">false</span>,
+  <span class="prop">error</span>:        <span class="str">"PARSE_ERROR"</span> | <span class="str">"ROLL_ERROR"</span> | <span class="str">string</span>
+}</code></pre>
+    </div>
+
+    <h3>Error codes</h3>
+    <table class="error-table">
+      <tbody>
+        <tr><td>PARSE_ERROR</td><td>The expression has invalid syntax or unsupported tokens. The roll was not executed.</td></tr>
+        <tr><td>ROLL_ERROR</td><td>The expression parsed correctly but the internal evaluation failed.</td></tr>
+        <tr><td>API_TIMEOUT</td><td>Client-side: no response received before your own timeout. JustDices may not be running.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Complete example</h3>
+<pre><code><span class="kw">const</span> callId = crypto.randomUUID();
+
+OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
+  callId,
+  expression: <span class="str">"/r 4d6k3"</span>,
+  showInLogs: <span class="kw">false</span>
+}, { destination: <span class="str">"LOCAL"</span> });
+
+<span class="kw">const</span> unsub = OBR.broadcast.onMessage(
+  <span class="str">"justdices.api.response"</span>,
+  (evt) => {
+    <span class="kw">const</span> res = evt.data;
+    <span class="kw">if</span> (res.callId !== callId) <span class="kw">return</span>;
+    unsub(); <span class="cmt">// unsubscribe after receiving our response</span>
+
+    <span class="kw">if</span> (res.ok) {
+      console.log(<span class="str">`Rolled: <span class="num">${res.expressionOut}</span> = <span class="num">${res.data.total}</span>`</span>);
+    }
+  }
+);
+</code></pre>
+  </section>
+
+</div><!-- .page-wrap -->
+
+<footer>
+  <p>JustDices by <a href="https://github.com/Sewef" target="_blank" rel="noopener">Sewef</a> — <a href="https://github.com/Sewef/justDices/" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+</body>
+</html>

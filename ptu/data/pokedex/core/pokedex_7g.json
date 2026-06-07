@@ -9338,7 +9338,7 @@
       },
       {
         "Stade": 2,
-        "Species": "Lycanroc ",
+        "Species": "Lycanroc",
         "Form": "Midday",
         "Condition": "Sun Stone",
         "Minimum Level": 25
@@ -9722,7 +9722,7 @@
     }
   },
   {
-    "Species": "Lycanroc ",
+    "Species": "Lycanroc",
     "Form": "Midday",
     "Number": 745,
     "Base Stats": {
@@ -9751,7 +9751,7 @@
       },
       {
         "Stade": 2,
-        "Species": "Lycanroc ",
+        "Species": "Lycanroc",
         "Form": "Midday",
         "Condition": "Sun Stone",
         "Minimum Level": 25

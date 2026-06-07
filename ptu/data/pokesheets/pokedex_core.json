@@ -5787,8 +5787,8 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lycanroc Midnight (Core)",
-    "form": null,
+    "species": "Lycanroc (Core)",
+    "form": "Midnight",
     "types": [
       "Rock"
     ],
@@ -6037,8 +6037,8 @@
   {
     "pokedexEntryDocumentId": null,
     "pokedexDocumentId": null,
-    "species": "Lycanroc Dusk (Core)",
-    "form": null,
+    "species": "Lycanroc (Core)",
+    "form": "Dusk",
     "types": [
       "Rock"
     ],

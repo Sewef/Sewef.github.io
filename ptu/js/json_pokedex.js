@@ -51,11 +51,37 @@ const PRESETS = {
     "HisuiDex (Homebrew)",
     "PaldeaDex (Community Homebrew)",
   ],
+  FanDex: ["Insurgence"],
+};
+
+const FANDEX_FILES = {
+  "Insurgence": "pokedex_insurgence.min.json"
+};
+
+const FANDEX_MOVES_FILES = {
+  "Insurgence": "moves_insurgence.min.json"
+};
+
+const FANDEX_ABILITIES_FILES = {
+  "Insurgence": "abilities_insurgence.min.json"
+};
+
+const FANDEX_CAPABILITIES_FILES = {
+  "Insurgence": "capabilities_insurgence.min.json"
+};
+
+const FANDEX_MECHANICS_FILES = {
+  "Insurgence": "insurgence_mechanics.html"
+};
+
+const FANDEX_SOURCE_URLS = {
+  "Insurgence": "https://docs.google.com/document/d/1Y686fpUCixqBgic_NW_Wrk7X38vI9sqEiSMwFKRKWW0/"
 };
 
 const MOVES_BASE = "/ptu/data/moves";
 const ABILITIES_BASE = "/ptu/data/abilities";
 const CAPABILITIES_BASE = "/ptu/data/capabilities";
+const MECHANICS_BASE = "/ptu/data/mechanics";
 
 const MOVES_FILE_BY_PRESET = {
   Core: `${MOVES_BASE}/moves_core.min.json`,
@@ -94,6 +120,7 @@ const SHOWN_TAGS = new Set(["N", "Stab"]);
 
 let selectedPreset = window.selectedPreset || "Core";
 let selectedLabels = new Set(PRESETS[selectedPreset] || []);
+let selectedFanDexBase = window.selectedPreset || "Core"; // Base dataset for FanDex (Core, Community or Homebrew)
 
 // =========================
 // Hash state management
@@ -153,7 +180,8 @@ function __normalizeToken(s) {
     .toLowerCase()
     .replace(/[\u2013\u2014\-_]/g, "-")  // normalize dashes
     .replace(/\s+/g, " ")                // collapse spaces
-    .trim();
+    .trim()
+    .replace(/\*+$/, "");                // remove trailing asterisks
 }
 function __makeWildcardMatcher(queryRaw) {
   const q = __normalizeToken(queryRaw || "");
@@ -199,6 +227,14 @@ async function fetchJson(url, { strict = true, cache = "no-store" } = {}) {
 }
 
 function urlsForPreset(presetName, onlyLabels) {
+  if (presetName === "FanDex") {
+    // For FanDex, if onlyLabels is an empty array, don't load anything
+    const labels = (onlyLabels && onlyLabels.length > 0) ? onlyLabels : [];
+    return labels.map(lbl => ({
+      label: lbl,
+      url: `${DATASET_BASE}${DATASET_BASE.endsWith("/") ? "" : "/"}fandex/${FANDEX_FILES[lbl]}`
+    }));
+  }
   const dir = PRESET_DIRS[presetName];
   const labels = (onlyLabels && onlyLabels.length ? onlyLabels : (PRESETS[presetName] || []));
   return labels.map(lbl => ({
@@ -209,8 +245,11 @@ function urlsForPreset(presetName, onlyLabels) {
 
 async function loadPokedex() {
   const sources = urlsForPreset(selectedPreset, Array.from(selectedLabels || []));
-  if (!sources.length) throw new Error(`No sources for preset ${selectedPreset}`);
-
+  if (!sources.length) {
+    // For FanDex without selection, return an empty array instead of an error
+    if (selectedPreset === "FanDex") return [];
+    throw new Error(`No sources for preset ${selectedPreset}`);
+  }
   const results = await Promise.all(sources.map(async ({ url }) => {
     const data = await fetchJson(url, { strict: true });
     if (Array.isArray(data)) return data;
@@ -237,6 +276,10 @@ async function loadPokedex() {
 
 async function loadIndex(url, nameField) {
   if (_indexCache.has(url)) return _indexCache.get(url);
+  
+  // Helper to normalize ability/capability names by removing trailing "*"
+  const normalizeKey = (key) => key.trim().toLowerCase().replace(/\*+$/, '');
+  
   const p = fetchJson(url, { strict: false }).then(raw => {
     const idx = new Map();
     if (raw && typeof raw === "object" && !Array.isArray(raw)) {
@@ -244,7 +287,7 @@ async function loadIndex(url, nameField) {
 
         // Cas capabilities : la valeur est un STRING
         if (typeof obj === "string") {
-          idx.set(key.trim().toLowerCase(), {
+          idx.set(normalizeKey(key), {
             Name: key,
             Effect: obj,
             __displayName: key
@@ -254,7 +297,7 @@ async function loadIndex(url, nameField) {
 
         // Cas normal : objet JSON structuré
         if (obj && typeof obj === "object") {
-          const k = key.trim().toLowerCase();
+          const k = normalizeKey(key);
           obj.__displayName = key;
           idx.set(k, obj);
         }
@@ -267,7 +310,7 @@ async function loadIndex(url, nameField) {
       const name = (it?.[nameField] || it?.Move || it?.Name || "").trim();
       if (name) {
         it.__displayName = name;
-        idx.set(name.toLowerCase(), it);
+        idx.set(normalizeKey(name), it);
       }
     }
     return idx;
@@ -276,18 +319,94 @@ async function loadIndex(url, nameField) {
   return p;
 }
 
+async function loadIndexMultiple(urls, nameField, fandexLabel) {
+  if (!Array.isArray(urls) || urls.length === 0) {
+    return new Map();
+  }
+  
+  // Load all indexes
+  const indexes = await Promise.all(urls.map(url => loadIndex(url, nameField)));
+  
+  // If only one URL, return it directly
+  if (indexes.length === 1) {
+    return indexes[0];
+  }
+  
+  // Merge indexes with override detection
+  const mergedIndex = new Map();
+  const overrides = new Map(); // Track which entries are overridden
+  
+  // First pass: add all entries from base (first index)
+  for (const [key, value] of indexes[0]) {
+    mergedIndex.set(key, { ...value, __source: "base" });
+  }
+  
+  // Second pass: add/override with FanDex entries (second index)
+  for (const [key, value] of indexes[1]) {
+    if (mergedIndex.has(key)) {
+      // Override detected
+      const baseEntry = mergedIndex.get(key);
+      mergedIndex.set(key, {
+        ...value,
+        __source: "fandex",
+        __fandexLabel: fandexLabel,
+        __override: true,
+        __baseEntry: baseEntry
+      });
+      overrides.set(key, true);
+    } else {
+      mergedIndex.set(key, { ...value, __source: "fandex", __fandexLabel: fandexLabel });
+    }
+  }
+  
+  return mergedIndex;
+}
+
 function getMovesUrlForPreset() {
-  return MOVES_FILE_BY_PRESET[selectedPreset] || MOVES_FILE_BY_PRESET.Core;
+  if (selectedPreset === "FanDex" && selectedLabels.size > 0) {
+    const firstLabel = Array.from(selectedLabels)[0];
+    const baseUrl = MOVES_FILE_BY_PRESET[selectedFanDexBase] || MOVES_FILE_BY_PRESET.Core;
+    const fandexFile = FANDEX_MOVES_FILES[firstLabel];
+    const fandexUrl = fandexFile ? `${MOVES_BASE}/fandex/${fandexFile}` : null;
+    return fandexUrl ? { urls: [baseUrl, fandexUrl], fandexLabel: firstLabel } : { urls: [baseUrl], fandexLabel: null };
+  }
+  const preset = selectedPreset === "FanDex" ? selectedFanDexBase : selectedPreset;
+  return { urls: [MOVES_FILE_BY_PRESET[preset] || MOVES_FILE_BY_PRESET.Core], fandexLabel: null };
 }
 function getAbilitiesUrlForPreset() {
-  return ABILITIES_FILE_BY_PRESET[selectedPreset] || ABILITIES_FILE_BY_PRESET.Core;
+  if (selectedPreset === "FanDex" && selectedLabels.size > 0) {
+    const firstLabel = Array.from(selectedLabels)[0];
+    const baseUrl = ABILITIES_FILE_BY_PRESET[selectedFanDexBase] || ABILITIES_FILE_BY_PRESET.Core;
+    const fandexFile = FANDEX_ABILITIES_FILES[firstLabel];
+    const fandexUrl = fandexFile ? `${ABILITIES_BASE}/fandex/${fandexFile}` : null;
+    return fandexUrl ? { urls: [baseUrl, fandexUrl], fandexLabel: firstLabel } : { urls: [baseUrl], fandexLabel: null };
+  }
+  const preset = selectedPreset === "FanDex" ? selectedFanDexBase : selectedPreset;
+  return { urls: [ABILITIES_FILE_BY_PRESET[preset] || ABILITIES_FILE_BY_PRESET.Core], fandexLabel: null };
 }
 function getCapabilitiesUrlForPreset() {
-  return CAPABILITIES_FILE_BY_PRESET[selectedPreset] || CAPABILITIES_FILE_BY_PRESET.Core;
+  if (selectedPreset === "FanDex" && selectedLabels.size > 0) {
+    const firstLabel = Array.from(selectedLabels)[0];
+    const baseUrl = CAPABILITIES_FILE_BY_PRESET[selectedFanDexBase] || CAPABILITIES_FILE_BY_PRESET.Core;
+    const fandexFile = FANDEX_CAPABILITIES_FILES[firstLabel];
+    const fandexUrl = fandexFile ? `${CAPABILITIES_BASE}/fandex/${fandexFile}` : null;
+    return fandexUrl ? { urls: [baseUrl, fandexUrl], fandexLabel: firstLabel } : { urls: [baseUrl], fandexLabel: null };
+  }
+  const preset = selectedPreset === "FanDex" ? selectedFanDexBase : selectedPreset;
+  return { urls: [CAPABILITIES_FILE_BY_PRESET[preset] || CAPABILITIES_FILE_BY_PRESET.Core], fandexLabel: null };
 }
-function loadMoveIndex() { return loadIndex(getMovesUrlForPreset(), "Move"); }
-function loadAbilityIndex() { return loadIndex(getAbilitiesUrlForPreset(), "Name"); }
-function loadCapabilityIndex() { return loadIndex(getCapabilitiesUrlForPreset(), "Name"); }
+function loadMoveIndex() { 
+  const config = getMovesUrlForPreset();
+  return loadIndexMultiple(config.urls, "Move", config.fandexLabel); 
+}
+function loadAbilityIndex() { 
+  const config = getAbilitiesUrlForPreset();
+  return loadIndexMultiple(config.urls, "Name", config.fandexLabel); 
+}
+function loadCapabilityIndex() { 
+  const config = getCapabilitiesUrlForPreset();
+  return loadIndexMultiple(config.urls, "Name", config.fandexLabel); 
+}
 
 function clearIndexCache() {
   _indexCache.clear();
@@ -533,7 +652,15 @@ function getTypeColor(type) {
 
 function setupIcon(img, num, name, mode = "icon") {
   const slug = slugify(name || "");
-  const base = mode === "full" ? "/ptu/img/pokemon/full" : "/ptu/img/pokemon/icons";
+  let base = mode === "full" ? "/ptu/img/pokemon/full" : "/ptu/img/pokemon/icons";
+  
+  // For FanDex, add subdirectory based on selected dataset
+  if (selectedPreset === "FanDex" && selectedLabels.size > 0) {
+    const firstLabel = Array.from(selectedLabels)[0];
+    const subdir = firstLabel.toLowerCase(); // "Insurgence" -> "insurgence"
+    base = `${base}/${subdir}`;
+  }
+  
   // Use the first pattern (others could be tried if you add more)
   img.src = CFG.iconPatterns[0](base, num, slug);
 }
@@ -776,7 +903,7 @@ function renderEvolutionList(evos, base, depth = 0) {
       `${level ? ` [${escapeHtml(level)}]` : ""}` +
       `${cond ? ` (${escapeHtml(cond)})` : ""}`;
 
-    const label = `${stade} - ${speciesLabel}${extra}`;
+    const label = `${stade} - ${speciesLabel} ${extra}`;
 
     return `<li class="list-group-item d-flex align-items-center"><span class="flex-grow-1">${label}</span></li>`;
   }).join("");
@@ -910,6 +1037,32 @@ function formatDamageBase(mv) {
 function renderMoveDetails(mv) {
   if (!mv) return '<p class="text-muted mb-0">Cannot find move.</p>';
 
+  // Display FanDex source badge
+  let sourceBadge = "";
+  if (mv.__source === "fandex" && mv.__fandexLabel) {
+    sourceBadge = `<span class="badge bg-info mb-2">Source: ${escapeHtml(mv.__fandexLabel)}</span><br>`;
+  }
+
+  // Check for override warning
+  let overrideWarning = "";
+  if (mv.__override && mv.__baseEntry) {
+    overrideWarning = `
+      <div class="alert alert-warning mb-3" role="alert">
+        <strong>⚠️ Warning - Override:</strong> This move exists in both the base dataset and FanDex.
+        <details class="mt-2">
+          <summary style="cursor: pointer; user-select: none;">Show base version</summary>
+          <div class="mt-2 p-2 border rounded bg-light">
+            ${renderMoveDetailsCore(mv.__baseEntry)}
+          </div>
+        </details>
+      </div>
+    `;
+  }
+
+  return sourceBadge + overrideWarning + renderMoveDetailsCore(mv);
+}
+
+function renderMoveDetailsCore(mv) {
   const row = (k, v) =>
     v ? `<div><span class="text-muted">${k}:</span> ${escapeHtml(String(v))}</div>` : "";
 
@@ -968,6 +1121,32 @@ function renderMoveDetails(mv) {
 function renderAbilityDetails(ab) {
   if (!ab) return '<p class="text-muted mb-0">Unknown Ability.</p>';
 
+  // Display FanDex source badge
+  let sourceBadge = "";
+  if (ab.__source === "fandex" && ab.__fandexLabel) {
+    sourceBadge = `<span class="badge bg-info mb-2">Source: ${escapeHtml(ab.__fandexLabel)}</span><br>`;
+  }
+
+  // Check for override warning
+  let overrideWarning = "";
+  if (ab.__override && ab.__baseEntry) {
+    overrideWarning = `
+      <div class="alert alert-warning mb-3" role="alert">
+        <strong>⚠️ Warning - Override:</strong> This ability exists in both the base dataset and FanDex.
+        <details class="mt-2">
+          <summary style="cursor: pointer; user-select: none;">Show base version</summary>
+          <div class="mt-2 p-2 border rounded bg-light">
+            ${renderAbilityDetailsCore(ab.__baseEntry)}
+          </div>
+        </details>
+      </div>
+    `;
+  }
+
+  return sourceBadge + overrideWarning + renderAbilityDetailsCore(ab);
+}
+
+function renderAbilityDetailsCore(ab) {
   const row = (k, v) => v ? `<div><span class="text-muted">${k}:</span> ${escapeHtml(String(v))}</div>` : "";
   const isBlank = (val) => {
     if (val == null) return true;
@@ -1012,10 +1191,33 @@ function renderAbilityDetails(ab) {
 function renderCapabilityDetails(cap) {
   if (!cap) return '<p class="text-muted mb-0">Unknown Capability.</p>';
 
-  // cap.Effect est ajouté automatiquement par loadIndex() avec notre patch
+  // Display FanDex source badge
+  let sourceBadge = "";
+  if (cap.__source === "fandex" && cap.__fandexLabel) {
+    sourceBadge = `<span class="badge bg-info mb-2">Source: ${escapeHtml(cap.__fandexLabel)}</span><br>`;
+  }
+
+  // Check for override warning
+  let overrideWarning = "";
+  if (cap.__override && cap.__baseEntry) {
+    const baseText = cap.__baseEntry.Effect || cap.__baseEntry.effect || String(cap.__baseEntry) || "";
+    overrideWarning = `
+      <div class="alert alert-warning mb-3" role="alert">
+        <strong>⚠️ Warning - Override:</strong> This capability exists in both the base dataset and FanDex.
+        <details class="mt-2">
+          <summary style="cursor: pointer; user-select: none;">Show base version</summary>
+          <div class="mt-2 p-2 border rounded bg-light">
+            ${escapeHtml(baseText)}
+          </div>
+        </details>
+      </div>
+    `;
+  }
+
+  // cap.Effect is automatically added by loadIndex() with our patch
   const text = cap.Effect || cap.effect || String(cap) || "";
 
-  return `${escapeHtml(text)}
+  return `${sourceBadge}${overrideWarning}${escapeHtml(text)}
   `;
 }
 
@@ -1554,11 +1756,22 @@ function buildSourceMenu(onChange) {
       <div class="d-flex align-items-center justify-content-between">
         <label class="form-label mb-0">Dataset</label>
       </div>
-      <div class="d-flex flex-wrap gap-1 w-100 mb-2" role="group" aria-label="Dataset presets">
-        ${["Core", "Community", "Homebrew"].map(p => `
+      <div class="d-grid gap-1 w-100 mb-2" style="grid-template-columns: 1fr 1fr;" role="group" aria-label="Dataset presets">
+        ${["Core", "Community", "Homebrew", "FanDex"].map(p => `
           <input type="radio" class="btn-check" name="preset" id="preset-${p.toLowerCase()}" ${selectedPreset === p ? "checked" : ""}>
-          <label class="btn btn-outline-primary d-flex justify-content-center align-items-center flex-grow-1" style="flex-basis:0; min-width:90px;" for="preset-${p.toLowerCase()}">${p}</label>
+          <label class="btn btn-outline-primary d-flex justify-content-center align-items-center" for="preset-${p.toLowerCase()}">${p}</label>
         `).join("")}
+      </div>
+      <div id="fandex-base-box" class="border rounded p-2 small mb-2" style="display: none;">
+        <div class="fw-semibold mb-1">Base Dataset</div>
+        <div id="fandex-base-radios" class="d-flex flex-wrap gap-1">
+          ${["Core", "Community", "Homebrew"].map(base => `
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="fandex-base" id="fandex-base-${base.toLowerCase()}" value="${base}" ${selectedFanDexBase === base ? "checked" : ""}>
+              <label class="form-check-label" for="fandex-base-${base.toLowerCase()}">${base}</label>
+            </div>
+          `).join("")}
+        </div>
       </div>
       <div id="preset-files-box" class="border rounded p-2 small">
         <div class="fw-semibold mb-1">Included Pokédex</div>
@@ -1569,22 +1782,103 @@ function buildSourceMenu(onChange) {
   sb.querySelector('[data-role="source-menu"]')?.remove();
   sb.prepend(wrap);
 
+  async function openMechanicsModal(fandexLabel) {
+    const mechanicsFile = FANDEX_MECHANICS_FILES[fandexLabel];
+    if (!mechanicsFile) {
+      console.error(`No mechanics file found for ${fandexLabel}`);
+      return;
+    }
+    
+    const modalTitle = $("#mechanicsModalLabel");
+    const modalBody = $("#mechanicsModalBody");
+    
+    if (modalTitle) {
+      modalTitle.textContent = `${fandexLabel} — Special Mechanics`;
+    }
+    
+    if (modalBody) {
+      modalBody.innerHTML = '<p class="text-muted">Loading...</p>';
+    }
+    
+    try {
+      const url = `${MECHANICS_BASE}/${mechanicsFile}`;
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const html = await response.text();
+      
+      if (modalBody) {
+        modalBody.innerHTML = html;
+      }
+      
+      // Open the modal
+      const modalEl = $("#mechanicsModal");
+      if (modalEl) {
+        const modal = bootstrap.Modal.getOrCreateInstance(modalEl);
+        modal.show();
+      }
+    } catch (error) {
+      console.error(`Failed to load mechanics for ${fandexLabel}:`, error);
+      if (modalBody) {
+        modalBody.innerHTML = `<div class="alert alert-warning">Failed to load mechanics file for ${fandexLabel}.</div>`;
+      }
+    }
+  }
+
   function renderPresetFiles() {
     const box = wrap.querySelector("#preset-files-list");
+    const fandexBaseBox = wrap.querySelector("#fandex-base-box");
+    
+    // Show/hide the "Base Dataset" box for FanDex
+    if (fandexBaseBox) {
+      fandexBaseBox.style.display = selectedPreset === "FanDex" ? "block" : "none";
+    }
+    
     const lbls = PRESETS[selectedPreset] || [];
+    const isFanDex = selectedPreset === "FanDex";
+    
+    // For FanDex, no checkbox checked by default
+    const defaultChecked = selectedPreset === "FanDex" ? false : (selectedLabels.size === 0 || selectedLabels.has);
+    
     box.innerHTML = lbls.map(lbl => {
       const id = `pdx-file-${lbl.replace(/[^a-z0-9]+/gi, "-")}`;
-      const checked = (selectedLabels.size === 0 || selectedLabels.has(lbl)) ? "checked" : "";
-      return `<div class="form-check">
+      const checked = selectedPreset === "FanDex" 
+        ? (selectedLabels.has(lbl) ? "checked" : "")
+        : ((selectedLabels.size === 0 || selectedLabels.has(lbl)) ? "checked" : "");
+      
+      // Check if this FanDex has a mechanics file
+      const hasMechanics = isFanDex && FANDEX_MECHANICS_FILES[lbl];
+      const mechanicsBtn = hasMechanics 
+        ? `<button class="btn btn-sm btn-outline-info ms-1" data-mechanics-fandex="${lbl}" title="View ${lbl} Mechanics" style="padding: 0.1rem 0.4rem; font-size: 0.75rem;">📖</button>`
+        : "";
+      
+      // Check if this FanDex has a source URL
+      const hasSource = isFanDex && FANDEX_SOURCE_URLS[lbl];
+      const sourceBtn = hasSource 
+        ? `<a href="${FANDEX_SOURCE_URLS[lbl]}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-secondary ms-1" title="View ${lbl} Source" style="padding: 0.1rem 0.4rem; font-size: 0.75rem;">🔗</a>`
+        : "";
+      
+      return `<div class="form-check d-flex align-items-center">
           <input class="form-check-input" type="checkbox" id="${id}" data-label="${lbl}" ${checked}>
-          <label class="form-check-label" for="${id}">${lbl}</label>
+          <label class="form-check-label flex-grow-1" for="${id}">${lbl}</label>
+          ${mechanicsBtn}${sourceBtn}
         </div>`;
     }).join("");
+    
     box.querySelectorAll('input[type="checkbox"]').forEach(cb => {
       cb.addEventListener("change", () => {
         selectedLabels.clear();
         box.querySelectorAll('input[type="checkbox"]:checked').forEach(c => selectedLabels.add(c.getAttribute("data-label")));
         reload();
+      });
+    });
+    
+    // Add event listeners for mechanics buttons
+    box.querySelectorAll('[data-mechanics-fandex]').forEach(btn => {
+      btn.addEventListener("click", async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const fandexLabel = btn.getAttribute("data-mechanics-fandex");
+        await openMechanicsModal(fandexLabel);
       });
     });
   }
@@ -1624,14 +1918,31 @@ function buildSourceMenu(onChange) {
   wrap.addEventListener("change", (ev) => {
     const tgt = ev.target;
     if (!(tgt instanceof HTMLInputElement)) return;
-    if (tgt.name !== "preset" || !tgt.checked) return;
-    const id = tgt.id;
-    if (id.endsWith("core")) selectedPreset = "Core";
-    else if (id.endsWith("community")) selectedPreset = "Community";
-    else if (id.endsWith("homebrew")) selectedPreset = "Homebrew";
-    selectedLabels = new Set(PRESETS[selectedPreset] || []);
-    renderPresetFiles();
-    reload();
+    
+    // Handle main preset radios
+    if (tgt.name === "preset" && tgt.checked) {
+      const id = tgt.id;
+      if (id.endsWith("core")) selectedPreset = "Core";
+      else if (id.endsWith("community")) selectedPreset = "Community";
+      else if (id.endsWith("homebrew")) selectedPreset = "Homebrew";
+      else if (id.endsWith("fandex")) selectedPreset = "FanDex";
+      
+      // For FanDex, don't select anything by default
+      if (selectedPreset === "FanDex") {
+        selectedLabels.clear();
+      } else {
+        selectedLabels = new Set(PRESETS[selectedPreset] || []);
+      }
+      renderPresetFiles();
+      reload();
+    }
+    
+    // Handle Base Dataset radios for FanDex
+    if (tgt.name === "fandex-base" && tgt.checked) {
+      selectedFanDexBase = tgt.value;
+      clearIndexCache(); // Recharger les indexes avec le nouveau base dataset
+      reload();
+    }
   });
 
 
@@ -1711,10 +2022,10 @@ async function openMoveModalByName(moveName) {
 }
 
 async function openAbilityModalByName(abilityName) {
-  const name = String(abilityName || "").trim().toLowerCase();
+  const name = String(abilityName || "").trim().toLowerCase().replace(/\*+$/, '');
   if (!name) return;
   const idx = await loadAbilityIndex();
-  const ab = idx.get(name) || idx.get(name.split('(')[0].trim()) || null;
+  const ab = idx.get(name) || idx.get(name.split('(')[0].trim().replace(/\*+$/, '')) || null;
   const display = ab?.Name || ab?.__displayName || abilityName;
   $("#moveAbilityModalLabel").textContent = `Ability — ${display}`;
   $("#moveAbilityModalBody").innerHTML = renderAbilityDetails(ab);
@@ -1727,15 +2038,15 @@ async function openCapabilityModalByName(capNameRaw) {
 
   const idx = await loadCapabilityIndex(); // Map(keys lowercase -> obj)
 
-  // 1) Normalisation brute
-  const exact = raw.toLowerCase();
+  // 1) Normalisation brute (removing trailing *)
+  const exact = raw.toLowerCase().replace(/\*+$/, '');
 
   // 2) Recherche EXACTE
   let cap = idx.get(exact);
 
   // 3) Si "Mountable 1", chercher "Mountable X"
   if (!cap) {
-    const baseWord = raw.split(/[ (]/)[0].trim().toLowerCase(); // "mountable"
+    const baseWord = raw.split(/[ (]/)[0].trim().toLowerCase().replace(/\*+$/, ''); // "mountable"
     const maybe = Array.from(idx.entries()).find(([key]) =>
       key.startsWith(baseWord)   // mountable x
     );
@@ -1744,7 +2055,7 @@ async function openCapabilityModalByName(capNameRaw) {
 
   // 4) Cas Naturewalk (Forest) → chercher juste "naturewalk"
   if (!cap) {
-    const base = raw.toLowerCase().split("(")[0].trim(); // "naturewalk"
+    const base = raw.toLowerCase().split("(")[0].trim().replace(/\*+$/, ''); // "naturewalk"
     const maybe2 = idx.get(base);
     if (maybe2) cap = maybe2;
   }

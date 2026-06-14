@@ -65,7 +65,7 @@ const FANDEX_FILES = {
   "Insurgence": "pokedex_insurgence.min.json",
   "Sage": "pokedex_sage.min.json",
   "Uranium": "pokedex_uranium.min.json",
-  "Slime Rancher": "pokedex_slimerancher.json"
+  "Slime Rancher": "pokedex_slimerancher.min.json"
 };
 
 const FANDEX_MOVES_FILES = {

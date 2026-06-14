@@ -52,43 +52,49 @@ const PRESETS = {
     "PaldeaDex (Community Homebrew)",
   ],
   FanDex: [
+    "Variant",
     "Insurgence",
     "Sage",
-    "Uranium"
+    "Uranium",
+    "Slime Rancher"
   ],
 };
 
 const FANDEX_FILES = {
+  "Variant": "pokedex_variant.json",
   "Insurgence": "pokedex_insurgence.min.json",
   "Sage": "pokedex_sage.min.json",
-  "Uranium": "pokedex_uranium.json"
+  "Uranium": "pokedex_uranium.min.json",
+  "Slime Rancher": "pokedex_slimerancher.json"
 };
 
 const FANDEX_MOVES_FILES = {
   "Insurgence": "moves_insurgence.min.json",
   "Sage": "moves_sage.min.json",
-  "Uranium": "moves_uranium.json"
+  "Uranium": "moves_uranium.min.json"
 };
 
 const FANDEX_ABILITIES_FILES = {
   "Insurgence": "abilities_insurgence.min.json",
   "Sage": "abilities_sage.min.json",
-  "Uranium": "abilities_uranium.json"
+  "Uranium": "abilities_uranium.min.json"
 };
 
 const FANDEX_CAPABILITIES_FILES = {
   "Insurgence": "capabilities_insurgence.min.json",
   "Sage": "capabilities_sage.min.json",
-  "Uranium": "capabilities_uranium.json"
+  "Uranium": "capabilities_uranium.min.json"
 };
 
 const FANDEX_MECHANICS_FILES = {
+  "Variant": "variant_mechanics.html",
   "Insurgence": "insurgence_mechanics.html",
   "Sage": "sage_mechanics.html",
   "Uranium": "uranium_mechanics.html"
 };
 
 const FANDEX_SOURCE_URLS = {
+  "Variant": "https://docs.google.com/document/d/1Y686fpUCixqBgic_NW_Wrk7X38vI9sqEiSMwFKRKWW0/edit?tab=t.0#bookmark=id.wzm669exkjej",
   "Insurgence": "https://docs.google.com/document/d/1Y686fpUCixqBgic_NW_Wrk7X38vI9sqEiSMwFKRKWW0/edit?tab=t.0#bookmark=id.5l96it1gtgpk",
   "Sage": "https://docs.google.com/document/d/1Y686fpUCixqBgic_NW_Wrk7X38vI9sqEiSMwFKRKWW0/edit?tab=t.0#bookmark=id.esoj8x4i3as3",
   "Uranium": "https://docs.google.com/document/d/1Y686fpUCixqBgic_NW_Wrk7X38vI9sqEiSMwFKRKWW0/edit?tab=t.0#bookmark=id.fxqffpi5o480"

@@ -8,6 +8,14 @@
         "Name": "Default",
         "features": [
           {
+            "Name": "Hello World!",
+            "Prerequisites": "Fizz",
+            "Frequency": "Buzz",
+            "Effect": "[[move:Tackle]]\n[[feature:Walk It Off]]\n[[edge:Bad Mood]]\n[[ability:Intimidate]]\n[[capability:Amorphous]]\n[[item:Basic Ball]]\n[[status:Poisoned]](EMPOUAZONAY)\n[[keyword:Double Strike]]\n[[pokeedge:Accuracy Training]]\n[[feature:Reckless Advance]]\n[[feature:Hits the Spot]]",
+            "Source": "Homebrew",
+            "Category": "Pokémon Raising and Battling"
+          },
+          {
             "Name": "Command Versatility",
             "Prerequisites": "Adept Command, Guile, or Pokémon Education",
             "Frequency": "1 AP — Free Action",
@@ -1235,7 +1243,7 @@
             "Prerequisites": "Enduring Soul, Adept Athletics or Focus",
             "Frequency": "At-Will – Extended Action",
             "Target": "Your Pokémon with at least 2 Tutor Points remaining",
-            "Effect": "The target loses 2 Tutor Points, and gains the Walk It Off Feature, treated in all ways as an Ability for the target.",
+            "Effect": "The target loses 2 Tutor Points, and gains the [[feature:Walk It Off]] Feature, treated in all ways as an Ability for the target.",
             "Bonus": "You gain the Walk It Off Feature, even if you do not meet the prerequisites."
           },
           {

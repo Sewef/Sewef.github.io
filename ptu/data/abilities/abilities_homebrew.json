@@ -655,10 +655,20 @@
     "Effect": "The user becomes Invisible until the beginning of their next turn, and may immediately Shift. This Ability may be activated as an Interrupt when hit by a Physical attack; the user may declare the use of Fade Away to avoid all damage and/or effects of the move. Defensive."
   },
   {
+    "Name": "Fairy Aura",
+    "Frequency": "Static",
+    "Effect": "The user and all allies have the Damage Base of their damaging Fairy Type Attacks increased by +1."
+  },
+  {
     "Name": "Family Unit",
     "Frequency": "Static",
     "Effect": "The user has two tokens instead of one, which may share a square, and do so when sent out. When the user Shifts, both tokens may move independently and do not need to remain adjacent. The user cannot be hit by a Move twice due to both tokens being targeted. The two tokens and their allies may treat each other as different Pokémon for the purposes of positioning effects such as flanking, Moves like Beat Up, or Abilities such as Friend Guard and Pack Hunt.",
     "Bonus": "The user may make two Attacks of Opportunity per round instead of one."
+  },
+  {
+    "Name": "Fashion Designer",
+    "Frequency": "Daily – Extended Action",
+    "Effect": "The user knows how to make useful accessories from mere common leaves. The user may craft one of the consumable Held Items below by activating this ability.\nLucky Leaf - Grass Type Booster for one encounter.\nTasty Reeds - Bug Type Booster for one encounter.\nDew Cup - Same Effect as an Occa Berry.\nThorn Mantle - Same Effect as a Coba Berry.\nChewy Cluster - Same Effect as Leftovers.\nDecorative Twine – Roll +2d6 on any Move during a Contest."
   },
   {
     "Name": "Fiery Crash",
@@ -1326,7 +1336,83 @@
   {
     "Name": "Mimicry",
     "Frequency": "Scene – Free Action",
-    "Effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Field/Weather Type Beach Ground or Water Cave Rock or Dark Desert Ground or Rock Forest Grass Freshwater / Ocean Water Grassland Normal or Grass Marsh Water or Poison Mountain Rock or Ground Rainforest Grass or Poison Taiga Ice or Grass Tundra Ice Urban Normal or Steel Sunny Fire Rainy Water Hailing Ice Sandstorming Rock Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.) Note: This table may be used for Camouflage, too."
+    "Effect": "The user changes their Type to match the field. Pick one type from the following table. If two or more rows are relevant (such as because of Weather), pick one. Your GM may provide additional options should they choose (for instance, an Ethereal Forest may provide Psychic and Fairy options.)",
+    "Note": "This table may be used for Camouflage, too.",
+    "table": {
+      "type": "table",
+      "hidden": true,
+      "rows": [
+        [
+          "Field/Weather",
+          "Type"
+        ],
+        [
+          "Beach",
+          "Ground or Water"
+        ],
+        [
+          "Cave",
+          "Rock or Dark"
+        ],
+        [
+          "Desert",
+          "Ground or Rock"
+        ],
+        [
+          "Forest",
+          "Grass"
+        ],
+        [
+          "Fresh Water / Ocean",
+          "Water"
+        ],
+        [
+          "Grassland",
+          "Normal or Grass"
+        ],
+        [
+          "Marsh",
+          "Water or Poison"
+        ],
+        [
+          "Mountain",
+          "Rock or Ground"
+        ],
+        [
+          "Rainforest",
+          "Grass or Poison"
+        ],
+        [
+          "Taiga",
+          "Ice or Grass"
+        ],
+        [
+          "Tundra",
+          "Ice"
+        ],
+        [
+          "Urban",
+          "Normal or Steel"
+        ],
+        [
+          "Sunny",
+          "Fire"
+        ],
+        [
+          "Rainy",
+          "Water"
+        ],
+        [
+          "Hailing",
+          "Ice"
+        ],
+        [
+          "Sandstorming",
+          "Rock"
+        ]
+      ],
+      "headerRows": 1
+    }
   },
   {
     "Name": "Mimitree",

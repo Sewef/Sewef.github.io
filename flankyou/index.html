@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flank You — Documentation</title>
+  <meta name="description" content="Automatic flanking detection for PTU 1.05 and D&D 5e 2014 in Owlbear Rodeo." />
+  <meta property="og:title" content="Flank You" />
+  <meta property="og:description" content="Assign teams and let Flank You detect flanked creatures automatically on your Owlbear Rodeo scene." />
+  <meta property="og:image" content="https://flankyou.onrender.com/hero.png" />
+  <link rel="icon" href="https://flankyou.onrender.com/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../shared/docs.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-product">
+      <img src="https://flankyou.onrender.com/icon.svg" alt="" class="hero-logo" />
+      <a class="navbar-brand" href="#" aria-label="Flank You documentation home">Flank You</a>
+    </div>
+    <a href="#features">Features</a>
+    <a href="#install">Install</a>
+    <a href="#setup">Setup</a>
+    <a href="#rules">Rules</a>
+    <a href="#controls">Controls</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <header class="hero">
+    <img src="https://flankyou.onrender.com/icon.svg" alt="Flank You logo" class="hero-logo" />
+    <div class="hero-text">
+      <div class="eyebrow">Owlbear Rodeo extension</div>
+      <h1>Flank You</h1>
+      <p>Automatic flanking detection for PTU 1.05 and D&amp;D 5e 2014. Assign teams, move your tokens, and see vulnerable creatures marked directly on the map.</p>
+      <div class="hero-links">
+        <button class="btn-primary" type="button" data-copy-manifest="https://flankyou.onrender.com/manifest.json">Copy manifest link</button>
+        <a href="https://github.com/Sewef/flankyou" class="btn-secondary" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="showcase" aria-label="Flank You preview">
+    <a href="https://flankyou.onrender.com/hero.png" target="_blank" rel="noopener" aria-label="Open the full-size Flank You preview">
+      <img src="https://flankyou.onrender.com/hero.png" alt="Flank You panel showing teams and a flanked token on an Owlbear Rodeo map" />
+    </a>
+    <p>Colored hitboxes reveal team membership; the double-exclamation marker identifies a flanked creature.</p>
+  </section>
+
+  <section id="features">
+    <h2>Read the battlefield instantly</h2>
+    <div class="highlights">
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">⚔</span>
+        <div><strong>Automatic detection</strong><br />Flanking is recalculated as characters move around the grid.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">4</span>
+        <div><strong>Four teams</strong><br />Sort tokens into Default, Team 1, Team 2, or Team 3 with persistent colors.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">!!</span>
+        <div><strong>On-map indicator</strong><br />A clear marker appears above every creature currently considered flanked.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">□</span>
+        <div><strong>Optional hitboxes</strong><br />Display colored token bounds to verify occupied cells and team assignment.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">♞</span>
+        <div><strong>Mount support</strong><br />Choose whether mounted creatures can contribute to a flank.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◇</span>
+        <div><strong>Individual immunity</strong><br />Exclude creatures that cannot be flanked without changing their team.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="install">
+    <h2>Install</h2>
+    <ol class="steps">
+      <li>
+        <strong>Copy the manifest URL</strong>
+        <code>https://flankyou.onrender.com/manifest.json</code>
+      </li>
+      <li>
+        <strong>Open Owlbear Rodeo Extensions</strong>
+        From your profile, choose to add an extension using a manifest URL.
+      </li>
+      <li>
+        <strong>Install and enable Flank You</strong>
+        Add it to the room, open a scene, then launch it from the action bar.
+      </li>
+    </ol>
+  </section>
+
+  <section id="setup">
+    <h2>Set up a combat</h2>
+    <div class="workflow">
+      <article class="workflow-step">
+        <span>1</span>
+        <h3>Choose rules</h3>
+        <p>Select PTU 1.05 or D&amp;D 5e 2014 for the room.</p>
+      </article>
+      <article class="workflow-step">
+        <span>2</span>
+        <h3>Assign teams</h3>
+        <p>Use the panel or token context menu to group allies together.</p>
+      </article>
+      <article class="workflow-step">
+        <span>3</span>
+        <h3>Set exceptions</h3>
+        <p>Mark immune creatures and decide whether mounts can flank.</p>
+      </article>
+      <article class="workflow-step">
+        <span>4</span>
+        <h3>Play</h3>
+        <p>Move tokens normally; the overview and map markers update the result.</p>
+      </article>
+    </div>
+    <div class="note">Tokens on the same team are allies. Tokens assigned to different teams are treated as enemies for flanking calculations.</div>
+  </section>
+
+  <section id="rules">
+    <h2>Supported rulesets</h2>
+    <div class="rules-grid">
+      <article class="rule-card ptu-rule">
+        <div class="rule-label">PTU 1.05</div>
+        <h3>Contact-based flanking</h3>
+        <p>Flank You evaluates enemies occupying cells adjacent to the target. The number of required contact cells scales with the target’s longest side, supporting creatures from 1×1 through 4×4.</p>
+        <p>A valid flank requires at least two usable enemies and enough combined contact around the target.</p>
+      </article>
+      <article class="rule-card dnd-rule">
+        <div class="rule-label">D&amp;D 5e 2014</div>
+        <h3>Opposite-side flanking</h3>
+        <p>Two allied attackers must threaten the target from opposite regions around its occupied space.</p>
+      </article>
+    </div>
+    <div class="warn">Flanking is an optional rule in D&amp;D 5e 2014. Enable and use this ruleset only when it is part of your table’s rules.</div>
+  </section>
+
+  <section id="controls">
+    <h2>Panel and token controls</h2>
+    <table>
+      <thead><tr><th>Control</th><th>What it does</th></tr></thead>
+      <tbody>
+        <tr><td><code>Refresh</code></td><td>Forces the token overview and flanking state to be recalculated.</td></tr>
+        <tr><td><code>Hitboxes</code></td><td>Toggles colored outlines matching each token’s assigned team.</td></tr>
+        <tr><td><code>Mounts can flank</code></td><td>Includes mounted creatures among eligible flank participants.</td></tr>
+        <tr><td><code>Rules</code></td><td>Switches the room between PTU 1.05 and D&amp;D 5e 2014 calculations.</td></tr>
+        <tr><td><code>Team tabs</code></td><td>Filters the compact overview and displays the number of tokens in each team.</td></tr>
+        <tr><td><code>Immune</code></td><td>Prevents an individual token from ever receiving the flanked state.</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Context menu</h3>
+    <p>Select one or more tokens and open the Flank You context menu to assign the whole selection to a team or change its immunity. The same values can be edited token by token from the extension panel.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Need help, found a bug, or want to suggest an improvement? Choose whichever channel works best for you.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Owlbear Rodeo Discord</strong>
+        <span>DM or ping me in the community server.</span>
+        <code>@citron3400</code>
+      </div>
+      <a class="contact-card" href="https://discord.gg/AZkX28fb64" target="_blank" rel="noopener">
+        <strong>Dedicated Discord</strong>
+        <span>Join my server for direct help and project discussions.</span>
+        <code>Join server</code>
+      </a>
+      <a class="contact-card" href="https://github.com/Sewef/flankyou/issues" target="_blank" rel="noopener">
+        <strong>GitHub Issues</strong>
+        <span>Report a reproducible bug or request a feature.</span>
+        <code>Open an issue</code>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Flank You by <a href="https://github.com/Sewef" target="_blank" rel="noopener">Sewef</a> — <a href="https://github.com/Sewef/flankyou" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<script src="../shared/docs.js"></script>
+</body>
+</html>

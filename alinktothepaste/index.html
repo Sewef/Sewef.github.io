@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Link to the Paste — Documentation</title>
+  <meta name="description" content="Paste copied Owlbear Rodeo items with control over their IDs, ownership, position and visibility." />
+  <meta property="og:title" content="A Link to the Paste" />
+  <meta property="og:description" content="A special paste context menu for easier Owlbear Rodeo token management." />
+  <meta property="og:image" content="https://alinktothepaste.onrender.com/hero.png" />
+  <link rel="icon" href="https://alinktothepaste.onrender.com/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../shared/docs.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-product">
+      <img src="https://alinktothepaste.onrender.com/icon.svg" alt="" class="hero-logo" />
+      <a class="navbar-brand" href="#" aria-label="A Link to the Paste documentation home">A Link to the Paste</a>
+    </div>
+    <a href="#features">Features</a>
+    <a href="#install">Install</a>
+    <a href="#usage">How to use</a>
+    <a href="#options">Options</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <header class="hero paste-hero">
+    <div class="hero-copy">
+      <div class="eyebrow">Owlbear Rodeo extension</div>
+      <h1>A Link to the Paste</h1>
+      <p>Paste copied Owlbear Rodeo items with extra control, directly from the context menu. Decide what changes and what stays untouched before items return to your scene.</p>
+      <div class="hero-links">
+        <button class="btn-primary" type="button" data-copy-manifest="https://alinktothepaste.onrender.com/manifest.json">Copy manifest link</button>
+        <a href="https://github.com/Sewef/alinktothepaste" class="btn-secondary" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+    <a class="hero-preview" href="https://alinktothepaste.onrender.com/hero.png" target="_blank" rel="noopener" aria-label="Open the full-size extension preview">
+      <img src="https://alinktothepaste.onrender.com/hero.png" alt="A Link to the Paste menu open on an Owlbear Rodeo scene" />
+    </a>
+  </header>
+
+  <section id="features">
+    <h2>Paste with intent</h2>
+    <div class="highlights">
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">#</span>
+        <div><strong>Fresh IDs</strong><br />Generate new identifiers and preserve attachment links between copied items.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◉</span>
+        <div><strong>Ownership</strong><br />Take ownership of every pasted item when reusing content from another player or room.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">⌖</span>
+        <div><strong>Position</strong><br />Bring pasted items to the center of your current viewport instead of their saved coordinates.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◐</span>
+        <div><strong>Visibility</strong><br />Make all pasted items visible, hidden, or leave their existing visibility unchanged.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="install">
+    <h2>Install</h2>
+    <ol class="steps">
+      <li>
+        <strong>Copy the manifest URL</strong>
+        <code>https://alinktothepaste.onrender.com/manifest.json</code>
+      </li>
+      <li>
+        <strong>Open your Owlbear Rodeo profile</strong>
+        Go to <em>Extensions</em>, choose <em>Add Extension</em>, then select the option to install from a manifest.
+      </li>
+      <li>
+        <strong>Paste the URL and install</strong>
+        Enable the extension for the room where you want to use the special paste menu.
+      </li>
+    </ol>
+    <div class="note">The extension requests clipboard-read permission so it can read the Owlbear Rodeo item data you have explicitly copied.</div>
+  </section>
+
+  <section id="usage">
+    <h2>How to use it</h2>
+    <div class="workflow">
+      <article class="workflow-step">
+        <span>1</span>
+        <h3>Copy</h3>
+        <p>Select one or more items in Owlbear Rodeo and copy them as usual.</p>
+      </article>
+      <article class="workflow-step">
+        <span>2</span>
+        <h3>Open the menu</h3>
+        <p>Open the scene context menu with no item selected and choose <strong>Special Paste</strong>.</p>
+      </article>
+      <article class="workflow-step">
+        <span>3</span>
+        <h3>Choose</h3>
+        <p>Set the ID, ownership, position and visibility behavior you need.</p>
+      </article>
+      <article class="workflow-step">
+        <span>4</span>
+        <h3>Paste</h3>
+        <p>Press <strong>Paste</strong>. A notification confirms how many items were added.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="options">
+    <h2>Paste options</h2>
+    <div class="option-list">
+      <article class="option-card">
+        <div class="option-heading"><span>ID</span><code>New / No change</code></div>
+        <p><strong>New</strong> assigns a new unique ID to every pasted item. Internal attachment references are updated with the new IDs. <strong>No change</strong> retains the copied identifiers.</p>
+      </article>
+      <article class="option-card">
+        <div class="option-heading"><span>Ownership</span><code>Take / No change</code></div>
+        <p><strong>Take</strong> makes you the creator of every pasted item. <strong>No change</strong> keeps existing owners and only fills in missing ownership information.</p>
+      </article>
+      <article class="option-card">
+        <div class="option-heading"><span>Position</span><code>Here / No change</code></div>
+        <p><strong>Here</strong> moves the pasted items to the center of your current view. <strong>No change</strong> preserves their copied positions.</p>
+      </article>
+      <article class="option-card">
+        <div class="option-heading"><span>Visible</span><code>Yes / No / No change</code></div>
+        <p>Force every pasted item to be visible or hidden, or retain the visibility stored in the copied data.</p>
+      </article>
+    </div>
+    <div class="note"><strong>No change</strong> is the default for every option, so opening the tool and immediately pressing Paste keeps the copied data as close to its original state as possible.</div>
+  </section>
+
+  <section id="privacy">
+    <h2>Clipboard and privacy</h2>
+    <div class="card privacy-card">
+      <div class="privacy-icon" aria-hidden="true">⌘</div>
+      <div>
+        <h3>Processed in your browser</h3>
+        <p>The extension reads clipboard text only when you submit the paste form. It parses the copied JSON locally, applies your selected transformations, and adds the resulting items to the current Owlbear Rodeo scene.</p>
+        <p>No account, API key or remote storage is required by the paste workflow.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Need help, found a bug, or want to suggest an improvement? Choose whichever channel works best for you.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Owlbear Rodeo Discord</strong>
+        <span>DM or ping me in the community server.</span>
+        <code>@citron3400</code>
+      </div>
+      <a class="contact-card" href="https://discord.gg/AZkX28fb64" target="_blank" rel="noopener">
+        <strong>Dedicated Discord</strong>
+        <span>Join my server for direct help and project discussions.</span>
+        <code>Join server</code>
+      </a>
+      <a class="contact-card" href="https://github.com/Sewef/alinktothepaste/issues" target="_blank" rel="noopener">
+        <strong>GitHub Issues</strong>
+        <span>Report a reproducible bug or request a feature.</span>
+        <code>Open an issue</code>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>A Link to the Paste by <a href="https://github.com/Sewef" target="_blank" rel="noopener">Sewef</a> — <a href="https://github.com/Sewef/alinktothepaste" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<script src="../shared/docs.js"></script>
+</body>
+</html>

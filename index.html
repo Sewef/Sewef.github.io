@@ -16,8 +16,9 @@
         }
         .button-grid {
             display: grid;
-            grid-template-columns: repeat(2, 180px);
-            grid-template-rows: repeat(2, 120px);
+            grid-template-columns: repeat(auto-fit, 180px);
+            justify-content: center;
+            width: min(100% - 40px, 604px);
             gap: 32px;
         }
         .fancy-btn {
@@ -53,6 +54,10 @@
             display: block;
             object-fit: contain;
         }
+        a.fancy-btn {
+            min-height: 120px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -73,6 +78,10 @@
             <img class="logo" src="/justDices/JustDices.png" alt="JustDices Logo" />
             JustDices
         </button>
+        <a class="fancy-btn" href="/alinktothepaste/index.html">
+            <img class="logo" src="https://alinktothepaste.onrender.com/icon.svg" alt="A Link to the Paste logo" />
+            A Link to the Paste
+        </a>
     </div>
 </body>
 </html>

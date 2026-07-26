@@ -9,12 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../shared/docs.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <nav>
   <div class="nav-inner">
+    <div class="nav-product">
+      <img src="JustDices.png" alt="" class="hero-logo" />
+      <a class="navbar-brand" href="#" aria-label="JustDices documentation home">JustDices</a>
+    </div>
     <a href="#commands">Commands</a>
     <a href="#formula">Formula</a>
     <a href="#modifiers">Modifiers</a>
@@ -22,6 +27,7 @@
     <a href="#quickrolls">Quick Rolls</a>
     <a href="#history">History</a>
     <a href="#api">API</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 
@@ -37,18 +43,13 @@
         <a href="https://github.com/Sewef/justDices/" class="btn-primary" target="_blank" rel="noopener">
           ⭐ GitHub
         </a>
-        <button class="btn-secondary" id="copyManifestBtn" onclick="
-          navigator.clipboard.writeText('https://justdices.onrender.com/manifest.json').then(() => {
-            this.textContent = '✅ Copied!';
-            setTimeout(() => this.textContent = '📋 Copy manifest link', 1800);
-          });
-        ">📋 Copy manifest link</button>
+        <button class="btn-secondary" type="button" data-copy-manifest="https://justdices.onrender.com/manifest.json">Copy manifest link</button>
       </div>
     </div>
   </header>
 
   <!-- Highlights -->
-  <section id="highlights">
+  <!-- <section id="highlights">
     <h2>Highlights</h2>
     <div class="highlights">
       <div class="highlight-item"><span class="hi-icon">↔️</span>Resizable window — drag any corner to resize the panel.</div>
@@ -61,7 +62,7 @@
       <div class="highlight-item"><span class="hi-icon">🧹</span>Stateless: nothing is saved locally or remotely — reload clears the list.</div>
       <div class="highlight-item"><span class="hi-icon">📡</span>OBR broadcast API: trigger rolls from any extension and get a structured response.</div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Commands -->
   <section id="commands">
@@ -369,11 +370,34 @@ OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
 </code></pre>
   </section>
 
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Need help, found a bug, or want to suggest an improvement? Choose whichever channel works best for you.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Owlbear Rodeo Discord</strong>
+        <span>DM or ping me in the community server.</span>
+        <code>@citron3400</code>
+      </div>
+      <a class="contact-card" href="https://discord.gg/AZkX28fb64" target="_blank" rel="noopener">
+        <strong>Dedicated Discord</strong>
+        <span>Join my server for direct help and project discussions.</span>
+        <code>Join server</code>
+      </a>
+      <a class="contact-card" href="https://github.com/Sewef/justDices/issues" target="_blank" rel="noopener">
+        <strong>GitHub Issues</strong>
+        <span>Report a reproducible bug or request a feature.</span>
+        <code>Open an issue</code>
+      </a>
+    </div>
+  </section>
+
 </div><!-- .page-wrap -->
 
 <footer>
   <p>JustDices by <a href="https://github.com/Sewef" target="_blank" rel="noopener">Sewef</a> — <a href="https://github.com/Sewef/justDices/" target="_blank" rel="noopener">Source on GitHub</a></p>
 </footer>
 
+<script src="../shared/docs.js"></script>
 </body>
 </html>

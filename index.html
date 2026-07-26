@@ -8,18 +8,49 @@
         body {
             min-height: 100vh;
             margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            padding: 64px 24px;
             background: #fdf6e3;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
+        main {
+            width: min(100%, 820px);
+            margin: 0 auto;
+        }
+        .page-header {
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .page-header h1 {
+            margin: 0 0 8px;
+            color: #586e75;
+            font-size: clamp(2rem, 7vw, 3rem);
+        }
+        .page-header p {
+            margin: 0;
+            color: #839496;
+        }
+        .project-group + .project-group {
+            margin-top: 52px;
+            padding-top: 42px;
+            border-top: 1px solid #ded7c3;
+        }
+        .group-heading {
+            margin-bottom: 20px;
+        }
+        .group-heading h2 {
+            margin: 0 0 5px;
+            color: #b58900;
+            font-size: 1.25rem;
+        }
+        .group-heading p {
+            margin: 0;
+            color: #839496;
+            font-size: .92rem;
+        }
         .button-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, 180px);
-            justify-content: center;
-            width: min(100% - 40px, 604px);
-            gap: 32px;
+            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+            gap: 18px;
         }
         .fancy-btn {
             display: flex;
@@ -58,30 +89,64 @@
             min-height: 120px;
             text-decoration: none;
         }
+        @media (max-width: 480px) {
+            body {
+                padding: 40px 18px;
+            }
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="button-grid">
-        <button class="fancy-btn" onclick="location.href='/ptu/index.html'">
-            <img class="logo" src="/ptu/img/logo64.png" alt="PTU-Data Logo" />
-            PTU-Data
-        </button>
-        <button class="fancy-btn" onclick="location.href='https://ptu-gen.onrender.com/index.html'">
-            <img class="logo" src="/ptu-gen/PTU-Gen.png" alt="PTU-Gen Logo" />
-            PTU-Gen
-        </button>
-        <button class="fancy-btn" onclick="location.href='/macrohero/index.html'">
-            <img class="logo" src="/macrohero/logo.png" alt="MacroHero Logo" />
-            MacroHero
-        </button>
-        <button class="fancy-btn" onclick="location.href='/justDices/index.html'">
-            <img class="logo" src="/justDices/JustDices.png" alt="JustDices Logo" />
-            JustDices
-        </button>
-        <a class="fancy-btn" href="/alinktothepaste/index.html">
-            <img class="logo" src="https://alinktothepaste.onrender.com/icon.svg" alt="A Link to the Paste logo" />
-            A Link to the Paste
-        </a>
-    </div>
+    <main>
+        <!-- <header class="page-header">
+            <h1>Sewef's projects</h1>
+            <p>Tools and extensions for tabletop games.</p>
+        </header> -->
+
+        <section class="project-group" aria-labelledby="ptu-heading">
+            <div class="group-heading">
+                <h2 id="ptu-heading">PTU tools</h2>
+                <p>Data and character-building utilities for Pokémon Tabletop United.</p>
+            </div>
+            <div class="button-grid">
+                <a class="fancy-btn" href="/ptu/index.html">
+                    <img class="logo" src="/ptu/img/logo64.png" alt="PTU-Data logo" />
+                    PTU-Data
+                </a>
+                <a class="fancy-btn" href="https://ptu-gen.onrender.com/index.html">
+                    <img class="logo" src="/ptu-gen/PTU-Gen.png" alt="PTU-Gen logo" />
+                    PTU-Gen
+                </a>
+            </div>
+        </section>
+
+        <section class="project-group" aria-labelledby="owlbear-heading">
+            <div class="group-heading">
+                <h2 id="owlbear-heading">Owlbear Rodeo extensions</h2>
+                <p>Extensions and companion tools for your virtual tabletop.</p>
+            </div>
+            <div class="button-grid">
+                <a class="fancy-btn" href="/macrohero/index.html">
+                    <img class="logo" src="/macrohero/logo.png" alt="MacroHero logo" />
+                    MacroHero
+                </a>
+                <a class="fancy-btn" href="/justDices/index.html">
+                    <img class="logo" src="/justDices/JustDices.png" alt="JustDices logo" />
+                    JustDices
+                </a>
+                <a class="fancy-btn" href="/alinktothepaste/index.html">
+                    <img class="logo" src="https://alinktothepaste.onrender.com/icon.svg" alt="A Link to the Paste logo" />
+                    A Link to the Paste
+                </a>
+                <a class="fancy-btn" href="/fanfare/index.html">
+                    <img class="logo" src="https://fanfare.onrender.com/icon.svg" alt="Fanfare logo" />
+                    Fanfare
+                </a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fanfare — Documentation</title>
+  <meta name="description" content="Broadcast animated XP progression and rarity-based loot rewards to your Owlbear Rodeo players." />
+  <meta property="og:title" content="Fanfare" />
+  <meta property="og:description" content="Make every reward feel earned with animated XP and loot broadcasts for Owlbear Rodeo." />
+  <meta property="og:image" content="https://fanfare.onrender.com/image.png" />
+  <link rel="icon" href="https://fanfare.onrender.com/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../shared/docs.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-product">
+      <img src="https://fanfare.onrender.com/icon.svg" alt="" class="hero-logo" />
+      <a class="navbar-brand" href="#" aria-label="Fanfare documentation home">Fanfare</a>
+    </div>
+    <a href="#features">Features</a>
+    <a href="#install">Install</a>
+    <a href="#workflow">Workflow</a>
+    <a href="#xp">XP bars</a>
+    <a href="#loot">Loot</a>
+    <a href="#saving">Saving</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main class="page-wrap">
+  <header class="hero fanfare-hero">
+    <img src="https://fanfare.onrender.com/icon.svg" alt="Fanfare logo" class="hero-logo" />
+    <div class="hero-text">
+      <div class="eyebrow">Owlbear Rodeo extension</div>
+      <h1>Fanfare</h1>
+      <p>Turn the end of an encounter into an event. Broadcast animated XP progression and rarity-styled loot to every player, with a preview before the big reveal.</p>
+      <div class="hero-links">
+        <button class="btn-primary" type="button" data-copy-manifest="https://fanfare.onrender.com/manifest.json">Copy manifest link</button>
+        <a href="https://github.com/Sewef/Fanfare" class="btn-secondary" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="showcase" aria-label="Fanfare preview">
+    <a href="https://fanfare.onrender.com/image.png" target="_blank" rel="noopener" aria-label="Open the full-size Fanfare preview">
+      <img src="https://fanfare.onrender.com/image.png" alt="Fanfare control panel and reward broadcast displayed over an Owlbear Rodeo map" />
+    </a>
+    <p>Configure rewards in the GM panel, then reveal them in a theme-aware popover for everyone at the table.</p>
+  </section>
+
+  <section id="features">
+    <h2>Celebrate the payoff</h2>
+    <div class="highlights">
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">↗</span>
+        <div><strong>Animated XP</strong><br />Display one or more labeled progression bars with a smooth fill and difference indicator.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◆</span>
+        <div><strong>Rarity-based loot</strong><br />Reveal quantities and items with distinct styling from Common through Legendary.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◎</span>
+        <div><strong>Local preview</strong><br />Check the complete presentation on your screen before sending it to players.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">↧</span>
+        <div><strong>Reusable setups</strong><br />Import and export loot as JSON, or persist the complete configuration to Scene or Room metadata.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">✦</span>
+        <div><strong>Custom headers</strong><br />Give each broadcast a title and subtitle that match the moment.</div>
+      </article>
+      <article class="highlight-item">
+        <span class="hi-icon" aria-hidden="true">◐</span>
+        <div><strong>Theme aware</strong><br />The control panel and player presentation adapt to Owlbear Rodeo light and dark themes.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="install">
+    <h2>Install</h2>
+    <ol class="steps">
+      <li>
+        <strong>Copy the manifest URL</strong>
+        <code>https://fanfare.onrender.com/manifest.json</code>
+      </li>
+      <li>
+        <strong>Open Owlbear Rodeo Extensions</strong>
+        From your profile, choose to add an extension from a manifest URL.
+      </li>
+      <li>
+        <strong>Install and enable Fanfare</strong>
+        Add it to your room, then open Fanfare from the action bar as a GM.
+      </li>
+    </ol>
+  </section>
+
+  <section id="workflow">
+    <h2>From rewards to reveal</h2>
+    <div class="workflow">
+      <article class="workflow-step">
+        <span>1</span>
+        <h3>Set the scene</h3>
+        <p>Write a title and optional subtitle for the reward announcement.</p>
+      </article>
+      <article class="workflow-step">
+        <span>2</span>
+        <h3>Build rewards</h3>
+        <p>Add the XP bars and loot items you want players to receive.</p>
+      </article>
+      <article class="workflow-step">
+        <span>3</span>
+        <h3>Preview</h3>
+        <p>Use Preview to open the result locally without notifying the rest of the room.</p>
+      </article>
+      <article class="workflow-step">
+        <span>4</span>
+        <h3>Send</h3>
+        <p>Broadcast the finished reward popover to all players and the GM.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="xp">
+    <h2>XP bars</h2>
+    <p>Add as many progression bars as your reward needs. Each bar can carry its own label and can be enabled or disabled before sending.</p>
+    <div class="xp-demo card">
+      <div class="xp-demo-header">
+        <strong>Party experience</strong>
+        <span>+35%</span>
+      </div>
+      <div class="xp-track"><span style="width: 75%">75%</span></div>
+    </div>
+    <table>
+      <thead><tr><th>Field</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td><code>Label</code></td><td>Identifies the progression represented by this bar.</td></tr>
+        <tr><td><code>Max XP</code></td><td>Defines the total value used to calculate the displayed percentage.</td></tr>
+        <tr><td><code>Current</code></td><td>The starting value, shown before the fill animation progresses.</td></tr>
+        <tr><td><code>New</code></td><td>The resulting value after the reward has been applied.</td></tr>
+      </tbody>
+    </table>
+    <div class="note">The player popover animates the progression over roughly two seconds and shows the difference between the old and new values.</div>
+  </section>
+
+  <section id="loot">
+    <h2>Loot and rarity</h2>
+    <p>Every loot entry has a name, a quantity, and one of five rarity levels. Rarity controls the border, color, and glow used during the reveal.</p>
+    <div class="rarity-grid">
+      <div class="rarity common"><strong>Common</strong><span>Basic items</span></div>
+      <div class="rarity uncommon"><strong>Uncommon</strong><span>Notable finds</span></div>
+      <div class="rarity rare"><strong>Rare</strong><span>Powerful rewards</span></div>
+      <div class="rarity very-rare"><strong>Very Rare</strong><span>Exceptional loot</span></div>
+      <div class="rarity legendary"><strong>Legendary</strong><span>Mythic treasures</span></div>
+    </div>
+
+    <h3>JSON format</h3>
+    <p>Export a loot list for reuse or import an existing list with this structure:</p>
+<pre><code class="language-json">[
+  {
+    "name": "Dragon Scale",
+    "quantity": 5,
+    "rarity": "uncommon"
+  },
+  {
+    "name": "Dragon's Heart",
+    "quantity": 1,
+    "rarity": "legendary"
+  }
+]</code></pre>
+    <div class="note">Use <strong>Demo</strong> to populate a sample list instantly, then Export to inspect or copy the exact JSON.</div>
+  </section>
+
+  <section id="saving">
+    <h2>Preview, save, and reuse</h2>
+    <div class="save-grid">
+      <article class="card">
+        <h3>Preview</h3>
+        <p>Opens the reward presentation only on your own screen. Players receive nothing until you press Send.</p>
+      </article>
+      <article class="card">
+        <h3>Scene</h3>
+        <p>Saves the complete setup to the current scene metadata. Use this for rewards tied to a particular map or encounter.</p>
+      </article>
+      <article class="card">
+        <h3>Room</h3>
+        <p>Saves the setup to room metadata so it remains available when moving between scenes.</p>
+      </article>
+    </div>
+    <div class="note">Enable <strong>Auto save on send</strong> to update the selected save target each time a reward is broadcast.</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Need help, found a bug, or want to suggest an improvement? Choose whichever channel works best for you.</p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Owlbear Rodeo Discord</strong>
+        <span>DM or ping me in the community server.</span>
+        <code>@citron3400</code>
+      </div>
+      <a class="contact-card" href="https://discord.gg/AZkX28fb64" target="_blank" rel="noopener">
+        <strong>Dedicated Discord</strong>
+        <span>Join my server for direct help and project discussions.</span>
+        <code>Join server</code>
+      </a>
+      <a class="contact-card" href="https://github.com/Sewef/Fanfare/issues" target="_blank" rel="noopener">
+        <strong>GitHub Issues</strong>
+        <span>Report a reproducible bug or request a feature.</span>
+        <code>Open an issue</code>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Fanfare by <a href="https://github.com/Sewef" target="_blank" rel="noopener">Sewef</a> — <a href="https://github.com/Sewef/Fanfare" target="_blank" rel="noopener">Source on GitHub</a></p>
+</footer>
+
+<script src="../shared/docs.js"></script>
+</body>
+</html>

@@ -50474,8 +50474,20 @@
           "learnedLevel": 11
         },
         {
+          "moveName": "Swords Dance",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Iron Head",
+          "learnedLevel": 33
+        },
+        {
           "moveName": "Crunch",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Moonblast",
+          "learnedLevel": 66
         },
         {
           "moveName": "Close Combat",
@@ -50678,12 +50690,24 @@
           "learnedLevel": 11
         },
         {
+          "moveName": "Swords Dance",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Iron Head",
+          "learnedLevel": 33
+        },
+        {
           "moveName": "Laser Focus",
           "learnedLevel": 44
         },
         {
           "moveName": "Crunch",
           "learnedLevel": 55
+        },
+        {
+          "moveName": "Moonblast",
+          "learnedLevel": 66
         },
         {
           "moveName": "Close Combat",
@@ -50885,6 +50909,14 @@
           "learnedLevel": 11
         },
         {
+          "moveName": "Iron Defense",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Iron Head",
+          "learnedLevel": 33
+        },
+        {
           "moveName": "Laser Focus",
           "learnedLevel": 44
         },
@@ -50895,6 +50927,10 @@
         {
           "moveName": "Moonblast",
           "learnedLevel": 66
+        },
+        {
+          "moveName": "Close Combat",
+          "learnedLevel": 77
         },
         {
           "moveName": "Giga Impact",
@@ -51097,6 +51133,14 @@
           "learnedLevel": 11
         },
         {
+          "moveName": "Iron Defense",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Iron Head",
+          "learnedLevel": 33
+        },
+        {
           "moveName": "Laser Focus",
           "learnedLevel": 44
         },
@@ -51107,6 +51151,10 @@
         {
           "moveName": "Moonblast",
           "learnedLevel": 66
+        },
+        {
+          "moveName": "Close Combat",
+          "learnedLevel": 77
         },
         {
           "moveName": "Giga Impact",
@@ -51329,12 +51377,24 @@
           "learnedLevel": 48
         },
         {
+          "moveName": "Dynamax Cannon",
+          "learnedLevel": 56
+        },
+        {
+          "moveName": "Cosmic Power",
+          "learnedLevel": 64
+        },
+        {
           "moveName": "Recover",
           "learnedLevel": 72
         },
         {
           "moveName": "Hyper Beam",
           "learnedLevel": 80
+        },
+        {
+          "moveName": "Eternabeam",
+          "learnedLevel": 88
         }
       ],
       "machineMoves": [
@@ -51736,6 +51796,10 @@
         {
           "moveName": "Superpower",
           "learnedLevel": 80
+        },
+        {
+          "moveName": "Double Iron Bash",
+          "learnedLevel": 88
         },
         {
           "moveName": "Hyper Beam",

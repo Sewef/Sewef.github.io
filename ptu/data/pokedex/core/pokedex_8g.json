@@ -39206,9 +39206,27 @@
           "Type": "Normal"
         },
         {
+          "Level": 22,
+          "Move": "Swords Dance",
+          "Type": "Normal"
+        },
+        {
+          "Level": 33,
+          "Move": "Iron Head",
+          "Type": "Steel"
+        },
+        {
           "Level": 55,
           "Move": "Crunch",
           "Type": "Dark"
+        },
+        {
+          "Level": 66,
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Level": 77,
@@ -39526,6 +39544,19 @@
           "Type": "Normal"
         },
         {
+          "Level": 22,
+          "Move": "Swords Dance",
+          "Type": "Normal"
+        },
+        {
+          "Level": 33,
+          "Move": "Iron Head",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
           "Level": 44,
           "Move": "Laser Focus",
           "Type": "Normal"
@@ -39534,6 +39565,14 @@
           "Level": 55,
           "Move": "Crunch",
           "Type": "Dark"
+        },
+        {
+          "Level": 66,
+          "Move": "Moonblast",
+          "Type": "Fairy",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Level": 77,
@@ -39853,6 +39892,16 @@
           "Type": "Normal"
         },
         {
+          "Level": 22,
+          "Move": "Iron Defense",
+          "Type": "Steel"
+        },
+        {
+          "Level": 33,
+          "Move": "Iron Head",
+          "Type": "Steel"
+        },
+        {
           "Level": 44,
           "Move": "Laser Focus",
           "Type": "Normal"
@@ -39866,6 +39915,14 @@
           "Level": 66,
           "Move": "Moonblast",
           "Type": "Fairy"
+        },
+        {
+          "Level": 77,
+          "Move": "Close Combat",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Level": 88,
@@ -40206,6 +40263,19 @@
           "Type": "Normal"
         },
         {
+          "Level": 22,
+          "Move": "Iron Defense",
+          "Type": "Steel"
+        },
+        {
+          "Level": 33,
+          "Move": "Iron Head",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
           "Level": 44,
           "Move": "Laser Focus",
           "Type": "Normal"
@@ -40219,6 +40289,14 @@
           "Level": 66,
           "Move": "Moonblast",
           "Type": "Fairy"
+        },
+        {
+          "Level": 77,
+          "Move": "Close Combat",
+          "Type": "Fighting",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Level": 88,
@@ -40605,6 +40683,19 @@
           "Type": "Fire"
         },
         {
+          "Level": 56,
+          "Move": "Dynamax Cannon",
+          "Type": "Dragon",
+          "Tags": [
+            "Stab"
+          ]
+        },
+        {
+          "Level": 64,
+          "Move": "Cosmic Power",
+          "Type": "Psychic"
+        },
+        {
           "Level": 72,
           "Move": "Recover",
           "Type": "Normal"
@@ -40613,6 +40704,14 @@
           "Level": 80,
           "Move": "Hyper Beam",
           "Type": "Normal"
+        },
+        {
+          "Level": 88,
+          "Move": "Eternabeam",
+          "Type": "Dragon",
+          "Tags": [
+            "Stab"
+          ]
         }
       ],
       "TM/HM Move List": [
@@ -41213,6 +41312,14 @@
           "Level": 80,
           "Move": "Superpower",
           "Type": "Fighting"
+        },
+        {
+          "Level": 88,
+          "Move": "Double Iron Bash",
+          "Type": "Steel",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Level": 96,

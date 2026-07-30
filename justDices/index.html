@@ -82,8 +82,14 @@
           </td>
         </tr>
         <tr>
+          <td>/lr &lt;expr&gt;<br/>/liarroll &lt;expr&gt;</td>
+          <td>Liar roll — logged for the whole room, with the result initially visible only to the roller.
+            <em>Examples: <code>/lr d20</code> &nbsp; <code>/liarroll 2d6+3</code></em>
+          </td>
+        </tr>
+        <tr>
           <td>/br &lt;expr&gt;<br/>/blindroll &lt;expr&gt;</td>
-          <td>Blind roll — logged for the whole room, but the dice and total stay hidden until the roller or a GM reveals them.
+          <td>Blind roll — logged for the whole room, with the result initially visible only to GMs.
             <em>Examples: <code>/br d20</code> &nbsp; <code>/blindroll 2d6+3</code></em>
           </td>
         </tr>
@@ -101,7 +107,7 @@
     </table>
     <div class="note">
       No prefix? JustDices treats the input as a public roll — same as <code>/r</code>.<br/>
-      Commands are case-insensitive: <code>/R</code>, <code>/Gr</code>, <code>/BR</code>, <code>dFUDGE</code>, <code>Db6</code> all work.
+      Commands are case-insensitive: <code>/R</code>, <code>/Gr</code>, <code>/LR</code>, <code>/BR</code>, <code>dFUDGE</code>, <code>Db6</code> all work.
     </div>
   </section>
 
@@ -234,12 +240,16 @@
           <td>Only the rolling player and GMs can see hidden roll cards.</td>
         </tr>
         <tr>
+          <td>Liar rolls 🤥</td>
+          <td>Everyone sees that a roll happened, but only the roller sees its result initially. The roller or a GM can click 👁️ to reveal it to everyone.</td>
+        </tr>
+        <tr>
           <td>Blind rolls 🙈</td>
-          <td>Everyone sees that a roll happened, but its dice and total remain concealed. The roller or a GM can click 👁️ to reveal the result to everyone.</td>
+          <td>Everyone sees that a roll happened, but only GMs see its result initially. The roller or a GM can click 👁️ to reveal it to everyone.</td>
         </tr>
         <tr>
           <td>🎲 Reroll button</td>
-          <td>Replays the exact original expression — preserves whether the roll is public, hidden, or blind.</td>
+          <td>Replays the exact original expression — preserves whether the roll is public, hidden, liar, or blind.</td>
         </tr>
         <tr>
           <td>↑ / ↓ keys</td>
@@ -273,7 +283,7 @@ OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
         </div>
         <div class="param-row">
           <div class="param-name">expression<em class="param-required">required</em></div>
-          <div class="param-desc">The formula or full command string. All command prefixes are accepted: <code>/r</code>, <code>/gr</code>, <code>/br</code>, <code>/blindroll</code>, <code>/say</code>, <code>max</code>, <code>min</code>, etc.</div>
+          <div class="param-desc">The formula or full command string. All command prefixes are accepted: <code>/r</code>, <code>/gr</code>, <code>/lr</code>, <code>/liarroll</code>, <code>/br</code>, <code>/blindroll</code>, <code>/say</code>, <code>max</code>, <code>min</code>, etc.</div>
         </div>
         <div class="param-row">
           <div class="param-name">showInLogs<em class="param-optional">optional · default: true</em></div>

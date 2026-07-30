@@ -6,7 +6,6 @@
     <title>Sewef.github.io</title>
     <style>
         body {
-            min-height: 100vh;
             margin: 0;
             padding: 64px 24px;
             background: #fdf6e3;
@@ -28,6 +27,23 @@
         .page-header p {
             margin: 0;
             color: #839496;
+        }
+        .project-note {
+            margin: 0 0 42px;
+            padding: 16px 20px;
+            color: #657b83;
+            background: #eee8d5;
+            border-left: 4px solid #b58900;
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+        .project-note a {
+            color: #cb4b16;
+            font-weight: 600;
+        }
+        .project-note a:hover,
+        .project-note a:focus {
+            color: #b58900;
         }
         .project-group + .project-group {
             margin-top: 52px;
@@ -106,10 +122,15 @@
             <p>Tools and extensions for tabletop games.</p>
         </header> -->
 
+        <p class="project-note">
+            Most of these tools were built primarily with the help of large language models (LLMs).
+            If you enjoy using them, you can <a href="https://ko-fi.com/sewef">support me on Ko-fi</a>.
+        </p>
+
         <section class="project-group" aria-labelledby="ptu-heading">
             <div class="group-heading">
                 <h2 id="ptu-heading">PTU tools</h2>
-                <p>Data and character-building utilities for Pokémon Tabletop United.</p>
+                <p>Data collection and Pokémon generator for Pokémon Tabletop United.</p>
             </div>
             <div class="button-grid">
                 <a class="fancy-btn" href="/ptu/index.html">

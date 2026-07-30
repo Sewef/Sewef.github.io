@@ -9119,7 +9119,8 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Mountain"
+      "Mountain",
+      "Grassland"
     ],
     "diets": [
       "Carnivore"
@@ -9360,7 +9361,8 @@
     ],
     "hatchRate": null,
     "habitats": [
-      "Mountain"
+      "Mountain",
+      "Grassland"
     ],
     "diets": [
       "Carnivore"

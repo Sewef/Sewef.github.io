@@ -82,6 +82,12 @@
           </td>
         </tr>
         <tr>
+          <td>/br &lt;expr&gt;<br/>/blindroll &lt;expr&gt;</td>
+          <td>Blind roll — logged for the whole room, but the dice and total stay hidden until the roller or a GM reveals them.
+            <em>Examples: <code>/br d20</code> &nbsp; <code>/blindroll 2d6+3</code></em>
+          </td>
+        </tr>
+        <tr>
           <td>/say &lt;message&gt;</td>
           <td>Send a text message to the chat (also callable via API).
             <em>Example: <code>/say The beast roars!</code></em>
@@ -95,7 +101,7 @@
     </table>
     <div class="note">
       No prefix? JustDices treats the input as a public roll — same as <code>/r</code>.<br/>
-      Commands are case-insensitive: <code>/R</code>, <code>/Gr</code>, <code>dFUDGE</code>, <code>Db6</code> all work.
+      Commands are case-insensitive: <code>/R</code>, <code>/Gr</code>, <code>/BR</code>, <code>dFUDGE</code>, <code>Db6</code> all work.
     </div>
   </section>
 
@@ -203,7 +209,6 @@
     <h2>Quick Rolls</h2>
     <p>The Quick Rolls panel provides a grid of the most common dice. Click the number of dice you want to roll and the expression is sent automatically — just like typing it manually.</p>
     <p>The <strong>🐵 / 🙈 toggle</strong> inside the panel switches between public and hidden rolls for the quick-click buttons.</p>
-    <div class="note">Due to Owlbear Rodeo limitations, the Quick Rolls panel cannot be moved or repositioned.</div>
   </section>
 
   <!-- History -->
@@ -229,8 +234,12 @@
           <td>Only the rolling player and GMs can see hidden roll cards.</td>
         </tr>
         <tr>
+          <td>Blind rolls 🙈</td>
+          <td>Everyone sees that a roll happened, but its dice and total remain concealed. The roller or a GM can click 👁️ to reveal the result to everyone.</td>
+        </tr>
+        <tr>
           <td>🎲 Reroll button</td>
-          <td>Replays the exact original expression — preserves the public/private status.</td>
+          <td>Replays the exact original expression — preserves whether the roll is public, hidden, or blind.</td>
         </tr>
         <tr>
           <td>↑ / ↓ keys</td>
@@ -264,7 +273,7 @@ OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
         </div>
         <div class="param-row">
           <div class="param-name">expression<em class="param-required">required</em></div>
-          <div class="param-desc">The formula or full command string. All command prefixes are accepted: <code>/r</code>, <code>/gr</code>, <code>/say</code>, <code>max</code>, <code>min</code>, etc.</div>
+          <div class="param-desc">The formula or full command string. All command prefixes are accepted: <code>/r</code>, <code>/gr</code>, <code>/br</code>, <code>/blindroll</code>, <code>/say</code>, <code>max</code>, <code>min</code>, etc.</div>
         </div>
         <div class="param-row">
           <div class="param-name">showInLogs<em class="param-optional">optional · default: true</em></div>

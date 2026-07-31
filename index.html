@@ -7,12 +7,12 @@
     <style>
         body {
             margin: 0;
-            padding: 40px 24px;
+            padding: 28px 24px;
             background: #fdf6e3;
             font-family: 'Segoe UI', Arial, sans-serif;
         }
         main {
-            width: min(100%, 820px);
+            width: min(100%, 960px);
             margin: 0 auto;
         }
         .page-header {
@@ -29,8 +29,8 @@
             color: #839496;
         }
         .project-note {
-            margin: 0 0 28px;
-            padding: 12px 18px;
+            margin: 0 0 20px;
+            padding: 10px 16px;
             color: #657b83;
             background: #eee8d5;
             border-left: 4px solid #b58900;
@@ -46,12 +46,12 @@
             color: #b58900;
         }
         .project-group + .project-group {
-            margin-top: 30px;
-            padding-top: 24px;
+            margin-top: 20px;
+            padding-top: 16px;
             border-top: 1px solid #ded7c3;
         }
         .group-heading {
-            margin-bottom: 14px;
+            margin-bottom: 10px;
         }
         .group-heading h2 {
             margin: 0 0 5px;
@@ -65,20 +65,21 @@
         }
         .button-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-            gap: 14px;
+            grid-template-columns: repeat(auto-fill, 176px);
+            gap: 10px;
         }
         .fancy-btn {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
+            padding: 0 14px 0 58px;
             background: linear-gradient(135deg, #eee8d5 0%, #fdf6e3 100%);
             color: #586e75;
             border: 2px solid #b58900;
-            border-radius: 18px;
+            border-radius: 14px;
             box-shadow: 0 4px 24px rgba(101, 123, 131, 0.10);
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
             transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
@@ -91,23 +92,43 @@
             border-color: #cb4b16;
         }
         .logo {
-            max-width: 48px;
-            max-height: 48px;
+            position: absolute;
+            top: 50%;
+            left: 14px;
+            max-width: 36px;
+            max-height: 36px;
             width: auto;
             height: auto;
-            margin-bottom: 10px;
+            margin-bottom: 0;
             background: none;
             border-radius: 8px;
             display: block;
             object-fit: contain;
+            transform: translateY(-50%);
         }
         a.fancy-btn {
-            min-height: 96px;
+            min-height: 64px;
             text-decoration: none;
+        }
+        .contact-note {
+            margin: 20px 0 0;
+            padding-top: 14px;
+            border-top: 1px solid #ded7c3;
+            color: #657b83;
+            font-size: .92rem;
+            text-align: center;
+        }
+        .contact-note a {
+            color: #cb4b16;
+            font-weight: 600;
+        }
+        .contact-note a:hover,
+        .contact-note a:focus {
+            color: #b58900;
         }
         @media (max-width: 480px) {
             body {
-                padding: 28px 18px;
+                padding: 22px 18px;
             }
             .button-grid {
                 grid-template-columns: 1fr;
@@ -185,6 +206,11 @@
                 </a>
             </div>
         </section>
+
+        <p class="contact-note">
+            Contact me on the PTU or Owlbear Discord servers as <strong>@citron3400</strong>,
+            or join <a href="https://discord.com/BDUEYgaV">my personal Discord server</a>.
+        </p>
     </main>
 </body>
 </html>

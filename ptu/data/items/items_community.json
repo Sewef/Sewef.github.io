@@ -559,6 +559,20 @@
         "Yield Roll": "1d4-3"
       }
     ],
+    "Berries Effects": [
+      {
+        "Name": "Treat Berries",
+        "Effect": "Treat Berries heal 1/8th of the Pokémon’s Max HP. If the user likes the Treat’s flavor, it heals 1/6th instead. If the user dislikes the treat’s flavor, the user is Confused."
+      },
+      {
+        "Name": "Suppressant Berries",
+        "Effect": "Suppressant Berries lower the indicated Base Stat by 1 when consumed by a Pokémon. This effect works if the Pokémon’s trainer wishes it to."
+      },
+      {
+        "Name": "Move Weakener Berries",
+        "Effect": "Berries that Weaken a Type of Move allow the user to trade in their Digestion Buff to grant one step of resistance when hit by a Move of the indicated type."
+      }
+    ],
     "Berries": [
       {
         "Name": "Cheri Berry",

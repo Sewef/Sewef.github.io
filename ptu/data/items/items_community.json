@@ -944,7 +944,8 @@
       {
         "Name": "Energy Root*",
         "Effect": "Heals 70 Hit Points – Repulsive",
-        "Price": 500
+        "Price": 500,
+        "Note": "Energy Roots can be grown and harvested like Herbs, but are not Snack Items."
       },
       {
         "Name": "Revival Herb",
@@ -968,15 +969,18 @@
       },
       {
         "Name": "Tiny Mushroom",
-        "Effect": "The user loses 5 HP, and gains +1 Combat Stage in a random Stat."
+        "Effect": "The user loses 5 HP, and gains +1 Combat Stage in a random Stat.",
+        "Note": "Mushrooms may be identified with a DC 20 Survival Check. If identified, you may roll to see which stats that mushroom affects ahead of time."
       },
       {
         "Name": "Big Mushroom",
-        "Effect": "The Poisoned; if they do, they gain +1 Combat Stage in two random Stats."
+        "Effect": "The Poisoned; if they do, they gain +1 Combat Stage in two random Stats.",
+        "Note": "Mushrooms may be identified with a DC 20 Survival Check. If identified, you may roll to see which stats that mushroom affects ahead of time."
       },
       {
         "Name": "Balm Mushroom",
-        "Effect": "The user is cured of Burn, Paralysis, or Poison. If they are, they lose 1 Combat Stage in a random Stat."
+        "Effect": "The user is cured of Burn, Paralysis, or Poison. If they are, they lose 1 Combat Stage in a random Stat.",
+        "Note": "Mushrooms may be identified with a DC 20 Survival Check. If identified, you may roll to see which stats that mushroom affects ahead of time."
       },
       {
         "Name": "Mirror Herb",

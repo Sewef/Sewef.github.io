@@ -352,9 +352,9 @@
         structured response. No UI interaction is required.</p>
 
       <h3>Request</h3>
-      <p>Send a message on channel <code>justdices.api.request</code>:</p>
-      <pre><code><span class="cmt">// Channel: "justdices.api.request"</span>
-OBR.broadcast.sendMessage(<span class="str">"justdices.api.request"</span>, {
+      <p>Send a message on channel <code>com.sewef.justdices/api.request</code>:</p>
+      <pre><code><span class="cmt">// Channel: "com.sewef.justdices/api.request"</span>
+OBR.broadcast.sendMessage(<span class="str">"com.sewef.justdices/api.request"</span>, {
   <span class="prop">callId</span>:      <span class="str">"my-unique-id-123"</span>,  <span class="cmt">// string — correlates request ↔ response</span>
   <span class="prop">expression</span>: <span class="str">"/r 2d6+3"</span>,         <span class="cmt">// string — same syntax as the input box</span>
   <span class="prop">showInLogs</span>: <span class="kw">true</span>               <span class="cmt">// boolean (default true) — also push to log</span>

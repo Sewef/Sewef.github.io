@@ -653,7 +653,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -1176,7 +1176,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -1752,7 +1752,7 @@
           "Level": 32
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 36
         }
@@ -1817,7 +1817,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -2210,7 +2210,7 @@
           "Level": 42
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 48
         }
@@ -2281,7 +2281,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -2686,7 +2686,7 @@
           "Level": 46
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 54
         },
@@ -2776,7 +2776,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -4767,7 +4767,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [
             "Stab"
@@ -5176,7 +5176,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [
             "Stab"
@@ -6479,7 +6479,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -9355,7 +9355,7 @@
           "Level": 36
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 40,
           "Tags": [
@@ -9615,7 +9615,7 @@
           "Level": 44
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 50,
           "Tags": [
@@ -10394,7 +10394,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -11141,7 +11141,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Egg"
@@ -15707,7 +15707,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 48
         }
@@ -15772,7 +15772,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -16105,7 +16105,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 56
         }
@@ -16176,7 +16176,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -27438,7 +27438,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -27997,7 +27997,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -28259,7 +28259,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Egg"
@@ -28471,7 +28471,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -30710,7 +30710,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -31477,7 +31477,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 66
         },
@@ -31557,7 +31557,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -31999,7 +31999,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 70
         },
@@ -32085,7 +32085,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -32660,7 +32660,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -33517,7 +33517,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -34089,7 +34089,7 @@
           "Tags": []
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 37
         },
@@ -34466,7 +34466,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Egg"
@@ -34695,7 +34695,7 @@
           "Tags": []
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 37
         },
@@ -40281,7 +40281,7 @@
           "Level": 33
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 36,
           "Tags": [
@@ -41039,7 +41039,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 35,
           "Tags": [
@@ -41824,7 +41824,7 @@
           "Level": 49
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 56,
           "Tags": [
@@ -51923,7 +51923,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -53492,7 +53492,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -54154,7 +54154,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -55567,7 +55567,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -56923,7 +56923,7 @@
           "Level": 60
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 66
         },
@@ -56993,7 +56993,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -57366,7 +57366,7 @@
           "Level": 60
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 66
         },
@@ -57432,7 +57432,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"

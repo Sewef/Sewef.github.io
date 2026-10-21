@@ -1061,7 +1061,7 @@
           "Tags": []
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 53,
           "Tags": []
@@ -1189,7 +1189,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -1649,7 +1649,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Tutor"
@@ -2843,7 +2843,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -3263,7 +3263,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Egg"
@@ -3520,7 +3520,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -3944,7 +3944,7 @@
           "Method": "Tutor"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Tutor"
@@ -4362,7 +4362,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -4950,7 +4950,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -5631,7 +5631,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -6406,7 +6406,7 @@
           "Level": 44
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 47,
           "Tags": []
@@ -6478,7 +6478,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -10892,7 +10892,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -12774,7 +12774,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 46
         },
@@ -12859,7 +12859,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -13441,7 +13441,7 @@
           "Level": 49
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 55,
           "Tags": [
@@ -13506,7 +13506,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [
             "Stab"
@@ -14083,7 +14083,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [],
           "Method": "Machine"
@@ -14496,7 +14496,7 @@
           ]
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 43,
           "Tags": [
@@ -14605,7 +14605,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Double Edge",
+          "Move": "Double-Edge",
           "Type": "Normal",
           "Tags": [
             "Stab"

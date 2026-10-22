@@ -1062,7 +1062,7 @@
         "Bulk Up",
         "Confide",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -1339,7 +1339,7 @@
         "Bulk Up",
         "Confide",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -1629,7 +1629,7 @@
         "Crunch",
         "Dark Pulse",
         "Darkest Lariat",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -3604,7 +3604,7 @@
         "Confide",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Echoed Voice",
@@ -3884,7 +3884,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Echoed Voice",
@@ -6347,7 +6347,7 @@
         "Confide",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Echoed Voice",
@@ -6637,7 +6637,7 @@
         "Confide",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -6925,7 +6925,7 @@
         "Confide",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Echoed Voice",
@@ -7243,7 +7243,7 @@
         "Confide",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -7522,7 +7522,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 41
         },
         {
@@ -7776,7 +7776,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 41
         },
         {
@@ -8581,7 +8581,7 @@
         "Close Combat",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -8625,7 +8625,7 @@
       "eggMoves": [
         "Body Slam",
         "Close Combat",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Fissure",
         "Magnitude",
@@ -8849,7 +8849,7 @@
         "Close Combat",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -11281,7 +11281,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 44
         },
         {
@@ -11549,7 +11549,7 @@
           "learnedLevel": 48
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 54
         },
         {
@@ -13203,7 +13203,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 36
         },
         {
@@ -13236,7 +13236,7 @@
         "Coaching",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -14785,7 +14785,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -15047,7 +15047,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -15342,7 +15342,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -15363,7 +15363,7 @@
         "Confide",
         "Confuse Ray",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -15605,7 +15605,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -15626,7 +15626,7 @@
         "Confide",
         "Confuse Ray",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -15880,7 +15880,7 @@
         "Charm",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -18140,7 +18140,7 @@
         "Close Combat",
         "Coaching",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -18446,7 +18446,7 @@
         "Close Combat",
         "Coaching",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -18743,7 +18743,7 @@
           "learnedLevel": 24
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 27
         },
         {
@@ -19003,7 +19003,7 @@
           "learnedLevel": 29
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -19679,7 +19679,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -20014,7 +20014,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earthquake",
@@ -20380,7 +20380,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Encore",
@@ -20724,7 +20724,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Dream Eater",
@@ -21368,7 +21368,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -21668,7 +21668,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -21995,7 +21995,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -22298,7 +22298,7 @@
           "learnedLevel": 30
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 31
         },
         {
@@ -22325,7 +22325,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -22601,7 +22601,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -22628,7 +22628,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -22901,7 +22901,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -22933,7 +22933,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -23893,7 +23893,7 @@
         "Calm Mind",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -24306,7 +24306,7 @@
       "tutorMoves": [
         "Ally Switch",
         "Burning Jealousy",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Endeavor",
         "False Swipe",
@@ -25976,7 +25976,7 @@
         "Confide",
         "Cosmic Power",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -28343,7 +28343,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -29731,7 +29731,7 @@
           "learnedLevel": 60
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 65
         }
       ],
@@ -31070,7 +31070,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 61
         }
       ],
@@ -32772,7 +32772,7 @@
         "Attract",
         "Body Slam",
         "Bullet Seed",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Endeavor",
         "Endure",
@@ -33021,7 +33021,7 @@
         "Bulldoze",
         "Bullet Seed",
         "Darkest Lariat",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earth Power",
         "Earthquake",
@@ -33273,7 +33273,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 36
         }
       ],
@@ -33287,7 +33287,7 @@
         "Blaze Kick",
         "Bounce",
         "Burning Jealousy",
-        "Double Edge",
+        "Double-Edge",
         "Electro Ball",
         "Endure",
         "Facade",
@@ -33507,7 +33507,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         }
       ],
@@ -33522,7 +33522,7 @@
         "Bounce",
         "Bulk Up",
         "Burning Jealousy",
-        "Double Edge",
+        "Double-Edge",
         "Electro Ball",
         "Endure",
         "Facade",
@@ -33745,7 +33745,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 54
         },
         {
@@ -33766,7 +33766,7 @@
         "Bulk Up",
         "Burning Jealousy",
         "Coaching",
-        "Double Edge",
+        "Double-Edge",
         "Electro Ball",
         "Endure",
         "Facade",
@@ -34747,7 +34747,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -34982,7 +34982,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endeavor",
         "Endure",
@@ -35675,7 +35675,7 @@
         "Brave Bird",
         "Bulk Up",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Endure",
         "Facade",
@@ -37411,7 +37411,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         }
       ],
@@ -37609,7 +37609,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -38054,7 +38054,7 @@
         "Crunch",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -38336,7 +38336,7 @@
       ],
       "eggMoves": [
         "Discharge",
-        "Double Edge",
+        "Double-Edge",
         "Flame Charge",
         "Howl",
         "Sand Attack"
@@ -40851,7 +40851,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         }
       ],
@@ -40865,7 +40865,7 @@
         "Close Combat",
         "Crunch",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Endure",
         "Facade",
@@ -41075,7 +41075,7 @@
           "learnedLevel": 48
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 56
         }
       ],
@@ -41090,7 +41090,7 @@
         "Close Combat",
         "Crunch",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Endure",
         "Facade",
@@ -46377,7 +46377,7 @@
         "Brine",
         "Chilling Water",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Feather Dance",
@@ -46416,7 +46416,7 @@
       "eggMoves": [
         "Aqua Ring",
         "Belly Drum",
-        "Double Edge",
+        "Double-Edge",
         "Head Smash",
         "Icicle Crash",
         "Soak"
@@ -46617,7 +46617,7 @@
         "Brine",
         "Chilling Water",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Feather Dance",
@@ -46656,7 +46656,7 @@
       "eggMoves": [
         "Aqua Ring",
         "Belly Drum",
-        "Double Edge",
+        "Double-Edge",
         "Head Smash",
         "Icicle Crash",
         "Soak"
@@ -47375,7 +47375,7 @@
         "Charge Beam",
         "Crunch",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Eerie Impulse",
         "Electric Terrain",
         "Electro Ball",
@@ -47631,7 +47631,7 @@
         "Bulldoze",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endeavor",
@@ -47672,7 +47672,7 @@
         "Belch",
         "Curse",
         "Defense Curl",
-        "Double Edge",
+        "Double-Edge",
         "Fissure",
         "Slam",
         "Swagger",
@@ -47881,7 +47881,7 @@
         "Bulldoze",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endeavor",
@@ -49105,7 +49105,7 @@
         "Breaking Swipe",
         "Brick Break",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -49556,7 +49556,7 @@
           "learnedLevel": 61
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 66
         },
         {
@@ -49576,7 +49576,7 @@
         "Brine",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Dance",
@@ -49826,7 +49826,7 @@
           "learnedLevel": 63
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 70
         },
         {
@@ -49847,7 +49847,7 @@
         "Brine",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -50107,7 +50107,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -50165,7 +50165,7 @@
       "eggMoves": [
         "Covet",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Flail",
         "Night Slash",
         "Spite"
@@ -50377,7 +50377,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -50668,7 +50668,7 @@
         "Zen Headbutt"
       ],
       "eggMoves": [
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Horn Drill",
         "Hypnosis",
@@ -51153,7 +51153,7 @@
         "Counter",
         "Covet",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Feint",
         "Flail",
         "Night Slash",
@@ -51614,7 +51614,7 @@
         "Curse",
         "Dark Pulse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Fire Blast",
@@ -52922,7 +52922,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 36
         }
       ],
@@ -53169,7 +53169,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         }
       ],
@@ -53424,7 +53424,7 @@
           "learnedLevel": 49
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 56
         }
       ],
@@ -55547,7 +55547,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earthquake",
         "Endure",
@@ -57864,7 +57864,7 @@
         "Bulk Up",
         "Close Combat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Fire Punch",
@@ -58108,7 +58108,7 @@
         "Dark Pulse",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Endure",
         "Facade",
@@ -58373,7 +58373,7 @@
         "Coaching",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Endure",
         "Facade",
@@ -58647,7 +58647,7 @@
         "Dark Pulse",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Encore",
         "Endure",
@@ -59184,7 +59184,7 @@
         "Bulk Up",
         "Close Combat",
         "Coaching",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Endeavor",
         "Endure",
@@ -60145,7 +60145,7 @@
           "learnedLevel": 60
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 66
         },
         {
@@ -60163,7 +60163,7 @@
         "Close Combat",
         "Crunch",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Giga Impact",
@@ -60388,7 +60388,7 @@
           "learnedLevel": 60
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 66
         },
         {
@@ -60406,7 +60406,7 @@
         "Crunch",
         "Curse",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Draining Kiss",
         "Endure",
         "Facade",
@@ -61029,7 +61029,7 @@
       "tutorMoves": [
         "Avalanche",
         "Confusion",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Expanding Force",
         "Glacial Lance",
@@ -61190,7 +61190,7 @@
           "learnedLevel": 1
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 1
         },
         {
@@ -61350,7 +61350,7 @@
         "Confuse Ray",
         "Confusion",
         "Disable",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Expanding Force",
         "Growth",
@@ -61868,7 +61868,7 @@
         "Confuse Ray",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endeavor",
         "Endure",
@@ -61921,7 +61921,7 @@
         "Aerial Ace",
         "Bulldoze",
         "Calm Mind",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Eruption",
         "Fire Punch",
@@ -62395,7 +62395,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -62425,7 +62425,7 @@
         "Close Combat",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Fire Blast",
@@ -62465,7 +62465,7 @@
       ],
       "eggMoves": [
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Head Smash",
         "Morning Sun",
@@ -62663,7 +62663,7 @@
           "learnedLevel": 29
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -62683,7 +62683,7 @@
         "Close Combat",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Pulse",
         "Endure",
         "Facade",
@@ -62994,7 +62994,7 @@
         "Bullet Seed",
         "Charge",
         "Charge Beam",
-        "Double Edge",
+        "Double-Edge",
         "Electric Terrain",
         "Electro Ball",
         "Electroweb",
@@ -63277,7 +63277,7 @@
         "Charge",
         "Charge Beam",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Electric Terrain",
         "Electro Ball",
         "Electroweb",
@@ -63540,7 +63540,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         },
         {
@@ -63568,7 +63568,7 @@
         "Crunch",
         "Curse",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Giga Impact",
@@ -63849,7 +63849,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         },
         {
@@ -63876,7 +63876,7 @@
         "Crunch",
         "Curse",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Giga Impact",
@@ -65485,7 +65485,7 @@
           "learnedLevel": 30
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -65534,7 +65534,7 @@
         "Close Combat",
         "Confuse Ray",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Endure",
         "Expanding Force",
@@ -66344,7 +66344,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -66366,7 +66366,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endure",
         "Facade",
@@ -66625,7 +66625,7 @@
           "learnedLevel": 49
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -66642,7 +66642,7 @@
         "Confuse Ray",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -66918,7 +66918,7 @@
         "Bug Bite",
         "Bug Buzz",
         "Close Combat",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Endure",
         "Facade",
@@ -67152,7 +67152,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -67181,7 +67181,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earth Power",
         "Earthquake",
@@ -67442,7 +67442,7 @@
           "learnedLevel": 48
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         },
         {
@@ -67456,7 +67456,7 @@
         "Chilling Water",
         "Confuse Ray",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Facade",
         "Flip Turn",
@@ -67672,7 +67672,7 @@
           "learnedLevel": 48
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         },
         {
@@ -67686,7 +67686,7 @@
         "Chilling Water",
         "Confuse Ray",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Facade",
         "Flip Turn",
@@ -71622,7 +71622,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 35
         }
       ],
@@ -71634,7 +71634,7 @@
         "Curse",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -71896,7 +71896,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 42
         },
         {
@@ -71917,7 +71917,7 @@
         "Curse",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Endeavor",
         "Endure",
@@ -72186,7 +72186,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -72207,7 +72207,7 @@
         "Curse",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Endeavor",
         "Endure",
@@ -73329,7 +73329,7 @@
         "Bug Bite",
         "Bug Buzz",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Fling",
@@ -74226,7 +74226,7 @@
         "Coaching",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Eerie Impulse",
         "Electric Terrain",
         "Electro Ball",
@@ -74545,7 +74545,7 @@
         "Charm",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endure",
         "Facade",
@@ -74831,7 +74831,7 @@
         "Chilling Water",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endure",
         "Facade",
@@ -75096,7 +75096,7 @@
           "learnedLevel": 30
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 33
         },
         {
@@ -75121,7 +75121,7 @@
         "Crunch",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -75384,7 +75384,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 38
         },
         {
@@ -75410,7 +75410,7 @@
         "Crunch",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Draining Kiss",
         "Endeavor",
         "Endure",
@@ -76539,7 +76539,7 @@
         "Air Cutter",
         "Air Slash",
         "Brave Bird",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Endeavor",
         "Endure",
@@ -76572,7 +76572,7 @@
         "Uproar"
       ],
       "eggMoves": [
-        "Double Edge",
+        "Double-Edge",
         "Final Gambit",
         "Flatter",
         "Parting Shot"
@@ -77103,7 +77103,7 @@
         "Bulldoze",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -77392,7 +77392,7 @@
         "Bulldoze",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -79676,7 +79676,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 49
         }
       ],
@@ -79686,7 +79686,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -79959,7 +79959,7 @@
           "learnedLevel": 48
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -79974,7 +79974,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -80261,7 +80261,7 @@
         "Acrobatics",
         "Baton Pass",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endeavor",
         "Endure",
@@ -80567,7 +80567,7 @@
         "Acrobatics",
         "Baton Pass",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endeavor",
         "Endure",
@@ -83788,7 +83788,7 @@
         "Confuse Ray",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Energy Ball",
         "Expanding Force",
@@ -86747,7 +86747,7 @@
         "Body Slam",
         "Bulldoze",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Facade",
         "Flash Cannon",
@@ -87041,7 +87041,7 @@
         "Body Slam",
         "Bulldoze",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -87327,7 +87327,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 51
         },
         {
@@ -87342,7 +87342,7 @@
         "Body Slam",
         "Breaking Swipe",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -87644,7 +87644,7 @@
         "Bulldoze",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -88475,7 +88475,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         }
       ],
@@ -88485,7 +88485,7 @@
         "Confuse Ray",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -88781,7 +88781,7 @@
           "learnedLevel": 51
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 58
         }
       ],
@@ -88792,7 +88792,7 @@
         "Confuse Ray",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Endure",
         "Facade",
@@ -89384,7 +89384,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 49
         },
         {
@@ -89402,7 +89402,7 @@
         "Charm",
         "Chilling Water",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endure",
         "Facade",
@@ -89673,7 +89673,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 49
         },
         {
@@ -89691,7 +89691,7 @@
         "Charm",
         "Chilling Water",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endure",
         "Facade",
@@ -89971,7 +89971,7 @@
         "Body Slam",
         "Chilling Water",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Endeavor",
         "Endure",
@@ -90264,7 +90264,7 @@
           "learnedLevel": 55
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 60
         },
         {
@@ -90280,7 +90280,7 @@
         "Chilling Water",
         "Crunch",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endure",
         "Facade",
@@ -90799,7 +90799,7 @@
           "learnedLevel": 50
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -90815,7 +90815,7 @@
         "Close Combat",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Earthquake",
         "Endeavor",
@@ -91101,7 +91101,7 @@
         "Close Combat",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Earthquake",
         "Endeavor",
@@ -91398,7 +91398,7 @@
         "Close Combat",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Earthquake",
         "Endeavor",
@@ -91693,7 +91693,7 @@
         "Coaching",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earthquake",
         "Encore",
@@ -92035,7 +92035,7 @@
         "Chilling Water",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -92341,7 +92341,7 @@
         "Chilling Water",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -92648,7 +92648,7 @@
         "Crunch",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Endeavor",
         "Endure",
@@ -92984,7 +92984,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         },
         {
@@ -93014,7 +93014,7 @@
         "Chilling Water",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Tail",
         "Drill Run",
         "Dual Wingbeat",
@@ -93703,7 +93703,7 @@
         "Bulldoze",
         "Close Combat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endeavor",
@@ -94008,7 +94008,7 @@
         "Crunch",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Encore",
         "Endure",
@@ -94348,7 +94348,7 @@
         "Confuse Ray",
         "Crunch",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Endure",
         "Energy Ball",
@@ -94935,7 +94935,7 @@
         "Bulk Up",
         "Close Combat",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Earthquake",
         "Endure",
@@ -95529,7 +95529,7 @@
         "Body Press",
         "Body Slam",
         "Bulldoze",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Electric Terrain",
@@ -96101,7 +96101,7 @@
         "Bulldoze",
         "Charge",
         "Close Combat",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earthquake",
         "Electric Terrain",
@@ -96397,7 +96397,7 @@
         "Charge Beam",
         "Crunch",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Cheer",
         "Dragon Pulse",
         "Dragon Tail",
@@ -97000,7 +97000,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Claw",
         "Dragon Dance",
         "Dragon Tail",
@@ -97869,7 +97869,7 @@
         "Bulldoze",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -99259,7 +99259,7 @@
         "Bulldoze",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Earthquake",
         "Endure",
@@ -99845,7 +99845,7 @@
           "learnedLevel": 84
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 91
         }
       ],
@@ -99860,7 +99860,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -100534,7 +100534,7 @@
         "Close Combat",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -101177,7 +101177,7 @@
         "Breaking Swipe",
         "Chilling Water",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -101477,7 +101477,7 @@
         "Breaking Swipe",
         "Bulldoze",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -101791,7 +101791,7 @@
         "Charge",
         "Charge Beam",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Pulse",
@@ -102098,7 +102098,7 @@
         "Calm Mind",
         "Close Combat",
         "Coaching",
-        "Double Edge",
+        "Double-Edge",
         "Electric Terrain",
         "Endure",
         "Energy Ball",
@@ -102398,7 +102398,7 @@
         "Brick Break",
         "Bulldoze",
         "Close Combat",
-        "Double Edge",
+        "Double-Edge",
         "Earthquake",
         "Electric Terrain",
         "Endure",
@@ -102682,7 +102682,7 @@
         "Brick Break",
         "Bulldoze",
         "Calm Mind",
-        "Double Edge",
+        "Double-Edge",
         "Electric Terrain",
         "Endure",
         "Expanding Force",
@@ -103227,7 +103227,7 @@
         "Bug Bite",
         "Bullet Seed",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Pulse",
@@ -104085,7 +104085,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Endure",
         "Facade",
@@ -105297,7 +105297,7 @@
         "Close Combat",
         "Crunch",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Earth Power",
         "Earthquake",
@@ -105614,7 +105614,7 @@
         "Breaking Swipe",
         "Brick Break",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Cheer",
         "Dragon Claw",
@@ -105883,7 +105883,7 @@
           "learnedLevel": 60
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 70
         },
         {
@@ -105904,7 +105904,7 @@
         "Crunch",
         "Dark Pulse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Pulse",
         "Earth Power",
         "Earthquake",
@@ -106443,7 +106443,7 @@
           "learnedLevel": 21
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 27
         },
         {
@@ -106474,7 +106474,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -106751,7 +106751,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 31
         },
         {
@@ -106782,7 +106782,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -107049,7 +107049,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 31
         },
         {
@@ -107081,7 +107081,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -108020,7 +108020,7 @@
         "Cut",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Claw",
@@ -108363,7 +108363,7 @@
         "Confide",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Endure",
@@ -108688,7 +108688,7 @@
         "Confide",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Endure",
@@ -109004,7 +109004,7 @@
         "Dark Pulse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Dragon Tail",
@@ -111226,7 +111226,7 @@
           "learnedLevel": 19
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 27
         },
         {
@@ -111508,7 +111508,7 @@
           "learnedLevel": 19
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -112355,7 +112355,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -112673,7 +112673,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Tail",
         "Earthquake",
@@ -113693,7 +113693,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -114027,7 +114027,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -116223,7 +116223,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -116247,7 +116247,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -116577,7 +116577,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -116601,7 +116601,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -117019,7 +117019,7 @@
         "Confuse Ray",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endure",
@@ -117303,7 +117303,7 @@
         "Confuse Ray",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Encore",
@@ -117629,7 +117629,7 @@
           "learnedLevel": 27
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 28
         },
         {
@@ -117666,7 +117666,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -118019,7 +118019,7 @@
           "learnedLevel": 27
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 28
         },
         {
@@ -118056,7 +118056,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -118167,7 +118167,7 @@
         "Defense Curl",
         "Disable",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Slap",
         "Drain Punch",
         "Echoed Voice",
@@ -120807,7 +120807,7 @@
         "Confide",
         "Confuse Ray",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Endeavor",
@@ -121109,7 +121109,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -121421,7 +121421,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -121716,7 +121716,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -122052,7 +122052,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -122395,7 +122395,7 @@
         "Confuse Ray",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -122746,7 +122746,7 @@
         "Confuse Ray",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -123110,7 +123110,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -123479,7 +123479,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -123818,7 +123818,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -123875,7 +123875,7 @@
         "Close Combat",
         "Covet",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Fire Spin",
         "Flare Blitz",
@@ -124125,7 +124125,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Endure",
@@ -124194,7 +124194,7 @@
         "Burn Up",
         "Covet",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Pulse",
         "Ember",
         "Extreme Speed",
@@ -124429,7 +124429,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 54
         }
       ],
@@ -124444,7 +124444,7 @@
         "Confide",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Encore",
@@ -124721,7 +124721,7 @@
           "learnedLevel": 53
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 66
         }
       ],
@@ -124737,7 +124737,7 @@
         "Confide",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -125031,7 +125031,7 @@
           "learnedLevel": 57
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 66
         }
       ],
@@ -125052,7 +125052,7 @@
         "Darkest Lariat",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -125139,7 +125139,7 @@
         "Circle Throw",
         "Coaching",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Slap",
         "Dual Chop",
         "Dynamic Punch",
@@ -126350,7 +126350,7 @@
           "learnedLevel": 31
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -126708,7 +126708,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -127052,7 +127052,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -128910,7 +128910,7 @@
           "learnedLevel": 27
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 31
         },
         {
@@ -128931,7 +128931,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -129239,7 +129239,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -129257,7 +129257,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -129561,7 +129561,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -129583,7 +129583,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -129864,7 +129864,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -129929,7 +129929,7 @@
         "Ally Switch",
         "Captivate",
         "Charm",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Flame Wheel",
         "High Horsepower",
@@ -130162,7 +130162,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -132133,7 +132133,7 @@
         "Brave Bird",
         "Captivate",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -132432,7 +132432,7 @@
         "Brave Bird",
         "Captivate",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Echoed Voice",
@@ -132717,7 +132717,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -132745,7 +132745,7 @@
         "Confide",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Echoed Voice",
@@ -133044,7 +133044,7 @@
           "learnedLevel": 51
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 62
         },
         {
@@ -133069,7 +133069,7 @@
         "Confide",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Echoed Voice",
@@ -135668,7 +135668,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 45
         },
         {
@@ -136001,7 +136001,7 @@
         "Confide",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -136344,7 +136344,7 @@
         "Confuse Ray",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -137273,7 +137273,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -137557,7 +137557,7 @@
         "Charge Beam",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -138188,7 +138188,7 @@
         "Captivate",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Earthquake",
@@ -138500,7 +138500,7 @@
           "learnedLevel": 30
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 36
         },
         {
@@ -138814,7 +138814,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         }
       ],
@@ -139162,7 +139162,7 @@
         "Close Combat",
         "Coaching",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -139516,7 +139516,7 @@
         "Close Combat",
         "Coaching",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -139806,7 +139806,7 @@
           "learnedLevel": 25
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 25
         },
         {
@@ -140752,7 +140752,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -140779,7 +140779,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Drill Run",
@@ -141119,7 +141119,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -141151,7 +141151,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Dragon Tail",
@@ -141513,7 +141513,7 @@
           "learnedLevel": 35
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -141540,7 +141540,7 @@
         "Confide",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Dream Eater",
@@ -142305,7 +142305,7 @@
         "Counter",
         "Crush Claw",
         "Disable",
-        "Double Edge",
+        "Double-Edge",
         "Endeavor",
         "Focus Energy",
         "Focus Punch",
@@ -145335,7 +145335,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -145655,7 +145655,7 @@
         "Confide",
         "Confuse Ray",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -146248,7 +146248,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -146271,7 +146271,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -146778,7 +146778,7 @@
         "Crunch",
         "Dark Pulse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Dance",
@@ -147107,7 +147107,7 @@
         "Curse",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Dance",
@@ -147560,7 +147560,7 @@
           "learnedLevel": 25
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 28
         },
         {
@@ -147599,7 +147599,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -147905,7 +147905,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -147924,7 +147924,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -147990,7 +147990,7 @@
         "Copycat",
         "Covet",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Flip Turn",
         "Growl",
         "Headbutt",
@@ -148234,7 +148234,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -148252,7 +148252,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Eerie Impulse",
@@ -148319,7 +148319,7 @@
         "Charm",
         "Copycat",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Growl",
         "Headbutt",
         "Heal Bell",
@@ -148575,7 +148575,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -148595,7 +148595,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -148662,7 +148662,7 @@
         "Charm",
         "Copycat",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Ember",
         "Growl",
         "Headbutt",
@@ -148900,7 +148900,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -148920,7 +148920,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Eerie Impulse",
@@ -150809,7 +150809,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -150837,7 +150837,7 @@
         "Curse",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Encore",
@@ -151199,7 +151199,7 @@
         "Brave Bird",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -151812,7 +151812,7 @@
         "Burning Jealousy",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -153083,7 +153083,7 @@
         "Curse",
         "Dark Pulse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Dream Eater",
@@ -153513,7 +153513,7 @@
         "Dig",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -154097,7 +154097,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Encore",
@@ -154394,7 +154394,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Encore",
@@ -154690,7 +154690,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Tail",
         "Earthquake",
@@ -154963,7 +154963,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -154993,7 +154993,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -155038,7 +155038,7 @@
         "Covet",
         "Crush Claw",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Extrasensory",
         "Flame Burst",
@@ -155251,7 +155251,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 53
         },
         {
@@ -155282,7 +155282,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -155530,7 +155530,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 53
         },
         {
@@ -155565,7 +155565,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -155638,7 +155638,7 @@
       "tutorMoves": [
         "Blast Burn",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Ember",
         "Eruption",
         "Fire Pledge",
@@ -155890,7 +155890,7 @@
         "Cut",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -156215,7 +156215,7 @@
         "Cut",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -156535,7 +156535,7 @@
         "Cut",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -156830,7 +156830,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 42
         },
         {
@@ -156861,7 +156861,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -156925,7 +156925,7 @@
         "Captivate",
         "Charm",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Focus Energy",
         "Iron Tail",
         "Last Resort",
@@ -157160,7 +157160,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -157192,7 +157192,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -157832,7 +157832,7 @@
         "Confuse Ray",
         "Curse",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Dual Wingbeat",
@@ -158118,7 +158118,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 38
         }
       ],
@@ -158403,7 +158403,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -159589,7 +159589,7 @@
         "Curse",
         "Dazzling Gleam",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -159895,7 +159895,7 @@
         "Curse",
         "Dazzling Gleam",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -160460,7 +160460,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -160771,7 +160771,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Dream Eater",
@@ -161083,7 +161083,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 32
         },
         {
@@ -161432,7 +161432,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 32
         },
         {
@@ -162415,7 +162415,7 @@
         "Confuse Ray",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Eerie Impulse",
@@ -162699,7 +162699,7 @@
         "Confuse Ray",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Eerie Impulse",
@@ -162993,7 +162993,7 @@
         "Confuse Ray",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Pulse",
@@ -163600,7 +163600,7 @@
           "learnedLevel": 23
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 23
         },
         {
@@ -163633,7 +163633,7 @@
         "Dig",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Encore",
@@ -163908,7 +163908,7 @@
           "learnedLevel": 21
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 25
         },
         {
@@ -163949,7 +163949,7 @@
         "Dig",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Encore",
@@ -164247,7 +164247,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -164278,7 +164278,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -164536,7 +164536,7 @@
         "Confide",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -164607,7 +164607,7 @@
         "Bounce",
         "Bubble Beam",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Slap",
         "Earth Power",
         "Endeavor",
@@ -164863,7 +164863,7 @@
         "Charm",
         "Confide",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endure",
@@ -164913,7 +164913,7 @@
         "Aromatherapy",
         "Confusion",
         "Cotton Guard",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endure",
         "Grassy Terrain",
@@ -165170,7 +165170,7 @@
         "Charm",
         "Confide",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -165460,7 +165460,7 @@
         "Charm",
         "Confide",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -165725,7 +165725,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -165745,7 +165745,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Endeavor",
@@ -166053,7 +166053,7 @@
           "learnedLevel": 31
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -166072,7 +166072,7 @@
         "Confide",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Encore",
@@ -166337,7 +166337,7 @@
           "learnedLevel": 31
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -166361,7 +166361,7 @@
         "Curse",
         "Cut",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Encore",
@@ -166663,7 +166663,7 @@
         "Captivate",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Endure",
@@ -166707,7 +166707,7 @@
         "Uproar"
       ],
       "eggMoves": [
-        "Double Edge",
+        "Double-Edge",
         "Feint",
         "Feint Attack",
         "Leech Life",
@@ -166952,7 +166952,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -167265,7 +167265,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -167573,7 +167573,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -167592,7 +167592,7 @@
         "Cut",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Dream Eater",
@@ -167668,7 +167668,7 @@
         "Confusion",
         "Copycat",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Expanding Force",
         "Growl",
         "Headbutt",
@@ -167923,7 +167923,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -167943,7 +167943,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -168012,7 +168012,7 @@
         "Copycat",
         "Covet",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Foul Play",
         "Growl",
         "Headbutt",
@@ -168289,7 +168289,7 @@
         "Confuse Ray",
         "Dark Pulse",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Dual Wingbeat",
@@ -169629,7 +169629,7 @@
         "Confuse Ray",
         "Crunch",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Earthquake",
@@ -169951,7 +169951,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 42
         }
       ],
@@ -169965,7 +169965,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earthquake",
@@ -170020,7 +170020,7 @@
       ],
       "eggMoves": [
         "Counter",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Flail",
         "Pin Missile",
@@ -170263,7 +170263,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -170286,7 +170286,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -170595,7 +170595,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -170632,7 +170632,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Drill Run",
@@ -171000,7 +171000,7 @@
         "Dark Pulse",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Earth Power",
@@ -171075,7 +171075,7 @@
         "Baton Pass",
         "Counter",
         "Cross Poison",
-        "Double Edge",
+        "Double-Edge",
         "Feint",
         "Metal Claw",
         "Night Slash",
@@ -171346,7 +171346,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -171690,7 +171690,7 @@
         "Curse",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Encore",
@@ -171768,7 +171768,7 @@
         "Close Combat",
         "Counter",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Fake Tears",
         "Feint Attack",
         "Fire Fang",
@@ -172039,7 +172039,7 @@
         "Curse",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Encore",
@@ -172396,7 +172396,7 @@
         "Crunch",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Explosion",
@@ -172754,7 +172754,7 @@
         "Curse",
         "Cut",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -173355,7 +173355,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -173398,7 +173398,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -173462,7 +173462,7 @@
       ],
       "eggMoves": [
         "Bide",
-        "Double Edge",
+        "Double-Edge",
         "False Swipe",
         "Feint",
         "Flail",
@@ -174085,7 +174085,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -174104,7 +174104,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -174166,7 +174166,7 @@
         "Counter",
         "Cross Chop",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Fake Tears",
         "Fury Cutter",
         "Metal Claw",
@@ -174413,7 +174413,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -174444,7 +174444,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -175341,7 +175341,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         }
       ],
@@ -175357,7 +175357,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -175414,7 +175414,7 @@
         "Bite",
         "Body Slam",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Fissure",
         "Freeze Dry",
         "Icicle Crash",
@@ -175663,7 +175663,7 @@
           "learnedLevel": 52
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         }
       ],
@@ -175679,7 +175679,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -177138,7 +177138,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -177800,7 +177800,7 @@
         "Confide",
         "Crunch",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Embargo",
@@ -178135,7 +178135,7 @@
         "Confide",
         "Crunch",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Embargo",
@@ -178450,7 +178450,7 @@
         "Chilling Water",
         "Confide",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Dance",
@@ -178710,7 +178710,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 42
         }
       ],
@@ -178723,7 +178723,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -179019,7 +179019,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -179091,7 +179091,7 @@
         "Bulldoze",
         "Charm",
         "Defense Curl",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Endeavor",
         "Endure",
@@ -179330,7 +179330,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Eerie Impulse",
@@ -179632,7 +179632,7 @@
           "learnedLevel": 50
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         }
       ],
@@ -179648,7 +179648,7 @@
         "Confuse Ray",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Earth Power",
@@ -180400,7 +180400,7 @@
         "Coaching",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earthquake",
@@ -180994,7 +180994,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -181310,7 +181310,7 @@
         "Confide",
         "Confuse Ray",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -181678,7 +181678,7 @@
         "Belch",
         "Curse",
         "Dizzy Punch",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Focus Punch",
         "Hammer Arm",
@@ -181949,7 +181949,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -181978,7 +181978,7 @@
         "Confide",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Dream Eater",
@@ -182330,7 +182330,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -182637,7 +182637,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -182951,7 +182951,7 @@
         "Cut",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -183253,7 +183253,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Earth Power",
@@ -183561,7 +183561,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Earth Power",
@@ -183866,7 +183866,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -184227,7 +184227,7 @@
         "Curse",
         "Defog",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Dragon Tail",
@@ -184569,7 +184569,7 @@
         "Charge Beam",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Dual Wingbeat",
@@ -185856,7 +185856,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Claw",
@@ -186197,7 +186197,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -186515,7 +186515,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -186842,7 +186842,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Echoed Voice",
@@ -187187,7 +187187,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Echoed Voice",
@@ -187244,7 +187244,7 @@
         "Bite",
         "Counter",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Ice Ball",
         "Mirror Coat",
         "Mud Bomb",
@@ -187512,7 +187512,7 @@
         "Curse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -187842,7 +187842,7 @@
         "Darkest Lariat",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -188176,7 +188176,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Embargo",
         "Endeavor",
@@ -188492,7 +188492,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Embargo",
         "Endeavor",
@@ -188780,7 +188780,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 36
         }
       ],
@@ -189068,7 +189068,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 35
         },
         {
@@ -190398,7 +190398,7 @@
         "Chilling Water",
         "Confide",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -190699,7 +190699,7 @@
         "Confide",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Echoed Voice",
@@ -191020,7 +191020,7 @@
         "Confide",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Echoed Voice",
@@ -191343,7 +191343,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -191644,7 +191644,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Embargo",
         "Endeavor",
@@ -191994,7 +191994,7 @@
         "Dark Pulse",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Embargo",
         "Endeavor",
@@ -195955,7 +195955,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -196290,7 +196290,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -198261,7 +198261,7 @@
         "Coaching",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -198583,7 +198583,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -199141,7 +199141,7 @@
         "Confide",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -199198,7 +199198,7 @@
       ],
       "eggMoves": [
         "Block",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Explosion",
         "Head Smash",
@@ -199446,7 +199446,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -199748,7 +199748,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 39
         },
         {
@@ -199822,7 +199822,7 @@
         "Copycat",
         "Covet",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Slap",
         "Facade",
         "Fake Out",
@@ -200777,7 +200777,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -201076,7 +201076,7 @@
           "learnedLevel": 35
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -201370,7 +201370,7 @@
           "learnedLevel": 35
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 45
         },
         {
@@ -203595,7 +203595,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -203620,7 +203620,7 @@
         "Confide",
         "Confuse Ray",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -203938,7 +203938,7 @@
         "Confuse Ray",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Encore",
@@ -204856,7 +204856,7 @@
         "Captivate",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Earthquake",
@@ -205200,7 +205200,7 @@
         "Ancient Power",
         "Brine",
         "Destiny Bond",
-        "Double Edge",
+        "Double-Edge",
         "Hydro Pump",
         "Psychic Fangs",
         "Swift",
@@ -205801,7 +205801,7 @@
         "Clear Smog",
         "Curse",
         "Defense Curl",
-        "Double Edge",
+        "Double-Edge",
         "Fissure",
         "Rollout",
         "Sleep Talk",
@@ -206321,7 +206321,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -206336,7 +206336,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -206654,7 +206654,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -206721,7 +206721,7 @@
       "eggMoves": [],
       "tutorMoves": [
         "After You",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Ember",
         "Eruption",
@@ -206972,7 +206972,7 @@
         "Captivate",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -207904,7 +207904,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -208879,7 +208879,7 @@
         "Crunch",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -210201,7 +210201,7 @@
         "Confide",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -210531,7 +210531,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Embargo",
         "Endeavor",
@@ -210890,7 +210890,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Tail",
         "Earthquake",
@@ -211844,7 +211844,7 @@
         "Chilling Water",
         "Confide",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Earth Power",
@@ -212144,7 +212144,7 @@
         "Confide",
         "Curse",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Earth Power",
@@ -212445,7 +212445,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Endeavor",
@@ -212503,7 +212503,7 @@
         "Aqua Jet",
         "Body Slam",
         "Chip Away",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Dance",
         "Endeavor",
         "Knock Off",
@@ -212759,7 +212759,7 @@
         "Dark Pulse",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Endeavor",
@@ -214739,7 +214739,7 @@
         "Confide",
         "Confuse Ray",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Endure",
@@ -215030,7 +215030,7 @@
         "Confuse Ray",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Dance",
@@ -217234,7 +217234,7 @@
         "Curse",
         "Cut",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Dance",
         "Dragon Pulse",
@@ -217531,7 +217531,7 @@
           "learnedLevel": 27
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 33
         },
         {
@@ -217570,7 +217570,7 @@
         "Curse",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Dream Eater",
@@ -217968,7 +217968,7 @@
         "Baton Pass",
         "Bite",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Feint",
         "Feint Attack",
         "Hex",
@@ -220593,7 +220593,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -221170,7 +221170,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 49
         },
         {
@@ -221187,7 +221187,7 @@
         "Confide",
         "Crunch",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -221449,7 +221449,7 @@
           "learnedLevel": 49
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 56
         },
         {
@@ -221466,7 +221466,7 @@
         "Confide",
         "Crunch",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -221726,7 +221726,7 @@
           "learnedLevel": 49
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 63
         },
         {
@@ -221752,7 +221752,7 @@
         "Crunch",
         "Cut",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -221824,7 +221824,7 @@
         "Aqua Tail",
         "Bite",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Draco Meteor",
         "Dragon Breath",
         "Dragon Pulse",
@@ -222217,7 +222217,7 @@
         "Confide",
         "Cosmic Power",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -222528,7 +222528,7 @@
         "Confide",
         "Cosmic Power",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -222837,7 +222837,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -223423,7 +223423,7 @@
         "Charge Beam",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -223757,7 +223757,7 @@
         "Defog",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -224118,7 +224118,7 @@
         "Cut",
         "Defog",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -224418,7 +224418,7 @@
           "learnedLevel": 50
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 65
         }
       ],
@@ -224433,7 +224433,7 @@
         "Chilling Water",
         "Confide",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -224710,7 +224710,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Pulse",
@@ -225027,7 +225027,7 @@
         "Cosmic Power",
         "Crunch",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -225320,7 +225320,7 @@
           "learnedLevel": 35
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -225362,7 +225362,7 @@
         "Confuse Ray",
         "Cosmic Power",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Dream Eater",
@@ -226992,7 +226992,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -227011,7 +227011,7 @@
         "Crunch",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Endure",
@@ -227066,7 +227066,7 @@
       "eggMoves": [
         "Amnesia",
         "Body Slam",
-        "Double Edge",
+        "Double-Edge",
         "Earth Power",
         "Grassy Terrain",
         "Growth",
@@ -227302,7 +227302,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -227325,7 +227325,7 @@
         "Crunch",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Endure",
@@ -227598,7 +227598,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -227634,7 +227634,7 @@
         "Crunch",
         "Curse",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -227935,7 +227935,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -227951,7 +227951,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Encore",
         "Endeavor",
@@ -228268,7 +228268,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -228297,7 +228297,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Encore",
@@ -228615,7 +228615,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -228654,7 +228654,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -228997,7 +228997,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -229322,7 +229322,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -229350,7 +229350,7 @@
         "Dig",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -229639,7 +229639,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -229680,7 +229680,7 @@
         "Dig",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Earthquake",
@@ -229967,7 +229967,7 @@
           "learnedLevel": 25
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 29
         },
         {
@@ -230002,7 +230002,7 @@
         "Captivate",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Echoed Voice",
@@ -230043,7 +230043,7 @@
       "eggMoves": [
         "Astonish",
         "Detect",
-        "Double Edge",
+        "Double-Edge",
         "Feather Dance",
         "Foresight",
         "Fury Attack",
@@ -230257,7 +230257,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 29
         },
         {
@@ -230292,7 +230292,7 @@
         "Captivate",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Echoed Voice",
@@ -230537,7 +230537,7 @@
           "learnedLevel": 28
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 29
         },
         {
@@ -230573,7 +230573,7 @@
         "Close Combat",
         "Confide",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Echoed Voice",
@@ -230837,7 +230837,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -230895,7 +230895,7 @@
       "eggMoves": [
         "Aqua Tail",
         "Defense Curl",
-        "Double Edge",
+        "Double-Edge",
         "Endure",
         "Fury Swipes",
         "Mud Sport",
@@ -231141,7 +231141,7 @@
           "learnedLevel": 38
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -231938,7 +231938,7 @@
         "Confide",
         "Confuse Ray",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -232235,7 +232235,7 @@
         "Confide",
         "Confuse Ray",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -232523,7 +232523,7 @@
         "Confide",
         "Confuse Ray",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -233401,7 +233401,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -233423,7 +233423,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Pulse",
@@ -233486,7 +233486,7 @@
       "eggMoves": [
         "Crunch",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Hammer Arm",
         "Iron Head",
         "Iron Tail",
@@ -233737,7 +233737,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -233764,7 +233764,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Cheer",
         "Dragon Claw",
@@ -234063,7 +234063,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -234076,7 +234076,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -234138,7 +234138,7 @@
         "Body Slam",
         "Counter",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Fissure",
         "Focus Energy",
         "Guard Split",
@@ -234361,7 +234361,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         },
         {
@@ -234384,7 +234384,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -237179,7 +237179,7 @@
         "Crunch",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -237466,7 +237466,7 @@
           "learnedLevel": 35
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -237742,7 +237742,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -238604,7 +238604,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -238624,7 +238624,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Endeavor",
@@ -239642,7 +239642,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -240001,7 +240001,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -240676,7 +240676,7 @@
         "Confuse Ray",
         "Dark Pulse",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Dual Wingbeat",
@@ -240983,7 +240983,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -241289,7 +241289,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -241572,7 +241572,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -241585,7 +241585,7 @@
         "Confide",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Echoed Voice",
@@ -241890,7 +241890,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -241906,7 +241906,7 @@
         "Dark Pulse",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Explosion",
@@ -241971,7 +241971,7 @@
       "eggMoves": [
         "Astonish",
         "Crunch",
-        "Double Edge",
+        "Double-Edge",
         "Flame Burst",
         "Foul Play",
         "Haze",
@@ -242215,7 +242215,7 @@
           "learnedLevel": 43
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -242236,7 +242236,7 @@
         "Dark Pulse",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -243185,7 +243185,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -243203,7 +243203,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -243836,7 +243836,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -244752,7 +244752,7 @@
           "learnedLevel": 31
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -244773,7 +244773,7 @@
         "Confide",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -244833,7 +244833,7 @@
       ],
       "eggMoves": [
         "Body Slam",
-        "Double Edge",
+        "Double-Edge",
         "Dragon Breath",
         "Iron Head",
         "Iron Tail",
@@ -245051,7 +245051,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -245078,7 +245078,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -245351,7 +245351,7 @@
           "learnedLevel": 33
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -245380,7 +245380,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -245701,7 +245701,7 @@
           "learnedLevel": 44
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -245731,7 +245731,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Encore",
@@ -245808,7 +245808,7 @@
         "Charm",
         "Counter",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Fissure",
         "Lick",
         "Natural Gift",
@@ -246781,7 +246781,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 44
         },
         {
@@ -246804,7 +246804,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -247073,7 +247073,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -247096,7 +247096,7 @@
         "Crunch",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -249613,7 +249613,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 47
         }
       ],
@@ -249904,7 +249904,7 @@
         "Chilling Water",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Energy Ball",
@@ -249956,7 +249956,7 @@
       "eggMoves": [
         "Avalanche",
         "Bullet Seed",
-        "Double Edge",
+        "Double-Edge",
         "Growth",
         "Leech Seed",
         "Magical Leaf",
@@ -250202,7 +250202,7 @@
         "Chilling Water",
         "Confide",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -250890,7 +250890,7 @@
         "Charge Beam",
         "Confide",
         "Confuse Ray",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -251159,7 +251159,7 @@
           "learnedLevel": 24
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 25
         },
         {
@@ -251522,7 +251522,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -251558,7 +251558,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Dragon Tail",
@@ -252233,7 +252233,7 @@
         "Confide",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Eerie Impulse",
@@ -252558,7 +252558,7 @@
         "Confide",
         "Confuse Ray",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -252935,7 +252935,7 @@
         "Charm",
         "Covet",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Drain Punch",
         "Dual Wingbeat",
         "Endeavor",
@@ -253221,7 +253221,7 @@
         "Confide",
         "Crunch",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Dual Wingbeat",
@@ -253523,7 +253523,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -253544,7 +253544,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -253609,7 +253609,7 @@
         "Charm",
         "Copycat",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Fury Cutter",
         "Giga Drain",
         "Grassy Glide",
@@ -253867,7 +253867,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -253890,7 +253890,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endure",
@@ -253950,7 +253950,7 @@
         "Charm",
         "Copycat",
         "Covet",
-        "Double Edge",
+        "Double-Edge",
         "Growl",
         "Headbutt",
         "Heal Bell",
@@ -254226,7 +254226,7 @@
         "Dark Pulse",
         "Defog",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Earth Power",
@@ -254555,7 +254555,7 @@
           "learnedLevel": 52
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 52
         },
         {
@@ -254576,7 +254576,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -254865,7 +254865,7 @@
           "learnedLevel": 45
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -254890,7 +254890,7 @@
         "Charge Beam",
         "Confide",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dream Eater",
         "Eerie Impulse",
@@ -255627,7 +255627,7 @@
         "Confide",
         "Curse",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -258630,7 +258630,7 @@
         "Confide",
         "Confuse Ray",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -258949,7 +258949,7 @@
         "Charge Beam",
         "Confide",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Draining Kiss",
@@ -260222,7 +260222,7 @@
         "Confide",
         "Confuse Ray",
         "Darkest Lariat",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -262374,7 +262374,7 @@
         "Confide",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Endeavor",
@@ -262642,7 +262642,7 @@
         "Confide",
         "Dazzling Gleam",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Endeavor",
@@ -262955,7 +262955,7 @@
         "Dazzling Gleam",
         "Defog",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Claw",
@@ -263311,7 +263311,7 @@
           "learnedLevel": 63
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 65
         },
         {
@@ -263636,7 +263636,7 @@
         "Calm Mind",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Energy Ball",
@@ -263923,7 +263923,7 @@
         "Calm Mind",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Energy Ball",
@@ -264200,7 +264200,7 @@
         "Calm Mind",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Pulse",
         "Dragon Tail",
@@ -264485,7 +264485,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -264780,7 +264780,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Echoed Voice",
@@ -265085,7 +265085,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -271213,7 +271213,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -271254,7 +271254,7 @@
         "Wild Charge"
       ],
       "eggMoves": [
-        "Double Edge",
+        "Double-Edge",
         "Double Kick",
         "Endure",
         "Feint",
@@ -271481,7 +271481,7 @@
         "Charge",
         "Charge Beam",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Eerie Impulse",
         "Electric Terrain",
@@ -273112,7 +273112,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -273399,7 +273399,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drill Run",
         "Earth Power",
@@ -273683,7 +273683,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         },
         {
@@ -274030,7 +274030,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Endure",
@@ -274332,7 +274332,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Endure",
@@ -274622,7 +274622,7 @@
         "Confide",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earthquake",
@@ -277028,7 +277028,7 @@
           "learnedLevel": 40
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         }
       ],
@@ -277294,7 +277294,7 @@
           "learnedLevel": 46
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         }
       ],
@@ -277551,7 +277551,7 @@
           "learnedLevel": 50
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 55
         },
         {
@@ -279017,7 +279017,7 @@
           "learnedLevel": 23
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 26
         },
         {
@@ -279049,7 +279049,7 @@
         "Crunch",
         "Cut",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -279340,7 +279340,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -279400,7 +279400,7 @@
         "Aqua Tail",
         "Beat Up",
         "Counter",
-        "Double Edge",
+        "Double-Edge",
         "Fire Fang",
         "Focus Energy",
         "Me First",
@@ -279658,7 +279658,7 @@
         "Cut",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Tail",
@@ -279986,7 +279986,7 @@
         "Dark Pulse",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Pulse",
@@ -282088,7 +282088,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -282437,7 +282437,7 @@
         "Curse",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Dragon Dance",
@@ -286336,7 +286336,7 @@
         "Confide",
         "Dazzling Gleam",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Encore",
@@ -288533,7 +288533,7 @@
         "Confide",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -288810,7 +288810,7 @@
         "Confide",
         "Disarming Voice",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -289841,7 +289841,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 37
         },
         {
@@ -289863,7 +289863,7 @@
         "Charm",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -290124,7 +290124,7 @@
           "learnedLevel": 36
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 44
         },
         {
@@ -290148,7 +290148,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -290695,7 +290695,7 @@
           "learnedLevel": 37
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 48
         }
       ],
@@ -291017,7 +291017,7 @@
       "eggMoves": [],
       "tutorMoves": [
         "Bug Bite",
-        "Double Edge",
+        "Double-Edge",
         "Drill Run",
         "Endure",
         "Fell Stinger",
@@ -296798,7 +296798,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -297107,7 +297107,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -297410,7 +297410,7 @@
         "Crunch",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -298037,7 +298037,7 @@
         "Cut",
         "Dig",
         "Dive",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Echoed Voice",
@@ -298656,7 +298656,7 @@
       ],
       "eggMoves": [
         "Baton Pass",
-        "Double Edge",
+        "Double-Edge",
         "Encore",
         "Endure",
         "Feint",
@@ -299783,7 +299783,7 @@
         "Coaching",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Endure",
@@ -300410,7 +300410,7 @@
         "Confuse Ray",
         "Curse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -300736,7 +300736,7 @@
         "Curse",
         "Darkest Lariat",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Drain Punch",
         "Earth Power",
@@ -301999,7 +301999,7 @@
           "learnedLevel": 32
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 34
         },
         {
@@ -302041,7 +302041,7 @@
         "Close Combat",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -302324,7 +302324,7 @@
         "Close Combat",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -302620,7 +302620,7 @@
         "Confide",
         "Cut",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Embargo",
@@ -302932,7 +302932,7 @@
         "Confide",
         "Cut",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Embargo",
@@ -304687,7 +304687,7 @@
           "learnedLevel": 42
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 50
         },
         {
@@ -304712,7 +304712,7 @@
         "Bug Buzz",
         "Calm Mind",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -305000,7 +305000,7 @@
         "Bug Buzz",
         "Calm Mind",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -305060,7 +305060,7 @@
         "Bug Bite",
         "Bug Buzz",
         "Defog",
-        "Double Edge",
+        "Double-Edge",
         "Dual Wingbeat",
         "Ember",
         "Fiery Dance",
@@ -305290,7 +305290,7 @@
         "Coaching",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -305573,7 +305573,7 @@
         "Coaching",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Earthquake",
@@ -305854,7 +305854,7 @@
         "Coaching",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Energy Ball",
@@ -307407,7 +307407,7 @@
         "Confide",
         "Crunch",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -307709,7 +307709,7 @@
         "Confide",
         "Crunch",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",
@@ -309536,7 +309536,7 @@
         "Coaching",
         "Confide",
         "Cut",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -311389,7 +311389,7 @@
         "Curse",
         "Cut",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dragon Claw",
         "Drain Punch",
@@ -314105,7 +314105,7 @@
         "Attract",
         "Brave Bird",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -314378,7 +314378,7 @@
         "Attract",
         "Brave Bird",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -314658,7 +314658,7 @@
         "Brave Bird",
         "Bulk Up",
         "Confide",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Dual Wingbeat",
         "Endure",
@@ -315502,7 +315502,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -315779,7 +315779,7 @@
         "Crunch",
         "Dark Pulse",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Echoed Voice",
         "Endeavor",
@@ -316849,7 +316849,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 38
         },
         {
@@ -316874,7 +316874,7 @@
         "Bullet Seed",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endeavor",
         "Endure",
@@ -317122,7 +317122,7 @@
           "learnedLevel": 34
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 40
         },
         {
@@ -317152,7 +317152,7 @@
         "Bullet Seed",
         "Confide",
         "Dig",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endeavor",
@@ -325162,7 +325162,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 43
         },
         {
@@ -325183,7 +325183,7 @@
         "Dazzling Gleam",
         "Dig",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draining Kiss",
         "Echoed Voice",
@@ -325243,7 +325243,7 @@
         "Copycat",
         "Covet",
         "Disarming Voice",
-        "Double Edge",
+        "Double-Edge",
         "Fairy Wind",
         "Growl",
         "Heal Bell",
@@ -326127,7 +326127,7 @@
         "Charm",
         "Confide",
         "Dazzling Gleam",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earth Power",
         "Endeavor",
@@ -328692,7 +328692,7 @@
           "learnedLevel": 39
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 42
         }
       ],
@@ -328706,7 +328706,7 @@
         "Confide",
         "Crunch",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Endure",
         "Facade",
@@ -328970,7 +328970,7 @@
           "learnedLevel": 41
         },
         {
-          "moveName": "Double Edge",
+          "moveName": "Double-Edge",
           "learnedLevel": 46
         },
         {
@@ -328993,7 +328993,7 @@
         "Confide",
         "Crunch",
         "Curse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Earthquake",
         "Endure",
@@ -329594,7 +329594,7 @@
         "Confide",
         "Cut",
         "Dark Pulse",
-        "Double Edge",
+        "Double-Edge",
         "Double Team",
         "Draco Meteor",
         "Dragon Cheer",

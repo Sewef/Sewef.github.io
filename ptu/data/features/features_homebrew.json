@@ -3471,7 +3471,7 @@
               {
                 "Name": "Tasty Snacks",
                 "Prerequisites": "[[feature:Chef]]",
-                "Cost": "$100",
+                "Cost": "₽100",
                 "Effect": "You create a [[feature:Salty Surprise]], [[feature:Spicy Wrap]], [[feature:Sour Candy]], [[feature:Dry Wafer]], [[feature:Bitter Treat]], or [[feature:Sweet Confection]].",
                 "recipes": [
                   {
@@ -3514,7 +3514,7 @@
               {
                 "Name": "Bait Mixer",
                 "Prerequisites": "[[feature:Culinary Appreciation]]",
-                "Cost": "$150 or Honey.",
+                "Cost": "₽150 or Honey.",
                 "Effect": "You may create [[item:Bait]]. For $50 more, you may create [[item:Bait]] as Super Bait or Vile Bait instead. Super Bait works like regular [[item:Bait]], but you may add your Intuition Rank to 1d20 Rolls made to attract Pokémon. Vile Bait works like regular [[item:Bait]], but Pokémon that eat it are [[status:Poisoned]]."
               },
               {
@@ -3526,7 +3526,7 @@
               {
                 "Name": "Leftovers",
                 "Prerequisites": "[[feature:Complex Aftertaste]]",
-                "Cost": "$100",
+                "Cost": "₽100",
                 "Effect": "You create [[item:Leftovers]]."
               },
               {
@@ -3694,7 +3694,7 @@
                   {
                     "Name": "Basic Fashion",
                     "Prerequisites": "[[feature:Fashionista]]",
-                    "Cost": "$500",
+                    "Cost": "₽500",
                     "Effect": "ou create one of the [[feature:Basic Fashion]] Items below for which you have the chosen Fashionista Skill. These are Accessory Slot Items.",
                     "recipes": [
                       {
@@ -3838,13 +3838,13 @@
               {
                 "Name": "Restorative Science",
                 "Prerequisites": "[[feature:Apothecary]]",
-                "Cost": "$100",
+                "Cost": "₽100",
                 "Effect": "You create an [[item:Antidote]], [[item:Paralyze Heal]], Awakening, [[item:Burn Heal]], [[item:Ice Heal]], or [[item:Potion]]."
               },
               {
                 "Name": "Super Cures",
                 "Prerequisites": "[[feature:Patch Cure]]",
-                "Cost": "$200",
+                "Cost": "₽200",
                 "Effect": "You can create Revives and Super Potions."
               },
               {
@@ -3855,7 +3855,7 @@
               {
                 "Name": "Performance Enhancers",
                 "Prerequisites": "[[feature:Medicinal Blend]]",
-                "Cost": "$4900",
+                "Cost": "₽4900",
                 "Effect": "You create a [[item:PP Up]] or [[item:Heart Booster]]. If you have a [[item:Heart Scale]], you may destroy the [[item:Heart Scale]] to create a [[item:Heart Booster]] without paying the monetary cost."
               }
             ]
@@ -3996,25 +3996,25 @@
               {
                 "Name": "Enhancers",
                 "Prerequisites": "[[feature:Chemist]]",
-                "Cost": "$100",
+                "Cost": "₽100",
                 "Effect": "You can create any X-Item, [[item:Dire Hit]], or [[item:Guard Spec]]."
               },
               {
                 "Name": "Pester Balls: Disorient",
                 "Prerequisites": "[[feature:Chemist]]",
-                "Cost": "$50",
+                "Cost": "₽50",
                 "Effect": "You create [[item:Pester Balls]] that can inflict [[status:Rage]] or [[status:Confusion]]."
               },
               {
                 "Name": "Pester Balls: Pain",
                 "Prerequisites": "[[feature:Chemical Warfare]]",
-                "Cost": "$50",
+                "Cost": "₽50",
                 "Effect": "You create [[item:Pester Balls]] that can inflict Burn or Poison."
               },
               {
                 "Name": "Pester Balls: Shut Down",
                 "Prerequisites": "[[feature:Caustic Chemistry]]",
-                "Cost": "$50",
+                "Cost": "₽50",
                 "Effect": "You create [[item:Pester Balls]] that can inflict [[status:Paralysis]] or [[status:Sleep]]."
               }
             ]

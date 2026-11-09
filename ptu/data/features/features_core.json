@@ -21,7 +21,7 @@
             "Prerequisites": "Adept Intimidate",
             "Frequency": "At-Will — Standard Action",
             "Target": "Your own Pokémon",
-            "Effect": "You hit your Pokémon, and they lose 1/6th of their Max Hit Points and are cured of Sleep. Raise any two of their Stats by +1 CS each, and you may add half of your Intimidate Rank to any Skill Checks made this round to make this Pokémon obey orders. Using Press on a Pokémon may make them dislike you.",
+            "Effect": "You hit your Pokémon, and they lose 1/6th of their Max Hit Points and are cured of [[status:Sleep]]. Raise any two of their Stats by +1 CS each, and you may add half of your Intimidate Rank to any Skill Checks made this round to make this Pokémon obey orders. Using Press on a Pokémon may make them dislike you.",
             "Source": "Core",
             "Category": "Pokémon Raising and Battling"
           },
@@ -114,7 +114,7 @@
                 "Tags": "[Orders][Stratagem]",
                 "Frequency": "Bind 2 AP – Standard Action",
                 "Target": "Your Pokémon",
-                "Effect": "While this Feature is Bound, increase the damage rolls of the target's damaging melee attacks by +8, and these attacks Trip targets on Accuracy Rolls of 18+. When the target of Reckless Advance hits with a damaging melee attack, they become Vulnerable for one full round.",
+                "Effect": "While this Feature is Bound, increase the damage rolls of the target's damaging melee attacks by +8, and these attacks [[status:Trip]] targets on Accuracy Rolls of 18+. When the target of Reckless Advance hits with a damaging melee attack, they become [[status:Vulnerable]] for one full round.",
                 "Source": "Core"
               },
               {
@@ -226,7 +226,7 @@
                 "Tags": "[Orders]",
                 "Frequency": "Scene x2 – Standard Action",
                 "Target": "Your Pokémon",
-                "Effect": "The next damaging attack the target performs before the end of your next turn automatically hits and ignores Defensive Abilities but deals damage as if it were resisted one step further than normal. You may still roll to trigger any Effect Ranges or Critical Hits. All targets of the attack may not activate any Blessings in response, and the attack may not be Intercepted or avoided in any way (ex: with Dodge, Shield Moves, etc).",
+                "Effect": "The next damaging attack the target performs before the end of your next turn automatically hits and ignores Defensive Abilities but deals damage as if it were resisted one step further than normal. You may still roll to trigger any Effect Ranges or Critical Hits. All targets of the attack may not activate any Blessings in response, and the attack may not be Intercepted or avoided in any way (ex: with [[ability:Dodge]], [[keyword:Shield]] Moves, etc).",
                 "Source": "Core"
               }
             ],
@@ -257,7 +257,7 @@
             "Prerequisites": "Adept Acrobatics",
             "Frequency": "Scene x2 — Shift Action, Interrupt",
             "Trigger": "You are targeted by a Ranged 1-Target Attack, or are in a Cone, Burst, Blast, or Line.",
-            "Effect": "You may immediately Shift 1 Meter, and then become Tripped. This Feature cannot be used if you are Stuck, Grappled, or otherwise impaired from Shifting. This Feature causes you to dodge Ranged attacks aimed at you, and may let you avoid Cones, Bursts, Blasts, or Lines if the shift removes you from the area of effect.",
+            "Effect": "You may immediately Shift 1 Meter, and then become [[status:Tripped]]. This Feature cannot be used if you are [[status:Stuck]], [[status:Grappled]], or otherwise impaired from Shifting. This Feature causes you to dodge Ranged attacks aimed at you, and may let you avoid Cones, Bursts, Blasts, or Lines if the shift removes you from the area of effect.",
             "Source": "Core",
             "Category": "Combat"
           },
@@ -311,10 +311,10 @@
           },
           {
             "Name": "First Aid Expertise",
-            "Prerequisites": "Medic Training, Expert Medicine Education",
+            "Prerequisites": "[[edge:Medic Training]], Expert Medicine Education",
             "Frequency": "Daily x3 — Extended Action",
             "Target": "Pokémon or Trainers",
-            "Effect": "The target may remove one Injury, has all Hit Points restored, and is cured of all Status Afflictions. You may use First Aid Expertise only once per day per target. First Aid Expertise requires access to a First Aid Kit.",
+            "Effect": "The target may remove one Injury, has all Hit Points restored, and is cured of all Status Afflictions. You may use First Aid Expertise only once per day per target. First Aid Expertise requires access to a [[item:First Aid Kit]].",
             "Source": "Core",
             "Category": "Other"
           },
@@ -330,7 +330,7 @@
             "Name": "Poké Ball Crafter",
             "Prerequisites": "Basic Balls, Poké Ball Repair, Expert Technology",
             "Frequency": "Static",
-            "Effect": "You may craft Dusk, Dive, Heal, Luxury, Net, Nest, Quick, Repeat, or Timer Balls for $700. Requires access to a Poké Ball Tool Box.",
+            "Effect": "You may craft [[item:Dusk Ball]](Dusk), [[item:Dive Ball]](Dive), [[item:Heal Ball]](Heal), [[item:Luxury Ball]](Luxury), [[item:Net Ball]](Net), [[item:Nest Ball]](Nest), [[item:Quick Ball]](Quick), [[item:Repeat Ball]](Repeat), or [[item:Timer Ball]](Timer) Balls for $700. Requires access to a [[item:Poké Ball Tool Box]].",
             "Source": "Core",
             "Category": "Other"
           },
@@ -364,7 +364,7 @@
           {
             "Name": "Arcane Training",
             "Tags": "[+Special Attack][Weapon]",
-            "Prerequisites": "Novice Occult Education, Elemental Connection or Mystic Senses",
+            "Prerequisites": "Novice Occult Education, [[edge:Elemental Connection]] or [[edge:Mystic Senses]]",
             "Frequency": "Static",
             "Effect": " You may use Arcane Weapons. Attacks made with your Arcane Weapons share the Type of your Elemental Connection. If you have Mystic Senses, these Attacks deal Normal Type Damage. Arcane Weapon users that qualified through Mystic Senses or Elemental Connection (Normal) gain a +5 Bonus to Damage Rolls and a +2 Bonus to Effect Range when using Arcane Weapon Attacks. When wielding an Arcane Weapon, you may resist Disarm Maneuvers with your Occult Education.",
             "Source": "Game of Throhs",
@@ -376,14 +376,14 @@
             "Rank 1 Prerequisites": "Novice Focus, Novice Athletics",
             "Rank 2 Prerequisites": "Adept Focus, Adept Athletics",
             "Frequency": "Static",
-            "Rank 1 Effect": " You may create Simple Weapons for $1000, Light Shields for $1,500, and Light Armor for $4,000.",
-            "Rank 2 Effect": " You may create Fine Weapons for $2,000, Helmets for $1,125, Heavy Shields for $2,250 and Heavy Armor for $5,000.",
+            "Rank 1 Effect": "You may create [[item:Simple Weapons]] for $1000, [[item:Light Shields]] for $1,500, and [[item:Light Armor]] for $4,000.",
+            "Rank 2 Effect": "You may create [[item:Fine Weapons]] for $2,000, [[item:Helmets]] for $1,125, [[item:Heavy Shields]] for $2,250 and [[item:Heavy Armor]] for $5,000.",
             "Source": "Game of Throhs",
             "Category": "Uncategorized"
           },
           {
             "Name": "Type Sync",
-            "Prerequisites": "Elemental Connection; a Type-Linked Class; Adept Medicine, Occult, or Tech Education",
+            "Prerequisites": "[[edge:Elemental Connection]]; a Type-Linked Class; Adept Medicine, Occult, or Tech Education",
             "Frequency": "Special — Extended Action",
             "Target": "Your Pokémon",
             "Effect": "The Target gains the Type of your Elemental Connection as an additional Type, or has one of their Types replaced by that Type. See the Type Changes section (page 436) for more information and suggestions. A Pokémon may be targeted by Type Sync only once. This Feature may be performed One Time for each Rank above Untrained you have of your highest of Medicine, Occult, or Tech Education, up to a maximum of 4 times at Master Rank.",
@@ -425,35 +425,35 @@
           },
           {
             "Name": "Perseverance",
-            "Prerequisites": "Ace Trainer",
+            "Prerequisites": "[[feature:Ace Trainer]]",
             "Frequency": "1 AP — Free Action",
             "Trigger": "Your Pokémon gains an Injury",
             "Effect": "The target instead does not gain an Injury. Perseverance may activate only once per Scene per target."
           },
           {
             "Name": "Elite Trainer",
-            "Prerequisites": "Ace Trainer",
+            "Prerequisites": "[[feature:Ace Trainer]]",
             "Frequency": "Static",
-            "Effect": "Choose Agility Training, Brutal Training, Focused Training, or Inspired Training. You gain the chosen Feature, even if you do not meet the prerequisites. When training, you may apply up to two different [Training] Features on each of your Pokémon. If you already have all of these Features, instead pick another Feature for which you qualify."
+            "Effect": "Choose [[feature:Agility Training]], [[feature:Brutal Training]], [[feature:Focused Training]], or [[feature:Inspired Training]]. You gain the chosen Feature, even if you do not meet the prerequisites. When training, you may apply up to two different [Training] Features on each of your Pokémon. If you already have all of these Features, instead pick another Feature for which you qualify."
           },
           {
             "Name": "Critical Moment",
             "Tags": "[Orders]",
-            "Prerequisites": "Elite Trainer, Adept Command",
+            "Prerequisites": "[[feature:Elite Trainer]], Adept Command",
             "Frequency": "Scene x2 — Standard Action",
             "Target": "Your Pokemon with [Training] Features applied",
             "Effect": "The bonuses from your Pokemon's [Training] are tripled until the end of your next turn."
           },
           {
             "Name": "Top Percentage",
-            "Prerequisites": "Ace Trainer, Expert Command",
+            "Prerequisites": "[[feature:Ace Trainer]], Expert Command",
             "Frequency": "At-Will — Free Action",
             "Trigger": "Your Pokémon levels up to a Level evenly divisible by 5",
             "Effect": "Your Pokémon gains an extra Tutor Point. Top Percentage may be used on a single Pokémon a maximum of 4 times. Once a Pokémon has gained 4 Tutor Points in this way, increase each of that Pokémon's Base Stats by +1."
           },
           {
             "Name": "Signature Technique",
-            "Prerequisites": "Elite Trainer, Expert Command",
+            "Prerequisites": "[[feature:Elite Trainer]], Expert Command",
             "Frequency": "At-Will — Extended Action",
             "Trigger": "Your Pokémon with at least 2 Tutor Points remaining",
             "Effect": "The target loses 2 Tutor Points. Choose one Move on the Target's Move List. That Move becomes the target's Signature Technique, and you may apply one of the modifications on the next page to the Move. The Move being modified must fit the category of the modification, and you must have the associated Training Feature to apply a modification. A Pokémon may only have one Signature Technique at a time. If you choose to teach a Pokémon a different Signature Technique, the old one is lost, and 1 Tutor Point is refunded. 1 Tutor Point is also refunded if the Pokémon ever forgets a Signature Technique Move."
@@ -462,7 +462,7 @@
             "Name": "Champ in the Making",
             "Prerequisites": "Four Ace Trainer Feats, Master Command",
             "Frequency": "Drain 1 AP — Free Action",
-            "Trigger": "You use Ace Trainer to give Pokémon Trained Stats",
+            "Trigger": "You use [[feature:Ace Trainer]] to give Pokémon Trained Stats",
             "Effect": "Choose two Trained Stats for each Pokémon instead of one. A Pokémon may only have two Trained Stats this way."
           },
           {
@@ -470,27 +470,27 @@
             "techniques": [
               {
                 "Name": "Cone, Line, Burst, and Blast Moves",
-                "Scattershot – Agility Training": "Instead of the Move's normal range, it has a range of 4m, 3 Targets.",
-                "Shock and Awe – Inspired Training": "Foes targeted by the Move take a -2 penalty to Save Checks and a -1 Penalty to Evasion until the end of the user's next turn.",
-                "Vicious Storm – Brutal Training": "The Move gains the Smite keyword. Applicable to Damaging Moves only."
+                "Scattershot – [[feature:Agility Training]]": "Instead of the Move's normal range, it has a range of 4m, 3 Targets.",
+                "Shock and Awe – [[feature:Inspired Training]]": "Foes targeted by the Move take a -2 penalty to Save Checks and a -1 Penalty to Evasion until the end of the user's next turn.",
+                "Vicious Storm – [[feature:Brutal Training]]": "The Move gains the [[keyword:Smite]] keyword. Applicable to Damaging Moves only."
               },
               {
                 "Name": "Single Target Moves",
-                "Guarding Strike – Inspired Training": "If this Move hits, the user gains +5 Damage Reduction against the target of the attack until the end of their next turn.",
-                "Unbalancing Blow – Brutal Training": "Whether the Move hits or misses, the target becomes Vulnerable until the next time they are hit by a Damaging Attack or one full round has passed, whichever comes first.",
-                "Reliable Attack – Focused Training": "If the Move misses its target, its Frequency is not spent and the user may immediately make a Struggle Attack as a Free Action. Cannot be applied to Moves with the Smite keyword."
+                "Guarding Strike – [[feature:Inspired Training]]": "If this Move hits, the user gains +5 Damage Reduction against the target of the attack until the end of their next turn.",
+                "Unbalancing Blow – [[feature:Brutal Training]]": "Whether the Move hits or misses, the target becomes [[status:Vulnerable]] until the next time they are hit by a Damaging Attack or one full round has passed, whichever comes first.",
+                "Reliable Attack – [[feature:Focused Training]]": "If the Move misses its target, its Frequency is not spent and the user may immediately make a Struggle Attack as a Free Action. Cannot be applied to Moves with the [[keyword:Smite]] keyword."
               },
               {
                 "Name": "Damaging Moves",
-                "Alternative Energy – Focused Training": "Switch the Class of the Move from Physical to Special or vice versa.",
-                "Bloodied Speed – Agility Training": "This Move may be used as Priority (Advanced) if the user has less than half of their maximum Hit Points.",
-                "Double Down – Brutal Training": "The Move gains the Double Strike keyword. Effects and Effect-Ranges may be triggered only once (but either roll may trigger the effect). This may only be applied to Moves with a Damage Base of 4 or less, and may not be applied to Moves whose Damage Base change upon certain conditions (such as Fury Cutter or Ice Ball) or moves with Special-Case Damage (such as Night Shade)."
+                "Alternative Energy – [[feature:Focused Training]]": "Switch the Class of the Move from Physical to Special or vice versa.",
+                "Bloodied Speed – [[feature:Agility Training]]": "This Move may be used as [[keyword:Priority (Advanced)]] if the user has less than half of their maximum Hit Points.",
+                "Double Down – [[feature:Brutal Training]]": "The Move gains the [[keyword:Double Strike]] keyword. Effects and Effect-Ranges may be triggered only once (but either roll may trigger the effect). This may only be applied to Moves with a Damage Base of 4 or less, and may not be applied to Moves whose Damage Base change upon certain conditions (such as [[move:Fury Cutter]] or [[move:Ice Ball]]) or moves with Special-Case Damage (such as [[move:Night Shade]])."
               },
               {
                 "Name": "Status Moves",
-                "Burst of Motivation – Inspired Training": "After this Move is Resolved, the user may increase any Stats with negative Combat Stages by up to +2 Combat Stages (but this cannot put Combat Stages above +0 CS total).",
-                "Supreme Concentration – Focused Training": "This Move may be used even if the user is Paralyzed, Flinched, Enraged, or has failed their Confusion Save Check.",
-                "Double Curse – Agility Training": "The user may target an additional foe with this Attack. This may be applied only to 1-Target Moves."
+                "Burst of Motivation – [[feature:Inspired Training]]": "After this Move is Resolved, the user may increase any Stats with negative Combat Stages by up to +2 Combat Stages (but this cannot put Combat Stages above +0 CS total).",
+                "Supreme Concentration – [[feature:Focused Training]]": "This Move may be used even if the user is [[status:Paralyzed]], [[status:Flinched]], [[status:Enraged]], or has failed their [[status:Confusion]] Save Check.",
+                "Double Curse – [[feature:Agility Training]]": "The user may target an additional foe with this Attack. This may be applied only to 1-Target Moves."
               }
             ]
           }
@@ -515,22 +515,22 @@
             "Tags": "[Class][+Speed]",
             "Prerequisites": "Acrobatics, Athletics, Stealth, or Survival at Novice; Guile, or Perception at Novice",
             "Frequency": "Static",
-            "Effect": " You gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique."
+            "Effect": "You gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique."
           },
           {
             "Name": "Advanced Capture Techniques",
             "Tags": "[Ranked 4][+Speed]",
-            "Rank 1 Prerequisites": "Capture Specialist",
-            "Rank 2 Prerequisites": "Capture Specialist, any 2 Skills at Adept Rank",
-            "Rank 3 Prerequisites": "Capture Specialist, any 2 Skills at Expert Rank",
-            "Rank 4 Prerequisites": "Capture Specialist, any 3 Skills at Expert Rank",
+            "Rank 1 Prerequisites": "[[feature:Capture Specialist]]",
+            "Rank 2 Prerequisites": "[[feature:Capture Specialist]], any 2 Skills at Adept Rank",
+            "Rank 3 Prerequisites": "[[feature:Capture Specialist]], any 2 Skills at Expert Rank",
+            "Rank 4 Prerequisites": "[[feature:Capture Specialist]], any 3 Skills at Expert Rank",
             "Frequency": "Static",
             "Effect": "At each Rank, you gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques' prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
           },
           {
             "Name": "Captured Momentum",
             "Tags": "[+Speed]",
-            "Prerequisites": "Advanced Capture Techniques Rank 2",
+            "Prerequisites": "[[feature:Advanced Capture Techniques]] Rank 2",
             "Frequency": "At-Will — Free Action",
             "Trigger": "You successfully Capture a Pokémon",
             "Effect": "Choose One Effect:\n» You or your Pokémon gain a +2 bonus to their next Accuracy Roll during this combat.\n» You subtract your highest Skill Rank out of Acrobatics, Athletics, Stealth, Survival, Guile, or Perception from your next Capture Roll during this combat.\n» You gain 1 Temporary Action Point that disappears after one full round."
@@ -538,7 +538,7 @@
           {
             "Name": "Gotta Catch 'Em All",
             "Tags": "[+Speed]",
-            "Prerequisites": "Advanced Capture Techniques Rank 3",
+            "Prerequisites": "[[feature:Advanced Capture Techniques]] Rank 3",
             "Frequency": "Static",
             "Effect": "Every time you Capture a Wild Pokémon that is a member of an evolutionary family of which you own no other Pokémon, you gain 1 Collector Stack. Whenever you make a Capture Roll, you may spend up to three Collector Stacks to gain an equal bonus to your Capture Roll, or you may spend three Collector Stacks to re-roll entirely."
           },
@@ -559,7 +559,7 @@
                 "Name": "Devitalizing Throw",
                 "Frequency": "1 AP – Free Action",
                 "Trigger": "A Pokémon escapes from a Poké Ball you threw",
-                "Effect": "Choose One Effect: The triggering target becomes Slowed; the triggering target loses one Combat Stage in a Stat of your choice; or the triggering target suffers a -3 penalty to their next Save Roll."
+                "Effect": "Choose One Effect: The triggering target becomes [[status:Slowed]]; the triggering target loses one Combat Stage in a Stat of your choice; or the triggering target suffers a -3 penalty to their next Save Roll."
               },
               {
                 "Name": "Fast Pitch",
@@ -569,12 +569,12 @@
               {
                 "Name": "Snare",
                 "Frequency": "Static",
-                "Effect": "You subtract -10 from Capture Rolls made against Pokémon drawn into an encounter by Bait, that are currently distracted by Bait, or are in a Hand Net, Lasso, Weighted Net, or Stuck because of a Glue Cannon."
+                "Effect": "You subtract -10 from Capture Rolls made against Pokémon drawn into an encounter by [[item:Bait]], that are currently distracted by [[item:Bait]], or are in a [[item:Hand Net]], [[item:Lasso]], [[item:Weighted Net]], or [[status:Stuck]] because of a [[item:Glue Cannon]]."
               },
               {
                 "Name": "Tools of the Trade",
                 "Frequency": "Static",
-                "Effect": "Add +2 to all Accuracy Rolls made with Poké Balls, Hand Nets, Lassos, Weighted Nets, Glue Cannons and Cap Cannons. Add +2 to Athletics Checks made when reeling in a Pokémon with a Fishing Rod, and add +4 to 1d20 rolls made to see if a Pokémon is attracted by Bait or a Fishing Lure."
+                "Effect": "Add +2 to all Accuracy Rolls made with Poké Balls, [[item:Hand Nets]], [[item:Lassos]], [[item:Weighted Nets]], [[item:Glue Cannons]] and [[item:Cap Cannons]]. Add +2 to Athletics Checks made when reeling in a Pokémon with a [[item:Fishing Rod]], and add +4 to 1d20 rolls made to see if a Pokémon is attracted by [[item:Bait]] or a [[item:Fishing Lure]]."
               },
               {
                 "Name": "Catch Combo",
@@ -595,7 +595,7 @@
                 "Prerequisites": "3 of Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills at Expert Rank",
                 "Frequency": "2 AP – Free Action, Interrupt",
                 "Trigger": "A foe attempts to run away",
-                "Effect": "Before the target moves from its starting location, one of your Pokémon on the field may immediately Shift and use a Struggle Attack as an Interrupt. If this attack hits, the target is Tripped."
+                "Effect": "Before the target moves from its starting location, one of your Pokémon on the field may immediately Shift and use a Struggle Attack as an [[keyword:Interrupt]]. If this attack hits, the target is Tripped."
               }
             ]
           }
@@ -620,22 +620,22 @@
             "Tags": "[Class][+Speed]",
             "Prerequisites": "Acrobatics, Athletics, Stealth, or Survival at Novice; Guile, or Perception at Novice",
             "Frequency": "Static",
-            "Effect": " You gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique."
+            "Effect": "You gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique."
           },
           {
             "Name": "Advanced Capture Techniques",
             "Tags": "[Ranked 4][+Speed]",
-            "Rank 1 Prerequisites": "Capture Specialist",
-            "Rank 2 Prerequisites": "Capture Specialist, any 2 Skills at Adept Rank",
-            "Rank 3 Prerequisites": "Capture Specialist, any 2 Skills at Expert Rank",
-            "Rank 4 Prerequisites": "Capture Specialist, any 3 Skills at Expert Rank",
+            "Rank 1 Prerequisites": "[[feature:Capture Specialist]]",
+            "Rank 2 Prerequisites": "[[feature:Capture Specialist]], any 2 Skills at Adept Rank",
+            "Rank 3 Prerequisites": "[[feature:Capture Specialist]], any 2 Skills at Expert Rank",
+            "Rank 4 Prerequisites": "[[feature:Capture Specialist]], any 3 Skills at Expert Rank",
             "Frequency": "Static",
             "Effect": "At each Rank, you gain two Capture Techniques of your choice, found on the next page. You must meet any prerequisites of the Technique. You may qualify for Advanced Capture Techniques' prerequisites with the Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills only."
           },
           {
             "Name": "Captured Momentum",
             "Tags": "[+Speed]",
-            "Prerequisites": "Advanced Capture Techniques Rank 2",
+            "Prerequisites": "[[feature:Advanced Capture Techniques]] Rank 2",
             "Frequency": "At-Will — Free Action",
             "Trigger": "You successfully Capture a Pokémon",
             "Effect": "Choose One Effect:\n» You or your Pokémon gain a +2 bonus to their next Accuracy Roll during this combat.\n» You subtract your highest Skill Rank out of Acrobatics, Athletics, Stealth, Survival, Guile, or Perception from your next Capture Roll during this combat.\n» You gain 1 Temporary Action Point that disappears after one full round."
@@ -643,7 +643,7 @@
           {
             "Name": "Gotta Catch 'Em All",
             "Tags": "[+Speed]",
-            "Prerequisites": "Advanced Capture Techniques Rank 3",
+            "Prerequisites": "[[feature:Advanced Capture Techniques]] Rank 3",
             "Frequency": "Daily x3 — Swift Action",
             "Trigger": "Your make a Capture Roll.",
             "Effect": "You may switch the rolled digits on your 1d100 roll. For example, if you roll a 91, that can be switched to a 19. This does not turn a roll of 1 into a \"Natural\" roll of 100."
@@ -665,7 +665,7 @@
                 "Name": "Devitalizing Throw",
                 "Frequency": "1 AP – Free Action",
                 "Trigger": "A Pokémon escapes from a Poké Ball you threw",
-                "Effect": "Choose One Effect: The triggering target becomes Slowed; the triggering target loses one Combat Stage in a Stat of your choice; or the triggering target suffers a -3 penalty to their next Save Roll."
+                "Effect": "Choose One Effect: The triggering target becomes [[status:Slowed]]; the triggering target loses one Combat Stage in a Stat of your choice; or the triggering target suffers a -3 penalty to their next Save Roll."
               },
               {
                 "Name": "Fast Pitch",
@@ -675,12 +675,12 @@
               {
                 "Name": "Snare",
                 "Frequency": "Static",
-                "Effect": "You subtract -10 from Capture Rolls made against Pokémon drawn into an encounter by Bait, that are currently distracted by Bait, or are in a Hand Net, Lasso, Weighted Net, or Stuck because of a Glue Cannon."
+                "Effect": "You subtract -10 from Capture Rolls made against Pokémon drawn into an encounter by [[item:Bait]], that are currently distracted by [[item:Bait]], or are in a [[item:Hand Net]], [[item:Lasso]], [[item:Weighted Net]], or [[status:Stuck]] because of a [[item:Glue Cannon]]."
               },
               {
                 "Name": "Tools of the Trade",
                 "Frequency": "Static",
-                "Effect": "Add +2 to all Accuracy Rolls made with Poké Balls, Hand Nets, Lassos, Weighted Nets, and Glue Cannons. Add +2 to Athletics Checks made when reeling in a Pokémon with a Fishing Rod, and add +4 to 1d20 rolls made to see if a Pokémon is attracted by Bait or a Fishing Lure."
+                "Effect": "Add +2 to all Accuracy Rolls made with Poké Balls, [[item:Hand Nets]], [[item:Lassos]], [[item:Weighted Nets]], and [[item:Glue Cannons]]. Add +2 to Athletics Checks made when reeling in a Pokémon with a [[item:Fishing Rod]], and add +4 to 1d20 rolls made to see if a Pokémon is attracted by [[item:Bait]] or a [[item:Fishing Lure]]."
               },
               {
                 "Name": "Catch Combo",
@@ -701,7 +701,7 @@
                 "Prerequisites": "3 of Acrobatics, Athletics, Stealth, Survival, Guile, or Perception Skills at Expert Rank",
                 "Frequency": "2 AP – Free Action, Interrupt",
                 "Trigger": "A foe attempts to run away",
-                "Effect": "Before the target moves from its starting location, one of your Pokémon on the field may immediately Shift and use a Struggle Attack as an Interrupt. If this attack hits, the target is Tripped."
+                "Effect": "Before the target moves from its starting location, one of your Pokémon on the field may immediately Shift and use a Struggle Attack as an [[keyword:Interrupt]]. If this attack hits, the target is Tripped."
               }
             ]
           }
@@ -725,46 +725,46 @@
             "Tags": "[Class]",
             "Prerequisites": "Novice Command",
             "Frequency": "Static",
-            "Effect": "Choose one of Ravager Orders, Marksman Orders, Trickster Orders, Guardian Orders, or Precision Orders. You gain the chosen Feature, even if you do not meet its prerequisites."
+            "Effect": "Choose one of [[feature:Ravager Orders]], [[feature:Marksman Orders]], [[feature:Trickster Orders]], [[feature:Guardian Orders]], or [[feature:Precision Orders]]. You gain the chosen Feature, even if you do not meet its prerequisites."
           },
           {
             "Name": "Mobilize",
             "Tags": "[Orders]",
-            "Prerequisites": "Commander",
+            "Prerequisites": "[[feature:Commander]]",
             "Frequency": "At-Will — Free Action",
             "Target": "Any Ally",
             "Effect": "The target cannot provoke Attacks of Opportunity on their next turn. Mobilize may target an Ally only once per encounter."
           },
           {
             "Name": "Leadership",
-            "Prerequisites": "Commander",
+            "Prerequisites": "[[feature:Commander]]",
             "Frequency": "Static",
             "Effect": "You may use [Orders] that have targets to target any Ally, even if normally those [Orders] would only let you apply the effect to your own Pokemon. Any other conditions still apply."
           },
           {
             "Name": "Battle Conductor",
-            "Prerequisites": "Leadership",
+            "Prerequisites": "[[feature:Leadership]]",
             "Frequency": "At-Will — Swift Action",
             "Trigger": "You give [Orders] with a Frequency of At-Will that have targets",
             "Effect": "You may target up to two additional Allies with the [Orders]."
           },
           {
             "Name": "Complex Orders",
-            "Prerequisites": "Commander, at least two Features with the [Orders] Tag that have targets",
+            "Prerequisites": "[[feature:Commander]], at least two Features with the [Orders] Tag that have targets",
             "Frequency": "At-Will — Shift Action",
             "Trigger": "You give [Orders] that have targets.",
             "Effect": "You may choose a different Order to give to each Target. You must pay all AP costs and follow Frequency restrictions for all Orders used in this way."
           },
           {
             "Name": "Tip the Scales",
-            "Prerequisites": "Commander, Expert Command",
+            "Prerequisites": "[[feature:Commander]], Expert Command",
             "Frequency": "2 AP — Swift Action",
             "Trigger": "You give [Orders] that have targets.",
             "Effect": "Your [Orders] with an At-Will Frequency instead target all allies within 10 Meters."
           },
           {
             "Name": "Scheme Twist",
-            "Prerequisites": "Commander, Master Command",
+            "Prerequisites": "[[feature:Commander]], Master Command",
             "Frequency": "Scene x2 — Swift Action",
             "Trigger": "You give [Orders] with a Daily or Scene Frequency that have Targets.",
             "Effect": "You may target up to two additional Allies with the [Orders]."
@@ -788,56 +788,56 @@
           {
             "Name": "Coordinator",
             "Tags": "[Class]",
-            "Prerequisites": "Grace, Novice Charm, Command, Guile, Intimidate, or Intuition",
+            "Prerequisites": "[[edge:Grace]], Novice Charm, Command, Guile, Intimidate, or Intuition",
             "Frequency": "At-Will — Free Action",
             "Effect": "Your Pokémon may reroll a single Appeal Roll or Damage Roll. This Feature may be used only once per Contest, and once per Pokémon per Scene."
           },
           {
             "Name": "Decisive Director",
             "Tags": "[Orders]",
-            "Prerequisites": "Coordinator",
+            "Prerequisites": "[[feature:Coordinator]]",
             "Frequency": "At-Will — Standard Action",
             "Target": "A Pokémon",
             "Effect": "Add or subtract X from the target's Initiative until the end of your next turn. X is equal to your Charm Rank doubled."
           },
           {
             "Name": "Adaptable Performance",
-            "Prerequisites": "Coordinator",
+            "Prerequisites": "[[feature:Coordinator]]",
             "Frequency": "Scene — Free Action",
             "Trigger": "Your Pokémon's Turn to use a Move in a Contest",
             "Effect": "Choose two of your Pokémon's Moves. Your Pokémon may perform your Contest Move as if had the Contest Typing of one of your chosen Moves, and had the effects of the other. You may not use either move on the next round of the contest. This effect may be used once per Contest."
           },
           {
             "Name": "Flexible Preparations",
-            "Prerequisites": "Adaptable Performance, Adept Charm, Command, Guile, Intimidate, or Intuition",
+            "Prerequisites": "[[feature:Adaptable Performance]], Adept Charm, Command, Guile, Intimidate, or Intuition",
             "Frequency": "Daily — Extended Action",
             "Target": "A Pokémon that has Contest Stats from Poffins",
             "Effect": "The target may reallocate up to 2d6 of Poffin-Derived Contest Stats from one Contest Stat to another. This effect lasts until the end of the day."
           },
           {
             "Name": "Innovation",
-            "Prerequisites": "Adaptable Performance",
+            "Prerequisites": "[[feature:Adaptable Performance]]",
             "Frequency": "Daily — Extended Action",
             "Target": "A Pokémon with at least 1 Tutor Point.",
             "Effect": "The target loses 1 Tutor Point, and then learns a Move created with Innovation. See the next section for details on creating Moves for this Feature. A Pokémon may only have one Move created by Innovation at a time."
           },
           {
             "Name": "Nuanced Performance",
-            "Prerequisites": "Coordinator, Expert Charm, Command, Guile, Intimidate, or Intuition",
+            "Prerequisites": "[[feature:Coordinator]], Expert Charm, Command, Guile, Intimidate, or Intuition",
             "Frequency": "1 AP — Free Action",
             "Trigger": "Your Pokémon miss all targets with a Move",
-            "Effect": "That Move's Frequency is not expended. This does not work with Moves that may fail to activate, such as moves with the Execute keyword."
+            "Effect": "That Move's Frequency is not expended. This does not work with Moves that may fail to activate, such as moves with the [[keyword:Execute]] keyword."
           },
           {
             "Name": "Reliable Performance",
-            "Prerequisites": "Nuanced Performance, Master Charm, Command, Guile, Intimidate, or Intuition",
+            "Prerequisites": "[[feature:Nuanced Performance]], Master Charm, Command, Guile, Intimidate, or Intuition",
             "Frequency": "2 AP — Free Action",
             "Trigger": "Your Pokémon makes an Appeal Roll, Accuracy Check, or Skill Check",
             "Effect": "For appeal rolls, instead of making the Appeal Roll, you gain 1 Appeal Point for each Dice you would have rolled. For Accuracy Checks, act as if you had rolled a 10. For Skill Checks, multiply 3.5 by your Pokémon's Skill Rank, and use the resulting number as the result of your roll, rounded down. For all rolls, add or subtract any modifiers as normal."
           },
           {
             "Name": "Innovation Moves",
-            "Description": "The Coordinator's \"Innovation\" Feature lets the Coordinator create new Moves for their Pokémon. These Moves can serve to fill voids in Move Lists for both Battles and Contests and provide utility.\nTo create a Move, first choose a Contest Type. This affects the Move's effects and of course its role in Contests.\nNext choose a Contest Effect. Look at the \"Contest Effects\" section (page 266) under \"Contests\" for the full list. Pick one. That's right, any of them. This determines what the Move does during a Contest, of course.\nThird, choose one of the four templates below. This determines the Move's effects in Battle. These are modified by the Contest Type of the Move. Remember, Cool is associated with Attack, Tough with Defense, Beauty with Special Attack, Smart with Special Defense, and Cute with Speed.\nAnd finally, name your Move! This is the best part!",
+            "Description": "The Coordinator's \"[[feature:Innovation]]\" Feature lets the Coordinator create new Moves for their Pokémon. These Moves can serve to fill voids in Move Lists for both Battles and Contests and provide utility.\nTo create a Move, first choose a Contest Type. This affects the Move's effects and of course its role in Contests.\nNext choose a Contest Effect. Look at the \"Contest Effects\" section (page 266) under \"Contests\" for the full list. Pick one. That's right, any of them. This determines what the Move does during a Contest, of course.\nThird, choose one of the four templates below. This determines the Move's effects in Battle. These are modified by the Contest Type of the Move. Remember, Cool is associated with Attack, Tough with Defense, Beauty with Special Attack, Smart with Special Defense, and Cute with Speed.\nAnd finally, name your Move! This is the best part!",
             "templates": [
               {
                 "Name": "Template #1",
@@ -846,7 +846,7 @@
                 "AC": "None",
                 "Class": "Status",
                 "Range": "Self",
-                "Effect": "The user generates 3 Contest Boons. These may be used as a Swift Action on their turn to gain one of the effects below, based on this Move's Contest Type.\n» Beauty: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Effect Range for that attack.\n» Cool: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Critical Hit Range for that attack.\n» Cute: Use during your turn to gain +3 Evasion for one full round.\n» Smart: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Accuracy for that attack.\n» Tough: Use at the start of a turn to avoid all loss of Hit Points from Status Afflictions, Weather, and Recoil for that turn."
+                "Effect": "The user generates 3 Contest Boons. These may be used as a Swift Action on their turn to gain one of the effects below, based on this Move's Contest Type.\n» Beauty: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Effect Range for that attack.\n» Cool: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Critical Hit Range for that attack.\n» Cute: Use during your turn to gain +3 Evasion for one full round.\n» Smart: Use when declaring an attack (before Accuracy Roll) to gain a +3 bonus to Accuracy for that attack.\n» Tough: Use at the start of a turn to avoid all loss of Hit Points from Status Afflictions, [[keyword:Weather]], and [[keyword:Recoil]] for that turn."
               },
               {
                 "Name": "Template #2",
@@ -863,7 +863,7 @@
                 "Frequency": "EOT",
                 "AC": "Varies",
                 "Class": "Varies",
-                "Range": "Varies, Spirit Surge",
+                "Range": "Varies, [[keyword:Spirit Surge]]",
                 "Effect": "Make a Struggle Attack, increasing the damage roll by +5. Follow all other normal rules for making Struggle attacks, including any modifications from capabilities, features, or special effects. On 18+, the user's Stat associated with the Contest Type of this Move is raised by +1 Combat Stage. This Move's Effect Range is extended by +1 for every two Contest Dice the user has that matches this Move's Contest Type."
               },
               {

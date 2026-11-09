@@ -3586,7 +3586,7 @@
         },
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -3804,7 +3804,7 @@
         },
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -10910,7 +10910,7 @@
       "advancedAbilities": [
         {
           "name": "Triage",
-          "effect": "The user's moves with the Healing keyword may be used as Priority moves.",
+          "effect": "The user's moves with the [[keyword:Healing]] keyword may be used as Priority moves.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -26309,7 +26309,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -26543,7 +26543,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -35250,7 +35250,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -35472,7 +35472,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -35944,7 +35944,7 @@
         },
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -36154,7 +36154,7 @@
         },
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -47961,7 +47961,7 @@
       "basicAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -59591,7 +59591,7 @@
       "basicAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -59766,7 +59766,7 @@
       "basicAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -67235,7 +67235,7 @@
         },
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -71615,7 +71615,7 @@
       "advancedAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -74109,7 +74109,7 @@
       "advancedAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -74125,7 +74125,7 @@
       "highAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -76880,7 +76880,7 @@
       "basicAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -78280,7 +78280,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -80741,7 +80741,7 @@
         },
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -82116,7 +82116,7 @@
       "advancedAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -84211,7 +84211,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -85288,7 +85288,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -87402,7 +87402,7 @@
       "basicAbilities": [
         {
           "name": "Thermal Exchange",
-          "effect": "The user receives +1 Attack Combat Stage. The user is immune to Burns. Defensive.",
+          "effect": "The user receives +1 Attack Combat Stage. The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": "The user is hit by a Fire-Type Move.",
           "target": null,
           "frequency": "At-Will – Free Action"
@@ -87673,7 +87673,7 @@
       "basicAbilities": [
         {
           "name": "Thermal Exchange",
-          "effect": "The user receives +1 Attack Combat Stage. The user is immune to Burns. Defensive.",
+          "effect": "The user receives +1 Attack Combat Stage. The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": "The user is hit by a Fire-Type Move.",
           "target": null,
           "frequency": "At-Will – Free Action"
@@ -87958,7 +87958,7 @@
       "basicAbilities": [
         {
           "name": "Thermal Exchange",
-          "effect": "The user receives +1 Attack Combat Stage. The user is immune to Burns. Defensive.",
+          "effect": "The user receives +1 Attack Combat Stage. The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": "The user is hit by a Fire-Type Move.",
           "target": null,
           "frequency": "At-Will – Free Action"
@@ -93819,7 +93819,7 @@
         {
           "name": "Toxic Chain",
           "effect": "Choose another foe, they become [[status:Poisoned]], and it and the triggering foe become Chained to each other. Whenever a foe is damaged, every foe Chained to them becomes [[status:Vulnerable]] for one full round.",
-          "trigger": "The user Poisons a foe",
+          "trigger": "The user [[status:Poisoned]](Poisons) a foe",
           "target": null,
           "frequency": "Scene – Swift Action"
         }
@@ -94094,7 +94094,7 @@
         {
           "name": "Toxic Chain",
           "effect": "Choose another foe, they become [[status:Poisoned]], and it and the triggering foe become Chained to each other. Whenever a foe is damaged, every foe Chained to them becomes [[status:Vulnerable]] for one full round.",
-          "trigger": "The user Poisons a foe",
+          "trigger": "The user [[status:Poisoned]](Poisons) a foe",
           "target": null,
           "frequency": "Scene – Swift Action"
         }
@@ -94370,7 +94370,7 @@
         {
           "name": "Toxic Chain",
           "effect": "Choose another foe, they become [[status:Poisoned]], and it and the triggering foe become Chained to each other. Whenever a foe is damaged, every foe Chained to them becomes [[status:Vulnerable]] for one full round.",
-          "trigger": "The user Poisons a foe",
+          "trigger": "The user [[status:Poisoned]](Poisons) a foe",
           "target": null,
           "frequency": "Scene – Swift Action"
         }
@@ -98384,7 +98384,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -98928,7 +98928,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -101146,7 +101146,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -101398,7 +101398,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -106856,7 +106856,7 @@
       "advancedAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -107109,7 +107109,7 @@
       "advancedAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -113761,7 +113761,7 @@
       "highAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -114020,7 +114020,7 @@
       "highAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -118446,7 +118446,7 @@
       "basicAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -118711,7 +118711,7 @@
       "basicAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -123168,7 +123168,7 @@
       "basicAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -123718,7 +123718,7 @@
       "basicAbilities": [
         {
           "name": "Tonguelash",
-          "effect": "Connection – [[move:Lick]]. Lick automatically Paralyzes and Flinches its target. The user may use [[move:Lick]] as if it was Normal-Typed.",
+          "effect": "Connection – [[move:Lick]]. Lick automatically [[status:Paralysis]](Paralyzes) and [[status:Flinch]](Flinches) its target. The user may use [[move:Lick]] as if it was Normal-Typed.",
           "trigger": "The user hits a target with Lick",
           "target": null,
           "frequency": "Scene x2 – Free Action"
@@ -124504,7 +124504,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -124792,7 +124792,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -126341,7 +126341,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -126569,7 +126569,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -133641,7 +133641,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -133872,7 +133872,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -139607,7 +139607,7 @@
       "advancedAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -139867,7 +139867,7 @@
       "advancedAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -150340,7 +150340,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -154265,7 +154265,7 @@
       "highAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -159574,7 +159574,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -164411,7 +164411,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -164793,7 +164793,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -178168,7 +178168,7 @@
       "advancedAbilities": [
         {
           "name": "Aqua Bullet",
-          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a Full Action to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
+          "effect": "Connection - [[move:Aqua Jet]]. The user may use Water-Type Moves as a [[keyword:Full Action]] to gain Sky 10 and shift in a straight line before attempting to use their Move. When shifting this way, the user does not provoke attacks of opportunity.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -178421,7 +178421,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -178671,7 +178671,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -182766,7 +182766,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -182799,7 +182799,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -190468,7 +190468,7 @@
       "advancedAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -190708,7 +190708,7 @@
       "advancedAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -190950,7 +190950,7 @@
       "advancedAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -191445,7 +191445,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -198965,7 +198965,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -199191,7 +199191,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -199423,7 +199423,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -200067,7 +200067,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -202708,7 +202708,7 @@
         },
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -204573,7 +204573,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -204824,7 +204824,7 @@
         },
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -208636,7 +208636,7 @@
       "basicAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -208876,7 +208876,7 @@
       "basicAbilities": [
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -213538,7 +213538,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -213818,7 +213818,7 @@
         {
           "name": "Deadly Poison",
           "effect": "The target is [[status:Badly Poisoned]] instead.",
-          "trigger": "The user Poisons a target",
+          "trigger": "The user [[status:Poisoned]](Poisons) a target",
           "target": null,
           "frequency": "Daily – Free Action"
         }
@@ -214316,7 +214316,7 @@
       "highAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -214557,7 +214557,7 @@
       "highAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -214814,7 +214814,7 @@
       "highAbilities": [
         {
           "name": "Water Veil",
-          "effect": "The user is immune to Burns. Defensive.",
+          "effect": "The user is immune to [[status:Burned]](Burns). Defensive.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -216088,7 +216088,7 @@
       "basicAbilities": [
         {
           "name": "Tonguelash",
-          "effect": "Connection – [[move:Lick]]. Lick automatically Paralyzes and Flinches its target. The user may use [[move:Lick]] as if it was Normal-Typed.",
+          "effect": "Connection – [[move:Lick]]. Lick automatically [[status:Paralysis]](Paralyzes) and [[status:Flinch]](Flinches) its target. The user may use [[move:Lick]] as if it was Normal-Typed.",
           "trigger": "The user hits a target with Lick",
           "target": null,
           "frequency": "Scene x2 – Free Action"
@@ -216394,7 +216394,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -226822,7 +226822,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -227083,7 +227083,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -227354,7 +227354,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -236968,7 +236968,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -242383,7 +242383,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -242406,7 +242406,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -242654,7 +242654,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -242677,7 +242677,7 @@
         },
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -244737,7 +244737,7 @@
         },
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -244986,7 +244986,7 @@
         },
         {
           "name": "Stench",
-          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user Flinches a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
+          "effect": "The Pokémon's Moves Flinch Targets on a roll of 18+. If a move already has a chance of Flinching foes, the Effect Range is increased by +3 instead. Whenever the user [[status:Flinch]](Flinches) a foe with an attack, that foe gains a -2 penalty to Accuracy Rolls for 1 full round.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -249800,7 +249800,7 @@
       "basicAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -257496,7 +257496,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -257757,7 +257757,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -259388,7 +259388,7 @@
       "advancedAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -261939,7 +261939,7 @@
       "highAbilities": [
         {
           "name": "Reckless",
-          "effect": "Increases the Damage Base of Moves with the Exhaust, [[keyword:Recoil]], or Reckless Keywords by +3.",
+          "effect": "Increases the Damage Base of Moves with the [[keyword:Exhaust]], [[keyword:Recoil]], or Reckless Keywords by +3.",
           "trigger": null,
           "target": null,
           "frequency": "Static"
@@ -270763,7 +270763,7 @@
       "advancedAbilities": [
         {
           "name": "Shed Skin",
-          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, Burns, Poison, or [[status:Sleep]].",
+          "effect": "The user is cured of one of [[status:Paralysis]], Freezing, [[status:Burned]](Burns), Poison, or [[status:Sleep]].",
           "trigger": null,
           "target": null,
           "frequency": "Scene – Swift Action"
@@ -274959,7 +274959,7 @@
       "basicAbilities": [
         {
           "name": "Stance Change",
-          "effect": "Aegislash has two Stances: Shield Stance and Sword Stance. Its default Stance is Shield Stance. Whenever Aegislash uses a damaging attack, it switches to Sword Stance and swaps its Attack Stat with its Defense and its Special Attack Stat with its Special Defense, without changing Combat Stages. Whenever Aegislash uses [[move:King's Shield]], [[move:Protect]], a Status Move that raises Defense Combat Stages, or a Blessing, it switches to Shield Stance and swaps its offensive and defensive Stats back to their original arrangement. Aegislash may also change its Stance as a Full Action.",
+          "effect": "Aegislash has two Stances: Shield Stance and Sword Stance. Its default Stance is Shield Stance. Whenever Aegislash uses a damaging attack, it switches to Sword Stance and swaps its Attack Stat with its Defense and its Special Attack Stat with its Special Defense, without changing Combat Stages. Whenever Aegislash uses [[move:King's Shield]], [[move:Protect]], a Status Move that raises Defense Combat Stages, or a Blessing, it switches to Shield Stance and swaps its offensive and defensive Stats back to their original arrangement. Aegislash may also change its Stance as a [[keyword:Full Action]].",
           "trigger": null,
           "target": null,
           "frequency": "Static"

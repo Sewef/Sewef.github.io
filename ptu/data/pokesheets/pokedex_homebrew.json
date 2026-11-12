@@ -49042,60 +49042,88 @@
     "moveLearnset": {
       "levelUpMoves": [
         {
+          "moveName": "Electro Shot",
+          "learnedLevel": 1
+        },
+        {
+          "moveName": "Glint",
+          "learnedLevel": 1
+        },
+        {
           "moveName": "Leer",
           "learnedLevel": 1
         },
         {
-          "moveName": "Metal Claw",
-          "learnedLevel": 1
-        },
-        {
-          "moveName": "Rock Smash",
+          "moveName": "Vacuum Wave",
           "learnedLevel": 6
         },
         {
           "moveName": "Hone Claws",
-          "learnedLevel": 12
-        },
-        {
-          "moveName": "Metal Sound",
-          "learnedLevel": 18
-        },
-        {
-          "moveName": "Breaking Swipe",
-          "learnedLevel": 24
+          "learnedLevel": 9
         },
         {
           "moveName": "Dragon Tail",
-          "learnedLevel": 30
+          "learnedLevel": 12
         },
         {
-          "moveName": "Iron Defense",
-          "learnedLevel": 36
+          "moveName": "Metal Claw",
+          "learnedLevel": 14
         },
         {
           "moveName": "Focus Energy",
-          "learnedLevel": 42
+          "learnedLevel": 17
         },
         {
-          "moveName": "Laser Focus",
-          "learnedLevel": 42
+          "moveName": "Slash",
+          "learnedLevel": 20
         },
         {
-          "moveName": "Dragon Claw",
-          "learnedLevel": 48
+          "moveName": "Breaking Swipe",
+          "learnedLevel": 22
+        },
+        {
+          "moveName": "Body Press",
+          "learnedLevel": 25
         },
         {
           "moveName": "Flash Cannon",
-          "learnedLevel": 54
+          "learnedLevel": 28
         },
         {
-          "moveName": "Metal Burst",
-          "learnedLevel": 60
+          "moveName": "Dragon Pulse",
+          "learnedLevel": 30
+        },
+        {
+          "moveName": "Hard Press",
+          "learnedLevel": 33
+        },
+        {
+          "moveName": "Thunderbolt",
+          "learnedLevel": 36
+        },
+        {
+          "moveName": "Aura Sphere",
+          "learnedLevel": 38
         },
         {
           "moveName": "Hyper Beam",
-          "learnedLevel": 66
+          "learnedLevel": 41
+        },
+        {
+          "moveName": "Dragon Dance",
+          "learnedLevel": 44
+        },
+        {
+          "moveName": "Steel Beam",
+          "learnedLevel": 46
+        },
+        {
+          "moveName": "Mirror Coat",
+          "learnedLevel": 49
+        },
+        {
+          "moveName": "Outrage",
+          "learnedLevel": 51
         }
       ],
       "machineMoves": [

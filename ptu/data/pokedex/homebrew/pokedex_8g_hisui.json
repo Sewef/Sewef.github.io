@@ -77,8 +77,6 @@
           "Type": "Fighting",
           "Level": "Evo",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -95,8 +93,6 @@
           "Type": "Grass",
           "Level": 6,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -109,10 +105,7 @@
           "Move": "Roost",
           "Type": "Flying",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Shadow Sneak",
@@ -131,10 +124,7 @@
           "Move": "Aerial Ace",
           "Type": "Flying",
           "Level": 18,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Synthesis",
@@ -146,8 +136,6 @@
           "Type": "Grass",
           "Level": 21,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -155,10 +143,7 @@
           "Move": "Air Slash",
           "Type": "Flying",
           "Level": 25,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Pluck",
@@ -170,8 +155,6 @@
           "Type": "Fighting",
           "Level": 30,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -190,8 +173,6 @@
           "Type": "Grass",
           "Level": 43,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -286,6 +267,12 @@
         {
           "Move": "Coaching",
           "Type": "Fighting",
+          "Tags": [],
+          "Method": "Machine"
+        },
+        {
+          "Move": "Confuse Ray",
+          "Type": "Ghost",
           "Tags": [],
           "Method": "Machine"
         },
@@ -428,6 +415,12 @@
           "Method": "Machine"
         },
         {
+          "Move": "Light Screen",
+          "Type": "Psychic",
+          "Tags": [],
+          "Method": "Machine"
+        },
+        {
           "Move": "Low Kick",
           "Type": "Fighting",
           "Tags": [
@@ -454,6 +447,12 @@
         {
           "Move": "Nasty Plot",
           "Type": "Dark",
+          "Tags": [],
+          "Method": "Machine"
+        },
+        {
+          "Move": "Night Shade",
+          "Type": "Ghost",
           "Tags": [],
           "Method": "Machine"
         },
@@ -586,7 +585,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -604,27 +603,19 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Bulk Up",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Energy Ball",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -632,28 +623,19 @@
         {
           "Move": "False Swipe",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Focus Energy",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -675,18 +657,13 @@
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Magical Leaf",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -694,27 +671,19 @@
         {
           "Move": "Psycho Cut",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -722,40 +691,29 @@
         {
           "Move": "Shadow Claw",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Spikes",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Tackle",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Method": "Tutor",
           "Tags": [
@@ -846,8 +804,6 @@
           "Type": "Ghost",
           "Level": "Evo",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -864,8 +820,6 @@
           "Type": "Fire",
           "Level": 6,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -913,8 +867,6 @@
           "Type": "Ghost",
           "Level": 43,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -1316,7 +1268,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will-O-Wisp",
+          "Move": "Will O Wisp",
           "Type": "Fire",
           "Tags": [
             "Stab"
@@ -1334,28 +1286,19 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Bulldoze",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Calm Mind",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -1369,27 +1312,21 @@
         {
           "Move": "Drain Punch",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Eruption",
           "Type": "Fire",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Fire Punch",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1398,8 +1335,6 @@
           "Move": "Flamethrower",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1407,36 +1342,25 @@
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Gyro Ball",
           "Type": "Steel",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Tail",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -1451,8 +1375,6 @@
           "Move": "Mystical Fire",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1461,8 +1383,6 @@
           "Move": "Ominous Wind",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1470,36 +1390,25 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Shadow Ball",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1508,8 +1417,6 @@
           "Move": "Shadow Claw",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -1517,18 +1424,13 @@
         {
           "Move": "Smokescreen",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -1542,19 +1444,13 @@
         {
           "Move": "Thunder Punch",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Wild Charge",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -1649,8 +1545,6 @@
           "Type": "Dark",
           "Level": "Evo",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -1676,10 +1570,7 @@
           "Move": "Slash",
           "Type": "Normal",
           "Level": 25,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Water Pulse",
@@ -1712,8 +1603,6 @@
           "Type": "Dark",
           "Level": 40,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -2086,7 +1975,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -2102,13 +1991,18 @@
           ]
         },
         {
+          "Move": "Slash",
+          "Type": "Normal",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
           "Move": "Sucker Punch",
           "Type": "Dark",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Tackle",
@@ -2224,10 +2118,7 @@
           "Move": "Tackle",
           "Type": "Normal",
           "Level": 1,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Howl",
@@ -2279,10 +2170,7 @@
           "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 37,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Flamethrower",
@@ -2597,7 +2485,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will-O-Wisp",
+          "Move": "Will O Wisp",
           "Type": "Fire",
           "Tags": [
             "Stab"
@@ -2609,18 +2497,13 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Fire Fang",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -2629,8 +2512,6 @@
           "Move": "Flamethrower",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -2638,45 +2519,31 @@
         {
           "Move": "Iron Tail",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Outrage",
           "Type": "Dragon",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Play Rough",
           "Type": "Fairy",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -2684,37 +2551,25 @@
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Snarl",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Wild Charge",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -2843,18 +2698,13 @@
           "Move": "Tackle",
           "Type": "Normal",
           "Level": 1,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Ember",
           "Type": "Fire",
           "Level": 5,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -2870,18 +2720,13 @@
           "Move": "Bite",
           "Type": "Dark",
           "Level": 9,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Fire Fang",
           "Type": "Fire",
           "Level": 15,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -2890,8 +2735,6 @@
           "Type": "Rock",
           "Level": 21,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -2899,27 +2742,19 @@
           "Move": "Crunch",
           "Type": "Dark",
           "Level": 29,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 37,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Flare Blitz",
           "Type": "Fire",
           "Level": 47,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -3284,7 +3119,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "Will-O-Wisp",
+          "Move": "Will O Wisp",
           "Type": "Fire",
           "Tags": [
             "Stab"
@@ -3296,26 +3131,32 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Agility",
           "Type": "Psychic",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Bulldoze",
           "Type": "Ground",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Crunch",
+          "Type": "Dark",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Ember",
+          "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
           ],
           "Method": "Tutor"
         },
@@ -3323,8 +3164,6 @@
           "Move": "Fire Fang",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -3332,18 +3171,23 @@
         {
           "Move": "Flame Wheel",
           "Type": "Fire",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Flamethrower",
           "Type": "Fire",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
+            "Stab"
+          ],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Flare Blitz",
+          "Type": "Fire",
+          "Tags": [
             "Stab"
           ],
           "Method": "Tutor"
@@ -3351,97 +3195,68 @@
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Helping Hand",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Howl",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Head",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Tail",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Outrage",
           "Type": "Dragon",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Play Rough",
           "Type": "Fairy",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Retaliate",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Reversal",
           "Type": "Fighting",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Roar",
@@ -3455,8 +3270,6 @@
           "Move": "Rock Slide",
           "Type": "Rock",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -3464,36 +3277,27 @@
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Throw",
           "Type": "Rock",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Snarl",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Stone Edge",
           "Type": "Rock",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -3501,36 +3305,25 @@
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Take Down",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Thunder Fang",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Wild Charge",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -3641,10 +3434,7 @@
           "Move": "Thunder Wave",
           "Type": "Electric",
           "Level": 9,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Rollout",
@@ -3661,8 +3451,6 @@
           "Type": "Electric",
           "Level": 15,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -3688,7 +3476,7 @@
           ]
         },
         {
-          "Move": "Self-Destruct",
+          "Move": "Self Destruct",
           "Type": "Normal",
           "Level": 26
         },
@@ -3705,8 +3493,6 @@
           "Type": "Electric",
           "Level": 29,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -3731,8 +3517,6 @@
           "Type": "Electric",
           "Level": 37,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4005,8 +3789,6 @@
           "Move": "Charge Beam",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4015,8 +3797,6 @@
           "Move": "Energy Ball",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4024,18 +3804,13 @@
         {
           "Move": "Ice Ball",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Magical Leaf",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4043,27 +3818,19 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Thunderbolt",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4072,8 +3839,6 @@
           "Move": "Wild Charge",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4172,16 +3937,14 @@
         {
           "Move": "Chloroblast",
           "Type": "Grass",
-          "Level": "Evo"
+          "Level": "Evo",
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Move": "Charge",
           "Type": "Electric",
-          "Level": 1
-        },
-        {
-          "Move": "Tackle",
-          "Type": "Normal",
           "Level": 1
         },
         {
@@ -4193,6 +3956,12 @@
           ]
         },
         {
+          "Move": "Tackle",
+          "Type": "Normal",
+          "Level": 5,
+          "Tags": []
+        },
+        {
           "Move": "Stun Spore",
           "Type": "Grass",
           "Level": 6
@@ -4200,16 +3969,16 @@
         {
           "Move": "Bullet Seed",
           "Type": "Grass",
-          "Level": 9
+          "Level": 9,
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Move": "Thunder Wave",
           "Type": "Electric",
           "Level": 9,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Rollout",
@@ -4226,8 +3995,6 @@
           "Type": "Electric",
           "Level": 15,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4253,22 +4020,23 @@
           ]
         },
         {
-          "Move": "Self-Destruct",
+          "Move": "Self Destruct",
           "Type": "Normal",
           "Level": 26
         },
         {
           "Move": "Energy Ball",
           "Type": "Grass",
-          "Level": 29
+          "Level": 29,
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Move": "Thunderbolt",
           "Type": "Electric",
           "Level": 29,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4283,15 +4051,16 @@
         {
           "Move": "Seed Bomb",
           "Type": "Grass",
-          "Level": 34
+          "Level": 34,
+          "Tags": [
+            "Stab"
+          ]
         },
         {
           "Move": "Thunder",
           "Type": "Electric",
           "Level": 37,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4321,7 +4090,9 @@
         {
           "Move": "Bullet Seed",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4381,7 +4152,9 @@
         {
           "Move": "Energy Ball",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4399,7 +4172,9 @@
         {
           "Move": "Giga Drain",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4411,13 +4186,17 @@
         {
           "Move": "Grass Knot",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
           "Move": "Grassy Glide",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4441,7 +4220,9 @@
         {
           "Move": "Leaf Storm",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4477,7 +4258,9 @@
         {
           "Move": "Seed Bomb",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4489,7 +4272,9 @@
         {
           "Move": "Solar Beam",
           "Type": "Grass",
-          "Tags": [],
+          "Tags": [
+            "Stab"
+          ],
           "Method": "Machine"
         },
         {
@@ -4580,8 +4365,6 @@
           "Move": "Charge Beam",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4590,71 +4373,52 @@
           "Move": "Energy Ball",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
           ],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Ice Ball",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Magical Leaf",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
           ],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Thunderbolt",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4663,8 +4427,6 @@
           "Move": "Wild Charge",
           "Type": "Electric",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -4786,10 +4548,7 @@
           "Move": "Water Pulse",
           "Type": "Water",
           "Level": 21,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Brine",
@@ -4801,8 +4560,6 @@
           "Type": "Dark",
           "Level": 26,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4819,8 +4576,6 @@
           "Type": "Poison",
           "Level": 29,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -4838,10 +4593,7 @@
           "Move": "Aqua Tail",
           "Type": "Water",
           "Level": 37,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Spit Up",
@@ -4862,10 +4614,7 @@
           "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 47,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Crunch",
@@ -4886,13 +4635,10 @@
           "Level": 56
         },
         {
-          "Move": "Self-Destruct",
+          "Move": "Self Destruct",
           "Type": "Normal",
           "Level": 57,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         }
       ],
       "TM/HM Move List": [
@@ -5209,18 +4955,13 @@
         {
           "Move": "Aqua Tail",
           "Type": "Water",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Dark Pulse",
           "Type": "Dark",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -5228,36 +4969,25 @@
         {
           "Move": "Ice Ball",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Ice Beam",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Icy Wind",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Poison Jab",
           "Type": "Poison",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -5265,27 +4995,19 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Shadow Ball",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Sludge Bomb",
           "Type": "Poison",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -5293,28 +5015,19 @@
         {
           "Move": "Spikes",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Water Pulse",
           "Type": "Water",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -5364,7 +5077,7 @@
           "Method": "Egg"
         },
         {
-          "Move": "Self-Destruct",
+          "Move": "Self Destruct",
           "Type": "Normal",
           "Tags": [],
           "Method": "Egg"
@@ -5496,10 +5209,7 @@
           "Move": "Water Pulse",
           "Type": "Water",
           "Level": 21,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Brine",
@@ -5511,8 +5221,6 @@
           "Type": "Dark",
           "Level": 26,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -5529,8 +5237,6 @@
           "Type": "Poison",
           "Level": 29,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -5548,10 +5254,7 @@
           "Move": "Aqua Tail",
           "Type": "Water",
           "Level": 37,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Spit Up",
@@ -5572,10 +5275,7 @@
           "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 47,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Crunch",
@@ -5596,13 +5296,10 @@
           "Level": 56
         },
         {
-          "Move": "Self-Destruct",
+          "Move": "Self Destruct",
           "Type": "Normal",
           "Level": 57,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         }
       ],
       "TM/HM Move List": [
@@ -6006,10 +5703,7 @@
           "Move": "Swift",
           "Type": "Normal",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Quick Attack",
@@ -6041,10 +5735,7 @@
           "Move": "Swords Dance",
           "Type": "Normal",
           "Level": 34,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Hone Claws",
@@ -6401,7 +6092,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -6411,36 +6102,25 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Bulk Up",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Calm Mind",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Drain Punch",
           "Type": "Fighting",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -6448,36 +6128,25 @@
         {
           "Move": "False Swipe",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Focus Energy",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Tail",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Poison Jab",
           "Type": "Poison",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -6485,18 +6154,13 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -6504,46 +6168,31 @@
         {
           "Move": "Shadow Ball",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Shadow Claw",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Snarl",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -6682,8 +6331,6 @@
           "Type": "Fighting",
           "Level": 6,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -6696,10 +6343,7 @@
           "Move": "Swift",
           "Type": "Normal",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Quick Attack",
@@ -6731,10 +6375,7 @@
           "Move": "Swords Dance",
           "Type": "Normal",
           "Level": 34,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Hone Claws",
@@ -7105,7 +6746,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -7135,7 +6776,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -7225,8 +6866,6 @@
           "Type": "Fighting",
           "Level": "Evo",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7248,8 +6887,6 @@
           "Type": "Grass",
           "Level": 5,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7257,27 +6894,19 @@
           "Move": "Stun Spore",
           "Type": "Grass",
           "Level": 9,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Poison Powder",
           "Type": "Poison",
           "Level": 15,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Energy Ball",
           "Type": "Grass",
           "Level": 21,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7285,18 +6914,13 @@
           "Move": "Sleep Powder",
           "Type": "Grass",
           "Level": 29,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Drain Punch",
           "Type": "Fighting",
           "Level": 34,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7305,8 +6929,6 @@
           "Type": "Grass",
           "Level": 37,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7314,18 +6936,13 @@
           "Move": "Recover",
           "Type": "Normal",
           "Level": 37,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Leaf Storm",
           "Type": "Grass",
           "Level": 47,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7334,8 +6951,6 @@
           "Type": "Grass",
           "Level": 53,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -7344,8 +6959,6 @@
           "Type": "Fighting",
           "Level": 57,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         }
@@ -7683,43 +7296,31 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "After You",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
-          "Move": "Baby-Doll Eyes",
+          "Move": "Baby Doll Eyes",
           "Type": "Fairy",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Defog",
           "Type": "Flying",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Drain Punch",
           "Type": "Fighting",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -7728,8 +7329,6 @@
           "Move": "Energy Ball",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -7737,45 +7336,34 @@
         {
           "Move": "Entrainment",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Focus Energy",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Drain",
           "Type": "Grass",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Growth",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Helping Hand",
@@ -7788,9 +7376,22 @@
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Leaf Blade",
+          "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
+          ],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Leaf Storm",
+          "Type": "Grass",
+          "Tags": [
+            "Stab"
           ],
           "Method": "Tutor"
         },
@@ -7806,9 +7407,6 @@
           "Move": "Magical Leaf",
           "Type": "Grass",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
-            "N",
             "Stab"
           ],
           "Method": "Tutor"
@@ -7825,80 +7423,74 @@
         {
           "Move": "Mega Kick",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Petal Blizzard",
           "Type": "Grass",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Poison Jab",
           "Type": "Poison",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
         },
         {
+          "Move": "Sleep Powder",
+          "Type": "Grass",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
           "Move": "Solar Blade",
           "Type": "Grass",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Stun Spore",
+          "Type": "Grass",
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Sunny Day",
           "Type": "Fire",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Synthesis",
           "Type": "Grass",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Teeter Dance",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         }
       ],
       "Egg Move List": []
@@ -7998,10 +7590,7 @@
           "Move": "Snarl",
           "Type": "Dark",
           "Level": 6,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Hone Claws",
@@ -8013,8 +7602,6 @@
           "Type": "Normal",
           "Level": 11,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -8046,8 +7633,6 @@
           "Type": "Normal",
           "Level": 25,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -8066,8 +7651,6 @@
           "Type": "Ghost",
           "Level": 34,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -8386,13 +7969,13 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
         },
         {
-          "Move": "Will-O-Wisp",
+          "Move": "Will O Wisp",
           "Type": "Fire",
           "Tags": [],
           "Method": "Machine"
@@ -8402,45 +7985,31 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Calm Mind",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Dark Pulse",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Shadow Ball",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -8449,8 +8018,6 @@
           "Move": "Shadow Claw",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -8458,27 +8025,19 @@
         {
           "Move": "Sludge Bomb",
           "Type": "Poison",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Snarl",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -8597,29 +8156,16 @@
           "Level": 1
         },
         {
-          "Move": "Scratch",
-          "Type": "Normal",
-          "Level": 1,
-          "Tags": [
-            "Stab"
-          ]
-        },
-        {
           "Move": "Snarl",
           "Type": "Dark",
           "Level": 6,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Swift",
           "Type": "Normal",
           "Level": 11,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -8651,8 +8197,6 @@
           "Type": "Normal",
           "Level": 25,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -8686,10 +8230,7 @@
           "Move": "Extrasensory",
           "Type": "Psychic",
           "Level": 52,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Nasty Plot",
@@ -9092,13 +8633,13 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
         },
         {
-          "Move": "Will-O-Wisp",
+          "Move": "Will O Wisp",
           "Type": "Fire",
           "Tags": [],
           "Method": "Machine"
@@ -9108,45 +8649,31 @@
         {
           "Move": "Aerial Ace",
           "Type": "Flying",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Calm Mind",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Dark Pulse",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Flamethrower",
           "Type": "Fire",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9163,8 +8690,6 @@
           "Move": "Hyper Beam",
           "Type": "Normal",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9173,8 +8698,6 @@
           "Move": "Ominous Wind",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9182,18 +8705,20 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Scratch",
+          "Type": "Normal",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
           ],
           "Method": "Tutor"
         },
@@ -9201,8 +8726,6 @@
           "Move": "Shadow Ball",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9211,8 +8734,6 @@
           "Move": "Shadow Claw",
           "Type": "Ghost",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9220,27 +8741,19 @@
         {
           "Move": "Sludge Bomb",
           "Type": "Poison",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Snarl",
           "Type": "Dark",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Swift",
           "Type": "Normal",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9254,7 +8767,7 @@
           ]
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Method": "Tutor",
           "Tags": [
@@ -9343,10 +8856,7 @@
           "Move": "Twister",
           "Type": "Dragon",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Tailwind",
@@ -9362,10 +8872,7 @@
           "Move": "Roost",
           "Type": "Flying",
           "Level": 25,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Aerial Ace",
@@ -9379,10 +8886,7 @@
           "Move": "Double-Edge",
           "Type": "Normal",
           "Level": 34,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Slash",
@@ -9399,8 +8903,6 @@
           "Type": "Flying",
           "Level": 43,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -9786,7 +9288,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [],
           "Method": "Machine"
@@ -9811,8 +9313,6 @@
           "Move": "Aerial Ace",
           "Type": "Flying",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9820,45 +9320,31 @@
         {
           "Move": "Bulk Up",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Dazzling Gleam",
           "Type": "Fairy",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Hone Claws",
           "Type": "Dark",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -9872,19 +9358,13 @@
         {
           "Move": "Mystical Fire",
           "Type": "Fire",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Ominous Wind",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -9899,18 +9379,13 @@
         {
           "Move": "Power Shift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Psychic",
           "Type": "Psychic",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -9926,47 +9401,34 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Shadow Claw",
           "Type": "Ghost",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Sky Attack",
           "Type": "Flying",
-          "Method": "Tutor",
           "Tags": [
-            "N",
             "Stab"
-          ]
+          ],
+          "Method": "Tutor"
         },
         {
           "Move": "Superpower",
@@ -9979,10 +9441,7 @@
         {
           "Move": "Swift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -9998,8 +9457,6 @@
           "Move": "Zen Headbutt",
           "Type": "Psychic",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10093,19 +9550,13 @@
           "Move": "Acid Spray",
           "Type": "Poison",
           "Level": 6,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Acid Armor",
           "Type": "Poison",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Protect",
@@ -10144,10 +9595,7 @@
           "Move": "Hydro Pump",
           "Type": "Water",
           "Level": 43,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Iron Head",
@@ -10424,8 +9872,6 @@
           "Move": "Draco Meteor",
           "Type": "Dragon",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10442,18 +9888,13 @@
         {
           "Move": "Ice Beam",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Head",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10462,8 +9903,6 @@
           "Move": "Iron Tail",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10472,8 +9911,6 @@
           "Move": "Outrage",
           "Type": "Dragon",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10481,36 +9918,25 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Sludge Bomb",
           "Type": "Poison",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Steel Beam",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -10518,18 +9944,13 @@
         {
           "Move": "Tackle",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Thunderbolt",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -10543,10 +9964,7 @@
         {
           "Move": "Water Pulse",
           "Type": "Water",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -10638,19 +10056,13 @@
           "Move": "Acid Spray",
           "Type": "Poison",
           "Level": 6,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Acid Armor",
           "Type": "Poison",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Protect",
@@ -10676,10 +10088,7 @@
           "Move": "Shelter",
           "Type": "Steel",
           "Level": 34,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Dragon Pulse",
@@ -10698,10 +10107,7 @@
           "Move": "Hydro Pump",
           "Type": "Water",
           "Level": 43,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Body Slam",
@@ -11106,6 +10512,12 @@
           ]
         },
         {
+          "Move": "Acid Spray",
+          "Type": "Poison",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
           "Move": "Bubble",
           "Type": "Water",
           "Method": "Tutor",
@@ -11116,18 +10528,13 @@
         {
           "Move": "Bulldoze",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Draco Meteor",
           "Type": "Dragon",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11144,62 +10551,43 @@
         {
           "Move": "Feint",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Fire Punch",
           "Type": "Fire",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Flamethrower",
           "Type": "Fire",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Ice Beam",
           "Type": "Ice",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Iron Head",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11208,8 +10596,6 @@
           "Move": "Iron Tail",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11218,8 +10604,6 @@
           "Move": "Outrage",
           "Type": "Dragon",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11227,45 +10611,37 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Shelter",
+          "Type": "Steel",
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Sludge Bomb",
           "Type": "Poison",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Steel Beam",
           "Type": "Steel",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11281,27 +10657,19 @@
         {
           "Move": "Tearful Look",
           "Type": "Normal",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Thunder Punch",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Thunderbolt",
           "Type": "Electric",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -11315,10 +10683,7 @@
         {
           "Move": "Water Pulse",
           "Type": "Water",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         }
       ],
@@ -11406,8 +10771,6 @@
           "Type": "Ice",
           "Level": 5,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -11421,8 +10784,6 @@
           "Type": "Ice",
           "Level": 9,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -11469,10 +10830,7 @@
           "Move": "Earth Power",
           "Type": "Ground",
           "Level": 29,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Recover",
@@ -11807,37 +11165,25 @@
         {
           "Move": "Bulldoze",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Earth Power",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Flash Cannon",
           "Type": "Steel",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Giga Impact",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -11851,27 +11197,19 @@
         {
           "Move": "High Horsepower",
           "Type": "Ground",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Hyper Beam",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Ice Ball",
           "Type": "Ice",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11880,8 +11218,6 @@
           "Move": "Ice Beam",
           "Type": "Ice",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11890,8 +11226,6 @@
           "Move": "Ice Fang",
           "Type": "Ice",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11900,8 +11234,6 @@
           "Move": "Icy Wind",
           "Type": "Ice",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11909,19 +11241,21 @@
         {
           "Move": "Iron Head",
           "Type": "Steel",
+          "Tags": [],
+          "Method": "Tutor"
+        },
+        {
+          "Move": "Powder Snow",
+          "Type": "Ice",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus"
+            "Stab"
           ],
           "Method": "Tutor"
         },
         {
           "Move": "Power Shift",
           "Type": "Normal",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -11935,18 +11269,13 @@
         {
           "Move": "Rest",
           "Type": "Psychic",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Rock Slide",
           "Type": "Rock",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11954,27 +11283,19 @@
         {
           "Move": "Rock Smash",
           "Type": "Fighting",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Stealth Rock",
           "Type": "Rock",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
           "Move": "Stone Edge",
           "Type": "Rock",
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ],
           "Method": "Tutor"
@@ -11990,10 +11311,7 @@
         {
           "Move": "Water Pulse",
           "Type": "Water",
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ],
+          "Tags": [],
           "Method": "Tutor"
         },
         {
@@ -12090,8 +11408,6 @@
           "Type": "Psychic",
           "Level": 5,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -12141,8 +11457,6 @@
           "Type": "Psychic",
           "Level": 29,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -12654,8 +11968,6 @@
           "Type": "Bug",
           "Level": 6,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -12668,10 +11980,7 @@
           "Move": "Aerial Ace",
           "Type": "Flying",
           "Level": 11,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Smack Down",
@@ -12685,10 +11994,7 @@
           "Move": "Stealth Rock",
           "Type": "Rock",
           "Level": 14,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Double Team",
@@ -12699,10 +12005,7 @@
           "Move": "Air Slash",
           "Type": "Flying",
           "Level": 18,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Double Hit",
@@ -12733,7 +12036,7 @@
           ]
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
           "Level": 40,
           "Tags": [
@@ -12744,10 +12047,7 @@
           "Move": "Close Combat",
           "Type": "Fighting",
           "Level": 43,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Swords Dance",
@@ -13043,7 +12343,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "U-Turn",
+          "Move": "U Turn",
           "Type": "Bug",
           "Tags": [
             "Stab"
@@ -13057,7 +12357,7 @@
           "Method": "Machine"
         },
         {
-          "Move": "X-Scissor",
+          "Move": "X Scissor",
           "Type": "Bug",
           "Tags": [
             "Stab"
@@ -13166,13 +12466,10 @@
           ]
         },
         {
-          "Move": "Baby-Doll Eyes",
+          "Move": "Baby Doll Eyes",
           "Type": "Fairy",
           "Level": 6,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Fury Swipes",
@@ -13187,8 +12484,6 @@
           "Type": "Ground",
           "Level": 11,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -13243,8 +12538,6 @@
           "Type": "Normal",
           "Level": 43,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -13689,10 +12982,8 @@
         {
           "Move": "Fake Tears",
           "Type": "Dark",
-          "Method": "Tutor",
-          "Tags": [
-            "N"
-          ]
+          "Tags": [],
+          "Method": "Tutor"
         },
         {
           "Move": "Leer",
@@ -13818,8 +13109,6 @@
           "Type": "Ghost",
           "Level": 11,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -13840,10 +13129,7 @@
           "Move": "Zen Headbutt",
           "Type": "Psychic",
           "Level": 18,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Scary Face",
@@ -13860,8 +13146,6 @@
           "Type": "Ghost",
           "Level": 25,
           "Tags": [
-            "Legacy",
-            "Legends: Arceus",
             "Stab"
           ]
         },
@@ -14821,7 +14105,7 @@
           ]
         },
         {
-          "Move": "Roar of Time",
+          "Move": "Roar Of Time",
           "Type": "Dragon",
           "Level": 88,
           "Tags": [
@@ -15765,10 +15049,7 @@
           "Move": "Tackle",
           "Type": "Normal",
           "Level": 1,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Torment",
@@ -15779,10 +15060,7 @@
           "Move": "Bite",
           "Type": "Dark",
           "Level": 7,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Flatter",
@@ -15829,10 +15107,7 @@
           "Move": "Crunch",
           "Type": "Dark",
           "Level": 41,
-          "Tags": [
-            "Legacy",
-            "Legends: Arceus"
-          ]
+          "Tags": []
         },
         {
           "Move": "Extrasensory",
@@ -16139,8 +15414,7 @@
     "Legendary": true
   },
   {
-    "Species": "Enamorus",
-    "Form": "Therian Forme",
+    "Species": "Enamorus Therian Forme",
     "Number": 905,
     "Icon": "905-therian",
     "Base Stats": {

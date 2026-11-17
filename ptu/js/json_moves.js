@@ -1,4 +1,6 @@
 import {
+  applyInitialSearchParam,
+  referenceLabelText,
   debounce,
   jsonToItems,
   applyCustomShowHideTags,
@@ -189,7 +191,7 @@ function buildSidebarMoves(allItems, container, cols) {
   // ====================
   const rangeDistances = new Set();
   allItems.forEach(m => {
-    const range = m.Range || "";
+    const range = referenceLabelText(m.Range || "");
     // Split by "; or " to separate variants
     const variants = range.split(/;\s*or\s+/i).map(v => v.trim());
     
@@ -244,7 +246,7 @@ function buildSidebarMoves(allItems, container, cols) {
   // ====================
   const rangeKeywords = new Set();
   allItems.forEach(m => {
-    const range = m.Range || "";
+    const range = referenceLabelText(m.Range || "");
     // Split by "; or " to separate variants
     const variants = range.split(/;\s*or\s+/i).map(v => v.trim());
     
@@ -432,9 +434,10 @@ export function loadMovesAsCard(file, container, cols = 3) {
     const allItems = jsonToItems(data);
 
     buildSidebarMoves(allItems, container, cols);
+    const searchInput = document.getElementById("card-search");
+    applyInitialSearchParam(searchInput);
     refreshMoves(allItems, container, cols);
 
-    const searchInput = document.getElementById("card-search");
     if (searchInput) {
       searchInput.oninput = debounce(() => refreshMoves(allItems, container, cols), 150);
     }
@@ -455,13 +458,28 @@ export function loadKeywordsAsCard(file, container, cols = 3) {
     // ��Ļ Ajout du filtre texte
     const searchInput = document.getElementById("keyword-search");
     if (searchInput) {
-      searchInput.addEventListener("input", function () {
-        const q = this.value.toLowerCase();
+      const filterKeywords = () => {
+        const q = searchInput.value.toLowerCase();
         container.querySelectorAll(".card").forEach(card => {
           const content = card.textContent.toLowerCase();
           card.closest('[class*="col-"]')?.style.setProperty("display", content.includes(q) ? "" : "none");
         });
-      });
+      };
+
+      const initialKeyword = applyInitialSearchParam(searchInput, "keyword");
+      if (initialKeyword !== null) {
+        const keywordsSection = document.getElementById("keywords-section");
+        if (keywordsSection) {
+          if (window.bootstrap?.Collapse) {
+            window.bootstrap.Collapse.getOrCreateInstance(keywordsSection, { toggle: false }).show();
+          } else {
+            keywordsSection.classList.add("show");
+          }
+        }
+      }
+
+      filterKeywords();
+      searchInput.addEventListener("input", filterKeywords);
     }
   });
 }

@@ -52,7 +52,7 @@ export function includeHTML(callback) {
 
 function initPTUReferenceLinks() {
   if (window.PTU_REFERENCE_LINKS_DISABLED === true) return;
-  import("/ptu/js/ptu_reference_modal.js")
+  import("/ptu/js/ptu_reference_modal.js?v=20261109-6")
     .then(module => module.initReferenceLinks?.())
     .catch(err => console.warn("[helpers] Reference links unavailable:", err));
 }
@@ -95,6 +95,26 @@ export function debounce(fn, delay = 150) {
     clearTimeout(t);
     t = setTimeout(() => fn(...args), delay);
   };
+}
+
+// Initialise a page's primary search field from ?search=... without ever
+// writing subsequent user input back to the URL.
+export function applyInitialSearchParam(input, paramName = "search") {
+  if (!input) return null;
+  const params = new URLSearchParams(window.location.search);
+  if (!params.has(paramName)) return null;
+  const value = params.get(paramName) || "";
+  input.value = value;
+  return value;
+}
+
+// Convert explicit reference syntax to the text shown to readers. Useful for
+// filters and comparisons, which must never expose or match the token markup.
+export function referenceLabelText(value) {
+  return String(value ?? "").replace(
+    /\[\[[^:\]]+\s*:\s*([^\]]+?)\s*\]\](?:\(([^)]*)\))?/g,
+    (_match, target, label) => (label || target).trim()
+  );
 }
 
 // --- JSON utils ---
@@ -420,7 +440,7 @@ export function filterByFrequency(item, frequencies) {
 // --- Range Distance filter ---
 export function filterByRangeDistance(item, rangeDistances) {
   if (!rangeDistances.length) return true;
-  const range = item.Range || "";
+  const range = referenceLabelText(item.Range || "");
   
   // Split by "; or " to separate variants
   const variants = range.split(/;\s*or\s+/i).map(v => v.trim());
@@ -453,7 +473,7 @@ export function filterByRangeDistance(item, rangeDistances) {
 // --- Range Keyword filter ---
 export function filterByRangeKeyword(item, rangeKeywords) {
   if (!rangeKeywords.length) return true;
-  const range = item.Range || "";
+  const range = referenceLabelText(item.Range || "");
   
   // Split by "; or " to separate variants
   const variants = range.split(/;\s*or\s+/i).map(v => v.trim());
@@ -513,7 +533,7 @@ export function filterByRangeKeyword(item, rangeKeywords) {
 // --- Targeting filter (Single vs Multi) ---
 export function filterByTargeting(item, targeting) {
   if (!targeting.length) return true;
-  const range = item.Range || "";
+  const range = referenceLabelText(item.Range || "");
   
   const hasSingleTarget = targeting.includes("Single Target");
   const hasMultiTarget = targeting.includes("Multi Target");
@@ -550,6 +570,7 @@ export function filterByTargeting(item, targeting) {
 export function setupVersionSwitcher() {
   const links = document.querySelectorAll('.dropdown-menu a.dropdown-item');
   const currentPath = window.location.pathname;
+  const search = window.location.search; // Preserve URL-provided search state.
   const hash = window.location.hash; // Préserver le hash (état de la page)
   const currentFile = currentPath.split('/').pop() || 'index.html';
 
@@ -557,6 +578,6 @@ export function setupVersionSwitcher() {
     const href = link.getAttribute('href');
     if (!href) return; // Skip if no href
     const newPath = href.replace(/[^/]*\.html$/, currentFile);
-    link.href = newPath + hash;
+    link.href = newPath + search + hash;
   });
 }

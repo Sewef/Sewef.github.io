@@ -1,9 +1,10 @@
 import {
+  applyInitialSearchParam,
   debounce,
   buildPillSection,
   getSelectedPills
 } from "/ptu/js/helpers.js";
-import { configureReferenceModal } from "/ptu/js/ptu_reference_modal.js";
+import { configureReferenceModal } from "/ptu/js/ptu_reference_modal.js?v=20261109-6";
 
 // =========================
 // Config
@@ -194,6 +195,13 @@ const $ = (sel) => document.querySelector(sel);
 const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 }[c]));
+
+function renderAbilityReference(name) {
+  const label = String(name).trim();
+  const becomesMatch = label.match(/^Becomes\s+(.+)$/i);
+  const abilityName = becomesMatch ? becomesMatch[1].trim() : label;
+  return `<a href="#" class="js-reference-link" data-ability="${escapeHtml(abilityName)}">${escapeHtml(label)}</a>`;
+}
 
 // Helper: Build full display name including form if present
 function getFullSpeciesName(p) {
@@ -765,14 +773,10 @@ function transformBasicInformation(v) {
       if (Array.isArray(bv)) {
         const parts = bv
           .filter(x => x != null && String(x).trim())
-          .map(name => {
-            const s = String(name).trim();
-            return `<a href="#" class="js-reference-link" data-ability="${escapeHtml(s)}">${escapeHtml(s)}</a>`;
-          });
+          .map(renderAbilityReference);
         v[bk] = parts.join(" / ");
       } else if (typeof bv === "string" && bv.trim()) {
-        const s = bv.trim();
-        v[bk] = `<a href="#" class="js-reference-link" data-ability="${escapeHtml(s)}">${escapeHtml(s)}</a>`;
+        v[bk] = renderAbilityReference(bv);
       }
     }
   }
@@ -906,15 +910,11 @@ function renderBattleOnlyForms(forms, base) {
     if (Array.isArray(val)) {
       return val
         .filter(x => x != null && String(x).trim())
-        .map(name => {
-          const s = String(name).trim();
-          return `<a href="#" class="js-reference-link" data-ability="${escapeHtml(s)}">${escapeHtml(s)}</a>`;
-        })
+        .map(renderAbilityReference)
         .join(", ");
     }
     if (typeof val === "string" && val.trim()) {
-      const s = val.trim();
-      return `<a href="#" class="js-reference-link" data-ability="${escapeHtml(s)}">${escapeHtml(s)}</a>`;
+      return renderAbilityReference(val);
     }
     return Array.isArray(val) ? val.join(", ")
       : (typeof val === "object" && val ? Object.keys(val).join(", ")
@@ -1539,7 +1539,6 @@ function filterRows(rows) {
 function wireSearch(all) {
   const inp = $("#dex-search");
   if (inp) inp.addEventListener("input", debounce(() => {
-    savePokedexState(inp.value, activeTypes(), activeHabitats(), currentTypeMatchMode());
     renderGrid(filterRows(window.__POKEDEX || all));
   }, 120));
   $("#clear-filters")?.addEventListener("click", () => {
@@ -1739,7 +1738,7 @@ function buildSourceMenu(onChange) {
   });
 
   wrap.querySelector("#btn-ptugen")?.addEventListener("click", () => {
-    window.open("https://ptu-gen.onrender.com", "_blank", "noopener,noreferrer");
+    window.open("https://ptu-gen.sewef.workers.dev", "_blank", "noopener,noreferrer");
   });
 
   // single handler for radios
@@ -1847,16 +1846,15 @@ export async function loadPokedexPage() {
 
   // Build filtres + grille
   buildTypeSidebar(data, () => {
-    savePokedexState($("#dex-search")?.value || "", activeTypes(), activeHabitats(), currentTypeMatchMode());
+    savePokedexState("", activeTypes(), activeHabitats(), currentTypeMatchMode());
     renderGrid(filterRows(data));
   });
 
   // Restaurer l'état depuis le hash après que les filtres soient construits
   const state = loadPokedexState();
-  if (state.query) {
-    const inp = $("#dex-search");
-    if (inp) inp.value = state.query;
-  }
+  const searchInput = $("#dex-search");
+  const initialSearch = applyInitialSearchParam(searchInput);
+  if (initialSearch === null && state.query && searchInput) searchInput.value = state.query;
   if (state.typeStr) {
     const types = state.typeStr.split(",").filter(t => t);
     types.forEach(t => {
